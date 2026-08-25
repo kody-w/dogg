@@ -15,3 +15,4 @@ list in [kody-w/RAR](https://github.com/kody-w/RAR)'s public SDK), or the QR (sc
 | `attention:@rbox-rappters-2026/dogg-attention` | **DASH BAIT CROAK JAUNT CONDUIT SHAMAN ETCH** | [card](attention.chant.json) | [qr](attention.qr.png) |
 | `verdict:@kody-w/dogg-verdict` | **PLATEAU CRUMB WARD VROOM NICKEL ORE WELD** | [card](verdict.chant.json) | [qr](verdict.qr.png) |
 | `brain:@kody-w/rapp-brain` | **STAMP SEER BEQUEST IRE STEAD PHASE CARVE** | [card](rapp-brain.chant.json) | [qr](rapp-brain.qr.png) |
+| `cast:@kody-w/doggcast` | **RAVEN CREST BROOD DRUM BEAR BROKE STAMP** | [card](cast.chant.json) | [qr](cast.qr.png) |
