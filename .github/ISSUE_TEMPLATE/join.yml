@@ -1,0 +1,16 @@
+name: Join the thread
+description: Add your voice to the DOGG thread — no code needed. Merged entries become frames in the chain.
+title: "join: <your handle>"
+labels: [join]
+body:
+  - type: input
+    id: handle
+    attributes: { label: Handle, description: How the thread should know you (name, alias, or org). }
+    validations: { required: true }
+  - type: textarea
+    id: message
+    attributes: { label: Your frame, description: What do you want the chain to carry? A hello, a link to your own frame repo (a dimension), an idea. Plain text. }
+    validations: { required: true }
+  - type: input
+    id: dimension
+    attributes: { label: Your dimension (optional), description: URL of a repo carrying your own frames, if you have one — federation starts here. }

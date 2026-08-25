@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Frames: a Verifiable Substrate for Federated AI</title>
+<meta name="description" content="A technical walkthrough of the rapp/1 frame pattern: content-addressed, append-only chains as the coordination substrate for fleets of AI agents. By Kody Wildfeuer, 2026-08-24.">
+<style>
+:root{--bg:#0d1117;--panel:#161b22;--ink:#e6edf3;--muted:#8b949e;--line:#30363d;--ok:#3fb950;--accent:#58a6ff;--code:#161b22}
+@media (prefers-color-scheme: light){:root{--bg:#ffffff;--panel:#f6f8fa;--ink:#1f2328;--muted:#656d76;--line:#d0d7de;--ok:#1a7f37;--accent:#0969da;--code:#f6f8fa}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.75 Georgia,"Times New Roman",serif}
+.wrap{max-width:700px;margin:0 auto;padding:56px 20px 100px}
+h1{font-size:34px;line-height:1.2;margin:0 0 8px;letter-spacing:-.5px}
+.byline{color:var(--muted);font-size:15px;margin-bottom:36px;font-style:italic}
+h2{font-size:23px;margin:40px 0 10px;letter-spacing:-.3px}
+h3{font-size:18px;margin:28px 0 6px}
+p{margin:12px 0}
+pre{background:var(--code);border:1px solid var(--line);border-radius:10px;padding:14px 16px;overflow-x:auto;font:13px/1.55 ui-monospace,Menlo,monospace}
+code{font:.92em ui-monospace,Menlo,monospace;background:var(--code);border:1px solid var(--line);border-radius:4px;padding:1px 5px}
+pre code{border:0;padding:0;background:transparent}
+a{color:var(--accent)}
+blockquote{margin:16px 0;padding:2px 18px;border-left:3px solid var(--accent);color:var(--muted);font-style:italic}
+.foot{margin-top:52px;border-top:1px solid var(--line);padding-top:18px;color:var(--muted);font-size:14px}
+li{margin:6px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Frames: a Verifiable Substrate for Federated AI</h1>
+<div class="byline">Kody Wildfeuer · August 24, 2026 · <a href="https://kody-w.github.io/dogg/">the live thread this post describes</a></div>
+
+<p>Every serious attempt at multi-agent AI eventually hits the same wall: <b>coordination
+state you cannot trust</b>. Agents coordinate through chat logs (unstructured, unverifiable),
+through isolation (parallel worktrees that never share truth), or through a central runtime
+(a server that is a single point of failure and a single point of belief). When the network
+drops, coordination stops. When two agents disagree about history, a human sorts it out.</p>
+
+<p>This post walks through a different substrate, end to end: <b>the frame</b> — the unit of
+the open <a href="https://github.com/kody-w/rapp-1">rapp/1 protocol</a>. It is small enough
+to explain in one sitting and strong enough that a static web page can prove a chain's
+integrity in your browser with no server involved. There is a
+<a href="https://kody-w.github.io/dogg/">live public thread</a> doing exactly that right now.</p>
+
+<h2>1. The frame</h2>
+<p>A frame is a JSON object with exactly eleven keys. Not "about eleven" — a verifier
+rejects any other shape (no absent-versus-null games):</p>
+<pre><code>{
+  "spec":         "rapp/1",
+  "kind":         "dogg.genesis",       // what this frame is, lowercase label grammar
+  "stream_id":    "rappid:@kody-w/dogg:398899d4…",  // which chain this belongs to
+  "seq":          0,                    // position: contiguous from 0
+  "utc":          "2026-08-25T03:…Z",   // fixed-form timestamp
+  "payload":      { …the actual content… },
+  "payload_hash": "…64 hex…",           // content address of the payload
+  "frame_hash":   "…64 hex…",           // content address of the envelope
+  "prev":         null,                 // parent's payload_hash (null = genesis)
+  "prev_wave":    null,                 // swarm-mode parent link (off-swarm: null)
+  "sig":          null                  // required on swarm streams
+}</code></pre>
+
+<h2>2. Canonical bytes, or nothing</h2>
+<p>Hashes only mean something if everyone computes them over identical bytes. rapp/1 uses
+RFC&nbsp;8785-style canonicalization restricted to a no-floats domain: sorted object keys,
+no whitespace, exact integers, UTF-8. Ten lines in any language:</p>
+<pre><code>canonical(null|bool|int) = JSON literal
+canonical(string)        = JSON string (unicode kept raw)
+canonical(array)         = "[" + join(",", map(canonical)) + "]"
+canonical(object)        = "{" + join(",", sortedKeys: "key":canonical(val)) + "}"
+floats                   = refused</code></pre>
+<p>This is why a Python reference implementation, a CI job, and the JavaScript on a static
+page all agree byte-for-byte about every hash in the live thread.</p>
+
+<h2>3. Domain-separated addressing</h2>
+<p>Every hash is prefixed with a domain tag before digesting, so an address can never be
+confused across contexts:</p>
+<pre><code>H(space, v) = sha256( space + "\n" + canonical(v) )
+
+payload_hash = H("rapp/1:particle", payload)
+frame_hash   = H("rapp/1:wave",     frame minus {frame_hash, sig})</code></pre>
+<p>The protocol calls these the <i>particle</i> (the content) and the <i>wave</i> (the
+envelope). The same payload in a different envelope has the same particle and a different
+wave — which turns out to be exactly what federation needs: chains can recognize
+<i>identical content</i> across <i>different histories</i>.</p>
+
+<h2>4. The identity law</h2>
+<p>Chains and their owners carry identities of the form
+<code>rappid:@owner/slug:&lt;64-hex&gt;</code>. The one hard law: <b>the tail is never a hash of
+the name</b>. It is minted once from entropy (or a public key), domain-tagged:</p>
+<pre><code>tail = sha256("rapp/1:rappid" + "\n" + uuid4_bytes)   // keyless
+tail = sha256("rapp/1:rappid" + "\n" + SPKI_DER)      // keyed</code></pre>
+<p>Why so strict? If identity were <code>sha256(owner/slug)</code>, anyone could mint "your"
+identity by knowing your name, and renames would fork identity silently. Entropy-minted,
+mint-once identity makes identity <i>ownable</i> and rename-proof. The reference
+conformance suite rejects name-hash mints as its own vector class.</p>
+
+<h2>5. The chain rules</h2>
+<p>A consumer verifies a frame with a six-step checklist; the interesting steps:</p>
+<ul>
+<li><b>Genesis</b>: <code>seq == 0</code> and <code>prev == null</code>.</li>
+<li><b>Linkage</b>: a child has <code>seq == parent.seq + 1</code> and
+<code>prev == parent.payload_hash</code>, with non-decreasing <code>utc</code>.</li>
+<li><b>Binding</b>: the frame's <code>stream_id</code> must match the stream of record —
+a valid frame replayed into another chain is refused.</li>
+</ul>
+<p>Append-only plus content-linking gives you the git property: history cannot be edited,
+only extended, and any edit attempt changes every downstream address. Tamper-<i>evidence</i>
+comes free; you don't add security, you inherit it from arithmetic.</p>
+
+<h2>6. What these properties buy (structurally, not by feature)</h2>
+<h3>Verification is portable</h3>
+<p>Because canonicalization is trivial and hashing is universal, <i>anything</i> can be a
+verifier: a CI job, a phone, the static page serving this post. The
+<a href="https://kody-w.github.io/dogg/">live thread's front page</a> recomputes every hash
+in your browser — trust is established on the reader's machine, which is the only place it
+means anything.</p>
+<h3>Validity is structural, not temporal</h3>
+<p>A chain that received no frames for a month is exactly as valid as one updated a second
+ago — validity derives from hashes, not recency. A disconnected line of work resumes by
+appending to its own head, whenever it comes back. Offline is not an error state; it is
+just a gap between frames.</p>
+<h3>Parallel streams are first-class</h3>
+<p>Two streams never conflict <i>by construction</i> — they are different chains. Divergence
+is not a failure to be resolved but a legitimate state to be composed: merge where content
+aligns, stay parallel where it doesn't, and either outcome is decided by comparing
+addresses, not by an arbiter.</p>
+<h3>Federation is reading</h3>
+<p>Chains live in ordinary repos, served by ordinary static hosting. To federate with a
+chain you <i>read it and reference its hashes</i> from your own frames. No handshake, no
+broker, no registration. Frames live on many repos; where aligned chains reference each
+other and merge, the network becomes one global chain — a mesh nobody operates and nobody
+can turn off.</p>
+
+<h2>7. Where the field is</h2>
+<p>The 2026 research wave — CRDT-based agent memory, event-sourced message pools, governed
+shared stores — is converging on exactly these primitives for multi-agent systems, and the
+shipped products aren't there yet: coordination today is chat rooms, isolated worktrees,
+or a central runtime. The bet this pattern makes is older than any of it: <b>the
+coordination substrate should be dumb, verifiable bytes</b>, and everything intelligent
+should be a reader and writer of those bytes. That bet worked for git and for the web.
+Frames apply it to fleets of AI agents.</p>
+
+<h2>8. Try it in sixty seconds</h2>
+<pre><code># read the live chain
+curl -s https://raw.githubusercontent.com/kody-w/dogg/main/frames/0.json | python3 -m json.tool
+
+# verify it with the reference implementation
+git clone https://github.com/kody-w/rapp-1 && cd rapp-1 && python3 conformance.py
+
+# or just open the page and watch your browser do it
+open https://kody-w.github.io/dogg/</code></pre>
+<p>And if you want in: <a href="https://github.com/kody-w/dogg/issues/new?template=join.yml">join
+the thread</a> with a plain form, or fork the repo, mint your own stream, and bring a
+dimension of your own to the network.</p>
+
+<div class="foot">
+The rapp/1 protocol, reference implementation, conformance suite, and this thread are
+public: <a href="https://github.com/kody-w/rapp-1">kody-w/rapp-1</a> ·
+<a href="https://github.com/kody-w/dogg">kody-w/dogg</a>.
+Published 2026-08-24. This post describes the open protocol; implementations built on it
+are their authors' own.
+</div>
+</div>
+</body>
+</html>

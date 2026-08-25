@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The DOGG Thread</title>
+<meta name="description" content="A public, append-only chain of rapp/1 frames — readable, joinable, and verified in your own browser.">
+<style>
+:root{--bg:#0d1117;--panel:#161b22;--ink:#e6edf3;--muted:#8b949e;--line:#30363d;--ok:#3fb950;--okbg:#12261a;--accent:#58a6ff;--warn:#d29922}
+@media (prefers-color-scheme: light){:root{--bg:#f6f8fa;--panel:#ffffff;--ink:#1f2328;--muted:#656d76;--line:#d0d7de;--ok:#1a7f37;--okbg:#e8f5ec;--accent:#0969da;--warn:#9a6700}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:760px;margin:0 auto;padding:48px 20px 80px}
+h1{font-size:34px;margin:0;letter-spacing:-.5px}
+.tag{color:var(--muted);margin:6px 0 24px;font-size:16px}
+.verify{display:inline-flex;align-items:center;gap:8px;background:var(--okbg);color:var(--ok);border:1px solid var(--ok);border-radius:20px;padding:5px 14px;font-size:13.5px;font-weight:600}
+.verify.pending{background:transparent;color:var(--muted);border-color:var(--line)}
+.actions{display:flex;gap:10px;margin:22px 0 34px;flex-wrap:wrap}
+.btn{display:inline-block;padding:9px 18px;border-radius:8px;font-weight:600;font-size:14.5px;text-decoration:none;border:1px solid var(--line);color:var(--ink)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.frame{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin:14px 0}
+.fhead{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:10px}
+.kind{font:600 12px ui-monospace,Menlo,monospace;color:var(--accent);letter-spacing:.04em}
+.check{font-size:12.5px;font-weight:600}
+.check.ok{color:var(--ok)} .check.bad{color:var(--warn)}
+.frame p{margin:7px 0;font-size:15.5px}
+.frame .k{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin-top:10px}
+.hash{font:11.5px ui-monospace,Menlo,monospace;color:var(--muted);margin-top:12px;word-break:break-all;border-top:1px solid var(--line);padding-top:10px}
+.how{margin-top:44px;border-top:1px solid var(--line);padding-top:24px;color:var(--muted);font-size:14.5px}
+.how b{color:var(--ink)}
+a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>The DOGG Thread</h1>
+  <div class="tag">A public, append-only chain of frames. Not a feed you trust — a chain you <i>check</i>.</div>
+  <span class="verify pending" id="verify">verifying chain in your browser…</span>
+  <div class="actions">
+    <a class="btn primary" href="https://github.com/kody-w/dogg/issues/new?template=join.yml">Join the thread</a>
+    <a class="btn" href="https://github.com/kody-w/dogg">View the code</a>
+    <a class="btn" href="https://github.com/kody-w/rapp-1">The protocol</a>
+  </div>
+  <div id="feed"></div>
+  <div class="how">
+    <p><b>What is this?</b> Every card above is a <b>frame</b>: a small signed-by-math record in one
+    append-only chain (the <a href="https://github.com/kody-w/rapp-1">rapp/1</a> protocol). Your browser
+    just recomputed every hash and every link itself — the green checks were earned on <i>your</i> machine,
+    not claimed by ours.</p>
+    <p><b>Join</b> with the button above (a plain form, no code). Merged entries become frames.</p>
+    <p><b>Federate:</b> fork this repo or start your own, mint your own stream, and reference this chain's
+    hashes from your frames. Frames live on many repos; where aligned chains reference each other and
+    merge, the network becomes one global chain.</p>
+  </div>
+</div>
+<script>
+// exact mirror of rapp/1 reference canonicalization (rapp.py §4/§5) — no-floats profile
+function canonical(v){
+  if(v===null||typeof v==="boolean") return JSON.stringify(v);
+  if(typeof v==="number"){ if(!Number.isInteger(v)) throw new Error("floats not allowed"); return JSON.stringify(v); }
+  if(typeof v==="string") return JSON.stringify(v);
+  if(Array.isArray(v)) return "["+v.map(canonical).join(",")+"]";
+  if(typeof v==="object"){ const k=Object.keys(v).sort(); return "{"+k.map(x=>JSON.stringify(x)+":"+canonical(v[x])).join(",")+"}"; }
+  throw new Error("bad value");
+}
+async function H(space, v){
+  const data = new TextEncoder().encode(space+"\n"+canonical(v));
+  const d = await crypto.subtle.digest("SHA-256", data);
+  return [...new Uint8Array(d)].map(b=>b.toString(16).padStart(2,"0")).join("");
+}
+function esc(s){ return String(s).replace(/[&<>]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c])); }
+(async ()=>{
+  const feed = document.getElementById("feed"), badge = document.getElementById("verify");
+  try{
+    const head = await (await fetch("frames/HEAD.json?x="+Date.now())).json();
+    let prevHash = null, prevWave = null, allOk = true;
+    for(let i=0;i<head.count;i++){
+      const f = await (await fetch(`frames/${i}.json?x=`+Date.now())).json();
+      const ph = await H("rapp/1:particle", f.payload);
+      const pre = {}; for(const k of Object.keys(f)) if(k!=="frame_hash"&&k!=="sig") pre[k]=f[k];
+      const wh = await H("rapp/1:wave", pre);
+      const ok = ph===f.payload_hash && wh===f.frame_hash &&
+                 (i===0 ? f.prev===null : f.prev===prevHash) && f.seq===i;
+      allOk = allOk && ok; prevHash = f.payload_hash;
+      const body = Object.entries(f.payload).map(([k,v])=>
+        `<div class="k">${esc(k)}</div><p>${esc(v).replace(/(https?:\/\/[^\s]+)/g,'<a href="$1">$1</a>')}</p>`).join("");
+      feed.insertAdjacentHTML("beforeend",
+        `<div class="frame"><div class="fhead"><span class="kind">frame ${f.seq} · ${esc(f.kind)}</span>
+         <span class="check ${ok?"ok":"bad"}">${ok?"✓ verified in your browser":"⚠ failed verification"}</span></div>
+         ${body}<div class="hash">payload ${f.payload_hash}<br>frame&nbsp;&nbsp;&nbsp;${f.frame_hash}</div></div>`);
+    }
+    badge.textContent = allOk ? `✓ chain verified in your browser — ${head.count} frames, every hash recomputed locally`
+                              : "⚠ chain verification FAILED";
+    badge.classList.toggle("pending", false);
+    if(!allOk) badge.style.color="var(--warn)", badge.style.borderColor="var(--warn)", badge.style.background="transparent";
+  }catch(e){ badge.textContent = "could not load frames: "+e.message; }
+})();
+</script>
+</body>
+</html>
