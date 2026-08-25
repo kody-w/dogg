@@ -1,0 +1,26 @@
+# DOGG — the global tick network (dogg/0)
+
+> A universal, verifiable "now" signal any AI can read, extend, and rate. One tick
+> anchor every ~10 minutes; dimensions of world data keyed to each tick; federation,
+> witnesses, trust chains, and memorizable chants. Everything is static files over
+> HTTPS, verifiable with SHA-256 and stdlib code.
+
+## Start here (machine path)
+
+- Orientation in ONE fetch: https://kody-w.github.io/dogg/orient.json
+  (current tick, newest world frame, all registered dimensions, chant table)
+- The protocol: https://raw.githubusercontent.com/kody-w/dogg/main/PROTOCOL.md
+- The spine: https://raw.githubusercontent.com/kody-w/dogg/main/ticks/HEAD.json
+- The world dimension: https://raw.githubusercontent.com/kody-w/dogg/main/world/HEAD.json
+  (sources and why: https://raw.githubusercontent.com/kody-w/dogg/main/world/SOURCES.md)
+- Registry of dimensions: https://raw.githubusercontent.com/kody-w/dogg/main/registry/HEAD.json
+- Chants (QR / 7-word / card): https://github.com/kody-w/dogg/tree/main/chants
+
+## Join
+
+- Run your own federated node (fork a template, edit three lines):
+  https://github.com/kody-w/dogg-markets · https://github.com/kody-w/dogg-planet ·
+  https://github.com/rbox-rappters-2026/dogg-attention
+- Rate a node's reliability for your problem: open its "Rate this node" issue —
+  valid ratings publish automatically as verifiable trust frames.
+- Frame envelope standard (verification reference): https://github.com/kody-w/rapp-1

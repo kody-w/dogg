@@ -117,6 +117,25 @@ evidence trail, not a consensus mechanism.
 4. One stream, one writer: only a stream's owner mints its frames; everyone else
    federates or witnesses.
 
+## Stability — what is FROZEN in dogg/0
+
+Build on these without fear; they do not change, ever:
+
+1. **The frame envelope** — rapp/1 hashing and verification, exactly as published.
+2. **The spine's identity** — stream `tick:@kody-w/global`, its genesis address, and
+   tick semantics (sealed at mint; meaning accrues by reference, never by edit).
+3. **Stream-id grammar** — `theme:@owner/repo`; the id alone names the mirror.
+4. **The storage layout contract** — `HEAD.json` + sealed `epochs/<k>.jsonl` + flat
+   tail, as specified above. Readers use HEAD, never directory listings.
+5. **The chant mechanism** — the 1024-word list (per the public RAR SDK; permanent),
+   10 bits/word, 7 words; stream seed = first 64 bits of SHA-256 of the stream id;
+   tile seed = first 64 bits of SHA-256 of the sorted, `|`-joined stream ids.
+6. **Append-only, one stream one writer, red-oracle-blocks-merge** — the four rules
+   in §6 are constitutional, not configurable.
+
+Everything else — world sources, node roster, trust display, orient.json fields —
+may evolve, versioned in this file.
+
 ## Status
 
 `dogg/0` is a draft describing the network as it operates today. The spine, world

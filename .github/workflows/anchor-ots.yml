@@ -1,0 +1,36 @@
+name: anchor-ots
+# Nightly, the spine head is stamped into Bitcoin via OpenTimestamps — firstness and
+# integrity become provable against an external, adversarially-audited clock instead
+# of resting on this repository's word. Proof files accumulate in anchors/ots/.
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: anchor-ots
+  cancel-in-progress: false
+jobs:
+  stamp:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: stamp spine head
+        run: |
+          set -e
+          pip -q install opentimestamps-client
+          mkdir -p anchors/ots
+          HEAD_HASH=$(python3 -c "import json;print(json.load(open('ticks/HEAD.json'))['head_frame'])")
+          TICK=$(python3 -c "import json;print(json.load(open('ticks/HEAD.json'))['count'])")
+          F="anchors/ots/spine-tick-$((TICK-1)).txt"
+          echo "$HEAD_HASH" > "$F"
+          ots stamp "$F"
+          # also try to upgrade older pending proofs to full Bitcoin attestations
+          for p in anchors/ots/*.ots; do ots upgrade "$p" || true; done
+          git config user.name "anchor-ots"
+          git config user.email "actions@users.noreply.github.com"
+          git add anchors/ots
+          git diff --cached --quiet || { git commit -m "ots: anchor spine head @ tick $((TICK-1))"; git push; }

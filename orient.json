@@ -1,0 +1,107 @@
+{
+  "schema": "dogg/0-orient",
+  "generated_utc": "2026-08-25T20:37:54.013Z",
+  "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
+  "tick": {
+    "seq": 99,
+    "frame_hash": "c47b88715b8ea07bfa08ce901044539a8a8d93fec3bf6ad02cc1fe22b2376195",
+    "utc": "2026-08-25T20:37:28.490Z"
+  },
+  "world": {
+    "frame_hash": "acfa3af4df775f0c5d555c4a95777a4b74294a5f2be1cf9617f3afdec896cbfe",
+    "seq": 5,
+    "data": {
+      "btc_block_height": {
+        "height": 964050
+      },
+      "btc_usd": {
+        "spot": "78764.395"
+      },
+      "fx_usd": {
+        "EUR": "0.8572",
+        "GBP": "0.7335",
+        "JPY": "159.1254",
+        "CNY": "6.7387"
+      },
+      "crypto_market": {
+        "total_mcap_usd": "2662119230500",
+        "btc_dominance_pct": "59.1"
+      },
+      "btc_fees": {
+        "fastest_sat_vb": 3,
+        "hour_sat_vb": 1
+      },
+      "btc_mempool": {
+        "tx_count": 87465
+      },
+      "earthquakes_past_hour": {
+        "count": 9,
+        "max_mag": "3.4"
+      },
+      "iss": {
+        "lat": "23.134",
+        "lon": "51.405"
+      },
+      "space_weather": {
+        "kp": "1.0",
+        "at": "2026-08-25T15:00:00"
+      },
+      "grid_carbon_gb": {
+        "gco2_kwh": 127,
+        "index": "moderate"
+      },
+      "hn_top": {
+        "id": 49433292,
+        "title": "Apple introduces M6 and M5 Ultra"
+      },
+      "prediction_markets": {
+        "top_by_volume": [
+          {
+            "question": "Will Valencia CF win on 2026-08-25?",
+            "yes_price": "0.245"
+          },
+          {
+            "question": "Clarity Act (H.R.3633) signed into law in 2026?",
+            "yes_price": "0.145"
+          },
+          {
+            "question": "US Open, Qualification ATP: Pedro Martinez vs Daniil Glinka",
+            "yes_price": "0.0215"
+          }
+        ]
+      }
+    }
+  },
+  "dimensions": [
+    {
+      "dimension": "world:@kody-w/dogg",
+      "repo": "kody-w/dogg",
+      "path": "world/",
+      "outlook": "orientation snapshot of public now-APIs at each tick (12 sources)"
+    },
+    {
+      "dimension": "witness:@kody-w/dogg-battlestation",
+      "repo": "kody-w/dogg",
+      "path": "witness-battlestation/",
+      "outlook": "independent second-machine re-observation of core sources; contributions land via gated auto-merged PRs"
+    },
+    {
+      "dimension": "markets:@kody-w/dogg-markets",
+      "repo": "kody-w/dogg-markets",
+      "path": "markets/",
+      "outlook": "money per tick: BTC/ETH spot, 8 FX pairs, crypto mcap, settlement fees; autonomous via Actions cron"
+    },
+    {
+      "dimension": "planet:@kody-w/dogg-planet",
+      "repo": "kody-w/dogg-planet",
+      "path": "planet/",
+      "outlook": "planet per tick: quakes, space weather, GB grid carbon, ISS, 4-city temperatures; autonomous via Actions cron"
+    }
+  ],
+  "chants": {
+    "markets:@kody-w/dogg-markets": "ALTAR WYRM EVOKE DRENCH DANCE ROYAL MOLD",
+    "planet:@kody-w/dogg-planet": "ROYAL PYLON SANCTIFY GROOM LYRE MOLD CARVE",
+    "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
+    "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
+  }
+}
