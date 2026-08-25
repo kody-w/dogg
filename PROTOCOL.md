@@ -136,6 +136,24 @@ Build on these without fear; they do not change, ever:
 Everything else — world sources, node roster, trust display, orient.json fields —
 may evolve, versioned in this file.
 
+### The scale path (how this survives its host, forever)
+
+- **Directories** never overflow: sealed epochs keep every chain's tail bounded (§3).
+- **Repositories** are epochs too: when a chain repo approaches its host's practical
+  limits, it SEALS (final commit declares the successor) and a successor repo continues
+  the same stream from the same head — the registry records the hop, verification walks
+  across it. A sealed repo is to the stream what a sealed epoch is to a directory.
+- **Hosts** are replaceable: every clone is a complete, verifiable backup; the spine
+  head is anchored nightly into Bitcoin (OpenTimestamps, `anchors/ots/`), so integrity
+  and firstness survive even the loss of every hosted copy's provenance.
+- **Chants** are self-contained here: the permanent 1024-word list is vendored at
+  [`chants/WORDLIST.txt`](chants/WORDLIST.txt) — the mechanism depends on no other
+  repository existing. (64-bit seeds: collision odds stay negligible below millions of
+  streams; a collision is detected at resolution time by the registry and is never
+  silent.)
+- **License**: code MIT (LICENSE); protocol text may be reproduced with attribution;
+  recorded data carries the attributions in `world/SOURCES.md`.
+
 ## Status
 
 `dogg/0` is a draft describing the network as it operates today. The spine, world

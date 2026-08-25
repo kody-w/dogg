@@ -1,6 +1,6 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-08-25T20:37:54.013Z",
+  "generated_utc": "2026-08-25T20:44:31.213Z",
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "tick": {
     "seq": 99,
@@ -96,9 +96,16 @@
       "repo": "kody-w/dogg-planet",
       "path": "planet/",
       "outlook": "planet per tick: quakes, space weather, GB grid carbon, ISS, 4-city temperatures; autonomous via Actions cron"
+    },
+    {
+      "dimension": "attention:@rbox-rappters-2026/dogg-attention",
+      "repo": "rbox-rappters-2026/dogg-attention",
+      "path": "attention/",
+      "outlook": "what humanity is looking at, per tick: HN front page, Lobsters hottest, Wikipedia most-read; cross-owner node run by RapterBox via Actions cron"
     }
   ],
   "chants": {
+    "attention:@rbox-rappters-2026/dogg-attention": "DASH BAIT CROAK JAUNT CONDUIT SHAMAN ETCH",
     "markets:@kody-w/dogg-markets": "ALTAR WYRM EVOKE DRENCH DANCE ROYAL MOLD",
     "planet:@kody-w/dogg-planet": "ROYAL PYLON SANCTIFY GROOM LYRE MOLD CARVE",
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
