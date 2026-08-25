@@ -13,7 +13,12 @@ beats one frame roughly every 10 minutes. A tick anchor is sealed at mint: its m
 never changes; new information about that instant arrives as OTHER frames referencing
 it. The tick sequence, not the wall clock, is the network's shared clock: any two
 pieces of data that reference the same `tick_frame` hash were recorded under the same
-instant, no clock agreement required.
+instant, no clock agreement required. The world dimension additionally binds every
+tick to Bitcoin's block height (and the observed price) inside the same hashed frame —
+giving each instant a two-clock coordinate: forging a backdated frame means also faking
+a height consistent with an externally checkable chain. The join key remains the
+`tick_frame` hash — a content hash is the ultimate composite key, committing to the
+tick, the height, and every other recorded fact at once.
 
 ## 2. Dimensions
 
