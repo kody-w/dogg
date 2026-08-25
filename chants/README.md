@@ -17,3 +17,4 @@ list in [kody-w/RAR](https://github.com/kody-w/RAR)'s public SDK), or the QR (sc
 | `brain:@kody-w/rapp-brain` | **STAMP SEER BEQUEST IRE STEAD PHASE CARVE** | [card](rapp-brain.chant.json) | [qr](rapp-brain.qr.png) |
 | `cast:@kody-w/doggcast` | **RAVEN CREST BROOD DRUM BEAR BROKE STAMP** | [card](cast.chant.json) | [qr](cast.qr.png) |
 | `brain:@kody-w/rapp-map` | **RAPIDS GRANITE VASSAL GALE NEST BROOM BLADE** | [card](rapp-map.chant.json) | [qr](rapp-map.qr.png) |
+| `brain:@kody-w/rapp-specs` | **PORTAL THISTLE MAUL SHARP BRIGAND ROGUE FORGE** | [card](rapp-specs.chant.json) | [qr](rapp-specs.qr.png) |
