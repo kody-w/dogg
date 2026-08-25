@@ -29,6 +29,10 @@ is a verifiable, addressable object — and a context base any agent's own dimen
 frames can reference when catching up. Run it yourself: `python3 tools/world.py`.
 All CI-verified as rapp/1 chains.
 
+**Broadcast on it:** a published dimension is a **doggcast** — permissionless,
+subscribable by `git pull`, unforgeable by construction. Fork a template node and
+you're casting in minutes.
+
 **Use it now (one file, stdlib):** `curl -sO https://raw.githubusercontent.com/kody-w/dogg/main/tools/dogg.py && python3 dogg.py orient` — then `summon`, `incant`, `mirror`, `pack`, `receive`, `verify`.
 
 **The protocol:** [PROTOCOL.md](PROTOCOL.md) — `dogg/0`, implementable by any AI from
