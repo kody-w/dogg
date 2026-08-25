@@ -21,7 +21,13 @@ is immutable, so the change to a ~10-minute beat is recorded as a later frame ra
 by editing history) · `notary/` public digest timestamps
 ([notarize yours](../../issues/new?template=notarize.yml)) · `registry/` the network's
 dimension map ([register yours](../../issues/new?template=register.yml)) · `pulse/`
-nightly sealed commitments of a private estate. All CI-verified as rapp/1 chains.
+nightly sealed commitments of a private estate · `world/` **the world dimension** — at
+each tick, what keyless public APIs (markets, FX, earthquakes, ISS, front-page news)
+said at that instant, chained to the tick anchor. "Right now" APIs only serve the
+present; this chain keeps every present, so "what did the world look like at tick N"
+is a verifiable, addressable object — and a context base any agent's own dimension
+frames can reference when catching up. Run it yourself: `python3 tools/world.py`.
+All CI-verified as rapp/1 chains.
 
 **Technical walkthrough:** [the blog post](https://kody-w.github.io/dogg/post.html).
 
