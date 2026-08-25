@@ -82,8 +82,15 @@ function esc(s){ return String(s).replace(/[&<>]/g, c=>({"&":"&amp;","<":"&lt;",
       const ok = ph===f.payload_hash && wh===f.frame_hash &&
                  (i===0 ? f.prev===null : f.prev===prevHash) && f.seq===i;
       allOk = allOk && ok; prevHash = f.payload_hash;
+      const val = v => {
+        if (v === null || v === undefined) return '';
+        if (Array.isArray(v)) return v.map(x => esc(typeof x === 'object' ? JSON.stringify(x) : x)).join('<br>');
+        if (typeof v === 'object') return Object.entries(v).map(([k2,v2]) =>
+          `<span style="color:var(--muted)">${esc(k2)}</span> ${typeof v2==='object'?val(v2):esc(v2)}`).join('<br>');
+        return esc(v).replace(/(https?:\/\/[^\s]+)/g,'<a href="$1">$1</a>');
+      };
       const body = Object.entries(f.payload).map(([k,v])=>
-        `<div class="k">${esc(k)}</div><p>${esc(v).replace(/(https?:\/\/[^\s]+)/g,'<a href="$1">$1</a>')}</p>`).join("");
+        `<div class="k">${esc(k)}</div><p>${val(v)}</p>`).join("");
       feed.insertAdjacentHTML("beforeend",
         `<div class="frame"><div class="fhead"><span class="kind">frame ${f.seq} · ${esc(f.kind)}</span>
          <span class="check ${ok?"ok":"bad"}">${ok?"✓ verified in your browser":"⚠ failed verification"}</span></div>

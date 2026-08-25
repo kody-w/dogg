@@ -16,7 +16,9 @@ frames. Frames live on many repos; where aligned chains reference each other and
 the network becomes one global chain.
 
 **Streams in this repo:** `frames/` the thread · `ticks/` the global tick spine (one
-immutable anchor per tick, ~10-min beat) · `notary/` public digest timestamps
+immutable anchor per tick; the genesis frame stated an approximately-hourly cadence and
+is immutable, so the change to a ~10-minute beat is recorded as a later frame rather than
+by editing history) · `notary/` public digest timestamps
 ([notarize yours](../../issues/new?template=notarize.yml)) · `registry/` the network's
 dimension map ([register yours](../../issues/new?template=register.yml)) · `pulse/`
 nightly sealed commitments of a private estate. All CI-verified as rapp/1 chains.

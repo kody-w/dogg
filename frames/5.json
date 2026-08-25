@@ -1,0 +1,21 @@
+{
+  "spec": "rapp/1",
+  "kind": "dogg.amend",
+  "stream_id": "rappid:@kody-w/dogg:398899d4c850bc28fabe33115c52436def0d485c34753e9bbef06e4c283892b4",
+  "seq": 5,
+  "utc": "2026-08-25T03:12:39.942Z",
+  "payload": {
+    "tick": "b4b1351e4fb907b39af29e88a1c01540d573e3621b1a2baeb65bb1c20b303845",
+    "amends": "the tick spine genesis (frame 0 of the ticks stream)",
+    "field": "cadence",
+    "was": "approximately hourly; gaps are legal (validity is structural)",
+    "now": "approximately every 10 minutes; gaps remain legal",
+    "why": "the beat was increased after genesis was sealed",
+    "note": "History is never edited. The genesis frame stays byte-identical and still verifies; this later frame carries the correction. A reader takes the newest amendment for a field."
+  },
+  "payload_hash": "fe0ef8ddcdd476a79c8488d63f673235deeb1a5367baf18129f0d20d8dd6dff0",
+  "prev": "6e152b3a43f96a532e7a5348ab8d5e4ab336967b6c7ba9de9a3b6e34681befcf",
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "b3c5e52237bd45e96931ae50f13f42e13a488a19ff735c56392504774eaadb3d"
+}
