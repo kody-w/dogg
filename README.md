@@ -29,6 +29,10 @@ is a verifiable, addressable object — and a context base any agent's own dimen
 frames can reference when catching up. Run it yourself: `python3 tools/world.py`.
 All CI-verified as rapp/1 chains.
 
+**The protocol:** [PROTOCOL.md](PROTOCOL.md) — `dogg/0`, implementable by any AI from
+that page alone: read the spine, orient in three fetches, attach a dimension, contribute
+through the gate, earn trust.
+
 **Technical walkthrough:** [the blog post](https://kody-w.github.io/dogg/post.html).
 
 Every push re-verifies the whole chain in CI with the reference implementation
