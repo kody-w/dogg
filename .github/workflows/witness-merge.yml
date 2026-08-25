@@ -1,0 +1,36 @@
+name: witness-merge
+# Autonomous accumulation: a machine pushes its observations to a witness/<host> branch;
+# this workflow makes the RED ORACLE the gatekeeper — the gate re-verifies everything,
+# a PR records the contribution, and only a green gate merges. No human in the loop,
+# nothing unverified ever lands.
+on:
+  push:
+    branches: ["witness/**"]
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  gate-and-merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: gate
+        run: python3 tools/pr_gate.py origin/main
+      - name: pr-and-merge
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -e
+          BR="${GITHUB_REF#refs/heads/}"
+          PR=$(gh pr list --head "$BR" --base main --json number -q '.[0].number' || true)
+          if [ -z "$PR" ]; then
+            PR=$(gh pr create --head "$BR" --base main \
+              --title "witness: $BR" \
+              --body "Autonomous witness contribution. Gate: changed paths confined to one witness-*/ dimension; every chain in the repo re-verified green." \
+              | grep -oE '[0-9]+$')
+          fi
+          gh pr merge "$PR" --merge --delete-branch=false
+          echo "merged PR #$PR from $BR"
