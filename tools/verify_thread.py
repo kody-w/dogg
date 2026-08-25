@@ -15,3 +15,13 @@ for i in range(head_meta["count"]):
     head = f
 assert head["frame_hash"] == head_meta["head_frame"], "HEAD.json head_frame mismatch"
 print(f"OK: {head_meta['count']} frames verify as one chain on stream {head_meta['stream_id'][:40]}…")
+ticks = pathlib.Path(__file__).parent.parent / "ticks"
+if (ticks/"HEAD.json").exists():
+    tm = json.loads((ticks/"HEAD.json").read_text()); th = None
+    for i in range(tm["count"]):
+        f = json.loads((ticks/f"{i}.json").read_text())
+        ok, step, why = R.verify_frame(f, head=th, stream_id_of_record=tm["stream_id"])
+        if not ok: print(f"FAIL tick {i}: {step}: {why}"); sys.exit(1)
+        th = f
+    assert th["frame_hash"] == tm["head_frame"], "ticks HEAD mismatch"
+    print(f"OK: {tm['count']} tick anchors verify as the global spine")

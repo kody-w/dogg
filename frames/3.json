@@ -1,0 +1,20 @@
+{
+  "spec": "rapp/1",
+  "kind": "dogg.pulse",
+  "stream_id": "rappid:@kody-w/dogg:398899d4c850bc28fabe33115c52436def0d485c34753e9bbef06e4c283892b4",
+  "seq": 3,
+  "utc": "2026-08-25T01:17:04.758Z",
+  "payload": {
+    "note": "The global tick spine is live: one immutable anchor per tick, beating continuously. This thread attaches to it as its first dimension.",
+    "spine_stream": "tick:@kody-w/global",
+    "spine_genesis": "739ed3691dec436e0afb73b2e335c71e2464c3daaff81bb20f6f6c4042748f4e",
+    "spine_law": "One spine per network, owned by being first; later spines merge their dimensions onto the original.",
+    "external_anchor": "anchors/CLAIM.tsr - RFC-3161 timestamp from an independent authority over the spine claim",
+    "attach_here": "reference a tick frame_hash from your own frames to build on a point in time"
+  },
+  "payload_hash": "559ed7200055c27041824e01b43535e85f8aa70ef18c0705ed5b63745e57d498",
+  "prev": "b0a4e53ff2992e93e1843eb05965fec8648e6145a06f5a55bbd3f8a3310a042a",
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "babfcf3c4d2d544dee1df7e43d45d0f7b15f0a39ad97ee2a38c9585979ad1846"
+}
