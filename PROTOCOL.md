@@ -28,7 +28,10 @@ A **dimension** is any append-only frame stream whose payloads reference tick an
 { "tick": 96, "tick_frame": "<frame_hash of ticks/96>", ...your data... }
 ```
 
-A published dimension is, colloquially, a **doggcast** — you doggcast your outlook,
+A dimension announces itself with a `registry.dimension` frame on the spine's
+registry stream — schema: `{"dimension": "<stream-id>", "repo": "<owner>/<name>",
+"path": "<chain-dir>/", "outlook": "<one sentence>"}`. A published dimension is,
+colloquially, a **doggcast** — you doggcast your outlook,
 anyone subscribes by pulling, and nobody can forge or edit what you cast. Doggcasts
 live anywhere — this repo (`world/`, `witness-*/`) or any other repo
 (`kody-w/dogg-markets`, `kody-w/dogg-planet`, yours). Each is verified independently
