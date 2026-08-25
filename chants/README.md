@@ -14,3 +14,4 @@ list in [kody-w/RAR](https://github.com/kody-w/RAR)'s public SDK), or the QR (sc
 | `planet:@kody-w/dogg-planet` | **ROYAL PYLON SANCTIFY GROOM LYRE MOLD CARVE** | [card](planet.chant.json) | [qr](planet.qr.png) |
 | `attention:@rbox-rappters-2026/dogg-attention` | **DASH BAIT CROAK JAUNT CONDUIT SHAMAN ETCH** | [card](attention.chant.json) | [qr](attention.qr.png) |
 | `verdict:@kody-w/dogg-verdict` | **PLATEAU CRUMB WARD VROOM NICKEL ORE WELD** | [card](verdict.chant.json) | [qr](verdict.qr.png) |
+| `brain:@kody-w/rapp-brain` | **STAMP SEER BEQUEST IRE STEAD PHASE CARVE** | [card](rapp-brain.chant.json) | [qr](rapp-brain.qr.png) |
