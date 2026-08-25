@@ -1,6 +1,6 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-08-25T20:47:37.872Z",
+  "generated_utc": "2026-08-25T21:06:28.934Z",
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "tick": {
     "seq": 100,
@@ -102,12 +102,19 @@
       "repo": "rbox-rappters-2026/dogg-attention",
       "path": "attention/",
       "outlook": "what humanity is looking at, per tick: HN front page, Lobsters hottest, Wikipedia most-read; cross-owner node run by RapterBox via Actions cron"
+    },
+    {
+      "dimension": "verdict:@kody-w/dogg-verdict",
+      "repo": "kody-w/dogg-verdict",
+      "path": "verdict/",
+      "outlook": "DERIVED judgment per tick: anomaly z-scores over world series + a quiet index (calm/normal/active); conclusions auditable back to source frames"
     }
   ],
   "chants": {
     "attention:@rbox-rappters-2026/dogg-attention": "DASH BAIT CROAK JAUNT CONDUIT SHAMAN ETCH",
     "markets:@kody-w/dogg-markets": "ALTAR WYRM EVOKE DRENCH DANCE ROYAL MOLD",
     "planet:@kody-w/dogg-planet": "ROYAL PYLON SANCTIFY GROOM LYRE MOLD CARVE",
+    "verdict:@kody-w/dogg-verdict": "PLATEAU CRUMB WARD VROOM NICKEL ORE WELD",
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   }

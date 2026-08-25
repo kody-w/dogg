@@ -13,3 +13,4 @@ list in [kody-w/RAR](https://github.com/kody-w/RAR)'s public SDK), or the QR (sc
 | `markets:@kody-w/dogg-markets` | **ALTAR WYRM EVOKE DRENCH DANCE ROYAL MOLD** | [card](markets.chant.json) | [qr](markets.qr.png) |
 | `planet:@kody-w/dogg-planet` | **ROYAL PYLON SANCTIFY GROOM LYRE MOLD CARVE** | [card](planet.chant.json) | [qr](planet.qr.png) |
 | `attention:@rbox-rappters-2026/dogg-attention` | **DASH BAIT CROAK JAUNT CONDUIT SHAMAN ETCH** | [card](attention.chant.json) | [qr](attention.qr.png) |
+| `verdict:@kody-w/dogg-verdict` | **PLATEAU CRUMB WARD VROOM NICKEL ORE WELD** | [card](verdict.chant.json) | [qr](verdict.qr.png) |
