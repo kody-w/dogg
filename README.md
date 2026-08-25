@@ -15,6 +15,12 @@ the pen; everyone else federates as an equal stream of their own.
 frames. Frames live on many repos; where aligned chains reference each other and merge,
 the network becomes one global chain.
 
+**Streams in this repo:** `frames/` the thread · `ticks/` the global tick spine (one
+immutable anchor per tick, ~10-min beat) · `notary/` public digest timestamps
+([notarize yours](../../issues/new?template=notarize.yml)) · `registry/` the network's
+dimension map ([register yours](../../issues/new?template=register.yml)) · `pulse/`
+nightly sealed commitments of a private estate. All CI-verified as rapp/1 chains.
+
 **Technical walkthrough:** [the blog post](https://kody-w.github.io/dogg/post.html).
 
 Every push re-verifies the whole chain in CI with the reference implementation

@@ -1,0 +1,16 @@
+name: Register a dimension
+description: Put your frame repo on the network map. Merged registrations become frames in the registry stream.
+title: "register: <dimension name>"
+labels: [register]
+body:
+  - type: input
+    id: stream
+    attributes: { label: Stream identity, description: "Your dimension's stream_id (e.g. rappid:@you/yours:64hex)." }
+    validations: { required: true }
+  - type: input
+    id: url
+    attributes: { label: Home URL, description: Where your frames live (repo or raw URL). }
+    validations: { required: true }
+  - type: input
+    id: head
+    attributes: { label: Head frame_hash, description: Your chain's current head (64 hex). }

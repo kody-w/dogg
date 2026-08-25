@@ -1,0 +1,13 @@
+name: Notarize a digest
+description: Get a public, verifiable timestamp that your content existed by this date. Submit ONLY the sha256 digest — never the content itself.
+title: "notarize: <short label>"
+labels: [notarize]
+body:
+  - type: input
+    id: digest
+    attributes: { label: sha256 digest, description: "Run: shasum -a 256 yourfile — paste the 64-hex digest only.", placeholder: "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" }
+    validations: { required: true }
+  - type: input
+    id: label
+    attributes: { label: Label, description: A short public label (the content stays private). }
+    validations: { required: true }
