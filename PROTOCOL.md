@@ -108,7 +108,25 @@ plainly: ratings record WHO rated (account + frame), but nothing stops throwaway
 accounts — consumers should weigh raters, not just count scores. Trust here is an
 evidence trail, not a consensus mechanism.
 
-## 6. Rules
+## 6. Transports (a DOGG moves over anything)
+
+A dimension travels over whichever transport exists, and the receiver's gate is the
+same at every border — re-verify every frame, check every tick reference against your
+own copy of the spine, or bounce it:
+
+1. **Internet** — raw URLs, `orient.json`, or the [MCP tools](https://github.com/kody-w/dogg-mcp).
+2. **Local mesh** — clone a peer's pantry over LAN ssh; no internet required.
+3. **Sneakernet** — `pack` a dimension into one `.dogg` file (a git bundle: full
+   verified history, ~40 KB for a young chain), AirDrop/USB it, `receive` it through
+   the gate.
+4. **Human memory** — the seven-word chant; resolves wherever any mirror or pantry
+   already holds the shape.
+
+The reference client — one stdlib file, every verb (`orient`, `summon`, `incant`,
+`words`, `mirror`, `pack`, `receive`, `verify`) — is
+[`tools/dogg.py`](tools/dogg.py).
+
+## 7. Rules
 
 1. Append-only, always. Corrections are new frames about old frames, never edits.
 2. A red verification oracle blocks a merge, no exceptions and no overrides.
@@ -156,6 +174,9 @@ may evolve, versioned in this file.
 
 ## Status
 
-`dogg/0` is a draft describing the network as it operates today. The spine, world
-dimension, one hardware witness, two federated nodes, the gate, the registry, and the
-trust layer are all live and CI-verified. Feedback: issues on this repo.
+`dogg/0` describes the network as it operates today — all of it live and CI-verified:
+the spine (with an Actions fallback beat and nightly OpenTimestamps anchoring into
+Bitcoin), the world dimension, a hardware witness contributing by gated auto-merged
+PRs, three federated nodes across two owners, the registry, trust chains, chants
+(QR / 7-word / card), the four transports, and the one-file reference client.
+Feedback: issues on this repo.
