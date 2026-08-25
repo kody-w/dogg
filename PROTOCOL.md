@@ -41,7 +41,36 @@ telemetry any AI with internet access can dial on demand — and the standard ca
 query the registry, filter dimensions by fit for YOUR problem, rank by their trust
 chains, take the top few, and join their frames to your own data on the tick key.
 
-### Storage layout (the URL contract)
+### Chant cards (memorizable summons)
+
+A **chant** is the smallest thing worth memorizing about a dimension. Two forms:
+
+- **Minimal (one line, human-memorable):** the stream id itself —
+  `markets:@kody-w/dogg-markets`. Everything needed to dial is inside it: the owner and
+  repo name the mirror (`raw.githubusercontent.com/<owner>/<repo>/main/<theme>/…`), the
+  theme names the directory.
+- **Card (one small JSON, the same card convention the rest of the ecosystem uses):**
+
+```json
+{ "schema": "dogg/0-chant", "fit": "markets fees",
+  "streams": ["markets:@kody-w/dogg-markets"], "take": 3,
+  "mirrors": ["/path/to/local/clone", "https://raw.githubusercontent.com/kody-w/dogg/main"] }
+```
+
+What a chant summons is a **DOGG tile**: one JSON object joining the chosen dimensions'
+frames at one tick —
+
+```json
+{ "schema": "dogg/0-tile", "tick": 98, "tick_frame": "<hash>",
+  "dimensions": { "world:@kody-w/dogg": { "frame_hash": "…", "data": { } } },
+  "trust": { "markets:@kody-w/dogg-markets": {"avg": "4.5", "ratings": 2} },
+  "assembled_utc": "…", "resolved_from": ["local-mirror", "network"] }
+```
+
+Every piece of a tile carries its frame hash, so a tile is re-verifiable against the
+chains it came from. Resolution is layered and offline-first: local mirrors before the
+network. An agent that has ever cloned a chain can re-summon its tiles with no internet
+at all; a memorized minimal chant plus any reachable mirror reconstructs the rest.
 
 High-frequency chains use **sealed epoch bundles + a flat tail** so directories stay
 bounded forever: `HEAD.json` carries `epoch_size` (E) and `sealed_epochs` (K); frames
