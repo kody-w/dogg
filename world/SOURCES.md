@@ -47,6 +47,18 @@ source is optional: a failed fetch is recorded by name, never fatal.
 - **News aggregators beyond HN** — most keyless ones are curation services whose bias we
   can't verify; HN's front page is at least a transparent, single, well-known signal.
 
+## Attribution & terms
+
+Data recorded here is fetched from public, keyless endpoints and reproduced as small
+factual snapshots with attribution: market data by [CoinGecko](https://www.coingecko.com)
+and [mempool.space](https://mempool.space), spot prices via Coinbase's public API, FX
+via [open.er-api.com](https://www.exchangerate-api.com), earthquakes and space weather
+courtesy of USGS and NOAA (US public domain), ISS position via
+[wheretheiss.at](https://wheretheiss.at), story titles via Hacker News, market odds via
+Polymarket's public API. If you operate one of these services and want different
+attribution or removal, open an issue — we'll comply promptly. **Nothing in this
+repository is financial advice; snapshots are historical records, not quotes.**
+
 ## Propose a source
 
 Open an issue on this repo. A good proposal answers one of the five questions above,

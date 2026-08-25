@@ -1,0 +1,32 @@
+name: fallback-beat
+# If the primary beat's machine goes dark, the repo keeps its own heart beating:
+# mints a tick only when the newest anchor is >25 minutes old, otherwise stands down.
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: fallback-beat
+  cancel-in-progress: false
+jobs:
+  beat-if-stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: mint if stale
+        run: |
+          set -e
+          python3 tools/fallback_beat.py | tee /tmp/beat.out
+          if grep -q "^FALLBACK" /tmp/beat.out; then
+            python3 tools/world.py || true
+            python3 tools/verify_thread.py
+            git config user.name "fallback-beat"
+            git config user.email "actions@users.noreply.github.com"
+            git add ticks world
+            git commit -m "fallback $(grep -o 'tick [0-9]*' /tmp/beat.out | head -1)"
+            git push
+          fi

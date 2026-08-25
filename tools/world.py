@@ -19,6 +19,7 @@ import json, sys, pathlib, datetime, urllib.request
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import rapp as R
+import chainio
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 TICKS, WORLD = ROOT / "ticks", ROOT / "world"
@@ -122,10 +123,7 @@ def poly_facts(markets):
     return {"top_by_volume": out}
 
 def load_chain(d):
-    if not (d / "HEAD.json").exists():
-        return []
-    count = json.loads((d / "HEAD.json").read_text())["count"]
-    return [json.loads((d / f"{i}.json").read_text()) for i in range(count)]
+    return chainio.load_chain(d)
 
 def main():
     tick_head = json.loads((TICKS / "HEAD.json").read_text())
@@ -149,9 +147,7 @@ def main():
     ok, step, why = R.verify_frame(f, head=head, stream_id_of_record=STREAM)
     if not ok:
         raise ValueError(f"refusing invalid world frame: {step}: {why}")
-    (WORLD / f"{f['seq']}.json").write_text(json.dumps(f, indent=2, ensure_ascii=False) + "\n")
-    (WORLD / "HEAD.json").write_text(json.dumps({"count": f["seq"] + 1, "stream_id": STREAM,
-        "head_frame": f["frame_hash"], "updated": utc()}, indent=2) + "\n")
+    chainio.append_frame(WORLD, f, STREAM)
     got = ", ".join(world) or "nothing"
     print(f"world frame {f['seq']} @ tick {tick_n}: {got}"
           + (f" (failed: {', '.join(failed)})" if failed else ""))

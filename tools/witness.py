@@ -13,6 +13,7 @@ import json, sys, pathlib, argparse, datetime
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import rapp as R
 import world as W
+import chainio
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
@@ -60,9 +61,7 @@ def main():
     ok, step, why = R.verify_frame(f, head=head, stream_id_of_record=stream)
     if not ok:
         raise ValueError(f"refusing invalid witness frame: {step}: {why}")
-    (d / f"{f['seq']}.json").write_text(json.dumps(f, indent=2, ensure_ascii=False) + "\n")
-    (d / "HEAD.json").write_text(json.dumps({"count": f["seq"] + 1, "stream_id": stream,
-        "head_frame": f["frame_hash"], "updated": utc()}, indent=2) + "\n")
+    chainio.append_frame(d, f, stream)
     print(f"witness {a.host}: frame {f['seq']} @ tick {payload['tick']} — "
           f"{', '.join(obs) or 'nothing'}" + (f" (failed: {', '.join(failed)})" if failed else ""))
 

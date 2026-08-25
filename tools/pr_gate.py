@@ -37,4 +37,33 @@ print(v.stdout.strip())
 if v.returncode != 0:
     print("GATE FAIL: a chain does not verify")
     sys.exit(1)
-print(f"GATE PASS: {sorted(dims)[0]} — {len(paths)} file(s), all chains verify")
+
+# the join key must be REAL: a frame claiming tick_frame X merges only if the spine's
+# ticks/<tick>.json actually has that hash — corroboration is worthless on a fake key
+import json
+checked = 0
+for p in paths:
+    if not p.endswith(".json") or p.endswith("HEAD.json"):
+        continue
+    try:
+        frame = json.loads((ROOT / p).read_text())
+        payload = frame.get("payload", {})
+    except Exception:
+        continue
+    if "tick_frame" in payload:
+        tickf = ROOT / "ticks" / f"{payload.get('tick')}.json"
+        if not tickf.exists():
+            # older ticks live in sealed bundles; resolve through the chain reader
+            sys.path.insert(0, str(ROOT / "tools"))
+            import chainio
+            ticks = chainio.load_chain(ROOT / "ticks")
+            anchor = ticks[payload["tick"]] if 0 <= payload.get("tick", -1) < len(ticks) else None
+        else:
+            anchor = json.loads(tickf.read_text())
+        if anchor is None or anchor["frame_hash"] != payload["tick_frame"]:
+            print(f"GATE FAIL: {p} claims tick {payload.get('tick')} with hash "
+                  f"{str(payload.get('tick_frame'))[:16]}… but the spine disagrees")
+            sys.exit(1)
+        checked += 1
+print(f"GATE PASS: {sorted(dims)[0]} — {len(paths)} file(s), all chains verify, "
+      f"{checked} tick reference(s) confirmed against the spine")
