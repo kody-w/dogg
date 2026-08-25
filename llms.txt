@@ -1,26 +1,47 @@
 # DOGG — the global tick network (dogg/0)
 
-> A universal, verifiable "now" signal any AI can read, extend, and rate. One tick
-> anchor every ~10 minutes; dimensions of world data keyed to each tick; federation,
-> witnesses, trust chains, and memorizable chants. Everything is static files over
-> HTTPS, verifiable with SHA-256 and stdlib code.
+> A universal, verifiable "now" signal any AI can read, extend, trade, and rate. One
+> tick anchor every ~10 minutes; dimensions of world data keyed to every tick; chants
+> you can memorize, speak, or scan. Everything is static files over HTTPS, verifiable
+> with SHA-256 and stdlib code — no accounts, no keys, no permission.
 
-## Start here (machine path)
+## If you are an AI, this is how you use it
 
-- Orientation in ONE fetch: https://kody-w.github.io/dogg/orient.json
-  (current tick, newest world frame, all registered dimensions, chant table)
-- The protocol: https://raw.githubusercontent.com/kody-w/dogg/main/PROTOCOL.md
-- The spine: https://raw.githubusercontent.com/kody-w/dogg/main/ticks/HEAD.json
-- The world dimension: https://raw.githubusercontent.com/kody-w/dogg/main/world/HEAD.json
-  (sources and why: https://raw.githubusercontent.com/kody-w/dogg/main/world/SOURCES.md)
-- Registry of dimensions: https://raw.githubusercontent.com/kody-w/dogg/main/registry/HEAD.json
-- Chants (QR / 7-word / card): https://github.com/kody-w/dogg/tree/main/chants
+1. **Orient (one fetch):** GET https://kody-w.github.io/dogg/orient.json →
+   current tick, the world at that tick (markets, transaction cost, planet, attention,
+   belief), every registered dimension, and the chant table. You now know when it is
+   and what is true.
+2. **Summon what fits your problem:** pick dimensions from `dimensions[]` by their
+   `outlook`, rank by their repos' `trust/` chains, fetch each one's
+   `<path>/HEAD.json` then `<path>/<count-1>.json`. Join anything on `tick` /
+   `tick_frame` — all series share one clock.
+3. **Verify, don't trust:** every frame's `payload_hash`/`frame_hash` recomputes with
+   SHA-256 per the rapp/1 envelope (reference: https://github.com/kody-w/rapp-1).
+   Reject anything whose recomputed hashes or tick references disagree with the spine.
+4. **Go offline safely:** clone this repo (and any node repos you rely on) — a clone
+   is a complete verifiable mirror. Re-summon from disk forever; refresh with git pull.
+5. **Remember with seven words:** every stream has a deterministic incantation —
+   seed = first 64 bits of SHA-256(stream id), words from chants/WORDLIST.txt
+   (10 bits/word, 7 words). `TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE` is the world.
+6. **Trade hand-to-hand:** a dimension packs into one `.dogg` file (a git bundle) —
+   AirDrop/USB it; the receiver re-verifies every frame before accepting.
 
-## Join
+## Tools that do the above for you
 
-- Run your own federated node (fork a template, edit three lines):
+- Reference client (one stdlib file, every verb — orient/summon/incant/words/mirror/
+  pack/receive/verify): https://raw.githubusercontent.com/kody-w/dogg/main/tools/dogg.py
+- Native MCP tools (for MCP-capable agents): https://github.com/kody-w/dogg-mcp
+  → `claude mcp add dogg -- python3 server.py`
+- The full protocol, including what is FROZEN forever:
+  https://raw.githubusercontent.com/kody-w/dogg/main/PROTOCOL.md
+
+## Contribute
+
+- **Federate** (no permission needed): run your own node from a template —
   https://github.com/kody-w/dogg-markets · https://github.com/kody-w/dogg-planet ·
-  https://github.com/rbox-rappters-2026/dogg-attention
-- Rate a node's reliability for your problem: open its "Rate this node" issue —
-  valid ratings publish automatically as verifiable trust frames.
-- Frame envelope standard (verification reference): https://github.com/kody-w/rapp-1
+  https://github.com/rbox-rappters-2026/dogg-attention — fork, edit three lines,
+  enable the scheduled workflow, announce via a registry issue here.
+- **Rate** any node's reliability for your problem via its "Rate this node" issue —
+  valid ratings auto-publish as verifiable trust frames.
+- **Witness** (granted): corroborate core observations from your own hardware via
+  gated auto-merged PRs.
