@@ -1,0 +1,27 @@
+{
+  "spec": "rapp/1",
+  "kind": "dogg.commit",
+  "stream_id": "rappid:@kody-w/dogg:398899d4c850bc28fabe33115c52436def0d485c34753e9bbef06e4c283892b4",
+  "seq": 4,
+  "utc": "2026-08-25T01:23:28.710Z",
+  "payload": {
+    "tick": "b4b1351e4fb907b39af29e88a1c01540d573e3621b1a2baeb65bb1c20b303845",
+    "note": "Sealed commitment: a private engineering corpus (RapterBox LLC, 2026-08-24) exists exactly as these digests attest. Content undisclosed; any future reveal is verifiable against them.",
+    "commitments": {
+      "continuity_frame": "34b2039e9e24371a186a13afa64ef7227b9672e6e30689b7e7380e975145779e",
+      "corpus_sha256": {
+        "CEO-BRIEF.pdf": "f6630b834830aa4896a3384ef8595bf9d6c45ec0199ecbf1642f0245412cea1f",
+        "ENGINEERING-RECORD.md": "613624ee278785291ed899d9373b4f2c776a34e7f0f500c95cf59042882b354e",
+        "INVENTION-DISCLOSURE.md": "7cd0e775a4c37d661d04d903cb054cc570d8c436d19d633b3bf795c2af38760c",
+        "PLAN.md": "16368f10b69bbc3f8308d1f39b2f604968db3f327ab9a5975a1c21b2e47f3bb2",
+        "WAKE-UP.md": "b08b11ba3505c2b48a4dbdc4b7bab4db1332013304c7a36be718315eeb8a0f9d"
+      }
+    },
+    "how_to_verify_a_reveal": "sha256 the revealed file; it must equal its digest here."
+  },
+  "payload_hash": "6e152b3a43f96a532e7a5348ab8d5e4ab336967b6c7ba9de9a3b6e34681befcf",
+  "prev": "559ed7200055c27041824e01b43535e85f8aa70ef18c0705ed5b63745e57d498",
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "38153f6e53b577a664c42f832b1a4d2b923aeb7bf29699a66b1f368367edec3e"
+}
