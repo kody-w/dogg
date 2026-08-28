@@ -42,6 +42,9 @@ def append_registry(dimension, repo, path, outlook):
     ok, step, why = R.verify_frame(f, head=head)
     assert ok, (dimension, step, why)
     (REG_DIR / f"{f['seq']}.json").write_text(json.dumps(f, indent=2) + "\n")
+    hp = REG_DIR / "HEAD.json"; meta = json.loads(hp.read_text()) if hp.exists() else {"stream_id": REG_STREAM, "epoch_size": 288, "sealed_epochs": 0}
+    meta.update({"count": f["seq"] + 1, "head_frame": f["frame_hash"], "updated": utc()})
+    hp.write_text(json.dumps(meta, indent=2) + "\n")
     return f
 
 
