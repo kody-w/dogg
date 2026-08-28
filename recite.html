@@ -3,10 +3,16 @@
 <style>body{font:16px/1.5 -apple-system,system-ui,sans-serif;margin:0;background:#0b0b12;color:#eee}main{max-width:640px;margin:0 auto;padding:22px}
 h1{font-size:18px;margin:0 0 4px;color:#9ff}.sub{color:#8a8aa0;font-size:13px;margin:0 0 18px}.card{background:#14142a;border:1px solid #2a2a44;border-radius:12px;padding:16px;margin:12px 0}
 .k{color:#8a8aa0;font-size:12px;text-transform:uppercase;letter-spacing:.06em}.v{font-size:22px;font-weight:700}.words{font:600 14px/1.6 ui-monospace,Menlo,monospace;word-break:break-word;color:#ffd}
-.bad{color:#ff7d7d}.ok{color:#7dffb0}pre{white-space:pre-wrap;word-break:break-all;font-size:12px;color:#ccd}small{color:#8a8aa0}input{width:100%;font:14px ui-monospace,Menlo,monospace;padding:10px;border-radius:8px;border:1px solid #2a2a44;background:#0b0b12;color:#eee}</style></head>
+.bad{color:#ff7d7d}.ok{color:#7dffb0}pre{white-space:pre-wrap;word-break:break-all;font-size:12px;color:#ccd}small{color:#8a8aa0}input,textarea{width:100%;font:14px ui-monospace,Menlo,monospace;padding:10px;border-radius:8px;border:1px solid #2a2a44;background:#0b0b12;color:#eee;box-sizing:border-box}
+textarea{font-size:12px;resize:vertical}h2{font-size:15px;margin:20px 0 4px;color:#9ff}</style></head>
 <body><main>
 <h1>Recite</h1><p class="sub">A chant in — a tile out. Decoded here, on this device, with nothing but the codebook.</p>
 <input id="in" placeholder="paste a dogg: URI or the words…"><div id="out"></div>
+<h2>Wear</h2>
+<p class="sub">When the chant above is a SEED or LENS, paste (or pick) the frame JSON to run it — exact, in this browser.</p>
+<textarea id="frameIn" rows="4" placeholder="paste frame JSON…"></textarea>
+<input id="frameFile" type="file" accept="application/json" style="margin-top:8px">
+<div id="wearOut"></div>
 <p><small>Cache the machinery, never the ore. Tap a tag, scan a square, or say the words — same bits.</small></p>
 </main>
 <script>
@@ -38,7 +44,101 @@ function render(tile,words){ const o=document.getElementById('out'); let h=`<div
   if(tile.fields) for(const [k,f] of Object.entries(tile.fields)) h+=`<div class="k" style="margin-top:8px">${k}</div><div class="v">${f.value} <small>${f.unit||''}</small></div>`;
   if(tile.program) h+=`<pre>${tile.program.join('\n')}</pre>`; if(tile.tile) h+=`<pre>${JSON.stringify(tile.tile,null,1).slice(0,4000)}</pre>`; if(tile.note||tile.limited) h+=`<p><small>${tile.note||'limited tile — attest a full frame before trusting more than this'}</small></p>`;
   h+=`</div><div class="card"><div class="k">the words</div><div class="words">${words.join(' ')}</div></div>`; o.innerHTML=h; }
-async function go(text){ const o=document.getElementById('out'); try{ await load(); const t=text.trim(); const words=t.startsWith('dogg:')?uriToWords(t):t.split(/\s+/); const tile=await recite(words); render(tile,words); o.dataset.ok='1'; }catch(e){ o.innerHTML=`<div class="card bad">✗ ${e.message}</div>`; o.dataset.ok='0'; } }
+let lastWords=null;
+async function go(text){ const o=document.getElementById('out'); try{ await load(); const t=text.trim(); const words=t.startsWith('dogg:')?uriToWords(t):t.split(/\s+/); const tile=await recite(words); render(tile,words); o.dataset.ok='1'; lastWords=words; }catch(e){ o.innerHTML=`<div class="card bad">✗ ${e.message}</div>`; o.dataset.ok='0'; lastWords=null; } tryWear(); }
 document.getElementById('in').addEventListener('change',e=>go(e.target.value));
-const frag=decodeURIComponent(location.hash.slice(1)); if(frag){ document.getElementById('in').value=frag; go(frag); }
+
+// ── Wear: run a SEED or LENS chant on a frame you hold, in this browser ────
+// Ports tools/dogg.py's wear() exactly: fresh body reader from the chant words, the
+// same select/delta/ratio/above/below/sum/change_pct/max_of seed ops and the same
+// select/delta/alarm lens semantics, including the dimension-id refusal.
+function numOrNull(v){ if(v===null||v===undefined||Array.isArray(v)) return null; const n=Number(v); return Number.isNaN(n)?null:n; }
+function dig(obj,path){ let parts=path.split('.'); if(parts[0]==='payload') parts=parts.slice(1); let o=obj; for(const p of parts){ o=(o&&typeof o==='object')?o[p]:undefined; } return o===undefined?null:o; }
+async function jsWear(words,frame,prev){
+  const {kind,body,n}=await unpack(words); const r=reader(body,n);
+  const frameDim=frame.stream_id||''; const frameDimId=await dimId(frameDim);
+  if(kind===4){ // SEED
+    const dimIdVal=r.get(12);
+    if(frameDimId!==dimIdVal){ const cut=await resolveDim(dimIdVal); throw new Error(`this seed was cut for ${cut||'another dimension'}, not for a ${frameDim} frame`); }
+    const table=((MISSIONS[frameDim]&&MISSIONS[frameDim].fields)||[]).slice(0,12);
+    const name=i=>table[i]?table[i].name:'field_'+i;
+    const val=i=>{ const f=table[i]; return f?numOrNull(dig(frame.payload,f.path)):null; };
+    const oldv=i=>{ const f=table[i]; return (f&&prev)?numOrNull(dig(prev.payload,f.path)):null; };
+    const prog=[], results={};
+    while(r.left()>=3){ const code=r.get(3); const [op,widths]=OPS[code]; if(r.left()<widths.reduce((a,b)=>a+b,0)) break; const a=widths.map(w=>r.get(w));
+      if(op==='select'){ prog.push('select '+name(a[0])); results[name(a[0])]=val(a[0]); }
+      else if(op==='delta'){ prog.push('delta '+name(a[0])); const o=oldv(a[0]),v=val(a[0]); results[`delta(${name(a[0])})`]=(o===null||v===null)?null:v-o; }
+      else if(op==='change_pct'){ prog.push('change_pct '+name(a[0])); const o=oldv(a[0]),v=val(a[0]); results[`change_pct(${name(a[0])})`]=(!o||v===null)?null:(v-o)/o*100; }
+      else if(op==='ratio'){ prog.push(`ratio ${name(a[0])} ${name(a[1])}`); const x=val(a[0]),y=val(a[1]); results[`ratio(${name(a[0])}/${name(a[1])})`]=(!y||x===null)?null:x/y; }
+      else if(op==='sum'){ prog.push(`sum ${name(a[0])} ${name(a[1])}`); const x=val(a[0]),y=val(a[1]); results[`sum(${name(a[0])}+${name(a[1])})`]=(x===null||y===null)?null:x+y; }
+      else if(op==='max_of'){ prog.push(`max_of ${name(a[0])} ${name(a[1])}`); const x=val(a[0]),y=val(a[1]); const cands=[x,y].filter(v=>v!==null); results[`max_of(${name(a[0])},${name(a[1])})`]=cands.length?Math.max(...cands):null; }
+      else if(op==='above'||op==='below'){ const thr=logd(a[1]); const v=val(a[0]); prog.push(`${op} ${name(a[0])} ${sig(thr)}`); results[`${op}(${name(a[0])},${sig(thr)})`]=(v===null)?null:(op==='above'?v>thr:v<thr); }
+    }
+    return {schema:'dogg/0-seed-tile',dimension:frameDim,tick:frame.seq,frame_hash:frame.frame_hash,exact:true,program:prog,results};
+  }
+  if(kind===2){ // LENS
+    const dimIdVal=r.get(12), lensId=r.get(6);
+    if(frameDimId!==dimIdVal){ const cut=await resolveDim(dimIdVal); throw new Error(`this key was cut for ${cut||'another dimension'}, not for a ${frameDim} frame`); }
+    const table=((MISSIONS[frameDim]&&MISSIONS[frameDim].fields)||[]).slice(0,12);
+    const tile={schema:'dogg/0-lens-tile',lens:['?','select','delta','alarm'][lensId]||('lens-'+lensId),dimension:frameDim,tick:frame.seq,frame_hash:frame.frame_hash,exact:true,fields:{}};
+    if(lensId===1||lensId===2){
+      const mask=r.get(12);
+      for(let i=0;i<12;i++) if(mask>>i&1){ const f=table[i]; if(!f) continue; const cur=dig(frame.payload,f.path);
+        if(lensId===1){ tile.fields[f.name]={value:cur,unit:f.unit||''}; }
+        else { if(!prev) throw new Error('a delta lens needs the previous frame too'); const old=dig(prev.payload,f.path); const c=numOrNull(cur),o=numOrNull(old); tile.fields[f.name]={now:cur,was:old,change:(c===null||o===null)?null:c-o,unit:f.unit||'',since_tick:prev.seq}; }
+      }
+    } else if(lensId===3){
+      const i=r.get(4), above=r.get(1), code=r.get(FIELD_BITS);
+      const f=table[i]; const cur=dig(frame.payload,f.path); const thr=logd(code); const cn=numOrNull(cur);
+      tile.alarm={field:f.name,direction:above?'above':'below',threshold:sig(thr),value:cur,fired:cn===null?null:(above?cn>thr:cn<thr),unit:f.unit||''};
+    } else throw new Error('no such lens '+lensId);
+    return tile;
+  }
+  throw new Error('not a lens or seed chant — recite it instead');
+}
+function renderWear(tile){ const wo=document.getElementById('wearOut'); let h=`<div class="card"><div class="k">${tile.schema}</div><div>${tile.dimension||''}</div>${tile.tick!==undefined?`<div class="k" style="margin-top:8px">tick</div><div class="v">${tile.tick}</div>`:''}`;
+  if(tile.fields) for(const [k,f] of Object.entries(tile.fields)) h+=`<div class="k" style="margin-top:8px">${k}</div><div class="v">${JSON.stringify('value' in f?f.value:f.now)} <small>${f.unit||''}</small></div>`;
+  if(tile.results) for(const [k,v] of Object.entries(tile.results)) h+=`<div class="k" style="margin-top:8px">${k}</div><div class="v">${JSON.stringify(v)}</div>`;
+  if(tile.alarm) h+=`<div class="k" style="margin-top:8px">${tile.alarm.field} ${tile.alarm.direction} ${tile.alarm.threshold}</div><div class="v">${tile.alarm.fired}</div>`;
+  if(tile.program) h+=`<pre>${tile.program.join('\n')}</pre>`;
+  h+='</div>'; wo.innerHTML=h; }
+async function tryWear(){
+  const wo=document.getElementById('wearOut'); const text=document.getElementById('frameIn').value.trim();
+  if(!lastWords||!text){ wo.innerHTML=''; delete wo.dataset.tile; delete wo.dataset.ok; return; }
+  try{ await load(); const frame=JSON.parse(text); const tile=await jsWear(lastWords,frame); wo.dataset.tile=JSON.stringify(tile); wo.dataset.ok='1'; renderWear(tile); }
+  catch(e){ wo.dataset.ok='0'; wo.dataset.tile=JSON.stringify({error:e.message}); wo.innerHTML=`<div class="card bad">✗ ${e.message}</div>`; }
+}
+document.getElementById('frameIn').addEventListener('input',tryWear);
+document.getElementById('frameFile').addEventListener('change',e=>{ const file=e.target.files[0]; if(!file) return; const fr=new FileReader(); fr.onload=()=>{ document.getElementById('frameIn').value=fr.result; tryWear(); }; fr.readAsText(file); });
+
+// ── Hidden self-test: #selftest reproduces chants/VECTORS.json with the page's own
+// decoder and compares it to what tools/dogg.py produces for the same words. ──────
+async function selftest(){
+  const o=document.getElementById('out');
+  try{
+    await load();
+    const vec=await fetch('chants/VECTORS.json').then(r=>r.json());
+    const words=vec.mission_default.trim().split(/\s+/);
+    document.getElementById('in').value=vec.mission_default;
+    const tile=await recite(words);
+    // expected values: `python3 tools/dogg.py recite <mission_default words>` on this repo's vectors
+    const expected={dimension:"markets:@kody-w/dogg-markets",tick:30,frame_hash_prefix18:"2fe58",
+      fields:{btc_usd:{value:79800,unit:"USD"},eth_usd:{value:2490,unit:"USD"},crypto_mcap_usd:{value:2690000000000,unit:"USD"}}};
+    const problems=[];
+    if(tile.dimension!==expected.dimension) problems.push(`dimension: got ${tile.dimension}`);
+    if(tile.tick!==expected.tick) problems.push(`tick: got ${tile.tick}`);
+    if(tile.frame_hash_prefix18!==expected.frame_hash_prefix18) problems.push(`frame_hash_prefix18: got ${tile.frame_hash_prefix18}`);
+    for(const [k,v] of Object.entries(expected.fields)){
+      const got=tile.fields[k];
+      if(!got||got.value!==v.value||got.unit!==v.unit) problems.push(`field ${k}: got ${JSON.stringify(got)}, want ${JSON.stringify(v)}`);
+    }
+    const uriWords=uriToWords(vec.mission_default_uri);
+    if(uriWords.join(' ')!==words.map(w=>w.toUpperCase()).join(' ')) problems.push(`uri roundtrip: got ${uriWords.join(' ')}`);
+    if(problems.length){ o.innerHTML=`<div class="card bad">SELFTEST FAIL<pre>${problems.join('\n')}</pre></div>`; o.dataset.ok='0'; }
+    else{ o.innerHTML='<div class="card ok">SELFTEST PASS</div>'; o.dataset.ok='1'; }
+  }catch(e){ o.innerHTML=`<div class="card bad">SELFTEST FAIL: ${e.message}</div>`; o.dataset.ok='0'; }
+}
+const rawHash=location.hash.slice(1);
+if(rawHash==='selftest'){ selftest(); }
+else if(rawHash){ const frag=decodeURIComponent(rawHash); document.getElementById('in').value=frag; go(frag); }
 </script></body></html>
