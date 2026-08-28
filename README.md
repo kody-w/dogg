@@ -44,3 +44,7 @@ through the gate, earn trust.
 Every push re-verifies the whole chain in CI with the reference implementation
 (`tools/verify_thread.py`). A red oracle means the chain is broken — fix the frames,
 never bypass the oracle.
+
+## Mission chants — the AI tweet
+
+Ten words carry a limited tile offline: `python3 tools/dogg.py mission markets:@kody-w/dogg-markets` → words; `recite` them anywhere with only the wordlist; `attest` any full frame against them; `hotload` the tile into a brainstem. Spec: PROTOCOL.md → *Summon offline — the mission tile*.
