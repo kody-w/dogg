@@ -123,6 +123,21 @@ Verdicts for `attest`: **MATCH** · **DIFFERENT-TICK** · **FORGED** · **FORGED
 **FRAME-INVALID**. A seed or lens cut for one dimension refuses to be worn on another. Any tile
 can be **hotloaded** into a brainstem as a single-file cartridge that names its own limits.
 
+**Summonable means reduced.** A dimension is *orientable* the moment it is on the registry.
+It is *summonable* only when it has declared its own reduction — `mission.json` at the node's
+root: up to twelve positive magnitudes of its frame that are mission-critical, in a fixed
+append-only order (the first three ride the default mission chant), plus any procedures that
+ride as BOOK chants. The node owns that judgment; the spine folds it into the kit
+(`tools/register.py`, `--sync`). A dogg that has not said what matters most about itself
+cannot be summoned offline — only found.
+
+```json
+{ "schema": "dogg/0-mission", "dimension": "water:@kody-w/dogg-water",
+  "fields": [ {"name": "gauge_height_ft", "path": "water.gauge_height_ft", "unit": "ft"} ],
+  "default": ["gauge_height_ft", "pct_of_flood_stage", "procedure_version"],
+  "books": ["water/procedure.json"] }
+```
+
 **Carriers — the same bits, four ways.** Spoken or memorized **words**; a dense **URI**
 `dogg:<version>:<n words>:<base64url of the symbol stream>`; a **QR** (any phone scans one square
 of ≤ ~300 characters reliably — longer chants page as `dogg:<v>:<n>:<p>/<t>:<chunk>`, reassembled
