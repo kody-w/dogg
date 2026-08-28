@@ -137,7 +137,10 @@ def lenses():
     return d.get("lenses", {})
 
 def _dig(obj, path):
-    for part in path.split("."):
+    """field paths are relative to the frame payload; a leading 'payload.' is tolerated."""
+    parts = path.split(".")
+    if parts and parts[0] == "payload": parts = parts[1:]
+    for part in parts:
         obj = obj.get(part) if isinstance(obj, dict) else None
     return obj
 

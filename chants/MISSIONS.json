@@ -64,22 +64,22 @@
       "fields": [
         {
           "name": "tree_version",
-          "path": "payload.firstaid.tree_version",
+          "path": "firstaid.tree_version",
           "unit": "version"
         },
         {
           "name": "branches",
-          "path": "payload.firstaid.branches",
+          "path": "firstaid.branches",
           "unit": "count"
         },
         {
           "name": "cpr_rate_per_min",
-          "path": "payload.firstaid.cpr_rate_per_min",
+          "path": "firstaid.cpr_rate_per_min",
           "unit": "compressions/min"
         },
         {
           "name": "compression_depth_mm",
-          "path": "payload.firstaid.compression_depth_mm",
+          "path": "firstaid.compression_depth_mm",
           "unit": "mm"
         }
       ],
@@ -93,22 +93,22 @@
       "fields": [
         {
           "name": "generations",
-          "path": "payload.lineage.generations",
+          "path": "lineage.generations",
           "unit": "generations"
         },
         {
           "name": "members",
-          "path": "payload.lineage.members",
+          "path": "lineage.members",
           "unit": "people"
         },
         {
           "name": "events",
-          "path": "payload.lineage.events",
+          "path": "lineage.events",
           "unit": "events"
         },
         {
           "name": "schema_version",
-          "path": "payload.lineage.schema_version",
+          "path": "lineage.schema_version",
           "unit": "version"
         }
       ],
@@ -122,22 +122,22 @@
       "fields": [
         {
           "name": "tick",
-          "path": "payload.tick",
+          "path": "tick",
           "unit": "spine tick index"
         },
         {
           "name": "varieties",
-          "path": "payload.seedvault.varieties",
+          "path": "seedvault.varieties",
           "unit": "count"
         },
         {
           "name": "days_to_next_sow",
-          "path": "payload.seedvault.days_to_next_sow",
+          "path": "seedvault.days_to_next_sow",
           "unit": "days"
         },
         {
           "name": "frost_free_days",
-          "path": "payload.seedvault.frost_free_days",
+          "path": "seedvault.frost_free_days",
           "unit": "days"
         }
       ],
@@ -151,22 +151,22 @@
       "fields": [
         {
           "name": "active_alerts_ga",
-          "path": "payload.active_alerts_ga",
+          "path": "active_alerts_ga",
           "unit": "count"
         },
         {
           "name": "noaa_wx_ch1_khz",
-          "path": "payload.noaa_wx_ch1_khz",
+          "path": "noaa_wx_ch1_khz",
           "unit": "kHz"
         },
         {
           "name": "marine_ch16_khz",
-          "path": "payload.marine_ch16_khz",
+          "path": "marine_ch16_khz",
           "unit": "kHz"
         },
         {
           "name": "guard_khz",
-          "path": "payload.guard_khz",
+          "path": "guard_khz",
           "unit": "kHz"
         }
       ],
@@ -180,22 +180,22 @@
       "fields": [
         {
           "name": "RAR constitution size",
-          "path": "payload.canon.rar_constitution.bytes",
+          "path": "canon.rar_constitution.bytes",
           "unit": "bytes"
         },
         {
           "name": "RAR constitution article count",
-          "path": "payload.canon.rar_constitution.articles",
+          "path": "canon.rar_constitution.articles",
           "unit": "count"
         },
         {
           "name": "rapp/1 SPEC size",
-          "path": "payload.canon.rapp1_spec.bytes",
+          "path": "canon.rapp1_spec.bytes",
           "unit": "bytes"
         },
         {
           "name": "dogg PROTOCOL size",
-          "path": "payload.canon.dogg_protocol.bytes",
+          "path": "canon.dogg_protocol.bytes",
           "unit": "bytes"
         }
       ],
@@ -209,17 +209,17 @@
       "fields": [
         {
           "name": "corner_count",
-          "path": "payload.land.deed.corner_count",
+          "path": "land.deed.corner_count",
           "unit": "count"
         },
         {
           "name": "area_m2",
-          "path": "payload.land.deed.area_m2",
+          "path": "land.deed.area_m2",
           "unit": "square meters"
         },
         {
           "name": "record_version",
-          "path": "payload.land.deed.record_version",
+          "path": "land.deed.record_version",
           "unit": "version index"
         }
       ],
@@ -233,22 +233,22 @@
       "fields": [
         {
           "name": "gauge_height_ft",
-          "path": "payload.water.gauge.gauge_height_ft",
+          "path": "water.gauge.gauge_height_ft",
           "unit": "feet"
         },
         {
           "name": "flood_stage_ft",
-          "path": "payload.water.gauge.flood_stage_ft",
+          "path": "water.gauge.flood_stage_ft",
           "unit": "feet"
         },
         {
           "name": "pct_of_flood_stage",
-          "path": "payload.water.gauge.pct_of_flood_stage",
+          "path": "water.gauge.pct_of_flood_stage",
           "unit": "percent"
         },
         {
           "name": "procedure_version",
-          "path": "payload.water.procedure.version",
+          "path": "water.procedure.version",
           "unit": "version (int)"
         }
       ],
@@ -262,22 +262,22 @@
       "fields": [
         {
           "name": "sunrise_utc_min",
-          "path": "payload.sky.atlanta.sunrise_utc_min",
+          "path": "sky.atlanta.sunrise_utc_min",
           "unit": "minutes (UTC clock-minute-of-day, 0-1439)"
         },
         {
           "name": "sunset_utc_min",
-          "path": "payload.sky.atlanta.sunset_utc_min",
+          "path": "sky.atlanta.sunset_utc_min",
           "unit": "minutes (UTC clock-minute-of-day, 0-1439)"
         },
         {
           "name": "day_length_min",
-          "path": "payload.sky.atlanta.day_length_min",
+          "path": "sky.atlanta.day_length_min",
           "unit": "minutes"
         },
         {
           "name": "moon_phase_pct",
-          "path": "payload.sky.atlanta.moon_phase_pct",
+          "path": "sky.atlanta.moon_phase_pct",
           "unit": "percent illuminated"
         }
       ],
@@ -291,17 +291,17 @@
       "fields": [
         {
           "name": "wordlist_words",
-          "path": "payload.genesis.wordlist_words",
+          "path": "genesis.wordlist_words",
           "unit": "words"
         },
         {
           "name": "kit_files",
-          "path": "payload.genesis.kit_files",
+          "path": "genesis.kit_files",
           "unit": "files"
         },
         {
           "name": "kit_bytes",
-          "path": "payload.genesis.kit_bytes",
+          "path": "genesis.kit_bytes",
           "unit": "bytes"
         }
       ],
@@ -315,32 +315,32 @@
       "fields": [
         {
           "name": "plan_version",
-          "path": "payload.plan.version",
+          "path": "plan.version",
           "unit": "revision"
         },
         {
           "name": "muster_points",
-          "path": "payload.plan.muster_points.length",
+          "path": "plan.muster_points.length",
           "unit": "points"
         },
         {
           "name": "roles",
-          "path": "payload.plan.roles.length",
+          "path": "plan.roles.length",
           "unit": "roles"
         },
         {
           "name": "check_in_windows",
-          "path": "payload.plan.check_in_windows_hours.length",
+          "path": "plan.check_in_windows_hours.length",
           "unit": "windows/day"
         },
         {
           "name": "comms_fallback_channels",
-          "path": "payload.plan.comms_fallback.length",
+          "path": "plan.comms_fallback.length",
           "unit": "channels"
         },
         {
           "name": "tick",
-          "path": "payload.tick",
+          "path": "tick",
           "unit": "spine tick index"
         }
       ],
