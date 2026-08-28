@@ -22,6 +22,10 @@
                                               ratio a b, sum a b, max_of a b, change_pct f,
                                               above f=v, below f=v — any length, every seed valid
   python3 dogg.py wear W1 … Wn <frame.json> [prev.json]  run a lens or seed on the frame you hold
+  python3 dogg.py uri W1 … Wn                 the same chant as a dense dogg: URI (any verb accepts either)
+  python3 dogg.py book <out.html> "W1 … Wn" … a printable chant book: one QR per chant, words under it
+  python3 dogg.py kit <dir>                   export the cacheable machinery (SDK + codebook + lock)
+  python3 dogg.py lock | check                re-issue / verify chants/CODEBOOK.lock (append-only codebook)
 
 Offline-first: run inside a clone of kody-w/dogg (or with a ./pantry/) and everything
 resolves from disk; otherwise the public raw URLs are used. Every borrowed or received
@@ -114,6 +118,8 @@ def latest(d):
 # quantized numbers, a BOOK carries exact bytes, a LENS carries no data at all.
 CHANT_VERSION = 1
 KIND_MISSION, KIND_LENS, KIND_BOOK = 1, 2, 3
+BOOK_MAX_BYTES = 1 << 20   # a page is at most 1 MiB decompressed — a chant is never a bomb
+VERSION_EXTENDED = 3       # reserved: header version 3 = extended header follows
 LOG_MAX = 1e15
 FIELD_BITS = 14
 FIELD_MAX = (1 << FIELD_BITS) - 1
@@ -195,6 +201,33 @@ def chant_unpack(words):
 # ── MISSION: a lens plus a snapshot ─────────────────────────────────────────
 # body: 12 dimension id | 20 tick | 18 frame-hash prefix | 12 field mask | 14 bits per selected field
 def _dim_id(dimension): return seed_of(dimension) >> 52
+
+def codebook_check():
+    """The gate: no two known dimensions may share a 12-bit id; the codebook must match its lock."""
+    problems = []
+    known = set(missions())
+    try: known |= {d["dimension"] for d in registry()}
+    except Exception: pass
+    seen = {}
+    for d in sorted(known):
+        i = _dim_id(d)
+        if i in seen: problems.append(f"dimension id collision {i:03x}: {seen[i]} vs {d}")
+        seen[i] = d
+    lock_p = ROOT / "chants" / "CODEBOOK.lock"
+    if lock_p.exists():
+        lock = json.loads(lock_p.read_text()); now = codebook_fingerprint()
+        for k, v in lock["sha256"].items():
+            if now["sha256"].get(k) != v: problems.append(f"codebook drift: {k} changed but CODEBOOK.lock was not re-issued")
+    return problems
+
+def codebook_fingerprint():
+    wl = "\n".join(wordlist())
+    fields = {d: [f["name"] + "|" + f["path"] for f in _fields_for(d)] for d in missions()}
+    ops = json.dumps({str(k): v for k, v in OPS.items()}, sort_keys=True)
+    return {"schema": "dogg/0-codebook-lock", "version": CHANT_VERSION,
+            "rule": "append-only: never reorder or remove a word, an op, or a field; a change here re-means every chant ever spoken",
+            "sha256": {"wordlist": hashlib.sha256(wl.encode()).hexdigest(), "ops": hashlib.sha256(ops.encode()).hexdigest(),
+                       "fields": hashlib.sha256(json.dumps(fields, sort_keys=True).encode()).hexdigest()}}
 def _fields_for(dimension): return missions().get(dimension, {}).get("fields", [])[:12]
 def _mask_for(dimension, fields):
     names = [f["name"] for f in _fields_for(dimension)]
@@ -207,6 +240,14 @@ def _mask_for(dimension, fields):
 
 def mission_encode(dimension, frame, fields=None):
     mask = _mask_for(dimension, fields); table = _fields_for(dimension)
+    for i, f in enumerate(table):
+        if mask >> i & 1:
+            v = _dig(frame["payload"], f["path"])
+            try:
+                if not isinstance(v, list) and v is not None and float(v) < 0:
+                    raise ValueError(f"field {f['name']!r} is negative ({v}); mission fields are positive magnitudes until a signed field type exists — refused rather than encoded as absent")
+            except (TypeError, ValueError) as exc:
+                if "negative" in str(exc): raise
     b = Bits().put(12, _dim_id(dimension)).put(20, int(frame["seq"])).put(18, int(frame["frame_hash"][:5], 16) & ((1 << 18) - 1)).put(12, mask)
     for i, f in enumerate(table):
         if mask >> i & 1: b.put(FIELD_BITS, _logq(_dig(frame["payload"], f["path"])))
@@ -324,8 +365,13 @@ OPS = {0: ("select", [4]), 1: ("delta", [4]), 2: ("ratio", [4, 4]), 3: ("above",
        4: ("below", [4, 14]), 5: ("sum", [4, 4]), 6: ("change_pct", [4]), 7: ("max_of", [4, 4])}
 OP_CODE = {name: code for code, (name, _) in OPS.items()}
 
+def _guard(dimension):
+    for pr in codebook_check():
+        if "collision" in pr and dimension in pr: raise ValueError(pr)
+
 def seed_make(dimension, program):
     """program: list of (op, *operands) using field NAMES; thresholds as numbers."""
+    _guard(dimension)
     names = [f["name"] for f in _fields_for(dimension)]
     b = Bits().put(12, _dim_id(dimension))
     for op, *args in program:
@@ -381,6 +427,90 @@ def seed_listing(prog, table):
         else: lines.append(op + " " + " ".join(name(x) for x in a))
     return lines
 
+# ── Carriers: words, URI, QR, a printed book ────────────────────────────────
+# The same bits, four ways to carry them: spoken/memorized WORDS; a dogg: URI (dense text);
+# a QR (one square holds a whole BOOK chant); a printed chant book (QR + the words under it,
+# so a phone scans it and a human can still read it aloud). Worst case: paper.
+def to_uri(words):
+    WL = wordlist(); idx = {w: i for i, w in enumerate(WL)}
+    syms = [idx[w.upper()] for w in words]
+    val = 0
+    for x in syms: val = (val << 10) | x
+    nbytes = (len(syms) * 10 + 7) // 8
+    import base64
+    return f"dogg:{CHANT_VERSION}:{len(syms)}:" + base64.urlsafe_b64encode(val.to_bytes(nbytes, "big")).decode().rstrip("=")
+
+def from_uri(text):
+    import base64
+    parts = text.strip().split(":")
+    if len(parts) != 4 or parts[0] != "dogg": raise ValueError("not a dogg: chant URI")
+    n = int(parts[2]); raw = base64.urlsafe_b64decode(parts[3] + "=" * (-len(parts[3]) % 4))
+    val = int.from_bytes(raw, "big")          # to_bytes right-aligns: no shift on the way back
+    WL = wordlist()
+    return [WL[(val >> (10 * (n - 1 - i))) & 1023] for i in range(n)]
+
+def as_words(args):
+    """accept words, a single dogg: URI, or several page URIs anywhere a chant is expected."""
+    if args and all(a.startswith("dogg:") for a in args): return from_uri(join_pages(list(args)))
+    return list(args)
+
+QR_PAGE_CHARS = 300   # a phone scans a ~300-char square reliably; longer chants are paged
+
+def uri_pages(uri):
+    """split a dogg: URI into scannable pages: dogg:1:<n>:<p>/<t>:<chunk> — reassemble in order."""
+    head, payload = uri.rsplit(":", 1)
+    if len(payload) <= QR_PAGE_CHARS: return [uri]
+    chunks = [payload[i:i + QR_PAGE_CHARS] for i in range(0, len(payload), QR_PAGE_CHARS)]
+    return [f"{head}:{i + 1}/{len(chunks)}:{c}" for i, c in enumerate(chunks)]
+
+def join_pages(pages):
+    """reassemble page URIs (any order) into the single dogg: URI."""
+    if len(pages) == 1 and "/" not in pages[0].split(":")[3 if pages[0].count(":") > 3 else 0]: return pages[0]
+    parts = {}
+    head = None
+    for pg in pages:
+        h, pt, chunk = pg.rsplit(":", 2)
+        i, t = pt.split("/"); parts[int(i)] = chunk; head = h; total = int(t)
+    if sorted(parts) != list(range(1, total + 1)): raise ValueError(f"missing pages: have {sorted(parts)} of {total}")
+    return head + ":" + "".join(parts[i] for i in range(1, total + 1))
+
+def qr_png_data_uri(text):
+    """PNG data URI via the optional `qrcode` package; None when it is not installed."""
+    try:
+        import qrcode, io, base64
+    except ImportError:
+        return None
+    ec = qrcode.constants.ERROR_CORRECT_M if len(text) <= 120 else qrcode.constants.ERROR_CORRECT_L
+    q = qrcode.QRCode(error_correction=ec, box_size=8, border=4); q.add_data(text); q.make(fit=True)
+    img = q.make_image()
+    buf = io.BytesIO(); img.save(buf, format="PNG")
+    return "data:image/png;base64," + base64.b64encode(buf.getvalue()).decode()
+
+def book_page(chants, title="dogg chant book"):
+    """A printable page: one QR per chant, its words under it, its meaning beside it."""
+    cards = []
+    for words in chants:
+        words = as_words(words); uri = to_uri(words)
+        try: meaning = recite(words)
+        except Exception as ex: meaning = {"error": str(ex)[:80]}
+        kind = meaning.get("schema", "").replace("dogg/0-", "")
+        label = meaning.get("dimension") or meaning.get("tile", {}).get("dimension", "") or ""
+        pages = uri_pages(uri)
+        imgs = [qr_png_data_uri(pg) for pg in pages]
+        if all(imgs):
+            qr_html = "".join(f'<figure><img alt="QR page {i + 1}" src="{im}"><figcaption>page {i + 1} of {len(pages)}</figcaption></figure>' for i, im in enumerate(imgs)) if len(pages) > 1 else f'<img alt="QR" src="{imgs[0]}">'
+        else:
+            qr_html = f'<pre class="uri">{uri}</pre><p class="hint">(install the qrcode package to print squares; the URI above scans as text)</p>'
+        summary = json.dumps({k: v for k, v in meaning.items() if k in ("tick", "fields", "program", "alarm")}, indent=None)[:300]
+        cards.append(f'<section class="card">{qr_html}<div class="txt"><h2>{kind} · {label}</h2><p class="words">{" ".join(words)}</p><p class="meta">{len(words)} words · {summary}</p></div></section>')
+    return ("<!doctype html><meta charset=utf-8><title>" + title + "</title><style>body{font:14px/1.4 -apple-system,system-ui,sans-serif;margin:24px;color:#111}"
+            ".card{display:flex;gap:18px;align-items:flex-start;border:1px solid #ccc;border-radius:10px;padding:14px;margin:0 0 14px;page-break-inside:avoid}"
+            ".card img{width:200px;height:200px;image-rendering:pixelated}figure{display:inline-block;margin:0 8px 0 0;text-align:center;font-size:11px;color:#555}.words{font:700 15px/1.5 ui-monospace,Menlo,monospace;letter-spacing:.02em}"
+            ".meta{color:#555;font-size:12px;word-break:break-all}.uri{font-size:11px;word-break:break-all}h2{margin:0 0 6px;font-size:14px}.hint{color:#777;font-size:11px}"
+            "@media print{.card{border-color:#000}}</style><h1>" + title + "</h1><p>Scan a square, or read the words aloud. Every code is one chant; the words under it are the same bits. Cache the machinery, never the ore.</p>"
+            + "".join(cards))
+
+
 # ── BOOK: an entire tile in words — exact bytes, any size ───────────────────
 def inscribe(obj):
     import zlib
@@ -404,7 +534,9 @@ def recite(words):
                 "note": "a seed carries no data — the cached SDK compiles it into this program; wear it on a frame you hold"}
     if kind == KIND_BOOK:
         n = body.get(16); raw = bytes(body.get(8) for _ in range(n))
-        obj = json.loads(zlib.decompress(raw))
+        d = zlib.decompressobj(); out = d.decompress(raw, BOOK_MAX_BYTES)
+        if d.unconsumed_tail: raise ValueError(f"book tile exceeds {BOOK_MAX_BYTES} bytes decompressed — refused")
+        obj = json.loads(out)
         return {"schema": "dogg/0-book-tile", "exact": True, "words": len(words), "tile": obj}
     raise ValueError(f"unknown chant kind {kind}")
 
@@ -504,19 +636,19 @@ def main():
         f, src = latest(d)
         print(mission_encode(dim, f, fields))
     elif cmd == "recite":
-        print(json.dumps(recite(rest), indent=1))
+        print(json.dumps(recite(as_words(rest)), indent=1))
     elif cmd == "inscribe":
         print(chant_inscribe_file(rest[0]))
     elif cmd == "attest":
         frame = json.loads(pathlib.Path(rest[-1]).read_text())
-        verdict, tile = mission_attest(rest[:-1], frame)
+        verdict, tile = mission_attest(as_words(rest[:-1]), frame)
         print(json.dumps({"verdict": verdict, "tile": tile}, indent=1))
         if verdict != "MATCH": raise SystemExit(2)
     elif cmd == "hotload":
         into = None
         if "--into" in rest:
             i = rest.index("--into"); into = pathlib.Path(rest[i + 1]).expanduser(); rest = rest[:i] + rest[i + 2:]
-        tile = recite(rest)
+        tile = recite(as_words(rest))
         name, src = mission_cartridge(tile)
         dest = into or pathlib.Path(os.path.expanduser("~/.brainstem/src/rapp_brainstem/agents"))
         dest.mkdir(parents=True, exist_ok=True)
@@ -537,8 +669,29 @@ def main():
                 f, v = args[0].split("="); args = [f, float(v)]; n = 1
             prog.append((op, *args)); i += 1 + n
         print(seed_make(dim, prog))
+    elif cmd == "uri":
+        print(to_uri(as_words(rest)))
+    elif cmd == "book":
+        # book <out.html> then one chant per remaining arg: a quoted word string or a dogg: URI
+        out = pathlib.Path(rest[0]); chants = [a.split() if not a.startswith("dogg:") else [a] for a in rest[1:]]
+        out.write_text(book_page(chants)); print(f"chant book written: {out} ({len(chants)} chants) — print it; the codes and the words are the same bits")
+    elif cmd == "kit":
+        dest = pathlib.Path(rest[0]).expanduser(); (dest / "tools").mkdir(parents=True, exist_ok=True); (dest / "chants").mkdir(exist_ok=True)
+        import shutil
+        for f in ("dogg.py", "rapp.py", "chainio.py"):
+            src = TOOLS / f
+            if src.exists(): shutil.copy(src, dest / "tools" / f)
+        for f in ("WORDLIST.txt", "MISSIONS.json", "LENSES.json", "CODEBOOK.lock"):
+            src = ROOT / "chants" / f
+            if src.exists(): shutil.copy(src, dest / "chants" / f)
+        print(f"kit written to {dest}: the machinery (cache it forever); the ore never has to be")
+    elif cmd == "lock":
+        (ROOT / "chants" / "CODEBOOK.lock").write_text(json.dumps(codebook_fingerprint(), indent=1) + "\n"); print("CODEBOOK.lock re-issued")
+    elif cmd == "check":
+        problems = codebook_check()
+        print("\n".join(problems) if problems else "codebook OK: no id collisions, lock matches"); sys.exit(1 if problems else 0)
     elif cmd == "wear":
-        files = [a for a in rest if a.endswith(".json")]; words = [a for a in rest if not a.endswith(".json")]
+        files = [a for a in rest if a.endswith(".json")]; words = as_words([a for a in rest if not a.endswith(".json")])
         frame = json.loads(pathlib.Path(files[0]).read_text())
         prev = json.loads(pathlib.Path(files[1]).read_text()) if len(files) > 1 else None
         print(json.dumps(wear(words, frame, prev), indent=1))

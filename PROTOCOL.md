@@ -123,8 +123,29 @@ Verdicts for `attest`: **MATCH** · **DIFFERENT-TICK** · **FORGED** · **FORGED
 **FRAME-INVALID**. A seed or lens cut for one dimension refuses to be worn on another. Any tile
 can be **hotloaded** into a brainstem as a single-file cartridge that names its own limits.
 
-Reference client: `dogg.py seed | lens | mission | inscribe` to mint · `recite` (any kind, offline)
-· `wear W… frame.json [prev.json]` · `attest W… frame.json` · `hotload W… [--into DIR]`.
+**Carriers — the same bits, four ways.** Spoken or memorized **words**; a dense **URI**
+`dogg:<version>:<n words>:<base64url of the symbol stream>`; a **QR** (any phone scans one square
+of ≤ ~300 characters reliably — longer chants page as `dogg:<v>:<n>:<p>/<t>:<chunk>`, reassembled
+in any order); and a printed **chant book**: one square per chant with the words under it, so a
+phone scans it and a human can still read it aloud. Worst case is paper.
+
+**The codebook is append-only.** `chants/CODEBOOK.lock` pins sha256 of the word list, the op
+table and every dimension's field table; `dogg.py check` (run in CI) refuses drift and refuses
+two dimensions sharing a 12-bit id. Words, ops and fields may be *appended*, never reordered or
+removed — a reorder would silently re-mean every chant ever spoken. Header version 3 is
+reserved as the escape to an extended header (16-bit dimension ids, more kinds).
+
+**Refusals, not silences.** A mission field that is negative is refused at mint (mission fields
+are positive magnitudes until a signed type exists). A BOOK page decompresses to at most 1 MiB.
+A length that does not match its declaration, a checksum that does not match, a seed or lens
+worn on the wrong dimension — all refuse. `chants/VECTORS.json` carries golden vectors: a
+second implementation must reproduce those exact words from the fixture frame.
+
+**The kit.** `dogg.py kit <dir>` exports the whole machinery — client, verifier, word list,
+field tables, lenses, lock — the only thing a device ever needs cached.
+
+Reference client: `dogg.py seed | lens | mission | inscribe` to mint · `recite` (any kind, offline; words or URI)
+· `wear W… frame.json [prev.json]` · `attest W… frame.json` · `hotload W… [--into DIR]` · `uri` · `book out.html …` · `kit <dir>` · `lock` · `check`.
 
 High-frequency chains use **sealed epoch bundles + a flat tail** so directories stay
 bounded forever: `HEAD.json` carries `epoch_size` (E) and `sealed_epochs` (K); frames

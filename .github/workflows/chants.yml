@@ -1,0 +1,22 @@
+name: Chants
+
+# The spellbook's conformance gate: golden vectors pin the codebook (wordlist, ops,
+# field tables); one reordered word would re-mean every chant ever spoken, and this
+# job refuses it. Also proves the codebook lock and the dimension-id collision rule.
+
+on:
+  push:
+    paths: ['tools/dogg.py', 'chants/**', 'tests/**', '.github/workflows/chants.yml']
+  pull_request:
+    paths: ['tools/dogg.py', 'chants/**', 'tests/**']
+  workflow_dispatch:
+
+jobs:
+  conformance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: python3 tools/dogg.py check
+      - run: python3 tests/test_chants.py

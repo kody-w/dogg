@@ -53,5 +53,6 @@ Cache the machinery, never the ore: `tools/dogg.py` + `tools/rapp.py` + `chants/
 - **seed** — a program in words, any length: `python3 tools/dogg.py seed markets:@kody-w/dogg-markets select btc_usd ratio btc_usd eth_usd above btc_usd=70000` → wear it on any frame you hold.
 - **lens** — one fixed algorithm as a key. **mission** — a lens plus a ~0.3% snapshot that recites with nothing but the wordlist. **book** — an entire tile, byte-exact, as a page of words.
 - `recite` decodes any chant offline; `attest` proves a frame against a mission chant; `hotload` drops a tile into a brainstem.
+- `uri` makes the dense `dogg:` form; `book out.html "W…" …` prints a chant book (one QR per chant, paged when long, words under each); `kit <dir>` exports the cacheable machinery; `check` guards the append-only codebook (CI runs it).
 
 Spec: PROTOCOL.md → *The spellbook*.
