@@ -1,21 +1,21 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-08-28T17:49:43.899Z",
+  "generated_utc": "2026-08-28T17:59:51.087Z",
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "tick": {
-    "seq": 466,
-    "frame_hash": "cf6f5a2b2e7ffc225b72ef697b9a5c6870869ce0da0fa85ae2c9b566e547a4fb",
-    "utc": "2026-08-28T17:49:39.822Z"
+    "seq": 467,
+    "frame_hash": "7317cb87bb733c71df07e2308fbc6946cb7e37a3b214402e40def79800c60055",
+    "utc": "2026-08-28T17:59:46.893Z"
   },
   "world": {
-    "frame_hash": "2d34f8269abc43c9de2cd46569ccd898f4a792765accadaabd593af8f92984d3",
-    "seq": 372,
+    "frame_hash": "2888c535d9305a93dd139960c24bee2eef66567a0cb07e30c78214a8bfdf11a0",
+    "seq": 373,
     "data": {
       "btc_block_height": {
-        "height": 964466
+        "height": 964467
       },
       "btc_usd": {
-        "spot": "77968.655"
+        "spot": "77895.455"
       },
       "fx_usd": {
         "EUR": "0.8583",
@@ -24,7 +24,7 @@
         "CNY": "6.7372"
       },
       "crypto_market": {
-        "total_mcap_usd": "2642355681416",
+        "total_mcap_usd": "2642761502673",
         "btc_dominance_pct": "59.0"
       },
       "btc_fees": {
@@ -32,15 +32,15 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 80425
+        "tx_count": 80350
       },
       "earthquakes_past_hour": {
         "count": 7,
         "max_mag": "2.4"
       },
       "iss": {
-        "lat": "-48.796",
-        "lon": "-7.471"
+        "lat": "-26.190",
+        "lon": "31.228"
       },
       "space_weather": {
         "kp": "3.67",
@@ -58,7 +58,7 @@
         "top_by_volume": [
           {
             "question": "Will Real Racing Club win on 2026-08-28?",
-            "yes_price": "0.9795"
+            "yes_price": "0.9825"
           },
           {
             "question": "Will there be no change in Fed interest rates after the September 2026 meeting?",
@@ -132,6 +132,66 @@
       "repo": "kody-w/rapp-specs",
       "path": "brain/",
       "outlook": "the global specs brain — every ecosystem protocol mirrored + framed, daily-synced; one pull = the whole canon, callable by any AI"
+    },
+    {
+      "dimension": "firstaid:@kody-w/dogg-firstaid",
+      "repo": "kody-w/dogg-firstaid",
+      "path": "firstaid/",
+      "outlook": "First aid as a book: a versioned lay-rescuer decision tree (severe bleeding, CPR, choking, shock, burns, hypothermia) paraphrased from widely published Red Cross/AHA guidance, published as one tick-anchored frame per revision, with an explicit not-medical-advice disclaimer on every frame."
+    },
+    {
+      "dimension": "lineage:@kody-w/dogg-lineage",
+      "repo": "kody-w/dogg-lineage",
+      "path": "lineage/",
+      "outlook": "A TEMPLATE lineage chain — three generations of birth/vow/death events with every who/when/witness field a literal PLACEHOLDER, anchored to the DOGG spine tick, proving the chain shape a real private family lineage could fork without ever putting real data on a public remote."
+    },
+    {
+      "dimension": "seedvault:@kody-w/dogg-seedvault",
+      "repo": "kody-w/dogg-seedvault",
+      "path": "seedvault/",
+      "outlook": "A heirloom seed vault for USDA zone 8a (Atlanta): 12 common Southern varieties with days-to-maturity and sow/harvest windows, so a growing calendar exists on-chain even offline."
+    },
+    {
+      "dimension": "radio:@kody-w/dogg-radio",
+      "repo": "kody-w/dogg-radio",
+      "path": "radio/",
+      "outlook": "Emergency comms: the public NOAA Weather Radio, FRS/GMRS, marine VHF, aviation guard, and CB frequency plan, plus a live count of active NWS alerts for Georgia — anchored to the same global tick spine every other node shares."
+    },
+    {
+      "dimension": "canon:@kody-w/dogg-canon",
+      "repo": "kody-w/dogg-canon",
+      "path": "canon/",
+      "outlook": "Every day this node hashes the RAR constitution, the rapp/1 spec, and the dogg protocol as they stand on GitHub and appends one frame tying those SHA-256s and byte lengths to the current global tick, so a grandchild in 2076 can prove exactly which text governed at any recorded tick without trusting anyone's memory of it."
+    },
+    {
+      "dimension": "land:@kody-w/dogg-land",
+      "repo": "kody-w/dogg-land",
+      "path": "land/",
+      "outlook": "A template deed record — document hash, county-recorder pointer, and a corner-coordinate polygon over the public Georgia State Capitol block in Atlanta — that proves the append-only chain mechanics for land integrity while leaving every real-world identifying field as an explicit placeholder."
+    },
+    {
+      "dimension": "water:@kody-w/dogg-water",
+      "repo": "kody-w/dogg-water",
+      "path": "water/",
+      "outlook": "Water, per tick: a versioned emergency-water procedure (boil/disinfect/filter/store/rotate) paired with a live USGS gauge reading for the Chattahoochee River at Atlanta and its distance from NWS flood stage."
+    },
+    {
+      "dimension": "sky:@kody-w/dogg-sky",
+      "repo": "kody-w/dogg-sky",
+      "path": "sky/",
+      "outlook": "Astronomy as a seed: sunrise, sunset, day length, and moon phase for 8 reference cities, computed by pure-Python NOAA solar-position equations so every number is reproducible offline forever — the chain is the witness, the algorithm is the heirloom, with no live API dependency."
+    },
+    {
+      "dimension": "genesis:@kody-w/dogg-genesis",
+      "repo": "kody-w/dogg-genesis",
+      "path": "genesis/",
+      "outlook": "This node fingerprints the spine's own root machinery (wordlist, missions, lenses, codebook lock, dogg.py, rapp.py) plus the spine's genesis frame hash every day so any grandchild agent can verify the chant kit it inherits hasn't silently drifted before trusting anything spoken against it."
+    },
+    {
+      "dimension": "muster:@kody-w/dogg-muster",
+      "repo": "kody-w/dogg-muster",
+      "path": "muster/",
+      "outlook": "A TEMPLATE rendezvous plan — muster points, roles, check-in windows, and comms fallback, every real value a PLACEHOLDER — republished daily keyed to the kody-w/dogg spine tick so an heirloom kit can prove its shape never silently drifted, without ever holding anyone's actual plan."
     }
   ],
   "chants": {
