@@ -1,0 +1,44 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>dogg · recite</title>
+<style>body{font:16px/1.5 -apple-system,system-ui,sans-serif;margin:0;background:#0b0b12;color:#eee}main{max-width:640px;margin:0 auto;padding:22px}
+h1{font-size:18px;margin:0 0 4px;color:#9ff}.sub{color:#8a8aa0;font-size:13px;margin:0 0 18px}.card{background:#14142a;border:1px solid #2a2a44;border-radius:12px;padding:16px;margin:12px 0}
+.k{color:#8a8aa0;font-size:12px;text-transform:uppercase;letter-spacing:.06em}.v{font-size:22px;font-weight:700}.words{font:600 14px/1.6 ui-monospace,Menlo,monospace;word-break:break-word;color:#ffd}
+.bad{color:#ff7d7d}.ok{color:#7dffb0}pre{white-space:pre-wrap;word-break:break-all;font-size:12px;color:#ccd}small{color:#8a8aa0}input{width:100%;font:14px ui-monospace,Menlo,monospace;padding:10px;border-radius:8px;border:1px solid #2a2a44;background:#0b0b12;color:#eee}</style></head>
+<body><main>
+<h1>Recite</h1><p class="sub">A chant in — a tile out. Decoded here, on this device, with nothing but the codebook.</p>
+<input id="in" placeholder="paste a dogg: URI or the words…"><div id="out"></div>
+<p><small>Cache the machinery, never the ore. Tap a tag, scan a square, or say the words — same bits.</small></p>
+</main>
+<script>
+const VERSION=1, FIELD_BITS=14, FIELD_MAX=(1<<14)-1, LOG_MIN=1e-6, LOG_MAX=1e15;
+const OPS={0:["select",[4]],1:["delta",[4]],2:["ratio",[4,4]],3:["above",[4,14]],4:["below",[4,14]],5:["sum",[4,4]],6:["change_pct",[4]],7:["max_of",[4,4]]};
+let WL=null, MISSIONS=null;
+async function load(){ if(WL) return; const [w,m]=await Promise.all([fetch('chants/WORDLIST.txt').then(r=>r.text()),fetch('chants/MISSIONS.json').then(r=>r.json())]); WL=w.trim().split(/\s+/); MISSIONS=m.missions; }
+async function sha256(bytes){ const h=await crypto.subtle.digest('SHA-256',bytes); return new Uint8Array(h); }
+function b64urlToBytes(s){ s=s.replace(/-/g,'+').replace(/_/g,'/'); while(s.length%4) s+='='; const bin=atob(s); return Uint8Array.from(bin,c=>c.charCodeAt(0)); }
+function bytesToBig(b){ let v=0n; for(const x of b) v=(v<<8n)|BigInt(x); return v; }
+function uriToWords(uri){ const p=uri.trim().split(':'); if(p[0]!=='dogg'||p.length<4) throw new Error('not a dogg: URI'); if(p.length===5) throw new Error('this is page '+p[3]+' — paste all pages joined, or scan the others'); const n=+p[2]; let v=bytesToBig(b64urlToBytes(p[3])); const out=[]; for(let i=n-1;i>=0;i--) out.push(WL[Number((v>>BigInt(10*i))&1023n)]); return out; }
+async function unpack(words){ const idx=new Map(WL.map((w,i)=>[w,i])); const syms=words.map(w=>{const u=w.toUpperCase(); if(!idx.has(u)) throw new Error('not a chant word: '+w); return idx.get(u);}); if(syms.length<3) throw new Error('a chant is at least three words');
+  const header=syms[0], n=syms[1]; if((header>>8)!==VERSION) throw new Error('unknown chant version'); if(syms.length!==n+3) throw new Error(`declares ${n} body words; ${syms.length-3} given`);
+  let val=0n; for(const x of syms.slice(0,-1)) val=(val<<10n)|BigInt(x); const nbits=(n+2)*10, nbytes=Math.ceil(nbits/8); const bytes=new Uint8Array(nbytes); let t=val; for(let i=nbytes-1;i>=0;i--){ bytes[i]=Number(t&255n); t>>=8n; }
+  const h=await sha256(bytes); const chk=((h[0]<<8)|h[1])&1023; if(chk!==syms[syms.length-1]) throw new Error('checksum failed — a word was misheard, mistyped or forged');
+  const bodyBits=n*10, body=val&((1n<<BigInt(bodyBits))-1n); return {kind:(header>>5)&7, body, n:bodyBits}; }
+function reader(body,n){ let pos=0; return {left:()=>n-pos, get:(w)=>{ if(pos+w>n) throw new Error('body ended early'); const x=Number((body>>BigInt(n-pos-w))&((1n<<BigInt(w))-1n)); pos+=w; return x; }}; }
+function logd(c){ return c===0?0:LOG_MIN*Math.exp(c/FIELD_MAX*Math.log(LOG_MAX/LOG_MIN)); }
+function sig(v){ if(v===0) return 0; const d=3-Math.floor(Math.log10(Math.abs(v)))-1; return d>0?+v.toFixed(d):Math.round(v/10**(-d))*10**(-d); }
+async function dimId(d){ const h=await sha256(new TextEncoder().encode(d)); let v=0n; for(let i=0;i<8;i++) v=(v<<8n)|BigInt(h[i]); return Number(v>>52n); }
+async function resolveDim(id){ for(const d of Object.keys(MISSIONS)) if(await dimId(d)===id) return d; return null; }
+async function recite(words){ const {kind,body,n}=await unpack(words); const r=reader(body,n);
+  if(kind===1){ const id=r.get(12), seq=r.get(20), hp=r.get(18), mask=r.get(12); const dim=await resolveDim(id); const table=dim?MISSIONS[dim].fields.slice(0,12):[]; const fields={}; for(let i=0;i<12;i++) if(mask>>i&1){ const v=r.get(FIELD_BITS); const f=table[i]; fields[f?f.name:'field_'+i]={value:sig(logd(v)),unit:f?f.unit||'':''}; } return {schema:'mission-tile',dimension:dim||('unknown-dimension-id:'+id.toString(16)),tick:seq,frame_hash_prefix18:hp.toString(16).padStart(5,'0'),fields,limited:true,precision:'~0.3% (log-quantized)'}; }
+  if(kind===2){ const id=r.get(12), lens=r.get(6); return {schema:'lens-key',dimension:await resolveDim(id),lens:['?','select','delta','alarm'][lens]||lens,note:'a lens carries no data — wear it on a frame you hold'}; }
+  if(kind===4){ const id=r.get(12); const dim=await resolveDim(id); const table=dim?MISSIONS[dim].fields:[]; const name=i=>table[i]?table[i].name:'field_'+i; const prog=[]; while(r.left()>=3){ const code=r.get(3); const [op,widths]=OPS[code]; if(r.left()<widths.reduce((a,b)=>a+b,0)) break; const a=widths.map(w=>r.get(w)); prog.push(op==='above'||op==='below'?`${op} ${name(a[0])} ${sig(logd(a[1]))}`:op+' '+a.map(name).join(' ')); } return {schema:'seed-key',dimension:dim,program:prog,note:'a seed carries no data — the SDK compiles it; wear it on a frame you hold'}; }
+  if(kind===3){ const len=r.get(16); const raw=new Uint8Array(len); for(let i=0;i<len;i++) raw[i]=r.get(8); const ds=new DecompressionStream('deflate'); const out=await new Response(new Blob([raw]).stream().pipeThrough(ds)).text(); return {schema:'book-tile',exact:true,tile:JSON.parse(out)}; }
+  throw new Error('unknown chant kind '+kind); }
+function render(tile,words){ const o=document.getElementById('out'); let h=`<div class="card"><div class="k">${tile.schema}</div><div>${tile.dimension||''}</div>${tile.tick!==undefined?`<div class="k" style="margin-top:8px">tick</div><div class="v">${tile.tick}</div>`:''}`;
+  if(tile.fields) for(const [k,f] of Object.entries(tile.fields)) h+=`<div class="k" style="margin-top:8px">${k}</div><div class="v">${f.value} <small>${f.unit||''}</small></div>`;
+  if(tile.program) h+=`<pre>${tile.program.join('\n')}</pre>`; if(tile.tile) h+=`<pre>${JSON.stringify(tile.tile,null,1).slice(0,4000)}</pre>`; if(tile.note||tile.limited) h+=`<p><small>${tile.note||'limited tile — attest a full frame before trusting more than this'}</small></p>`;
+  h+=`</div><div class="card"><div class="k">the words</div><div class="words">${words.join(' ')}</div></div>`; o.innerHTML=h; }
+async function go(text){ const o=document.getElementById('out'); try{ await load(); const t=text.trim(); const words=t.startsWith('dogg:')?uriToWords(t):t.split(/\s+/); const tile=await recite(words); render(tile,words); o.dataset.ok='1'; }catch(e){ o.innerHTML=`<div class="card bad">✗ ${e.message}</div>`; o.dataset.ok='0'; } }
+document.getElementById('in').addEventListener('change',e=>go(e.target.value));
+const frag=decodeURIComponent(location.hash.slice(1)); if(frag){ document.getElementById('in').value=frag; go(frag); }
+</script></body></html>
