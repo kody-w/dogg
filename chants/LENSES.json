@@ -1,0 +1,28 @@
+{
+  "schema": "dogg/0-lenses",
+  "_comment": [
+    "Lenses are the algorithms a chant can open. A lens chant is 4 words = 40 bits:",
+    "2 version | 6 lens id | 20 params | 6 checksum. The frame you hold supplies the dimension;",
+    "params index that dimension's field table in MISSIONS.json. Same codebook as every chant."
+  ],
+  "lenses": {
+    "1": {
+      "name": "select",
+      "params": "12-bit field mask (bit i = field i)",
+      "needs": "one frame",
+      "tile": "exact values of the selected fields at the frame's tick"
+    },
+    "2": {
+      "name": "delta",
+      "params": "12-bit field mask",
+      "needs": "two frames (current, previous)",
+      "tile": "exact change of each selected field between the two ticks"
+    },
+    "3": {
+      "name": "alarm",
+      "params": "4-bit field index | 1-bit direction (1=above) | 14-bit log threshold",
+      "needs": "one frame",
+      "tile": "TRUE/FALSE answer plus the exact value"
+    }
+  }
+}

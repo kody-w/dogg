@@ -45,6 +45,13 @@ Every push re-verifies the whole chain in CI with the reference implementation
 (`tools/verify_thread.py`). A red oracle means the chain is broken — fix the frames,
 never bypass the oracle.
 
-## Mission chants — the AI tweet
+## The spellbook — chants of any length
 
-Ten words carry a limited tile offline: `python3 tools/dogg.py mission markets:@kody-w/dogg-markets` → words; `recite` them anywhere with only the wordlist; `attest` any full frame against them; `hotload` the tile into a brainstem. Spec: PROTOCOL.md → *Summon offline — the mission tile*.
+Cache the machinery, never the ore: `tools/dogg.py` + `tools/rapp.py` + `chants/WORDLIST.txt`
++ `chants/MISSIONS.json` + `chants/LENSES.json` is the whole on-device kit. Then:
+
+- **seed** — a program in words, any length: `python3 tools/dogg.py seed markets:@kody-w/dogg-markets select btc_usd ratio btc_usd eth_usd above btc_usd=70000` → wear it on any frame you hold.
+- **lens** — one fixed algorithm as a key. **mission** — a lens plus a ~0.3% snapshot that recites with nothing but the wordlist. **book** — an entire tile, byte-exact, as a page of words.
+- `recite` decodes any chant offline; `attest` proves a frame against a mission chant; `hotload` drops a tile into a brainstem.
+
+Spec: PROTOCOL.md → *The spellbook*.

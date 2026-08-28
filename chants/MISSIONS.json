@@ -2,20 +2,62 @@
   "schema": "dogg/0-missions",
   "_comment": [
     "Mission schemas: which numbers of a dimension's frame ride INSIDE a 12-word mission chant.",
-    "Each field is LOG-quantized to 14 bits (1 … 1e15 at ~0.21% relative precision) — one encoding for every magnitude.",
-    "A dimension without a schema still gets a mission chant carrying tick + frame-hash prefix only."
+    "Each field is LOG-quantized to 14 bits (1 \u2026 1e15 at ~0.21% relative precision) \u2014 one encoding for every magnitude.",
+    "A dimension without a schema still gets a mission chant carrying tick + frame-hash prefix only.",
+    "The first three fields are what a MISSION chant carries; a LENS chant may select any of them by mask."
   ],
   "missions": {
     "markets:@kody-w/dogg-markets": {
       "fields": [
-        {"name": "btc_usd", "path": "markets.btc_usd.spot", "unit": "USD"},
-        {"name": "eth_usd", "path": "markets.eth_usd.spot", "unit": "USD"},
-        {"name": "crypto_mcap_usd", "path": "markets.crypto_market.total_mcap_usd", "unit": "USD"}
+        {
+          "name": "btc_usd",
+          "path": "markets.btc_usd.spot",
+          "unit": "USD"
+        },
+        {
+          "name": "eth_usd",
+          "path": "markets.eth_usd.spot",
+          "unit": "USD"
+        },
+        {
+          "name": "crypto_mcap_usd",
+          "path": "markets.crypto_market.total_mcap_usd",
+          "unit": "USD"
+        },
+        {
+          "name": "btc_dominance_pct",
+          "path": "markets.crypto_market.btc_dominance_pct",
+          "unit": "%"
+        },
+        {
+          "name": "btc_fee_sat_vb",
+          "path": "markets.btc_fees.fastest_sat_vb",
+          "unit": "sat/vB"
+        },
+        {
+          "name": "eur_per_usd",
+          "path": "markets.fx_usd.EUR",
+          "unit": "EUR"
+        },
+        {
+          "name": "gbp_per_usd",
+          "path": "markets.fx_usd.GBP",
+          "unit": "GBP"
+        },
+        {
+          "name": "jpy_per_usd",
+          "path": "markets.fx_usd.JPY",
+          "unit": "JPY"
+        }
       ]
     },
     "world:@kody-w/dogg": {
       "fields": [
-        {"name": "sources_failed", "path": "sources_failed", "unit": "count"}
+        {
+          "name": "sources_failed",
+          "path": "sources_failed",
+          "unit": "count"
+        }
       ]
     }
   }

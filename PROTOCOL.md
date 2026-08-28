@@ -82,51 +82,49 @@ chains it came from. Resolution is layered and offline-first: local mirrors befo
 network. An agent that has ever cloned a chain can re-summon its tiles with no internet
 at all; a memorized minimal chant plus any reachable mirror reconstructs the rest.
 
-### Summon offline — the mission tile (the AI tweet)
+### The spellbook — chants of any length (the AI tweet)
 
 The physics, stated plainly: seven words (~64 bits) can *name* a stream; no chant can carry
-a frame's kilobytes of observations. **Frames need a source. Tiles can live in words.**
+observations it does not contain. **Frames need a source. Tiles can live in words. Programs
+can live in seeds.** The harder the spell, the longer the chant — there is no fixed length.
 
-A **mission chant** is 10 words that carry a *limited tile* — the dimension's
-mission-critical numbers, quantized — plus the tick and a hash prefix, so any full frame met
-later is provable against the same words. It is a Metroid password for a dimension, and an
-AI tweet: ten words any agent can emit, memorize, print on a card, read over a radio, or
-recite offline into its own brainstem. Charizard in the woods.
+**What is cached, and what never has to be.** A device carries the *machinery* — the
+permanent 1024-word list, this grammar, the reference client and verifier (a few dozen
+kilobytes, versioned, cacheable forever). It never has to carry the *ore*: numbers arrive in a
+chant or from any frame at hand, and everything is verifiable either way.
 
-Layout — 100 bits, big-endian, 10 words from the 1024-word list:
+One codec for every chant — words are 10-bit symbols; a chant is a self-describing stream:
 
 ```
- 2  version            (1)
-12  dimension id       first 12 bits of sha256(stream id)
-20  tick seq           the frame's seq
-18  frame-hash prefix  first 18 bits of the frame hash
-14  field 1            log-quantized: code = round(ln(v)/ln(1e15) × 16383); 0 = zero/absent
-14  field 2            (which numbers ride is declared per dimension in chants/MISSIONS.json)
-14  field 3
- 6  checksum           low 6 bits of sha256 over the 94 bits above
+word 0   header   2 version | 3 kind | 5 reserved
+word 1   length   10 bits: number of body words (≤ 1023 per chant; a chant book is many chants)
+body     kind-specific, big-endian, zero-padded to a word boundary
+last     checksum 10 bits of sha256(header|length|body) — one misheard word refuses
 ```
 
-Precision is honest and uniform: ~0.21% relative across 1 … 1e15 (BTC at $80k ± $170, a
-$2.7T market cap ± $6B). A misheard word fails the checksum; a wrong version refuses.
+Four kinds, one wordlist:
 
-What a mission chant summons offline is a **mission tile**:
+| kind | carries | body | offline result |
+|---|---|---|---|
+| **SEED** (4) | a *program*, no data | 12 dimension id · ops (3-bit op + operands), read until the last full op | the cached SDK compiles it; `wear` runs it on any frame of that dimension → exact tile |
+| **LENS** (2) | one fixed algorithm, no data | 12 dimension id · 6 lens id · params | `wear` on a frame → exact tile |
+| **MISSION** (1) | a lens **plus a snapshot** | 12 dim · 20 tick · 18 hash prefix · 12 field mask · 14 bits per field (log-quantized, 1e-6 … 1e15, ~0.3%) | `recite` → a limited tile with nothing but the wordlist; `attest` proves any full frame against the words |
+| **BOOK** (3) | exact bytes | 16 length · zlib(JSON) | `recite` → the tile itself, byte-exact (a 1.2 KB frame ≈ 450 words — a page) |
 
-```json
-{ "schema": "dogg/0-mission-tile", "dimension": "markets:@kody-w/dogg-markets",
-  "tick": 30, "frame_hash_prefix18": "2fe58",
-  "fields": { "btc_usd": {"value": 79600, "unit": "USD"} },
-  "limited": true, "offline_reconstructed": true, "precision": "log-quantized, ~0.21% relative" }
+The seed grammar (every bit sequence is a valid program, like every Minecraft seed is a world):
+
+```
+0 select f        1 delta f          2 ratio a b        3 above f thr
+4 below f thr     5 sum a b          6 change_pct f     7 max_of a b
+f, a, b: 4-bit index into the dimension's field table (chants/MISSIONS.json); thr: 14-bit log code
 ```
 
-`limited: true` is part of the contract: a tile is a summary and says so. When any full frame
-reaches you — a peer, a QR, a bundle, the network — `attest` proves it against the words:
-**MATCH** (same tick, hashes recompute, fields re-encode to the same words), **DIFFERENT-TICK**
-(same stream, another tick — the chant was older or newer), **FORGED** (claims the tick but
-does not re-encode), **FORGED-OR-FOREIGN** (not this stream). A tile can be **hotloaded** into a
-brainstem as a single-file cartridge agent that answers from it and names its own limits.
+Verdicts for `attest`: **MATCH** · **DIFFERENT-TICK** · **FORGED** · **FORGED-OR-FOREIGN** ·
+**FRAME-INVALID**. A seed or lens cut for one dimension refuses to be worn on another. Any tile
+can be **hotloaded** into a brainstem as a single-file cartridge that names its own limits.
 
-Reference client: `dogg.py mission <stream-id>` · `recite W1…W10` · `attest W1…W10 frame.json`
-· `hotload W1…W10 [--into DIR]`.
+Reference client: `dogg.py seed | lens | mission | inscribe` to mint · `recite` (any kind, offline)
+· `wear W… frame.json [prev.json]` · `attest W… frame.json` · `hotload W… [--into DIR]`.
 
 High-frequency chains use **sealed epoch bundles + a flat tail** so directories stay
 bounded forever: `HEAD.json` carries `epoch_size` (E) and `sealed_epochs` (K); frames
