@@ -1,0 +1,77 @@
+{
+  "spec": "rapp/1",
+  "kind": "world.snapshot",
+  "stream_id": "world:@kody-w/dogg",
+  "seq": 333,
+  "utc": "2026-08-28T10:00:32.246Z",
+  "payload": {
+    "tick": 427,
+    "tick_frame": "7ee8184a0bab939229028d54c79e008d9a436bee1cadef8e21c0eb8fe0d86032",
+    "fetched_utc": "2026-08-28T10:00:32.246Z",
+    "world": {
+      "btc_block_height": {
+        "height": 964411
+      },
+      "btc_usd": {
+        "spot": "79311.255"
+      },
+      "fx_usd": {
+        "EUR": "0.8583",
+        "GBP": "0.7358",
+        "JPY": "159.3272",
+        "CNY": "6.7372"
+      },
+      "btc_fees": {
+        "fastest_sat_vb": 2,
+        "hour_sat_vb": 1
+      },
+      "btc_mempool": {
+        "tx_count": 81787
+      },
+      "earthquakes_past_hour": {
+        "count": 8,
+        "max_mag": "5.0"
+      },
+      "iss": {
+        "lat": "-51.736",
+        "lon": "82.344"
+      },
+      "space_weather": {
+        "kp": "1.0",
+        "at": "2026-08-28T06:00:00"
+      },
+      "grid_carbon_gb": {
+        "gco2_kwh": 74,
+        "index": "low"
+      },
+      "hn_top": {
+        "id": 49476143,
+        "title": "Hilariously Fast Volume Computation with the Divergence Theorem"
+      },
+      "prediction_markets": {
+        "top_by_volume": [
+          {
+            "question": "LoL: HANJIN BRION vs BNK FEARX - Game 1 Winner",
+            "yes_price": "0.0005"
+          },
+          {
+            "question": "LoL: EDward Gaming vs Ninjas in Pyjamas - Game 2 Winner",
+            "yes_price": "0.0005"
+          },
+          {
+            "question": "LoL: HANJIN BRION vs BNK FEARX - Game 2 Winner",
+            "yes_price": "0.9995"
+          }
+        ]
+      }
+    },
+    "sources_failed": [
+      "crypto_market"
+    ]
+  },
+  "payload_hash": "5518079defae59fb8fdabf3d2ac8d8690c217295f891407986756e7b27f0e15f",
+  "prev": "8d07eb8a335e028cd3c704c70cff90a969067ca69f310acbebbb4f639668bf1a",
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "a76f013161736832a326016725fe0ec6acf50beb1c3480b656dfb34a7d145026"
+}
