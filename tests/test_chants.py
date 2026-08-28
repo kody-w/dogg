@@ -80,6 +80,15 @@ class Codec(unittest.TestCase):
         self.assertGreater(len(pages), 1)
         self.assertEqual(dogg.as_words(list(reversed(pages))), words)  # any page order
 
+    def test_ndef_record_is_well_formed_and_round_trips(self):
+        words = w(dogg.mission_encode(DIM, FRAME))
+        msg = dogg.ndef_uri(dogg.to_uri(words))
+        self.assertEqual(msg[0] & 0xD7, 0xD1)          # MB, ME, SR, TNF=well-known
+        self.assertEqual(msg[1], 1); self.assertEqual(msg[3:4], b"U"); self.assertEqual(msg[4], 0)
+        uri = msg[5:5 + msg[2] - 1].decode()
+        self.assertEqual(dogg.from_uri(uri), words)
+        self.assertTrue(any(fits for _, _, fits in dogg.ndef_pages(words)))
+
     def test_codebook_gate(self):
         self.assertEqual(dogg.codebook_check(), [], "codebook drift or dimension-id collision")
 

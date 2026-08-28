@@ -129,6 +129,13 @@ of ≤ ~300 characters reliably — longer chants page as `dogg:<v>:<n>:<p>/<t>:
 in any order); and a printed **chant book**: one square per chant with the words under it, so a
 phone scans it and a human can still read it aloud. Worst case is paper.
 
+**Worn tiles — NFC / RFID.** A tag is a carrier like paper: it holds the `dogg:` URI as one
+NDEF well-known URI record (`dogg.py ndef` emits the bytes). Tap a wristband, a ring, a sticker
+on a door, and the reader holds the chant — the person is the summon. Sizing is honest: an
+NTAG213 (~144 B) carries a mission or a seed; an NTAG216 (~888 B) carries a whole BOOK frame;
+ISO15693 / DESFire tags carry a chant book. Longer chants page exactly as QR does, one page per
+tag, reassembled in any order.
+
 **The codebook is append-only.** `chants/CODEBOOK.lock` pins sha256 of the word list, the op
 table and every dimension's field table; `dogg.py check` (run in CI) refuses drift and refuses
 two dimensions sharing a 12-bit id. Words, ops and fields may be *appended*, never reordered or

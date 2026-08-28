@@ -24,6 +24,7 @@
   python3 dogg.py wear W1 … Wn <frame.json> [prev.json]  run a lens or seed on the frame you hold
   python3 dogg.py uri W1 … Wn                 the same chant as a dense dogg: URI (any verb accepts either)
   python3 dogg.py book <out.html> "W1 … Wn" … a printable chant book: one QR per chant, words under it
+  python3 dogg.py ndef [--hex] W1 … Wn        the NDEF URI record(s) to write on an NFC/RFID tag — a worn tile
   python3 dogg.py kit <dir>                   export the cacheable machinery (SDK + codebook + lock)
   python3 dogg.py lock | check                re-issue / verify chants/CODEBOOK.lock (append-only codebook)
 
@@ -511,6 +512,32 @@ def book_page(chants, title="dogg chant book"):
             + "".join(cards))
 
 
+# ── Worn tiles: NFC / RFID ──────────────────────────────────────────────────
+# A tag is a carrier like paper: it holds the dogg: URI as an NDEF URI record (NFC Forum
+# RTD-URI). Tap it and the reader has the chant — a wristband, a ring, a sticker on a door.
+# Sizing is real: NTAG213 ≈ 144 usable bytes (a mission or seed), NTAG215 ≈ 504, NTAG216 ≈ 888
+# (a whole BOOK frame), ICODE/ISO15693 up to ~8 KB (a chant book on one tag); UHF RFID user
+# memory 64 B–8 KB. Longer chants page exactly like QR, one page per tag.
+TAGS = [("NTAG213", 144), ("NTAG215", 504), ("NTAG216", 888), ("ICODE SLIX2 (ISO15693)", 2528), ("MIFARE DESFire 8K", 8192)]
+
+def ndef_uri(uri):
+    """NDEF message bytes carrying one well-known URI record (no prefix abbreviation: 0x00)."""
+    payload = b"\x00" + uri.encode()
+    if len(payload) < 256:
+        header = bytes([0xD1, 0x01, len(payload)]) + b"U"      # MB|ME|SR, type len 1, payload len, type 'U'
+    else:
+        header = bytes([0xC1, 0x01]) + len(payload).to_bytes(4, "big") + b"U"
+    return header + payload
+
+def ndef_pages(words):
+    """one NDEF message per QR-style page; returns [(page_uri, ndef_bytes, fits)]"""
+    out = []
+    for pg in uri_pages(to_uri(words)):
+        msg = ndef_uri(pg)
+        fits = [name for name, cap in TAGS if len(msg) + 5 <= cap]     # +5: TLV wrapper the tag adds
+        out.append((pg, msg, fits))
+    return out
+
 # ── BOOK: an entire tile in words — exact bytes, any size ───────────────────
 def inscribe(obj):
     import zlib
@@ -675,6 +702,12 @@ def main():
         # book <out.html> then one chant per remaining arg: a quoted word string or a dogg: URI
         out = pathlib.Path(rest[0]); chants = [a.split() if not a.startswith("dogg:") else [a] for a in rest[1:]]
         out.write_text(book_page(chants)); print(f"chant book written: {out} ({len(chants)} chants) — print it; the codes and the words are the same bits")
+    elif cmd == "ndef":
+        # ndef [--hex] W… : the NDEF record bytes to write on a tag (one message per page)
+        hexout = "--hex" in rest; words = as_words([a for a in rest if a != "--hex"])
+        for i, (pg, msg, fits) in enumerate(ndef_pages(words), 1):
+            print(f"# page {i}: {len(msg)} bytes — fits: {', '.join(fits) or 'no listed tag; use a larger tag or split'}")
+            print(msg.hex() if hexout else pg)
     elif cmd == "kit":
         dest = pathlib.Path(rest[0]).expanduser(); (dest / "tools").mkdir(parents=True, exist_ok=True); (dest / "chants").mkdir(exist_ok=True)
         import shutil
