@@ -21,6 +21,10 @@
   python3 dogg.py seed <stream-id> <op args>… SEED chant: a program in words — select f, delta f,
                                               ratio a b, sum a b, max_of a b, change_pct f,
                                               above f=v, below f=v — any length, every seed valid
+  python3 dogg.py spell [name] | spell --add <name> W1 … Wn "meaning"
+                                              a named spell: a short name cached to a full SEED/LENS
+                                              chant (chants/SPELLS.json, append-only). wear/recite/attest
+                                              accept a spell NAME anywhere words are expected.
   python3 dogg.py wear W1 … Wn <frame.json> [prev.json]  run a lens or seed on the frame you hold
   python3 dogg.py uri W1 … Wn                 the same chant as a dense dogg: URI (any verb accepts either)
   python3 dogg.py book <out.html> "W1 … Wn" … a printable chant book: one QR per chant, words under it
@@ -461,8 +465,36 @@ def from_uri(text):
     WL = wordlist()
     return [WL[(val >> (10 * (n - 1 - i))) & 1023] for i in range(n)]
 
+# ── Named spells: a short name cached to a full chant ───────────────────────
+# chants/SPELLS.json is append-only: {"spells": {name: {dimension, words, meaning}}}.
+# A spell caches a SEED or LENS chant so an agent (or a person) never re-derives a
+# common summon; `wear` and `recite` accept a spell NAME anywhere words are expected
+# (see as_words below). Adding refuses an existing name or words that fail to check.
+def spell_registry(action="list", name=None, words=None, meaning=None, required=True):
+    path = ROOT / "chants" / "SPELLS.json"
+    doc = json.loads(path.read_text()) if path.exists() else {"schema": "dogg/0-spells", "spells": {}}
+    spells = doc.setdefault("spells", {})
+    if action == "add":
+        if name in spells: raise ValueError(f"spell {name!r} already exists — spells are append-only; pick a new name")
+        kind, body = chant_unpack(words)          # raises ValueError if the words do not check
+        if kind not in (KIND_SEED, KIND_LENS): raise ValueError("a spell caches a SEED or LENS chant only")
+        dimension = _resolve_dim(body.get(12))    # dimension id is always the body's first 12 bits for SEED/LENS
+        entry = {"dimension": dimension, "words": [w.upper() for w in words], "meaning": meaning}
+        spells[name] = entry
+        path.write_text(json.dumps(doc, indent=1) + "\n")
+        return entry
+    if action == "get":
+        entry = spells.get(name)
+        if entry is None and required: raise ValueError(f"no such spell: {name!r}")
+        return entry
+    return spells
+
 def as_words(args):
-    """accept words, a single dogg: URI, or several page URIs anywhere a chant is expected."""
+    """accept words, a single dogg: URI, several page URIs, or a single spell NAME (chants/SPELLS.json)
+    anywhere a chant is expected."""
+    if len(args) == 1 and not args[0].startswith("dogg:"):
+        spell = spell_registry(action="get", name=args[0], required=False)
+        if spell is not None: return list(spell["words"])
     if args and all(a.startswith("dogg:") for a in args): return from_uri(join_pages(list(args)))
     return list(args)
 
@@ -776,6 +808,18 @@ def main():
                 f, v = args[0].split("="); args = [f, float(v)]; n = 1
             prog.append((op, *args)); i += 1 + n
         print(seed_make(dim, prog))
+    elif cmd == "spell":
+        # spell                         list every named spell
+        # spell <name>                  print its words
+        # spell --add <name> W1…Wn "meaning"   mint a new name (refuses a dup name or bad words)
+        if not rest:
+            print(json.dumps(spell_registry(), indent=1))
+        elif rest[0] == "--add":
+            name, words, meaning = rest[1], rest[2:-1], rest[-1]
+            entry = spell_registry(action="add", name=name, words=words, meaning=meaning)
+            print(f"spell {name!r} cast for {entry['dimension']}: {' '.join(entry['words'])}")
+        else:
+            print(" ".join(spell_registry(action="get", name=rest[0])["words"]))
     elif cmd == "uri":
         print(to_uri(as_words(rest)))
     elif cmd == "book":

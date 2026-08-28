@@ -1,0 +1,87 @@
+{
+ "schema": "dogg/0-spells",
+ "_comment": [
+  "Named spells: a short name cached to a full chant (SEED or LENS words), so an agent never",
+  "has to re-derive a common summon. Append-only: a name, once minted, never changes meaning —",
+  "a correction is a NEW name, never an edit to this one. `dogg.py spell <name>` prints the words;",
+  "`--add` refuses an existing name or words that fail to check (chant_unpack must succeed).",
+  "wear/recite/attest accept a spell NAME anywhere words are expected (see as_words in dogg.py)."
+ ],
+ "spells": {
+  "btc-alarm-70k": {
+   "dimension": "markets:@kody-w/dogg-markets",
+   "words": [
+    "WILD",
+    "SHARD",
+    "PROVOKE",
+    "STARK",
+    "ARROW",
+    "JADE",
+    "BATTLEMENT"
+   ],
+   "meaning": "fires when BTC spot crosses above 70000 USD"
+  },
+  "eth-alarm-3k": {
+   "dimension": "markets:@kody-w/dogg-markets",
+   "words": [
+    "WILD",
+    "SHARD",
+    "PROVOKE",
+    "STARK",
+    "RUSE",
+    "PATRIARCH",
+    "STOKE"
+   ],
+   "meaning": "fires when ETH spot crosses above 3000 USD"
+  },
+  "sunrise-atlanta": {
+   "dimension": "sky:@kody-w/dogg-sky",
+   "words": [
+    "WILD",
+    "RUNE",
+    "BRINK",
+    "RAY",
+    "WELD",
+    "BROOK"
+   ],
+   "meaning": "reads sunrise, sunset and day length for Atlanta"
+  },
+  "moon-watch": {
+   "dimension": "sky:@kody-w/dogg-sky",
+   "words": [
+    "WILD",
+    "RUNE",
+    "BRINK",
+    "RAY",
+    "CHISEL",
+    "IRE"
+   ],
+   "meaning": "reads the current moon illumination percent"
+  },
+  "flood-watch": {
+   "dimension": "water:@kody-w/dogg-water",
+   "words": [
+    "WILD",
+    "SHARD",
+    "GRANITE",
+    "STARK",
+    "STREAM",
+    "SILL",
+    "COMPOUND"
+   ],
+   "meaning": "fires when the gauge crosses 90% of flood stage"
+  },
+  "gauge-select": {
+   "dimension": "water:@kody-w/dogg-water",
+   "words": [
+    "WILD",
+    "RUNE",
+    "GRANITE",
+    "RAY",
+    "RUNE",
+    "RHYME"
+   ],
+   "meaning": "reads the raw gauge height and its flood stage threshold"
+  }
+ }
+}
