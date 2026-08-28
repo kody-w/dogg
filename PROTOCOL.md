@@ -123,6 +123,8 @@ Verdicts for `attest`: **MATCH** · **DIFFERENT-TICK** · **FORGED** · **FORGED
 **FRAME-INVALID**. A seed or lens cut for one dimension refuses to be worn on another. Any tile
 can be **hotloaded** into a brainstem as a single-file cartridge that names its own limits.
 
+**The registry is append-only; readers de-duplicate.** A dimension registered more than once keeps every frame on the chain; clients resolve each dimension to its newest registry frame (last write wins). Nothing is ever removed from the chain.
+
 **Summonable means reduced.** A dimension is *orientable* the moment it is on the registry.
 It is *summonable* only when it has declared its own reduction — `mission.json` at the node's
 root: up to twelve positive magnitudes of its frame that are mission-critical, in a fixed

@@ -91,13 +91,15 @@ def words_to_seed(words, WL):
     return seed
 
 def registry():
+    """registered dimensions, de-duplicated reader-side: the chain is append-only, so a dimension
+    registered twice keeps both frames on the chain and resolves to the NEWEST frame here."""
     meta, src = get_json("registry/HEAD.json")
-    dims = []
+    by_dim = {}
     for i in range(meta["count"]):
         f, _ = get_json(f"registry/{i}.json")
         if f["kind"] == "registry.dimension":
-            dims.append(f["payload"])
-    return dims
+            by_dim[f["payload"]["dimension"]] = f["payload"]   # last write wins
+    return list(by_dim.values())
 
 def latest(d):
     theme = d["dimension"].split(":@", 1)[0]
