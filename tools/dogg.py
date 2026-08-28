@@ -180,7 +180,10 @@ class Bits:
 def chant_pack(kind, body):
     WL = wordlist()
     pad = (-body.n) % 10
-    body_bits = body.val << pad; nwords = (body.n + pad) // 10
+    # SEED bodies pad with ONES: at most 9 pad bits, and every op needs ≥ 7 bits with code 7
+    # needing 11, so ones can never parse as a phantom op. Other kinds read fixed widths.
+    fill = ((1 << pad) - 1) if kind == KIND_SEED else 0
+    body_bits = (body.val << pad) | fill; nwords = (body.n + pad) // 10
     if nwords > 1023: raise ValueError("a single chant holds at most 1023 body words — split it into a chant book")
     header = (CHANT_VERSION << 8) | (kind << 5)
     stream = Bits().put(10, header).put(10, nwords)
@@ -404,7 +407,10 @@ def seed_make(dimension, program):
 def seed_compile(body):
     """decode ops until the body cannot hold another full op — every seed is a valid program."""
     dim_id = body.get(12); prog = []
-    while body.n - body.pos >= 3:
+    while body.n - body.pos >= 7:
+        left = body.n - body.pos
+        if left <= 9 and ((body.val >> (body.n - body.pos - left)) & ((1 << left) - 1)) == (1 << left) - 1:
+            break                                   # only padding remains
         code = body.get(3); widths = OPS[code][1]
         if body.n - body.pos < sum(widths): break
         prog.append((OPS[code][0], [body.get(w) for w in widths]))
