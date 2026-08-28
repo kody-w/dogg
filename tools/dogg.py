@@ -24,6 +24,8 @@
   python3 dogg.py wear W1 … Wn <frame.json> [prev.json]  run a lens or seed on the frame you hold
   python3 dogg.py uri W1 … Wn                 the same chant as a dense dogg: URI (any verb accepts either)
   python3 dogg.py book <out.html> "W1 … Wn" … a printable chant book: one QR per chant, words under it
+  python3 dogg.py listen "<transcript>" [--frame f.json] [--act [--into DIR]]
+                                              a spoken chant: snap to the codebook, checksum, READ BACK, then act
   python3 dogg.py ndef [--hex] [--web] W1 … Wn  NDEF record(s) for an NFC/RFID tag; --web = tap opens recite.html
   python3 dogg.py kit <dir>                   export the cacheable machinery (SDK + codebook + lock)
   python3 dogg.py lock | check                re-issue / verify chants/CODEBOOK.lock (append-only codebook)
@@ -220,6 +222,12 @@ def codebook_check():
         for k, v in lock["sha256"].items():
             if now["sha256"].get(k) != v: problems.append(f"codebook drift: {k} changed but CODEBOOK.lock was not re-issued")
     return problems
+
+def phonetic_hazards():
+    """the permanent wordlist's edit-distance-1 pairs — a mishearing hazard the codebook law
+    forbids fixing by edit; `listen` repairs by checksum search and always reads back instead."""
+    WL = wordlist()
+    return [(a, b) for i, a in enumerate(WL) for b in WL[i + 1:] if _edit(a, b) <= 1]
 
 def codebook_fingerprint():
     wl = "\n".join(wordlist())
@@ -538,6 +546,75 @@ def ndef_pages(words):
         out.append((pg, msg, fits))
     return out
 
+# ── Listen: a chant from a human's head into an offline machine, by voice ──
+# Any speech engine turns sound into a transcript; this snaps each token to the nearest
+# codebook word (edit distance ≤ 2 — absorbs STT slips), then the checksum decides. A
+# misheard chant is refused with "say again", never acted on. Before acting, the machine
+# READS BACK the tile it heard — aviation discipline: nothing moves until both sides agree.
+def _edit(a, b):
+    if abs(len(a) - len(b)) > 2: return 3
+    prev = list(range(len(b) + 1))
+    for i, ca in enumerate(a, 1):
+        cur = [i]
+        for j, cb in enumerate(b, 1):
+            cur.append(min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (ca != cb)))
+        prev = cur
+    return prev[-1]
+
+def snap(transcript):
+    """transcript text -> codebook words; returns (words, corrections)."""
+    WL = wordlist(); idx = set(WL)
+    toks = [t for t in "".join(ch if ch.isalpha() or ch.isspace() else " " for ch in transcript).upper().split()]
+    words, fixes = [], []
+    for t in toks:
+        if t in idx: words.append(t); continue
+        best = min(WL, key=lambda w: _edit(t, w)); d = _edit(t, best)
+        if d <= 2: words.append(best); fixes.append(f"{t}->{best}")
+        else: words.append(t)   # left as-is: chant_unpack will name it
+    return words, fixes
+
+def readback(tile):
+    """what the machine says back before it acts — short enough to confirm by ear."""
+    k = tile.get("schema", "")
+    if "mission" in k:
+        fields = ", ".join(f"{n} {v['value']} {v.get('unit','')}".strip() for n, v in tile["fields"].items())
+        return f"I heard a mission tile for {tile['dimension']} at tick {tile['tick']}: {fields}. Confirm?"
+    if "seed" in k: return f"I heard a program for {tile.get('dimension')}: {'; '.join(tile.get('program', []))}. Confirm?"
+    if "lens" in k: return f"I heard a {tile.get('lens')} key for {tile.get('dimension')}. Confirm?"
+    if "book" in k: return f"I heard a book tile of {len(json.dumps(tile.get('tile', {})))} bytes. Confirm?"
+    return "I heard a chant I cannot describe. Confirm?"
+
+def repair(words):
+    """the checksum failed: try every single-word neighbour (edit distance ≤ 1) and accept only
+    when exactly ONE candidate checks — ambiguity or nothing means SAY-AGAIN, never a guess."""
+    WL = wordlist(); hits = []
+    for i, w in enumerate(words):
+        for cand in WL:
+            if cand != w and _edit(w, cand) <= 1:
+                trial = words[:i] + [cand] + words[i + 1:]
+                try: chant_unpack(trial); hits.append((i, w, cand))
+                except ValueError: pass
+    return hits
+
+def listen(transcript, frame=None, prev=None):
+    words, fixes = snap(transcript)
+    try:
+        tile = recite(words)
+    except ValueError as ex:
+        hits = repair(words) if "checksum" in str(ex) else []
+        if len(hits) == 1:
+            i, w, cand = hits[0]; words = words[:i] + [cand] + words[i + 1:]; fixes.append(f"{w}->{cand} (checksum-repaired)")
+            tile = recite(words)
+        elif len(hits) > 1:
+            return {"heard": words, "snapped": fixes, "verdict": "SAY-AGAIN", "why": "ambiguous: " + "; ".join(f"{w}->{c}" for _, w, c in hits[:4])}
+        else:
+            return {"heard": words, "snapped": fixes, "verdict": "SAY-AGAIN", "why": str(ex)}
+    out = {"heard": words, "snapped": fixes, "verdict": "HEARD", "tile": tile, "readback": readback(tile)}
+    if frame is not None and tile.get("schema") in ("dogg/0-seed-key", "dogg/0-lens-key"):
+        try: out["worn"] = wear(words, frame, prev)
+        except ValueError as ex: out["worn_error"] = str(ex)
+    return out
+
 # ── BOOK: an entire tile in words — exact bytes, any size ───────────────────
 def inscribe(obj):
     import zlib
@@ -702,6 +779,18 @@ def main():
         # book <out.html> then one chant per remaining arg: a quoted word string or a dogg: URI
         out = pathlib.Path(rest[0]); chants = [a.split() if not a.startswith("dogg:") else [a] for a in rest[1:]]
         out.write_text(book_page(chants)); print(f"chant book written: {out} ({len(chants)} chants) — print it; the codes and the words are the same bits")
+    elif cmd == "listen":
+        # listen "<transcript>" [--frame f.json] [--act [--into DIR]] : voice -> chant -> readback -> (act)
+        frame = json.loads(pathlib.Path(rest[rest.index("--frame") + 1]).read_text()) if "--frame" in rest else None
+        act = "--act" in rest; into = pathlib.Path(rest[rest.index("--into") + 1]).expanduser() if "--into" in rest else None
+        text = " ".join(a for a in rest if not a.startswith("--") and not a.endswith(".json") and a != (str(into) if into else None))
+        res = listen(text, frame)
+        print(json.dumps({k: v for k, v in res.items() if k != "tile"}, indent=1))
+        if act and res["verdict"] == "HEARD":
+            name, src = mission_cartridge(res["tile"]); dest = into or pathlib.Path(os.path.expanduser("~/.brainstem/src/rapp_brainstem/agents"))
+            dest.mkdir(parents=True, exist_ok=True); (dest / name).write_text(src); print(f"acted: hotloaded {dest / name}")
+        elif act:
+            print("not acted: say again")
     elif cmd == "ndef":
         # ndef [--hex] [--web] W… : the NDEF record(s) to write on a tag (one message per page).
         # --web wraps each page as https://…/recite.html#<uri>: phones open https records from a
@@ -728,6 +817,8 @@ def main():
         (ROOT / "chants" / "CODEBOOK.lock").write_text(json.dumps(codebook_fingerprint(), indent=1) + "\n"); print("CODEBOOK.lock re-issued")
     elif cmd == "check":
         problems = codebook_check()
+        hz = phonetic_hazards()
+        print(f"note: {len(hz)} edit-distance-1 word pairs (mishearing hazard; listen repairs by checksum + readback)")
         print("\n".join(problems) if problems else "codebook OK: no id collisions, lock matches"); sys.exit(1 if problems else 0)
     elif cmd == "wear":
         files = [a for a in rest if a.endswith(".json")]; words = as_words([a for a in rest if not a.endswith(".json")])
