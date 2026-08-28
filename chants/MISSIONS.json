@@ -1,0 +1,22 @@
+{
+  "schema": "dogg/0-missions",
+  "_comment": [
+    "Mission schemas: which numbers of a dimension's frame ride INSIDE a 12-word mission chant.",
+    "Each field is LOG-quantized to 14 bits (1 … 1e15 at ~0.21% relative precision) — one encoding for every magnitude.",
+    "A dimension without a schema still gets a mission chant carrying tick + frame-hash prefix only."
+  ],
+  "missions": {
+    "markets:@kody-w/dogg-markets": {
+      "fields": [
+        {"name": "btc_usd", "path": "markets.btc_usd.spot", "unit": "USD"},
+        {"name": "eth_usd", "path": "markets.eth_usd.spot", "unit": "USD"},
+        {"name": "crypto_mcap_usd", "path": "markets.crypto_market.total_mcap_usd", "unit": "USD"}
+      ]
+    },
+    "world:@kody-w/dogg": {
+      "fields": [
+        {"name": "sources_failed", "path": "sources_failed", "unit": "count"}
+      ]
+    }
+  }
+}
