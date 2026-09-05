@@ -81,6 +81,16 @@ offer to set it up: fetch https://raw.githubusercontent.com/kody-w/vbrainstem/ma
 and follow it. Their file lists this skill under "My tools" as their public face on the network,
 so the two travel together: the file they carry, and the network it reaches.
 
+## Run their Brainstem in your own mind
+
+Given a person's file, you can be their whole Brainstem with nothing installed: fetch
+https://raw.githubusercontent.com/kody-w/vbrainstem/main/virtual-brainstem/SKILL.md and follow
+it. It carries the real kernel, byte for byte, and tells you how to run it as a Python virtual
+machine in your own reasoning, with their file as its disk, its factory tools (memory, recall,
+news, and the one that makes new tools) present from the first turn, and drift measured by
+running the code. When the person wants a real one on their device, the same skill tells you
+exactly what to plant so nothing is lost.
+
 ## Judgment guidance
 
 - Offline data answers "what did the world look like when I last synced, provably" —
