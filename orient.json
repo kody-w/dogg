@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-06T22:00:51.426Z",
+  "generated_utc": "2026-09-06T23:51:52.758Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 858,
-    "frame_hash": "133b822558db8dc84a9a324e13999ae0539d1541ff27411e28d777cb14f2d5e8",
-    "utc": "2026-09-06T22:00:47.977Z"
+    "seq": 859,
+    "frame_hash": "cdd4574cf0c8e2d3329b5b5b471ecf1576a655ec7c98f22b8124d67228aaea5e",
+    "utc": "2026-09-06T23:51:48.984Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 859,
-      "head_frame": "133b822558db8dc84a9a324e13999ae0539d1541ff27411e28d777cb14f2d5e8"
+      "count": 860,
+      "head_frame": "cdd4574cf0c8e2d3329b5b5b471ecf1576a655ec7c98f22b8124d67228aaea5e"
     },
     "world": {
-      "count": 763,
-      "head_frame": "f5c82817dd2d07d1e4c671cb529085ef63bf9694f776a2312e1a5d90e062993e"
+      "count": 764,
+      "head_frame": "025589900b39aa02e1b8a873ade8c9032e6800481cf055e3e8930d0b6e5a5c91"
     },
     "registry": {
       "count": 22,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "f5c82817dd2d07d1e4c671cb529085ef63bf9694f776a2312e1a5d90e062993e",
-    "seq": 762,
-    "utc": "2026-09-06T22:00:50.972Z",
-    "tick": 858,
-    "tick_frame": "133b822558db8dc84a9a324e13999ae0539d1541ff27411e28d777cb14f2d5e8",
+    "frame_hash": "025589900b39aa02e1b8a873ade8c9032e6800481cf055e3e8930d0b6e5a5c91",
+    "seq": 763,
+    "utc": "2026-09-06T23:51:52.483Z",
+    "tick": 859,
+    "tick_frame": "cdd4574cf0c8e2d3329b5b5b471ecf1576a655ec7c98f22b8124d67228aaea5e",
     "data": {
       "btc_block_height": {
-        "height": 965837
+        "height": 965850
       },
       "btc_usd": {
-        "spot": "79902.185"
+        "spot": "80410.075"
       },
       "fx_usd": {
         "EUR": "0.8611",
@@ -58,49 +58,49 @@
         "CNY": "6.7344"
       },
       "crypto_market": {
-        "total_mcap_usd": "2706337677515",
-        "btc_dominance_pct": "59.1"
+        "total_mcap_usd": "2722221926450",
+        "btc_dominance_pct": "59.2"
       },
       "btc_fees": {
         "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 79416
+        "tx_count": 77471
       },
       "earthquakes_past_hour": {
-        "count": 3,
-        "max_mag": "4.9"
+        "count": 7,
+        "max_mag": "2.7"
       },
       "iss": {
-        "lat": "-2.640",
-        "lon": "-62.707"
+        "lat": "46.353",
+        "lon": "-33.214"
       },
       "space_weather": {
         "kp": "1.67",
         "at": "2026-09-06T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 88,
+        "gco2_kwh": 62,
         "index": "low"
       },
       "hn_top": {
-        "id": 49590611,
-        "title": "It took a year to ship WebAssembly in Anubis"
+        "id": 49590512,
+        "title": "GrapheneOS Overhauled Default Apps and Secure Clipboard"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "US Open ATP: Daniil Medvedev vs Frances Tiafoe",
-            "yes_price": "0.235"
+            "question": "US Open ATP: Ben Shelton vs Stefanos Tsitsipas",
+            "yes_price": "0.865"
           },
           {
-            "question": "Tampa Bay Rays vs. Texas Rangers",
-            "yes_price": "0.0005"
+            "question": "Will AfD win an absolute majority of seats in Sachsen-Anhalt?",
+            "yes_price": "0.002"
           },
           {
-            "question": "US Open ATP: Alex Michelsen vs Tomas Etcheverry",
-            "yes_price": "0.983"
+            "question": "Minnesota Twins vs. Chicago White Sox: O/U 8.5",
+            "yes_price": "0.16"
           }
         ]
       }
@@ -246,5 +246,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "7979b325328941e5fc0355e46d96c4bc8b5a6526efa2439ab147efef83eb3235"
+  "input_fingerprint": "7f1143315fea51e4d628ae8d869941da00f5dde47487e8cb7ceee0c33d4c062f"
 }
