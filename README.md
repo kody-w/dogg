@@ -1,7 +1,14 @@
 # The DOGG Thread
 
-**A public, append-only chain of [rapp/1](https://github.com/kody-w/rapp-1) frames — readable,
-joinable, and verified in your own browser.**
+**Public, append-only native DOGG (`dogg/0`) hash chains — readable,
+joinable, and integrity-checked in your own browser.**
+
+Native DOGG shares RAPP's envelope and hash domains, but native labels such as
+`tick:@kody-w/global` and `world:@kody-w/dogg` are **not frozen RAPP/1 stream IDs**.
+The historical `"spec": "rapp/1"` field and a green native hash check do not prove
+full RAPP/1 grammar or authenticated Consumer conformance. Native history stays
+unchanged. For a separate, conformant unsigned frame carrying exact native bytes,
+use the opt-in [Python → Node bridge](BRIDGE.md).
 
 **Read it (no code):** https://kody-w.github.io/dogg/ — the page recomputes every hash
 locally; the green checks are earned on your machine, not claimed by this repo.
@@ -27,10 +34,12 @@ said at that instant, chained to the tick anchor. "Right now" APIs only serve th
 present; this chain keeps every present, so "what did the world look like at tick N"
 is a verifiable, addressable object — and a context base any agent's own dimension
 frames can reference when catching up. Run it yourself: `python3 tools/world.py`.
-All CI-verified as rapp/1 chains.
+All checked by the existing native DOGG hash/link oracle in CI; that oracle is
+not the frozen RAPP/1 conformance checker.
 
 **Broadcast on it:** a published dimension is a **doggcast** — permissionless,
-subscribable by `git pull`, unforgeable by construction. Fork a template node and
+subscribable by `git pull`, with content-addressed integrity. Hashes alone do not
+authenticate an owner or establish a trusted genesis. Fork a template node and
 you're casting in minutes.
 
 **Use it now (one file, stdlib):** `curl -sO https://raw.githubusercontent.com/kody-w/dogg/main/tools/dogg.py && python3 dogg.py orient` — then `summon`, `incant`, `mirror`, `pack`, `receive`, `verify`.
@@ -41,9 +50,19 @@ through the gate, earn trust.
 
 **Technical walkthrough:** [the blog post](https://kody-w.github.io/dogg/post.html).
 
-Every push re-verifies the whole chain in CI with the reference implementation
-(`tools/verify_thread.py`). A red oracle means the chain is broken — fix the frames,
-never bypass the oracle.
+Every push re-verifies the native chains in CI with the native implementation
+(`tools/verify_thread.py` → `tools/rapp.py`). Investigate a red oracle; never bypass
+it or rewrite immutable history to satisfy a different protocol's grammar.
+
+## Opt-in RAPP/1 interoperability
+
+[`BRIDGE.md`](BRIDGE.md) contains the copy-paste cold-start workflow and the closed
+`dogg-rapp1-bridge/1` transport contract. Python exports one flat-tail native tick
+without changing it, using an isolated, source-pinned RAPP/1 implementation. A
+separate Node.js process verifies the transport and recovers the **original
+bytes** into a new directory. Identical exports to the same snapshot are no-ops.
+This is an unsigned/local snapshot bridge, not an egg, historical migration,
+live-writer switch, registry acceptance, or universal authenticated Consumer.
 
 ## The spellbook — chants of any length
 
