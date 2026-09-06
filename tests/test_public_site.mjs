@@ -298,5 +298,8 @@ test("HTML offers all audience paths and never interpolates source HTML or URL m
   const app = fs.readFileSync(path.join(ROOT, "site/app.mjs"), "utf8");
   assert(!/innerHTML|outerHTML|insertAdjacentHTML|document\.write|eval\(/.test(app));
   assert(app.includes("textContent"));
-  assert(!html.includes("https://kody-w.github.io/rapp-organism/"));
+  assert(html.includes('href="https://kody-w.github.io/rapp-organism/"'));
+  assert(html.includes("Query the public catalog"));
+  assert(html.includes('href="https://kody-w.github.io/rapp-organism/index.json"'));
+  assert(!html.includes("Catalog code · in development"));
 });
