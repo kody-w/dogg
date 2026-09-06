@@ -300,7 +300,7 @@ export function freshness(feed, observation, clock = Date.now()) {
     return { state: "partial", label: "Partial · some upstream readings unavailable", age_seconds: seconds };
   }
   return { state: seconds > feed.stale_after_seconds ? "stale" : "fresh",
-    label: seconds > feed.stale_after_seconds ? "Stale · update overdue" : "Fresh within this feed's target", age_seconds: seconds };
+    label: seconds > feed.stale_after_seconds ? "Stale · age limit exceeded" : "Fresh · within the configured age limit", age_seconds: seconds };
 }
 
 export function validateOrientation(value, clock = Date.now()) {

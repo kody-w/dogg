@@ -167,7 +167,7 @@ function makeCard(feed) {
   const controls = element("div", undefined, "feed-actions"), check = element("button", "Check once");
   check.type = "button"; check.setAttribute("aria-label", `Check ${feed.title} once`);
   controls.append(check, element("span", feed.expected_update_seconds === null ? "When the publisher adds an entry" :
-    `Target update: ${Math.round(feed.expected_update_seconds / 60)} min`, "metadata"));
+    `Expected update: ${Math.round(feed.expected_update_seconds / 60)} min · age limit: ${Math.round(feed.stale_after_seconds / 60)} min`, "metadata"));
   root.append(controls);
   cards.set(feed.id, { root, body, follow, check });
   follow.addEventListener("change", () => {
