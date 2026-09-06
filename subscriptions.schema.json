@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kody-w.github.io/dogg/subscriptions.schema.json",
+  "title": "DOGG starter roster application configuration",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "version", "title", "purpose", "canonical_url", "orientation_url", "catalog_code_url", "full_carrier", "feeds"],
+  "properties": {
+    "schema": {"const": "dogg-subscriptions/1"},
+    "version": {"type": "integer", "minimum": 1, "maximum": 9007199254740991},
+    "title": {"type": "string", "maxLength": 100},
+    "purpose": {"type": "string", "maxLength": 500},
+    "canonical_url": {"const": "https://kody-w.github.io/dogg/subscriptions.json"},
+    "orientation_url": {"const": "https://raw.githubusercontent.com/kody-w/dogg/main/orient.json"},
+    "catalog_code_url": {"const": "https://github.com/kody-w/rapp-organism"},
+    "full_carrier": {"const": "withheld"},
+    "feeds": {
+      "type": "array", "minItems": 1, "maxItems": 12,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "title", "purpose", "publisher", "repository", "path", "source_kind", "stream_id", "head_url", "records_url", "source_url", "default", "audiences", "topics", "refresh_seconds", "expected_update_seconds", "stale_after_seconds"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z][a-z0-9-]*\\.[a-z][a-z0-9-]*$", "maxLength": 64},
+          "title": {"type": "string", "minLength": 1, "maxLength": 100},
+          "purpose": {"type": "string", "minLength": 1, "maxLength": 500},
+          "publisher": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{0,38}$"},
+          "repository": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{0,38}/[a-z0-9][a-z0-9._-]{0,99}$"},
+          "path": {"type": "string", "pattern": "^[a-z][a-z0-9-]*/$"},
+          "source_kind": {"const": "native-dogg/0"},
+          "stream_id": {"type": "string", "minLength": 1, "maxLength": 256},
+          "head_url": {"type": "string", "format": "uri", "pattern": "^https://raw\\.githubusercontent\\.com/"},
+          "records_url": {"type": "string", "format": "uri", "pattern": "^https://raw\\.githubusercontent\\.com/"},
+          "source_url": {"type": "string", "format": "uri", "pattern": "^https://github\\.com/"},
+          "default": {"type": "boolean"},
+          "audiences": {"type": "array", "minItems": 1, "maxItems": 3, "uniqueItems": true, "items": {"enum": ["people", "ai", "developers"]}},
+          "topics": {"type": "array", "minItems": 1, "maxItems": 6, "uniqueItems": true, "items": {"type": "string", "pattern": "^[a-z][a-z0-9-]*$", "maxLength": 40}},
+          "refresh_seconds": {"type": "integer", "minimum": 300, "maximum": 3600},
+          "expected_update_seconds": {"type": ["integer", "null"], "minimum": 60, "maximum": 604800},
+          "stale_after_seconds": {"type": ["integer", "null"], "minimum": 60, "maximum": 2592000}
+        }
+      }
+    }
+  },
+  "$comment": "The executable validator additionally requires unique feed IDs, exact repository/path-derived HTTPS URLs, paired null cadence fields or stale >= expected, and full bounded duplicate-free integer-profile JSON. This is application configuration, not a DOGG or RAPP wire grammar."
+}

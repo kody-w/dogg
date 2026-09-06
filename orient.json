@@ -1,72 +1,106 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-08-31T04:40:49.121Z",
+  "generated_utc": "2026-09-06T16:32:47.035Z",
+  "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
+  "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 810,
-    "frame_hash": "c6fc4af9f4782991f914e0acdda2352a5bb65e284e20e642a903dedb3286e0f1",
-    "utc": "2026-08-31T04:40:23.818Z"
+    "seq": 854,
+    "frame_hash": "f0c203f679d94d4eb860666f6e2f9671a12ecac50b15934cc80c69e52f84331b",
+    "utc": "2026-09-06T12:32:28.211Z"
+  },
+  "status": {
+    "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
+    "world": {
+      "state": "current",
+      "ticks_behind": 0,
+      "sources_failed": [],
+      "last_refresh": "not-attempted",
+      "retained_last_good": false
+    },
+    "registry": {
+      "state": "current",
+      "records": 21,
+      "dimensions": 20
+    }
+  },
+  "sources": {
+    "ticks": {
+      "count": 855,
+      "head_frame": "f0c203f679d94d4eb860666f6e2f9671a12ecac50b15934cc80c69e52f84331b"
+    },
+    "world": {
+      "count": 759,
+      "head_frame": "bac59876588f32fd084ed275a35bd782e53d1b4b80d2c55389dcd7988abd3c4a"
+    },
+    "registry": {
+      "count": 21,
+      "head_frame": "e02ecd3d05daa6007af9ce38dca0a961fbd4200e82a87d1860e86756ba0deb83"
+    }
   },
   "world": {
-    "frame_hash": "0826c9ccaa6974b516b3ce80044f284e20ef2ec5c04b2f96ebb573b23e186706",
-    "seq": 714,
+    "frame_hash": "bac59876588f32fd084ed275a35bd782e53d1b4b80d2c55389dcd7988abd3c4a",
+    "seq": 758,
+    "utc": "2026-09-06T12:32:31.384Z",
+    "tick": 854,
+    "tick_frame": "f0c203f679d94d4eb860666f6e2f9671a12ecac50b15934cc80c69e52f84331b",
     "data": {
       "btc_block_height": {
-        "height": 964826
+        "height": 965765
       },
       "btc_usd": {
-        "spot": "77549.245"
+        "spot": "79969.955"
       },
       "fx_usd": {
-        "EUR": "0.8623",
-        "GBP": "0.7382",
-        "JPY": "160.0451",
-        "CNY": "6.7358"
+        "EUR": "0.8611",
+        "GBP": "0.7397",
+        "JPY": "156.1729",
+        "CNY": "6.7344"
       },
       "crypto_market": {
-        "total_mcap_usd": "2600843257667",
-        "btc_dominance_pct": "59.7"
+        "total_mcap_usd": "2708083425805",
+        "btc_dominance_pct": "59.2"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 79649
+        "tx_count": 80316
       },
       "earthquakes_past_hour": {
-        "count": 6,
-        "max_mag": "4.9"
+        "count": 12,
+        "max_mag": "5.2"
       },
       "iss": {
-        "lat": "-48.911",
-        "lon": "174.747"
+        "lat": "-34.200",
+        "lon": "51.447"
       },
       "space_weather": {
-        "kp": "3.0",
-        "at": "2026-08-31T00:00:00"
+        "kp": "1.33",
+        "at": "2026-09-06T09:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 80,
+        "gco2_kwh": 34,
         "index": "low"
       },
       "hn_top": {
-        "id": 49503601,
-        "title": "“I just chose words carefully”"
+        "id": 49585644,
+        "title": "Intellectual Fly Is Open"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "US Open ATP: Thiago Agustin Tirante vs Adrian Mannarino",
-            "yes_price": "0.095"
+            "question": "Will Manchester United FC win on 2026-09-06?",
+            "yes_price": "0.495"
           },
           {
-            "question": "Will CF Monterrey win on 2026-08-30?",
-            "yes_price": "0.0005"
+            "question": "LoL: T1 vs Dplus KIA (BO5) - LCK Playoffs",
+            "yes_price": "0.9995"
           },
           {
-            "question": "Will the U.S. invade Iran before 2027?",
-            "yes_price": "0.155"
+            "question": "LoL: T1 vs Dplus KIA - Game 3 Winner",
+            "yes_price": "0.9995"
           }
         ]
       }
@@ -205,5 +239,6 @@
     "verdict:@kody-w/dogg-verdict": "PLATEAU CRUMB WARD VROOM NICKEL ORE WELD",
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
-  }
+  },
+  "input_fingerprint": "da2b010b4a0f3ff4715cb34bed68b213d6caba17910d9d314d2bfc99ebd3a7d0"
 }
