@@ -4,6 +4,7 @@ import json
 import os
 from pathlib import Path
 import shutil
+import subprocess
 import sys
 import unittest
 import uuid
@@ -144,6 +145,52 @@ class Orientation(unittest.TestCase):
         write_chain(self.root, "world", "world:@kody-w/dogg", [
             ("world.snapshot", {"tick": 2, "tick_frame": "0" * 64, "world": {}, "sources_failed": []})])
         self.assertEqual(self.generate()[1]["status"]["world"]["state"], "error")
+
+    def browser_accepts(self, value):
+        result = subprocess.run(
+            ["node", "--input-type=module", "-e",
+             "import {validateOrientation} from './site/data.mjs';"
+             "let raw='';for await (const chunk of process.stdin) raw+=chunk;"
+             "validateOrientation(JSON.parse(raw));"],
+            cwd=ROOT, input=json.dumps(value), text=True, capture_output=True, check=False,
+        )
+        self.assertEqual(result.returncode, 0, result.stderr)
+
+    def test_stale_world_bad_reference_retains_last_good_and_valid_directory(self):
+        _, previous = self.generate()
+        for reference in (None, "", "bad", 42):
+            with self.subTest(reference=reference):
+                write_chain(self.root, "world", "world:@kody-w/dogg", [
+                    ("world.snapshot", {"tick": 1, "tick_frame": reference,
+                                        "world": {}, "sources_failed": []})])
+                _, value = self.generate()
+                self.assertEqual(value["status"]["world"]["state"], "error")
+                self.assertTrue(value["status"]["world"]["retained_last_good"])
+                self.assertEqual(value["world"], previous["world"])
+                self.assertEqual(value["dimensions"], previous["dimensions"])
+                self.browser_accepts(value)
+        write_chain(self.root, "world", "world:@kody-w/dogg", [
+            ("world.snapshot", {"tick": 1, "world": {}, "sources_failed": []})])
+        _, missing = self.generate()
+        self.assertEqual(missing["world"], previous["world"])
+        self.assertEqual(missing["status"]["world"]["state"], "error")
+        self.browser_accepts(missing)
+
+    def test_stale_world_without_prior_data_is_explicit_error_not_broken_projection(self):
+        write_chain(self.root, "world", "world:@kody-w/dogg", [
+            ("world.snapshot", {"tick": 1, "tick_frame": None, "world": {}, "sources_failed": []})])
+        _, value = self.generate()
+        self.assertEqual(value["status"]["world"]["state"], "error")
+        self.assertIsNone(value["world"])
+        self.assertFalse(value["status"]["world"]["retained_last_good"])
+        self.browser_accepts(value)
+        write_chain(self.root, "world", "world:@kody-w/dogg", [
+            ("world.snapshot", {"tick": 1, "tick_frame": self.ticks[1]["frame_hash"],
+                                "world": {}, "sources_failed": []})])
+        _, valid = self.generate()
+        self.assertEqual(valid["status"]["world"]["state"], "stale")
+        self.assertFalse(valid["status"]["world"]["retained_last_good"])
+        self.browser_accepts(valid)
 
     def test_native_epoch_tail_is_full_read_and_reordering_truncation_refuses(self):
         self.assertEqual([frame["seq"] for frame in D.Chain(self.root / "ticks").tail()], [1, 2])

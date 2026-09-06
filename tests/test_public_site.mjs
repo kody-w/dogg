@@ -200,6 +200,30 @@ test("HTTP partial/error responses, empty bodies, redirects and excessive bodies
   await assert.rejects(readPublicBytes(feed.head_url, { fetchImpl: async () => bad }));
 });
 
+test("every rejected response aborts its transfer, including failures before reader creation", async () => {
+  const responses = [
+    new Response("unread failure body", { status: 500 }),
+    new Response("unread oversized body", { status: 200, headers: { "content-length": "1000000" } }),
+    new Response("x".repeat(65), { status: 200 }),
+  ];
+  for (const response of responses) {
+    let signal;
+    await assert.rejects(readPublicBytes(feed.head_url, {
+      maximum: 64, timeout: 10000,
+      fetchImpl: async (_url, options) => { signal = options.signal; return response; },
+    }));
+    assert.equal(signal.aborted, true, "a rejected response escaped the bounded request lifetime");
+  }
+  let successSignal;
+  const bytes = await readPublicBytes(feed.head_url, {
+    maximum: 64, fetchImpl: async (_url, options) => {
+      successSignal = options.signal; return new Response("{}", { status: 200 });
+    },
+  });
+  assert.equal(new TextDecoder().decode(bytes), "{}");
+  assert.equal(successSignal.aborted, false);
+});
+
 test("fresh, stale, event-driven and partial statuses are separate from integrity coverage", async () => {
   const fixture = await fixtureChain(feed.stream_id);
   const observation = await loadSource(feed, options(fixture.files));

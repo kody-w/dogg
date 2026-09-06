@@ -120,6 +120,7 @@ const clockScript = `
   })();
 `;
 const stopTracking = setInterval(collectDescendants, 500);
+let primaryFailure = null;
 try {
   chrome = spawn(CHROME, ["--headless=new", "--remote-debugging-port=0", `--user-data-dir=${profileDirectory}`,
     `--disk-cache-dir=${path.join(profileDirectory, "cache")}`, `--crash-dumps-dir=${profileDirectory}`,
@@ -335,6 +336,12 @@ try {
     directory_screenshot: "full-directory-desktop.png",
     owned_browser_pids: [...owned] };
   fs.writeFileSync(path.join(OUT, "browser-results.json"), JSON.stringify(report, null, 2) + "\n");
+} catch (error) {
+  primaryFailure = error;
+  fs.writeFileSync(path.join(OUT, "browser-failure.json"), JSON.stringify({
+    message: error.message, stack: error.stack, assertions, uncaught_page_errors: errors,
+  }, null, 2) + "\n");
+  throw error;
 } finally {
   closing = true;
   clearInterval(stopTracking);
@@ -344,16 +351,22 @@ try {
   }
   await sleep(700);
   for (const pid of owned) {
-    try { process.kill(pid, 0); process.kill(pid, "SIGTERM"); } catch {}
+    try { process.kill(pid, 0); process.kill(pid, "SIGTERM"); }
+    catch (error) { if (error.code !== "ESRCH") throw error; }
   }
   socket?.close();
   for (const pending of waiting.values()) { clearTimeout(pending.timer); pending.reject(new Error("browser closed")); }
   waiting.clear();
   await new Promise(resolve => server.close(resolve));
-  await sleep(300);
-  const alive = [];
-  for (const pid of owned) { try { process.kill(pid, 0); alive.push(pid); } catch {} }
+  const liveOwned = () => [...owned].filter(pid => {
+    try { process.kill(pid, 0); return true; }
+    catch (error) { if (error.code === "ESRCH") return false; throw error; }
+  });
+  let alive = liveOwned();
+  const deadline = Date.now() + 5000;
+  while (alive.length && Date.now() < deadline) { await sleep(100); alive = liveOwned(); }
   fs.writeFileSync(path.join(OUT, "owned-process-cleanup.json"), JSON.stringify({ owned_pids: [...owned], still_running: alive }, null, 2));
   if (!alive.length) fs.rmSync(profileDirectory, { recursive: true });
-  assert.equal(alive.length, 0, "an owned browser descendant is still running");
+  if (!primaryFailure) assert.equal(alive.length, 0, "an owned browser descendant is still running");
+  else if (alive.length) console.error("Additional cleanup failure: owned browser descendants", alive);
 }

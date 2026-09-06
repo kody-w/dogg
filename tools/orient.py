@@ -10,7 +10,7 @@ import os
 from pathlib import Path
 import sys
 
-from public_data import Chain, fingerprint, read_bytes, require, strict_json
+from public_data import Chain, HEX, fingerprint, read_bytes, require, strict_json
 
 ROOT = Path(__file__).resolve().parent.parent
 ROSTER_URL = "https://kody-w.github.io/dogg/subscriptions.json"
@@ -60,6 +60,7 @@ def build(root, previous=None, world_refresh="not-attempted"):
         require(type(payload.get("tick")) is int and 0 <= payload["tick"] <= tick["seq"], "world tick outside spine")
         require(type(payload.get("world")) is dict and type(payload.get("sources_failed")) is list, "world payload shape")
         require(all(type(value) is str and len(value) <= 100 for value in payload["sources_failed"]), "world failures shape")
+        require(type(payload.get("tick_frame")) is str and HEX.fullmatch(payload["tick_frame"]), "world tick reference shape")
         require(payload["tick"] != tick["seq"] or payload.get("tick_frame") == tick["frame_hash"], "world/spine mismatch")
         out["world"] = {
             "frame_hash": world["frame_hash"], "seq": world["seq"], "utc": world["utc"],

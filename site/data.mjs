@@ -208,6 +208,7 @@ export async function readPublicBytes(url, { maximum = LIMITS.json, timeout = LI
   need(timeout > 0, "source time budget exceeded");
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeout);
+  let complete = false;
   try {
     const response = await fetchImpl(url, { signal: controller.signal, cache: "no-store",
       credentials: "omit", referrerPolicy: "no-referrer", redirect: "error" });
@@ -226,13 +227,14 @@ export async function readPublicBytes(url, { maximum = LIMITS.json, timeout = LI
         need(size <= maximum, "source exceeds byte limit");
         buffer.set(value, size - value.byteLength);
       }
-    } catch (error) {
-      await reader.cancel().catch(() => {});
-      throw error;
     } finally { reader.releaseLock(); }
     need(size > 0, "empty source response");
+    complete = true;
     return buffer.slice(0, size);
-  } finally { clearTimeout(timer); }
+  } finally {
+    if (!complete) controller.abort();
+    clearTimeout(timer);
+  }
 }
 
 export async function loadSource(feed, { fetchImpl = fetch, clock = () => Date.now(), limit = 2 } = {}) {
