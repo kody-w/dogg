@@ -57,16 +57,18 @@ stable IDs for the same source. Saved profiles keep their explicit IDs rather th
 silently inheriting changed defaults.
 
 The registry and orientation view are **discovery inputs**, not automatic admission.
-At the implementation base the registry contains **21 records: one genesis and
-20 dimension announcements**. Twenty discovered dimensions is not evidence that a
-record went missing. Duplicate announcements, if present, resolve to the newest one.
+At the initial implementation base (`7fce94a`) the registry contained **21
+records: one genesis and 20 dimension announcements**. A genesis is not a
+dimension announcement. Current counts are derived from the current registry,
+not frozen to that example. Duplicate announcements, if present, resolve to the newest one.
 The website never crawls all registry URLs or silently follows unknown endpoints.
 
 ### Full known directory is larger than the starter set
 
-**Browse the full known directory** accounts for all 20 registered dimensions and
-the three additional core journals (ticks, thread and notary): **23 known sources**
-at this snapshot, not just seven starter feeds or two default follows.
+**Browse the full known directory** accounts for every current registered
+dimension and any additional core journals (such as ticks, thread and notary),
+not just seven starter feeds or two default follows. Its size grows with the
+source metadata rather than a hard-coded directory count.
 `orient.json.dimensions` preserves the full deduplicated registration metadata;
 the UI joins it with the canonical starter roster by stream label. This is a
 derived directory view, not a second subscription authority.
@@ -154,7 +156,7 @@ The public [organism catalog code](https://github.com/kody-w/rapp-organism) can:
    head counts/hashes, **not another subscription list**. Account for every
    `dimensions[]` entry, including unknown/unreachable entries, and join the
    additional core journals from the roster by stream label. `knownDirectory` in
-   `site/data.mjs` and `--directory` demonstrate the 23-source union.
+   `site/data.mjs` and `--directory` demonstrate that complete metadata union.
 3. Use `tools/follow.mjs` output or the same bounded reader contract for per-feed
    status/history. Preserve error entries and last-good observations. Always
    expose observation time and actual coverage; do not treat metadata publication

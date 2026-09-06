@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-06T16:32:47.035Z",
+  "generated_utc": "2026-09-06T17:34:25.155Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 854,
-    "frame_hash": "f0c203f679d94d4eb860666f6e2f9671a12ecac50b15934cc80c69e52f84331b",
-    "utc": "2026-09-06T12:32:28.211Z"
+    "seq": 855,
+    "frame_hash": "9f792a00551d9a843e01c4480ebbabb07cea22ea89f9ff4ea5074c9352675883",
+    "utc": "2026-09-06T15:46:27.698Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -20,36 +20,36 @@
     },
     "registry": {
       "state": "current",
-      "records": 21,
-      "dimensions": 20
+      "records": 22,
+      "dimensions": 21
     }
   },
   "sources": {
     "ticks": {
-      "count": 855,
-      "head_frame": "f0c203f679d94d4eb860666f6e2f9671a12ecac50b15934cc80c69e52f84331b"
+      "count": 856,
+      "head_frame": "9f792a00551d9a843e01c4480ebbabb07cea22ea89f9ff4ea5074c9352675883"
     },
     "world": {
-      "count": 759,
-      "head_frame": "bac59876588f32fd084ed275a35bd782e53d1b4b80d2c55389dcd7988abd3c4a"
+      "count": 760,
+      "head_frame": "de19271aa4cb7b996841ecb5a12454ba1cab37b344852a6a78ebb8016a9fffd3"
     },
     "registry": {
-      "count": 21,
-      "head_frame": "e02ecd3d05daa6007af9ce38dca0a961fbd4200e82a87d1860e86756ba0deb83"
+      "count": 22,
+      "head_frame": "29bfe289dea0c009ce7f79c513acb033e4051a9560c8741864feb6eab6324c8e"
     }
   },
   "world": {
-    "frame_hash": "bac59876588f32fd084ed275a35bd782e53d1b4b80d2c55389dcd7988abd3c4a",
-    "seq": 758,
-    "utc": "2026-09-06T12:32:31.384Z",
-    "tick": 854,
-    "tick_frame": "f0c203f679d94d4eb860666f6e2f9671a12ecac50b15934cc80c69e52f84331b",
+    "frame_hash": "de19271aa4cb7b996841ecb5a12454ba1cab37b344852a6a78ebb8016a9fffd3",
+    "seq": 759,
+    "utc": "2026-09-06T15:46:30.641Z",
+    "tick": 855,
+    "tick_frame": "9f792a00551d9a843e01c4480ebbabb07cea22ea89f9ff4ea5074c9352675883",
     "data": {
       "btc_block_height": {
-        "height": 965765
+        "height": 965797
       },
       "btc_usd": {
-        "spot": "79969.955"
+        "spot": "79690.005"
       },
       "fx_usd": {
         "EUR": "0.8611",
@@ -58,49 +58,49 @@
         "CNY": "6.7344"
       },
       "crypto_market": {
-        "total_mcap_usd": "2708083425805",
-        "btc_dominance_pct": "59.2"
+        "total_mcap_usd": "2693473727892",
+        "btc_dominance_pct": "59.3"
       },
       "btc_fees": {
         "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 80316
+        "tx_count": 82403
       },
       "earthquakes_past_hour": {
-        "count": 12,
-        "max_mag": "5.2"
+        "count": 10,
+        "max_mag": "3.1"
       },
       "iss": {
-        "lat": "-34.200",
-        "lon": "51.447"
+        "lat": "-10.930",
+        "lon": "25.754"
       },
       "space_weather": {
         "kp": "1.33",
-        "at": "2026-09-06T09:00:00"
+        "at": "2026-09-06T12:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 34,
+        "gco2_kwh": 55,
         "index": "low"
       },
       "hn_top": {
         "id": 49585644,
-        "title": "Intellectual Fly Is Open"
+        "title": "Intellectual Fly Is Open (2025)"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will Manchester United FC win on 2026-09-06?",
-            "yes_price": "0.495"
+            "question": "Counter-Strike: Spirit vs MOUZ (BO5) - BLAST Open Porto Playoffs",
+            "yes_price": "0.915"
           },
           {
-            "question": "LoL: T1 vs Dplus KIA (BO5) - LCK Playoffs",
-            "yes_price": "0.9995"
+            "question": "LoL: Ninjas in Pyjamas vs LGD Gaming (BO5) - LPL Playoffs",
+            "yes_price": "0.0005"
           },
           {
-            "question": "LoL: T1 vs Dplus KIA - Game 3 Winner",
-            "yes_price": "0.9995"
+            "question": "Will FC Barcelona win on 2026-09-06?",
+            "yes_price": "0.995"
           }
         ]
       }
@@ -226,6 +226,12 @@
       "repo": "kody-w/dogg-muster",
       "path": "muster/",
       "outlook": "A TEMPLATE rendezvous plan — muster points, roles, check-in windows, and comms fallback, every real value a PLACEHOLDER — republished daily keyed to the kody-w/dogg spine tick so an heirloom kit can prove its shape never silently drifted, without ever holding anyone's actual plan."
+    },
+    {
+      "dimension": "rappid:@kody-w/dogg-lens-canvas-companion:80efc70ff840a43f703a035ebf153f62d6e9da8562984acc452de5a5258d5311",
+      "repo": "kody-w/dogg",
+      "path": "lens-canvas-companion/",
+      "outlook": "A JIT medium-adapter (a 'lens'): summons DOGG's verified world/<tick> telemetry as four hash-verified companions (observer/pathfinder/builder/guardian) inside any HTML canvas game world. First proven live in kody-w/localFirstTools' Quantum Worlds."
     }
   ],
   "chants": {
@@ -240,5 +246,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "da2b010b4a0f3ff4715cb34bed68b213d6caba17910d9d314d2bfc99ebd3a7d0"
+  "input_fingerprint": "5d33fc62bd0ffeef9d2e1f7cb0b17f691ae7e1d3991ce035c4a1a9f1cc645397"
 }

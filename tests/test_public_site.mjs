@@ -91,10 +91,13 @@ test("derived projection has explicit shape/alignment and does not promote malfo
 test("full known directory accounts for all registrations separately from starters and defaults", () => {
   const view = validateOrientation(strictJson(fs.readFileSync(path.join(ROOT, "orient.json"))));
   const directory = knownDirectory(roster, view);
-  assert.equal(directory.registered_dimensions, 20);
-  assert.equal(directory.additional_core_journals, 3);
-  assert.equal(directory.known_sources, 23);
-  assert.equal(directory.entries.filter(entry => entry.registered).length, 20);
+  const registered = new Set(view.dimensions.map(item => item.dimension));
+  const expected = new Set([...registered, ...roster.feeds.map(item => item.stream_id)]);
+  assert.equal(directory.registered_dimensions, registered.size);
+  assert.equal(directory.additional_core_journals, expected.size - registered.size);
+  assert.equal(directory.known_sources, expected.size);
+  assert.equal(directory.entries.filter(entry => entry.registered).length, registered.size);
+  assert.deepEqual(new Set(directory.entries.map(item => item.stream_id)), expected);
   assert.equal(directory.entries.filter(entry => entry.starter_id).length, 7);
   assert.equal(roster.feeds.filter(entry => entry.default).length, 2);
   assert(view.dimensions.every(item => directory.entries.some(entry => entry.stream_id === item.dimension)));
@@ -113,7 +116,10 @@ test("unknown and invalid directory entries remain explicit and never become uns
     path: "../private/", outlook: "<img src=x onerror=alert(1)>" });
   view.status.registry.state = "error";
   const directory = knownDirectory(roster, view);
-  assert.equal(directory.known_sources, 25);
+  const expected = new Set([
+    ...view.dimensions.map(item => item.dimension), ...roster.feeds.map(item => item.stream_id),
+  ]);
+  assert.equal(directory.known_sources, expected.size);
   assert.equal(directory.registry_state, "error");
   const unknown = directory.entries.find(entry => entry.stream_id === "unknown:@example/feed");
   assert.equal(unknown.availability, "unmeasured");
