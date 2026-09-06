@@ -1,0 +1,26 @@
+{
+  "spec": "rapp/1",
+  "kind": "dogg.lens-medium",
+  "stream_id": "rappid:@kody-w/dogg-lens-canvas-companion:80efc70ff840a43f703a035ebf153f62d6e9da8562984acc452de5a5258d5311",
+  "seq": 1,
+  "utc": "2026-09-06T21:25:52.535Z",
+  "payload": {
+    "spec": "dogg/0-lens-medium",
+    "medium": "terminal-cli",
+    "what": "The lens generalizes: the exact same four companions (observer/pathfinder/builder/guardian), the same DOGG-grounded content, and the same fail-closed verification now also run as a stdlib-only Python CLI, proven live against the real world/<tick> chain (payload_hash + frame_hash recomputed and matched, tamper-injection confirmed rejected, network-down confirmed honest).",
+    "adaptation_notes": {
+      "render_surface": "ANSI terminal text instead of DOM overlay - no other change to the verification or content logic.",
+      "builder_local_action_changed": "browser: invoke the host world's own save/export function by name. terminal: record a real git branch+short-SHA+dirty snapshot of cwd if one exists, honestly declining if cwd isn't a repo - same role (builder), medium-appropriate action.",
+      "guardian_local_action_changed": "browser: local FPS + hub peer-presence signal. terminal: os.getloadavg() - same role (guardian), medium-appropriate signal.",
+      "reused_unchanged": "canonical()/H() hashing, all four companions' DOGG field mappings, the GODD ledger schema (godd/0-ledger), the fail-closed behavior on verification failure or unreachable network."
+    },
+    "reference_impl": "kody-w/localFirstTools apps/quantum-worlds/dogg-companion-lens.js (browser) + dogg-companion-lens-terminal.py (terminal, this frame)",
+    "tick": 857,
+    "tick_frame": "69e3366004059226fd72266768cf74c644dd442f048eb95eff6d3f7c8bbe9ec2"
+  },
+  "payload_hash": "99ac59d18220adc433d3dff1258d2629da6bbe9c7b285fe229ad50c7ce469229",
+  "prev": "dea64db1231a2d64b05b911324bc47712283dd2e3cbc324367149096dc912fa4",
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "b6d8c3376d30a086106d8492e10efb050e9d223495e5eeb40e29bc62153815e8"
+}
