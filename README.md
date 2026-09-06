@@ -35,7 +35,14 @@ present; this chain keeps every present, so "what did the world look like at tic
 is a verifiable, addressable object — and a context base any agent's own dimension
 frames can reference when catching up. Run it yourself: `python3 tools/world.py`.
 All checked by the existing native DOGG hash/link oracle in CI; that oracle is
-not the frozen RAPP/1 conformance checker.
+not the frozen RAPP/1 conformance checker. · `lens-canvas-companion/` **the first
+lens** — a JIT medium-adapter spec (kind `dogg.lens`) that summons `world/`'s verified
+telemetry as four hash-checked companions (observer/pathfinder/builder/guardian) inside
+any HTML canvas game world, so DOGG can be met where the user already is instead of
+requiring a new integration per medium. First proven live in
+[kody-w/localFirstTools](https://github.com/kody-w/localFirstTools)' Quantum Worlds.
+A lens's own learnings are meant to be written back as later frames on its stream, so
+the next medium doesn't re-derive the same adaptation from scratch.
 
 **Broadcast on it:** a published dimension is a **doggcast** — permissionless,
 subscribable by `git pull`, with content-addressed integrity. Hashes alone do not

@@ -1,0 +1,58 @@
+{
+  "spec": "rapp/1",
+  "kind": "dogg.lens",
+  "stream_id": "rappid:@kody-w/dogg-lens-canvas-companion:80efc70ff840a43f703a035ebf153f62d6e9da8562984acc452de5a5258d5311",
+  "seq": 0,
+  "utc": "2026-09-06T16:11:05.325Z",
+  "payload": {
+    "spec": "dogg/0-lens",
+    "name": "Canvas Companion Lens v1",
+    "medium": "web-canvas-3d-or-2d-game-world",
+    "what": "A JIT adapter that lets DOGG's verified world/<tick> telemetry be summoned as four visible, interactive companions inside any single-file HTML canvas world (first proven in kody-w/localFirstTools' Quantum Worlds / Portal Hub). Every companion's content is a real, hash-verifiable slice of the world dimension - never fabricated flavor text.",
+    "roles": {
+      "observer": {
+        "example_name": "Overwatch",
+        "reads": [
+          "hn_top",
+          "prediction_markets"
+        ]
+      },
+      "pathfinder": {
+        "example_name": "Scout",
+        "reads": [
+          "iss",
+          "earthquakes_past_hour"
+        ]
+      },
+      "builder": {
+        "example_name": "Forge",
+        "reads": [
+          "btc_usd",
+          "fx_usd",
+          "crypto_market",
+          "btc_fees",
+          "btc_mempool"
+        ],
+        "local_action": "invokes the host world's own save/export function, if one exists"
+      },
+      "guardian": {
+        "example_name": "Sentinel",
+        "reads": [
+          "space_weather",
+          "grid_carbon_gb"
+        ],
+        "local_action": "monitors local FPS and the host's own live peer-presence signal"
+      }
+    },
+    "protocol": "Fetch world/<tick>.json + its frame_hash, recompute the hash client-side (rapp/1 H(space,v) = sha256(space+'\\n'+canonical(v))), render only if it verifies.",
+    "reference_impl": "kody-w/localFirstTools apps/quantum-worlds/dogg-companion-lens.js",
+    "feedback": "Adapter learnings (which selectors/hooks worked in a given host medium) are meant to be written back here as new payload fields on later frames, so the next medium doesn't re-derive the same adaptation from scratch.",
+    "tick": 855,
+    "tick_frame": "9f792a00551d9a843e01c4480ebbabb07cea22ea89f9ff4ea5074c9352675883"
+  },
+  "payload_hash": "dea64db1231a2d64b05b911324bc47712283dd2e3cbc324367149096dc912fa4",
+  "prev": null,
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "6a42823b4f2050c078c3a21e7754fcfc33793294ab60e8485af8c51ef85adee9"
+}
