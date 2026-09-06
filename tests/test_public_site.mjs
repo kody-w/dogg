@@ -229,6 +229,13 @@ test("fresh, stale, event-driven and partial statuses are separate from integrit
   const observation = await loadSource(feed, options(fixture.files));
   assert.equal(freshness(feed, observation, NOW).state, "fresh");
   assert.equal(freshness(feed, observation, NOW + 7200000).state, "stale");
+  const recorded = Date.parse(observation.latest.utc);
+  const grace = freshness(feed, observation, recorded + (feed.expected_update_seconds + 1) * 1000);
+  assert.equal(grace.state, "fresh");
+  assert.match(grace.label, /age limit/);
+  assert.doesNotMatch(grace.label, /target/);
+  assert.equal(freshness(feed, observation, recorded + feed.stale_after_seconds * 1000).state, "fresh");
+  assert.equal(freshness(feed, observation, recorded + (feed.stale_after_seconds + 1) * 1000).state, "stale");
   assert.equal(freshness(roster.feeds.find(value => value.id === "dogg.thread"), observation, NOW).state, "event-driven");
   assert.equal(freshness(feed, null, NOW).state, "unmeasured");
   const partial = clone(observation); partial.latest.payload.sources_failed = ["api"];

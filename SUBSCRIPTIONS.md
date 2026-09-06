@@ -16,7 +16,11 @@ a deployed website. The deployment checklist below is part of shipping this feat
    without following. Neither action posts a subscription, endorses a publisher,
    adopts a registry entry, grants authority, or executes source content.
 3. Look at the record date, check date and source link. **Fresh** means within the
-   curator's stated age target, not proven true. **Stale** means overdue.
+   curator's stated **age limit**, not necessarily within the expected update
+   interval or proven true. Both intervals appear on each scheduled feed.
+   For example, World snapshot expects updates every ten minutes but allows a
+   sixty-minute age limit; that grace does not prove the schedule ran.
+   **Stale** means the age limit was exceeded.
    **Partial** means some upstream readings failed. Event-driven journals promise
    no periodic update. **Not checked yet** is unmeasured, never a successful check.
 4. If a refresh fails, the card keeps its last-good observation under **Refresh

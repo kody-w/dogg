@@ -180,6 +180,10 @@ try {
   assert.equal(await evaluate("document.querySelectorAll('.feed img').length"), 0);
   assert.equal(await evaluate("typeof globalThis.__injected"), "undefined");
   assert.equal(await evaluate("document.querySelector('[href^=\"javascript:\"]')===null"), true);
+  assert.match(await evaluate("document.querySelector('[data-feed-id=\"dogg.world\"] .feed-actions').innerText"),
+    /Expected update: 10 min · age limit: 60 min/);
+  assert.match(await evaluate("document.querySelector('[data-feed-id=\"dogg.world\"] .observation').innerText"),
+    /Fresh · within the configured age limit/);
   passed("cold rendered page: seven feeds, two default follows, no page errors or source markup execution");
 
   const beforeDirectory = calls.length;
