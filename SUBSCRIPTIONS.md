@@ -168,8 +168,13 @@ The public [organism catalog code](https://github.com/kody-w/rapp-organism) can:
 4. For history, use the source HEAD's epoch/tail layout and a stated bound.
    The UI's optional history view reads at most six records, not an entire estate.
 
-The catalog's planned Pages URL is not assumed live. This site links its public
-code as in-development discovery work. The exact full raw organism carrier is
+The [public catalog](https://kody-w.github.io/rapp-organism/) is available for
+inventory and provenance questions, with a small
+[machine index](https://kody-w.github.io/rapp-organism/index.json) and a separate
+[poll receipt](https://kody-w.github.io/rapp-organism/freshness.json). Its static
+SQLite, JSON and CSV downloads are query projections, not a hosted SQL API.
+It links to DOGG's canonical starter roster; it does not replace that authority
+or ingest personal following choices. The exact full raw organism carrier is
 **withheld after disclosure/rights review**. Only safe metadata/query projection
 is offered; there is no enabled full-carrier download or encrypted-private upload
 workaround.

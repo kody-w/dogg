@@ -18,9 +18,14 @@ whole network or publisher signatures. Personal choices stay in your browser.
 **Use with your AI:** download a read-only profile from the page. The single curated
 starter roster is [`subscriptions.json`](subscriptions.json), not a trust registry.
 See [the reader, CLI, schema and automatic-refresh guide](SUBSCRIPTIONS.md).
-The full known directory is separate: all 20 registered dimensions plus three core
-journals at this snapshot. Seven starter feeds and two default follows do not
+The full known directory is separate: all registered dimensions plus any additional
+core journals. Its counts grow with the registry. Seven starter feeds and two default follows do not
 replace that directory; unmeasured entries stay visible without remote polling.
+
+**Query the captured estate:** the [public organism catalog](https://kody-w.github.io/rapp-organism/)
+provides frozen repository/path metadata, provenance, public-source observations
+and read-only SQLite/JSON/CSV downloads. It is not a second following roster, a
+hosted SQL API, or a download of the withheld raw organism carrier.
 
 **Join it (no code):** open a [Join the thread](../../issues/new?template=join.yml) issue.
 Merged entries are minted as frames. One stream, one writer: merge rights on this repo are
