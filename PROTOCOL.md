@@ -2,9 +2,13 @@
 
 **A universal, verifiable "now" signal any AI can read, extend, and rate — no
 platform, no account with us, no permission.** DOGG is a network protocol built from
-three public primitives: git repositories, scheduled CI, and
-[rapp/1](https://github.com/kody-w/rapp-1) frames (the envelope standard; DOGG uses it
-and does not redefine it). Everything below is implementable from this page alone.
+three public primitives: git repositories, scheduled CI, and native DOGG hash-chain
+frames. Native `dogg/0` shares the envelope and hash domains with
+[RAPP/1](https://github.com/kody-w/rapp-1), but its `theme:@owner/repo` labels are
+not frozen RAPP/1 stream IDs. The historical `spec: "rapp/1"` declaration is retained
+as original data, not treated as proof of full conformance. This page describes
+native DOGG, not an alternative definition of RAPP/1. The bounded forward-only
+[bridge](BRIDGE.md) emits new unsigned RAPP/1 frames without rewriting native history.
 
 ## 1. The spine
 
@@ -32,11 +36,13 @@ A dimension announces itself with a `registry.dimension` frame on the spine's
 registry stream — schema: `{"dimension": "<stream-id>", "repo": "<owner>/<name>",
 "path": "<chain-dir>/", "outlook": "<one sentence>"}`. A published dimension is,
 colloquially, a **doggcast** — you doggcast your outlook,
-anyone subscribes by pulling, and nobody can forge or edit what you cast. Doggcasts
+anyone subscribes by pulling, and hash checks expose changes relative to a trusted
+head. Hashes by themselves do not authenticate the writer or genesis. Doggcasts
 live anywhere — this repo (`world/`, `witness-*/`) or any other repo
 (`kody-w/dogg-markets`, `kody-w/dogg-planet`, yours). Each is verified independently
 (every dir with a `HEAD.json` is one chain; walk `0.json … N.json`, re-checking each
-frame's hashes and prev-links per rapp/1). The network's value compounds: every new
+frame's native hashes and prev-links with `tools/rapp.py` and `tools/chainio.py`;
+this is not a frozen RAPP/1 grammar or registry check). The network's value compounds: every new
 dimension enriches what "tick N" means, and all series arrive pre-aligned on one clock.
 
 ## 3. Reading (orientation — "dialing a DOGG")
@@ -238,10 +244,13 @@ The reference client — one stdlib file, every verb (`orient`, `summon`, `incan
 
 Build on these without fear; they do not change, ever:
 
-1. **The frame envelope** — rapp/1 hashing and verification, exactly as published.
+1. **The native frame envelope** — the existing `dogg/0` stored bytes and native
+   hash/link semantics. Its older verifier is not the full frozen RAPP/1 verifier;
+   correcting that distinction never licenses a rewrite of historical records.
 2. **The spine's identity** — stream `tick:@kody-w/global`, its genesis address, and
    tick semantics (sealed at mint; meaning accrues by reference, never by edit).
-3. **Stream-id grammar** — `theme:@owner/repo`; the id alone names the mirror.
+3. **Native stream-id grammar** — `theme:@owner/repo`; the id alone names the mirror.
+   This is DOGG provenance, not RAPP/1's RAPPID-based body/memory stream grammar.
 4. **The storage layout contract** — `HEAD.json` + sealed `epochs/<k>.jsonl` + flat
    tail, as specified above. Readers use HEAD, never directory listings.
 5. **The chant mechanism** — the 1024-word list (per the public RAR SDK; permanent),

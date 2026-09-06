@@ -8,3 +8,7 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: python3 tools/verify_thread.py
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - name: opt-in RAPP/1 bridge contracts (Python export, Node recovery)
+        run: python3 tests/test_rapp1_bridge.py
