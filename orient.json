@@ -1,72 +1,106 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-08-31T04:40:49.121Z",
+  "generated_utc": "2026-09-06T18:20:15.096Z",
+  "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
+  "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 810,
-    "frame_hash": "c6fc4af9f4782991f914e0acdda2352a5bb65e284e20e642a903dedb3286e0f1",
-    "utc": "2026-08-31T04:40:23.818Z"
+    "seq": 856,
+    "frame_hash": "8a338188ab25b430b66a6c21b1d1fee4dfdcd3ba4f2c033227a9435b669c05c7",
+    "utc": "2026-09-06T17:56:21.915Z"
+  },
+  "status": {
+    "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
+    "world": {
+      "state": "current",
+      "ticks_behind": 0,
+      "sources_failed": [],
+      "last_refresh": "not-attempted",
+      "retained_last_good": false
+    },
+    "registry": {
+      "state": "current",
+      "records": 22,
+      "dimensions": 21
+    }
+  },
+  "sources": {
+    "ticks": {
+      "count": 857,
+      "head_frame": "8a338188ab25b430b66a6c21b1d1fee4dfdcd3ba4f2c033227a9435b669c05c7"
+    },
+    "world": {
+      "count": 761,
+      "head_frame": "5d3cd243b2fa5e8fb8c71d0d801af879964f0d72496d6aa938fc65b815dc4efa"
+    },
+    "registry": {
+      "count": 22,
+      "head_frame": "29bfe289dea0c009ce7f79c513acb033e4051a9560c8741864feb6eab6324c8e"
+    }
   },
   "world": {
-    "frame_hash": "0826c9ccaa6974b516b3ce80044f284e20ef2ec5c04b2f96ebb573b23e186706",
-    "seq": 714,
+    "frame_hash": "5d3cd243b2fa5e8fb8c71d0d801af879964f0d72496d6aa938fc65b815dc4efa",
+    "seq": 760,
+    "utc": "2026-09-06T17:56:24.423Z",
+    "tick": 856,
+    "tick_frame": "8a338188ab25b430b66a6c21b1d1fee4dfdcd3ba4f2c033227a9435b669c05c7",
     "data": {
       "btc_block_height": {
-        "height": 964826
+        "height": 965814
       },
       "btc_usd": {
-        "spot": "77549.245"
+        "spot": "79733.245"
       },
       "fx_usd": {
-        "EUR": "0.8623",
-        "GBP": "0.7382",
-        "JPY": "160.0451",
-        "CNY": "6.7358"
+        "EUR": "0.8611",
+        "GBP": "0.7397",
+        "JPY": "156.1729",
+        "CNY": "6.7344"
       },
       "crypto_market": {
-        "total_mcap_usd": "2600843257667",
-        "btc_dominance_pct": "59.7"
+        "total_mcap_usd": "2696628245431",
+        "btc_dominance_pct": "59.2"
       },
       "btc_fees": {
         "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 79649
+        "tx_count": 82313
       },
       "earthquakes_past_hour": {
-        "count": 6,
-        "max_mag": "4.9"
+        "count": 3,
+        "max_mag": "2.0"
       },
       "iss": {
-        "lat": "-48.911",
-        "lon": "174.747"
+        "lat": "37.278",
+        "lon": "144.671"
       },
       "space_weather": {
-        "kp": "3.0",
-        "at": "2026-08-31T00:00:00"
+        "kp": "1.33",
+        "at": "2026-09-06T12:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 80,
-        "index": "low"
+        "gco2_kwh": 105,
+        "index": "moderate"
       },
       "hn_top": {
-        "id": 49503601,
-        "title": "“I just chose words carefully”"
+        "id": 49586171,
+        "title": "QBittorrent breaks out of sandbox to commit crimes"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "US Open ATP: Thiago Agustin Tirante vs Adrian Mannarino",
-            "yes_price": "0.095"
+            "question": "Counter-Strike: Spirit vs MOUZ (BO5) - BLAST Open Porto Playoffs",
+            "yes_price": "0.885"
           },
           {
-            "question": "Will CF Monterrey win on 2026-08-30?",
-            "yes_price": "0.0005"
+            "question": "LoL: G2 Esports vs Karmine Corp - Game 1 Winner",
+            "yes_price": "0.9995"
           },
           {
-            "question": "Will the U.S. invade Iran before 2027?",
-            "yes_price": "0.155"
+            "question": "LoL: G2 Esports vs Karmine Corp (BO5) - LEC Playoffs",
+            "yes_price": "0.725"
           }
         ]
       }
@@ -192,6 +226,12 @@
       "repo": "kody-w/dogg-muster",
       "path": "muster/",
       "outlook": "A TEMPLATE rendezvous plan — muster points, roles, check-in windows, and comms fallback, every real value a PLACEHOLDER — republished daily keyed to the kody-w/dogg spine tick so an heirloom kit can prove its shape never silently drifted, without ever holding anyone's actual plan."
+    },
+    {
+      "dimension": "rappid:@kody-w/dogg-lens-canvas-companion:80efc70ff840a43f703a035ebf153f62d6e9da8562984acc452de5a5258d5311",
+      "repo": "kody-w/dogg",
+      "path": "lens-canvas-companion/",
+      "outlook": "A JIT medium-adapter (a 'lens'): summons DOGG's verified world/<tick> telemetry as four hash-verified companions (observer/pathfinder/builder/guardian) inside any HTML canvas game world. First proven live in kody-w/localFirstTools' Quantum Worlds."
     }
   ],
   "chants": {
@@ -205,5 +245,6 @@
     "verdict:@kody-w/dogg-verdict": "PLATEAU CRUMB WARD VROOM NICKEL ORE WELD",
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
-  }
+  },
+  "input_fingerprint": "8f7b744f283ded3fb824fd0dbeae2421bf56d3c74781457d2747efbd343bf861"
 }

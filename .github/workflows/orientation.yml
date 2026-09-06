@@ -1,0 +1,29 @@
+name: refresh-public-orientation
+on:
+  push:
+    branches: [main]
+    paths: ['ticks/**', 'world/**', 'registry/**', 'chants/**', 'tools/orient.py', 'tools/public_data.py', '.github/workflows/orientation.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: dogg-public-updates
+  cancel-in-progress: false
+jobs:
+  derive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: project existing public records without producing a tick
+        run: |
+          set -e
+          python3 tools/verify_thread.py
+          python3 tools/orient.py
+          python3 tools/orient.py --check
+          git config user.name "dogg-orientation"
+          git config user.email "actions@users.noreply.github.com"
+          git add orient.json
+          git diff --cached --quiet || { git commit -m "chore: refresh public orientation"; git push; }
