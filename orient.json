@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-07T13:37:00.520Z",
+  "generated_utc": "2026-09-07T18:23:29.674Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 862,
-    "frame_hash": "9b5bfd8d2621d45b38457eb9e39753c44ff5f27c9f95b05003d521a8f184c9a7",
-    "utc": "2026-09-07T13:36:56.815Z"
+    "seq": 863,
+    "frame_hash": "1361bf03962ace7d7d29a1efb9a68d035fc39794a442c690f6a50d0b39f1b873",
+    "utc": "2026-09-07T18:23:24.435Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 863,
-      "head_frame": "9b5bfd8d2621d45b38457eb9e39753c44ff5f27c9f95b05003d521a8f184c9a7"
+      "count": 864,
+      "head_frame": "1361bf03962ace7d7d29a1efb9a68d035fc39794a442c690f6a50d0b39f1b873"
     },
     "world": {
-      "count": 767,
-      "head_frame": "a3ca75d9b34b677e9ddad1de468bff538ac0243aa7ebd6b5deb264eb8f52f632"
+      "count": 768,
+      "head_frame": "6a5f2e9ef2a048f9e72ad08c5e6a9bce0812a03db20965fcf67cdf49a6894bfa"
     },
     "registry": {
       "count": 22,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "a3ca75d9b34b677e9ddad1de468bff538ac0243aa7ebd6b5deb264eb8f52f632",
-    "seq": 766,
-    "utc": "2026-09-07T13:37:00.034Z",
-    "tick": 862,
-    "tick_frame": "9b5bfd8d2621d45b38457eb9e39753c44ff5f27c9f95b05003d521a8f184c9a7",
+    "frame_hash": "6a5f2e9ef2a048f9e72ad08c5e6a9bce0812a03db20965fcf67cdf49a6894bfa",
+    "seq": 767,
+    "utc": "2026-09-07T18:23:29.235Z",
+    "tick": 863,
+    "tick_frame": "1361bf03962ace7d7d29a1efb9a68d035fc39794a442c690f6a50d0b39f1b873",
     "data": {
       "btc_block_height": {
-        "height": 965937
+        "height": 965959
       },
       "btc_usd": {
-        "spot": "79328.54"
+        "spot": "79147.925"
       },
       "fx_usd": {
         "EUR": "0.8611",
@@ -58,49 +58,49 @@
         "CNY": "6.7194"
       },
       "crypto_market": {
-        "total_mcap_usd": "2689178291679",
+        "total_mcap_usd": "2683188103839",
         "btc_dominance_pct": "59.1"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 87423
+        "tx_count": 82940
       },
       "earthquakes_past_hour": {
-        "count": 9,
-        "max_mag": "2.7"
+        "count": 10,
+        "max_mag": "3.5"
       },
       "iss": {
-        "lat": "18.951",
-        "lon": "77.163"
+        "lat": "39.804",
+        "lon": "29.681"
       },
       "space_weather": {
-        "kp": "4.0",
-        "at": "2026-09-07T09:00:00"
+        "kp": "3.67",
+        "at": "2026-09-07T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 55,
-        "index": "low"
+        "gco2_kwh": 145,
+        "index": "moderate"
       },
       "hn_top": {
-        "id": 49597907,
-        "title": "De-Brainrot Vacations"
+        "id": 49598291,
+        "title": "bzip3"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "LoL: Anyone's Legend vs Bilibili Gaming - Game 3 Winner",
-            "yes_price": "0.0005"
+            "question": "Will Cagliari Calcio win on 2026-09-07?",
+            "yes_price": "0.875"
           },
           {
-            "question": "LoL: Anyone's Legend vs Bilibili Gaming (BO5) - LPL Playoffs",
-            "yes_price": "0.0005"
+            "question": "Will SS Lazio win on 2026-09-07?",
+            "yes_price": "0.345"
           },
           {
-            "question": "LoL: Invictus Gaming vs LGD Gaming (BO5) - LPL Playoffs",
-            "yes_price": "0.635"
+            "question": "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
+            "yes_price": "0.0035"
           }
         ]
       }
@@ -246,5 +246,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "6fb367d7711c72a1018326e71a8deb1aae0453b931acff4d12c27dc735babfa7"
+  "input_fingerprint": "29701c430aea5b9da0e9803383e95b96348fb8c3ac3607960470a0f8b2d8e344"
 }
