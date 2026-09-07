@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-07T18:23:29.674Z",
+  "generated_utc": "2026-09-07T21:39:03.384Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 863,
-    "frame_hash": "1361bf03962ace7d7d29a1efb9a68d035fc39794a442c690f6a50d0b39f1b873",
-    "utc": "2026-09-07T18:23:24.435Z"
+    "seq": 864,
+    "frame_hash": "188822aed47037cf52afdfca4e05502009d9000d989f6364fa287aeb84c63676",
+    "utc": "2026-09-07T21:38:59.885Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 864,
-      "head_frame": "1361bf03962ace7d7d29a1efb9a68d035fc39794a442c690f6a50d0b39f1b873"
+      "count": 865,
+      "head_frame": "188822aed47037cf52afdfca4e05502009d9000d989f6364fa287aeb84c63676"
     },
     "world": {
-      "count": 768,
-      "head_frame": "6a5f2e9ef2a048f9e72ad08c5e6a9bce0812a03db20965fcf67cdf49a6894bfa"
+      "count": 769,
+      "head_frame": "9dddef661bb380c4d311b0a76283260c015f8b2a1fdaacb53a089e1dfe00501b"
     },
     "registry": {
       "count": 22,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "6a5f2e9ef2a048f9e72ad08c5e6a9bce0812a03db20965fcf67cdf49a6894bfa",
-    "seq": 767,
-    "utc": "2026-09-07T18:23:29.235Z",
-    "tick": 863,
-    "tick_frame": "1361bf03962ace7d7d29a1efb9a68d035fc39794a442c690f6a50d0b39f1b873",
+    "frame_hash": "9dddef661bb380c4d311b0a76283260c015f8b2a1fdaacb53a089e1dfe00501b",
+    "seq": 768,
+    "utc": "2026-09-07T21:39:02.919Z",
+    "tick": 864,
+    "tick_frame": "188822aed47037cf52afdfca4e05502009d9000d989f6364fa287aeb84c63676",
     "data": {
       "btc_block_height": {
-        "height": 965959
+        "height": 965975
       },
       "btc_usd": {
-        "spot": "79147.925"
+        "spot": "79202.575"
       },
       "fx_usd": {
         "EUR": "0.8611",
@@ -58,45 +58,45 @@
         "CNY": "6.7194"
       },
       "crypto_market": {
-        "total_mcap_usd": "2683188103839",
+        "total_mcap_usd": "2683018246882",
         "btc_dominance_pct": "59.1"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 82940
+        "tx_count": 84282
       },
       "earthquakes_past_hour": {
-        "count": 10,
-        "max_mag": "3.5"
+        "count": 3,
+        "max_mag": "2.0"
       },
       "iss": {
-        "lat": "39.804",
-        "lon": "29.681"
+        "lat": "51.721",
+        "lon": "32.918"
       },
       "space_weather": {
-        "kp": "3.67",
-        "at": "2026-09-07T15:00:00"
+        "kp": "4.0",
+        "at": "2026-09-07T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 145,
+        "gco2_kwh": 107,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 49598291,
-        "title": "bzip3"
+        "id": 49601655,
+        "title": "Watch Los Angeles get built, one building at a time (1880–2026)"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will Cagliari Calcio win on 2026-09-07?",
-            "yes_price": "0.875"
+            "question": "US Open ATP: Francisco Cerundolo vs Alexander Blockx",
+            "yes_price": "0.0005"
           },
           {
-            "question": "Will SS Lazio win on 2026-09-07?",
-            "yes_price": "0.345"
+            "question": "US Open WTA: Naomi Osaka vs Elena Rybakina",
+            "yes_price": "0.0005"
           },
           {
             "question": "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
@@ -246,5 +246,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "29701c430aea5b9da0e9803383e95b96348fb8c3ac3607960470a0f8b2d8e344"
+  "input_fingerprint": "dd390d54f74e268ceac992f8705ae7e372fa555b9f7fb280fe5237d535bcaced"
 }
