@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-09T17:18:24.328Z",
+  "generated_utc": "2026-09-09T19:55:18.258Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 876,
-    "frame_hash": "003676018957905e44a95cda54d4beabf7fb4a0a136d30b27ba4dd3c8576944c",
-    "utc": "2026-09-09T17:18:20.878Z"
+    "seq": 877,
+    "frame_hash": "ede68471bc7e5f1887dd058bcc5b48d72807077611c32c343c55e474cbbb1d51",
+    "utc": "2026-09-09T19:55:12.793Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 877,
-      "head_frame": "003676018957905e44a95cda54d4beabf7fb4a0a136d30b27ba4dd3c8576944c"
+      "count": 878,
+      "head_frame": "ede68471bc7e5f1887dd058bcc5b48d72807077611c32c343c55e474cbbb1d51"
     },
     "world": {
-      "count": 781,
-      "head_frame": "7457fb216dd8a80a99801361d22dce95ba9dba9530228fbc05cd3a80a6d5af6b"
+      "count": 782,
+      "head_frame": "7086ef56614515c55244dd1f95e2112a960c761ecda31e99ea99b46973c393f9"
     },
     "registry": {
       "count": 22,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "7457fb216dd8a80a99801361d22dce95ba9dba9530228fbc05cd3a80a6d5af6b",
-    "seq": 780,
-    "utc": "2026-09-09T17:18:23.885Z",
-    "tick": 876,
-    "tick_frame": "003676018957905e44a95cda54d4beabf7fb4a0a136d30b27ba4dd3c8576944c",
+    "frame_hash": "7086ef56614515c55244dd1f95e2112a960c761ecda31e99ea99b46973c393f9",
+    "seq": 781,
+    "utc": "2026-09-09T19:55:17.802Z",
+    "tick": 877,
+    "tick_frame": "ede68471bc7e5f1887dd058bcc5b48d72807077611c32c343c55e474cbbb1d51",
     "data": {
       "btc_block_height": {
-        "height": 966245
+        "height": 966263
       },
       "btc_usd": {
-        "spot": "78795.165"
+        "spot": "78211.525"
       },
       "fx_usd": {
         "EUR": "0.8603",
@@ -58,49 +58,49 @@
         "CNY": "6.7283"
       },
       "crypto_market": {
-        "total_mcap_usd": "2701941859442",
+        "total_mcap_usd": "2686709560375",
         "btc_dominance_pct": "58.4"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 80221
+        "tx_count": 80524
       },
       "earthquakes_past_hour": {
-        "count": 8,
-        "max_mag": "1.4"
+        "count": 13,
+        "max_mag": "2.7"
       },
       "iss": {
-        "lat": "13.236",
-        "lon": "162.680"
+        "lat": "37.602",
+        "lon": "-9.187"
       },
       "space_weather": {
-        "kp": "2.67",
-        "at": "2026-09-09T12:00:00"
+        "kp": "3.0",
+        "at": "2026-09-09T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 181,
+        "gco2_kwh": 210,
         "index": "high"
       },
       "hn_top": {
-        "id": 49626190,
-        "title": "Tailwind Labs is joining Shopify"
+        "id": 49630931,
+        "title": "iPhone Duo"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will VfB Stuttgart win on 2026-09-09?",
-            "yes_price": "0.905"
-          },
-          {
-            "question": "Will Feyenoord Rotterdam win on 2026-09-09?",
-            "yes_price": "0.0015"
+            "question": "Will Sporting CP win on 2026-09-09?",
+            "yes_price": "0.435"
           },
           {
             "question": "Will Arsenal FC win on 2026-09-09?",
-            "yes_price": "0.605"
+            "yes_price": "0.515"
+          },
+          {
+            "question": "US Open WTA: Mirra Andreeva vs Coco Gauff",
+            "yes_price": "0.545"
           }
         ]
       }
@@ -246,5 +246,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "61a880724c393e979d32717436476f6f28b34a1e8795ccb7d449c979d4e92ea7"
+  "input_fingerprint": "3bfb58c275ecd2166fff8bd642a50475ae6bd5d7ae25797d0a041e24b8eb8145"
 }
