@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-09T00:12:01.182Z",
+  "generated_utc": "2026-09-09T04:41:49.720Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 872,
-    "frame_hash": "3108e59fb946865eb2b43cf78f5549fa15c399fd26c60993df3f9ffb67bbc58a",
-    "utc": "2026-09-09T00:11:58.112Z"
+    "seq": 873,
+    "frame_hash": "eb58a465d3666e6722fcb9678abe70763ec802fb9d79fea86eb2a72d68831e08",
+    "utc": "2026-09-09T04:41:45.997Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 873,
-      "head_frame": "3108e59fb946865eb2b43cf78f5549fa15c399fd26c60993df3f9ffb67bbc58a"
+      "count": 874,
+      "head_frame": "eb58a465d3666e6722fcb9678abe70763ec802fb9d79fea86eb2a72d68831e08"
     },
     "world": {
-      "count": 777,
-      "head_frame": "ceaac028e6ceab9d903015ea6aafa6c1c515a8001ba1cf6d3359ac0ba0177d14"
+      "count": 778,
+      "head_frame": "3ad14ad9358308f93c2cc451b304d199b4e7ea3334581c9f2197545741de53f1"
     },
     "registry": {
       "count": 22,
@@ -39,68 +39,68 @@
     }
   },
   "world": {
-    "frame_hash": "ceaac028e6ceab9d903015ea6aafa6c1c515a8001ba1cf6d3359ac0ba0177d14",
-    "seq": 776,
-    "utc": "2026-09-09T00:12:00.722Z",
-    "tick": 872,
-    "tick_frame": "3108e59fb946865eb2b43cf78f5549fa15c399fd26c60993df3f9ffb67bbc58a",
+    "frame_hash": "3ad14ad9358308f93c2cc451b304d199b4e7ea3334581c9f2197545741de53f1",
+    "seq": 777,
+    "utc": "2026-09-09T04:41:49.248Z",
+    "tick": 873,
+    "tick_frame": "eb58a465d3666e6722fcb9678abe70763ec802fb9d79fea86eb2a72d68831e08",
     "data": {
       "btc_block_height": {
-        "height": 966124
+        "height": 966151
       },
       "btc_usd": {
-        "spot": "78693.595"
+        "spot": "78928.245"
       },
       "fx_usd": {
-        "EUR": "0.8604",
-        "GBP": "0.7386",
-        "JPY": "154.4147",
-        "CNY": "6.7284"
+        "EUR": "0.8603",
+        "GBP": "0.7385",
+        "JPY": "153.8175",
+        "CNY": "6.7283"
       },
       "crypto_market": {
-        "total_mcap_usd": "2701889188949",
-        "btc_dominance_pct": "58.3"
+        "total_mcap_usd": "2709759685120",
+        "btc_dominance_pct": "58.4"
       },
       "btc_fees": {
-        "fastest_sat_vb": 5,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 86833
+        "tx_count": 71183
       },
       "earthquakes_past_hour": {
         "count": 8,
         "max_mag": "2.6"
       },
       "iss": {
-        "lat": "26.476",
-        "lon": "51.086"
+        "lat": "47.198",
+        "lon": "-52.623"
       },
       "space_weather": {
-        "kp": "3.0",
-        "at": "2026-09-08T21:00:00"
+        "kp": "2.67",
+        "at": "2026-09-09T00:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 64,
+        "gco2_kwh": 51,
         "index": "low"
       },
       "hn_top": {
-        "id": 49615537,
-        "title": "Muse – Meta’s personal AI agent"
+        "id": 49546964,
+        "title": "Tension wood: A 'muscle' that can both bend and straighten plants"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Colorado Rockies vs. New York Yankees",
-            "yes_price": "0.265"
-          },
-          {
             "question": "US Open ATP: Ben Shelton vs Carlos Alcaraz",
-            "yes_price": "0.225"
+            "yes_price": "0.285"
           },
           {
             "question": "Will there be no change in Fed interest rates after the September 2026 meeting?",
             "yes_price": "0.455"
+          },
+          {
+            "question": "Counter-Strike: magic vs FaZe (BO3) - FISSURE PLAYGROUND Group B",
+            "yes_price": "0.575"
           }
         ]
       }
@@ -246,5 +246,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "8d501bb6cbfc8e2f6541b45186bcacb8eb162a3b4862b36baed2dd992af4a4f0"
+  "input_fingerprint": "5cc148824ccebe99d3ae4d42ae4ccac1aa3397aa6c5a09d748533fa1c8b488a1"
 }
