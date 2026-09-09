@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-09T04:41:49.720Z",
+  "generated_utc": "2026-09-09T09:12:01.988Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 873,
-    "frame_hash": "eb58a465d3666e6722fcb9678abe70763ec802fb9d79fea86eb2a72d68831e08",
-    "utc": "2026-09-09T04:41:45.997Z"
+    "seq": 874,
+    "frame_hash": "a9ca2eeadaf5b4f76255393bb4ab60de719c819d79c3512d5d62202f817fd9d5",
+    "utc": "2026-09-09T09:11:58.036Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 874,
-      "head_frame": "eb58a465d3666e6722fcb9678abe70763ec802fb9d79fea86eb2a72d68831e08"
+      "count": 875,
+      "head_frame": "a9ca2eeadaf5b4f76255393bb4ab60de719c819d79c3512d5d62202f817fd9d5"
     },
     "world": {
-      "count": 778,
-      "head_frame": "3ad14ad9358308f93c2cc451b304d199b4e7ea3334581c9f2197545741de53f1"
+      "count": 779,
+      "head_frame": "87824df5b45d0bab4281d01871e0bf2f2f4b2624258367f03e99171f9174b0d4"
     },
     "registry": {
       "count": 22,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "3ad14ad9358308f93c2cc451b304d199b4e7ea3334581c9f2197545741de53f1",
-    "seq": 777,
-    "utc": "2026-09-09T04:41:49.248Z",
-    "tick": 873,
-    "tick_frame": "eb58a465d3666e6722fcb9678abe70763ec802fb9d79fea86eb2a72d68831e08",
+    "frame_hash": "87824df5b45d0bab4281d01871e0bf2f2f4b2624258367f03e99171f9174b0d4",
+    "seq": 778,
+    "utc": "2026-09-09T09:12:01.640Z",
+    "tick": 874,
+    "tick_frame": "a9ca2eeadaf5b4f76255393bb4ab60de719c819d79c3512d5d62202f817fd9d5",
     "data": {
       "btc_block_height": {
-        "height": 966151
+        "height": 966183
       },
       "btc_usd": {
-        "spot": "78928.245"
+        "spot": "79482.925"
       },
       "fx_usd": {
         "EUR": "0.8603",
@@ -58,49 +58,49 @@
         "CNY": "6.7283"
       },
       "crypto_market": {
-        "total_mcap_usd": "2709759685120",
-        "btc_dominance_pct": "58.4"
+        "total_mcap_usd": "2699878177422",
+        "btc_dominance_pct": "59.0"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
-        "hour_sat_vb": 1
+        "fastest_sat_vb": 3,
+        "hour_sat_vb": 3
       },
       "btc_mempool": {
-        "tx_count": 71183
+        "tx_count": 81170
       },
       "earthquakes_past_hour": {
-        "count": 8,
-        "max_mag": "2.6"
+        "count": 9,
+        "max_mag": "2.0"
       },
       "iss": {
-        "lat": "47.198",
-        "lon": "-52.623"
+        "lat": "50.240",
+        "lon": "-171.915"
       },
       "space_weather": {
-        "kp": "2.67",
-        "at": "2026-09-09T00:00:00"
+        "kp": "2.33",
+        "at": "2026-09-09T06:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 51,
+        "gco2_kwh": 54,
         "index": "low"
       },
       "hn_top": {
-        "id": 49546964,
-        "title": "Tension wood: A 'muscle' that can both bend and straighten plants"
+        "id": 49622561,
+        "title": "How GPT‑5.6 Sol helps run quantum computing experiments"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "US Open ATP: Ben Shelton vs Carlos Alcaraz",
-            "yes_price": "0.285"
-          },
-          {
             "question": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-            "yes_price": "0.455"
+            "yes_price": "0.465"
           },
           {
-            "question": "Counter-Strike: magic vs FaZe (BO3) - FISSURE PLAYGROUND Group B",
-            "yes_price": "0.575"
+            "question": "Counter-Strike: Legacy vs Alliance (BO3) - FISSURE PLAYGROUND Group B",
+            "yes_price": "0.925"
+          },
+          {
+            "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
+            "yes_price": "0.0015"
           }
         ]
       }
@@ -246,5 +246,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "5cc148824ccebe99d3ae4d42ae4ccac1aa3397aa6c5a09d748533fa1c8b488a1"
+  "input_fingerprint": "48eeff4a0361433c6dedb0eca12b312c3d2c936418dde0fffbccea4f45999b1f"
 }
