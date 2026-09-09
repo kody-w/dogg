@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-09T13:43:25.694Z",
+  "generated_utc": "2026-09-09T17:18:24.328Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 875,
-    "frame_hash": "2957ae6c5ecb449a85fbf6f0d02b8db3730fcb8da5988422997e838d0730c11c",
-    "utc": "2026-09-09T13:43:22.225Z"
+    "seq": 876,
+    "frame_hash": "003676018957905e44a95cda54d4beabf7fb4a0a136d30b27ba4dd3c8576944c",
+    "utc": "2026-09-09T17:18:20.878Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 876,
-      "head_frame": "2957ae6c5ecb449a85fbf6f0d02b8db3730fcb8da5988422997e838d0730c11c"
+      "count": 877,
+      "head_frame": "003676018957905e44a95cda54d4beabf7fb4a0a136d30b27ba4dd3c8576944c"
     },
     "world": {
-      "count": 780,
-      "head_frame": "628d0e74500d0a6be695e9b40b575adcf5c916436980604309e4087c6202996b"
+      "count": 781,
+      "head_frame": "7457fb216dd8a80a99801361d22dce95ba9dba9530228fbc05cd3a80a6d5af6b"
     },
     "registry": {
       "count": 22,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "628d0e74500d0a6be695e9b40b575adcf5c916436980604309e4087c6202996b",
-    "seq": 779,
-    "utc": "2026-09-09T13:43:25.233Z",
-    "tick": 875,
-    "tick_frame": "2957ae6c5ecb449a85fbf6f0d02b8db3730fcb8da5988422997e838d0730c11c",
+    "frame_hash": "7457fb216dd8a80a99801361d22dce95ba9dba9530228fbc05cd3a80a6d5af6b",
+    "seq": 780,
+    "utc": "2026-09-09T17:18:23.885Z",
+    "tick": 876,
+    "tick_frame": "003676018957905e44a95cda54d4beabf7fb4a0a136d30b27ba4dd3c8576944c",
     "data": {
       "btc_block_height": {
-        "height": 966213
+        "height": 966245
       },
       "btc_usd": {
-        "spot": "79135.005"
+        "spot": "78795.165"
       },
       "fx_usd": {
         "EUR": "0.8603",
@@ -58,49 +58,49 @@
         "CNY": "6.7283"
       },
       "crypto_market": {
-        "total_mcap_usd": "2711562506924",
-        "btc_dominance_pct": "58.5"
+        "total_mcap_usd": "2701941859442",
+        "btc_dominance_pct": "58.4"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 79965
+        "tx_count": 80221
       },
       "earthquakes_past_hour": {
-        "count": 7,
-        "max_mag": "2.0"
+        "count": 8,
+        "max_mag": "1.4"
       },
       "iss": {
-        "lat": "36.962",
-        "lon": "84.314"
+        "lat": "13.236",
+        "lon": "162.680"
       },
       "space_weather": {
         "kp": "2.67",
-        "at": "2026-09-09T09:00:00"
+        "at": "2026-09-09T12:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 87,
-        "index": "low"
+        "gco2_kwh": 181,
+        "index": "high"
       },
       "hn_top": {
-        "id": 49624394,
-        "title": "Flock Wants a Closely Surveilled World with No Exit"
+        "id": 49626190,
+        "title": "Tailwind Labs is joining Shopify"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-            "yes_price": "0.445"
+            "question": "Will VfB Stuttgart win on 2026-09-09?",
+            "yes_price": "0.905"
           },
           {
-            "question": "LAPTOP FDV above $1B one day after launch?",
-            "yes_price": "0.24"
+            "question": "Will Feyenoord Rotterdam win on 2026-09-09?",
+            "yes_price": "0.0015"
           },
           {
-            "question": "LoL: DN SOOPers Challengers vs Nongshim Esports Academy (BO5) - LCK Challengers League Playoffs",
-            "yes_price": "0.9995"
+            "question": "Will Arsenal FC win on 2026-09-09?",
+            "yes_price": "0.605"
           }
         ]
       }
@@ -246,5 +246,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "213395492f62bb25cedebed78e544ec535db93c880b1afec663aa55f56c6a2f1"
+  "input_fingerprint": "61a880724c393e979d32717436476f6f28b34a1e8795ccb7d449c979d4e92ea7"
 }
