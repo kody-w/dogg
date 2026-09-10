@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-10T21:54:04.924Z",
+  "generated_utc": "2026-09-10T23:36:59.691Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 885,
-    "frame_hash": "4a5f386f4a0b6f859403477bde1675a6082215bd9a521b09a0da8f2dd06b8598",
-    "utc": "2026-09-10T21:54:01.535Z"
+    "seq": 886,
+    "frame_hash": "a88417621b9a8136a291f443bd73f3e0666ec0d8741af83e89bc7dd2558dc9b2",
+    "utc": "2026-09-10T23:36:56.072Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 886,
-      "head_frame": "4a5f386f4a0b6f859403477bde1675a6082215bd9a521b09a0da8f2dd06b8598"
+      "count": 887,
+      "head_frame": "a88417621b9a8136a291f443bd73f3e0666ec0d8741af83e89bc7dd2558dc9b2"
     },
     "world": {
-      "count": 790,
-      "head_frame": "d95ad5cfcf79bad83b3c7a89916051c0986129c15692f8e8e4466adbb71ae61c"
+      "count": 791,
+      "head_frame": "803c5b4f8fca81ca98df6c265fc682b75deb2082e55a2d1fc3be0cb5ed56fc29"
     },
     "registry": {
       "count": 22,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "d95ad5cfcf79bad83b3c7a89916051c0986129c15692f8e8e4466adbb71ae61c",
-    "seq": 789,
-    "utc": "2026-09-10T21:54:04.501Z",
-    "tick": 885,
-    "tick_frame": "4a5f386f4a0b6f859403477bde1675a6082215bd9a521b09a0da8f2dd06b8598",
+    "frame_hash": "803c5b4f8fca81ca98df6c265fc682b75deb2082e55a2d1fc3be0cb5ed56fc29",
+    "seq": 790,
+    "utc": "2026-09-10T23:36:59.326Z",
+    "tick": 886,
+    "tick_frame": "a88417621b9a8136a291f443bd73f3e0666ec0d8741af83e89bc7dd2558dc9b2",
     "data": {
       "btc_block_height": {
-        "height": 966411
+        "height": 966417
       },
       "btc_usd": {
-        "spot": "77140.845"
+        "spot": "76729.835"
       },
       "fx_usd": {
         "EUR": "0.8596",
@@ -58,35 +58,35 @@
         "CNY": "6.7255"
       },
       "crypto_market": {
-        "total_mcap_usd": "2644906487695",
+        "total_mcap_usd": "2629862044916",
         "btc_dominance_pct": "58.5"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 4,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 76119
+        "tx_count": 84492
       },
       "earthquakes_past_hour": {
-        "count": 11,
-        "max_mag": "2.6"
+        "count": 9,
+        "max_mag": "4.9"
       },
       "iss": {
-        "lat": "-22.090",
-        "lon": "-101.278"
+        "lat": "8.100",
+        "lon": "-102.362"
       },
       "space_weather": {
         "kp": "1.0",
         "at": "2026-09-10T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 96,
-        "index": "moderate"
+        "gco2_kwh": 79,
+        "index": "low"
       },
       "hn_top": {
-        "id": 49650326,
-        "title": "The part of Navier-Stokes no one is talking about"
+        "id": 49643982,
+        "title": "Shopify is moving from React Native back to Swift and Kotlin"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -100,7 +100,7 @@
           },
           {
             "question": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-            "yes_price": "0.355"
+            "yes_price": "0.345"
           }
         ]
       }
@@ -246,5 +246,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "36d2d5edd420c97a5c7cab093e8d51194a8e13cec6f84384359e0f2d0c14ff8a"
+  "input_fingerprint": "379e5152fea8f11445f4ca020e787f0479d7709d1da7db3eda76476a10436694"
 }
