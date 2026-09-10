@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-10T19:41:30.484Z",
+  "generated_utc": "2026-09-10T21:54:04.924Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 884,
-    "frame_hash": "aff61bd9430f045a093e16a7bd58c425a4cf798e2085d11c3f667ce080eb05e0",
-    "utc": "2026-09-10T19:41:24.988Z"
+    "seq": 885,
+    "frame_hash": "4a5f386f4a0b6f859403477bde1675a6082215bd9a521b09a0da8f2dd06b8598",
+    "utc": "2026-09-10T21:54:01.535Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 885,
-      "head_frame": "aff61bd9430f045a093e16a7bd58c425a4cf798e2085d11c3f667ce080eb05e0"
+      "count": 886,
+      "head_frame": "4a5f386f4a0b6f859403477bde1675a6082215bd9a521b09a0da8f2dd06b8598"
     },
     "world": {
-      "count": 789,
-      "head_frame": "07c93bc4f1e73dba3567c6522bed5e15e9f45713fe913542650b6c7b6f6d8198"
+      "count": 790,
+      "head_frame": "d95ad5cfcf79bad83b3c7a89916051c0986129c15692f8e8e4466adbb71ae61c"
     },
     "registry": {
       "count": 22,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "07c93bc4f1e73dba3567c6522bed5e15e9f45713fe913542650b6c7b6f6d8198",
-    "seq": 788,
-    "utc": "2026-09-10T19:41:30.018Z",
-    "tick": 884,
-    "tick_frame": "aff61bd9430f045a093e16a7bd58c425a4cf798e2085d11c3f667ce080eb05e0",
+    "frame_hash": "d95ad5cfcf79bad83b3c7a89916051c0986129c15692f8e8e4466adbb71ae61c",
+    "seq": 789,
+    "utc": "2026-09-10T21:54:04.501Z",
+    "tick": 885,
+    "tick_frame": "4a5f386f4a0b6f859403477bde1675a6082215bd9a521b09a0da8f2dd06b8598",
     "data": {
       "btc_block_height": {
-        "height": 966397
+        "height": 966411
       },
       "btc_usd": {
-        "spot": "77195.205"
+        "spot": "77140.845"
       },
       "fx_usd": {
         "EUR": "0.8596",
@@ -58,49 +58,49 @@
         "CNY": "6.7255"
       },
       "crypto_market": {
-        "total_mcap_usd": "2642418958494",
-        "btc_dominance_pct": "58.4"
+        "total_mcap_usd": "2644906487695",
+        "btc_dominance_pct": "58.5"
       },
       "btc_fees": {
-        "fastest_sat_vb": 4,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 83791
+        "tx_count": 76119
       },
       "earthquakes_past_hour": {
-        "count": 10,
-        "max_mag": "5.3"
+        "count": 11,
+        "max_mag": "2.6"
       },
       "iss": {
-        "lat": "1.609",
-        "lon": "129.782"
+        "lat": "-22.090",
+        "lon": "-101.278"
       },
       "space_weather": {
-        "kp": "1.33",
-        "at": "2026-09-10T15:00:00"
+        "kp": "1.0",
+        "at": "2026-09-10T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 129,
+        "gco2_kwh": 96,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 49643546,
-        "title": "Rust is tier-1 language at Microsoft"
+        "id": 49650326,
+        "title": "The part of Navier-Stokes no one is talking about"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-            "yes_price": "0.665"
+            "yes_price": "0.645"
+          },
+          {
+            "question": "Will Abigail Spanberger win the 2028 Democratic presidential nomination?",
+            "yes_price": "0.0015"
           },
           {
             "question": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-            "yes_price": "0.335"
-          },
-          {
-            "question": "Will FK Bodø/Glimt win on 2026-09-10?",
-            "yes_price": "0.0385"
+            "yes_price": "0.355"
           }
         ]
       }
@@ -246,5 +246,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "799fa3756ecb4ab099412c31630a909cfcc46ecb4692aedea3b6a15a74898213"
+  "input_fingerprint": "36d2d5edd420c97a5c7cab093e8d51194a8e13cec6f84384359e0f2d0c14ff8a"
 }
