@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-11T01:28:01.721Z",
+  "generated_utc": "2026-09-11T06:28:09.425Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 887,
-    "frame_hash": "d6e7a028d2febd7ba6d9cced4aaef9d15f8d29567bda5175071a202845102cab",
-    "utc": "2026-09-11T01:27:56.354Z"
+    "seq": 888,
+    "frame_hash": "4c1efbf0db42f4428d0499579316bb19d970ecb51baa2dd7ed5cd5bc4a641eee",
+    "utc": "2026-09-11T06:28:06.098Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 888,
-      "head_frame": "d6e7a028d2febd7ba6d9cced4aaef9d15f8d29567bda5175071a202845102cab"
+      "count": 889,
+      "head_frame": "4c1efbf0db42f4428d0499579316bb19d970ecb51baa2dd7ed5cd5bc4a641eee"
     },
     "world": {
-      "count": 792,
-      "head_frame": "fba080aa323b9289d989b97b035d09cd956ca03a4466c776beb27bc69eb44dfa"
+      "count": 793,
+      "head_frame": "b389e3daa3358a6297d3bb42eaad2007cfbdbfb07b3a2ff49d658892b6d4c500"
     },
     "registry": {
       "count": 22,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "fba080aa323b9289d989b97b035d09cd956ca03a4466c776beb27bc69eb44dfa",
-    "seq": 791,
-    "utc": "2026-09-11T01:28:01.260Z",
-    "tick": 887,
-    "tick_frame": "d6e7a028d2febd7ba6d9cced4aaef9d15f8d29567bda5175071a202845102cab",
+    "frame_hash": "b389e3daa3358a6297d3bb42eaad2007cfbdbfb07b3a2ff49d658892b6d4c500",
+    "seq": 792,
+    "utc": "2026-09-11T06:28:08.967Z",
+    "tick": 888,
+    "tick_frame": "4c1efbf0db42f4428d0499579316bb19d970ecb51baa2dd7ed5cd5bc4a641eee",
     "data": {
       "btc_block_height": {
-        "height": 966433
+        "height": 966467
       },
       "btc_usd": {
-        "spot": "76811.525"
+        "spot": "77229.795"
       },
       "fx_usd": {
         "EUR": "0.8607",
@@ -58,7 +58,7 @@
         "CNY": "6.7280"
       },
       "crypto_market": {
-        "total_mcap_usd": "2634472113965",
+        "total_mcap_usd": "2647246512163",
         "btc_dominance_pct": "58.5"
       },
       "btc_fees": {
@@ -66,41 +66,41 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 76829
+        "tx_count": 79832
       },
       "earthquakes_past_hour": {
-        "count": 10,
-        "max_mag": "2.1"
+        "count": 9,
+        "max_mag": "2.3"
       },
       "iss": {
-        "lat": "50.813",
-        "lon": "-62.033"
+        "lat": "12.600",
+        "lon": "-43.419"
       },
       "space_weather": {
-        "kp": "2.67",
-        "at": "2026-09-10T21:00:00"
+        "kp": "3.0",
+        "at": "2026-09-11T03:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 74,
-        "index": "low"
+        "gco2_kwh": 133,
+        "index": "moderate"
       },
       "hn_top": {
-        "id": 49652105,
-        "title": "Google will buy half the electricity of a nuclear power plant"
+        "id": 49643982,
+        "title": "Shopify is moving from React Native back to Swift and Kotlin"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-            "yes_price": "0.635"
-          },
-          {
-            "question": "49ers vs. Rams",
-            "yes_price": "0.325"
+            "yes_price": "0.615"
           },
           {
             "question": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-            "yes_price": "0.365"
+            "yes_price": "0.385"
+          },
+          {
+            "question": "Will Abigail Spanberger win the 2028 Democratic presidential nomination?",
+            "yes_price": "0.0015"
           }
         ]
       }
@@ -246,5 +246,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "1b662e48e478237a6421451a35b0903de7b8af5b10e915494aff858a24c80e35"
+  "input_fingerprint": "913962b164dc0eba90c06563587954f2e3545e752dad8c42e73b5a60b2801be1"
 }
