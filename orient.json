@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-11T21:17:47.404Z",
+  "generated_utc": "2026-09-11T23:25:17.789Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 892,
-    "frame_hash": "74ac10dbf932a61412834c515e764f6ffbec3b08d195791e879ad0522f00b5ad",
-    "utc": "2026-09-11T21:17:44.045Z"
+    "seq": 893,
+    "frame_hash": "7033c2a979e8d0a1b99d4b6c3e20e30d477de8c514a0b40c4bde64578cddff78",
+    "utc": "2026-09-11T23:25:14.535Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 893,
-      "head_frame": "74ac10dbf932a61412834c515e764f6ffbec3b08d195791e879ad0522f00b5ad"
+      "count": 894,
+      "head_frame": "7033c2a979e8d0a1b99d4b6c3e20e30d477de8c514a0b40c4bde64578cddff78"
     },
     "world": {
-      "count": 797,
-      "head_frame": "306779773cb6861136d0893369d70b5e834f22397cba9980e12ebd3dfb363aa5"
+      "count": 798,
+      "head_frame": "445b7367e6aab2284a5e7b18489bb300e4a853d7304acdb99b2d93fe434b3ed1"
     },
     "registry": {
       "count": 22,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "306779773cb6861136d0893369d70b5e834f22397cba9980e12ebd3dfb363aa5",
-    "seq": 796,
-    "utc": "2026-09-11T21:17:46.943Z",
-    "tick": 892,
-    "tick_frame": "74ac10dbf932a61412834c515e764f6ffbec3b08d195791e879ad0522f00b5ad",
+    "frame_hash": "445b7367e6aab2284a5e7b18489bb300e4a853d7304acdb99b2d93fe434b3ed1",
+    "seq": 797,
+    "utc": "2026-09-11T23:25:17.429Z",
+    "tick": 893,
+    "tick_frame": "7033c2a979e8d0a1b99d4b6c3e20e30d477de8c514a0b40c4bde64578cddff78",
     "data": {
       "btc_block_height": {
-        "height": 966564
+        "height": 966575
       },
       "btc_usd": {
-        "spot": "77388.04"
+        "spot": "77138.175"
       },
       "fx_usd": {
         "EUR": "0.8607",
@@ -58,31 +58,31 @@
         "CNY": "6.7280"
       },
       "crypto_market": {
-        "total_mcap_usd": "2662035729991",
-        "btc_dominance_pct": "58.2"
+        "total_mcap_usd": "2652611969498",
+        "btc_dominance_pct": "58.3"
       },
       "btc_fees": {
         "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 77500
+        "tx_count": 74513
       },
       "earthquakes_past_hour": {
         "count": 8,
-        "max_mag": "1.9"
+        "max_mag": "2.4"
       },
       "iss": {
-        "lat": "8.781",
-        "lon": "-72.367"
+        "lat": "26.457",
+        "lon": "45.176"
       },
       "space_weather": {
         "kp": "1.0",
         "at": "2026-09-11T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 190,
-        "index": "high"
+        "gco2_kwh": 157,
+        "index": "moderate"
       },
       "hn_top": {
         "id": 49662371,
@@ -92,15 +92,15 @@
         "top_by_volume": [
           {
             "question": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-            "yes_price": "0.185"
+            "yes_price": "0.195"
           },
           {
             "question": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
             "yes_price": "0.805"
           },
           {
-            "question": "Will Sevilla FC win on 2026-09-11?",
-            "yes_price": "0.9995"
+            "question": "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
+            "yes_price": "0.0035"
           }
         ]
       }
@@ -246,5 +246,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "7129087afabacdc5c67cd18169a5c64af8c4f03a583d74b278e2d529eff64d1f"
+  "input_fingerprint": "67a760d451a6e44c54d6ceccb57d3bc796c8aeb1372835f8cc595cf1ba692cfc"
 }
