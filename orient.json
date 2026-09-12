@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-12T16:30:57.473Z",
+  "generated_utc": "2026-09-12T18:45:33.211Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 898,
-    "frame_hash": "7f6c84664a5aef22651640977cfc3f57c498e667285276efd2ed6fdcc0938e96",
-    "utc": "2026-09-12T16:30:54.206Z"
+    "seq": 899,
+    "frame_hash": "f7eb526c477e3f4fe0bf5fe0bedffc8c57ce10a4c05467ed5fbb711cafac7ca4",
+    "utc": "2026-09-12T18:45:29.864Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 899,
-      "head_frame": "7f6c84664a5aef22651640977cfc3f57c498e667285276efd2ed6fdcc0938e96"
+      "count": 900,
+      "head_frame": "f7eb526c477e3f4fe0bf5fe0bedffc8c57ce10a4c05467ed5fbb711cafac7ca4"
     },
     "world": {
-      "count": 803,
-      "head_frame": "8f100fce50ef8906ff89225fded70801d1a8b91511965baa748ac680de4d6ef4"
+      "count": 804,
+      "head_frame": "281514551b0b67426e4798726508e0bd779870ea960f02bccb6a73bcbefee52c"
     },
     "registry": {
       "count": 22,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "8f100fce50ef8906ff89225fded70801d1a8b91511965baa748ac680de4d6ef4",
-    "seq": 802,
-    "utc": "2026-09-12T16:30:56.998Z",
-    "tick": 898,
-    "tick_frame": "7f6c84664a5aef22651640977cfc3f57c498e667285276efd2ed6fdcc0938e96",
+    "frame_hash": "281514551b0b67426e4798726508e0bd779870ea960f02bccb6a73bcbefee52c",
+    "seq": 803,
+    "utc": "2026-09-12T18:45:32.962Z",
+    "tick": 899,
+    "tick_frame": "f7eb526c477e3f4fe0bf5fe0bedffc8c57ce10a4c05467ed5fbb711cafac7ca4",
     "data": {
       "btc_block_height": {
-        "height": 966693
+        "height": 966706
       },
       "btc_usd": {
-        "spot": "77368.265"
+        "spot": "77169.485"
       },
       "fx_usd": {
         "EUR": "0.8620",
@@ -58,7 +58,7 @@
         "CNY": "6.7253"
       },
       "crypto_market": {
-        "total_mcap_usd": "2664538953571",
+        "total_mcap_usd": "2657555862934",
         "btc_dominance_pct": "58.2"
       },
       "btc_fees": {
@@ -66,33 +66,33 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 80621
+        "tx_count": 82270
       },
       "earthquakes_past_hour": {
-        "count": 9,
-        "max_mag": "4.7"
+        "count": 16,
+        "max_mag": "4.8"
       },
       "iss": {
-        "lat": "15.443",
-        "lon": "155.042"
+        "lat": "-29.239",
+        "lon": "-72.751"
       },
       "space_weather": {
-        "kp": "2.0",
-        "at": "2026-09-12T12:00:00"
+        "kp": "1.33",
+        "at": "2026-09-12T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 51,
+        "gco2_kwh": 79,
         "index": "low"
       },
       "hn_top": {
-        "id": 49673098,
-        "title": "Nvidia is the central bank of AI"
+        "id": 49645480,
+        "title": "LG denies TV spying claims, says tracking and snooping concerns 'not true'"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-            "yes_price": "0.195"
+            "yes_price": "0.205"
           },
           {
             "question": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
@@ -246,5 +246,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "286face1da6590b6fc7ecab75372045ddc78240394b695a33452605527ec61a3"
+  "input_fingerprint": "91c7db3eec04eff9231e4aabecd5d764c0b686741075aee9005e55bf0ff8cc07"
 }
