@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-13T10:38:24.116Z",
+  "generated_utc": "2026-09-13T14:41:11.091Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 904,
-    "frame_hash": "37b65b1d80d42ac8b33717235ee83c8f60983d9d1810ac5e0bb1dd9b1884247c",
-    "utc": "2026-09-13T10:38:20.810Z"
+    "seq": 905,
+    "frame_hash": "ee52710f6f521876c241bf63c00021b698e689fcd52b860b8a443614a0ee33b8",
+    "utc": "2026-09-13T14:41:06.181Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 905,
-      "head_frame": "37b65b1d80d42ac8b33717235ee83c8f60983d9d1810ac5e0bb1dd9b1884247c"
+      "count": 906,
+      "head_frame": "ee52710f6f521876c241bf63c00021b698e689fcd52b860b8a443614a0ee33b8"
     },
     "world": {
-      "count": 809,
-      "head_frame": "11dda799db5232ef3ea391d8aa35756524e82421a772085b12fb2f027994037f"
+      "count": 810,
+      "head_frame": "4c0dfb89f66b6c4d29ab0fcf0c286250b8bb6a9fdbc078caaef229288157b2b8"
     },
     "registry": {
       "count": 22,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "11dda799db5232ef3ea391d8aa35756524e82421a772085b12fb2f027994037f",
-    "seq": 808,
-    "utc": "2026-09-13T10:38:23.760Z",
-    "tick": 904,
-    "tick_frame": "37b65b1d80d42ac8b33717235ee83c8f60983d9d1810ac5e0bb1dd9b1884247c",
+    "frame_hash": "4c0dfb89f66b6c4d29ab0fcf0c286250b8bb6a9fdbc078caaef229288157b2b8",
+    "seq": 809,
+    "utc": "2026-09-13T14:41:10.629Z",
+    "tick": 905,
+    "tick_frame": "ee52710f6f521876c241bf63c00021b698e689fcd52b860b8a443614a0ee33b8",
     "data": {
       "btc_block_height": {
-        "height": 966806
+        "height": 966830
       },
       "btc_usd": {
-        "spot": "76751.275"
+        "spot": "77135.105"
       },
       "fx_usd": {
         "EUR": "0.8618",
@@ -58,49 +58,49 @@
         "CNY": "6.7309"
       },
       "crypto_market": {
-        "total_mcap_usd": "2612695775437",
-        "btc_dominance_pct": "58.8"
+        "total_mcap_usd": "2627136910606",
+        "btc_dominance_pct": "58.9"
       },
       "btc_fees": {
         "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 79548
+        "tx_count": 77060
       },
       "earthquakes_past_hour": {
-        "count": 5,
-        "max_mag": "3.4"
+        "count": 9,
+        "max_mag": "3.2"
       },
       "iss": {
-        "lat": "39.667",
-        "lon": "112.020"
+        "lat": "-51.494",
+        "lon": "-72.154"
       },
       "space_weather": {
-        "kp": "2.0",
-        "at": "2026-09-13T06:00:00"
+        "kp": "0.67",
+        "at": "2026-09-13T09:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 167,
+        "gco2_kwh": 165,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 49681152,
-        "title": "JetKVM Mini"
+        "id": 49683853,
+        "title": "Flock worker calls police on reporter filming public camera installation"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Will Brighton & Hove Albion FC win on 2026-09-13?",
-            "yes_price": "0.515"
+            "yes_price": "0.9995"
+          },
+          {
+            "question": "LoL: Bilibili Gaming vs Anyone's Legend (BO5) - LPL Playoffs",
+            "yes_price": "0.0005"
           },
           {
             "question": "Will there be no change in Fed interest rates after the September 2026 meeting?",
             "yes_price": "0.205"
-          },
-          {
-            "question": "Counter-Strike: G2 vs Legacy (BO5) - FISSURE PLAYGROUND Playoffs",
-            "yes_price": "0.235"
           }
         ]
       }
@@ -246,5 +246,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "c534a499ba49be522dd961078be24f38323143f76483e619dfd4d92af7fc054a"
+  "input_fingerprint": "48c73a034fcef5e488b0b6515940028ac2979f5fe3adb38b3b751f186a2285b1"
 }
