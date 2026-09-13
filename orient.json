@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-13T19:47:33.726Z",
+  "generated_utc": "2026-09-13T22:00:41.673Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 907,
-    "frame_hash": "48215e658065843d18db6bef5f5da544644109515c94a562354041b60343c78b",
-    "utc": "2026-09-13T19:47:27.462Z"
+    "seq": 908,
+    "frame_hash": "77721d6de87ae441d3650aafdd6a86c7ed68e00d9753a0f6b193a899edddd1d0",
+    "utc": "2026-09-13T22:00:37.949Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 908,
-      "head_frame": "48215e658065843d18db6bef5f5da544644109515c94a562354041b60343c78b"
+      "count": 909,
+      "head_frame": "77721d6de87ae441d3650aafdd6a86c7ed68e00d9753a0f6b193a899edddd1d0"
     },
     "world": {
-      "count": 812,
-      "head_frame": "6d05b868582e60f0ee16ee3507a9ba666fb25b4c05fced870fdca7eaf9b203b9"
+      "count": 813,
+      "head_frame": "7bffee4f40f07e21ae32dec275185aac81fd593ed1461faa4fd4de502d8a7073"
     },
     "registry": {
       "count": 22,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "6d05b868582e60f0ee16ee3507a9ba666fb25b4c05fced870fdca7eaf9b203b9",
-    "seq": 811,
-    "utc": "2026-09-13T19:47:33.341Z",
-    "tick": 907,
-    "tick_frame": "48215e658065843d18db6bef5f5da544644109515c94a562354041b60343c78b",
+    "frame_hash": "7bffee4f40f07e21ae32dec275185aac81fd593ed1461faa4fd4de502d8a7073",
+    "seq": 812,
+    "utc": "2026-09-13T22:00:41.209Z",
+    "tick": 908,
+    "tick_frame": "77721d6de87ae441d3650aafdd6a86c7ed68e00d9753a0f6b193a899edddd1d0",
     "data": {
       "btc_block_height": {
-        "height": 966864
+        "height": 966878
       },
       "btc_usd": {
-        "spot": "77212.435"
+        "spot": "77246.465"
       },
       "fx_usd": {
         "EUR": "0.8618",
@@ -58,38 +58,42 @@
         "CNY": "6.7309"
       },
       "crypto_market": {
-        "total_mcap_usd": "2628647221507",
-        "btc_dominance_pct": "58.9"
+        "total_mcap_usd": "2632859630962",
+        "btc_dominance_pct": "58.8"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 79701
+        "tx_count": 78579
       },
       "earthquakes_past_hour": {
-        "count": 10,
-        "max_mag": "4.2"
+        "count": 8,
+        "max_mag": "2.3"
       },
       "iss": {
-        "lat": "17.427",
-        "lon": "-53.982"
+        "lat": "1.102",
+        "lon": "77.006"
       },
       "space_weather": {
-        "kp": "1.0",
-        "at": "2026-09-13T15:00:00"
+        "kp": "0.33",
+        "at": "2026-09-13T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 202,
+        "gco2_kwh": 197,
         "index": "high"
       },
       "hn_top": {
-        "id": 49686445,
-        "title": "Why is Google still serving dodgy ads?"
+        "id": 49688695,
+        "title": "Claude Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher"
       },
       "prediction_markets": {
         "top_by_volume": [
+          {
+            "question": "US Open ATP: Alexander Zverev vs Ben Shelton",
+            "yes_price": "0.9995"
+          },
           {
             "question": "Will there be no change in Fed interest rates after the September 2026 meeting?",
             "yes_price": "0.215"
@@ -97,10 +101,6 @@
           {
             "question": "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
             "yes_price": "0.0035"
-          },
-          {
-            "question": "US Open ATP: Alexander Zverev vs Ben Shelton",
-            "yes_price": "0.725"
           }
         ]
       }
@@ -246,5 +246,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "000ea3b98857dacab83a2a099f92ca02103d8c638073c65c6b8d8234af85bd3b"
+  "input_fingerprint": "abb49112a5698f115d520d2e3146ff2e28bd00e4bd328d922a1d3f2f6aa0794a"
 }
