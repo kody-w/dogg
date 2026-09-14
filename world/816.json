@@ -1,0 +1,79 @@
+{
+  "spec": "rapp/1",
+  "kind": "world.snapshot",
+  "stream_id": "world:@kody-w/dogg",
+  "seq": 816,
+  "utc": "2026-09-14T16:23:23.531Z",
+  "payload": {
+    "tick": 912,
+    "tick_frame": "8914a77cdcc2205af94866ae7a7c636fb30d07271515f2649ed36b2cb4da8257",
+    "fetched_utc": "2026-09-14T16:23:23.531Z",
+    "world": {
+      "btc_block_height": {
+        "height": 966990
+      },
+      "btc_usd": {
+        "spot": "78853.105"
+      },
+      "fx_usd": {
+        "EUR": "0.8622",
+        "GBP": "0.7395",
+        "JPY": "153.6117",
+        "CNY": "6.7156"
+      },
+      "crypto_market": {
+        "total_mcap_usd": "2702719429845",
+        "btc_dominance_pct": "58.6"
+      },
+      "btc_fees": {
+        "fastest_sat_vb": 1,
+        "hour_sat_vb": 1
+      },
+      "btc_mempool": {
+        "tx_count": 76910
+      },
+      "earthquakes_past_hour": {
+        "count": 8,
+        "max_mag": "1.8"
+      },
+      "iss": {
+        "lat": "35.892",
+        "lon": "122.922"
+      },
+      "space_weather": {
+        "kp": "2.67",
+        "at": "2026-09-14T12:00:00"
+      },
+      "grid_carbon_gb": {
+        "gco2_kwh": 128,
+        "index": "moderate"
+      },
+      "hn_top": {
+        "id": 49697014,
+        "title": "Notes on gotchas while migrating 35kb preprompts from Opus to self-hosted Ollama"
+      },
+      "prediction_markets": {
+        "top_by_volume": [
+          {
+            "question": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+            "yes_price": "0.155"
+          },
+          {
+            "question": "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
+            "yes_price": "0.0025"
+          },
+          {
+            "question": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+            "yes_price": "0.835"
+          }
+        ]
+      }
+    },
+    "sources_failed": []
+  },
+  "payload_hash": "c7e3109c1cecc65d96b21c7168afaab7d6b994af5d7caa3abb1f08aa60b607b7",
+  "prev": "e411f2dde9b9a78dcbdfc9c7380167ae9f613553bd3876fe32d5d96c8743a81f",
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "b744892d8ac06a05a879023a912acd6d563f6851e7d344b14ab87c786f078388"
+}
