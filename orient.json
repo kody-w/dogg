@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-16T05:41:44.690Z",
+  "generated_utc": "2026-09-16T10:18:03.106Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 922,
-    "frame_hash": "8a14a3f137297e7a84d1d0f1d576293ec8f58b236d98fe3706d2d2e9b9ce10c9",
-    "utc": "2026-09-16T05:41:40.554Z"
+    "seq": 923,
+    "frame_hash": "2b603287e8f2bcec9048f254220847d8bbab4f242c12f22e62477ba128c18078",
+    "utc": "2026-09-16T10:17:59.781Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 923,
-      "head_frame": "8a14a3f137297e7a84d1d0f1d576293ec8f58b236d98fe3706d2d2e9b9ce10c9"
+      "count": 924,
+      "head_frame": "2b603287e8f2bcec9048f254220847d8bbab4f242c12f22e62477ba128c18078"
     },
     "world": {
-      "count": 827,
-      "head_frame": "a3cfc76d6737ca4698ca159b7f488e3a9d18192879885cc4dc65e4f60e3bb140"
+      "count": 828,
+      "head_frame": "e86e4ccd8f98d7005af545a659938a27fe100e46dd3a1045b83e517ce184a02c"
     },
     "registry": {
       "count": 22,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "a3cfc76d6737ca4698ca159b7f488e3a9d18192879885cc4dc65e4f60e3bb140",
-    "seq": 826,
-    "utc": "2026-09-16T05:41:44.354Z",
-    "tick": 922,
-    "tick_frame": "8a14a3f137297e7a84d1d0f1d576293ec8f58b236d98fe3706d2d2e9b9ce10c9",
+    "frame_hash": "e86e4ccd8f98d7005af545a659938a27fe100e46dd3a1045b83e517ce184a02c",
+    "seq": 827,
+    "utc": "2026-09-16T10:18:02.620Z",
+    "tick": 923,
+    "tick_frame": "2b603287e8f2bcec9048f254220847d8bbab4f242c12f22e62477ba128c18078",
     "data": {
       "btc_block_height": {
-        "height": 967235
+        "height": 967266
       },
       "btc_usd": {
-        "spot": "75862.925"
+        "spot": "75918.075"
       },
       "fx_usd": {
         "EUR": "0.8667",
@@ -58,30 +58,30 @@
         "CNY": "6.7268"
       },
       "crypto_market": {
-        "total_mcap_usd": "2596095500967",
+        "total_mcap_usd": "2596406646858",
         "btc_dominance_pct": "58.5"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 77357
+        "tx_count": 80000
       },
       "earthquakes_past_hour": {
-        "count": 5,
-        "max_mag": "1.7"
+        "count": 8,
+        "max_mag": "4.7"
       },
       "iss": {
-        "lat": "10.726",
-        "lon": "-59.735"
+        "lat": "17.872",
+        "lon": "-136.076"
       },
       "space_weather": {
-        "kp": "3.67",
-        "at": "2026-09-16T00:00:00"
+        "kp": "2.33",
+        "at": "2026-09-16T06:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 113,
+        "gco2_kwh": 110,
         "index": "moderate"
       },
       "hn_top": {
@@ -92,11 +92,11 @@
         "top_by_volume": [
           {
             "question": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-            "yes_price": "0.115"
+            "yes_price": "0.125"
           },
           {
-            "question": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-            "yes_price": "0.875"
+            "question": "Will the Fed increase interest rates by 50+ bps after the September 2026 meeting?",
+            "yes_price": "0.0075"
           },
           {
             "question": "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
@@ -246,5 +246,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "61b9a89625ceb3e7fe552dbdcb24460ebda1c3a017e19612300b593090b6aeee"
+  "input_fingerprint": "736d8dc90fbc45b91f4c9c8071133ab4145342ea7fbb859c1e3d6c6221447649"
 }
