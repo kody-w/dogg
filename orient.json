@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-16T18:53:31.483Z",
+  "generated_utc": "2026-09-16T21:50:26.386Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 925,
-    "frame_hash": "03829f019bc3cc1f35bc883456ea6b2b11bc6be7992ae6d3e55842e104c613d8",
-    "utc": "2026-09-16T18:53:28.227Z"
+    "seq": 926,
+    "frame_hash": "33c051965f8bfed08fd13940740fc4662e20fff89dd87b8cc469fe6e1bff195f",
+    "utc": "2026-09-16T21:50:22.864Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 926,
-      "head_frame": "03829f019bc3cc1f35bc883456ea6b2b11bc6be7992ae6d3e55842e104c613d8"
+      "count": 927,
+      "head_frame": "33c051965f8bfed08fd13940740fc4662e20fff89dd87b8cc469fe6e1bff195f"
     },
     "world": {
-      "count": 830,
-      "head_frame": "5ad6e8935b79346f7abe8b7973b95226e76f5605441b3a8e8d3c550b611113ee"
+      "count": 831,
+      "head_frame": "5a57dcf9d7c1b0587964dea1741d8f4f05bfe0b9343ca4d7f96fc91527ae08a1"
     },
     "registry": {
       "count": 22,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "5ad6e8935b79346f7abe8b7973b95226e76f5605441b3a8e8d3c550b611113ee",
-    "seq": 829,
-    "utc": "2026-09-16T18:53:31.003Z",
-    "tick": 925,
-    "tick_frame": "03829f019bc3cc1f35bc883456ea6b2b11bc6be7992ae6d3e55842e104c613d8",
+    "frame_hash": "5a57dcf9d7c1b0587964dea1741d8f4f05bfe0b9343ca4d7f96fc91527ae08a1",
+    "seq": 830,
+    "utc": "2026-09-16T21:50:26.114Z",
+    "tick": 926,
+    "tick_frame": "33c051965f8bfed08fd13940740fc4662e20fff89dd87b8cc469fe6e1bff195f",
     "data": {
       "btc_block_height": {
-        "height": 967314
+        "height": 967327
       },
       "btc_usd": {
-        "spot": "75601.095"
+        "spot": "75901.375"
       },
       "fx_usd": {
         "EUR": "0.8667",
@@ -58,48 +58,48 @@
         "CNY": "6.7268"
       },
       "crypto_market": {
-        "total_mcap_usd": "2635435574067",
-        "btc_dominance_pct": "58.5"
+        "total_mcap_usd": "2599005534871",
+        "btc_dominance_pct": "58.4"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 79289
+        "tx_count": 81304
       },
       "earthquakes_past_hour": {
-        "count": 8,
-        "max_mag": "1.8"
+        "count": 7,
+        "max_mag": "2.0"
       },
       "iss": {
-        "lat": "-4.278",
-        "lon": "-75.742"
+        "lat": "-30.281",
+        "lon": "-144.688"
       },
       "space_weather": {
-        "kp": "1.0",
-        "at": "2026-09-16T15:00:00"
+        "kp": "0.67",
+        "at": "2026-09-16T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 149,
+        "gco2_kwh": 103,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 49729000,
-        "title": "Small Programming Tricks"
+        "id": 49731285,
+        "title": "Training a 4B model to produce 81% faster query plans than Postgres"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+            "question": "Will AC Milan win on 2026-09-16?",
             "yes_price": "0.0005"
           },
           {
-            "question": "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
-            "yes_price": "0.0005"
+            "question": "Will FC Barcelona win on 2026-09-16?",
+            "yes_price": "0.9995"
           },
           {
-            "question": "Will the Fed increase interest rates by 50+ bps after the September 2026 meeting?",
+            "question": "New York Yankees vs. Minnesota Twins",
             "yes_price": "0.0005"
           }
         ]
@@ -246,5 +246,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "62be62ce12d35b018f7330be67ce6de4249d619795e9ad2922466cd7262c9e65"
+  "input_fingerprint": "77e94841d9b76dc478b4ebcafcd828ff39673266ab4a5b1c3174f2aeafe39783"
 }

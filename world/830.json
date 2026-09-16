@@ -1,0 +1,79 @@
+{
+  "spec": "rapp/1",
+  "kind": "world.snapshot",
+  "stream_id": "world:@kody-w/dogg",
+  "seq": 830,
+  "utc": "2026-09-16T21:50:26.114Z",
+  "payload": {
+    "tick": 926,
+    "tick_frame": "33c051965f8bfed08fd13940740fc4662e20fff89dd87b8cc469fe6e1bff195f",
+    "fetched_utc": "2026-09-16T21:50:26.114Z",
+    "world": {
+      "btc_block_height": {
+        "height": 967327
+      },
+      "btc_usd": {
+        "spot": "75901.375"
+      },
+      "fx_usd": {
+        "EUR": "0.8667",
+        "GBP": "0.7420",
+        "JPY": "155.0760",
+        "CNY": "6.7268"
+      },
+      "crypto_market": {
+        "total_mcap_usd": "2599005534871",
+        "btc_dominance_pct": "58.4"
+      },
+      "btc_fees": {
+        "fastest_sat_vb": 3,
+        "hour_sat_vb": 1
+      },
+      "btc_mempool": {
+        "tx_count": 81304
+      },
+      "earthquakes_past_hour": {
+        "count": 7,
+        "max_mag": "2.0"
+      },
+      "iss": {
+        "lat": "-30.281",
+        "lon": "-144.688"
+      },
+      "space_weather": {
+        "kp": "0.67",
+        "at": "2026-09-16T18:00:00"
+      },
+      "grid_carbon_gb": {
+        "gco2_kwh": 103,
+        "index": "moderate"
+      },
+      "hn_top": {
+        "id": 49731285,
+        "title": "Training a 4B model to produce 81% faster query plans than Postgres"
+      },
+      "prediction_markets": {
+        "top_by_volume": [
+          {
+            "question": "Will AC Milan win on 2026-09-16?",
+            "yes_price": "0.0005"
+          },
+          {
+            "question": "Will FC Barcelona win on 2026-09-16?",
+            "yes_price": "0.9995"
+          },
+          {
+            "question": "New York Yankees vs. Minnesota Twins",
+            "yes_price": "0.0005"
+          }
+        ]
+      }
+    },
+    "sources_failed": []
+  },
+  "payload_hash": "150b7dcdff8a4c3dbac9a796ca6f8276d189ca214272003e85c48325403c5cc7",
+  "prev": "0d4b4669ac2a25126482d9ff49a8de8e57c6a0939c6c514cc26644827421aad7",
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "5a57dcf9d7c1b0587964dea1741d8f4f05bfe0b9343ca4d7f96fc91527ae08a1"
+}
