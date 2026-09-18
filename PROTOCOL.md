@@ -7,8 +7,10 @@ frames. Native `dogg/0` shares the envelope and hash domains with
 [RAPP/1](https://github.com/kody-w/rapp-1), but its `theme:@owner/repo` labels are
 not frozen RAPP/1 stream IDs. The historical `spec: "rapp/1"` declaration is retained
 as original data, not treated as proof of full conformance. This page describes
-native DOGG, not an alternative definition of RAPP/1. The bounded forward-only
-[bridge](BRIDGE.md) emits new unsigned RAPP/1 frames without rewriting native history.
+native DOGG, not an alternative definition of RAPP/1. The immutable
+[bridge/1 snapshot](BRIDGE.md) emits one new unsigned RAPP/1 frame, while the separate
+[bridge/2 profile](BRIDGE2.md) emits a signed, registry-bound forward projection.
+Neither rewrites native history.
 
 ## 1. The spine
 
