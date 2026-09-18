@@ -1,20 +1,22 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-18T18:38:16.638Z",
+  "generated_utc": "2026-09-18T21:15:09.723Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 938,
-    "frame_hash": "5fc7747e9e4e47940cd2fe0717e487abffcd8f7ed520b938d72ab94c48fc6e8e",
-    "utc": "2026-09-18T18:38:12.893Z"
+    "seq": 939,
+    "frame_hash": "7d19a439979da601dc7c51dd7c852d11a7d5c7822a3120e3b8276507bc9720ba",
+    "utc": "2026-09-18T21:15:00.202Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
     "world": {
-      "state": "current",
+      "state": "partial",
       "ticks_behind": 0,
-      "sources_failed": [],
+      "sources_failed": [
+        "crypto_market"
+      ],
       "last_refresh": "ok",
       "retained_last_good": false
     },
@@ -26,12 +28,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 939,
-      "head_frame": "5fc7747e9e4e47940cd2fe0717e487abffcd8f7ed520b938d72ab94c48fc6e8e"
+      "count": 940,
+      "head_frame": "7d19a439979da601dc7c51dd7c852d11a7d5c7822a3120e3b8276507bc9720ba"
     },
     "world": {
-      "count": 843,
-      "head_frame": "4c4f91ae0ba036ddd331dd1892e9b837295f813f12f29b3fab4e0bc455e070c2"
+      "count": 844,
+      "head_frame": "fcbe81a4549c9f0c5475167156ef6daa0dafb89e97a8444ee9ec3f1b05e8ca92"
     },
     "registry": {
       "count": 22,
@@ -39,17 +41,17 @@
     }
   },
   "world": {
-    "frame_hash": "4c4f91ae0ba036ddd331dd1892e9b837295f813f12f29b3fab4e0bc455e070c2",
-    "seq": 842,
-    "utc": "2026-09-18T18:38:16.136Z",
-    "tick": 938,
-    "tick_frame": "5fc7747e9e4e47940cd2fe0717e487abffcd8f7ed520b938d72ab94c48fc6e8e",
+    "frame_hash": "fcbe81a4549c9f0c5475167156ef6daa0dafb89e97a8444ee9ec3f1b05e8ca92",
+    "seq": 843,
+    "utc": "2026-09-18T21:15:09.233Z",
+    "tick": 939,
+    "tick_frame": "7d19a439979da601dc7c51dd7c852d11a7d5c7822a3120e3b8276507bc9720ba",
     "data": {
       "btc_block_height": {
-        "height": 967589
+        "height": 967610
       },
       "btc_usd": {
-        "spot": "81068.435"
+        "spot": "81253.505"
       },
       "fx_usd": {
         "EUR": "0.8706",
@@ -57,50 +59,46 @@
         "JPY": "155.8362",
         "CNY": "6.7218"
       },
-      "crypto_market": {
-        "total_mcap_usd": "2775186609775",
-        "btc_dominance_pct": "58.5"
-      },
       "btc_fees": {
-        "fastest_sat_vb": 2,
-        "hour_sat_vb": 1
+        "fastest_sat_vb": 5,
+        "hour_sat_vb": 3
       },
       "btc_mempool": {
-        "tx_count": 80229
+        "tx_count": 85225
       },
       "earthquakes_past_hour": {
-        "count": 7,
-        "max_mag": "4.4"
+        "count": 6,
+        "max_mag": "2.4"
       },
       "iss": {
-        "lat": "-44.568",
-        "lon": "-131.208"
+        "lat": "-3.959",
+        "lon": "62.897"
       },
       "space_weather": {
-        "kp": "1.0",
-        "at": "2026-09-18T15:00:00"
+        "kp": "0.67",
+        "at": "2026-09-18T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 75,
+        "gco2_kwh": 61,
         "index": "low"
       },
       "hn_top": {
-        "id": 49754785,
-        "title": "Cloudflare Quick Tunnels"
+        "id": 49758736,
+        "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will FC Bayern München win on 2026-09-18?",
-            "yes_price": "0.955"
+            "question": "Will Chelsea FC win on 2026-09-18?",
+            "yes_price": "0.0005"
+          },
+          {
+            "question": "Will Brentford FC win on 2026-09-18?",
+            "yes_price": "0.9995"
           },
           {
             "question": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
-            "yes_price": "0.805"
-          },
-          {
-            "question": "LoL: Natus Vincere vs Movistar KOI (BO5) - LEC Playoffs",
-            "yes_price": "0.235"
+            "yes_price": "0.815"
           }
         ]
       }
@@ -246,5 +244,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "220937f8a0edd1ab3024d14a4687c4f97b66e306df684677a166d9e74f8f1e90"
+  "input_fingerprint": "bd54c074b923346ecefdb899cfea4e178546680fb087a92949e60f6273476fad"
 }
