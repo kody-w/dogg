@@ -1,22 +1,20 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-18T21:15:09.723Z",
+  "generated_utc": "2026-09-18T23:20:04.539Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 939,
-    "frame_hash": "7d19a439979da601dc7c51dd7c852d11a7d5c7822a3120e3b8276507bc9720ba",
-    "utc": "2026-09-18T21:15:00.202Z"
+    "seq": 940,
+    "frame_hash": "0427647b2b9a7cd655ef69c118dc61ceb5db1bb2a89c28b4855a6cd694536f42",
+    "utc": "2026-09-18T23:19:59.686Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
     "world": {
-      "state": "partial",
+      "state": "current",
       "ticks_behind": 0,
-      "sources_failed": [
-        "crypto_market"
-      ],
+      "sources_failed": [],
       "last_refresh": "ok",
       "retained_last_good": false
     },
@@ -28,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 940,
-      "head_frame": "7d19a439979da601dc7c51dd7c852d11a7d5c7822a3120e3b8276507bc9720ba"
+      "count": 941,
+      "head_frame": "0427647b2b9a7cd655ef69c118dc61ceb5db1bb2a89c28b4855a6cd694536f42"
     },
     "world": {
-      "count": 844,
-      "head_frame": "fcbe81a4549c9f0c5475167156ef6daa0dafb89e97a8444ee9ec3f1b05e8ca92"
+      "count": 845,
+      "head_frame": "53d8f676e16d7b403ce079fb3f8771df7f7f7e6f95c6f6c95103dffab1e45c3a"
     },
     "registry": {
       "count": 22,
@@ -41,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "fcbe81a4549c9f0c5475167156ef6daa0dafb89e97a8444ee9ec3f1b05e8ca92",
-    "seq": 843,
-    "utc": "2026-09-18T21:15:09.233Z",
-    "tick": 939,
-    "tick_frame": "7d19a439979da601dc7c51dd7c852d11a7d5c7822a3120e3b8276507bc9720ba",
+    "frame_hash": "53d8f676e16d7b403ce079fb3f8771df7f7f7e6f95c6f6c95103dffab1e45c3a",
+    "seq": 844,
+    "utc": "2026-09-18T23:20:04.046Z",
+    "tick": 940,
+    "tick_frame": "0427647b2b9a7cd655ef69c118dc61ceb5db1bb2a89c28b4855a6cd694536f42",
     "data": {
       "btc_block_height": {
-        "height": 967610
+        "height": 967626
       },
       "btc_usd": {
-        "spot": "81253.505"
+        "spot": "81118.195"
       },
       "fx_usd": {
         "EUR": "0.8706",
@@ -59,46 +57,50 @@
         "JPY": "155.8362",
         "CNY": "6.7218"
       },
+      "crypto_market": {
+        "total_mcap_usd": "2784650434048",
+        "btc_dominance_pct": "58.4"
+      },
       "btc_fees": {
-        "fastest_sat_vb": 5,
-        "hour_sat_vb": 3
+        "fastest_sat_vb": 1,
+        "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 85225
+        "tx_count": 77759
       },
       "earthquakes_past_hour": {
-        "count": 6,
-        "max_mag": "2.4"
+        "count": 8,
+        "max_mag": "2.6"
       },
       "iss": {
-        "lat": "-3.959",
-        "lon": "62.897"
+        "lat": "-37.762",
+        "lon": "170.453"
       },
       "space_weather": {
         "kp": "0.67",
         "at": "2026-09-18T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 61,
+        "gco2_kwh": 63,
         "index": "low"
       },
       "hn_top": {
-        "id": 49758736,
-        "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP"
+        "id": 49760187,
+        "title": "Claude Code now reads AGENTS.md if there is no Claude.md"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will Chelsea FC win on 2026-09-18?",
+            "question": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
+            "yes_price": "0.815"
+          },
+          {
+            "question": "LoL: Shopify Rebellion vs Sentinels - Game 2 Winner",
             "yes_price": "0.0005"
           },
           {
-            "question": "Will Brentford FC win on 2026-09-18?",
-            "yes_price": "0.9995"
-          },
-          {
-            "question": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
-            "yes_price": "0.815"
+            "question": "Will François Ruffin win the 2027 French presidential election?",
+            "yes_price": "0.0025"
           }
         ]
       }
@@ -244,5 +246,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "bd54c074b923346ecefdb899cfea4e178546680fb087a92949e60f6273476fad"
+  "input_fingerprint": "cd64a8324ddf4c2a1685a1afb7aea059b0bb5672aea1ad0eb7114b2e00301fa7"
 }
