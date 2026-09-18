@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-17T23:42:42.713Z",
+  "generated_utc": "2026-09-18T01:32:17.706Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 933,
-    "frame_hash": "4f0ee9a489f506e7957673cdd9dcadf3d75830652b3156e0aac20a18eb7e1431",
-    "utc": "2026-09-17T23:42:38.671Z"
+    "seq": 934,
+    "frame_hash": "2a7e7ae1bf9b0d12bf97942203d634e8ac5e1167888b1914f4067b0a48aa337f",
+    "utc": "2026-09-18T01:32:12.791Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 934,
-      "head_frame": "4f0ee9a489f506e7957673cdd9dcadf3d75830652b3156e0aac20a18eb7e1431"
+      "count": 935,
+      "head_frame": "2a7e7ae1bf9b0d12bf97942203d634e8ac5e1167888b1914f4067b0a48aa337f"
     },
     "world": {
-      "count": 838,
-      "head_frame": "b14acac3daf657e56d610f7f240af544f41dca9542adf7916cc53ae0ad7ee039"
+      "count": 839,
+      "head_frame": "42ef23050f49255921c9c97eec29c5e03a228ac041006242f22d11de0c03965c"
     },
     "registry": {
       "count": 22,
@@ -39,49 +39,49 @@
     }
   },
   "world": {
-    "frame_hash": "b14acac3daf657e56d610f7f240af544f41dca9542adf7916cc53ae0ad7ee039",
-    "seq": 837,
-    "utc": "2026-09-17T23:42:42.236Z",
-    "tick": 933,
-    "tick_frame": "4f0ee9a489f506e7957673cdd9dcadf3d75830652b3156e0aac20a18eb7e1431",
+    "frame_hash": "42ef23050f49255921c9c97eec29c5e03a228ac041006242f22d11de0c03965c",
+    "seq": 838,
+    "utc": "2026-09-18T01:32:17.221Z",
+    "tick": 934,
+    "tick_frame": "2a7e7ae1bf9b0d12bf97942203d634e8ac5e1167888b1914f4067b0a48aa337f",
     "data": {
       "btc_block_height": {
-        "height": 967479
+        "height": 967484
       },
       "btc_usd": {
-        "spot": "76346.945"
+        "spot": "76551.205"
       },
       "fx_usd": {
-        "EUR": "0.8693",
-        "GBP": "0.7449",
-        "JPY": "155.5791",
-        "CNY": "6.7223"
+        "EUR": "0.8706",
+        "GBP": "0.7482",
+        "JPY": "155.8362",
+        "CNY": "6.7218"
       },
       "crypto_market": {
-        "total_mcap_usd": "2630310767394",
+        "total_mcap_usd": "2637967357356",
         "btc_dominance_pct": "58.1"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 78882
+        "tx_count": 82674
       },
       "earthquakes_past_hour": {
-        "count": 5,
-        "max_mag": "2.8"
+        "count": 4,
+        "max_mag": "4.6"
       },
       "iss": {
-        "lat": "-27.661",
-        "lon": "52.589"
+        "lat": "-50.550",
+        "lon": "107.274"
       },
       "space_weather": {
-        "kp": "1.67",
-        "at": "2026-09-17T18:00:00"
+        "kp": "2.33",
+        "at": "2026-09-17T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 65,
+        "gco2_kwh": 66,
         "index": "low"
       },
       "hn_top": {
@@ -92,15 +92,15 @@
         "top_by_volume": [
           {
             "question": "Lions vs. Bills",
-            "yes_price": "0.305"
+            "yes_price": "0.065"
           },
           {
-            "question": "Will China invade Taiwan by end of 2026?",
-            "yes_price": "0.0405"
+            "question": "Spread: Bills (-6.5)",
+            "yes_price": "0.825"
           },
           {
-            "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-            "yes_price": "0.495"
+            "question": "Spread: Bills (-5.5)",
+            "yes_price": "0.885"
           }
         ]
       }
@@ -246,5 +246,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "6b3735a42d0d6e51c0f681151b096dc2f0aa6302e9d9aaad587b32b99e75a458"
+  "input_fingerprint": "426a488dff12c206fce96cb81375ef652fe6c709a135c262676357e0293e0828"
 }
