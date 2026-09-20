@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-20T18:56:28.290Z",
+  "generated_utc": "2026-09-20T21:09:48.622Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 953,
-    "frame_hash": "96d74b0b1479f4778a37a3b982fe8c7f1e6a1387a7216a5248ed7e3f14589360",
-    "utc": "2026-09-20T18:56:24.361Z"
+    "seq": 954,
+    "frame_hash": "44a16802ece69e7c38f7d09ad6c39b4377af73570c5b2ee06d7b90f73b0da806",
+    "utc": "2026-09-20T21:09:45.188Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 954,
-      "head_frame": "96d74b0b1479f4778a37a3b982fe8c7f1e6a1387a7216a5248ed7e3f14589360"
+      "count": 955,
+      "head_frame": "44a16802ece69e7c38f7d09ad6c39b4377af73570c5b2ee06d7b90f73b0da806"
     },
     "world": {
-      "count": 858,
-      "head_frame": "d2226d6cd8be2eef267f7141e186e3be9b0e0f332a832005c3d8afec9c07a3fd"
+      "count": 859,
+      "head_frame": "0d712301c4fee1acac178a8354a8a4248050ce9af62cf20becd18847e20bf6a5"
     },
     "registry": {
       "count": 22,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "d2226d6cd8be2eef267f7141e186e3be9b0e0f332a832005c3d8afec9c07a3fd",
-    "seq": 857,
-    "utc": "2026-09-20T18:56:27.930Z",
-    "tick": 953,
-    "tick_frame": "96d74b0b1479f4778a37a3b982fe8c7f1e6a1387a7216a5248ed7e3f14589360",
+    "frame_hash": "0d712301c4fee1acac178a8354a8a4248050ce9af62cf20becd18847e20bf6a5",
+    "seq": 858,
+    "utc": "2026-09-20T21:09:48.123Z",
+    "tick": 954,
+    "tick_frame": "44a16802ece69e7c38f7d09ad6c39b4377af73570c5b2ee06d7b90f73b0da806",
     "data": {
       "btc_block_height": {
-        "height": 967879
+        "height": 967896
       },
       "btc_usd": {
-        "spot": "81059.995"
+        "spot": "80839.495"
       },
       "fx_usd": {
         "EUR": "0.8713",
@@ -58,30 +58,30 @@
         "CNY": "6.7184"
       },
       "crypto_market": {
-        "total_mcap_usd": "2761797163182",
-        "btc_dominance_pct": "58.8"
+        "total_mcap_usd": "2752868831502",
+        "btc_dominance_pct": "58.7"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 75944
+        "tx_count": 82620
       },
       "earthquakes_past_hour": {
-        "count": 3,
-        "max_mag": "3.4"
+        "count": 6,
+        "max_mag": "3.0"
       },
       "iss": {
-        "lat": "6.870",
-        "lon": "-91.406"
+        "lat": "11.247",
+        "lon": "40.260"
       },
       "space_weather": {
         "kp": "0.33",
-        "at": "2026-09-20T15:00:00"
+        "at": "2026-09-20T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 163,
+        "gco2_kwh": 144,
         "index": "moderate"
       },
       "hn_top": {
@@ -92,15 +92,15 @@
         "top_by_volume": [
           {
             "question": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
-            "yes_price": "0.935"
+            "yes_price": "0.9795"
           },
           {
-            "question": "Panthers vs. Falcons",
-            "yes_price": "0.955"
+            "question": "Packers vs. Jets",
+            "yes_price": "0.9995"
           },
           {
-            "question": "Vikings vs. Bears",
-            "yes_price": "0.515"
+            "question": "Commanders vs. Cowboys",
+            "yes_price": "0.175"
           }
         ]
       }
@@ -246,5 +246,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "db87f308efa76bfe32cd4df8535c390103f2d492a939f51977baf1166d5d6dd4"
+  "input_fingerprint": "34f1918c27215db0239c247608653fc0e6949749955659e4ffe472c72b99b915"
 }
