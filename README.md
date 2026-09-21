@@ -8,7 +8,8 @@ Native DOGG shares RAPP's envelope and hash domains, but native labels such as
 The historical `"spec": "rapp/1"` field and a green native hash check do not prove
 full RAPP/1 grammar or authenticated Consumer conformance. Native history stays
 unchanged. For a separate, conformant unsigned frame carrying exact native bytes,
-use the opt-in [Python → Node bridge](BRIDGE.md).
+use the opt-in [Python → Node bridge](BRIDGE.md). For a continuous signed,
+registry-bound projection, use the separate [bridge/2 profile](BRIDGE2.md).
 
 **Read & follow (no code):** https://kody-w.github.io/dogg/ — choose public journals,
 see what changed and whether their observations are fresh, stale or unavailable.
@@ -89,6 +90,11 @@ separate Node.js process verifies the transport and recovers the **original
 bytes** into a new directory. Identical exports to the same snapshot are no-ops.
 This is an unsigned/local snapshot bridge, not an egg, historical migration,
 live-writer switch, registry acceptance, or universal authenticated Consumer.
+
+[`BRIDGE2.md`](BRIDGE2.md) defines `dogg-rapp1-bridge/2` beside that immutable
+snapshot: a forward-only signed `memory.save` stream whose registry, genesis,
+source Git bytes, native chain, anti-rollback state, and tick references are
+verified before append. It still does not modify or relabel DOGG/0 history.
 
 ## The spellbook — chants of any length
 

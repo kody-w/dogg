@@ -12,6 +12,8 @@ jobs:
         with: { node-version: "22" }
       - name: opt-in RAPP/1 bridge contracts (Python export, Node recovery)
         run: python3 tests/test_rapp1_bridge.py
+      - name: signed forward RAPP/1 bridge/2 contracts
+        run: python3 tests/test_rapp1_bridge_v2.py
       - name: derived public orientation contracts
         run: |
           python3 tests/test_orientation.py
