@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-21T18:40:41.290Z",
+  "generated_utc": "2026-09-21T22:13:35.782Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 959,
-    "frame_hash": "03e1bfea12352d2c1f3dd441bb46864d5fa545d85f0433bd0a8556ed60815f19",
-    "utc": "2026-09-21T18:40:37.594Z"
+    "seq": 960,
+    "frame_hash": "aa08179b8f361beccd41673e2a0c3800d2186dd67c3daf233abe4eb5425e1940",
+    "utc": "2026-09-21T22:13:32.370Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 960,
-      "head_frame": "03e1bfea12352d2c1f3dd441bb46864d5fa545d85f0433bd0a8556ed60815f19"
+      "count": 961,
+      "head_frame": "aa08179b8f361beccd41673e2a0c3800d2186dd67c3daf233abe4eb5425e1940"
     },
     "world": {
-      "count": 864,
-      "head_frame": "2f734bca8cd0f07e7a8b8095f08a6c56f2558ce1c605e61de550b3722a82d68f"
+      "count": 865,
+      "head_frame": "77e119a3d6294f3d91f8160fb9c0b26eb54d912a7bfa07f4c50e34a377d99ee1"
     },
     "registry": {
       "count": 22,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "2f734bca8cd0f07e7a8b8095f08a6c56f2558ce1c605e61de550b3722a82d68f",
-    "seq": 863,
-    "utc": "2026-09-21T18:40:41.002Z",
-    "tick": 959,
-    "tick_frame": "03e1bfea12352d2c1f3dd441bb46864d5fa545d85f0433bd0a8556ed60815f19",
+    "frame_hash": "77e119a3d6294f3d91f8160fb9c0b26eb54d912a7bfa07f4c50e34a377d99ee1",
+    "seq": 864,
+    "utc": "2026-09-21T22:13:35.438Z",
+    "tick": 960,
+    "tick_frame": "aa08179b8f361beccd41673e2a0c3800d2186dd67c3daf233abe4eb5425e1940",
     "data": {
       "btc_block_height": {
-        "height": 968027
+        "height": 968049
       },
       "btc_usd": {
-        "spot": "85961.735"
+        "spot": "86557.055"
       },
       "fx_usd": {
         "EUR": "0.8713",
@@ -58,49 +58,49 @@
         "CNY": "6.7047"
       },
       "crypto_market": {
-        "total_mcap_usd": "2919568569509",
+        "total_mcap_usd": "2941869237564",
         "btc_dominance_pct": "58.9"
       },
       "btc_fees": {
-        "fastest_sat_vb": 5,
-        "hour_sat_vb": 4
+        "fastest_sat_vb": 3,
+        "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 89077
+        "tx_count": 81572
       },
       "earthquakes_past_hour": {
-        "count": 4,
-        "max_mag": "3.8"
+        "count": 5,
+        "max_mag": "5.0"
       },
       "iss": {
-        "lat": "37.984",
-        "lon": "43.293"
+        "lat": "-39.421",
+        "lon": "67.451"
       },
       "space_weather": {
-        "kp": "0.33",
-        "at": "2026-09-21T15:00:00"
+        "kp": "0.0",
+        "at": "2026-09-21T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 215,
+        "gco2_kwh": 198,
         "index": "high"
       },
       "hn_top": {
-        "id": 49787436,
-        "title": "What Sun got wrong"
+        "id": 49792730,
+        "title": "Xiaomi MiMo v2.6"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
-            "yes_price": "0.0015"
+            "question": "Giants vs. Rams: O/U 47.5",
+            "yes_price": "0.495"
           },
           {
             "question": "Giants vs. Rams",
             "yes_price": "0.265"
           },
           {
-            "question": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-            "yes_price": "0.495"
+            "question": "Will Glenn Youngkin win the 2028 US Presidential Election?",
+            "yes_price": "0.0015"
           }
         ]
       }
@@ -246,5 +246,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "982e8c79d3ea2a8f1f0cf0545a3e37b3d95f57b40c35cc66b6b3d99d3d20b82f"
+  "input_fingerprint": "466047cb53433da82e712481c0af07f18ae78e6fd51298147addd5f254048cdc"
 }
