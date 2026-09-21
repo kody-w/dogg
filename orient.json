@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-21T06:18:15.536Z",
+  "generated_utc": "2026-09-21T13:06:35.368Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 957,
-    "frame_hash": "ccd43a45a21b8076408a6fe6560fd34f9d100a04f3568212a145dc4fd3f40e8c",
-    "utc": "2026-09-21T06:18:07.551Z"
+    "seq": 958,
+    "frame_hash": "01b1af25f16311a003a6fcce23bd0de092f63411401fa757c333d6feacd496e4",
+    "utc": "2026-09-21T13:06:31.884Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 958,
-      "head_frame": "ccd43a45a21b8076408a6fe6560fd34f9d100a04f3568212a145dc4fd3f40e8c"
+      "count": 959,
+      "head_frame": "01b1af25f16311a003a6fcce23bd0de092f63411401fa757c333d6feacd496e4"
     },
     "world": {
-      "count": 862,
-      "head_frame": "5bc1eca6d948ecaa540a324bae53b0a87a7431a3ae7499b11301660dc03e0453"
+      "count": 863,
+      "head_frame": "9b100aa4fca76f6b1ec8900a6308dfd779c0a1635f0b9eb5a99c18a7d596b2d1"
     },
     "registry": {
       "count": 22,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "5bc1eca6d948ecaa540a324bae53b0a87a7431a3ae7499b11301660dc03e0453",
-    "seq": 861,
-    "utc": "2026-09-21T06:18:15.150Z",
-    "tick": 957,
-    "tick_frame": "ccd43a45a21b8076408a6fe6560fd34f9d100a04f3568212a145dc4fd3f40e8c",
+    "frame_hash": "9b100aa4fca76f6b1ec8900a6308dfd779c0a1635f0b9eb5a99c18a7d596b2d1",
+    "seq": 862,
+    "utc": "2026-09-21T13:06:35.077Z",
+    "tick": 958,
+    "tick_frame": "01b1af25f16311a003a6fcce23bd0de092f63411401fa757c333d6feacd496e4",
     "data": {
       "btc_block_height": {
-        "height": 967955
+        "height": 967993
       },
       "btc_usd": {
-        "spot": "81727.985"
+        "spot": "85338.195"
       },
       "fx_usd": {
         "EUR": "0.8713",
@@ -58,49 +58,49 @@
         "CNY": "6.7047"
       },
       "crypto_market": {
-        "total_mcap_usd": "2812803917469",
-        "btc_dominance_pct": "58.2"
+        "total_mcap_usd": "2907285643604",
+        "btc_dominance_pct": "58.8"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 77566
+        "tx_count": 77019
       },
       "earthquakes_past_hour": {
-        "count": 10,
-        "max_mag": "2.4"
+        "count": 8,
+        "max_mag": "4.7"
       },
       "iss": {
-        "lat": "36.333",
-        "lon": "-125.489"
+        "lat": "-51.633",
+        "lon": "-97.876"
       },
       "space_weather": {
-        "kp": "1.0",
-        "at": "2026-09-21T03:00:00"
+        "kp": "0.67",
+        "at": "2026-09-21T09:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 181,
-        "index": "high"
+        "gco2_kwh": 106,
+        "index": "moderate"
       },
       "hn_top": {
-        "id": 49780797,
-        "title": "AX – Google’s Open Agentic Orchestrator"
+        "id": 49785429,
+        "title": "ZuckOff Know when a camera is in the room"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
-            "yes_price": "0.9945"
+            "question": "Dota 2: Conventus Stellarum vs 1win (BO3) - PGL Wallachia Group Stage",
+            "yes_price": "0.71"
           },
           {
-            "question": "Will Hakeem Jeffries win the 2028 Democratic presidential nomination?",
+            "question": "Dota 2: Team Nemesis vs MOUZ - Game 2 Winner",
+            "yes_price": "0.9995"
+          },
+          {
+            "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
             "yes_price": "0.0015"
-          },
-          {
-            "question": "Will New People (NL) gain the most seats in the next Russian parliamentary election?",
-            "yes_price": "0.005"
           }
         ]
       }
@@ -246,5 +246,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "f3227540a92f2900863cd32572c8569d3faba68796c19bbe092e916450e0ac4d"
+  "input_fingerprint": "f499d1b865a7b312027a8fb920370c4c36c4d51da43848681e7c7330cacfd876"
 }
