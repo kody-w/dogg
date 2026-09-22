@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-22T00:51:23.274Z",
+  "generated_utc": "2026-09-22T05:44:14.015Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 961,
-    "frame_hash": "e04879c2f6d7915235123445c3da20c6cfb1d4a347f56cec456c1317f731d046",
-    "utc": "2026-09-22T00:51:19.749Z"
+    "seq": 962,
+    "frame_hash": "f7aa09385986bf5c95245425aa50ea6a34e05dcc8c6d805a81e514ce6b337992",
+    "utc": "2026-09-22T05:44:10.747Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 962,
-      "head_frame": "e04879c2f6d7915235123445c3da20c6cfb1d4a347f56cec456c1317f731d046"
+      "count": 963,
+      "head_frame": "f7aa09385986bf5c95245425aa50ea6a34e05dcc8c6d805a81e514ce6b337992"
     },
     "world": {
-      "count": 866,
-      "head_frame": "f1450aa8152655ed4f3cecaaab082c77b96412e2384baa6b21bd059afda744a0"
+      "count": 867,
+      "head_frame": "c1e66597578197c4f80d51b991dd9bc5703b515bea0eb5618ebbd5e78c139ebe"
     },
     "registry": {
       "count": 22,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "f1450aa8152655ed4f3cecaaab082c77b96412e2384baa6b21bd059afda744a0",
-    "seq": 865,
-    "utc": "2026-09-22T00:51:22.794Z",
-    "tick": 961,
-    "tick_frame": "e04879c2f6d7915235123445c3da20c6cfb1d4a347f56cec456c1317f731d046",
+    "frame_hash": "c1e66597578197c4f80d51b991dd9bc5703b515bea0eb5618ebbd5e78c139ebe",
+    "seq": 866,
+    "utc": "2026-09-22T05:44:13.668Z",
+    "tick": 962,
+    "tick_frame": "f7aa09385986bf5c95245425aa50ea6a34e05dcc8c6d805a81e514ce6b337992",
     "data": {
       "btc_block_height": {
-        "height": 968067
+        "height": 968103
       },
       "btc_usd": {
-        "spot": "86131.505"
+        "spot": "85388.645"
       },
       "fx_usd": {
         "EUR": "0.8718",
@@ -58,49 +58,49 @@
         "CNY": "6.7102"
       },
       "crypto_market": {
-        "total_mcap_usd": "2935916744731",
+        "total_mcap_usd": "2904298585426",
         "btc_dominance_pct": "58.8"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 77051
+        "tx_count": 79443
       },
       "earthquakes_past_hour": {
         "count": 6,
-        "max_mag": "2.3"
+        "max_mag": "5.0"
       },
       "iss": {
-        "lat": "39.991",
-        "lon": "-54.308"
+        "lat": "-0.232",
+        "lon": "-87.214"
       },
       "space_weather": {
-        "kp": "1.33",
-        "at": "2026-09-21T21:00:00"
+        "kp": "2.0",
+        "at": "2026-09-22T00:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 196,
+        "gco2_kwh": 218,
         "index": "high"
       },
       "hn_top": {
         "id": 49792730,
-        "title": "Xiaomi MiMo v2.6"
+        "title": "MiMo v2.6"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Giants vs. Rams",
-            "yes_price": "0.165"
+            "question": "Will Glenn Youngkin win the 2028 US Presidential Election?",
+            "yes_price": "0.0015"
           },
           {
-            "question": "Spread: Rams (-6.5)",
-            "yes_price": "0.645"
+            "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
+            "yes_price": "0.0015"
           },
           {
-            "question": "Giants vs. Rams: O/U 47.5",
-            "yes_price": "0.21"
+            "question": "Korea Open: Taylah Preston vs Himeno Sakatsume",
+            "yes_price": "0.9995"
           }
         ]
       }
@@ -246,5 +246,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "cbff83a266e3cb3a5a727125a32c6a0a4c32d4d669da968e538616d02f03a63b"
+  "input_fingerprint": "1321bcf67521aeb9215b51b6dcd21ee3dd1f183a5a3d4d95f3ac9b7ec307eb09"
 }
