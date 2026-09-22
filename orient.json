@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-21T22:13:35.782Z",
+  "generated_utc": "2026-09-22T00:51:23.274Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 960,
-    "frame_hash": "aa08179b8f361beccd41673e2a0c3800d2186dd67c3daf233abe4eb5425e1940",
-    "utc": "2026-09-21T22:13:32.370Z"
+    "seq": 961,
+    "frame_hash": "e04879c2f6d7915235123445c3da20c6cfb1d4a347f56cec456c1317f731d046",
+    "utc": "2026-09-22T00:51:19.749Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 961,
-      "head_frame": "aa08179b8f361beccd41673e2a0c3800d2186dd67c3daf233abe4eb5425e1940"
+      "count": 962,
+      "head_frame": "e04879c2f6d7915235123445c3da20c6cfb1d4a347f56cec456c1317f731d046"
     },
     "world": {
-      "count": 865,
-      "head_frame": "77e119a3d6294f3d91f8160fb9c0b26eb54d912a7bfa07f4c50e34a377d99ee1"
+      "count": 866,
+      "head_frame": "f1450aa8152655ed4f3cecaaab082c77b96412e2384baa6b21bd059afda744a0"
     },
     "registry": {
       "count": 22,
@@ -39,49 +39,49 @@
     }
   },
   "world": {
-    "frame_hash": "77e119a3d6294f3d91f8160fb9c0b26eb54d912a7bfa07f4c50e34a377d99ee1",
-    "seq": 864,
-    "utc": "2026-09-21T22:13:35.438Z",
-    "tick": 960,
-    "tick_frame": "aa08179b8f361beccd41673e2a0c3800d2186dd67c3daf233abe4eb5425e1940",
+    "frame_hash": "f1450aa8152655ed4f3cecaaab082c77b96412e2384baa6b21bd059afda744a0",
+    "seq": 865,
+    "utc": "2026-09-22T00:51:22.794Z",
+    "tick": 961,
+    "tick_frame": "e04879c2f6d7915235123445c3da20c6cfb1d4a347f56cec456c1317f731d046",
     "data": {
       "btc_block_height": {
-        "height": 968049
+        "height": 968067
       },
       "btc_usd": {
-        "spot": "86557.055"
+        "spot": "86131.505"
       },
       "fx_usd": {
-        "EUR": "0.8713",
-        "GBP": "0.7474",
-        "JPY": "156.9187",
-        "CNY": "6.7047"
+        "EUR": "0.8718",
+        "GBP": "0.7477",
+        "JPY": "157.3536",
+        "CNY": "6.7102"
       },
       "crypto_market": {
-        "total_mcap_usd": "2941869237564",
-        "btc_dominance_pct": "58.9"
+        "total_mcap_usd": "2935916744731",
+        "btc_dominance_pct": "58.8"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 81572
+        "tx_count": 77051
       },
       "earthquakes_past_hour": {
-        "count": 5,
-        "max_mag": "5.0"
+        "count": 6,
+        "max_mag": "2.3"
       },
       "iss": {
-        "lat": "-39.421",
-        "lon": "67.451"
+        "lat": "39.991",
+        "lon": "-54.308"
       },
       "space_weather": {
-        "kp": "0.0",
-        "at": "2026-09-21T18:00:00"
+        "kp": "1.33",
+        "at": "2026-09-21T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 198,
+        "gco2_kwh": 196,
         "index": "high"
       },
       "hn_top": {
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Giants vs. Rams: O/U 47.5",
-            "yes_price": "0.495"
-          },
-          {
             "question": "Giants vs. Rams",
-            "yes_price": "0.265"
+            "yes_price": "0.165"
           },
           {
-            "question": "Will Glenn Youngkin win the 2028 US Presidential Election?",
-            "yes_price": "0.0015"
+            "question": "Spread: Rams (-6.5)",
+            "yes_price": "0.645"
+          },
+          {
+            "question": "Giants vs. Rams: O/U 47.5",
+            "yes_price": "0.21"
           }
         ]
       }
@@ -246,5 +246,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "466047cb53433da82e712481c0af07f18ae78e6fd51298147addd5f254048cdc"
+  "input_fingerprint": "cbff83a266e3cb3a5a727125a32c6a0a4c32d4d669da968e538616d02f03a63b"
 }
