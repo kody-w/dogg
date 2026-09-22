@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-22T15:05:31.676Z",
+  "generated_utc": "2026-09-22T18:52:37.833Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 964,
-    "frame_hash": "aa5afbe5e2ec45a9a619a65242e3756ca32f124e1d6f2ac5d80eecd5caed2c4e",
-    "utc": "2026-09-22T15:05:27.399Z"
+    "seq": 965,
+    "frame_hash": "9469a437c6d6e1e0805c9d129e48752a046bff4dea14ae84cd2890997d547267",
+    "utc": "2026-09-22T18:52:33.907Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 965,
-      "head_frame": "aa5afbe5e2ec45a9a619a65242e3756ca32f124e1d6f2ac5d80eecd5caed2c4e"
+      "count": 966,
+      "head_frame": "9469a437c6d6e1e0805c9d129e48752a046bff4dea14ae84cd2890997d547267"
     },
     "world": {
-      "count": 869,
-      "head_frame": "172acb773a74ff08635766be75835bf9f400e734a19a48fd721c12580ab143af"
+      "count": 870,
+      "head_frame": "376fe7fe8b369c87f9fa6fab22b950bd5b834d3740e9bc92aff6b2fa062fb002"
     },
     "registry": {
       "count": 22,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "172acb773a74ff08635766be75835bf9f400e734a19a48fd721c12580ab143af",
-    "seq": 868,
-    "utc": "2026-09-22T15:05:31.178Z",
-    "tick": 964,
-    "tick_frame": "aa5afbe5e2ec45a9a619a65242e3756ca32f124e1d6f2ac5d80eecd5caed2c4e",
+    "frame_hash": "376fe7fe8b369c87f9fa6fab22b950bd5b834d3740e9bc92aff6b2fa062fb002",
+    "seq": 869,
+    "utc": "2026-09-22T18:52:37.413Z",
+    "tick": 965,
+    "tick_frame": "9469a437c6d6e1e0805c9d129e48752a046bff4dea14ae84cd2890997d547267",
     "data": {
       "btc_block_height": {
-        "height": 968156
+        "height": 968172
       },
       "btc_usd": {
-        "spot": "86244.68"
+        "spot": "86496.365"
       },
       "fx_usd": {
         "EUR": "0.8718",
@@ -58,49 +58,49 @@
         "CNY": "6.7102"
       },
       "crypto_market": {
-        "total_mcap_usd": "2933951551922",
+        "total_mcap_usd": "2944216232535",
         "btc_dominance_pct": "58.9"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
-        "hour_sat_vb": 1
+        "fastest_sat_vb": 4,
+        "hour_sat_vb": 3
       },
       "btc_mempool": {
-        "tx_count": 82399
+        "tx_count": 92013
       },
       "earthquakes_past_hour": {
-        "count": 5,
-        "max_mag": "3.6"
+        "count": 7,
+        "max_mag": "2.2"
       },
       "iss": {
-        "lat": "-12.267",
-        "lon": "139.825"
+        "lat": "-3.447",
+        "lon": "-110.465"
       },
       "space_weather": {
-        "kp": "0.33",
-        "at": "2026-09-22T12:00:00"
+        "kp": "0.67",
+        "at": "2026-09-22T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 173,
-        "index": "high"
+        "gco2_kwh": 230,
+        "index": "very high"
       },
       "hn_top": {
-        "id": 49801324,
-        "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005"
+        "id": 49805509,
+        "title": "GPT-6 Sol and Luna"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Dota 2: LGD Gaming vs Aurora - Game 1 Winner",
-            "yes_price": "0.0005"
+            "question": "Tampa Bay Rays vs. New York Yankees",
+            "yes_price": "0.095"
           },
           {
-            "question": "Will Glenn Youngkin win the 2028 US Presidential Election?",
-            "yes_price": "0.0015"
+            "question": "Counter-Strike: Inner Circle Esports vs 3DMAX (BO3) - Logitech G Play Connect Playoffs",
+            "yes_price": "0.545"
           },
           {
-            "question": "Counter-Strike: B8 vs Luminosity (BO3) - Logitech G Play Connect Playoffs",
-            "yes_price": "0.445"
+            "question": "Will the U.S. invade Iran before 2027?",
+            "yes_price": "0.145"
           }
         ]
       }
@@ -246,5 +246,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "81d8e0e1c1578895ae0446b78081f609eac2f4335a546982c62fcc10ec7c9671"
+  "input_fingerprint": "b42cce578fd1ed212839e585b8dfa83e86427024ba56b4868ca2f05d1915920b"
 }
