@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-22T05:44:14.015Z",
+  "generated_utc": "2026-09-22T10:21:40.746Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 962,
-    "frame_hash": "f7aa09385986bf5c95245425aa50ea6a34e05dcc8c6d805a81e514ce6b337992",
-    "utc": "2026-09-22T05:44:10.747Z"
+    "seq": 963,
+    "frame_hash": "af759941bdcb386917205cfcfbea1daf48e5c2703adcbbe968ff0d84e77ce7c5",
+    "utc": "2026-09-22T10:21:37.221Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 963,
-      "head_frame": "f7aa09385986bf5c95245425aa50ea6a34e05dcc8c6d805a81e514ce6b337992"
+      "count": 964,
+      "head_frame": "af759941bdcb386917205cfcfbea1daf48e5c2703adcbbe968ff0d84e77ce7c5"
     },
     "world": {
-      "count": 867,
-      "head_frame": "c1e66597578197c4f80d51b991dd9bc5703b515bea0eb5618ebbd5e78c139ebe"
+      "count": 868,
+      "head_frame": "c14790bdb405de88afb2a40269ff060ce07af18f2b74d42713d6a7300e2eddd2"
     },
     "registry": {
       "count": 22,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "c1e66597578197c4f80d51b991dd9bc5703b515bea0eb5618ebbd5e78c139ebe",
-    "seq": 866,
-    "utc": "2026-09-22T05:44:13.668Z",
-    "tick": 962,
-    "tick_frame": "f7aa09385986bf5c95245425aa50ea6a34e05dcc8c6d805a81e514ce6b337992",
+    "frame_hash": "c14790bdb405de88afb2a40269ff060ce07af18f2b74d42713d6a7300e2eddd2",
+    "seq": 867,
+    "utc": "2026-09-22T10:21:40.230Z",
+    "tick": 963,
+    "tick_frame": "af759941bdcb386917205cfcfbea1daf48e5c2703adcbbe968ff0d84e77ce7c5",
     "data": {
       "btc_block_height": {
-        "height": 968103
+        "height": 968131
       },
       "btc_usd": {
-        "spot": "85388.645"
+        "spot": "85989.305"
       },
       "fx_usd": {
         "EUR": "0.8718",
@@ -58,35 +58,35 @@
         "CNY": "6.7102"
       },
       "crypto_market": {
-        "total_mcap_usd": "2904298585426",
-        "btc_dominance_pct": "58.8"
+        "total_mcap_usd": "2925822875754",
+        "btc_dominance_pct": "58.9"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 79443
+        "tx_count": 84720
       },
       "earthquakes_past_hour": {
-        "count": 6,
-        "max_mag": "5.0"
+        "count": 7,
+        "max_mag": "1.6"
       },
       "iss": {
-        "lat": "-0.232",
-        "lon": "-87.214"
+        "lat": "3.536",
+        "lon": "-160.687"
       },
       "space_weather": {
-        "kp": "2.0",
-        "at": "2026-09-22T00:00:00"
+        "kp": "0.33",
+        "at": "2026-09-22T06:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 218,
-        "index": "high"
+        "gco2_kwh": 146,
+        "index": "moderate"
       },
       "hn_top": {
-        "id": 49792730,
-        "title": "MiMo v2.6"
+        "id": 49798451,
+        "title": "Study: Young users (9 to 18Y) ditch Google for AI, with unknown consequences"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -95,12 +95,12 @@
             "yes_price": "0.0015"
           },
           {
-            "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
-            "yes_price": "0.0015"
+            "question": "Will the U.S. invade Iran before 2027?",
+            "yes_price": "0.145"
           },
           {
-            "question": "Korea Open: Taylah Preston vs Himeno Sakatsume",
-            "yes_price": "0.9995"
+            "question": "Dota 2: Team Nemesis vs GamerLegion (BO3) - PGL Wallachia Group Stage",
+            "yes_price": "0.0005"
           }
         ]
       }
@@ -246,5 +246,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "1321bcf67521aeb9215b51b6dcd21ee3dd1f183a5a3d4d95f3ac9b7ec307eb09"
+  "input_fingerprint": "0d828c0d1597a463df7854ee278d232fe25b331bc29483e307c2e0d958056f98"
 }
