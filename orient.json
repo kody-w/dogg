@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-22T18:52:37.833Z",
+  "generated_utc": "2026-09-22T21:44:43.683Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 965,
-    "frame_hash": "9469a437c6d6e1e0805c9d129e48752a046bff4dea14ae84cd2890997d547267",
-    "utc": "2026-09-22T18:52:33.907Z"
+    "seq": 966,
+    "frame_hash": "8a6ae3022e1ec4ef1628a2fd2cdbc594508b463070f3cbb8dfea735d4ca16138",
+    "utc": "2026-09-22T21:44:40.312Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 966,
-      "head_frame": "9469a437c6d6e1e0805c9d129e48752a046bff4dea14ae84cd2890997d547267"
+      "count": 967,
+      "head_frame": "8a6ae3022e1ec4ef1628a2fd2cdbc594508b463070f3cbb8dfea735d4ca16138"
     },
     "world": {
-      "count": 870,
-      "head_frame": "376fe7fe8b369c87f9fa6fab22b950bd5b834d3740e9bc92aff6b2fa062fb002"
+      "count": 871,
+      "head_frame": "5574886bcafe432cb353f68585978aafb973158841660ac7687444439c2e848a"
     },
     "registry": {
       "count": 22,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "376fe7fe8b369c87f9fa6fab22b950bd5b834d3740e9bc92aff6b2fa062fb002",
-    "seq": 869,
-    "utc": "2026-09-22T18:52:37.413Z",
-    "tick": 965,
-    "tick_frame": "9469a437c6d6e1e0805c9d129e48752a046bff4dea14ae84cd2890997d547267",
+    "frame_hash": "5574886bcafe432cb353f68585978aafb973158841660ac7687444439c2e848a",
+    "seq": 870,
+    "utc": "2026-09-22T21:44:43.200Z",
+    "tick": 966,
+    "tick_frame": "8a6ae3022e1ec4ef1628a2fd2cdbc594508b463070f3cbb8dfea735d4ca16138",
     "data": {
       "btc_block_height": {
-        "height": 968172
+        "height": 968192
       },
       "btc_usd": {
-        "spot": "86496.365"
+        "spot": "86219.095"
       },
       "fx_usd": {
         "EUR": "0.8718",
@@ -58,31 +58,31 @@
         "CNY": "6.7102"
       },
       "crypto_market": {
-        "total_mcap_usd": "2944216232535",
-        "btc_dominance_pct": "58.9"
+        "total_mcap_usd": "2935021662886",
+        "btc_dominance_pct": "58.8"
       },
       "btc_fees": {
-        "fastest_sat_vb": 4,
-        "hour_sat_vb": 3
+        "fastest_sat_vb": 1,
+        "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 92013
+        "tx_count": 82612
       },
       "earthquakes_past_hour": {
-        "count": 7,
-        "max_mag": "2.2"
+        "count": 13,
+        "max_mag": "3.5"
       },
       "iss": {
-        "lat": "-3.447",
-        "lon": "-110.465"
+        "lat": "-41.438",
+        "lon": "164.487"
       },
       "space_weather": {
         "kp": "0.67",
-        "at": "2026-09-22T15:00:00"
+        "at": "2026-09-22T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 230,
-        "index": "very high"
+        "gco2_kwh": 213,
+        "index": "high"
       },
       "hn_top": {
         "id": 49805509,
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Tampa Bay Rays vs. New York Yankees",
-            "yes_price": "0.095"
-          },
-          {
-            "question": "Counter-Strike: Inner Circle Esports vs 3DMAX (BO3) - Logitech G Play Connect Playoffs",
-            "yes_price": "0.545"
+            "question": "Cincinnati Reds vs. Atlanta Braves",
+            "yes_price": "0.305"
           },
           {
             "question": "Will the U.S. invade Iran before 2027?",
             "yes_price": "0.145"
+          },
+          {
+            "question": "Will Sarah Huckabee Sanders win the 2028 Republican presidential nomination?",
+            "yes_price": "0.0005"
           }
         ]
       }
@@ -246,5 +246,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "b42cce578fd1ed212839e585b8dfa83e86427024ba56b4868ca2f05d1915920b"
+  "input_fingerprint": "089836e0a459fc0eabacf5374f958159979320a4443f529d624a484c67dbf76c"
 }
