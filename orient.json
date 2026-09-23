@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-23T17:09:28.833Z",
+  "generated_utc": "2026-09-23T17:58:07.340Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 970,
-    "frame_hash": "1aebd1369bdd8b5838d6a68c11ee41f95c109d654b2611bd9f93d2192c9bce90",
-    "utc": "2026-09-23T13:38:11.871Z"
+    "seq": 971,
+    "frame_hash": "706f20058a5caa4593d74184bcb9e673821ef0540ac92e26e8ccbfb767590741",
+    "utc": "2026-09-23T17:58:03.654Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 971,
-      "head_frame": "1aebd1369bdd8b5838d6a68c11ee41f95c109d654b2611bd9f93d2192c9bce90"
+      "count": 972,
+      "head_frame": "706f20058a5caa4593d74184bcb9e673821ef0540ac92e26e8ccbfb767590741"
     },
     "world": {
-      "count": 875,
-      "head_frame": "d68f057543898cc6308a46f0225e33886029ddaffaccf982965d6372d8fd48c9"
+      "count": 876,
+      "head_frame": "b9a9d5abd49c946f6cd5e4a797fa82c72b993d2b058f1c566dbaf1095e1ab476"
     },
     "registry": {
       "count": 23,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "d68f057543898cc6308a46f0225e33886029ddaffaccf982965d6372d8fd48c9",
-    "seq": 874,
-    "utc": "2026-09-23T13:38:15.591Z",
-    "tick": 970,
-    "tick_frame": "1aebd1369bdd8b5838d6a68c11ee41f95c109d654b2611bd9f93d2192c9bce90",
+    "frame_hash": "b9a9d5abd49c946f6cd5e4a797fa82c72b993d2b058f1c566dbaf1095e1ab476",
+    "seq": 875,
+    "utc": "2026-09-23T17:58:06.961Z",
+    "tick": 971,
+    "tick_frame": "706f20058a5caa4593d74184bcb9e673821ef0540ac92e26e8ccbfb767590741",
     "data": {
       "btc_block_height": {
-        "height": 968278
+        "height": 968302
       },
       "btc_usd": {
-        "spot": "85766.655"
+        "spot": "84282.005"
       },
       "fx_usd": {
         "EUR": "0.8732",
@@ -58,49 +58,49 @@
         "CNY": "6.7135"
       },
       "crypto_market": {
-        "total_mcap_usd": "2920144838536",
-        "btc_dominance_pct": "58.7"
+        "total_mcap_usd": "2874661514331",
+        "btc_dominance_pct": "58.8"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 84627
+        "tx_count": 81273
       },
       "earthquakes_past_hour": {
         "count": 9,
-        "max_mag": "5.0"
+        "max_mag": "4.9"
       },
       "iss": {
-        "lat": "29.141",
-        "lon": "-7.756"
+        "lat": "-26.618",
+        "lon": "-123.064"
       },
       "space_weather": {
-        "kp": "1.0",
-        "at": "2026-09-23T09:00:00"
+        "kp": "0.67",
+        "at": "2026-09-23T12:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 66,
-        "index": "low"
+        "gco2_kwh": 164,
+        "index": "moderate"
       },
       "hn_top": {
-        "id": 49814947,
-        "title": "Claude Code reads AGENTS.md only when telemetry is on"
+        "id": 49817469,
+        "title": "Fixing the Portobello Police Station Clock"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Dota 2: Team Nemesis vs Conventus Stellarum (BO3) - PGL Wallachia Group Stage",
-            "yes_price": "0.9995"
+            "question": "Washington Nationals vs. Detroit Tigers",
+            "yes_price": "0.395"
           },
           {
             "question": "Will the US confirm that aliens exist by September 30?",
-            "yes_price": "0.0035"
+            "yes_price": "0.0025"
           },
           {
-            "question": "Will Sarah Huckabee Sanders win the 2028 Republican presidential nomination?",
-            "yes_price": "0.0005"
+            "question": "Kharg Island no longer under Iranian control by September 30?",
+            "yes_price": "0.0035"
           }
         ]
       }
@@ -252,5 +252,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "8444305078e944fca42b807051f5f4d0022934df40bbb90b75a9ff08df86eea7"
+  "input_fingerprint": "bf3b24eae7ecd19fd0a6d57ed2ce4046cf867e657564a71c86fe3836fe08daac"
 }
