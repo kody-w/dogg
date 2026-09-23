@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-23T19:17:07.222Z",
+  "generated_utc": "2026-09-23T19:27:38.476Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 976,
-    "frame_hash": "389df702eaf13efb4c7ffc5ab928dfdac7e6e066f36f2a3bf37cef84c9da471a",
-    "utc": "2026-09-23T19:17:00.117Z"
+    "seq": 977,
+    "frame_hash": "76553e7b1a9d3578efe0fce40864c6aceb5432639088b314cae5f917a025d040",
+    "utc": "2026-09-23T19:27:33.621Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 977,
-      "head_frame": "389df702eaf13efb4c7ffc5ab928dfdac7e6e066f36f2a3bf37cef84c9da471a"
+      "count": 978,
+      "head_frame": "76553e7b1a9d3578efe0fce40864c6aceb5432639088b314cae5f917a025d040"
     },
     "world": {
-      "count": 881,
-      "head_frame": "f7cde582198c8335807c9fc60ca0c88b3c5ab9a90b6ed1cea21d62524ed28137"
+      "count": 882,
+      "head_frame": "e0a4b18f409403ac7cfac43d3b1da00e0748055741bb878efd6cbec0f5b3c0e2"
     },
     "registry": {
       "count": 23,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "f7cde582198c8335807c9fc60ca0c88b3c5ab9a90b6ed1cea21d62524ed28137",
-    "seq": 880,
-    "utc": "2026-09-23T19:17:03.785Z",
-    "tick": 976,
-    "tick_frame": "389df702eaf13efb4c7ffc5ab928dfdac7e6e066f36f2a3bf37cef84c9da471a",
+    "frame_hash": "e0a4b18f409403ac7cfac43d3b1da00e0748055741bb878efd6cbec0f5b3c0e2",
+    "seq": 881,
+    "utc": "2026-09-23T19:27:37.028Z",
+    "tick": 977,
+    "tick_frame": "76553e7b1a9d3578efe0fce40864c6aceb5432639088b314cae5f917a025d040",
     "data": {
       "btc_block_height": {
-        "height": 968311
+        "height": 968314
       },
       "btc_usd": {
-        "spot": "84330.555"
+        "spot": "84427.815"
       },
       "fx_usd": {
         "EUR": "0.8732",
@@ -58,7 +58,7 @@
         "CNY": "6.7135"
       },
       "crypto_market": {
-        "total_mcap_usd": "2871765774325",
+        "total_mcap_usd": "2870522017763",
         "btc_dominance_pct": "58.9"
       },
       "btc_fees": {
@@ -66,15 +66,15 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 81652
+        "tx_count": 80788
       },
       "earthquakes_past_hour": {
         "count": 9,
         "max_mag": "2.7"
       },
       "iss": {
-        "lat": "-51.764",
-        "lon": "152.420"
+        "lat": "-35.644",
+        "lon": "-156.941"
       },
       "space_weather": {
         "kp": "0.67",
@@ -92,15 +92,15 @@
         "top_by_volume": [
           {
             "question": "Washington Nationals vs. Detroit Tigers",
-            "yes_price": "0.895"
+            "yes_price": "0.915"
           },
           {
             "question": "Counter-Strike: Luminosity vs 3DMAX (BO5) - Logitech G Play Connect Playoffs",
-            "yes_price": "0.435"
+            "yes_price": "0.315"
           },
           {
-            "question": "Kharg Island no longer under Iranian control by September 30?",
-            "yes_price": "0.0035"
+            "question": "LoL: CITA Kaizen vs The Otter Side (BO3) - EMEA Masters Group B",
+            "yes_price": "0.0005"
           }
         ]
       }
@@ -252,5 +252,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "f5119899815c46816994ab8c942856adfbd726cd66619d32419bebabe2423957"
+  "input_fingerprint": "7f2a6796f6ae95e16467d82212da1ec16a454bb5f2c1c9d248e88e409789a9ec"
 }
