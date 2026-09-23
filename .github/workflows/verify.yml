@@ -8,6 +8,8 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: python3 tools/verify_thread.py
+      - name: the primary beat never forces, never double-mints, never wipes a checkout
+        run: python3 tests/test_primary_beat.py
       - uses: actions/setup-node@v4
         with: { node-version: "22" }
       - name: opt-in RAPP/1 bridge contracts (Python export, Node recovery)
