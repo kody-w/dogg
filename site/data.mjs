@@ -179,7 +179,8 @@ export function validUtc(value) {
 export function validateHead(value, stream) {
   need(object(value) && uint(value.count, 1) && value.stream_id === stream &&
     HEX.test(value.head_frame) && validUtc(value.updated), "missing/empty/invalid source HEAD");
-  const epoch = value.epoch_size ?? 288, sealed = value.sealed_epochs ?? 0;
+  const epoch = Object.hasOwn(value, "epoch_size") ? value.epoch_size : 288;
+  const sealed = Object.hasOwn(value, "sealed_epochs") ? value.sealed_epochs : 0;
   need(uint(epoch, 1, 512) && uint(sealed, 0, Math.floor(Number.MAX_SAFE_INTEGER / epoch)) &&
     sealed * epoch <= value.count, "invalid epoch layout");
   return { ...value, epoch_size: epoch, sealed_epochs: sealed };
