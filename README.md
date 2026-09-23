@@ -81,6 +81,15 @@ Every push re-verifies the native chains in CI with the native implementation
 (`tools/verify_thread.py` → `tools/rapp.py`). Investigate a red oracle; never bypass
 it or rewrite immutable history to satisfy a different protocol's grammar.
 
+**The beat.** The primary beat runs on dedicated hardware. `tools/primary_beat.py` runs as a
+launchd agent from a clone marked `dogg.primaryBeat`. Every ten minutes it mints the next tick,
+records the world under it, re-derives `orient.json`, holds every chain to the oracle, and
+pushes. It never forces a push: if main moved, it starts again from main, and if someone else
+has just ticked, it stands down. If the primary goes dark for 25 minutes, the
+[fallback beat](.github/workflows/fallback-beat.yml) keeps the spine ticking until it returns.
+`python3 tests/test_primary_beat.py` exercises all of this against a real oracle and a real git
+remote.
+
 ## Opt-in RAPP/1 interoperability
 
 [`BRIDGE.md`](BRIDGE.md) contains the copy-paste cold-start workflow and the closed
