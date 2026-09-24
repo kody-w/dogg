@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-24T06:02:22.400Z",
+  "generated_utc": "2026-09-24T06:12:31.293Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1039,
-    "frame_hash": "ca3afda7db7681d0c491781e5f85ade7b098fa004d19110dbd9df4fe85a73b80",
-    "utc": "2026-09-24T06:02:20.089Z"
+    "seq": 1040,
+    "frame_hash": "a5bfc7e1f750b537dabcecbc97bad6e4d574291def0e70323bbb711918b9f5c5",
+    "utc": "2026-09-24T06:12:28.980Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1040,
-      "head_frame": "ca3afda7db7681d0c491781e5f85ade7b098fa004d19110dbd9df4fe85a73b80"
+      "count": 1041,
+      "head_frame": "a5bfc7e1f750b537dabcecbc97bad6e4d574291def0e70323bbb711918b9f5c5"
     },
     "world": {
-      "count": 944,
-      "head_frame": "e58e2d28ee5095a2b1ceeae477da256cb726b7246da130295e3757516a3a80ac"
+      "count": 945,
+      "head_frame": "733e302f0ecc61dfed0f02141fda4d3a4f2b5617db55dc4c226b474f1c3e7e17"
     },
     "registry": {
       "count": 23,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "e58e2d28ee5095a2b1ceeae477da256cb726b7246da130295e3757516a3a80ac",
-    "seq": 943,
-    "utc": "2026-09-24T06:02:22.013Z",
-    "tick": 1039,
-    "tick_frame": "ca3afda7db7681d0c491781e5f85ade7b098fa004d19110dbd9df4fe85a73b80",
+    "frame_hash": "733e302f0ecc61dfed0f02141fda4d3a4f2b5617db55dc4c226b474f1c3e7e17",
+    "seq": 944,
+    "utc": "2026-09-24T06:12:30.919Z",
+    "tick": 1040,
+    "tick_frame": "a5bfc7e1f750b537dabcecbc97bad6e4d574291def0e70323bbb711918b9f5c5",
     "data": {
       "btc_block_height": {
-        "height": 968363
+        "height": 968364
       },
       "btc_usd": {
-        "spot": "83913.16"
+        "spot": "84167.325"
       },
       "fx_usd": {
         "EUR": "0.8774",
@@ -58,27 +58,27 @@
         "CNY": "6.7227"
       },
       "crypto_market": {
-        "total_mcap_usd": "2875139568861",
-        "btc_dominance_pct": "58.7"
+        "total_mcap_usd": "2866793662870",
+        "btc_dominance_pct": "58.6"
       },
       "btc_fees": {
         "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 78472
+        "tx_count": 79610
       },
       "earthquakes_past_hour": {
-        "count": 5,
+        "count": 7,
         "max_mag": "2.1"
       },
       "iss": {
-        "lat": "-48.540",
-        "lon": "-40.858"
+        "lat": "-46.915",
+        "lon": "16.220"
       },
       "space_weather": {
-        "kp": "3.0",
-        "at": "2026-09-24T00:00:00"
+        "kp": "2.33",
+        "at": "2026-09-24T03:00:00"
       },
       "grid_carbon_gb": {
         "gco2_kwh": 174,
@@ -91,12 +91,12 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Kharg Island no longer under Iranian control by September 30?",
-            "yes_price": "0.0035"
+            "question": "Korea Open: Anna Bondar vs Alina Charaeva",
+            "yes_price": "0.375"
           },
           {
-            "question": "Korea Open: Anna Bondar vs Alina Charaeva",
-            "yes_price": "0.39"
+            "question": "Kharg Island no longer under Iranian control by September 30?",
+            "yes_price": "0.0035"
           },
           {
             "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
@@ -252,5 +252,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "2babe44ab0c8218effff8c26a69fc1390928cb360c5c799029c075cf10106064"
+  "input_fingerprint": "0dcf3f288edaac16971718611a5bb206a19b0c9d7d8e7784eb09b54b4e0173ce"
 }
