@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-23T23:57:13.838Z",
+  "generated_utc": "2026-09-24T00:07:22.496Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1003,
-    "frame_hash": "3af386b3eacef82609b78c2e2a71a57d909c21f758f7c5ce5a12964e6b73cb62",
-    "utc": "2026-09-23T23:57:11.316Z"
+    "seq": 1004,
+    "frame_hash": "af9357d8ee8dbd52c9643d1e4e6aa000b3f6e48345abd876ffae1f6c393f6989",
+    "utc": "2026-09-24T00:07:20.184Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1004,
-      "head_frame": "3af386b3eacef82609b78c2e2a71a57d909c21f758f7c5ce5a12964e6b73cb62"
+      "count": 1005,
+      "head_frame": "af9357d8ee8dbd52c9643d1e4e6aa000b3f6e48345abd876ffae1f6c393f6989"
     },
     "world": {
-      "count": 908,
-      "head_frame": "b724359b8c098e82d2dc5fce235467f35cee85162d0fc7ccbdd212c463af3eab"
+      "count": 909,
+      "head_frame": "3e0acdc9ce716416bc0a9a9fa88b037ccb8ed7f37ed8ab4009b9e514bac4cd05"
     },
     "registry": {
       "count": 23,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "b724359b8c098e82d2dc5fce235467f35cee85162d0fc7ccbdd212c463af3eab",
-    "seq": 907,
-    "utc": "2026-09-23T23:57:13.461Z",
-    "tick": 1003,
-    "tick_frame": "3af386b3eacef82609b78c2e2a71a57d909c21f758f7c5ce5a12964e6b73cb62",
+    "frame_hash": "3e0acdc9ce716416bc0a9a9fa88b037ccb8ed7f37ed8ab4009b9e514bac4cd05",
+    "seq": 908,
+    "utc": "2026-09-24T00:07:21.997Z",
+    "tick": 1004,
+    "tick_frame": "af9357d8ee8dbd52c9643d1e4e6aa000b3f6e48345abd876ffae1f6c393f6989",
     "data": {
       "btc_block_height": {
-        "height": 968329
+        "height": 968330
       },
       "btc_usd": {
-        "spot": "84376.995"
+        "spot": "84479.915"
       },
       "fx_usd": {
         "EUR": "0.8732",
@@ -58,7 +58,7 @@
         "CNY": "6.7135"
       },
       "crypto_market": {
-        "total_mcap_usd": "2872698238695",
+        "total_mcap_usd": "2877504821612",
         "btc_dominance_pct": "58.8"
       },
       "btc_fees": {
@@ -66,41 +66,41 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 83925
+        "tx_count": 83643
       },
       "earthquakes_past_hour": {
-        "count": 9,
-        "max_mag": "2.5"
+        "count": 10,
+        "max_mag": "3.1"
       },
       "iss": {
-        "lat": "-51.211",
-        "lon": "90.509"
+        "lat": "-32.849",
+        "lon": "135.787"
       },
       "space_weather": {
         "kp": "1.67",
-        "at": "2026-09-23T18:00:00"
+        "at": "2026-09-23T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 142,
+        "gco2_kwh": 140,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 49820134,
-        "title": "Claude discovers a novel enzyme system with CRISPR-like repeats"
+        "id": 49824268,
+        "title": "Meta VR Glasses"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Counter-Strike: Luminosity vs 3DMAX (BO5) - Logitech G Play Connect Playoffs",
-            "yes_price": "0.0005"
-          },
-          {
             "question": "Tampa Bay Rays vs. New York Yankees",
-            "yes_price": "0.105"
+            "yes_price": "0.085"
           },
           {
             "question": "Atlanta Dream vs. New York Liberty",
-            "yes_price": "0.645"
+            "yes_price": "0.65"
+          },
+          {
+            "question": "Kharg Island no longer under Iranian control by September 30?",
+            "yes_price": "0.004"
           }
         ]
       }
@@ -252,5 +252,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "f66d1408cf1e0011233cd1ab2fbcbcb0a9f5263509ad4997c0bad4cb89f2d70c"
+  "input_fingerprint": "864b2b1fe8a5985aeb8c3d3c61fc83af018a3f9034e00134ac4b2b91dbcdd4f5"
 }
