@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-24T09:04:54.576Z",
+  "generated_utc": "2026-09-24T09:15:08.359Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1057,
-    "frame_hash": "99090cbc9a49b45cd2f9eea857d9ca168ea974040903a2316a47f99c532bca83",
-    "utc": "2026-09-24T09:04:52.184Z"
+    "seq": 1058,
+    "frame_hash": "bfcadc09a3e8d00f7741c9fe431decfd02c1c3b6ccd423f11687fea7ce642df6",
+    "utc": "2026-09-24T09:15:01.081Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1058,
-      "head_frame": "99090cbc9a49b45cd2f9eea857d9ca168ea974040903a2316a47f99c532bca83"
+      "count": 1059,
+      "head_frame": "bfcadc09a3e8d00f7741c9fe431decfd02c1c3b6ccd423f11687fea7ce642df6"
     },
     "world": {
-      "count": 962,
-      "head_frame": "ce4af443d5874075cbdce12da7873822394c9b551a49cb7adc2b3a8850bb0c7c"
+      "count": 963,
+      "head_frame": "75e1b54792ccc7f1d08de31fe4f93788562dc3394296b4a5c9bf24778cfb6e01"
     },
     "registry": {
       "count": 23,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "ce4af443d5874075cbdce12da7873822394c9b551a49cb7adc2b3a8850bb0c7c",
-    "seq": 961,
-    "utc": "2026-09-24T09:04:54.195Z",
-    "tick": 1057,
-    "tick_frame": "99090cbc9a49b45cd2f9eea857d9ca168ea974040903a2316a47f99c532bca83",
+    "frame_hash": "75e1b54792ccc7f1d08de31fe4f93788562dc3394296b4a5c9bf24778cfb6e01",
+    "seq": 962,
+    "utc": "2026-09-24T09:15:07.980Z",
+    "tick": 1058,
+    "tick_frame": "bfcadc09a3e8d00f7741c9fe431decfd02c1c3b6ccd423f11687fea7ce642df6",
     "data": {
       "btc_block_height": {
-        "height": 968374
+        "height": 968376
       },
       "btc_usd": {
-        "spot": "83558.735"
+        "spot": "83460.925"
       },
       "fx_usd": {
         "EUR": "0.8774",
@@ -58,30 +58,30 @@
         "CNY": "6.7227"
       },
       "crypto_market": {
-        "total_mcap_usd": "2861920567645",
-        "btc_dominance_pct": "58.6"
+        "total_mcap_usd": "2850745127595",
+        "btc_dominance_pct": "58.7"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 82255
+        "tx_count": 80249
       },
       "earthquakes_past_hour": {
         "count": 8,
         "max_mag": "3.6"
       },
       "iss": {
-        "lat": "-42.923",
-        "lon": "-103.192"
+        "lat": "-50.804",
+        "lon": "-47.751"
       },
       "space_weather": {
-        "kp": "2.33",
-        "at": "2026-09-24T03:00:00"
+        "kp": "3.0",
+        "at": "2026-09-24T06:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 135,
+        "gco2_kwh": 114,
         "index": "moderate"
       },
       "hn_top": {
@@ -91,12 +91,12 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-            "yes_price": "0.295"
+            "question": "Dota 2: Xtreme Gaming vs Team Nemesis - Game 2 Winner",
+            "yes_price": "0.9995"
           },
           {
-            "question": "Dota 2: Xtreme Gaming vs Team Nemesis - Game 2 Winner",
-            "yes_price": "0.8505"
+            "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+            "yes_price": "0.295"
           },
           {
             "question": "Kharg Island no longer under Iranian control by September 30?",
@@ -252,5 +252,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "b84e59f2322654f1f9b3c3362ad4a83ab87450d0169e661ad650e641164c99a6"
+  "input_fingerprint": "3068e40c26710e86020efdd0054f459cea90f834f56fc4ac38cb6ced9a2a136e"
 }
