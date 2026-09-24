@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-24T11:09:35.398Z",
+  "generated_utc": "2026-09-24T11:19:46.112Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1069,
-    "frame_hash": "6b2fc7fe9d083a7090137b3358f051b08ce2218f70e72661813a9328f68dde44",
-    "utc": "2026-09-24T11:09:32.892Z"
+    "seq": 1070,
+    "frame_hash": "7f6cfbcd3c887be19bec2cbed448a65cc4a3d1d51e4ba3f26d1181221d7d8e2b",
+    "utc": "2026-09-24T11:19:43.816Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1070,
-      "head_frame": "6b2fc7fe9d083a7090137b3358f051b08ce2218f70e72661813a9328f68dde44"
+      "count": 1071,
+      "head_frame": "7f6cfbcd3c887be19bec2cbed448a65cc4a3d1d51e4ba3f26d1181221d7d8e2b"
     },
     "world": {
-      "count": 974,
-      "head_frame": "d91be6ac0ec4f06de56a687c6abf499ebe10cbabab9d8c355bbbb58d7023b37f"
+      "count": 975,
+      "head_frame": "d156c46f10c0c35d0ddbd887c49edd7cb0e2571c7bedad30048c14f0c38689ad"
     },
     "registry": {
       "count": 23,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "d91be6ac0ec4f06de56a687c6abf499ebe10cbabab9d8c355bbbb58d7023b37f",
-    "seq": 973,
-    "utc": "2026-09-24T11:09:34.955Z",
-    "tick": 1069,
-    "tick_frame": "6b2fc7fe9d083a7090137b3358f051b08ce2218f70e72661813a9328f68dde44",
+    "frame_hash": "d156c46f10c0c35d0ddbd887c49edd7cb0e2571c7bedad30048c14f0c38689ad",
+    "seq": 974,
+    "utc": "2026-09-24T11:19:45.723Z",
+    "tick": 1070,
+    "tick_frame": "7f6cfbcd3c887be19bec2cbed448a65cc4a3d1d51e4ba3f26d1181221d7d8e2b",
     "data": {
       "btc_block_height": {
-        "height": 968388
+        "height": 968389
       },
       "btc_usd": {
-        "spot": "83492.905"
+        "spot": "83541.805"
       },
       "fx_usd": {
         "EUR": "0.8774",
@@ -58,7 +58,7 @@
         "CNY": "6.7227"
       },
       "crypto_market": {
-        "total_mcap_usd": "2831780731569",
+        "total_mcap_usd": "2826889615393",
         "btc_dominance_pct": "59.2"
       },
       "btc_fees": {
@@ -66,22 +66,22 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 82698
+        "tx_count": 82046
       },
       "earthquakes_past_hour": {
-        "count": 8,
+        "count": 7,
         "max_mag": "2.0"
       },
       "iss": {
-        "lat": "2.329",
-        "lon": "-0.107"
+        "lat": "32.081",
+        "lon": "25.040"
       },
       "space_weather": {
         "kp": "3.0",
         "at": "2026-09-24T06:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 84,
+        "gco2_kwh": 81,
         "index": "low"
       },
       "hn_top": {
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Valorant: Team Liquid vs Paper Rex (BO3) - VCT Champions Group C",
-            "yes_price": "0.265"
+            "question": "Dota 2: Natus Vincere vs LGD Gaming - Game 2 Winner",
+            "yes_price": "0.9995"
           },
           {
-            "question": "Dota 2: Natus Vincere vs LGD Gaming - Game 2 Winner",
-            "yes_price": "0.915"
+            "question": "Valorant: Team Liquid vs Paper Rex (BO3) - VCT Champions Group C",
+            "yes_price": "0.195"
           },
           {
             "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-            "yes_price": "0.305"
+            "yes_price": "0.315"
           }
         ]
       }
@@ -252,5 +252,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "311d9a17d23c4f4970bc5e3b56a79da95a57cfcecff1cfe83e5108c0fa1095b1"
+  "input_fingerprint": "78dea1526aa9f70a44d7bc3aeadbc6e8466064f0a89efdbf3c60cbe5981bc31e"
 }
