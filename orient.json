@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-24T14:53:09.328Z",
+  "generated_utc": "2026-09-24T15:03:17.892Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1091,
-    "frame_hash": "ebf8035f9015813f60eab4ab8d9bb486913e9363c80e1992a4b421884bf83d45",
-    "utc": "2026-09-24T14:53:07.003Z"
+    "seq": 1092,
+    "frame_hash": "c107899711f0c15996ad77754574284d22372afe264136c0773fbeed1c01fa95",
+    "utc": "2026-09-24T15:03:15.599Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1092,
-      "head_frame": "ebf8035f9015813f60eab4ab8d9bb486913e9363c80e1992a4b421884bf83d45"
+      "count": 1093,
+      "head_frame": "c107899711f0c15996ad77754574284d22372afe264136c0773fbeed1c01fa95"
     },
     "world": {
-      "count": 996,
-      "head_frame": "71339a8e6a992cfea9ea4863054fcd36739ee1bd6a9d77d32d5804214f21b0dd"
+      "count": 997,
+      "head_frame": "38c1ede765ce01cff008bb60fc7ad07ca53e14f0d37063f7c6c7f1bb817dd6f2"
     },
     "registry": {
       "count": 23,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "71339a8e6a992cfea9ea4863054fcd36739ee1bd6a9d77d32d5804214f21b0dd",
-    "seq": 995,
-    "utc": "2026-09-24T14:53:08.835Z",
-    "tick": 1091,
-    "tick_frame": "ebf8035f9015813f60eab4ab8d9bb486913e9363c80e1992a4b421884bf83d45",
+    "frame_hash": "38c1ede765ce01cff008bb60fc7ad07ca53e14f0d37063f7c6c7f1bb817dd6f2",
+    "seq": 996,
+    "utc": "2026-09-24T15:03:17.485Z",
+    "tick": 1092,
+    "tick_frame": "c107899711f0c15996ad77754574284d22372afe264136c0773fbeed1c01fa95",
     "data": {
       "btc_block_height": {
-        "height": 968406
+        "height": 968409
       },
       "btc_usd": {
-        "spot": "83541.53"
+        "spot": "83492.685"
       },
       "fx_usd": {
         "EUR": "0.8774",
@@ -58,7 +58,7 @@
         "CNY": "6.7227"
       },
       "crypto_market": {
-        "total_mcap_usd": "2885847730472",
+        "total_mcap_usd": "2843973144650",
         "btc_dominance_pct": "58.6"
       },
       "btc_fees": {
@@ -66,37 +66,37 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 80200
+        "tx_count": 79622
       },
       "earthquakes_past_hour": {
-        "count": 6,
-        "max_mag": "2.7"
+        "count": 5,
+        "max_mag": "2.9"
       },
       "iss": {
-        "lat": "23.502",
-        "lon": "101.224"
+        "lat": "-7.079",
+        "lon": "124.275"
       },
       "space_weather": {
-        "kp": "4.33",
-        "at": "2026-09-24T09:00:00"
+        "kp": "3.67",
+        "at": "2026-09-24T12:00:00"
       },
       "grid_carbon_gb": {
         "gco2_kwh": 88,
         "index": "low"
       },
       "hn_top": {
-        "id": 49828731,
-        "title": "Two-Tier Encryption in the UK – Identical Apple Devices, Different Protection"
+        "id": 49831201,
+        "title": "Dynamic Abliteration: Non-Destructive Refusal Suppression via Engram Steering"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Dota 2: Aurora vs GamerLegion - Game 2 Winner",
-            "yes_price": "0.915"
+            "question": "Will Norway win on 2026-09-24?",
+            "yes_price": "0.575"
           },
           {
-            "question": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-            "yes_price": "0.645"
+            "question": "Dota 2: Aurora vs GamerLegion - Game 2 Winner",
+            "yes_price": "0.991"
           },
           {
             "question": "Kharg Island no longer under Iranian control by September 30?",
@@ -252,5 +252,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "07787d6daf4545942bbdead1cbc293c7d9f8f8a5bac5f73c88b07a8f68cc69fd"
+  "input_fingerprint": "717d4711bb9f2186237705b67eb4ab1af404be332a4a2e7ae615056d84607e17"
 }
