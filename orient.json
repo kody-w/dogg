@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-25T15:02:03.393Z",
+  "generated_utc": "2026-09-25T15:12:11.758Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1233,
-    "frame_hash": "e8ba4285f393ae6927aa82a4374db47310f6f2d4a7b6cda55dc8fca1552c84a8",
-    "utc": "2026-09-25T15:02:01.077Z"
+    "seq": 1234,
+    "frame_hash": "544e5529c0ef905e730ba16f3afd69702f4e5b44088f054424e108849b62aab0",
+    "utc": "2026-09-25T15:12:09.861Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1234,
-      "head_frame": "e8ba4285f393ae6927aa82a4374db47310f6f2d4a7b6cda55dc8fca1552c84a8"
+      "count": 1235,
+      "head_frame": "544e5529c0ef905e730ba16f3afd69702f4e5b44088f054424e108849b62aab0"
     },
     "world": {
-      "count": 1138,
-      "head_frame": "7aee866b3a8086ce5d088bd6306363582eef16b38701c34f72be3a3837857d96"
+      "count": 1139,
+      "head_frame": "ab307bb70f0ecb919228da9582365e5d30a1bae13c9ffc1a1d1e9f7a275133a1"
     },
     "registry": {
       "count": 23,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "7aee866b3a8086ce5d088bd6306363582eef16b38701c34f72be3a3837857d96",
-    "seq": 1137,
-    "utc": "2026-09-25T15:02:03.046Z",
-    "tick": 1233,
-    "tick_frame": "e8ba4285f393ae6927aa82a4374db47310f6f2d4a7b6cda55dc8fca1552c84a8",
+    "frame_hash": "ab307bb70f0ecb919228da9582365e5d30a1bae13c9ffc1a1d1e9f7a275133a1",
+    "seq": 1138,
+    "utc": "2026-09-25T15:12:11.401Z",
+    "tick": 1234,
+    "tick_frame": "544e5529c0ef905e730ba16f3afd69702f4e5b44088f054424e108849b62aab0",
     "data": {
       "btc_block_height": {
-        "height": 968560
+        "height": 968561
       },
       "btc_usd": {
-        "spot": "84031.995"
+        "spot": "83809.965"
       },
       "fx_usd": {
         "EUR": "0.8787",
@@ -58,7 +58,7 @@
         "CNY": "6.7173"
       },
       "crypto_market": {
-        "total_mcap_usd": "2890570844954",
+        "total_mcap_usd": "2885521189037",
         "btc_dominance_pct": "58.2"
       },
       "btc_fees": {
@@ -66,33 +66,33 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 79207
+        "tx_count": 78365
       },
       "earthquakes_past_hour": {
         "count": 4,
-        "max_mag": "1.4"
+        "max_mag": "1.3"
       },
       "iss": {
-        "lat": "4.013",
-        "lon": "-63.791"
+        "lat": "33.399",
+        "lon": "-38.261"
       },
       "space_weather": {
-        "kp": "4.0",
-        "at": "2026-09-25T09:00:00"
+        "kp": "3.67",
+        "at": "2026-09-25T12:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 127,
+        "gco2_kwh": 145,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 49841563,
-        "title": "Dutch governments builds alternative for Microsoft based on NixOS"
+        "id": 49844786,
+        "title": "Allow Carriers on Planes"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Korea Open: Katie Volynets vs Kimberly Birrell",
-            "yes_price": "0.335"
+            "yes_price": "0.345"
           },
           {
             "question": "Will Mitch Landrieu win the 2028 Democratic presidential nomination?",
@@ -252,5 +252,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "f2e742dc7df70ffceced82ec31997977d0170abc84064430882f58733efe6a5a"
+  "input_fingerprint": "08a12ec167ffbdfc341605efe997bfde3ad4ac371f80184bf31dc128d9ca26f4"
 }
