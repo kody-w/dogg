@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-25T15:52:44.443Z",
+  "generated_utc": "2026-09-25T16:02:53.078Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1238,
-    "frame_hash": "a9501c7ed763e8568667545f947dfd4b52c636fbccee1e86b186eafdec806a52",
-    "utc": "2026-09-25T15:52:42.243Z"
+    "seq": 1239,
+    "frame_hash": "554f1ffbc219aba34c1470ced9a67f4dddb934ef6ea45172f7381e8ed5e0c9ae",
+    "utc": "2026-09-25T16:02:50.479Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1239,
-      "head_frame": "a9501c7ed763e8568667545f947dfd4b52c636fbccee1e86b186eafdec806a52"
+      "count": 1240,
+      "head_frame": "554f1ffbc219aba34c1470ced9a67f4dddb934ef6ea45172f7381e8ed5e0c9ae"
     },
     "world": {
-      "count": 1143,
-      "head_frame": "79184af0d7640461ab207a3fb8f1af752c0049b7431e25db4ca803048951f747"
+      "count": 1144,
+      "head_frame": "48d70e746013dc0a8cf97cd4e452cd869d922e143e2c23b041065fa1e1260f22"
     },
     "registry": {
       "count": 23,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "79184af0d7640461ab207a3fb8f1af752c0049b7431e25db4ca803048951f747",
-    "seq": 1142,
-    "utc": "2026-09-25T15:52:44.036Z",
-    "tick": 1238,
-    "tick_frame": "a9501c7ed763e8568667545f947dfd4b52c636fbccee1e86b186eafdec806a52",
+    "frame_hash": "48d70e746013dc0a8cf97cd4e452cd869d922e143e2c23b041065fa1e1260f22",
+    "seq": 1143,
+    "utc": "2026-09-25T16:02:52.653Z",
+    "tick": 1239,
+    "tick_frame": "554f1ffbc219aba34c1470ced9a67f4dddb934ef6ea45172f7381e8ed5e0c9ae",
     "data": {
       "btc_block_height": {
-        "height": 968562
+        "height": 968563
       },
       "btc_usd": {
-        "spot": "83424.005"
+        "spot": "83971.505"
       },
       "fx_usd": {
         "EUR": "0.8787",
@@ -58,23 +58,23 @@
         "CNY": "6.7173"
       },
       "crypto_market": {
-        "total_mcap_usd": "2873116530003",
-        "btc_dominance_pct": "58.2"
+        "total_mcap_usd": "2877209378063",
+        "btc_dominance_pct": "58.3"
       },
       "btc_fees": {
         "fastest_sat_vb": 4,
-        "hour_sat_vb": 3
+        "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 84645
+        "tx_count": 83422
       },
       "earthquakes_past_hour": {
-        "count": 6,
+        "count": 5,
         "max_mag": "5.2"
       },
       "iss": {
-        "lat": "-16.982",
-        "lon": "114.074"
+        "lat": "-43.460",
+        "lon": "145.839"
       },
       "space_weather": {
         "kp": "3.67",
@@ -85,11 +85,15 @@
         "index": "moderate"
       },
       "hn_top": {
-        "id": 49845952,
-        "title": "Classified Estimates Show the NSA Is Paying Billions to Test AI Models"
+        "id": 49843269,
+        "title": "Platform-Independent SIMD in Go"
       },
       "prediction_markets": {
         "top_by_volume": [
+          {
+            "question": "Dota 2: Xtreme Gaming vs LGD Gaming - Game 1 Winner",
+            "yes_price": "0.0065"
+          },
           {
             "question": "Will Mitch Landrieu win the 2028 Democratic presidential nomination?",
             "yes_price": "0.0015"
@@ -97,10 +101,6 @@
           {
             "question": "Korea Open: Katie Volynets vs Kimberly Birrell",
             "yes_price": "0.345"
-          },
-          {
-            "question": "Dota 2: Xtreme Gaming vs LGD Gaming - Game 1 Winner",
-            "yes_price": "0.08"
           }
         ]
       }
@@ -252,5 +252,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "4bfeb65b02298aa52f0fd2292c01986e27eb54f5269fe448cf93842b6f8cbbe1"
+  "input_fingerprint": "fb77241fe5050c1808d7054d648f565966413402d1f926a2fa462cea97165e46"
 }
