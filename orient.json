@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-25T08:05:43.315Z",
+  "generated_utc": "2026-09-25T08:15:52.360Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1192,
-    "frame_hash": "d731b85f9ae5d000924ac3e8e0e422d8007406e54efbdde61838c0becec4db10",
-    "utc": "2026-09-25T08:05:40.943Z"
+    "seq": 1193,
+    "frame_hash": "8a50258ee225adc60464bcaf54999f91f2ec33dc8fafeb5322ff2453740d3355",
+    "utc": "2026-09-25T08:15:50.155Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1193,
-      "head_frame": "d731b85f9ae5d000924ac3e8e0e422d8007406e54efbdde61838c0becec4db10"
+      "count": 1194,
+      "head_frame": "8a50258ee225adc60464bcaf54999f91f2ec33dc8fafeb5322ff2453740d3355"
     },
     "world": {
-      "count": 1097,
-      "head_frame": "169a9c3cfd3c9fc0a24ef454a0eae122606b653e82c918a485c93957172662e0"
+      "count": 1098,
+      "head_frame": "bbfc5a48a92179b454552088021cc0f3f929b9fb3c698c5678f05cd71e4740ba"
     },
     "registry": {
       "count": 23,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "169a9c3cfd3c9fc0a24ef454a0eae122606b653e82c918a485c93957172662e0",
-    "seq": 1096,
-    "utc": "2026-09-25T08:05:42.911Z",
-    "tick": 1192,
-    "tick_frame": "d731b85f9ae5d000924ac3e8e0e422d8007406e54efbdde61838c0becec4db10",
+    "frame_hash": "bbfc5a48a92179b454552088021cc0f3f929b9fb3c698c5678f05cd71e4740ba",
+    "seq": 1097,
+    "utc": "2026-09-25T08:15:51.947Z",
+    "tick": 1193,
+    "tick_frame": "8a50258ee225adc60464bcaf54999f91f2ec33dc8fafeb5322ff2453740d3355",
     "data": {
       "btc_block_height": {
         "height": 968524
       },
       "btc_usd": {
-        "spot": "84113.665"
+        "spot": "84136.925"
       },
       "fx_usd": {
         "EUR": "0.8787",
@@ -58,38 +58,42 @@
         "CNY": "6.7173"
       },
       "crypto_market": {
-        "total_mcap_usd": "2879779269212",
+        "total_mcap_usd": "2884842232857",
         "btc_dominance_pct": "58.5"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 79806
+        "tx_count": 81537
       },
       "earthquakes_past_hour": {
-        "count": 2,
+        "count": 3,
         "max_mag": "1.9"
       },
       "iss": {
-        "lat": "-9.140",
-        "lon": "-133.879"
+        "lat": "-37.716",
+        "lon": "-106.234"
       },
       "space_weather": {
         "kp": "3.67",
         "at": "2026-09-25T03:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 156,
+        "gco2_kwh": 147,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 49831968,
-        "title": "F-Droid 2.0"
+        "id": 49841115,
+        "title": "CVE-2025-13032: Entering and Breaking the Avast Antivirus Sandbox Part 2"
       },
       "prediction_markets": {
         "top_by_volume": [
+          {
+            "question": "Dota 2: Team Nemesis vs Natus Vincere - Game 1 Winner",
+            "yes_price": "0.9995"
+          },
           {
             "question": "Korea Open: Katie Volynets vs Kimberly Birrell",
             "yes_price": "0.325"
@@ -97,10 +101,6 @@
           {
             "question": "Will Mitch Landrieu win the 2028 Democratic presidential nomination?",
             "yes_price": "0.0015"
-          },
-          {
-            "question": "Dota 2: Team Nemesis vs Natus Vincere - Game 1 Winner",
-            "yes_price": "0.995"
           }
         ]
       }
@@ -252,5 +252,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "41ff824b8dff6b3c5feaddc0455e28c6cd9f1ea33255026c2d50d27bbe927294"
+  "input_fingerprint": "8a1ee0978d47f2db981db5568906fd794e4ceb9a2b9c300a4ce58dc3e3ab8565"
 }
