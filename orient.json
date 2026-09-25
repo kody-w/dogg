@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-25T16:02:53.078Z",
+  "generated_utc": "2026-09-25T16:13:02.593Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1239,
-    "frame_hash": "554f1ffbc219aba34c1470ced9a67f4dddb934ef6ea45172f7381e8ed5e0c9ae",
-    "utc": "2026-09-25T16:02:50.479Z"
+    "seq": 1240,
+    "frame_hash": "217a70c7176a4ec9958ac743c36c27ddbd99c4ade6b90c9bec66996df78d2d98",
+    "utc": "2026-09-25T16:12:59.817Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1240,
-      "head_frame": "554f1ffbc219aba34c1470ced9a67f4dddb934ef6ea45172f7381e8ed5e0c9ae"
+      "count": 1241,
+      "head_frame": "217a70c7176a4ec9958ac743c36c27ddbd99c4ade6b90c9bec66996df78d2d98"
     },
     "world": {
-      "count": 1144,
-      "head_frame": "48d70e746013dc0a8cf97cd4e452cd869d922e143e2c23b041065fa1e1260f22"
+      "count": 1145,
+      "head_frame": "80acb91e6c3187a79348ed3ec5ff4420ef31fa2a31eeff75e9107aa80498e0c1"
     },
     "registry": {
       "count": 23,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "48d70e746013dc0a8cf97cd4e452cd869d922e143e2c23b041065fa1e1260f22",
-    "seq": 1143,
-    "utc": "2026-09-25T16:02:52.653Z",
-    "tick": 1239,
-    "tick_frame": "554f1ffbc219aba34c1470ced9a67f4dddb934ef6ea45172f7381e8ed5e0c9ae",
+    "frame_hash": "80acb91e6c3187a79348ed3ec5ff4420ef31fa2a31eeff75e9107aa80498e0c1",
+    "seq": 1144,
+    "utc": "2026-09-25T16:13:02.175Z",
+    "tick": 1240,
+    "tick_frame": "217a70c7176a4ec9958ac743c36c27ddbd99c4ade6b90c9bec66996df78d2d98",
     "data": {
       "btc_block_height": {
-        "height": 968563
+        "height": 968564
       },
       "btc_usd": {
-        "spot": "83971.505"
+        "spot": "83971.495"
       },
       "fx_usd": {
         "EUR": "0.8787",
@@ -58,31 +58,31 @@
         "CNY": "6.7173"
       },
       "crypto_market": {
-        "total_mcap_usd": "2877209378063",
+        "total_mcap_usd": "2890518984321",
         "btc_dominance_pct": "58.3"
       },
       "btc_fees": {
-        "fastest_sat_vb": 4,
+        "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 83422
+        "tx_count": 82230
       },
       "earthquakes_past_hour": {
-        "count": 5,
+        "count": 7,
         "max_mag": "5.2"
       },
       "iss": {
-        "lat": "-43.460",
-        "lon": "145.839"
+        "lat": "-50.642",
+        "lon": "-158.712"
       },
       "space_weather": {
         "kp": "3.67",
         "at": "2026-09-25T12:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 162,
-        "index": "moderate"
+        "gco2_kwh": 173,
+        "index": "high"
       },
       "hn_top": {
         "id": 49843269,
@@ -92,15 +92,15 @@
         "top_by_volume": [
           {
             "question": "Dota 2: Xtreme Gaming vs LGD Gaming - Game 1 Winner",
-            "yes_price": "0.0065"
+            "yes_price": "0.0005"
+          },
+          {
+            "question": "Strait of Hormuz traffic returns to normal by September 30?",
+            "yes_price": "0.005"
           },
           {
             "question": "Will Mitch Landrieu win the 2028 Democratic presidential nomination?",
             "yes_price": "0.0015"
-          },
-          {
-            "question": "Korea Open: Katie Volynets vs Kimberly Birrell",
-            "yes_price": "0.345"
           }
         ]
       }
@@ -252,5 +252,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "fb77241fe5050c1808d7054d648f565966413402d1f926a2fa462cea97165e46"
+  "input_fingerprint": "3a183dd8ded52adc4722e7657fa6ac0a4862860c707959403c1f8984d6c914e5"
 }
