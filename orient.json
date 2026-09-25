@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-25T23:16:00.428Z",
+  "generated_utc": "2026-09-25T23:26:06.610Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1279,
-    "frame_hash": "42fd50677517fbcc7d6a34089c93d6216b16fec0fbf152b9bd6cd9d31f3d6bfd",
-    "utc": "2026-09-25T23:10:54.003Z"
+    "seq": 1280,
+    "frame_hash": "14a5586ebcc16bb1d57cf310d99ad10b9ede1ca2f7876914005d4b1ef42af40d",
+    "utc": "2026-09-25T23:21:03.786Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1280,
-      "head_frame": "42fd50677517fbcc7d6a34089c93d6216b16fec0fbf152b9bd6cd9d31f3d6bfd"
+      "count": 1281,
+      "head_frame": "14a5586ebcc16bb1d57cf310d99ad10b9ede1ca2f7876914005d4b1ef42af40d"
     },
     "world": {
-      "count": 1184,
-      "head_frame": "f8467553ae665600e3ffb8875fea7c737cc2c9d010c1bfcdfa17a1d82a963727"
+      "count": 1185,
+      "head_frame": "30d8db19df22c8adf25dc52a209dade3326f7a4f2092ce618c93c3d1a28607b9"
     },
     "registry": {
       "count": 23,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "f8467553ae665600e3ffb8875fea7c737cc2c9d010c1bfcdfa17a1d82a963727",
-    "seq": 1183,
-    "utc": "2026-09-25T23:11:28.208Z",
-    "tick": 1279,
-    "tick_frame": "42fd50677517fbcc7d6a34089c93d6216b16fec0fbf152b9bd6cd9d31f3d6bfd",
+    "frame_hash": "30d8db19df22c8adf25dc52a209dade3326f7a4f2092ce618c93c3d1a28607b9",
+    "seq": 1184,
+    "utc": "2026-09-25T23:22:20.561Z",
+    "tick": 1280,
+    "tick_frame": "14a5586ebcc16bb1d57cf310d99ad10b9ede1ca2f7876914005d4b1ef42af40d",
     "data": {
       "btc_block_height": {
-        "height": 968593
+        "height": 968594
       },
       "btc_usd": {
-        "spot": "84087.925"
+        "spot": "84062.535"
       },
       "fx_usd": {
         "EUR": "0.8787",
@@ -58,23 +58,23 @@
         "CNY": "6.7173"
       },
       "crypto_market": {
-        "total_mcap_usd": "2897097360529",
+        "total_mcap_usd": "2895834214974",
         "btc_dominance_pct": "58.2"
       },
       "btc_fees": {
-        "fastest_sat_vb": 5,
+        "fastest_sat_vb": 4,
         "hour_sat_vb": 4
       },
       "btc_mempool": {
-        "tx_count": 88022
+        "tx_count": 86172
       },
       "earthquakes_past_hour": {
         "count": 7,
         "max_mag": "2.5"
       },
       "iss": {
-        "lat": "50.275",
-        "lon": "-82.657"
+        "lat": "27.693",
+        "lon": "-38.472"
       },
       "space_weather": {
         "kp": "2.67",
@@ -85,22 +85,22 @@
         "index": "moderate"
       },
       "hn_top": {
-        "id": 49848269,
-        "title": "Ollaya – Ollama for open-source, Jev-style decision models"
+        "id": 49849985,
+        "title": "Revealing the details of how OpenAI agents hacked Hugging Face"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Army vs. Temple",
-            "yes_price": "0.825"
+            "yes_price": "0.775"
           },
           {
             "question": "Strait of Hormuz traffic returns to normal by September 30?",
             "yes_price": "0.0075"
           },
           {
-            "question": "Baltimore Orioles vs. New York Yankees",
-            "yes_price": "0.9995"
+            "question": "Will Mitch Landrieu win the 2028 Democratic presidential nomination?",
+            "yes_price": "0.0015"
           }
         ]
       }
@@ -252,5 +252,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "ec1b9e19c97d27ba57ed3e2413e81ebe42155412ab01ed577c3f31d4265c2ae2"
+  "input_fingerprint": "2e53494dea3cadb268f69711c55d6304f5c587d32299a7e5e5c1030d98ccb77d"
 }
