@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-24T23:51:23.572Z",
+  "generated_utc": "2026-09-25T00:01:31.281Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1144,
-    "frame_hash": "828ec7720c47298f3a23eacd133af1e4539b9f0766afce1f00235831b2577bff",
-    "utc": "2026-09-24T23:51:21.391Z"
+    "seq": 1145,
+    "frame_hash": "1cc951920af38ea4daf310ad86d4b2e55e78322846cecaf0dbfb3757eb388c58",
+    "utc": "2026-09-25T00:01:28.969Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1145,
-      "head_frame": "828ec7720c47298f3a23eacd133af1e4539b9f0766afce1f00235831b2577bff"
+      "count": 1146,
+      "head_frame": "1cc951920af38ea4daf310ad86d4b2e55e78322846cecaf0dbfb3757eb388c58"
     },
     "world": {
-      "count": 1049,
-      "head_frame": "d287c11733485fe737bcf12a7bcac72c7573a0b9a4e7c87c11f0bf198b3a0ff0"
+      "count": 1050,
+      "head_frame": "074c09f0bc647c11ce5b4ab0b9d5a6940eb5572cd25790b5a2758ce6985777a3"
     },
     "registry": {
       "count": 23,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "d287c11733485fe737bcf12a7bcac72c7573a0b9a4e7c87c11f0bf198b3a0ff0",
-    "seq": 1048,
-    "utc": "2026-09-24T23:51:23.141Z",
-    "tick": 1144,
-    "tick_frame": "828ec7720c47298f3a23eacd133af1e4539b9f0766afce1f00235831b2577bff",
+    "frame_hash": "074c09f0bc647c11ce5b4ab0b9d5a6940eb5572cd25790b5a2758ce6985777a3",
+    "seq": 1049,
+    "utc": "2026-09-25T00:01:30.851Z",
+    "tick": 1145,
+    "tick_frame": "1cc951920af38ea4daf310ad86d4b2e55e78322846cecaf0dbfb3757eb388c58",
     "data": {
       "btc_block_height": {
         "height": 968470
       },
       "btc_usd": {
-        "spot": "84398.34"
+        "spot": "84404.875"
       },
       "fx_usd": {
         "EUR": "0.8774",
@@ -58,30 +58,30 @@
         "CNY": "6.7227"
       },
       "crypto_market": {
-        "total_mcap_usd": "2888701172194",
+        "total_mcap_usd": "2888957153459",
         "btc_dominance_pct": "58.6"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 75527
+        "tx_count": 77628
       },
       "earthquakes_past_hour": {
-        "count": 5,
+        "count": 3,
         "max_mag": "5.3"
       },
       "iss": {
-        "lat": "49.567",
-        "lon": "-128.026"
+        "lat": "45.513",
+        "lon": "-71.384"
       },
       "space_weather": {
-        "kp": "2.0",
-        "at": "2026-09-24T18:00:00"
+        "kp": "2.67",
+        "at": "2026-09-24T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 113,
+        "gco2_kwh": 88,
         "index": "moderate"
       },
       "hn_top": {
@@ -95,12 +95,12 @@
             "yes_price": "0.515"
           },
           {
-            "question": "San Diego 2: Darwin Blanch vs Andres Andrade",
-            "yes_price": "0.0005"
+            "question": "Falcons vs. Packers: O/U 43.5",
+            "yes_price": "0.475"
           },
           {
-            "question": "Milwaukee Brewers vs. Philadelphia Phillies",
-            "yes_price": "0.455"
+            "question": "San Diego 2: Darwin Blanch vs Andres Andrade",
+            "yes_price": "0.0005"
           }
         ]
       }
@@ -252,5 +252,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "a15b48e63170b5f0bacc755b4e7153b1ca8cf98a7409e02d56ad3f50b1108b90"
+  "input_fingerprint": "1de20fe5d06fb31657fc255c327179480e694a660dfa750dff0083799a6bccfd"
 }
