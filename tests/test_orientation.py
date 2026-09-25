@@ -7,6 +7,7 @@ import shutil
 import subprocess
 import sys
 import unittest
+from unittest import mock
 import uuid
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -82,6 +83,36 @@ class Orientation(unittest.TestCase):
         self.assertEqual(again, value)
         self.generate(check=True)
         self.assertEqual((self.root / "orient.json").read_bytes(), before)
+
+    def test_failed_publication_preserves_previous_view_and_allows_retry(self):
+        output = self.root / "orient.json"
+        for operation in ("fsync", "replace"):
+            with self.subTest(operation=operation):
+                self.generate(world_refresh="ok")
+                before = output.read_bytes()
+                with mock.patch(f"orient.os.{operation}", side_effect=OSError("publication failed")):
+                    with self.assertRaisesRegex(OSError, "publication failed"):
+                        self.generate(world_refresh="failed")
+                self.assertEqual(output.read_bytes(), before)
+                self.assertEqual(list(self.root.glob(".orient-*")), [])
+                state, value = self.generate(world_refresh="failed")
+                self.assertEqual(state, "updated")
+                self.assertEqual(value["status"]["world"]["last_refresh"], "failed")
+                self.assertFalse((self.root / "orient.json.new").exists())
+                self.assertEqual(list(self.root.glob(".orient-*")), [])
+                self.assertEqual(self.generate(check=True)[0], "unchanged")
+
+    def test_leftover_staging_file_does_not_block_regeneration(self):
+        self.generate(world_refresh="ok")
+        staging = self.root / "orient.json.new"
+        interrupted = b'{"incomplete":'
+        staging.write_bytes(interrupted)
+        state, value = self.generate(world_refresh="failed")
+        self.assertEqual(state, "updated")
+        self.assertEqual(value["status"]["world"]["last_refresh"], "failed")
+        self.assertEqual(staging.read_bytes(), interrupted)
+        self.assertEqual(list(self.root.glob(".orient-*")), [])
+        self.assertEqual(self.generate(check=True)[0], "unchanged")
 
     def test_new_tick_marks_old_world_stale_without_rewriting_source(self):
         self.generate()
