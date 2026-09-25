@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-25T15:32:28.145Z",
+  "generated_utc": "2026-09-25T15:42:36.203Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1236,
-    "frame_hash": "5a28d60f53566f223431d4639872f53cacd2f7de979bb07134fd8a91174c17d0",
-    "utc": "2026-09-25T15:32:25.631Z"
+    "seq": 1237,
+    "frame_hash": "42dc25186e18cc6a262db6523a5d4aad2e3e321d2e1204a06ced81efbbcb92e4",
+    "utc": "2026-09-25T15:42:33.712Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1237,
-      "head_frame": "5a28d60f53566f223431d4639872f53cacd2f7de979bb07134fd8a91174c17d0"
+      "count": 1238,
+      "head_frame": "42dc25186e18cc6a262db6523a5d4aad2e3e321d2e1204a06ced81efbbcb92e4"
     },
     "world": {
-      "count": 1141,
-      "head_frame": "37423236a908491e0c29fa16cb56ebb28a488bf2de8a2b1d42e2ae5ec12fed4f"
+      "count": 1142,
+      "head_frame": "be5ed50305fa271775caecc4e82458053893a0a2f834d4bb3417128110bc75fc"
     },
     "registry": {
       "count": 23,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "37423236a908491e0c29fa16cb56ebb28a488bf2de8a2b1d42e2ae5ec12fed4f",
-    "seq": 1140,
-    "utc": "2026-09-25T15:32:27.723Z",
-    "tick": 1236,
-    "tick_frame": "5a28d60f53566f223431d4639872f53cacd2f7de979bb07134fd8a91174c17d0",
+    "frame_hash": "be5ed50305fa271775caecc4e82458053893a0a2f834d4bb3417128110bc75fc",
+    "seq": 1141,
+    "utc": "2026-09-25T15:42:35.781Z",
+    "tick": 1237,
+    "tick_frame": "42dc25186e18cc6a262db6523a5d4aad2e3e321d2e1204a06ced81efbbcb92e4",
     "data": {
       "btc_block_height": {
-        "height": 968561
+        "height": 968562
       },
       "btc_usd": {
-        "spot": "83778.335"
+        "spot": "83510.265"
       },
       "fx_usd": {
         "EUR": "0.8787",
@@ -58,35 +58,35 @@
         "CNY": "6.7173"
       },
       "crypto_market": {
-        "total_mcap_usd": "2885689797924",
+        "total_mcap_usd": "2881278515294",
         "btc_dominance_pct": "58.2"
       },
       "btc_fees": {
-        "fastest_sat_vb": 4,
+        "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 83353
+        "tx_count": 82014
       },
       "earthquakes_past_hour": {
-        "count": 4,
+        "count": 5,
         "max_mag": "2.2"
       },
       "iss": {
-        "lat": "41.267",
-        "lon": "61.622"
+        "lat": "13.820",
+        "lon": "91.576"
       },
       "space_weather": {
         "kp": "3.67",
         "at": "2026-09-25T12:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 145,
+        "gco2_kwh": 162,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 49844786,
-        "title": "Allow Carriers on Planes"
+        "id": 49843269,
+        "title": "Platform-Independent SIMD in Go"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -95,11 +95,11 @@
             "yes_price": "0.0015"
           },
           {
-            "question": "Hangzhou Open: Jaime Faria vs Hugo Gaston",
-            "yes_price": "0.0005"
+            "question": "Korea Open: Katie Volynets vs Kimberly Birrell",
+            "yes_price": "0.355"
           },
           {
-            "question": "Korea Open: Katie Volynets vs Kimberly Birrell",
+            "question": "Dota 2: Xtreme Gaming vs LGD Gaming - Game 1 Winner",
             "yes_price": "0.335"
           }
         ]
@@ -252,5 +252,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "97fe8e96a7a5ea8dfb8a2daa4f01b5c6e3d827885d05fc27cc6e2a854661782f"
+  "input_fingerprint": "00130bb1ffdb51acf85765cdd960d42eb9bb08232cb773c5ebbe9717d0f93afc"
 }
