@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-25T16:33:20.961Z",
+  "generated_utc": "2026-09-25T16:43:28.926Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1242,
-    "frame_hash": "d7308d7a44d1ee733f98999ff83a720ac1c23ad310246bb83e773a380b560e3e",
-    "utc": "2026-09-25T16:33:18.672Z"
+    "seq": 1243,
+    "frame_hash": "d3c41fa7108985c4b6cc503f2601407f5885a24c56406323fba74f99cbdf886a",
+    "utc": "2026-09-25T16:43:26.504Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1243,
-      "head_frame": "d7308d7a44d1ee733f98999ff83a720ac1c23ad310246bb83e773a380b560e3e"
+      "count": 1244,
+      "head_frame": "d3c41fa7108985c4b6cc503f2601407f5885a24c56406323fba74f99cbdf886a"
     },
     "world": {
-      "count": 1147,
-      "head_frame": "330a8ec2c01b6f4d107962317eb951e77542a4baf78230d3acd6432b9af2efe1"
+      "count": 1148,
+      "head_frame": "0fac5393c9935619f30daa650eba5ac2f412e649d14ef33afdd86dbecc194fca"
     },
     "registry": {
       "count": 23,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "330a8ec2c01b6f4d107962317eb951e77542a4baf78230d3acd6432b9af2efe1",
-    "seq": 1146,
-    "utc": "2026-09-25T16:33:20.537Z",
-    "tick": 1242,
-    "tick_frame": "d7308d7a44d1ee733f98999ff83a720ac1c23ad310246bb83e773a380b560e3e",
+    "frame_hash": "0fac5393c9935619f30daa650eba5ac2f412e649d14ef33afdd86dbecc194fca",
+    "seq": 1147,
+    "utc": "2026-09-25T16:43:28.505Z",
+    "tick": 1243,
+    "tick_frame": "d3c41fa7108985c4b6cc503f2601407f5885a24c56406323fba74f99cbdf886a",
     "data": {
       "btc_block_height": {
         "height": 968566
       },
       "btc_usd": {
-        "spot": "84027.835"
+        "spot": "83912.545"
       },
       "fx_usd": {
         "EUR": "0.8787",
@@ -58,30 +58,30 @@
         "CNY": "6.7173"
       },
       "crypto_market": {
-        "total_mcap_usd": "2890686933770",
-        "btc_dominance_pct": "58.3"
+        "total_mcap_usd": "2881932194379",
+        "btc_dominance_pct": "58.2"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
-        "hour_sat_vb": 1
+        "fastest_sat_vb": 4,
+        "hour_sat_vb": 3
       },
       "btc_mempool": {
-        "tx_count": 81757
+        "tx_count": 84226
       },
       "earthquakes_past_hour": {
-        "count": 5,
+        "count": 4,
         "max_mag": "2.1"
       },
       "iss": {
-        "lat": "-0.875",
-        "lon": "-90.844"
+        "lat": "29.116",
+        "lon": "-66.722"
       },
       "space_weather": {
         "kp": "3.67",
         "at": "2026-09-25T12:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 173,
+        "gco2_kwh": 185,
         "index": "high"
       },
       "hn_top": {
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Dota 2: Xtreme Gaming vs LGD Gaming - Game 1 Winner",
-            "yes_price": "0.0005"
-          },
-          {
             "question": "Strait of Hormuz traffic returns to normal by September 30?",
             "yes_price": "0.0065"
           },
           {
             "question": "Will Mitch Landrieu win the 2028 Democratic presidential nomination?",
             "yes_price": "0.0015"
+          },
+          {
+            "question": "Korea Open: Katie Volynets vs Kimberly Birrell",
+            "yes_price": "0.345"
           }
         ]
       }
@@ -252,5 +252,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "63e3fd5536158d461bde4e587c9b454e86c9950acfcc5dbe1f8bc7887239087b"
+  "input_fingerprint": "6dcd0c7f950a8f934388d504cf1f656a04ce53481865d808b0e86f75562a5bc6"
 }
