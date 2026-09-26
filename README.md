@@ -1,5 +1,9 @@
 # DOGG — public change journals
 
+<!-- rapp1:network-header:start -->
+[![RAPP/1](https://kody-w.github.io/rapp-hive-public/portfolio/badges/dogg.svg)](https://github.com/kody-w/rapp-hive-public/blob/main/portfolio/repos/dogg.md) · **New to RAPP?** [Start here: get your Brainstem →](https://github.com/kody-w/rapp-installer#start-here)
+<!-- rapp1:network-header:end -->
+
 **Public, append-only native DOGG (`dogg/0`) hash chains — readable,
 joinable, and integrity-checked in your own browser.**
 
