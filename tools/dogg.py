@@ -732,9 +732,15 @@ def summon(chant, take=3):
     return tile
 
 def gate(dest):
-    """Frame-by-frame re-verification + tick agreement with OUR spine. Needs rapp.py."""
+    """Frame-by-frame re-verification + tick agreement with OUR spine. Needs rapp.py.
+    Every tick our spine holds is checked, flat tail and sealed epochs alike."""
     if R is None:
         return False, "gate needs tools/rapp.py + chainio.py beside this script"
+    try:
+        # keyed like the flat files (ticks/<n>.json) so sealed ticks resolve as unsealed ones do
+        spine = {str(i): t["frame_hash"] for i, t in enumerate(chainio.load_chain(ROOT / "ticks"))}
+    except Exception as ex:
+        return False, f"local spine: {ex}"
     for headf in pathlib.Path(dest).glob("*/HEAD.json"):
         meta = json.loads(headf.read_text())
         head = None
@@ -748,8 +754,8 @@ def gate(dest):
                 return False, f"frame {fr.get('seq')}: step {step}"
             tn, tref = fr["payload"].get("tick"), fr["payload"].get("tick_frame")
             if tn is not None and tref is not None:
-                lt = ROOT / "ticks" / f"{tn}.json"
-                if lt.exists() and json.loads(lt.read_text())["frame_hash"] != tref:
+                known = spine.get(str(tn))
+                if known is not None and known != tref:
                     return False, f"frame {fr.get('seq')} contradicts the spine @ tick {tn}"
             head = fr
     return True, ""

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Chant codec conformance — stdlib only. Golden vectors in chants/VECTORS.json pin the codebook:
 if these words change for this fixture, every chant ever spoken has changed meaning."""
-import json, pathlib, random, sys, unittest, zlib
+import json, pathlib, random, sys, tempfile, unittest, zlib
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 import dogg
@@ -98,6 +98,32 @@ class Codec(unittest.TestCase):
         self.assertEqual(dogg.lens_make("select", DIM, ["btc_usd"]), vec["lens_select_btc"])
         self.assertEqual(dogg.seed_make(DIM, [("select", "btc_usd"), ("above", "btc_usd", 70000)]), vec["seed_btc_above_70000"])
         self.assertEqual(dogg.to_uri(w(vec["mission_default"])), vec["mission_default_uri"])
+
+
+class SpineGate(unittest.TestCase):
+    """receive/verify hold every tick reference to the whole local spine, sealed epochs included."""
+
+    def gate_one(self, tick, tick_frame):
+        with tempfile.TemporaryDirectory() as tmp:
+            d, stream = pathlib.Path(tmp) / "witness-test", "witness:@test/gate"
+            d.mkdir()
+            f = dogg.R.build_frame("witness.observation", stream, 0, "2026-01-01T00:00:00.000Z",
+                                   {"tick": tick, "tick_frame": tick_frame}, prev=None)
+            (d / "0.json").write_text(json.dumps(f))
+            (d / "HEAD.json").write_text(json.dumps({"count": 1, "stream_id": stream,
+                                                     "head_frame": f["frame_hash"]}))
+            return dogg.gate(tmp)
+
+    def test_tick_references_checked_in_sealed_epochs_and_tail(self):
+        ticks = ROOT / "ticks"
+        head = json.loads((ticks / "HEAD.json").read_text())
+        self.assertFalse((ticks / "0.json").exists(), "tick 0 must live in a sealed epoch bundle")
+        sealed = json.loads((ticks / "epochs" / "0.jsonl").read_text().splitlines()[0])
+        for tick, real in ((0, sealed["frame_hash"]), (head["count"] - 1, head["head_frame"])):
+            self.assertEqual(self.gate_one(tick, real), (True, ""))
+            ok, why = self.gate_one(tick, "0" * 64)
+            self.assertFalse(ok, f"forged reference to tick {tick} was accepted")
+            self.assertIn(f"contradicts the spine @ tick {tick}", why)
 
 
 if __name__ == "__main__":
