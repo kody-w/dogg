@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-26T09:02:41.078Z",
+  "generated_utc": "2026-09-26T09:12:53.267Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1331,
-    "frame_hash": "5b31bf87c08e086c32bbdfbbcc327782668781e7db877b779f043e925f51de1e",
-    "utc": "2026-09-26T09:02:38.631Z"
+    "seq": 1332,
+    "frame_hash": "00b4fc046c889044f4004137381c20ae10e686e6a558e45dad21c7a9ab172f9b",
+    "utc": "2026-09-26T09:12:49.099Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1332,
-      "head_frame": "5b31bf87c08e086c32bbdfbbcc327782668781e7db877b779f043e925f51de1e"
+      "count": 1333,
+      "head_frame": "00b4fc046c889044f4004137381c20ae10e686e6a558e45dad21c7a9ab172f9b"
     },
     "world": {
-      "count": 1236,
-      "head_frame": "4e9dba20f63050305f9fd7dece2ff6a62976b7e762982e3d8be43c15c75a406b"
+      "count": 1237,
+      "head_frame": "b3d7093ac103b93c7b659b540b1f02ac6cb594669b9cc190f293cba580de7c18"
     },
     "registry": {
       "count": 23,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "4e9dba20f63050305f9fd7dece2ff6a62976b7e762982e3d8be43c15c75a406b",
-    "seq": 1235,
-    "utc": "2026-09-26T09:02:40.594Z",
-    "tick": 1331,
-    "tick_frame": "5b31bf87c08e086c32bbdfbbcc327782668781e7db877b779f043e925f51de1e",
+    "frame_hash": "b3d7093ac103b93c7b659b540b1f02ac6cb594669b9cc190f293cba580de7c18",
+    "seq": 1236,
+    "utc": "2026-09-26T09:12:52.172Z",
+    "tick": 1332,
+    "tick_frame": "00b4fc046c889044f4004137381c20ae10e686e6a558e45dad21c7a9ab172f9b",
     "data": {
       "btc_block_height": {
         "height": 968664
       },
       "btc_usd": {
-        "spot": "84187.525"
+        "spot": "84057.955"
       },
       "fx_usd": {
         "EUR": "0.8773",
@@ -58,45 +58,45 @@
         "CNY": "6.7246"
       },
       "crypto_market": {
-        "total_mcap_usd": "2894862025047",
+        "total_mcap_usd": "2894230009738",
         "btc_dominance_pct": "58.3"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 81995
+        "tx_count": 83605
       },
       "earthquakes_past_hour": {
         "count": 10,
         "max_mag": "5.0"
       },
       "iss": {
-        "lat": "-39.278",
-        "lon": "-121.485"
+        "lat": "-51.689",
+        "lon": "-69.349"
       },
       "space_weather": {
         "kp": "2.67",
         "at": "2026-09-26T06:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 85,
+        "gco2_kwh": 75,
         "index": "low"
       },
       "hn_top": {
-        "id": 49854399,
-        "title": "CAPTCHAs don't prove you're human – they prove you're American"
+        "id": 49849985,
+        "title": "Revealing the details of how OpenAI agents hacked Hugging Face"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Strait of Hormuz traffic returns to normal by September 30?",
-            "yes_price": "0.0045"
+            "question": "Dota 2: Xtreme Gaming vs GamerLegion - Game 2 Winner",
+            "yes_price": "0.745"
           },
           {
-            "question": "Dota 2: Xtreme Gaming vs GamerLegion - Game 2 Winner",
-            "yes_price": "0.525"
+            "question": "Strait of Hormuz traffic returns to normal by September 30?",
+            "yes_price": "0.0045"
           },
           {
             "question": "Will the U.S. invade Iran before 2027?",
@@ -252,5 +252,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "5a1c831622cf2b96867f202b8338d0f1661fdbc916b85dab3c8887c97c15f4a9"
+  "input_fingerprint": "3cd5f0d53dc8648135c993d695f86ca4657948cfc37318b384fc607b79e8e6ca"
 }
