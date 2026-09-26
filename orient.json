@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-26T23:44:37.086Z",
+  "generated_utc": "2026-09-26T23:56:20.577Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1415,
-    "frame_hash": "c90e836dba1f42d97328c3bae0f2d63d2634c5f3dcb3fab765f7e79bdd5a72db",
-    "utc": "2026-09-26T23:44:03.926Z"
+    "seq": 1416,
+    "frame_hash": "aa421d031a8e8fdd817dff7ee70cdee77d499ada59b3de06c05156a2f7056bf9",
+    "utc": "2026-09-26T23:55:21.280Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1416,
-      "head_frame": "c90e836dba1f42d97328c3bae0f2d63d2634c5f3dcb3fab765f7e79bdd5a72db"
+      "count": 1417,
+      "head_frame": "aa421d031a8e8fdd817dff7ee70cdee77d499ada59b3de06c05156a2f7056bf9"
     },
     "world": {
-      "count": 1320,
-      "head_frame": "58401122bbcda2dda60a30468e91cfa498e706e98e940b51562c4b4ba612da51"
+      "count": 1321,
+      "head_frame": "2b8663ac3a9ef24b100fc45941dae3b67281872582b854f81686b205f3d50161"
     },
     "registry": {
       "count": 23,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "58401122bbcda2dda60a30468e91cfa498e706e98e940b51562c4b4ba612da51",
-    "seq": 1319,
-    "utc": "2026-09-26T23:44:14.573Z",
-    "tick": 1415,
-    "tick_frame": "c90e836dba1f42d97328c3bae0f2d63d2634c5f3dcb3fab765f7e79bdd5a72db",
+    "frame_hash": "2b8663ac3a9ef24b100fc45941dae3b67281872582b854f81686b205f3d50161",
+    "seq": 1320,
+    "utc": "2026-09-26T23:55:37.716Z",
+    "tick": 1416,
+    "tick_frame": "aa421d031a8e8fdd817dff7ee70cdee77d499ada59b3de06c05156a2f7056bf9",
     "data": {
       "btc_block_height": {
-        "height": 968755
+        "height": 968758
       },
       "btc_usd": {
-        "spot": "84335.255"
+        "spot": "84403.405"
       },
       "fx_usd": {
         "EUR": "0.8773",
@@ -58,7 +58,7 @@
         "CNY": "6.7246"
       },
       "crypto_market": {
-        "total_mcap_usd": "2902175449618",
+        "total_mcap_usd": "2904645946413",
         "btc_dominance_pct": "58.3"
       },
       "btc_fees": {
@@ -66,15 +66,15 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 69000
+        "tx_count": 76503
       },
       "earthquakes_past_hour": {
-        "count": 1,
-        "max_mag": "0.6"
+        "count": 3,
+        "max_mag": "2.0"
       },
       "iss": {
-        "lat": "37.202",
-        "lon": "-168.894"
+        "lat": "51.596",
+        "lon": "-111.766"
       },
       "space_weather": {
         "kp": "2.33",
@@ -85,22 +85,22 @@
         "index": "moderate"
       },
       "hn_top": {
-        "id": 49842764,
-        "title": "PipePipe: NewPipe hard fork implementing SponsorBlock"
+        "id": 49859112,
+        "title": "DeepSeek Elastic Compute (DSec)"
       },
       "prediction_markets": {
         "top_by_volume": [
-          {
-            "question": "Strait of Hormuz traffic returns to normal by September 30?",
-            "yes_price": "0.004"
-          },
           {
             "question": "Will the U.S. invade Iran before 2027?",
             "yes_price": "0.155"
           },
           {
-            "question": "US x Iran ceasefire continues through September 30?",
-            "yes_price": "0.855"
+            "question": "Strait of Hormuz traffic returns to normal by September 30?",
+            "yes_price": "0.004"
+          },
+          {
+            "question": "Oregon vs. USC",
+            "yes_price": "0.675"
           }
         ]
       }
@@ -252,5 +252,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "d06a0a135067cd8d096245e5b7bf15cbec4ac803caeb1fd41819b8eaaeb9952f"
+  "input_fingerprint": "aae8ada97173cc25e3490abe7f0373e1e746fd154f6a94e9455a202e55094f7d"
 }
