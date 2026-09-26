@@ -49,7 +49,7 @@ def append_registry(dimension, repo, path, outlook):
 
 
 def fold_mission(dimension, fields, default=None):
-    """append-only: a dimension's fields may be extended, never reordered or removed."""
+    """Append each new field name once; preserve existing metadata and indices."""
     mp = ROOT / "chants" / "MISSIONS.json"
     doc = json.loads(mp.read_text())
     cur = doc["missions"].get(dimension, {"fields": []})
@@ -57,6 +57,7 @@ def fold_mission(dimension, fields, default=None):
     for f in fields:
         if f["name"] not in have and len(cur["fields"]) < 12:
             cur["fields"].append({"name": f["name"], "path": f["path"], "unit": f.get("unit", "")})
+            have.append(f["name"])
     if default: cur["default"] = default[:3]
     doc["missions"][dimension] = cur
     mp.write_text(json.dumps(doc, indent=2) + "\n")
