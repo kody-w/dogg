@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-26T22:51:43.805Z",
+  "generated_utc": "2026-09-26T23:02:21.823Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1410,
-    "frame_hash": "194870c00f80fc2c70e996965d55dd8c676e771017500a8e36531a9729d0089a",
-    "utc": "2026-09-26T22:51:32.387Z"
+    "seq": 1411,
+    "frame_hash": "269d02745d9ae92f3625c851e3dce66f68e92355de239a9c5cec978da33f51b9",
+    "utc": "2026-09-26T23:02:13.744Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1411,
-      "head_frame": "194870c00f80fc2c70e996965d55dd8c676e771017500a8e36531a9729d0089a"
+      "count": 1412,
+      "head_frame": "269d02745d9ae92f3625c851e3dce66f68e92355de239a9c5cec978da33f51b9"
     },
     "world": {
-      "count": 1315,
-      "head_frame": "2f7ac0d89d08a59274f52c2a0d0cba1e7304fcec342065b37e3ba9db39c52d7e"
+      "count": 1316,
+      "head_frame": "50f15b8b002da7bf8c0716cc2523dc599036cfd50660cf3842a0db461f81fd62"
     },
     "registry": {
       "count": 23,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "2f7ac0d89d08a59274f52c2a0d0cba1e7304fcec342065b37e3ba9db39c52d7e",
-    "seq": 1314,
-    "utc": "2026-09-26T22:51:36.305Z",
-    "tick": 1410,
-    "tick_frame": "194870c00f80fc2c70e996965d55dd8c676e771017500a8e36531a9729d0089a",
+    "frame_hash": "50f15b8b002da7bf8c0716cc2523dc599036cfd50660cf3842a0db461f81fd62",
+    "seq": 1315,
+    "utc": "2026-09-26T23:02:16.945Z",
+    "tick": 1411,
+    "tick_frame": "269d02745d9ae92f3625c851e3dce66f68e92355de239a9c5cec978da33f51b9",
     "data": {
       "btc_block_height": {
-        "height": 968749
+        "height": 968750
       },
       "btc_usd": {
-        "spot": "84311.035"
+        "spot": "84326.865"
       },
       "fx_usd": {
         "EUR": "0.8773",
@@ -58,23 +58,23 @@
         "CNY": "6.7246"
       },
       "crypto_market": {
-        "total_mcap_usd": "2899477579619",
+        "total_mcap_usd": "2897231623378",
         "btc_dominance_pct": "58.3"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 81107
+        "tx_count": 79610
       },
       "earthquakes_past_hour": {
-        "count": 3,
+        "count": 2,
         "max_mag": "1.6"
       },
       "iss": {
-        "lat": "-20.473",
-        "lon": "4.880"
+        "lat": "-46.678",
+        "lon": "41.668"
       },
       "space_weather": {
         "kp": "2.33",
@@ -85,22 +85,22 @@
         "index": "moderate"
       },
       "hn_top": {
-        "id": 49859112,
-        "title": "DeepSeek Elastic Compute (DSec)"
+        "id": 49842764,
+        "title": "PipePipe: NewPipe hard fork implementing SponsorBlock"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will Spain win on 2026-09-26?",
-            "yes_price": "0.9995"
-          },
-          {
             "question": "Ole Miss vs. Florida",
-            "yes_price": "0.0255"
+            "yes_price": "0.0055"
           },
           {
-            "question": "Will England win on 2026-09-26?",
-            "yes_price": "0.0005"
+            "question": "Iowa vs. Michigan",
+            "yes_price": "0.105"
+          },
+          {
+            "question": "Strait of Hormuz traffic returns to normal by September 30?",
+            "yes_price": "0.004"
           }
         ]
       }
@@ -252,5 +252,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "579498cb4585024e623a4123a6011ce521d2f10e662b4df4d5111c2f32c5f7aa"
+  "input_fingerprint": "7efcc454f51f5df8d94b5148a10e69e30d4cd86e62d6d9c607d1931cdc334473"
 }
