@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-27T06:40:29.304Z",
+  "generated_utc": "2026-09-27T06:51:14.736Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1454,
-    "frame_hash": "193080185507d521a349b6dcf21088ba6105f625d20e88965d90a789ef954ad4",
-    "utc": "2026-09-27T06:40:20.711Z"
+    "seq": 1455,
+    "frame_hash": "da62cff56d0d2fa259ae84caa3dfed80185625c3a7d7749ad760286835d3ad2d",
+    "utc": "2026-09-27T06:50:57.370Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1455,
-      "head_frame": "193080185507d521a349b6dcf21088ba6105f625d20e88965d90a789ef954ad4"
+      "count": 1456,
+      "head_frame": "da62cff56d0d2fa259ae84caa3dfed80185625c3a7d7749ad760286835d3ad2d"
     },
     "world": {
-      "count": 1359,
-      "head_frame": "16a261b4d8300daacafbd66279857d17c27fadbce5a39e8415657727ab6e9546"
+      "count": 1360,
+      "head_frame": "055167654bbd2017631a538f8af6a4cf4b702b035c62c15f53b19f2c901f62df"
     },
     "registry": {
       "count": 23,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "16a261b4d8300daacafbd66279857d17c27fadbce5a39e8415657727ab6e9546",
-    "seq": 1358,
-    "utc": "2026-09-27T06:40:23.893Z",
-    "tick": 1454,
-    "tick_frame": "193080185507d521a349b6dcf21088ba6105f625d20e88965d90a789ef954ad4",
+    "frame_hash": "055167654bbd2017631a538f8af6a4cf4b702b035c62c15f53b19f2c901f62df",
+    "seq": 1359,
+    "utc": "2026-09-27T06:51:04.595Z",
+    "tick": 1455,
+    "tick_frame": "da62cff56d0d2fa259ae84caa3dfed80185625c3a7d7749ad760286835d3ad2d",
     "data": {
       "btc_block_height": {
-        "height": 968798
+        "height": 968799
       },
       "btc_usd": {
-        "spot": "84509.995"
+        "spot": "84500.445"
       },
       "fx_usd": {
         "EUR": "0.8775",
@@ -58,7 +58,7 @@
         "CNY": "6.7290"
       },
       "crypto_market": {
-        "total_mcap_usd": "2912240608283",
+        "total_mcap_usd": "2910013440567",
         "btc_dominance_pct": "58.3"
       },
       "btc_fees": {
@@ -66,34 +66,30 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 75014
+        "tx_count": 75261
       },
       "earthquakes_past_hour": {
-        "count": 5,
-        "max_mag": "2.3"
+        "count": 8,
+        "max_mag": "2.9"
       },
       "iss": {
-        "lat": "-32.720",
-        "lon": "-100.961"
+        "lat": "-51.481",
+        "lon": "-52.527"
       },
       "space_weather": {
         "kp": "3.33",
         "at": "2026-09-27T03:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 91,
-        "index": "moderate"
+        "gco2_kwh": 89,
+        "index": "low"
       },
       "hn_top": {
-        "id": 49856988,
-        "title": "Go Concurrency Distilled"
+        "id": 49844657,
+        "title": "Does Georgism work? Five years later"
       },
       "prediction_markets": {
         "top_by_volume": [
-          {
-            "question": "Minnesota vs. Washington",
-            "yes_price": "0.9995"
-          },
           {
             "question": "US x Iran ceasefire continues through September 30?",
             "yes_price": "0.875"
@@ -101,6 +97,10 @@
           {
             "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
             "yes_price": "0.0015"
+          },
+          {
+            "question": "Strait of Hormuz traffic returns to normal by September 30?",
+            "yes_price": "0.0035"
           }
         ]
       }
@@ -252,5 +252,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "62bd399c3191f41dab7baf79aaaf1cf3d9afedb03bb3d09ce5d51b7314e6b74b"
+  "input_fingerprint": "c0f6ec4e6dbfeece762113b24d421cdb6edbcde65b6ebe39563fb307754868b0"
 }
