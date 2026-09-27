@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-27T14:22:57.813Z",
+  "generated_utc": "2026-09-27T14:33:06.764Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1499,
-    "frame_hash": "38bef2209e4072c48b1f700a7135d91418f600e06d262bbfd10cda2b2dc6a721",
-    "utc": "2026-09-27T14:22:55.166Z"
+    "seq": 1500,
+    "frame_hash": "aea691d00a2c4409d1d9690832dfb05c08bbd886dbe8fb74637adfcff89e2ccd",
+    "utc": "2026-09-27T14:33:03.504Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1500,
-      "head_frame": "38bef2209e4072c48b1f700a7135d91418f600e06d262bbfd10cda2b2dc6a721"
+      "count": 1501,
+      "head_frame": "aea691d00a2c4409d1d9690832dfb05c08bbd886dbe8fb74637adfcff89e2ccd"
     },
     "world": {
-      "count": 1404,
-      "head_frame": "eb633b75a864f7146d7631c0e2bc5376989c40871ee21e060825ef34dfeef9dc"
+      "count": 1405,
+      "head_frame": "3b243ccb26c99146a9292604d8684c4494e28e05ad93853039ed3f3aa8af24e2"
     },
     "registry": {
       "count": 23,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "eb633b75a864f7146d7631c0e2bc5376989c40871ee21e060825ef34dfeef9dc",
-    "seq": 1403,
-    "utc": "2026-09-27T14:22:57.313Z",
-    "tick": 1499,
-    "tick_frame": "38bef2209e4072c48b1f700a7135d91418f600e06d262bbfd10cda2b2dc6a721",
+    "frame_hash": "3b243ccb26c99146a9292604d8684c4494e28e05ad93853039ed3f3aa8af24e2",
+    "seq": 1404,
+    "utc": "2026-09-27T14:33:06.289Z",
+    "tick": 1500,
+    "tick_frame": "aea691d00a2c4409d1d9690832dfb05c08bbd886dbe8fb74637adfcff89e2ccd",
     "data": {
       "btc_block_height": {
-        "height": 968848
+        "height": 968850
       },
       "btc_usd": {
-        "spot": "84903.525"
+        "spot": "84777.645"
       },
       "fx_usd": {
         "EUR": "0.8775",
@@ -58,23 +58,23 @@
         "CNY": "6.7290"
       },
       "crypto_market": {
-        "total_mcap_usd": "2892914456507",
-        "btc_dominance_pct": "58.8"
+        "total_mcap_usd": "2880118221546",
+        "btc_dominance_pct": "58.9"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 75224
+        "tx_count": 72180
       },
       "earthquakes_past_hour": {
         "count": 5,
-        "max_mag": "3.3"
+        "max_mag": "3.5"
       },
       "iss": {
-        "lat": "-24.363",
-        "lon": "132.005"
+        "lat": "-47.961",
+        "lon": "169.372"
       },
       "space_weather": {
         "kp": "1.33",
@@ -85,22 +85,22 @@
         "index": "low"
       },
       "hn_top": {
-        "id": 49866515,
-        "title": "Replacing the old battery on rechargeable bike lights"
+        "id": 49854219,
+        "title": "Flip Fluid on Flip Dots"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Spread: Chiefs (-10.5)",
-            "yes_price": "0.445"
+            "yes_price": "0.455"
+          },
+          {
+            "question": "Chiefs vs. Dolphins",
+            "yes_price": "0.845"
           },
           {
             "question": "Spread: Bills (-7.5)",
             "yes_price": "0.475"
-          },
-          {
-            "question": "Spread: Lions (-6.5)",
-            "yes_price": "0.515"
           }
         ]
       }
@@ -252,5 +252,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "f27e6667a203a36b6539fa542155deefa8dd9e7fef3281fa32bf5716e91db5d8"
+  "input_fingerprint": "a65f91085659189381bed44153750bd9bfb5266454934ec65344912d70d66e94"
 }
