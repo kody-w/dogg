@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-27T18:07:22.673Z",
+  "generated_utc": "2026-09-27T18:19:13.232Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1518,
-    "frame_hash": "55ef058202eb25adad73d344c1837da4bdf1f2ce05eefc633599e30084f4b00c",
-    "utc": "2026-09-27T18:07:13.327Z"
+    "seq": 1519,
+    "frame_hash": "b692610ff5e4c763c5dc5f0d64d8071ed3105fb3ce22fc98ec69fc0409e8f59f",
+    "utc": "2026-09-27T18:17:01.891Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1519,
-      "head_frame": "55ef058202eb25adad73d344c1837da4bdf1f2ce05eefc633599e30084f4b00c"
+      "count": 1520,
+      "head_frame": "b692610ff5e4c763c5dc5f0d64d8071ed3105fb3ce22fc98ec69fc0409e8f59f"
     },
     "world": {
-      "count": 1423,
-      "head_frame": "c09108f8cd43a98402879bbc53d7494c4a7b067c5400dc496a53d069dc37cee2"
+      "count": 1424,
+      "head_frame": "d95b42701f04c5348080f11bd48c0ff37e51e01223d45d60c4baca3ca3cfc1af"
     },
     "registry": {
       "count": 23,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "c09108f8cd43a98402879bbc53d7494c4a7b067c5400dc496a53d069dc37cee2",
-    "seq": 1422,
-    "utc": "2026-09-27T18:07:22.182Z",
-    "tick": 1518,
-    "tick_frame": "55ef058202eb25adad73d344c1837da4bdf1f2ce05eefc633599e30084f4b00c",
+    "frame_hash": "d95b42701f04c5348080f11bd48c0ff37e51e01223d45d60c4baca3ca3cfc1af",
+    "seq": 1423,
+    "utc": "2026-09-27T18:17:37.007Z",
+    "tick": 1519,
+    "tick_frame": "b692610ff5e4c763c5dc5f0d64d8071ed3105fb3ce22fc98ec69fc0409e8f59f",
     "data": {
       "btc_block_height": {
-        "height": 968867
+        "height": 968868
       },
       "btc_usd": {
-        "spot": "84553.925"
+        "spot": "84610.915"
       },
       "fx_usd": {
         "EUR": "0.8775",
@@ -58,7 +58,7 @@
         "CNY": "6.7290"
       },
       "crypto_market": {
-        "total_mcap_usd": "2883243387113",
+        "total_mcap_usd": "2883572842493",
         "btc_dominance_pct": "58.8"
       },
       "btc_fees": {
@@ -66,27 +66,27 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 79506
+        "tx_count": 77874
       },
       "earthquakes_past_hour": {
         "count": 5,
         "max_mag": "2.1"
       },
       "iss": {
-        "lat": "0.444",
-        "lon": "-125.544"
+        "lat": "30.672",
+        "lon": "-100.670"
       },
       "space_weather": {
         "kp": "0.33",
         "at": "2026-09-27T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 75,
-        "index": "low"
+        "gco2_kwh": 97,
+        "index": "moderate"
       },
       "hn_top": {
-        "id": 49866951,
-        "title": "In an $80 motel room, a discovery to shed light on the origins of life"
+        "id": 49868830,
+        "title": "Ember-1"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -96,11 +96,11 @@
           },
           {
             "question": "Patriots vs. Jaguars",
-            "yes_price": "0.235"
+            "yes_price": "0.255"
           },
           {
             "question": "Spread: Bills (-7.5)",
-            "yes_price": "0.105"
+            "yes_price": "0.18"
           }
         ]
       }
@@ -252,5 +252,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "70c8f36865b3a005a5cc6d0b74b3e85edb6d0652873c3caf3b6471f8cde2f0ee"
+  "input_fingerprint": "1568622f9b93d93dc5815e922a0962e352c016997585eae0014a0a0fd484ca04"
 }
