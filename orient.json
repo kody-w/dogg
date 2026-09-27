@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-27T03:15:00.956Z",
+  "generated_utc": "2026-09-27T03:26:01.859Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1435,
-    "frame_hash": "5a896f9bf9820f829674f48e8770bd9ac046f564daa8f47d9cc3a6c1a9561190",
-    "utc": "2026-09-27T03:14:54.552Z"
+    "seq": 1436,
+    "frame_hash": "77cd6a4425e9d80dfd6c037efcac1c3124fed0a6fdd26b389db2805cbe13c6d5",
+    "utc": "2026-09-27T03:25:45.967Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1436,
-      "head_frame": "5a896f9bf9820f829674f48e8770bd9ac046f564daa8f47d9cc3a6c1a9561190"
+      "count": 1437,
+      "head_frame": "77cd6a4425e9d80dfd6c037efcac1c3124fed0a6fdd26b389db2805cbe13c6d5"
     },
     "world": {
-      "count": 1340,
-      "head_frame": "c87b4a7d5a9711d177f7c88f499d5a3b01e39852446587fda8de38e804f13b01"
+      "count": 1341,
+      "head_frame": "a016ee14f69633c00da8595a4a34d83e3b3a2a46db9770ef97fc3b66d7b59414"
     },
     "registry": {
       "count": 23,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "c87b4a7d5a9711d177f7c88f499d5a3b01e39852446587fda8de38e804f13b01",
-    "seq": 1339,
-    "utc": "2026-09-27T03:14:57.211Z",
-    "tick": 1435,
-    "tick_frame": "5a896f9bf9820f829674f48e8770bd9ac046f564daa8f47d9cc3a6c1a9561190",
+    "frame_hash": "a016ee14f69633c00da8595a4a34d83e3b3a2a46db9770ef97fc3b66d7b59414",
+    "seq": 1340,
+    "utc": "2026-09-27T03:25:53.137Z",
+    "tick": 1436,
+    "tick_frame": "77cd6a4425e9d80dfd6c037efcac1c3124fed0a6fdd26b389db2805cbe13c6d5",
     "data": {
       "btc_block_height": {
-        "height": 968775
+        "height": 968777
       },
       "btc_usd": {
-        "spot": "84460.585"
+        "spot": "84363.005"
       },
       "fx_usd": {
         "EUR": "0.8775",
@@ -58,7 +58,7 @@
         "CNY": "6.7290"
       },
       "crypto_market": {
-        "total_mcap_usd": "2906229918938",
+        "total_mcap_usd": "2903238706573",
         "btc_dominance_pct": "58.3"
       },
       "btc_fees": {
@@ -66,15 +66,15 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 76169
+        "tx_count": 77883
       },
       "earthquakes_past_hour": {
-        "count": 9,
-        "max_mag": "5.1"
+        "count": 7,
+        "max_mag": "2.7"
       },
       "iss": {
-        "lat": "25.370",
-        "lon": "-101.062"
+        "lat": "-7.471",
+        "lon": "-75.994"
       },
       "space_weather": {
         "kp": "4.0",
@@ -85,8 +85,8 @@
         "index": "moderate"
       },
       "hn_top": {
-        "id": 49844657,
-        "title": "Does Georgism work? Five years later"
+        "id": 49842764,
+        "title": "PipePipe: NewPipe hard fork implementing SponsorBlock"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -95,12 +95,12 @@
             "yes_price": "0.9995"
           },
           {
-            "question": "UFC Fight Night: Raoni Barcelos vs. Raul Rosas Jr. (Bantamweight, Main Card)",
+            "question": "Texas A&M vs. LSU",
             "yes_price": "0.0005"
           },
           {
-            "question": "Texas A&M vs. LSU",
-            "yes_price": "0.0005"
+            "question": "Missouri vs. Mississippi State",
+            "yes_price": "0.1245"
           }
         ]
       }
@@ -252,5 +252,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "713c92c0326d97478a5e29ce1b14cce15cdce91ae70bd747fbd844f32da2fece"
+  "input_fingerprint": "4d581e5c255d3ef49b7845c209c499137f0df9cb51b9e43eb545ed2768aa51ba"
 }
