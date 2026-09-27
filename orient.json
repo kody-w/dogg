@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-27T01:40:25.918Z",
+  "generated_utc": "2026-09-27T01:52:52.964Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1426,
-    "frame_hash": "e6d9066ff276452a2bd5f221b84fe4086e1628f909a73ef250e431b8c4d2c79e",
-    "utc": "2026-09-27T01:40:12.807Z"
+    "seq": 1427,
+    "frame_hash": "e33208cc32105a904d9c533ecd4e6aa906233221a1a8ea25574cec1d3b4cd636",
+    "utc": "2026-09-27T01:51:54.156Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1427,
-      "head_frame": "e6d9066ff276452a2bd5f221b84fe4086e1628f909a73ef250e431b8c4d2c79e"
+      "count": 1428,
+      "head_frame": "e33208cc32105a904d9c533ecd4e6aa906233221a1a8ea25574cec1d3b4cd636"
     },
     "world": {
-      "count": 1331,
-      "head_frame": "dcec286b0774904061b8d8f16929625756d88a9ae17a9403a6d0a8855e24a7a5"
+      "count": 1332,
+      "head_frame": "adf8fc041eeaffe4ee29fb59c5235d729667101c1f69a2baa28bdb0683794010"
     },
     "registry": {
       "count": 23,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "dcec286b0774904061b8d8f16929625756d88a9ae17a9403a6d0a8855e24a7a5",
-    "seq": 1330,
-    "utc": "2026-09-27T01:40:16.797Z",
-    "tick": 1426,
-    "tick_frame": "e6d9066ff276452a2bd5f221b84fe4086e1628f909a73ef250e431b8c4d2c79e",
+    "frame_hash": "adf8fc041eeaffe4ee29fb59c5235d729667101c1f69a2baa28bdb0683794010",
+    "seq": 1331,
+    "utc": "2026-09-27T01:52:06.310Z",
+    "tick": 1427,
+    "tick_frame": "e33208cc32105a904d9c533ecd4e6aa906233221a1a8ea25574cec1d3b4cd636",
     "data": {
       "btc_block_height": {
         "height": 968768
       },
       "btc_usd": {
-        "spot": "84316.555"
+        "spot": "84538.9"
       },
       "fx_usd": {
         "EUR": "0.8775",
@@ -58,49 +58,49 @@
         "CNY": "6.7290"
       },
       "crypto_market": {
-        "total_mcap_usd": "2898747566812",
+        "total_mcap_usd": "2905887461136",
         "btc_dominance_pct": "58.3"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 77350
+        "tx_count": 82213
       },
       "earthquakes_past_hour": {
-        "count": 5,
+        "count": 7,
         "max_mag": "5.0"
       },
       "iss": {
-        "lat": "30.368",
-        "lon": "-82.551"
+        "lat": "-4.571",
+        "lon": "-54.466"
       },
       "space_weather": {
         "kp": "2.67",
         "at": "2026-09-26T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 115,
+        "gco2_kwh": 109,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 49844657,
-        "title": "Does Georgism work? Five years later"
+        "id": 49862120,
+        "title": "OpenAI (2015)"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Oregon vs. USC",
-            "yes_price": "0.635"
+            "yes_price": "0.665"
           },
           {
             "question": "Texas A&M vs. LSU",
-            "yes_price": "0.12"
+            "yes_price": "0.025"
           },
           {
             "question": "UFC Fight Night: Ilimbek Akylbek Uulu vs. Mehemmedeli Osmanli (Bantamweight, Main Card)",
-            "yes_price": "0.9995"
+            "yes_price": "0.9965"
           }
         ]
       }
@@ -252,5 +252,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "76d9354b5c21c7e67719cac87be85e2ad9964049938b10eec46ec9e38da29993"
+  "input_fingerprint": "7348233d0ce883b2b4543c464127b0a49938dfd809062324cc2a34381d2a754e"
 }
