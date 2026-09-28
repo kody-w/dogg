@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-28T21:26:19.703Z",
+  "generated_utc": "2026-09-28T21:34:12.081Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1665,
-    "frame_hash": "0e1c21937ceb46cc5e4cdd367b0f16cef151081005c5ad2b4051dd7166ca4ceb",
-    "utc": "2026-09-28T21:24:02.378Z"
+    "seq": 1666,
+    "frame_hash": "521aa07910ff15c28272f03997543ce2c996a3069097103bf58dfa6be04ee75c",
+    "utc": "2026-09-28T21:33:48.551Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1666,
-      "head_frame": "0e1c21937ceb46cc5e4cdd367b0f16cef151081005c5ad2b4051dd7166ca4ceb"
+      "count": 1667,
+      "head_frame": "521aa07910ff15c28272f03997543ce2c996a3069097103bf58dfa6be04ee75c"
     },
     "world": {
-      "count": 1570,
-      "head_frame": "e9f4c2c2a8b1b8c6a0c163b3156b75be3df014517de5663a269df933887310e8"
+      "count": 1571,
+      "head_frame": "bff28ee659c94f38cddd83d5e4e2ff29cd48e52f4f917b06961dd604ad8ea0c2"
     },
     "registry": {
       "count": 24,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "e9f4c2c2a8b1b8c6a0c163b3156b75be3df014517de5663a269df933887310e8",
-    "seq": 1569,
-    "utc": "2026-09-28T21:24:19.803Z",
-    "tick": 1665,
-    "tick_frame": "0e1c21937ceb46cc5e4cdd367b0f16cef151081005c5ad2b4051dd7166ca4ceb",
+    "frame_hash": "bff28ee659c94f38cddd83d5e4e2ff29cd48e52f4f917b06961dd604ad8ea0c2",
+    "seq": 1570,
+    "utc": "2026-09-28T21:33:54.834Z",
+    "tick": 1666,
+    "tick_frame": "521aa07910ff15c28272f03997543ce2c996a3069097103bf58dfa6be04ee75c",
     "data": {
       "btc_block_height": {
         "height": 969051
       },
       "btc_usd": {
-        "spot": "83426.455"
+        "spot": "83396.605"
       },
       "fx_usd": {
         "EUR": "0.8784",
@@ -62,19 +62,19 @@
         "btc_dominance_pct": "58.3"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 4,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 80695
+        "tx_count": 82212
       },
       "earthquakes_past_hour": {
-        "count": 11,
+        "count": 9,
         "max_mag": "2.7"
       },
       "iss": {
-        "lat": "-32.446",
-        "lon": "28.147"
+        "lat": "-50.730",
+        "lon": "70.018"
       },
       "space_weather": {
         "kp": "1.0",
@@ -95,12 +95,12 @@
             "yes_price": "0.9995"
           },
           {
-            "question": "Will Belgium win on 2026-09-28?",
-            "yes_price": "0.0005"
-          },
-          {
             "question": "Eagles vs. Bears",
             "yes_price": "0.635"
+          },
+          {
+            "question": "Will Belgium win on 2026-09-28?",
+            "yes_price": "0.0005"
           }
         ]
       }
@@ -258,5 +258,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "c61a5c2fbf0c77ed464e63080fd19169457a216612de9390fb075b268bfd1315"
+  "input_fingerprint": "e40cc154c8e0aa74a06082dcf0437f34d695944565c8745ca4621daab434f657"
 }
