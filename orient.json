@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-28T02:41:33.585Z",
+  "generated_utc": "2026-09-28T02:53:00.676Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1565,
-    "frame_hash": "8c1f15d68d096f559c3d4f12dd851176747a0792502611618a028998ce8bbac0",
-    "utc": "2026-09-28T02:41:23.749Z"
+    "seq": 1566,
+    "frame_hash": "67425c4c5d72199bf9006fccc9f343ee2caf0e346c00ecb9f85c843f0c132462",
+    "utc": "2026-09-28T02:52:38.389Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1566,
-      "head_frame": "8c1f15d68d096f559c3d4f12dd851176747a0792502611618a028998ce8bbac0"
+      "count": 1567,
+      "head_frame": "67425c4c5d72199bf9006fccc9f343ee2caf0e346c00ecb9f85c843f0c132462"
     },
     "world": {
-      "count": 1470,
-      "head_frame": "67363491f192601c3e2525d6b9949eb3d5f3541ec318fe702f994fdb628b0804"
+      "count": 1471,
+      "head_frame": "6a0f498c69ef5f6374a11cba4ca5dc851cc2ac95fd71a6619ba47f96aa624ec9"
     },
     "registry": {
       "count": 23,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "67363491f192601c3e2525d6b9949eb3d5f3541ec318fe702f994fdb628b0804",
-    "seq": 1469,
-    "utc": "2026-09-28T02:41:27.575Z",
-    "tick": 1565,
-    "tick_frame": "8c1f15d68d096f559c3d4f12dd851176747a0792502611618a028998ce8bbac0",
+    "frame_hash": "6a0f498c69ef5f6374a11cba4ca5dc851cc2ac95fd71a6619ba47f96aa624ec9",
+    "seq": 1470,
+    "utc": "2026-09-28T02:52:43.749Z",
+    "tick": 1566,
+    "tick_frame": "67425c4c5d72199bf9006fccc9f343ee2caf0e346c00ecb9f85c843f0c132462",
     "data": {
       "btc_block_height": {
-        "height": 968921
+        "height": 968923
       },
       "btc_usd": {
-        "spot": "83523.055"
+        "spot": "83421.445"
       },
       "fx_usd": {
         "EUR": "0.8784",
@@ -58,49 +58,49 @@
         "CNY": "6.7195"
       },
       "crypto_market": {
-        "total_mcap_usd": "2854135478342",
+        "total_mcap_usd": "2852516264119",
         "btc_dominance_pct": "58.7"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 80807
+        "tx_count": 75994
       },
       "earthquakes_past_hour": {
-        "count": 3,
+        "count": 5,
         "max_mag": "2.2"
       },
       "iss": {
-        "lat": "-9.966",
-        "lon": "-68.597"
+        "lat": "-40.867",
+        "lon": "-36.472"
       },
       "space_weather": {
         "kp": "0.33",
         "at": "2026-09-28T00:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 150,
+        "gco2_kwh": 155,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 49872472,
-        "title": "Self-parking car using genetic algorithm (2021)"
+        "id": 49872723,
+        "title": "Owed a billion dollars in Nvidia stock"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Rams vs. Broncos",
-            "yes_price": "0.755"
+            "yes_price": "0.525"
           },
           {
             "question": "Spread: Rams (-1.5)",
-            "yes_price": "0.715"
+            "yes_price": "0.485"
           },
           {
             "question": "Rams vs. Broncos: O/U 44.5",
-            "yes_price": "0.26"
+            "yes_price": "0.565"
           }
         ]
       }
@@ -252,5 +252,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "6983a70cd918412645060a32f0a3789eeb00641c8860a20cfe218c6ef2ec3e29"
+  "input_fingerprint": "f6209e6ff063a093b1a2c822d49df5f546359179a437c877abdef27504540a9d"
 }
