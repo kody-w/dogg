@@ -5,6 +5,7 @@ import json, pathlib, random, sys, tempfile, unittest, zlib
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 import dogg
+import subprocess, tempfile
 
 DIM = "markets:@kody-w/dogg-markets"
 FRAME = json.loads((ROOT / "tests" / "fixture_markets_frame.json").read_text())
@@ -12,6 +13,60 @@ VECTORS = ROOT / "chants" / "VECTORS.json"
 
 
 def w(s): return s.split()
+
+
+class GateExitStatus(unittest.TestCase):
+    """verify/receive report the gate's verdict in their exit status, so a script cannot take FAIL for OK."""
+    STREAM = "demo:@kody-w/gate-exit"
+
+    def dogg(self, *args, cwd):
+        return subprocess.run([sys.executable, str(ROOT / "tools" / "dogg.py"), *args],
+                              cwd=str(cwd), capture_output=True, text=True)
+
+    def chain(self, repo, forged=False):
+        repo.mkdir(parents=True)
+        head = None
+        for seq in range(2):
+            frame = dogg.R.build_frame("demo.frame", self.STREAM, seq, f"2026-01-01T00:00:0{seq}.000Z",
+                                       {"n": seq}, prev=head["payload_hash"] if head else None)
+            dogg.chainio.append_frame(repo / "demo", frame, self.STREAM)
+            head = frame
+        if forged:
+            path = repo / "demo" / "1.json"
+            frame = json.loads(path.read_text()); frame["payload"]["n"] = 99
+            path.write_text(json.dumps(frame))
+
+    def bundle(self, base, name, forged):
+        repo = base / name
+        self.chain(repo, forged)
+        git = ["git", "-C", str(repo), "-c", "user.name=test", "-c", "user.email=test@example.invalid",
+               "-c", "commit.gpgsign=false"]
+        for step in (["init", "-q"], ["add", "-A"], ["commit", "-qm", "chain"],
+                     ["bundle", "create", str(base / f"{name}.dogg"), "--all"]):
+            subprocess.run(git + step, check=True, capture_output=True)
+
+    def test_verify_exits_1_on_a_forged_chain_and_0_on_an_honest_one(self):
+        with tempfile.TemporaryDirectory() as t:
+            honest, forged = pathlib.Path(t) / "honest", pathlib.Path(t) / "forged"
+            self.chain(honest)
+            self.chain(forged, forged=True)
+            ok = self.dogg("verify", str(honest), cwd=t)
+            self.assertEqual((ok.returncode, ok.stdout.strip()), (0, "OK — every chain verifies"), ok.stderr)
+            bad = self.dogg("verify", str(forged), cwd=t)
+            self.assertEqual((bad.returncode, bad.stdout.strip()), (1, "FAIL: frame 1: step 2"), bad.stderr)
+
+    def test_receive_exits_1_when_it_bounces_a_forged_bundle(self):
+        with tempfile.TemporaryDirectory() as t:
+            base = pathlib.Path(t)
+            self.bundle(base, "honest", forged=False)
+            self.bundle(base, "forged", forged=True)
+            ok = self.dogg("receive", "honest.dogg", cwd=base)
+            self.assertEqual(ok.returncode, 0, ok.stdout + ok.stderr)
+            self.assertTrue((base / "pantry" / "honest" / "demo" / "HEAD.json").exists())
+            bad = self.dogg("receive", "forged.dogg", cwd=base)
+            self.assertEqual(bad.returncode, 1, bad.stdout + bad.stderr)
+            self.assertIn("forged: REJECTED (frame 1: step 2)", bad.stdout)
+            self.assertFalse((base / "pantry" / "forged").exists())
 
 
 class Codec(unittest.TestCase):

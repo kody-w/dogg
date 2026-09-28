@@ -7,8 +7,8 @@
   python3 dogg.py words  <stream-id>          the 7-word incantation for any stream
   python3 dogg.py mirror <stream-id|repo>     clone a dimension's repo into ./pantry/
   python3 dogg.py pack   <pantry-name>        one AirDroppable .dogg file (git bundle)
-  python3 dogg.py receive <file.dogg>         accept a traded .dogg — VERIFIED or bounced
-  python3 dogg.py verify [dir]                re-check every chain in a repo/pantry entry
+  python3 dogg.py receive <file.dogg>         accept a traded .dogg — VERIFIED, or bounced with exit 1
+  python3 dogg.py verify [dir]                re-check every chain in a repo/pantry entry; exit 1 on FAIL
   python3 dogg.py mission <stream-id> [--fields a,b,…]
                                               MISSION chant: tick + hash prefix + the numbers you
                                               choose, in words — longer spell, more fields
@@ -913,10 +913,12 @@ def main():
         else:
             import shutil; shutil.rmtree(dest)
             print(f"✗ {src.stem}: REJECTED ({why})")
+            sys.exit(1)
     elif cmd == "verify":
         d = pathlib.Path(rest[0]) if rest else ROOT
         ok, why = gate(d)
         print("OK — every chain verifies" if ok else f"FAIL: {why}")
+        sys.exit(0 if ok else 1)
     else:
         print(__doc__)
 
