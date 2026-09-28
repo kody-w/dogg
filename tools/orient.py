@@ -9,6 +9,7 @@ import json
 import os
 from pathlib import Path
 import sys
+import tempfile
 
 from public_data import Chain, HEX, fingerprint, read_bytes, require, strict_json
 
@@ -133,12 +134,13 @@ def regenerate(root=ROOT, check=False, world_refresh="not-attempted", clock=now)
     out = {"schema": out.pop("schema"), "generated_utc": clock(), **out}
     raw = (json.dumps(out, indent=2, ensure_ascii=False) + "\n").encode()
     require(len(raw) <= 256 * 1024 and not output.is_symlink(), "invalid orientation output")
-    staging = output.with_name("orient.json.new")
-    with staging.open("xb") as handle:
-        handle.write(raw)
-        handle.flush()
-        os.fsync(handle.fileno())
-    os.replace(staging, output)
+    with tempfile.TemporaryDirectory(prefix=".orient-", dir=root) as work:
+        staging = Path(work) / output.name
+        with staging.open("xb") as handle:
+            handle.write(raw)
+            handle.flush()
+            os.fsync(handle.fileno())
+        os.replace(staging, output)
     return "updated", out
 
 
