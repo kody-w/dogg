@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-28T06:18:31.031Z",
+  "generated_utc": "2026-09-28T06:28:57.983Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1585,
-    "frame_hash": "0c27d4d8b54c74ec35ea9e0af54d78e542406ff292c6e4dd255a3f1b4a983492",
-    "utc": "2026-09-28T06:18:21.403Z"
+    "seq": 1586,
+    "frame_hash": "dc5eca1366a9faca69744dac855a06c46497e59f8f6b8b98163b93ba899ea8e7",
+    "utc": "2026-09-28T06:28:49.078Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1586,
-      "head_frame": "0c27d4d8b54c74ec35ea9e0af54d78e542406ff292c6e4dd255a3f1b4a983492"
+      "count": 1587,
+      "head_frame": "dc5eca1366a9faca69744dac855a06c46497e59f8f6b8b98163b93ba899ea8e7"
     },
     "world": {
-      "count": 1490,
-      "head_frame": "03d46e81637ea30f20ca671ee8ea3f6df6bab915e8bb1e9307ccb22f04b41b1a"
+      "count": 1491,
+      "head_frame": "99efaab818118278e1b026baff917449e2096b2edb9d18b57e720f153d4a3abf"
     },
     "registry": {
       "count": 23,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "03d46e81637ea30f20ca671ee8ea3f6df6bab915e8bb1e9307ccb22f04b41b1a",
-    "seq": 1489,
-    "utc": "2026-09-28T06:18:25.251Z",
-    "tick": 1585,
-    "tick_frame": "0c27d4d8b54c74ec35ea9e0af54d78e542406ff292c6e4dd255a3f1b4a983492",
+    "frame_hash": "99efaab818118278e1b026baff917449e2096b2edb9d18b57e720f153d4a3abf",
+    "seq": 1490,
+    "utc": "2026-09-28T06:28:52.751Z",
+    "tick": 1586,
+    "tick_frame": "dc5eca1366a9faca69744dac855a06c46497e59f8f6b8b98163b93ba899ea8e7",
     "data": {
       "btc_block_height": {
-        "height": 968955
+        "height": 968956
       },
       "btc_usd": {
-        "spot": "83177.195"
+        "spot": "83053.725"
       },
       "fx_usd": {
         "EUR": "0.8784",
@@ -58,7 +58,7 @@
         "CNY": "6.7195"
       },
       "crypto_market": {
-        "total_mcap_usd": "2846107196881",
+        "total_mcap_usd": "2838793807040",
         "btc_dominance_pct": "58.7"
       },
       "btc_fees": {
@@ -66,15 +66,15 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 75322
+        "tx_count": 75311
       },
       "earthquakes_past_hour": {
-        "count": 10,
+        "count": 11,
         "max_mag": "5.2"
       },
       "iss": {
-        "lat": "-35.037",
-        "lon": "14.809"
+        "lat": "-5.055",
+        "lon": "41.666"
       },
       "space_weather": {
         "kp": "1.67",
@@ -86,21 +86,21 @@
       },
       "hn_top": {
         "id": 49873241,
-        "title": "Thinking Fast and Slow in AI: the Role of Metacognition (2021)"
+        "title": "Thinking fast and slow in AI: The role of metacognition (2021)"
       },
       "prediction_markets": {
         "top_by_volume": [
+          {
+            "question": "China Open, Qualification: Yannick Hanfmann vs Tomas Machac",
+            "yes_price": "0.0005"
+          },
           {
             "question": "Eagles vs. Bears",
             "yes_price": "0.655"
           },
           {
-            "question": "China Open, Qualification: Yannick Hanfmann vs Tomas Machac",
-            "yes_price": "0.135"
-          },
-          {
-            "question": "Japan Open Tennis Championships, Qualification: Zachary Svajda vs Aleksandar Kovacevic",
-            "yes_price": "0.0005"
+            "question": "Japan Open Tennis Championships, Qualification: Arthur Fils vs Martin Damm",
+            "yes_price": "0.9995"
           }
         ]
       }
@@ -252,5 +252,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "e27ca279c157930b8f83f79a1db6e21d4dd7037015083e679722992b22f7c3f6"
+  "input_fingerprint": "3c1a986925bceb4e667fc2bee99c46ccaca2eff9c216fc0dfc38271fc831dffa"
 }
