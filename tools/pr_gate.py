@@ -5,6 +5,9 @@ Rules (fail closed):
   1. Every changed path is inside exactly ONE witness-*/ directory — a contribution
      touches its own stream and nothing else (no tools, no workflows, no other chains).
   2. After the change, EVERY chain in the repo still verifies (tools/verify_thread.py).
+  3. Every changed frame that claims a tick_frame — flat <seq>.json or inside a sealed
+     epochs/<k>.jsonl bundle — names a real tick: its integer tick indexes the spine
+     and the spine's frame there has exactly that hash.
 Usage (CI): python3 tools/pr_gate.py origin/main
 """
 import subprocess, sys, pathlib
@@ -39,29 +42,32 @@ if v.returncode != 0:
     sys.exit(1)
 
 # the join key must be REAL: a frame claiming tick_frame X merges only if the spine's
-# ticks/<tick>.json actually has that hash — corroboration is worthless on a fake key
+# frame at that tick actually has that hash — corroboration is worthless on a fake key.
+# The tick is an index into the spine, never a path built from contributor input.
 import json
+sys.path.insert(0, str(ROOT / "tools"))
+import chainio
+spine = None
 checked = 0
 for p in paths:
-    if not p.endswith(".json") or p.endswith("HEAD.json"):
+    if not p.endswith((".json", ".jsonl")) or p.endswith("HEAD.json"):
         continue
     try:
-        frame = json.loads((ROOT / p).read_text())
-        payload = frame.get("payload", {})
+        text = (ROOT / p).read_text()
+        frames = ([json.loads(l) for l in text.splitlines() if l.strip()]
+                  if p.endswith(".jsonl") else [json.loads(text)])
     except Exception:
         continue
-    if "tick_frame" in payload:
-        tickf = ROOT / "ticks" / f"{payload.get('tick')}.json"
-        if not tickf.exists():
-            # older ticks live in sealed bundles; resolve through the chain reader
-            sys.path.insert(0, str(ROOT / "tools"))
-            import chainio
-            ticks = chainio.load_chain(ROOT / "ticks")
-            anchor = ticks[payload["tick"]] if 0 <= payload.get("tick", -1) < len(ticks) else None
-        else:
-            anchor = json.loads(tickf.read_text())
-        if anchor is None or anchor["frame_hash"] != payload["tick_frame"]:
-            print(f"GATE FAIL: {p} claims tick {payload.get('tick')} with hash "
+    for frame in frames:
+        payload = frame.get("payload") if isinstance(frame, dict) else None
+        if not isinstance(payload, dict) or "tick_frame" not in payload:
+            continue
+        if spine is None:
+            spine = [t["frame_hash"] for t in chainio.load_chain(ROOT / "ticks")]
+        tick = payload.get("tick")
+        if not (isinstance(tick, int) and not isinstance(tick, bool)
+                and 0 <= tick < len(spine) and spine[tick] == payload["tick_frame"]):
+            print(f"GATE FAIL: {p} claims tick {tick!r} with hash "
                   f"{str(payload.get('tick_frame'))[:16]}… but the spine disagrees")
             sys.exit(1)
         checked += 1
