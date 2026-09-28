@@ -141,6 +141,10 @@ ride as BOOK chants. The node owns that judgment; the spine folds it into the ki
 (`tools/register.py`, `--sync`). A dogg that has not said what matters most about itself
 cannot be summoned offline — only found.
 
+The registrar appends each new field name only once, in first-seen order. Repeated
+declarations leave existing field metadata and indices unchanged and do not consume
+extra slots in the twelve-field table.
+
 ```json
 { "schema": "dogg/0-mission", "dimension": "water:@kody-w/dogg-water",
   "fields": [ {"name": "gauge_height_ft", "path": "water.gauge_height_ft", "unit": "ft"} ],
