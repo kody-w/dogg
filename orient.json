@@ -1,6 +1,6 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-28T19:12:51.912Z",
+  "generated_utc": "2026-09-28T19:13:51.910Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
@@ -20,8 +20,8 @@
     },
     "registry": {
       "state": "current",
-      "records": 23,
-      "dimensions": 22
+      "records": 24,
+      "dimensions": 23
     }
   },
   "sources": {
@@ -34,8 +34,8 @@
       "head_frame": "9cb897e3f95d33c6fda6063c3c776ef830c0f32bdc53e7311b7c68fe5f112d71"
     },
     "registry": {
-      "count": 23,
-      "head_frame": "92244a5af495c4d8b5e79f2e0da77b3d39468dfc45f7e4fb06ca973931048ee0"
+      "count": 24,
+      "head_frame": "4c94c3701438896a4ecd93cb56e70cb6288b90cbf1580fbf9ac72f8061a17796"
     }
   },
   "world": {
@@ -238,6 +238,12 @@
       "repo": "kody-w/AINexus",
       "path": "views/",
       "outlook": "what AI bodies see, per tick: each AI player's own first-person view inside the AINexus portal world, content-addressed (sha256) in one frame per spine tick; bytes on the rolling dogg-live feed, a verifying viewer at kody-w.github.io/AINexus/views.html"
+    },
+    {
+      "dimension": "kestrel:@kody-w/dogg-kestrel",
+      "repo": "kody-w/dogg-kestrel",
+      "path": "kestrel/",
+      "outlook": "one RAPP organism's life on the DOGG clock: each frame is one maintenance cycle Kestrel lived on kody-w/dogg, keyed to the spine tick it woke at, with its immune verdict and a hash commitment to its own RAPP/1 cycle frame"
     }
   ],
   "chants": {
@@ -252,5 +258,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "fdffd38d783bf2b25348459e1343f698ce3ed11c2f497ce18af64de844c2d9ba"
+  "input_fingerprint": "0e849ba100f2d95edb6d3a8702bc1e389436dfbbcf9c9dacb71d791deb577a74"
 }
