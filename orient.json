@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-28T10:40:57.016Z",
+  "generated_utc": "2026-09-28T10:51:36.377Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1610,
-    "frame_hash": "62711bd81db5ece6f2d4e2b541a8795db0411a16d150d651ead7c41e496d4bf8",
-    "utc": "2026-09-28T10:40:48.386Z"
+    "seq": 1611,
+    "frame_hash": "2836a0daaa200cd74c8859babdb2b4f24ad6a6360b50c7ce5ab7581cc4b48b45",
+    "utc": "2026-09-28T10:50:35.457Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1611,
-      "head_frame": "62711bd81db5ece6f2d4e2b541a8795db0411a16d150d651ead7c41e496d4bf8"
+      "count": 1612,
+      "head_frame": "2836a0daaa200cd74c8859babdb2b4f24ad6a6360b50c7ce5ab7581cc4b48b45"
     },
     "world": {
-      "count": 1515,
-      "head_frame": "fc87c67409330e71c280351d7b150c30fc05b5587c37ac87e176f9ba181e5045"
+      "count": 1516,
+      "head_frame": "8b2301a1c8eec351e3dea2f7b0a52d6abc71cd478b9aefcb18e14cd9e34841a2"
     },
     "registry": {
       "count": 23,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "fc87c67409330e71c280351d7b150c30fc05b5587c37ac87e176f9ba181e5045",
-    "seq": 1514,
-    "utc": "2026-09-28T10:40:53.256Z",
-    "tick": 1610,
-    "tick_frame": "62711bd81db5ece6f2d4e2b541a8795db0411a16d150d651ead7c41e496d4bf8",
+    "frame_hash": "8b2301a1c8eec351e3dea2f7b0a52d6abc71cd478b9aefcb18e14cd9e34841a2",
+    "seq": 1515,
+    "utc": "2026-09-28T10:50:51.476Z",
+    "tick": 1611,
+    "tick_frame": "2836a0daaa200cd74c8859babdb2b4f24ad6a6360b50c7ce5ab7581cc4b48b45",
     "data": {
       "btc_block_height": {
         "height": 968982
       },
       "btc_usd": {
-        "spot": "82905.235"
+        "spot": "82877.095"
       },
       "fx_usd": {
         "EUR": "0.8784",
@@ -58,30 +58,30 @@
         "CNY": "6.7195"
       },
       "crypto_market": {
-        "total_mcap_usd": "2829525515228",
-        "btc_dominance_pct": "58.7"
+        "total_mcap_usd": "2836622891994",
+        "btc_dominance_pct": "58.6"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 75125
+        "tx_count": 77637
       },
       "earthquakes_past_hour": {
-        "count": 7,
-        "max_mag": "2.1"
+        "count": 11,
+        "max_mag": "2.9"
       },
       "iss": {
-        "lat": "-47.644",
-        "lon": "-138.662"
+        "lat": "-48.170",
+        "lon": "-82.505"
       },
       "space_weather": {
         "kp": "1.0",
         "at": "2026-09-28T06:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 164,
+        "gco2_kwh": 151,
         "index": "moderate"
       },
       "hn_top": {
@@ -95,12 +95,12 @@
             "yes_price": "0.655"
           },
           {
-            "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
-            "yes_price": "0.0015"
+            "question": "LoL: KT Rolster Challengers vs Galions (BO5) - World Star Challengers Invitational Playoffs",
+            "yes_price": "0.61"
           },
           {
-            "question": "LoL: KT Rolster Challengers vs Galions (BO5) - World Star Challengers Invitational Playoffs",
-            "yes_price": "0.495"
+            "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
+            "yes_price": "0.0015"
           }
         ]
       }
@@ -252,5 +252,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "527be5a858294aa1adaba3bb86ea695fe03efb54a99557b89c285cfc958016a8"
+  "input_fingerprint": "e4a154e63b8c598a8b7a0656a228f62cb327d083f10122f961aaba0881a8b148"
 }
