@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-28T09:36:12.279Z",
+  "generated_utc": "2026-09-28T09:47:46.100Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1604,
-    "frame_hash": "0d81c5a37c2254c38d5935d1431925c388470e7da236eda385d4a17734dcbe36",
-    "utc": "2026-09-28T09:35:56.764Z"
+    "seq": 1605,
+    "frame_hash": "6898606b1503b39573a17deb7857be2c22aa7e4c86a006d9e69cabcbe0fff51d",
+    "utc": "2026-09-28T09:47:25.481Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1605,
-      "head_frame": "0d81c5a37c2254c38d5935d1431925c388470e7da236eda385d4a17734dcbe36"
+      "count": 1606,
+      "head_frame": "6898606b1503b39573a17deb7857be2c22aa7e4c86a006d9e69cabcbe0fff51d"
     },
     "world": {
-      "count": 1509,
-      "head_frame": "c8261c0ab8e5d004e4453422b44b3766e37fbd6ab5658042698532d457fba6e1"
+      "count": 1510,
+      "head_frame": "854d28cdd574abd8fea53ad369c8645b427a6a335039d1fc8412c692fd2defa4"
     },
     "registry": {
       "count": 23,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "c8261c0ab8e5d004e4453422b44b3766e37fbd6ab5658042698532d457fba6e1",
-    "seq": 1508,
-    "utc": "2026-09-28T09:36:01.129Z",
-    "tick": 1604,
-    "tick_frame": "0d81c5a37c2254c38d5935d1431925c388470e7da236eda385d4a17734dcbe36",
+    "frame_hash": "854d28cdd574abd8fea53ad369c8645b427a6a335039d1fc8412c692fd2defa4",
+    "seq": 1509,
+    "utc": "2026-09-28T09:47:29.226Z",
+    "tick": 1605,
+    "tick_frame": "6898606b1503b39573a17deb7857be2c22aa7e4c86a006d9e69cabcbe0fff51d",
     "data": {
       "btc_block_height": {
         "height": 968975
       },
       "btc_usd": {
-        "spot": "82687.25"
+        "spot": "82636.465"
       },
       "fx_usd": {
         "EUR": "0.8784",
@@ -58,23 +58,23 @@
         "CNY": "6.7195"
       },
       "crypto_market": {
-        "total_mcap_usd": "2832700460493",
+        "total_mcap_usd": "2825197368284",
         "btc_dominance_pct": "58.7"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 75965
+        "tx_count": 80892
       },
       "earthquakes_past_hour": {
-        "count": 9,
+        "count": 7,
         "max_mag": "5.2"
       },
       "iss": {
-        "lat": "-1.067",
-        "lon": "-2.739"
+        "lat": "32.506",
+        "lon": "25.298"
       },
       "space_weather": {
         "kp": "1.0",
@@ -85,8 +85,8 @@
         "index": "moderate"
       },
       "hn_top": {
-        "id": 49874728,
-        "title": "Prompting Claude Opus 5.5"
+        "id": 49872723,
+        "title": "Owed a billion dollars in Nvidia stock"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -252,5 +252,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "adef637cc3bb1cdcbee455a673ffe445df7ceb68f6c7526127e534c2fc3dcfe4"
+  "input_fingerprint": "75db711b77677505bd3982fccfa3a6ef827486caae73979aeada5f1e6b20609f"
 }
