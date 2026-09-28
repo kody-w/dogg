@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-28T18:40:20.481Z",
+  "generated_utc": "2026-09-28T18:52:10.603Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1651,
-    "frame_hash": "9fd421283ec3e327110d8c2e9cba12c0197a53c2a0b9b32096ec4f2665d2a27f",
-    "utc": "2026-09-28T18:37:52.589Z"
+    "seq": 1652,
+    "frame_hash": "8e35a4f5bf32808ece075be711e23b18d3eb220946e9b85008eaef6bc56261be",
+    "utc": "2026-09-28T18:48:00.464Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1652,
-      "head_frame": "9fd421283ec3e327110d8c2e9cba12c0197a53c2a0b9b32096ec4f2665d2a27f"
+      "count": 1653,
+      "head_frame": "8e35a4f5bf32808ece075be711e23b18d3eb220946e9b85008eaef6bc56261be"
     },
     "world": {
-      "count": 1556,
-      "head_frame": "c64d32112784b932e31613637495fd9603f6550222fb79522aed54df9429f39a"
+      "count": 1557,
+      "head_frame": "006e1bd83f6fca80f084fee1e40b5c15164c1750f6a41f7f03ec67ea963ebce9"
     },
     "registry": {
       "count": 23,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "c64d32112784b932e31613637495fd9603f6550222fb79522aed54df9429f39a",
-    "seq": 1555,
-    "utc": "2026-09-28T18:38:08.620Z",
-    "tick": 1651,
-    "tick_frame": "9fd421283ec3e327110d8c2e9cba12c0197a53c2a0b9b32096ec4f2665d2a27f",
+    "frame_hash": "006e1bd83f6fca80f084fee1e40b5c15164c1750f6a41f7f03ec67ea963ebce9",
+    "seq": 1556,
+    "utc": "2026-09-28T18:48:44.323Z",
+    "tick": 1652,
+    "tick_frame": "8e35a4f5bf32808ece075be711e23b18d3eb220946e9b85008eaef6bc56261be",
     "data": {
       "btc_block_height": {
-        "height": 969032
+        "height": 969035
       },
       "btc_usd": {
-        "spot": "83856.635"
+        "spot": "83844.785"
       },
       "fx_usd": {
         "EUR": "0.8784",
@@ -58,30 +58,30 @@
         "CNY": "6.7195"
       },
       "crypto_market": {
-        "total_mcap_usd": "2881740159559",
+        "total_mcap_usd": "2884362533703",
         "btc_dominance_pct": "58.3"
       },
       "btc_fees": {
-        "fastest_sat_vb": 4,
-        "hour_sat_vb": 3
+        "fastest_sat_vb": 3,
+        "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 82079
+        "tx_count": 80046
       },
       "earthquakes_past_hour": {
         "count": 9,
-        "max_mag": "4.8"
+        "max_mag": "2.6"
       },
       "iss": {
-        "lat": "-43.409",
-        "lon": "172.201"
+        "lat": "-15.724",
+        "lon": "-155.149"
       },
       "space_weather": {
         "kp": "0.67",
         "at": "2026-09-28T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 227,
+        "gco2_kwh": 222,
         "index": "high"
       },
       "hn_top": {
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
+            "question": "Will France win on 2026-09-28?",
+            "yes_price": "0.415"
+          },
+          {
             "question": "Eagles vs. Bears",
             "yes_price": "0.645"
           },
           {
-            "question": "Will France win on 2026-09-28?",
-            "yes_price": "0.425"
-          },
-          {
-            "question": "Counter-Strike: NIP vs GamerLegion (BO5) - 1win Private Club #1 Playoffs",
-            "yes_price": "0.965"
+            "question": "Will Belgium win on 2026-09-28?",
+            "yes_price": "0.325"
           }
         ]
       }
@@ -252,5 +252,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "c5911d1041541b37fe9eaccf0ad1f9a26f7c4160ee520e6f6d28260733df07fc"
+  "input_fingerprint": "0ceabbc6fa38cec0368fbc794175700abf034dc06f4c7228cea1fef570b9f44b"
 }
