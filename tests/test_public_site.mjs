@@ -168,6 +168,24 @@ test("single genesis has one nonzero checked frame; empty/missing HEAD never pas
   await assert.rejects(loadSource(feed, options(fixture.files)), /HTTP 404/);
 });
 
+test("legacy HEAD epoch defaults apply only to omitted fields, not explicit nulls", async () => {
+  const fixture = await fixtureChain(feed.stream_id);
+  for (const omitted of [["epoch_size"], ["sealed_epochs"], ["epoch_size", "sealed_epochs"]]) {
+    const head = { ...fixture.head };
+    omitted.forEach(field => delete head[field]);
+    fixture.files.set("HEAD.json", JSON.stringify(head));
+    const observation = await loadSource(feed, options(fixture.files));
+    assert.equal(observation.latest.seq, 2);
+    assert.equal(observation.coverage.frames_checked, 2);
+  }
+  for (const field of ["epoch_size", "sealed_epochs"]) {
+    fixture.files.set("HEAD.json", JSON.stringify({ ...fixture.head, [field]: null }));
+    const calls = [];
+    await assert.rejects(loadSource(feed, options(fixture.files, calls)), /invalid epoch layout/);
+    assert.equal(calls.length, 1, "invalid HEAD must fail before requesting records");
+  }
+});
+
 test("invalid heads, hashes, streams, signatures, order and missing frames fail closed", async () => {
   const fixture = await fixtureChain(feed.stream_id);
   const originalHead = fixture.files.get("HEAD.json"), originalFrame = fixture.files.get("2.json");

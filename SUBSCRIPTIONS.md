@@ -194,6 +194,8 @@ non-swarm **safe-integer JSON profile**, not full frozen RAPP/1:
   payload/frame hashes and the HEAD's latest frame hash. It checks the immediate
   predecessor's hashes and the link into the latest record, or one valid genesis.
 * HEAD drives epoch/tail lookup; no directory-listing or flat-only assumption.
+  Omitted `epoch_size` and `sealed_epochs` default to 288 and 0 for legacy HEADs.
+  Present values must be integers in range; explicit `null` values are invalid.
   Fetched epochs must be complete, parseable, declared-length and correctly ordered,
   with native envelope shape checks for every contained record.
   Only the requested records' hashes are verified; parsing a container does not
