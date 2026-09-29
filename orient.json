@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-29T05:07:24.681Z",
+  "generated_utc": "2026-09-29T05:18:00.621Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1702,
-    "frame_hash": "f6f262f846b9ae95c9b0cec544233453900cea7980575e595a2714a4d7772463",
-    "utc": "2026-09-29T05:07:16.391Z"
+    "seq": 1703,
+    "frame_hash": "b96f21740799f39dcaf27ec2341fd10532e8b42aa1175e0f2aa6329fbfbdcc84",
+    "utc": "2026-09-29T05:17:43.847Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1703,
-      "head_frame": "f6f262f846b9ae95c9b0cec544233453900cea7980575e595a2714a4d7772463"
+      "count": 1704,
+      "head_frame": "b96f21740799f39dcaf27ec2341fd10532e8b42aa1175e0f2aa6329fbfbdcc84"
     },
     "world": {
-      "count": 1607,
-      "head_frame": "e093e97adb78c11a60ec84fe05a46d3396efe99164d772229093bc4ad9615c25"
+      "count": 1608,
+      "head_frame": "6ebf8ff37cf4b75eba245cbe81a6803b0d31ace9f878df266be03f910f04c019"
     },
     "registry": {
       "count": 24,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "e093e97adb78c11a60ec84fe05a46d3396efe99164d772229093bc4ad9615c25",
-    "seq": 1606,
-    "utc": "2026-09-29T05:07:19.546Z",
-    "tick": 1702,
-    "tick_frame": "f6f262f846b9ae95c9b0cec544233453900cea7980575e595a2714a4d7772463",
+    "frame_hash": "6ebf8ff37cf4b75eba245cbe81a6803b0d31ace9f878df266be03f910f04c019",
+    "seq": 1607,
+    "utc": "2026-09-29T05:17:48.262Z",
+    "tick": 1703,
+    "tick_frame": "b96f21740799f39dcaf27ec2341fd10532e8b42aa1175e0f2aa6329fbfbdcc84",
     "data": {
       "btc_block_height": {
-        "height": 969098
+        "height": 969101
       },
       "btc_usd": {
-        "spot": "83166.455"
+        "spot": "83191.525"
       },
       "fx_usd": {
         "EUR": "0.8792",
@@ -58,7 +58,7 @@
         "CNY": "6.7216"
       },
       "crypto_market": {
-        "total_mcap_usd": "2861207987231",
+        "total_mcap_usd": "2860981671140",
         "btc_dominance_pct": "58.4"
       },
       "btc_fees": {
@@ -66,22 +66,22 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 81753
+        "tx_count": 76715
       },
       "earthquakes_past_hour": {
         "count": 3,
-        "max_mag": "4.8"
+        "max_mag": "1.3"
       },
       "iss": {
-        "lat": "-28.170",
-        "lon": "-94.614"
+        "lat": "-50.069",
+        "lon": "-52.066"
       },
       "space_weather": {
         "kp": "2.0",
         "at": "2026-09-29T00:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 107,
+        "gco2_kwh": 116,
         "index": "moderate"
       },
       "hn_top": {
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Eagles vs. Bears: O/U 41.5",
-            "yes_price": "0.0005"
-          },
-          {
-            "question": "Spread: Bears (-3.5)",
-            "yes_price": "0.9995"
-          },
-          {
             "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
             "yes_price": "0.0015"
+          },
+          {
+            "question": "China Open, Qualification: Jiaqi Wang vs Zhuoxuan Bai",
+            "yes_price": "0.3495"
+          },
+          {
+            "question": "Will New York Red Bulls win the 2026 MLS Cup?",
+            "yes_price": "0.0025"
           }
         ]
       }
@@ -258,5 +258,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "89971cac43b0d7fda347f3a770ee03c3ac047ef4bdf35320034a3b62fce3c2e8"
+  "input_fingerprint": "ffe84e070c861555b49d37ed86ee6859debf0607e5746f5aee37debacde10f1a"
 }
