@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-29T13:18:53.984Z",
+  "generated_utc": "2026-09-29T13:29:05.417Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1750,
-    "frame_hash": "c33af571189ad94c5207f4d6bea89c1332302a981d69867da4d94b07ba4a6654",
-    "utc": "2026-09-29T13:18:50.644Z"
+    "seq": 1751,
+    "frame_hash": "d8f7ede99149806c5475958f03075453ca00678dd9eb1c7a04d7574309efb5c5",
+    "utc": "2026-09-29T13:29:01.776Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1751,
-      "head_frame": "c33af571189ad94c5207f4d6bea89c1332302a981d69867da4d94b07ba4a6654"
+      "count": 1752,
+      "head_frame": "d8f7ede99149806c5475958f03075453ca00678dd9eb1c7a04d7574309efb5c5"
     },
     "world": {
-      "count": 1655,
-      "head_frame": "47842aacf9fbc126281fbd0f7b1600d01a3544ebbd645f0afc07bac501ee335d"
+      "count": 1656,
+      "head_frame": "3bd02511494d1d4002da56e382a963008d85c1d379cfd9df393de08ecfa6d7dc"
     },
     "registry": {
       "count": 24,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "47842aacf9fbc126281fbd0f7b1600d01a3544ebbd645f0afc07bac501ee335d",
-    "seq": 1654,
-    "utc": "2026-09-29T13:18:53.129Z",
-    "tick": 1750,
-    "tick_frame": "c33af571189ad94c5207f4d6bea89c1332302a981d69867da4d94b07ba4a6654",
+    "frame_hash": "3bd02511494d1d4002da56e382a963008d85c1d379cfd9df393de08ecfa6d7dc",
+    "seq": 1655,
+    "utc": "2026-09-29T13:29:04.823Z",
+    "tick": 1751,
+    "tick_frame": "d8f7ede99149806c5475958f03075453ca00678dd9eb1c7a04d7574309efb5c5",
     "data": {
       "btc_block_height": {
-        "height": 969157
+        "height": 969160
       },
       "btc_usd": {
-        "spot": "84430.495"
+        "spot": "84346.075"
       },
       "fx_usd": {
         "EUR": "0.8792",
@@ -58,23 +58,23 @@
         "CNY": "6.7216"
       },
       "crypto_market": {
-        "total_mcap_usd": "2907348143618",
+        "total_mcap_usd": "2906763273612",
         "btc_dominance_pct": "58.3"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 81126
+        "tx_count": 77519
       },
       "earthquakes_past_hour": {
-        "count": 5,
+        "count": 6,
         "max_mag": "5.4"
       },
       "iss": {
-        "lat": "-29.626",
-        "lon": "-91.062"
+        "lat": "0.406",
+        "lon": "-66.733"
       },
       "space_weather": {
         "kp": "1.33",
@@ -85,18 +85,18 @@
         "index": "low"
       },
       "hn_top": {
-        "id": 49891295,
-        "title": "You Are No Longer Invited to Dinner"
+        "id": 49892245,
+        "title": "Delhi Cut Electricity Loss from 50 to 5 Percent"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Dota 2: 1win vs Natus Vincere - Game 1 Winner",
-            "yes_price": "0.005"
+            "yes_price": "0.0005"
           },
           {
             "question": "Hangzhou Open: Daniil Medvedev vs Andrey Rublev",
-            "yes_price": "0.9515"
+            "yes_price": "0.9995"
           },
           {
             "question": "Chengdu Open: Hubert Hurkacz vs Alejandro Davidovich Fokina",
@@ -258,5 +258,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "3079fab22e702c7149f78e3efbf67606c7ef76541664f4fd6cbeaa97b394fb94"
+  "input_fingerprint": "c52c1206bc38f41c227f99ff900e65def25d53796b062b66c8e07f0eae3eaacc"
 }
