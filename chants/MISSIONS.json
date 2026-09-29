@@ -407,6 +407,35 @@
         "immune_checks_passed",
         "mind_ai_credits"
       ]
+    },
+    "merlin:@kody-w/dogg-merlin": {
+      "fields": [
+        {
+          "name": "cycle",
+          "path": "cycle",
+          "unit": "count"
+        },
+        {
+          "name": "immune_checks_passed",
+          "path": "immune.passed",
+          "unit": "count"
+        },
+        {
+          "name": "mind_ai_credits",
+          "path": "mind.ai_credits",
+          "unit": "AI credits"
+        },
+        {
+          "name": "elapsed_seconds",
+          "path": "elapsed_seconds",
+          "unit": "s"
+        }
+      ],
+      "default": [
+        "cycle",
+        "immune_checks_passed",
+        "mind_ai_credits"
+      ]
     }
   }
 }
