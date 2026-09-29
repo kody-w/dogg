@@ -2,9 +2,11 @@
 """notarize.py — append a sha256 digest to the public notary stream (notary:@kody-w/global).
 
 A notary frame records a digest, a short public label and the spine tick it was notarized at. The frame names
-that tick by hash, so it cannot predate the tick. The notary head is then stamped with OpenTimestamps
-(anchors/ots/notary-<seq>.txt) and the nightly anchor upgrades that proof to a Bitcoin attestation, so every
-digest up to that head provably existed by the attesting block.
+that tick by hash, so it cannot predate the tick. Each notary frame is then stamped with OpenTimestamps on its own
+(anchors/ots/notary-<seq>.txt holds that frame's hash) and the nightly anchor upgrades the proof to a Bitcoin
+attestation, after which that digest provably existed by the attesting block. A rapp/1 frame commits to its
+predecessor's payload and nothing earlier, so a proof covers its own frame and, through `prev`, the one before it:
+never assume a later frame's proof covers an older digest.
 Only digests, never content: anyone reveals content later and verifies it by hashing.
 
   python3 tools/notarize.py <digest> "<label>"            # a maintainer, by hand
