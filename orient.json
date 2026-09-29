@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-29T13:08:42.134Z",
+  "generated_utc": "2026-09-29T13:18:53.984Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1749,
-    "frame_hash": "9c820f46fcbe395d7bd35a2d6c095c510c53320f1a2dde0d26ccee738f1cce1c",
-    "utc": "2026-09-29T13:08:38.829Z"
+    "seq": 1750,
+    "frame_hash": "c33af571189ad94c5207f4d6bea89c1332302a981d69867da4d94b07ba4a6654",
+    "utc": "2026-09-29T13:18:50.644Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1750,
-      "head_frame": "9c820f46fcbe395d7bd35a2d6c095c510c53320f1a2dde0d26ccee738f1cce1c"
+      "count": 1751,
+      "head_frame": "c33af571189ad94c5207f4d6bea89c1332302a981d69867da4d94b07ba4a6654"
     },
     "world": {
-      "count": 1654,
-      "head_frame": "84e13f46730ddff829b8b0ac0b1f42f33958b9a2e8b95b56e34f472fe0592013"
+      "count": 1655,
+      "head_frame": "47842aacf9fbc126281fbd0f7b1600d01a3544ebbd645f0afc07bac501ee335d"
     },
     "registry": {
       "count": 24,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "84e13f46730ddff829b8b0ac0b1f42f33958b9a2e8b95b56e34f472fe0592013",
-    "seq": 1653,
-    "utc": "2026-09-29T13:08:41.103Z",
-    "tick": 1749,
-    "tick_frame": "9c820f46fcbe395d7bd35a2d6c095c510c53320f1a2dde0d26ccee738f1cce1c",
+    "frame_hash": "47842aacf9fbc126281fbd0f7b1600d01a3544ebbd645f0afc07bac501ee335d",
+    "seq": 1654,
+    "utc": "2026-09-29T13:18:53.129Z",
+    "tick": 1750,
+    "tick_frame": "c33af571189ad94c5207f4d6bea89c1332302a981d69867da4d94b07ba4a6654",
     "data": {
       "btc_block_height": {
-        "height": 969156
+        "height": 969157
       },
       "btc_usd": {
-        "spot": "84334.235"
+        "spot": "84430.495"
       },
       "fx_usd": {
         "EUR": "0.8792",
@@ -58,30 +58,30 @@
         "CNY": "6.7216"
       },
       "crypto_market": {
-        "total_mcap_usd": "2899985618345",
-        "btc_dominance_pct": "58.2"
+        "total_mcap_usd": "2907348143618",
+        "btc_dominance_pct": "58.3"
       },
       "btc_fees": {
-        "fastest_sat_vb": 4,
+        "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 83126
+        "tx_count": 81126
       },
       "earthquakes_past_hour": {
-        "count": 4,
+        "count": 5,
         "max_mag": "5.4"
       },
       "iss": {
-        "lat": "-50.317",
-        "lon": "-133.474"
+        "lat": "-29.626",
+        "lon": "-91.062"
       },
       "space_weather": {
         "kp": "1.33",
         "at": "2026-09-29T09:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 67,
+        "gco2_kwh": 74,
         "index": "low"
       },
       "hn_top": {
@@ -92,15 +92,15 @@
         "top_by_volume": [
           {
             "question": "Dota 2: 1win vs Natus Vincere - Game 1 Winner",
-            "yes_price": "0.265"
-          },
-          {
-            "question": "Strait of Hormuz traffic returns to normal by September 30?",
-            "yes_price": "0.0005"
+            "yes_price": "0.005"
           },
           {
             "question": "Hangzhou Open: Daniil Medvedev vs Andrey Rublev",
-            "yes_price": "0.965"
+            "yes_price": "0.9515"
+          },
+          {
+            "question": "Chengdu Open: Hubert Hurkacz vs Alejandro Davidovich Fokina",
+            "yes_price": "0.0005"
           }
         ]
       }
@@ -258,5 +258,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "e7dd38881b0e822c844246c4025062950b7cfa91cb54b9117c752c46fbbc015f"
+  "input_fingerprint": "3079fab22e702c7149f78e3efbf67606c7ef76541664f4fd6cbeaa97b394fb94"
 }
