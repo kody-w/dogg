@@ -282,11 +282,13 @@ may evolve, versioned in this file.
   by digest alone. A digest submitted through the
   [notarize form](../../issues/new?template=notarize.yml) becomes a `notary.digest` frame
   keyed to the spine tick it was notarized at: a maintainer runs `tools/notarize.py`. The
-  frame names that tick by hash, so it cannot predate the tick. The notary head is then
-  stamped into Bitcoin (`ots stamp anchors/ots/notary-<seq>.txt`, the file holding the head
-  frame hash), and the nightly anchor upgrades every proof in `anchors/ots/` to a Bitcoin
-  attestation, so every digest up to that head provably existed by the attesting block.
-  Reveal content later and anyone verifies it by hashing.
+  frame names that tick by hash, so it cannot predate the tick. Each notary frame is then
+  stamped into Bitcoin on its own (`ots stamp anchors/ots/notary-<seq>.txt`, the file holding
+  that frame's hash), and the nightly anchor upgrades every proof in `anchors/ots/` to a
+  Bitcoin attestation, after which that digest provably existed by the attesting block. A
+  rapp/1 frame commits to its predecessor's payload and nothing earlier, so a proof covers its
+  own frame and, through `prev`, the one before it; a later frame's proof never covers an
+  older digest. Reveal content later and anyone verifies it by hashing.
 - **Chants** are self-contained here: the permanent 1024-word list is vendored at
   [`chants/WORDLIST.txt`](chants/WORDLIST.txt) — the mechanism depends on no other
   repository existing. (64-bit seeds: collision odds stay negligible below millions of
