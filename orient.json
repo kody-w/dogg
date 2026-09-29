@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-29T14:20:04.110Z",
+  "generated_utc": "2026-09-29T14:30:16.684Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1756,
-    "frame_hash": "21d6e1efebcfe2625d6ec773f6d56aa5d376a6d01a1f14195e6e3305888588df",
-    "utc": "2026-09-29T14:19:59.789Z"
+    "seq": 1757,
+    "frame_hash": "9153bb224181e00097caac7af6d299f83c8bcdf6af71bd3b3b6f4d4dd63a9833",
+    "utc": "2026-09-29T14:30:12.399Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1757,
-      "head_frame": "21d6e1efebcfe2625d6ec773f6d56aa5d376a6d01a1f14195e6e3305888588df"
+      "count": 1758,
+      "head_frame": "9153bb224181e00097caac7af6d299f83c8bcdf6af71bd3b3b6f4d4dd63a9833"
     },
     "world": {
-      "count": 1661,
-      "head_frame": "2cc01f16b42309ef1737535c2fe4835129e4faba9633cb0d0f918f8b5cf45f78"
+      "count": 1662,
+      "head_frame": "5e1c739eca50cb3182455969fac18ef876a04aaf0e4d8d044e4816f7a4b3194c"
     },
     "registry": {
       "count": 24,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "2cc01f16b42309ef1737535c2fe4835129e4faba9633cb0d0f918f8b5cf45f78",
-    "seq": 1660,
-    "utc": "2026-09-29T14:20:03.564Z",
-    "tick": 1756,
-    "tick_frame": "21d6e1efebcfe2625d6ec773f6d56aa5d376a6d01a1f14195e6e3305888588df",
+    "frame_hash": "5e1c739eca50cb3182455969fac18ef876a04aaf0e4d8d044e4816f7a4b3194c",
+    "seq": 1661,
+    "utc": "2026-09-29T14:30:15.595Z",
+    "tick": 1757,
+    "tick_frame": "9153bb224181e00097caac7af6d299f83c8bcdf6af71bd3b3b6f4d4dd63a9833",
     "data": {
       "btc_block_height": {
-        "height": 969163
+        "height": 969166
       },
       "btc_usd": {
-        "spot": "84005.465"
+        "spot": "83925.005"
       },
       "fx_usd": {
         "EUR": "0.8792",
@@ -58,23 +58,23 @@
         "CNY": "6.7216"
       },
       "crypto_market": {
-        "total_mcap_usd": "2890699026950",
+        "total_mcap_usd": "2890195916737",
         "btc_dominance_pct": "58.2"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 80809
+        "tx_count": 76074
       },
       "earthquakes_past_hour": {
-        "count": 8,
+        "count": 7,
         "max_mag": "2.1"
       },
       "iss": {
-        "lat": "-14.255",
-        "lon": "111.530"
+        "lat": "-41.688",
+        "lon": "141.921"
       },
       "space_weather": {
         "kp": "1.33",
@@ -86,21 +86,21 @@
       },
       "hn_top": {
         "id": 49892245,
-        "title": "Delhi Cut Electricity Loss from 50 to 5 Percent"
+        "title": "How Delhi Cut Electricity Loss from 50 to 5 Percent"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
+            "question": "Dota 2: 1win vs Natus Vincere - Game 2 Winner",
+            "yes_price": "0.285"
+          },
+          {
             "question": "Valorant: Karmine Corp vs NRG (BO3) - VCT Champions Group D",
-            "yes_price": "0.485"
+            "yes_price": "0.49"
           },
           {
             "question": "Strait of Hormuz traffic returns to normal by September 30?",
             "yes_price": "0.0005"
-          },
-          {
-            "question": "Dota 2: 1win vs Natus Vincere - Game 2 Winner",
-            "yes_price": "0.505"
           }
         ]
       }
@@ -258,5 +258,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "8e85cc220f806ea4abd9198d251fd115324a95d9f7ae48b8ea23566e37f26674"
+  "input_fingerprint": "1e37dd593c886bc5d309fb08100ce1e7dc312ffe481f76fa2dec022058ebe51f"
 }
