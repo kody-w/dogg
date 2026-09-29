@@ -49,6 +49,8 @@ class ContributionGate(unittest.TestCase):
         # another verified chain in the repo whose flat frames are not tick anchors
         self.decoy = write_chain(self.repo / "decoy", "decoy:@test/other", "decoy.note",
                                  [{"note": n} for n in range(2)])
+        # a file outside every chain, which no contribution may touch
+        (self.repo / "PROTOCOL.md").write_text("# the law of this test repo\n\nno moving it.\n")
         self.git("init", "-q")
         self.git("add", "-A")
         self.git("commit", "-q", "-m", "base")
@@ -61,14 +63,17 @@ class ContributionGate(unittest.TestCase):
     def spine(self, n):
         return n, self.ticks[n]["frame_hash"]
 
-    def contribute(self, refs, sealed=0):
+    def contribute(self, refs, sealed=0, moves=()):
         """Commit a witness-alpha/ chain whose frames claim the given (tick, tick_frame)
-        pairs on top of the base, then run the gate against the base as CI does."""
+        pairs, plus any (src, dst) `git mv` moves, on top of the base, then run the gate
+        against the base as CI does."""
         self.git("reset", "-q", "--hard", self.base)
         self.git("clean", "-qfd")
         write_chain(self.repo / "witness-alpha", "witness:@test/alpha", "witness.observation",
                     [{"witness": "alpha", "tick": t, "tick_frame": h} for t, h in refs],
                     sealed=sealed)
+        for src, dst in moves:
+            self.git("mv", src, dst)
         self.git("add", "-A")
         self.git("commit", "-q", "-m", "witness")
         return subprocess.run([sys.executable, str(self.repo / "tools" / "pr_gate.py"),
@@ -104,6 +109,16 @@ class ContributionGate(unittest.TestCase):
                 r = self.contribute([(tick, claimed)])
                 self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
                 self.assertIn("GATE FAIL: witness-alpha/0.json claims tick", r.stdout)
+
+    def test_moving_a_path_into_the_witness_dir_fails(self):
+        # git names a rename by its new path alone; the path it vacates must be gated too.
+        # Moving a chain's HEAD.json away would also drop that chain from verify_thread.
+        for src, dst in (("PROTOCOL.md", "witness-alpha/PROTOCOL.md"),
+                         ("decoy/HEAD.json", "witness-alpha/decoy-HEAD.json")):
+            with self.subTest(src=src):
+                r = self.contribute([self.spine(5)], moves=[(src, dst)])
+                self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
+                self.assertIn(f"GATE FAIL: '{src}' is outside a witness-*/ dimension", r.stdout)
 
 
 if __name__ == "__main__":
