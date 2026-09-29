@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-29T14:40:28.085Z",
+  "generated_utc": "2026-09-29T14:50:38.723Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1758,
-    "frame_hash": "590d526f4f3b06b8f0a4c8029c1639b49ac8c1e437b29c2dc45f083f0dcfa530",
-    "utc": "2026-09-29T14:40:24.523Z"
+    "seq": 1759,
+    "frame_hash": "559f63b1b9aa4d3c1a46a8c191332df337d3d095d1872d1e8e2591d4ba32b366",
+    "utc": "2026-09-29T14:50:33.939Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1759,
-      "head_frame": "590d526f4f3b06b8f0a4c8029c1639b49ac8c1e437b29c2dc45f083f0dcfa530"
+      "count": 1760,
+      "head_frame": "559f63b1b9aa4d3c1a46a8c191332df337d3d095d1872d1e8e2591d4ba32b366"
     },
     "world": {
-      "count": 1663,
-      "head_frame": "867382bc76821e6820f0d4e004e0bf220ae635cab02c16d034e0ab62f03bebbd"
+      "count": 1664,
+      "head_frame": "2aa42a6716f600078e6713a9324884d5a676aadfe2b1ca482f79bdaf3293639c"
     },
     "registry": {
       "count": 24,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "867382bc76821e6820f0d4e004e0bf220ae635cab02c16d034e0ab62f03bebbd",
-    "seq": 1662,
-    "utc": "2026-09-29T14:40:27.523Z",
-    "tick": 1758,
-    "tick_frame": "590d526f4f3b06b8f0a4c8029c1639b49ac8c1e437b29c2dc45f083f0dcfa530",
+    "frame_hash": "2aa42a6716f600078e6713a9324884d5a676aadfe2b1ca482f79bdaf3293639c",
+    "seq": 1663,
+    "utc": "2026-09-29T14:50:38.164Z",
+    "tick": 1759,
+    "tick_frame": "559f63b1b9aa4d3c1a46a8c191332df337d3d095d1872d1e8e2591d4ba32b366",
     "data": {
       "btc_block_height": {
-        "height": 969168
+        "height": 969170
       },
       "btc_usd": {
-        "spot": "83894.875"
+        "spot": "83748.065"
       },
       "fx_usd": {
         "EUR": "0.8792",
@@ -58,7 +58,7 @@
         "CNY": "6.7216"
       },
       "crypto_market": {
-        "total_mcap_usd": "2892408740791",
+        "total_mcap_usd": "2892818108899",
         "btc_dominance_pct": "58.2"
       },
       "btc_fees": {
@@ -66,33 +66,33 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 77758
+        "tx_count": 77004
       },
       "earthquakes_past_hour": {
-        "count": 6,
-        "max_mag": "2.0"
+        "count": 8,
+        "max_mag": "2.1"
       },
       "iss": {
-        "lat": "-51.219",
-        "lon": "-163.680"
+        "lat": "-32.796",
+        "lon": "-118.260"
       },
       "space_weather": {
         "kp": "1.33",
         "at": "2026-09-29T09:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 75,
+        "gco2_kwh": 84,
         "index": "low"
       },
       "hn_top": {
-        "id": 49892245,
-        "title": "How Delhi Cut Electricity Loss from 50 to 5 Percent"
+        "id": 49893876,
+        "title": "Claude partial outage"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Dota 2: 1win vs Natus Vincere - Game 2 Winner",
-            "yes_price": "0.095"
+            "yes_price": "0.04"
           },
           {
             "question": "Adana: Ksenia Efremova vs Martyna Kubka",
@@ -100,7 +100,7 @@
           },
           {
             "question": "Valorant: Karmine Corp vs NRG (BO3) - VCT Champions Group D",
-            "yes_price": "0.445"
+            "yes_price": "0.515"
           }
         ]
       }
@@ -258,5 +258,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "ad3ec26cf0ef9d57c45f6f0f7277b8ac8d5ee60e38e916fdb714f493eda97ace"
+  "input_fingerprint": "f74408cf1e062765fd4a228f8918c6894c02854c9a31d3ff9daf7156f3f1e806"
 }
