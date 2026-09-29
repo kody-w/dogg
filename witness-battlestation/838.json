@@ -1,0 +1,37 @@
+{
+  "spec": "rapp/1",
+  "kind": "witness.observation",
+  "stream_id": "witness:@kody-w/dogg-battlestation",
+  "seq": 838,
+  "utc": "2026-09-28T17:13:10.456Z",
+  "payload": {
+    "witness": "battlestation",
+    "tick": 96,
+    "tick_frame": "51be0f08fb14ab888939fd2b8d877d8de83b97bdce3aab18252ca237a858027d",
+    "observed_utc": "2026-09-28T17:13:10.456Z",
+    "observations": {
+      "btc_block_height": {
+        "height": 969025
+      },
+      "btc_usd": {
+        "spot": "83989.235"
+      },
+      "fx_usd": {
+        "EUR": "0.8784",
+        "GBP": "0.7556",
+        "JPY": "157.4894",
+        "CNY": "6.7195"
+      },
+      "earthquakes_past_hour": {
+        "count": 9,
+        "max_mag": "3.6"
+      }
+    },
+    "sources_failed": []
+  },
+  "payload_hash": "e376852a33352f063125ddbbda53bdece850d8bb2c8b8cc45e0d949d354402d6",
+  "prev": "a77b8593f40e0f465eca8b1204b504172dbbc59c9e6fe6587dd49ff06be7b984",
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "dd494d47c9d4b96696f8740b61e5516d4230ed92c06b08feae13c9024784202b"
+}
