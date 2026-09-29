@@ -2,8 +2,9 @@
 """The contribution gate: a branch may merge ONLY if it proves itself.
 
 Rules (fail closed):
-  1. Every changed path is inside exactly ONE witness-*/ directory — a contribution
-     touches its own stream and nothing else (no tools, no workflows, no other chains).
+  1. Every changed path, counting both sides of a rename, is inside exactly ONE
+     witness-*/ directory — a contribution touches its own stream and nothing else
+     (no tools, no workflows, no other chains).
   2. After the change, EVERY chain in the repo still verifies (tools/verify_thread.py).
   3. Every changed frame that claims a tick_frame — flat <seq>.json or inside a sealed
      epochs/<k>.jsonl bundle — names a real tick: its integer tick indexes the spine
@@ -15,8 +16,10 @@ import subprocess, sys, pathlib
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 base = sys.argv[1] if len(sys.argv) > 1 else "origin/main"
 
-r = subprocess.run(["git", "-C", str(ROOT), "diff", "--name-only", f"{base}...HEAD"],
-                   capture_output=True, text=True)
+# --no-renames: a detected rename is listed by its new path alone, which would let a
+# contribution move any file (or another chain's HEAD.json) into its own directory unseen.
+r = subprocess.run(["git", "-C", str(ROOT), "diff", "--no-renames", "--name-only",
+                    f"{base}...HEAD"], capture_output=True, text=True)
 paths = [p for p in r.stdout.splitlines() if p.strip()]
 if not paths:
     print("GATE: no changes vs base — nothing to merge")
