@@ -1,22 +1,20 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-30T14:49:34.719Z",
+  "generated_utc": "2026-09-30T15:00:05.519Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1883,
-    "frame_hash": "75d85fdbc32458f3eb2414ad5aa1a5ec32fb29f4affc38044b019971424265a9",
-    "utc": "2026-09-30T14:49:17.915Z"
+    "seq": 1884,
+    "frame_hash": "89ade85b0f7980f453b7ab7785a2bd94773a47a934721ba51c4967e935736df5",
+    "utc": "2026-09-30T14:59:57.466Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
     "world": {
-      "state": "partial",
+      "state": "current",
       "ticks_behind": 0,
-      "sources_failed": [
-        "iss"
-      ],
+      "sources_failed": [],
       "last_refresh": "ok",
       "retained_last_good": false
     },
@@ -28,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1884,
-      "head_frame": "75d85fdbc32458f3eb2414ad5aa1a5ec32fb29f4affc38044b019971424265a9"
+      "count": 1885,
+      "head_frame": "89ade85b0f7980f453b7ab7785a2bd94773a47a934721ba51c4967e935736df5"
     },
     "world": {
-      "count": 1788,
-      "head_frame": "c3b1d126253257b29de5aaa90a49cb6278e4d4863ca1ae3d6bff45e6e069e9a8"
+      "count": 1789,
+      "head_frame": "f7f6dd7e1832326a3b37f2f05eb7cec9dee0723955542d0b0a2f56593f76f4ab"
     },
     "registry": {
       "count": 25,
@@ -41,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "c3b1d126253257b29de5aaa90a49cb6278e4d4863ca1ae3d6bff45e6e069e9a8",
-    "seq": 1787,
-    "utc": "2026-09-30T14:49:28.506Z",
-    "tick": 1883,
-    "tick_frame": "75d85fdbc32458f3eb2414ad5aa1a5ec32fb29f4affc38044b019971424265a9",
+    "frame_hash": "f7f6dd7e1832326a3b37f2f05eb7cec9dee0723955542d0b0a2f56593f76f4ab",
+    "seq": 1788,
+    "utc": "2026-09-30T15:00:03.021Z",
+    "tick": 1884,
+    "tick_frame": "89ade85b0f7980f453b7ab7785a2bd94773a47a934721ba51c4967e935736df5",
     "data": {
       "btc_block_height": {
-        "height": 969309
+        "height": 969310
       },
       "btc_usd": {
-        "spot": "83677.895"
+        "spot": "83759.615"
       },
       "fx_usd": {
         "EUR": "0.8815",
@@ -60,19 +58,23 @@
         "CNY": "6.7179"
       },
       "crypto_market": {
-        "total_mcap_usd": "2868855068033",
-        "btc_dominance_pct": "58.3"
+        "total_mcap_usd": "2884790351565",
+        "btc_dominance_pct": "58.4"
       },
       "btc_fees": {
-        "fastest_sat_vb": 5,
+        "fastest_sat_vb": 4,
         "hour_sat_vb": 4
       },
       "btc_mempool": {
-        "tx_count": 97556
+        "tx_count": 96957
       },
       "earthquakes_past_hour": {
         "count": 5,
         "max_mag": "2.1"
+      },
+      "iss": {
+        "lat": "6.379",
+        "lon": "78.860"
       },
       "space_weather": {
         "kp": "1.33",
@@ -89,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Dota 2: BetBoom Team vs OG (BO3) - BLAST Slam Group C",
-            "yes_price": "0.9995"
-          },
-          {
             "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
             "yes_price": "0.655"
           },
           {
             "question": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
             "yes_price": "0.335"
+          },
+          {
+            "question": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+            "yes_price": "0.325"
           }
         ]
       }
@@ -262,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "d2227644146d6ceb512a5c9b9f37ec26da7b49257bc4bbf03839470fbf340a60"
+  "input_fingerprint": "d5ad63520e8f338b76b246bcad0f4e6f60baa136ab07fd290d9b3845b98ddfb5"
 }
