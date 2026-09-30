@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-30T15:42:51.861Z",
+  "generated_utc": "2026-09-30T15:53:36.161Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1888,
-    "frame_hash": "12ae5a17a9214102dbe78a53d3cd1e5649e3512b1712d67261e2aee75028b678",
-    "utc": "2026-09-30T15:42:47.526Z"
+    "seq": 1889,
+    "frame_hash": "72a93f5caf15bc187c31c74f13ee52162c9cf3ddce9e29a76b9c6338e55021ab",
+    "utc": "2026-09-30T15:53:06.979Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1889,
-      "head_frame": "12ae5a17a9214102dbe78a53d3cd1e5649e3512b1712d67261e2aee75028b678"
+      "count": 1890,
+      "head_frame": "72a93f5caf15bc187c31c74f13ee52162c9cf3ddce9e29a76b9c6338e55021ab"
     },
     "world": {
-      "count": 1793,
-      "head_frame": "aee3e890ad21be2799e11ed6052a07184bca5648eb29ee5b73a705069a1156c0"
+      "count": 1794,
+      "head_frame": "60aa01636bf51539a0d7b1a983cc6cf17d0ee32a137206e3bc570f6cd792f118"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "aee3e890ad21be2799e11ed6052a07184bca5648eb29ee5b73a705069a1156c0",
-    "seq": 1792,
-    "utc": "2026-09-30T15:42:49.957Z",
-    "tick": 1888,
-    "tick_frame": "12ae5a17a9214102dbe78a53d3cd1e5649e3512b1712d67261e2aee75028b678",
+    "frame_hash": "60aa01636bf51539a0d7b1a983cc6cf17d0ee32a137206e3bc570f6cd792f118",
+    "seq": 1793,
+    "utc": "2026-09-30T15:53:21.608Z",
+    "tick": 1889,
+    "tick_frame": "72a93f5caf15bc187c31c74f13ee52162c9cf3ddce9e29a76b9c6338e55021ab",
     "data": {
       "btc_block_height": {
         "height": 969313
       },
       "btc_usd": {
-        "spot": "84125.545"
+        "spot": "84179.925"
       },
       "fx_usd": {
         "EUR": "0.8815",
@@ -58,31 +58,31 @@
         "CNY": "6.7179"
       },
       "crypto_market": {
-        "total_mcap_usd": "2881622040112",
+        "total_mcap_usd": "2885869801133",
         "btc_dominance_pct": "58.4"
       },
       "btc_fees": {
-        "fastest_sat_vb": 4,
+        "fastest_sat_vb": 6,
         "hour_sat_vb": 4
       },
       "btc_mempool": {
-        "tx_count": 96531
+        "tx_count": 99153
       },
       "earthquakes_past_hour": {
-        "count": 5,
+        "count": 7,
         "max_mag": "2.7"
       },
       "iss": {
-        "lat": "-17.355",
-        "lon": "-121.218"
+        "lat": "14.462",
+        "lon": "-97.933"
       },
       "space_weather": {
         "kp": "1.0",
         "at": "2026-09-30T12:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 82,
-        "index": "low"
+        "gco2_kwh": 95,
+        "index": "moderate"
       },
       "hn_top": {
         "id": 49906637,
@@ -92,15 +92,15 @@
         "top_by_volume": [
           {
             "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-            "yes_price": "0.625"
+            "yes_price": "0.605"
           },
           {
             "question": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
             "yes_price": "0.375"
           },
           {
-            "question": "Dota 2: Team Nemesis vs Natus Vincere - Game 1 Winner",
-            "yes_price": "0.9995"
+            "question": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+            "yes_price": "0.325"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "16875f785ccdb3fad9cb7aaf4ff9cb407c22dd496f4331b0660956030d09bb79"
+  "input_fingerprint": "2114b105215b9b93a6635e4e1aaf424611ddfe9fdd9e182304058ff83b433289"
 }
