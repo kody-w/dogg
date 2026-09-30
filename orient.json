@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-30T00:38:36.702Z",
+  "generated_utc": "2026-09-30T01:03:50.535Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1813,
-    "frame_hash": "2b844e0d570f17e8d09013d516ef889844177f29b60e360c861a190dea18a8cd",
-    "utc": "2026-09-30T00:37:09.152Z"
+    "seq": 1814,
+    "frame_hash": "1c2a1be7160d37813f9d37a8ad215c355631dca870f12ddabffc62ef975457ac",
+    "utc": "2026-09-30T01:00:26.077Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1814,
-      "head_frame": "2b844e0d570f17e8d09013d516ef889844177f29b60e360c861a190dea18a8cd"
+      "count": 1815,
+      "head_frame": "1c2a1be7160d37813f9d37a8ad215c355631dca870f12ddabffc62ef975457ac"
     },
     "world": {
-      "count": 1718,
-      "head_frame": "67d86d9d3c083ca2e025f58674507c8c274c3332b0c2d34b25e9b96ada44758d"
+      "count": 1719,
+      "head_frame": "281551322643a985a0331b4230ea772a53e7db5c2cdf303e413c125dbca3125a"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "67d86d9d3c083ca2e025f58674507c8c274c3332b0c2d34b25e9b96ada44758d",
-    "seq": 1717,
-    "utc": "2026-09-30T00:37:25.352Z",
-    "tick": 1813,
-    "tick_frame": "2b844e0d570f17e8d09013d516ef889844177f29b60e360c861a190dea18a8cd",
+    "frame_hash": "281551322643a985a0331b4230ea772a53e7db5c2cdf303e413c125dbca3125a",
+    "seq": 1718,
+    "utc": "2026-09-30T01:00:50.559Z",
+    "tick": 1814,
+    "tick_frame": "1c2a1be7160d37813f9d37a8ad215c355631dca870f12ddabffc62ef975457ac",
     "data": {
       "btc_block_height": {
-        "height": 969231
+        "height": 969233
       },
       "btc_usd": {
-        "spot": "83478.195"
+        "spot": "83367.365"
       },
       "fx_usd": {
         "EUR": "0.8815",
@@ -58,30 +58,30 @@
         "CNY": "6.7179"
       },
       "crypto_market": {
-        "total_mcap_usd": "2871808596436",
-        "btc_dominance_pct": "58.4"
+        "total_mcap_usd": "2864580518731",
+        "btc_dominance_pct": "58.3"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 82576
+        "tx_count": 81577
       },
       "earthquakes_past_hour": {
-        "count": 12,
-        "max_mag": "2.5"
+        "count": 17,
+        "max_mag": "2.4"
       },
       "iss": {
-        "lat": "47.493",
-        "lon": "-177.678"
+        "lat": "15.182",
+        "lon": "-75.171"
       },
       "space_weather": {
         "kp": "1.33",
         "at": "2026-09-29T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 62,
+        "gco2_kwh": 63,
         "index": "low"
       },
       "hn_top": {
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Chicago White Sox vs. Houston Astros",
-            "yes_price": "0.9995"
-          },
-          {
             "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
             "yes_price": "0.555"
           },
           {
             "question": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
             "yes_price": "0.305"
+          },
+          {
+            "question": "Strait of Hormuz traffic returns to normal by September 30?",
+            "yes_price": "0.0005"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "9e9389ac964cf41659278416b90ff7096118e4dfab35d1427e4ae998c69225c8"
+  "input_fingerprint": "f65845f23244cfd8e59e27699dbd429f2d053160e4f0c7e2d9eb8049c193a67c"
 }
