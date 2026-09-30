@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-09-30T17:12:52.311Z",
+  "generated_utc": "2026-09-30T17:21:48.226Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1896,
-    "frame_hash": "9406bd9d59b877b783a46e80bc2e96444e13d9c06ca27e8c4f8e0e42fbaa8efd",
-    "utc": "2026-09-30T17:10:13.020Z"
+    "seq": 1897,
+    "frame_hash": "1ec64feed1021b837adad2aad76ed59bddc8b17e4570cd606009bb32718b07c4",
+    "utc": "2026-09-30T17:19:46.376Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1897,
-      "head_frame": "9406bd9d59b877b783a46e80bc2e96444e13d9c06ca27e8c4f8e0e42fbaa8efd"
+      "count": 1898,
+      "head_frame": "1ec64feed1021b837adad2aad76ed59bddc8b17e4570cd606009bb32718b07c4"
     },
     "world": {
-      "count": 1801,
-      "head_frame": "eb985328a8a17511ae244495a69b45eb81b8bfeaa0bc393abc43952968064126"
+      "count": 1802,
+      "head_frame": "1f28ee3bcaaad24011f15e95ff8e14e4e29250d0fe27dba378aa375ac32fe0ba"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "eb985328a8a17511ae244495a69b45eb81b8bfeaa0bc393abc43952968064126",
-    "seq": 1800,
-    "utc": "2026-09-30T17:10:27.193Z",
-    "tick": 1896,
-    "tick_frame": "9406bd9d59b877b783a46e80bc2e96444e13d9c06ca27e8c4f8e0e42fbaa8efd",
+    "frame_hash": "1f28ee3bcaaad24011f15e95ff8e14e4e29250d0fe27dba378aa375ac32fe0ba",
+    "seq": 1801,
+    "utc": "2026-09-30T17:19:58.712Z",
+    "tick": 1897,
+    "tick_frame": "1ec64feed1021b837adad2aad76ed59bddc8b17e4570cd606009bb32718b07c4",
     "data": {
       "btc_block_height": {
-        "height": 969322
+        "height": 969324
       },
       "btc_usd": {
-        "spot": "84274.605"
+        "spot": "84127.9"
       },
       "fx_usd": {
         "EUR": "0.8815",
@@ -58,38 +58,42 @@
         "CNY": "6.7179"
       },
       "crypto_market": {
-        "total_mcap_usd": "2894283169512",
+        "total_mcap_usd": "2888280540756",
         "btc_dominance_pct": "58.4"
       },
       "btc_fees": {
-        "fastest_sat_vb": 5,
-        "hour_sat_vb": 3
+        "fastest_sat_vb": 2,
+        "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 93889
+        "tx_count": 91354
       },
       "earthquakes_past_hour": {
         "count": 9,
         "max_mag": "2.4"
       },
       "iss": {
-        "lat": "-32.437",
-        "lon": "-159.250"
+        "lat": "-4.726",
+        "lon": "-135.386"
       },
       "space_weather": {
         "kp": "1.0",
         "at": "2026-09-30T12:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 132,
+        "gco2_kwh": 141,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 49906637,
-        "title": "You Said No MCP"
+        "id": 49909583,
+        "title": "A Brief History of the Bloomberg Terminal"
       },
       "prediction_markets": {
         "top_by_volume": [
+          {
+            "question": "Dota 2: Team Nemesis vs Natus Vincere (BO3) - BLAST Slam Group B",
+            "yes_price": "0.805"
+          },
           {
             "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
             "yes_price": "0.615"
@@ -97,10 +101,6 @@
           {
             "question": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
             "yes_price": "0.365"
-          },
-          {
-            "question": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-            "yes_price": "0.325"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "410c60ee7fea8c04de89254f382bdf00b8d2d35f18e88717c59d79a42b1d0b76"
+  "input_fingerprint": "150bd7a2062432bfa2e5a336bc81c254dcbf8a528131b0bc5563b7d99b0f8af5"
 }
