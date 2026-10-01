@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-01T11:18:36.494Z",
+  "generated_utc": "2026-10-01T11:30:38.867Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1973,
-    "frame_hash": "0d5ef72a466d0b3baf77707ea8afe8038bfe31b556c3751113c93f1c30380c8f",
-    "utc": "2026-10-01T11:18:17.643Z"
+    "seq": 1974,
+    "frame_hash": "cbd4d8c9ddec9deefa87c4297d80dff24921ae106605b6c7e3dd579e5889ed3a",
+    "utc": "2026-10-01T11:29:52.660Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1974,
-      "head_frame": "0d5ef72a466d0b3baf77707ea8afe8038bfe31b556c3751113c93f1c30380c8f"
+      "count": 1975,
+      "head_frame": "cbd4d8c9ddec9deefa87c4297d80dff24921ae106605b6c7e3dd579e5889ed3a"
     },
     "world": {
-      "count": 1878,
-      "head_frame": "e19adec43930327cc698bf0873d199cc892187819a0bb35940de44a3385f6797"
+      "count": 1879,
+      "head_frame": "228008404b46f392232581f0b99877b053b0a4ed2070a15ceed76a5330e5a098"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "e19adec43930327cc698bf0873d199cc892187819a0bb35940de44a3385f6797",
-    "seq": 1877,
-    "utc": "2026-10-01T11:18:22.458Z",
-    "tick": 1973,
-    "tick_frame": "0d5ef72a466d0b3baf77707ea8afe8038bfe31b556c3751113c93f1c30380c8f",
+    "frame_hash": "228008404b46f392232581f0b99877b053b0a4ed2070a15ceed76a5330e5a098",
+    "seq": 1878,
+    "utc": "2026-10-01T11:30:08.945Z",
+    "tick": 1974,
+    "tick_frame": "cbd4d8c9ddec9deefa87c4297d80dff24921ae106605b6c7e3dd579e5889ed3a",
     "data": {
       "btc_block_height": {
-        "height": 969440
+        "height": 969441
       },
       "btc_usd": {
-        "spot": "83800.005"
+        "spot": "83833.11"
       },
       "fx_usd": {
         "EUR": "0.8818",
@@ -58,23 +58,23 @@
         "CNY": "6.7169"
       },
       "crypto_market": {
-        "total_mcap_usd": "2858510138224",
+        "total_mcap_usd": "2854183855916",
         "btc_dominance_pct": "58.9"
       },
       "btc_fees": {
-        "fastest_sat_vb": 5,
+        "fastest_sat_vb": 4,
         "hour_sat_vb": 3
       },
       "btc_mempool": {
-        "tx_count": 89110
+        "tx_count": 87268
       },
       "earthquakes_past_hour": {
-        "count": 9,
-        "max_mag": "3.2"
+        "count": 13,
+        "max_mag": "2.2"
       },
       "iss": {
-        "lat": "-24.878",
-        "lon": "155.713"
+        "lat": "-50.181",
+        "lon": "-157.902"
       },
       "space_weather": {
         "kp": "0.67",
@@ -85,8 +85,8 @@
         "index": "moderate"
       },
       "hn_top": {
-        "id": 49906100,
-        "title": "OpenDLSS: A Vulkan Reimplementation of Nvidia's DLSS 5 Neural Rendering Network"
+        "id": 49920160,
+        "title": "StreetComplete on iOS is now in public beta"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -95,12 +95,12 @@
             "yes_price": "0.355"
           },
           {
-            "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-            "yes_price": "0.635"
+            "question": "Valorant: TYLOO vs Team Liquid (BO3) - VCT Champions Group C",
+            "yes_price": "0.035"
           },
           {
-            "question": "Valorant: TYLOO vs Team Liquid (BO3) - VCT Champions Group C",
-            "yes_price": "0.275"
+            "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+            "yes_price": "0.635"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "2d1d787af9e3427647a61748c1af1fd83f45a8ddeed9d547cd74f181a4d10457"
+  "input_fingerprint": "c401d1d471a21d7af527ce5a573535893d3af68f06de242a008207ce4f1b3577"
 }
