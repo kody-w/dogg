@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-01T05:09:19.121Z",
+  "generated_utc": "2026-10-01T05:24:29.080Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1945,
-    "frame_hash": "3f45da84ecb0d03a3474edfcb3cf3ecef668fcad16c71a13f8416701357a8aed",
-    "utc": "2026-10-01T05:09:14.661Z"
+    "seq": 1946,
+    "frame_hash": "ec1c8f4f4f478e8314bc244a0d14f3e432f473ca0e9b2fb4bbc71a6b21cf34be",
+    "utc": "2026-10-01T05:24:24.133Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1946,
-      "head_frame": "3f45da84ecb0d03a3474edfcb3cf3ecef668fcad16c71a13f8416701357a8aed"
+      "count": 1947,
+      "head_frame": "ec1c8f4f4f478e8314bc244a0d14f3e432f473ca0e9b2fb4bbc71a6b21cf34be"
     },
     "world": {
-      "count": 1850,
-      "head_frame": "fa9af04c32893c10f1c65ec8b770f5e6978616d41be8712cc547713300a5802e"
+      "count": 1851,
+      "head_frame": "9eefdaf0ee2b5df4f10e567baa2037a897eeb6722cb8c46cb0c3b880f4e1ec3c"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "fa9af04c32893c10f1c65ec8b770f5e6978616d41be8712cc547713300a5802e",
-    "seq": 1849,
-    "utc": "2026-10-01T05:09:18.517Z",
-    "tick": 1945,
-    "tick_frame": "3f45da84ecb0d03a3474edfcb3cf3ecef668fcad16c71a13f8416701357a8aed",
+    "frame_hash": "9eefdaf0ee2b5df4f10e567baa2037a897eeb6722cb8c46cb0c3b880f4e1ec3c",
+    "seq": 1850,
+    "utc": "2026-10-01T05:24:28.441Z",
+    "tick": 1946,
+    "tick_frame": "ec1c8f4f4f478e8314bc244a0d14f3e432f473ca0e9b2fb4bbc71a6b21cf34be",
     "data": {
       "btc_block_height": {
-        "height": 969395
+        "height": 969397
       },
       "btc_usd": {
-        "spot": "84113.545"
+        "spot": "84226.815"
       },
       "fx_usd": {
         "EUR": "0.8818",
@@ -58,30 +58,30 @@
         "CNY": "6.7169"
       },
       "crypto_market": {
-        "total_mcap_usd": "2883859860319",
+        "total_mcap_usd": "2895925654391",
         "btc_dominance_pct": "58.3"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 77585
+        "tx_count": 76707
       },
       "earthquakes_past_hour": {
-        "count": 4,
+        "count": 5,
         "max_mag": "1.7"
       },
       "iss": {
-        "lat": "-32.022",
-        "lon": "-102.413"
+        "lat": "-50.466",
+        "lon": "-28.302"
       },
       "space_weather": {
         "kp": "0.33",
         "at": "2026-10-01T00:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 190,
+        "gco2_kwh": 193,
         "index": "high"
       },
       "hn_top": {
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Chicago Cubs vs. San Diego Padres",
-            "yes_price": "0.0005"
-          },
-          {
             "question": "Japan Open Tennis Championships: Taylor Fritz vs Jaume Munar",
-            "yes_price": "0.12"
+            "yes_price": "0.0005"
           },
           {
             "question": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
             "yes_price": "0.335"
+          },
+          {
+            "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+            "yes_price": "0.655"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "b7162bd89c6d11ff191091fbbd6446e41bf9a08286cb8ee5ec6f829436b0bca1"
+  "input_fingerprint": "d4766bf0223d669df5234ed79d861be6924631f94573eb6e64a8c23f21ccbcfe"
 }
