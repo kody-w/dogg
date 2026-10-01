@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-01T08:42:25.532Z",
+  "generated_utc": "2026-10-01T08:57:34.245Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1959,
-    "frame_hash": "418b5fe9cc894f201f01f92a48567abf97c3b5b75c26ad8db1a019eb4fa417ae",
-    "utc": "2026-10-01T08:42:20.903Z"
+    "seq": 1960,
+    "frame_hash": "e1df65bb52242f65db5d25147d500f964101a43d260fb96cc0388bd9d3e65ddd",
+    "utc": "2026-10-01T08:57:29.531Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1960,
-      "head_frame": "418b5fe9cc894f201f01f92a48567abf97c3b5b75c26ad8db1a019eb4fa417ae"
+      "count": 1961,
+      "head_frame": "e1df65bb52242f65db5d25147d500f964101a43d260fb96cc0388bd9d3e65ddd"
     },
     "world": {
-      "count": 1864,
-      "head_frame": "3fc250db48d5368b08df57181e783fd9c98425a1be6956564f35f11541cf831e"
+      "count": 1865,
+      "head_frame": "5dc36f25684634d577cc6f991d5c257dc9aa7361800b5140f10382f41b4d8b18"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "3fc250db48d5368b08df57181e783fd9c98425a1be6956564f35f11541cf831e",
-    "seq": 1863,
-    "utc": "2026-10-01T08:42:24.920Z",
-    "tick": 1959,
-    "tick_frame": "418b5fe9cc894f201f01f92a48567abf97c3b5b75c26ad8db1a019eb4fa417ae",
+    "frame_hash": "5dc36f25684634d577cc6f991d5c257dc9aa7361800b5140f10382f41b4d8b18",
+    "seq": 1864,
+    "utc": "2026-10-01T08:57:33.643Z",
+    "tick": 1960,
+    "tick_frame": "e1df65bb52242f65db5d25147d500f964101a43d260fb96cc0388bd9d3e65ddd",
     "data": {
       "btc_block_height": {
-        "height": 969427
+        "height": 969432
       },
       "btc_usd": {
-        "spot": "83449.595"
+        "spot": "83506.405"
       },
       "fx_usd": {
         "EUR": "0.8818",
@@ -58,35 +58,35 @@
         "CNY": "6.7169"
       },
       "crypto_market": {
-        "total_mcap_usd": "2871261747770",
+        "total_mcap_usd": "2868858585170",
         "btc_dominance_pct": "58.3"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 75350
+        "tx_count": 73992
       },
       "earthquakes_past_hour": {
-        "count": 14,
+        "count": 13,
         "max_mag": "4.1"
       },
       "iss": {
-        "lat": "-24.798",
-        "lon": "-27.394"
+        "lat": "20.565",
+        "lon": "7.269"
       },
       "space_weather": {
         "kp": "0.33",
         "at": "2026-10-01T03:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 186,
+        "gco2_kwh": 175,
         "index": "high"
       },
       "hn_top": {
-        "id": 49913571,
-        "title": "Gemini 4 Argon"
+        "id": 49906100,
+        "title": "OpenDLSS: A Vulkan Reimplementation of Nvidia's DLSS 5 Neural Rendering Network"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "13e5b58892f2aeb700c8ff7610e388067eff1aa178ef6ff7d7e338abd098aac2"
+  "input_fingerprint": "5aca218bc87def4e6e5ed787db8479ad053fab9d2677cad08d83eb49c7545bbf"
 }
