@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-01T06:25:09.276Z",
+  "generated_utc": "2026-10-01T06:40:17.598Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 1950,
-    "frame_hash": "067252feea830584b0e7461613ed3abaebec49ebf4c203856bef5345998c1274",
-    "utc": "2026-10-01T06:25:02.145Z"
+    "seq": 1951,
+    "frame_hash": "5035fcea3f5b35e0e0dc39379518146cc01f83fc6904223ed21c36cae089ec34",
+    "utc": "2026-10-01T06:40:13.370Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 1951,
-      "head_frame": "067252feea830584b0e7461613ed3abaebec49ebf4c203856bef5345998c1274"
+      "count": 1952,
+      "head_frame": "5035fcea3f5b35e0e0dc39379518146cc01f83fc6904223ed21c36cae089ec34"
     },
     "world": {
-      "count": 1855,
-      "head_frame": "767bc3febf8426db8f6be9139fbf39a6a8b4784d7ea21e1cbaafb9638b6b9a6f"
+      "count": 1856,
+      "head_frame": "87b9dcb89a920a7c6fe9617da036e8d4c281b0b745d45b44a786f3eb4443c62b"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "767bc3febf8426db8f6be9139fbf39a6a8b4784d7ea21e1cbaafb9638b6b9a6f",
-    "seq": 1854,
-    "utc": "2026-10-01T06:25:08.653Z",
-    "tick": 1950,
-    "tick_frame": "067252feea830584b0e7461613ed3abaebec49ebf4c203856bef5345998c1274",
+    "frame_hash": "87b9dcb89a920a7c6fe9617da036e8d4c281b0b745d45b44a786f3eb4443c62b",
+    "seq": 1855,
+    "utc": "2026-10-01T06:40:16.992Z",
+    "tick": 1951,
+    "tick_frame": "5035fcea3f5b35e0e0dc39379518146cc01f83fc6904223ed21c36cae089ec34",
     "data": {
       "btc_block_height": {
-        "height": 969405
+        "height": 969406
       },
       "btc_usd": {
-        "spot": "84300.915"
+        "spot": "84096.055"
       },
       "fx_usd": {
         "EUR": "0.8818",
@@ -58,23 +58,23 @@
         "CNY": "6.7169"
       },
       "crypto_market": {
-        "total_mcap_usd": "2898394305190",
+        "total_mcap_usd": "2892659734314",
         "btc_dominance_pct": "58.3"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 75693
+        "tx_count": 79942
       },
       "earthquakes_past_hour": {
-        "count": 11,
-        "max_mag": "5.0"
+        "count": 10,
+        "max_mag": "2.0"
       },
       "iss": {
-        "lat": "18.654",
-        "lon": "-166.594"
+        "lat": "-26.737",
+        "lon": "-131.665"
       },
       "space_weather": {
         "kp": "0.33",
@@ -85,15 +85,11 @@
         "index": "high"
       },
       "hn_top": {
-        "id": 49918161,
-        "title": "Suits Are Better Tech Than Modern Clothes"
+        "id": 49913571,
+        "title": "Gemini 4 Argon"
       },
       "prediction_markets": {
         "top_by_volume": [
-          {
-            "question": "China Open: Qinwen Zheng vs Han Shi",
-            "yes_price": "0.9995"
-          },
           {
             "question": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
             "yes_price": "0.335"
@@ -101,6 +97,10 @@
           {
             "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
             "yes_price": "0.655"
+          },
+          {
+            "question": "China Open: Yulia Starodubtseva vs Alina Charaeva",
+            "yes_price": "0.0005"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "97007c85d4c41e2bd43abe5cfd27ac1855c3ac552c98cde3fe0ce455f7be9f0e"
+  "input_fingerprint": "f2c970e2918df361b8762e780e709df71bf1424e098a7844d34d841f3cbfb012"
 }
