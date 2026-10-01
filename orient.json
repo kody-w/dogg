@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-01T19:51:09.148Z",
+  "generated_utc": "2026-10-01T20:01:05.376Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2019,
-    "frame_hash": "94b1c30171c48b3cbbb4beb3afa1c3bccba7fc90e438d1200f156c39fc347693",
-    "utc": "2026-10-01T19:49:09.547Z"
+    "seq": 2020,
+    "frame_hash": "8e70227957e0061610a16771a6e6228384eb2c139163a78860ca533d745ecd75",
+    "utc": "2026-10-01T20:00:39.686Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2020,
-      "head_frame": "94b1c30171c48b3cbbb4beb3afa1c3bccba7fc90e438d1200f156c39fc347693"
+      "count": 2021,
+      "head_frame": "8e70227957e0061610a16771a6e6228384eb2c139163a78860ca533d745ecd75"
     },
     "world": {
-      "count": 1924,
-      "head_frame": "7fd4a924fe884a75ffb0c0336d04d99ee3875f907b6ce02398a144eebbfaa817"
+      "count": 1925,
+      "head_frame": "a28f824282114364397c45fa8990283de2e8894903d7bfeb26552d6ab664e149"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "7fd4a924fe884a75ffb0c0336d04d99ee3875f907b6ce02398a144eebbfaa817",
-    "seq": 1923,
-    "utc": "2026-10-01T19:49:29.540Z",
-    "tick": 2019,
-    "tick_frame": "94b1c30171c48b3cbbb4beb3afa1c3bccba7fc90e438d1200f156c39fc347693",
+    "frame_hash": "a28f824282114364397c45fa8990283de2e8894903d7bfeb26552d6ab664e149",
+    "seq": 1924,
+    "utc": "2026-10-01T20:00:45.485Z",
+    "tick": 2020,
+    "tick_frame": "8e70227957e0061610a16771a6e6228384eb2c139163a78860ca533d745ecd75",
     "data": {
       "btc_block_height": {
-        "height": 969486
+        "height": 969488
       },
       "btc_usd": {
-        "spot": "84548.765"
+        "spot": "84665.09"
       },
       "fx_usd": {
         "EUR": "0.8818",
@@ -58,23 +58,23 @@
         "CNY": "6.7169"
       },
       "crypto_market": {
-        "total_mcap_usd": "2889704460063",
-        "btc_dominance_pct": "58.7"
+        "total_mcap_usd": "2892235726929",
+        "btc_dominance_pct": "58.6"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 85001
+        "tx_count": 82915
       },
       "earthquakes_past_hour": {
-        "count": 7,
+        "count": 8,
         "max_mag": "2.6"
       },
       "iss": {
-        "lat": "24.780",
-        "lon": "-154.260"
+        "lat": "49.685",
+        "lon": "-110.345"
       },
       "space_weather": {
         "kp": "1.33",
@@ -85,22 +85,22 @@
         "index": "high"
       },
       "hn_top": {
-        "id": 49923692,
-        "title": "Clef: Open-source decision models, and new RL fine-tuning platform"
+        "id": 49926069,
+        "title": "Pi 1.0"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Will Portugal win on 2026-10-01?",
-            "yes_price": "0.715"
+            "yes_price": "0.725"
           },
           {
             "question": "Will Norway win on 2026-10-01?",
-            "yes_price": "0.495"
+            "yes_price": "0.085"
           },
           {
             "question": "Will Netherlands win on 2026-10-01?",
-            "yes_price": "0.065"
+            "yes_price": "0.055"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "7db6506dd4699474b6e6a3fe433acc6d307c8be7e62a2e0d8256b52db09e42db"
+  "input_fingerprint": "134872fc2bfd7afc7bccc8eff9782e252db5cb76c1de56efcdaf7200210a92b7"
 }
