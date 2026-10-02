@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-02T10:33:33.523Z",
+  "generated_utc": "2026-10-02T10:44:49.453Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2100,
-    "frame_hash": "37fc3691f10e8e6db3af12505e1ba9754f5d47e6c92f43fba3c3c8d07ac56765",
-    "utc": "2026-10-02T10:32:44.936Z"
+    "seq": 2101,
+    "frame_hash": "702d0d0d475778b919773fe1f54458cb826ac7d9c2cd03f7aba617551d7b9680",
+    "utc": "2026-10-02T10:43:24.888Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2101,
-      "head_frame": "37fc3691f10e8e6db3af12505e1ba9754f5d47e6c92f43fba3c3c8d07ac56765"
+      "count": 2102,
+      "head_frame": "702d0d0d475778b919773fe1f54458cb826ac7d9c2cd03f7aba617551d7b9680"
     },
     "world": {
-      "count": 2005,
-      "head_frame": "e54df625eabe65326b4bd7170e93f2eaae840373d5cd8e2571f67a3621bfb6e9"
+      "count": 2006,
+      "head_frame": "b70d15f660b674ef3df5eb913104d1403787f9c6ebc97c448c74d15a265bf984"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "e54df625eabe65326b4bd7170e93f2eaae840373d5cd8e2571f67a3621bfb6e9",
-    "seq": 2004,
-    "utc": "2026-10-02T10:33:08.484Z",
-    "tick": 2100,
-    "tick_frame": "37fc3691f10e8e6db3af12505e1ba9754f5d47e6c92f43fba3c3c8d07ac56765",
+    "frame_hash": "b70d15f660b674ef3df5eb913104d1403787f9c6ebc97c448c74d15a265bf984",
+    "seq": 2005,
+    "utc": "2026-10-02T10:43:31.804Z",
+    "tick": 2101,
+    "tick_frame": "702d0d0d475778b919773fe1f54458cb826ac7d9c2cd03f7aba617551d7b9680",
     "data": {
       "btc_block_height": {
-        "height": 969571
+        "height": 969577
       },
       "btc_usd": {
-        "spot": "86381.575"
+        "spot": "86453.985"
       },
       "fx_usd": {
         "EUR": "0.8873",
@@ -58,31 +58,31 @@
         "CNY": "6.7146"
       },
       "crypto_market": {
-        "total_mcap_usd": "2944954467060",
+        "total_mcap_usd": "2951096788447",
         "btc_dominance_pct": "58.8"
       },
       "btc_fees": {
-        "fastest_sat_vb": 5,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 83058
+        "tx_count": 72902
       },
       "earthquakes_past_hour": {
-        "count": 12,
+        "count": 11,
         "max_mag": "3.7"
       },
       "iss": {
-        "lat": "-27.482",
-        "lon": "164.049"
+        "lat": "-49.769",
+        "lon": "-154.244"
       },
       "space_weather": {
         "kp": "0.33",
         "at": "2026-10-02T06:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 90,
-        "index": "moderate"
+        "gco2_kwh": 82,
+        "index": "low"
       },
       "hn_top": {
         "id": 49926069,
@@ -92,11 +92,11 @@
         "top_by_volume": [
           {
             "question": "Valorant: Global Esports vs EDward Gaming (BO3) - VCT Champions Group B",
-            "yes_price": "0.97"
+            "yes_price": "0.9995"
           },
           {
             "question": "LoL: Solary vs T1 Academy (BO5) - World Star Challengers Invitational Playoffs",
-            "yes_price": "0.355"
+            "yes_price": "0.395"
           },
           {
             "question": "Will Renan Santos win the 2026 Brazilian presidential election?",
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "2830b6fef645ac5de5c8ef8b1b82e4bd333dd719773ce385e121e070f7bbce4f"
+  "input_fingerprint": "3d354c819b78b9c11179cd8a113dbcf6e8fc787485503d781681d5b570303269"
 }
