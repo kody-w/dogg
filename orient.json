@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-02T11:40:16.728Z",
+  "generated_utc": "2026-10-02T11:50:16.566Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2106,
-    "frame_hash": "a0427b7c9b4969eea0c6c3e8ac45d370b956a18ea2818f4f5c31a481096b8fd5",
-    "utc": "2026-10-02T11:38:14.392Z"
+    "seq": 2107,
+    "frame_hash": "e5d56d47ac25fb0d4c291a8ae81175a921b9237ec411e00a432544ed5b219744",
+    "utc": "2026-10-02T11:49:34.351Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2107,
-      "head_frame": "a0427b7c9b4969eea0c6c3e8ac45d370b956a18ea2818f4f5c31a481096b8fd5"
+      "count": 2108,
+      "head_frame": "e5d56d47ac25fb0d4c291a8ae81175a921b9237ec411e00a432544ed5b219744"
     },
     "world": {
-      "count": 2011,
-      "head_frame": "619f36d9d94240beec54ecc91da09c34a26f404361c209f1bb3f2c266edd844d"
+      "count": 2012,
+      "head_frame": "f488ff2e9aee991c503d5bdf1224e6c7c1b00b412978bfec69c4391d8a2e77b3"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "619f36d9d94240beec54ecc91da09c34a26f404361c209f1bb3f2c266edd844d",
-    "seq": 2010,
-    "utc": "2026-10-02T11:38:26.880Z",
-    "tick": 2106,
-    "tick_frame": "a0427b7c9b4969eea0c6c3e8ac45d370b956a18ea2818f4f5c31a481096b8fd5",
+    "frame_hash": "f488ff2e9aee991c503d5bdf1224e6c7c1b00b412978bfec69c4391d8a2e77b3",
+    "seq": 2011,
+    "utc": "2026-10-02T11:49:41.595Z",
+    "tick": 2107,
+    "tick_frame": "e5d56d47ac25fb0d4c291a8ae81175a921b9237ec411e00a432544ed5b219744",
     "data": {
       "btc_block_height": {
-        "height": 969582
+        "height": 969583
       },
       "btc_usd": {
-        "spot": "86524.375"
+        "spot": "86459.125"
       },
       "fx_usd": {
         "EUR": "0.8873",
@@ -58,30 +58,30 @@
         "CNY": "6.7146"
       },
       "crypto_market": {
-        "total_mcap_usd": "2951507459602",
+        "total_mcap_usd": "2947709024316",
         "btc_dominance_pct": "58.8"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 77925
+        "tx_count": 77380
       },
       "earthquakes_past_hour": {
-        "count": 10,
+        "count": 7,
         "max_mag": "5.0"
       },
       "iss": {
-        "lat": "48.087",
-        "lon": "61.988"
+        "lat": "21.390",
+        "lon": "102.456"
       },
       "space_weather": {
         "kp": "0.33",
         "at": "2026-10-02T06:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 69,
+        "gco2_kwh": 67,
         "index": "low"
       },
       "hn_top": {
@@ -92,15 +92,15 @@
         "top_by_volume": [
           {
             "question": "LoL: Solary vs T1 Academy (BO5) - World Star Challengers Invitational Playoffs",
-            "yes_price": "0.71"
-          },
-          {
-            "question": "Will Renan Santos win the 2026 Brazilian presidential election?",
-            "yes_price": "0.0015"
+            "yes_price": "0.425"
           },
           {
             "question": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
             "yes_price": "0.425"
+          },
+          {
+            "question": "Will Renan Santos win the 2026 Brazilian presidential election?",
+            "yes_price": "0.0015"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "45c3e16abeb618dad162238227fe07c8cb3008effb94f57b89c3b620a845f896"
+  "input_fingerprint": "705449efbfc47cb4f41bcd954a9ec83713adf058e273ee49bcf2f5c0b18a2d15"
 }
