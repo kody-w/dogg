@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-02T06:04:04.617Z",
+  "generated_utc": "2026-10-02T06:15:26.006Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2075,
-    "frame_hash": "d2e0115d889ecaef20d5cf909c289ebd0cfac30bf44fce11e3410aa3af176bee",
-    "utc": "2026-10-02T06:03:48.330Z"
+    "seq": 2076,
+    "frame_hash": "e923e27aca136fe1b411f39f42e6267524fc25b7c5dd763722aefc256d007e52",
+    "utc": "2026-10-02T06:14:43.526Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2076,
-      "head_frame": "d2e0115d889ecaef20d5cf909c289ebd0cfac30bf44fce11e3410aa3af176bee"
+      "count": 2077,
+      "head_frame": "e923e27aca136fe1b411f39f42e6267524fc25b7c5dd763722aefc256d007e52"
     },
     "world": {
-      "count": 1980,
-      "head_frame": "46badfc432d36da96ff802f9701c924edf23fdb2f7beb784fb0d9238b5b4d981"
+      "count": 1981,
+      "head_frame": "58292673ae7a1992e72875bc82ee7e522b163852bcfab85c24915ca38b3822c7"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "46badfc432d36da96ff802f9701c924edf23fdb2f7beb784fb0d9238b5b4d981",
-    "seq": 1979,
-    "utc": "2026-10-02T06:03:52.792Z",
-    "tick": 2075,
-    "tick_frame": "d2e0115d889ecaef20d5cf909c289ebd0cfac30bf44fce11e3410aa3af176bee",
+    "frame_hash": "58292673ae7a1992e72875bc82ee7e522b163852bcfab85c24915ca38b3822c7",
+    "seq": 1980,
+    "utc": "2026-10-02T06:15:00.204Z",
+    "tick": 2076,
+    "tick_frame": "e923e27aca136fe1b411f39f42e6267524fc25b7c5dd763722aefc256d007e52",
     "data": {
       "btc_block_height": {
-        "height": 969543
+        "height": 969546
       },
       "btc_usd": {
-        "spot": "86017.965"
+        "spot": "85908.465"
       },
       "fx_usd": {
         "EUR": "0.8873",
@@ -58,7 +58,7 @@
         "CNY": "6.7146"
       },
       "crypto_market": {
-        "total_mcap_usd": "2933490471075",
+        "total_mcap_usd": "2937693081409",
         "btc_dominance_pct": "58.8"
       },
       "btc_fees": {
@@ -66,23 +66,23 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 79559
+        "tx_count": 75437
       },
       "earthquakes_past_hour": {
-        "count": 1,
-        "max_mag": "1.9"
+        "count": 6,
+        "max_mag": "4.8"
       },
       "iss": {
-        "lat": "-48.647",
-        "lon": "-88.264"
+        "lat": "-45.045",
+        "lon": "-26.587"
       },
       "space_weather": {
         "kp": "1.0",
-        "at": "2026-10-02T00:00:00"
+        "at": "2026-10-02T03:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 167,
-        "index": "moderate"
+        "gco2_kwh": 175,
+        "index": "high"
       },
       "hn_top": {
         "id": 49926069,
@@ -95,12 +95,12 @@
             "yes_price": "0.745"
           },
           {
-            "question": "Will Renan Santos win the 2026 Brazilian presidential election?",
-            "yes_price": "0.0015"
+            "question": "Japan Open Tennis Championships: Valentin Vacherot vs Stefanos Tsitsipas",
+            "yes_price": "0.9995"
           },
           {
-            "question": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-            "yes_price": "0.245"
+            "question": "Will Renan Santos win the 2026 Brazilian presidential election?",
+            "yes_price": "0.0015"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "41f4b8c4188f962949f1783e1318b47aadfb422b01fc67153867fc155fa0805c"
+  "input_fingerprint": "5616a5b0dd18532e1a1ba11dd22cb3d84691871a9b02384d9fa3dcdd34aa5d81"
 }
