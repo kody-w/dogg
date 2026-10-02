@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-02T11:05:29.968Z",
+  "generated_utc": "2026-10-02T11:15:53.054Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2103,
-    "frame_hash": "8c694526fa165413e2ca1ff5395999d11dfd07681a8d98b0fe30127a213c88a6",
-    "utc": "2026-10-02T11:04:51.530Z"
+    "seq": 2104,
+    "frame_hash": "73feb8b7304cd3159eb49fc9999d95b6044325d1d0949cf797369ee9608f960a",
+    "utc": "2026-10-02T11:15:46.853Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2104,
-      "head_frame": "8c694526fa165413e2ca1ff5395999d11dfd07681a8d98b0fe30127a213c88a6"
+      "count": 2105,
+      "head_frame": "73feb8b7304cd3159eb49fc9999d95b6044325d1d0949cf797369ee9608f960a"
     },
     "world": {
-      "count": 2008,
-      "head_frame": "b654c621dea3ee0cc3251a440236f795e9933e2907673fef3642b62f15074a56"
+      "count": 2009,
+      "head_frame": "28c9e307f7898d7de179c4825e998d73d3aa4e1d2c68c57f0ca316920c39bbb2"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "b654c621dea3ee0cc3251a440236f795e9933e2907673fef3642b62f15074a56",
-    "seq": 2007,
-    "utc": "2026-10-02T11:04:55.147Z",
-    "tick": 2103,
-    "tick_frame": "8c694526fa165413e2ca1ff5395999d11dfd07681a8d98b0fe30127a213c88a6",
+    "frame_hash": "28c9e307f7898d7de179c4825e998d73d3aa4e1d2c68c57f0ca316920c39bbb2",
+    "seq": 2008,
+    "utc": "2026-10-02T11:15:49.499Z",
+    "tick": 2104,
+    "tick_frame": "73feb8b7304cd3159eb49fc9999d95b6044325d1d0949cf797369ee9608f960a",
     "data": {
       "btc_block_height": {
-        "height": 969578
+        "height": 969579
       },
       "btc_usd": {
-        "spot": "86346.305"
+        "spot": "86462.765"
       },
       "fx_usd": {
         "EUR": "0.8873",
@@ -58,30 +58,30 @@
         "CNY": "6.7146"
       },
       "crypto_market": {
-        "total_mcap_usd": "2944471745721",
+        "total_mcap_usd": "2952000622775",
         "btc_dominance_pct": "58.8"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 79962
+        "tx_count": 79613
       },
       "earthquakes_past_hour": {
-        "count": 11,
-        "max_mag": "2.3"
+        "count": 7,
+        "max_mag": "1.6"
       },
       "iss": {
-        "lat": "-16.401",
-        "lon": "-61.609"
+        "lat": "16.615",
+        "lon": "-37.398"
       },
       "space_weather": {
         "kp": "0.33",
         "at": "2026-10-02T06:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 82,
+        "gco2_kwh": 69,
         "index": "low"
       },
       "hn_top": {
@@ -92,15 +92,15 @@
         "top_by_volume": [
           {
             "question": "LoL: Solary vs T1 Academy (BO5) - World Star Challengers Invitational Playoffs",
-            "yes_price": "0.695"
+            "yes_price": "0.705"
+          },
+          {
+            "question": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
+            "yes_price": "0.435"
           },
           {
             "question": "Will Renan Santos win the 2026 Brazilian presidential election?",
             "yes_price": "0.0015"
-          },
-          {
-            "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-            "yes_price": "0.745"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "a236a3cc0d6d4b78b6dc5a1b690f703527de6fa89dfaa66b2fba17ea90c54123"
+  "input_fingerprint": "93fe0ba17ab96f5e752399465397c6efdf922b9bb0897fac850b29bdc806ae94"
 }
