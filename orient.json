@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-02T20:03:56.534Z",
+  "generated_utc": "2026-10-02T20:14:09.565Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2155,
-    "frame_hash": "81f278a265117eb37ba896de7904b2d795d77e935f03636ef9ab45403fb90424",
-    "utc": "2026-10-02T20:03:53.140Z"
+    "seq": 2156,
+    "frame_hash": "ee5c9fd0f0d51f854b95852eaf6922700a676b895d8fbbc1a6e2d3ff35193270",
+    "utc": "2026-10-02T20:14:05.881Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2156,
-      "head_frame": "81f278a265117eb37ba896de7904b2d795d77e935f03636ef9ab45403fb90424"
+      "count": 2157,
+      "head_frame": "ee5c9fd0f0d51f854b95852eaf6922700a676b895d8fbbc1a6e2d3ff35193270"
     },
     "world": {
-      "count": 2060,
-      "head_frame": "d004bcbdc738aa791fe1181c61da619e4de6f7a70944ede22f122fc1f85184b0"
+      "count": 2061,
+      "head_frame": "9f635b2f6a8618f9b32fd009a7ffe8925a1839abff31120b95590c59ba3e3ad6"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "d004bcbdc738aa791fe1181c61da619e4de6f7a70944ede22f122fc1f85184b0",
-    "seq": 2059,
-    "utc": "2026-10-02T20:03:55.207Z",
-    "tick": 2155,
-    "tick_frame": "81f278a265117eb37ba896de7904b2d795d77e935f03636ef9ab45403fb90424",
+    "frame_hash": "9f635b2f6a8618f9b32fd009a7ffe8925a1839abff31120b95590c59ba3e3ad6",
+    "seq": 2060,
+    "utc": "2026-10-02T20:14:08.129Z",
+    "tick": 2156,
+    "tick_frame": "ee5c9fd0f0d51f854b95852eaf6922700a676b895d8fbbc1a6e2d3ff35193270",
     "data": {
       "btc_block_height": {
-        "height": 969627
+        "height": 969628
       },
       "btc_usd": {
-        "spot": "84332.705"
+        "spot": "84352.205"
       },
       "fx_usd": {
         "EUR": "0.8873",
@@ -58,30 +58,30 @@
         "CNY": "6.7146"
       },
       "crypto_market": {
-        "total_mcap_usd": "2873918377361",
-        "btc_dominance_pct": "58.7"
+        "total_mcap_usd": "2881476085157",
+        "btc_dominance_pct": "58.8"
       },
       "btc_fees": {
-        "fastest_sat_vb": 6,
-        "hour_sat_vb": 4
+        "fastest_sat_vb": 5,
+        "hour_sat_vb": 3
       },
       "btc_mempool": {
-        "tx_count": 86058
+        "tx_count": 84112
       },
       "earthquakes_past_hour": {
-        "count": 5,
+        "count": 4,
         "max_mag": "2.0"
       },
       "iss": {
-        "lat": "-51.714",
-        "lon": "80.684"
+        "lat": "-38.993",
+        "lon": "132.628"
       },
       "space_weather": {
         "kp": "0.33",
         "at": "2026-10-02T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 132,
+        "gco2_kwh": 127,
         "index": "moderate"
       },
       "hn_top": {
@@ -92,15 +92,15 @@
         "top_by_volume": [
           {
             "question": "Will Belgium win on 2026-10-02?",
-            "yes_price": "0.755"
+            "yes_price": "0.955"
+          },
+          {
+            "question": "Dota 2: OG vs BetBoom Team (BO3) - BLAST Slam Group C",
+            "yes_price": "0.88"
           },
           {
             "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
             "yes_price": "0.815"
-          },
-          {
-            "question": "Dota 2: OG vs BetBoom Team (BO3) - BLAST Slam Group C",
-            "yes_price": "0.75"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "7fe7c73c559ca6509fc126654fae5f45d8dbbdaea1ab6417f2fab7f28c8007a6"
+  "input_fingerprint": "937798ae0b5f1e9b48dc03edc573f48c9dfcc1d027ffa774778196806ace11c9"
 }
