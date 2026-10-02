@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-02T18:32:06.722Z",
+  "generated_utc": "2026-10-02T18:42:17.975Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2146,
-    "frame_hash": "21eb998be1bfe8b91c9cd428f96f18fc7310396821abbf933be096709d307158",
-    "utc": "2026-10-02T18:32:01.931Z"
+    "seq": 2147,
+    "frame_hash": "5f69d8c7cdb1df67ac59c5e2e25a39cbbe87138321c85af09ead562a2cac0d7a",
+    "utc": "2026-10-02T18:42:13.968Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2147,
-      "head_frame": "21eb998be1bfe8b91c9cd428f96f18fc7310396821abbf933be096709d307158"
+      "count": 2148,
+      "head_frame": "5f69d8c7cdb1df67ac59c5e2e25a39cbbe87138321c85af09ead562a2cac0d7a"
     },
     "world": {
-      "count": 2051,
-      "head_frame": "755de7121bdc70e841e4ca6885cf148b8cd632c6979e3d35fa9ee3c114297783"
+      "count": 2052,
+      "head_frame": "338e1389b78d5c009051301d8707b080a4195ae8a959ef30fdb53315f6fb59c3"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "755de7121bdc70e841e4ca6885cf148b8cd632c6979e3d35fa9ee3c114297783",
-    "seq": 2050,
-    "utc": "2026-10-02T18:32:04.518Z",
-    "tick": 2146,
-    "tick_frame": "21eb998be1bfe8b91c9cd428f96f18fc7310396821abbf933be096709d307158",
+    "frame_hash": "338e1389b78d5c009051301d8707b080a4195ae8a959ef30fdb53315f6fb59c3",
+    "seq": 2051,
+    "utc": "2026-10-02T18:42:16.008Z",
+    "tick": 2147,
+    "tick_frame": "5f69d8c7cdb1df67ac59c5e2e25a39cbbe87138321c85af09ead562a2cac0d7a",
     "data": {
       "btc_block_height": {
         "height": 969621
       },
       "btc_usd": {
-        "spot": "84547.055"
+        "spot": "83986.53"
       },
       "fx_usd": {
         "EUR": "0.8873",
@@ -58,23 +58,23 @@
         "CNY": "6.7146"
       },
       "crypto_market": {
-        "total_mcap_usd": "2890261675154",
+        "total_mcap_usd": "2888973678175",
         "btc_dominance_pct": "58.7"
       },
       "btc_fees": {
-        "fastest_sat_vb": 5,
-        "hour_sat_vb": 3
+        "fastest_sat_vb": 6,
+        "hour_sat_vb": 4
       },
       "btc_mempool": {
-        "tx_count": 80977
+        "tx_count": 83644
       },
       "earthquakes_past_hour": {
-        "count": 5,
+        "count": 7,
         "max_mag": "3.5"
       },
       "iss": {
-        "lat": "-51.760",
-        "lon": "110.682"
+        "lat": "-36.460",
+        "lon": "159.999"
       },
       "space_weather": {
         "kp": "0.33",
@@ -85,8 +85,8 @@
         "index": "moderate"
       },
       "hn_top": {
-        "id": 49935751,
-        "title": "Dutch computer museums (2022)"
+        "id": 49927754,
+        "title": "Court agrees with EFF: Utah's VPN law demands a technical impossibility"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -95,12 +95,12 @@
             "yes_price": "0.665"
           },
           {
-            "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-            "yes_price": "0.815"
-          },
-          {
             "question": "Counter-Strike: Luminosity vs BIG (BO3) - Stake Ranked Episode 4 Playoffs",
             "yes_price": "0.9995"
+          },
+          {
+            "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+            "yes_price": "0.815"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "aa5d0c3dda9ae4d322bbaa7b492f55241fb991b271eb3d4bc3a02d07519e9b5c"
+  "input_fingerprint": "819eca9a1fad55f65f83a74d82d96eedff9e02f81cd4a78b273e45edbb74ce0e"
 }
