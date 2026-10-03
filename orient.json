@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-03T15:28:09.000Z",
+  "generated_utc": "2026-10-03T15:38:25.621Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2269,
-    "frame_hash": "400abb6182057d87fa072d6c8d6bb8bf621575b3acd018018784942a4646ddad",
-    "utc": "2026-10-03T15:28:02.872Z"
+    "seq": 2270,
+    "frame_hash": "33cad1754e63b8dbfee9cd4863b14ec511537e38416a2983fd00b7de248b4101",
+    "utc": "2026-10-03T15:38:19.751Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2270,
-      "head_frame": "400abb6182057d87fa072d6c8d6bb8bf621575b3acd018018784942a4646ddad"
+      "count": 2271,
+      "head_frame": "33cad1754e63b8dbfee9cd4863b14ec511537e38416a2983fd00b7de248b4101"
     },
     "world": {
-      "count": 2174,
-      "head_frame": "c04592a0318e5ffbe9e94882e2c85e373c1e3cf0ef367762fecc4734d1f6fa03"
+      "count": 2175,
+      "head_frame": "aec3d69ae61d86d138d40e884df66a2727dc5f2d5b3af451616a8f57341e221d"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "c04592a0318e5ffbe9e94882e2c85e373c1e3cf0ef367762fecc4734d1f6fa03",
-    "seq": 2173,
-    "utc": "2026-10-03T15:28:05.805Z",
-    "tick": 2269,
-    "tick_frame": "400abb6182057d87fa072d6c8d6bb8bf621575b3acd018018784942a4646ddad",
+    "frame_hash": "aec3d69ae61d86d138d40e884df66a2727dc5f2d5b3af451616a8f57341e221d",
+    "seq": 2174,
+    "utc": "2026-10-03T15:38:22.389Z",
+    "tick": 2270,
+    "tick_frame": "33cad1754e63b8dbfee9cd4863b14ec511537e38416a2983fd00b7de248b4101",
     "data": {
       "btc_block_height": {
         "height": 969740
       },
       "btc_usd": {
-        "spot": "84841.745"
+        "spot": "84792.515"
       },
       "fx_usd": {
         "EUR": "0.8888",
@@ -58,23 +58,23 @@
         "CNY": "6.7144"
       },
       "crypto_market": {
-        "total_mcap_usd": "2898300978305",
+        "total_mcap_usd": "2896701517831",
         "btc_dominance_pct": "58.7"
       },
       "btc_fees": {
-        "fastest_sat_vb": 4,
+        "fastest_sat_vb": 5,
         "hour_sat_vb": 4
       },
       "btc_mempool": {
-        "tx_count": 81696
+        "tx_count": 83729
       },
       "earthquakes_past_hour": {
         "count": 5,
-        "max_mag": "2.0"
+        "max_mag": "2.3"
       },
       "iss": {
-        "lat": "51.135",
-        "lon": "-18.689"
+        "lat": "32.056",
+        "lon": "26.827"
       },
       "space_weather": {
         "kp": "1.67",
@@ -86,7 +86,7 @@
       },
       "hn_top": {
         "id": 49943034,
-        "title": "Show HN: Germany's new sovereign AI model Kolibri"
+        "title": "Kolibri is an open-weight LLM from Aleph Alpha for German and English"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "71b682731e60983d0da854825853918bc23c14ae84d7adbb2dc4fd09f74b513c"
+  "input_fingerprint": "9404b49199500a4cba7760aa1b961cb7e6b52ff97d3e2eab879328722cafda92"
 }
