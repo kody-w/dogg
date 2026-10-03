@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-03T13:04:51.851Z",
+  "generated_utc": "2026-10-03T13:15:02.676Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2255,
-    "frame_hash": "139a35f73879ddead4c4857f1e41bc9ad6e3b76b71a762dd440a4ed6aff50ddb",
-    "utc": "2026-10-03T13:04:48.168Z"
+    "seq": 2256,
+    "frame_hash": "339e76b1e811ef2ea788071a4844e3d9037625d26c688ab8cc7dfe7e5ee4feb4",
+    "utc": "2026-10-03T13:14:58.739Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2256,
-      "head_frame": "139a35f73879ddead4c4857f1e41bc9ad6e3b76b71a762dd440a4ed6aff50ddb"
+      "count": 2257,
+      "head_frame": "339e76b1e811ef2ea788071a4844e3d9037625d26c688ab8cc7dfe7e5ee4feb4"
     },
     "world": {
-      "count": 2160,
-      "head_frame": "b4444ab0a72ae6119ecc0f1d87284a9cb533393a62d1a4331707d44ebad38ea1"
+      "count": 2161,
+      "head_frame": "04c8a2917ab459412f921e9f6fd39288d607d164f000577b95c8e352158e80b8"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "b4444ab0a72ae6119ecc0f1d87284a9cb533393a62d1a4331707d44ebad38ea1",
-    "seq": 2159,
-    "utc": "2026-10-03T13:04:50.307Z",
-    "tick": 2255,
-    "tick_frame": "139a35f73879ddead4c4857f1e41bc9ad6e3b76b71a762dd440a4ed6aff50ddb",
+    "frame_hash": "04c8a2917ab459412f921e9f6fd39288d607d164f000577b95c8e352158e80b8",
+    "seq": 2160,
+    "utc": "2026-10-03T13:15:00.989Z",
+    "tick": 2256,
+    "tick_frame": "339e76b1e811ef2ea788071a4844e3d9037625d26c688ab8cc7dfe7e5ee4feb4",
     "data": {
       "btc_block_height": {
         "height": 969730
       },
       "btc_usd": {
-        "spot": "84839.255"
+        "spot": "84845.325"
       },
       "fx_usd": {
         "EUR": "0.8888",
@@ -58,49 +58,49 @@
         "CNY": "6.7144"
       },
       "crypto_market": {
-        "total_mcap_usd": "2899321243322",
+        "total_mcap_usd": "2895566899749",
         "btc_dominance_pct": "58.7"
       },
       "btc_fees": {
-        "fastest_sat_vb": 4,
+        "fastest_sat_vb": 5,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 79012
+        "tx_count": 80525
       },
       "earthquakes_past_hour": {
         "count": 4,
-        "max_mag": "1.7"
+        "max_mag": "2.0"
       },
       "iss": {
-        "lat": "-51.228",
-        "lon": "173.962"
+        "lat": "-41.732",
+        "lon": "-131.808"
       },
       "space_weather": {
         "kp": "2.0",
         "at": "2026-10-03T09:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 88,
-        "index": "low"
+        "gco2_kwh": 91,
+        "index": "moderate"
       },
       "hn_top": {
-        "id": 49940394,
-        "title": "Newgrounds.com – A community of games, music, and art"
+        "id": 49943034,
+        "title": "Show HN: Germany's new sovereign AI model Kolibri"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Will Indiana enact a data center moratorium by December 31, 2027?",
-            "yes_price": "0.115"
+            "yes_price": "0.11"
+          },
+          {
+            "question": "LoL: HANJIN BRION vs JD Gaming (BO1) - Demacia Cup Global Invitational Group Stage",
+            "yes_price": "0.9995"
           },
           {
             "question": "LoL: Team Vitality vs BNK FEARX (BO1) - Demacia Cup Global Invitational Group Stage",
             "yes_price": "0.0005"
-          },
-          {
-            "question": "Will Anthropic announce bankruptcy by December 31, 2027?",
-            "yes_price": "0.105"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "c1817aa57e8e271adf3f44f558c06867c678e1fdf076100b290e198e25f47462"
+  "input_fingerprint": "9007b91bc72672de2d6d35561e55bd49fb16b0d2bf80737451448c2cc7016f12"
 }
