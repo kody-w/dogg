@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-03T03:14:50.741Z",
+  "generated_utc": "2026-10-03T03:24:59.787Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2197,
-    "frame_hash": "c3e938e91ea40163d1e43cb422994cd43c36b75916a8983d43a2910cb0823c3d",
-    "utc": "2026-10-03T03:14:47.005Z"
+    "seq": 2198,
+    "frame_hash": "b80d5135b633981989ca0e916a1d9b618c76634c10a65690760521f9cde36a2b",
+    "utc": "2026-10-03T03:24:56.558Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2198,
-      "head_frame": "c3e938e91ea40163d1e43cb422994cd43c36b75916a8983d43a2910cb0823c3d"
+      "count": 2199,
+      "head_frame": "b80d5135b633981989ca0e916a1d9b618c76634c10a65690760521f9cde36a2b"
     },
     "world": {
-      "count": 2102,
-      "head_frame": "c5f233d5235a7b3d7e3c0db6b3b8a32e0b6439e0e99f215fb49e6b9ccc4a6fe0"
+      "count": 2103,
+      "head_frame": "dcd5787704aab35d14ccbc9fca33725015d8faa0f10216ac1306ce8c75dac2ac"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "c5f233d5235a7b3d7e3c0db6b3b8a32e0b6439e0e99f215fb49e6b9ccc4a6fe0",
-    "seq": 2101,
-    "utc": "2026-10-03T03:14:49.312Z",
-    "tick": 2197,
-    "tick_frame": "c3e938e91ea40163d1e43cb422994cd43c36b75916a8983d43a2910cb0823c3d",
+    "frame_hash": "dcd5787704aab35d14ccbc9fca33725015d8faa0f10216ac1306ce8c75dac2ac",
+    "seq": 2102,
+    "utc": "2026-10-03T03:24:58.507Z",
+    "tick": 2198,
+    "tick_frame": "b80d5135b633981989ca0e916a1d9b618c76634c10a65690760521f9cde36a2b",
     "data": {
       "btc_block_height": {
-        "height": 969664
+        "height": 969666
       },
       "btc_usd": {
-        "spot": "84521.785"
+        "spot": "84553.685"
       },
       "fx_usd": {
         "EUR": "0.8888",
@@ -58,7 +58,7 @@
         "CNY": "6.7144"
       },
       "crypto_market": {
-        "total_mcap_usd": "2890613634247",
+        "total_mcap_usd": "2887265448974",
         "btc_dominance_pct": "58.7"
       },
       "btc_fees": {
@@ -66,15 +66,15 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 74968
+        "tx_count": 74373
       },
       "earthquakes_past_hour": {
         "count": 5,
-        "max_mag": "1.9"
+        "max_mag": "5.0"
       },
       "iss": {
-        "lat": "32.607",
-        "lon": "-144.924"
+        "lat": "3.003",
+        "lon": "-119.630"
       },
       "space_weather": {
         "kp": "2.33",
@@ -85,22 +85,22 @@
         "index": "low"
       },
       "hn_top": {
-        "id": 49933869,
-        "title": "The Forgetful CPU (Linux on M4)"
+        "id": 49940394,
+        "title": "Newgrounds.com – A community of games, music, and art"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Dallas Wings vs. Golden State Valkyries",
-            "yes_price": "0.245"
-          },
-          {
-            "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-            "yes_price": "0.825"
+            "yes_price": "0.0005"
           },
           {
             "question": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
             "yes_price": "0.425"
+          },
+          {
+            "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+            "yes_price": "0.825"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "efe196135ecc0a9acafc88376d73ee0c0ad7f8c8f8fac181cd6a618491c49e59"
+  "input_fingerprint": "0b26df0092778267724dba4e990cd5cc890a28d7af4237431ca93ff1312ad222"
 }
