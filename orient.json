@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-03T12:13:58.432Z",
+  "generated_utc": "2026-10-03T12:24:09.004Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2250,
-    "frame_hash": "332307931973c329d31b8ae14ed92a805bbac56cbac8df2a51f4b06bef32cc22",
-    "utc": "2026-10-03T12:13:54.732Z"
+    "seq": 2251,
+    "frame_hash": "d5821bd1068b19564319bf55fd3b47ee4b1d971ddb25168d2f64ac8352ebc9d3",
+    "utc": "2026-10-03T12:24:05.282Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2251,
-      "head_frame": "332307931973c329d31b8ae14ed92a805bbac56cbac8df2a51f4b06bef32cc22"
+      "count": 2252,
+      "head_frame": "d5821bd1068b19564319bf55fd3b47ee4b1d971ddb25168d2f64ac8352ebc9d3"
     },
     "world": {
-      "count": 2155,
-      "head_frame": "6ae03c8833c3f34725a4388232b0e18b4d0181becfdb3ee42cfcf4c35c4b0d30"
+      "count": 2156,
+      "head_frame": "e0b4d46cfa5bd6b9a04e23f0e339f8bad7840aa9fac8e75b833c57258e7380fd"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "6ae03c8833c3f34725a4388232b0e18b4d0181becfdb3ee42cfcf4c35c4b0d30",
-    "seq": 2154,
-    "utc": "2026-10-03T12:13:56.790Z",
-    "tick": 2250,
-    "tick_frame": "332307931973c329d31b8ae14ed92a805bbac56cbac8df2a51f4b06bef32cc22",
+    "frame_hash": "e0b4d46cfa5bd6b9a04e23f0e339f8bad7840aa9fac8e75b833c57258e7380fd",
+    "seq": 2155,
+    "utc": "2026-10-03T12:24:07.260Z",
+    "tick": 2251,
+    "tick_frame": "d5821bd1068b19564319bf55fd3b47ee4b1d971ddb25168d2f64ac8352ebc9d3",
     "data": {
       "btc_block_height": {
-        "height": 969728
+        "height": 969729
       },
       "btc_usd": {
-        "spot": "84678.715"
+        "spot": "84857.275"
       },
       "fx_usd": {
         "EUR": "0.8888",
@@ -58,7 +58,7 @@
         "CNY": "6.7144"
       },
       "crypto_market": {
-        "total_mcap_usd": "2895655839132",
+        "total_mcap_usd": "2895643036993",
         "btc_dominance_pct": "58.7"
       },
       "btc_fees": {
@@ -66,15 +66,15 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 75207
+        "tx_count": 74896
       },
       "earthquakes_past_hour": {
-        "count": 7,
-        "max_mag": "2.1"
+        "count": 6,
+        "max_mag": "1.3"
       },
       "iss": {
-        "lat": "45.668",
-        "lon": "-17.990"
+        "lat": "49.403",
+        "lon": "39.001"
       },
       "space_weather": {
         "kp": "2.0",
@@ -85,22 +85,22 @@
         "index": "low"
       },
       "hn_top": {
-        "id": 49942818,
-        "title": "GitHub's new dashboard experience now the default"
+        "id": 49940394,
+        "title": "Newgrounds.com – A community of games, music, and art"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Counter-Strike: Legacy vs PARIVISION (BO3) - ESL Pro League Group Stage",
-            "yes_price": "0.0005"
-          },
-          {
             "question": "Will Indiana enact a data center moratorium by December 31, 2027?",
-            "yes_price": "0.125"
+            "yes_price": "0.115"
           },
           {
             "question": "LoL: Team Vitality vs BNK FEARX (BO1) - Demacia Cup Global Invitational Group Stage",
             "yes_price": "0.0005"
+          },
+          {
+            "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+            "yes_price": "0.825"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "4d1cd7c91ab621d0697d493f1a0dbf49717b8e3ffac9a3fce58c8985386ae25b"
+  "input_fingerprint": "1aeb1c0a6a69d455032c269127c3754c2b64d7102a2b6fbfb11c4d790e226292"
 }
