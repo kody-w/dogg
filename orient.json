@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-03T15:38:25.621Z",
+  "generated_utc": "2026-10-03T15:48:41.809Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2270,
-    "frame_hash": "33cad1754e63b8dbfee9cd4863b14ec511537e38416a2983fd00b7de248b4101",
-    "utc": "2026-10-03T15:38:19.751Z"
+    "seq": 2271,
+    "frame_hash": "c895b743f63e3cc8073d380d074cef9728c0866abe4c4f8e06d753dc1a8a357d",
+    "utc": "2026-10-03T15:48:35.688Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2271,
-      "head_frame": "33cad1754e63b8dbfee9cd4863b14ec511537e38416a2983fd00b7de248b4101"
+      "count": 2272,
+      "head_frame": "c895b743f63e3cc8073d380d074cef9728c0866abe4c4f8e06d753dc1a8a357d"
     },
     "world": {
-      "count": 2175,
-      "head_frame": "aec3d69ae61d86d138d40e884df66a2727dc5f2d5b3af451616a8f57341e221d"
+      "count": 2176,
+      "head_frame": "f7e1826034e2c86f3703fd6ad5f6b8a3e7505fff81f6735c80e70a770ef47f7a"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "aec3d69ae61d86d138d40e884df66a2727dc5f2d5b3af451616a8f57341e221d",
-    "seq": 2174,
-    "utc": "2026-10-03T15:38:22.389Z",
-    "tick": 2270,
-    "tick_frame": "33cad1754e63b8dbfee9cd4863b14ec511537e38416a2983fd00b7de248b4101",
+    "frame_hash": "f7e1826034e2c86f3703fd6ad5f6b8a3e7505fff81f6735c80e70a770ef47f7a",
+    "seq": 2175,
+    "utc": "2026-10-03T15:48:38.269Z",
+    "tick": 2271,
+    "tick_frame": "c895b743f63e3cc8073d380d074cef9728c0866abe4c4f8e06d753dc1a8a357d",
     "data": {
       "btc_block_height": {
-        "height": 969740
+        "height": 969741
       },
       "btc_usd": {
-        "spot": "84792.515"
+        "spot": "84841.955"
       },
       "fx_usd": {
         "EUR": "0.8888",
@@ -58,31 +58,31 @@
         "CNY": "6.7144"
       },
       "crypto_market": {
-        "total_mcap_usd": "2896701517831",
+        "total_mcap_usd": "2898845366845",
         "btc_dominance_pct": "58.7"
       },
       "btc_fees": {
-        "fastest_sat_vb": 5,
+        "fastest_sat_vb": 4,
         "hour_sat_vb": 4
       },
       "btc_mempool": {
-        "tx_count": 83729
+        "tx_count": 81978
       },
       "earthquakes_past_hour": {
         "count": 5,
         "max_mag": "2.3"
       },
       "iss": {
-        "lat": "32.056",
-        "lon": "26.827"
+        "lat": "2.011",
+        "lon": "52.174"
       },
       "space_weather": {
         "kp": "1.67",
         "at": "2026-10-03T12:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 155,
-        "index": "moderate"
+        "gco2_kwh": 178,
+        "index": "high"
       },
       "hn_top": {
         "id": 49943034,
@@ -92,14 +92,14 @@
         "top_by_volume": [
           {
             "question": "Will Indiana enact a data center moratorium by December 31, 2027?",
-            "yes_price": "0.125"
+            "yes_price": "0.115"
           },
           {
-            "question": "LoL: HANJIN BRION vs JD Gaming (BO1) - Demacia Cup Global Invitational Group Stage",
-            "yes_price": "0.9995"
+            "question": "Will Anthropic announce bankruptcy by December 31, 2027?",
+            "yes_price": "0.105"
           },
           {
-            "question": "Counter-Strike: Spirit vs ShindeN (BO3) - ESL Pro League Group Stage",
+            "question": "Dota 2: LGD Gaming vs GamerLegion - Game 2 Winner",
             "yes_price": "0.9995"
           }
         ]
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "9404b49199500a4cba7760aa1b961cb7e6b52ff97d3e2eab879328722cafda92"
+  "input_fingerprint": "114ea4e8cc402b7837261ed1c9a3f53d576c476334fa260051654a6b6b1e712c"
 }
