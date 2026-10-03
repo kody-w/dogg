@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-03T10:12:00.494Z",
+  "generated_utc": "2026-10-03T10:22:10.637Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2238,
-    "frame_hash": "75f1ee0192171b4964a24bcc1821a05e761d7ebc55fde087c25ca24b084bddbf",
-    "utc": "2026-10-03T10:11:56.843Z"
+    "seq": 2239,
+    "frame_hash": "4d458a8df61b29bbfc4234c9cc637db3edb9bcfb1db288f928cfc8a19f26d968",
+    "utc": "2026-10-03T10:22:06.893Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2239,
-      "head_frame": "75f1ee0192171b4964a24bcc1821a05e761d7ebc55fde087c25ca24b084bddbf"
+      "count": 2240,
+      "head_frame": "4d458a8df61b29bbfc4234c9cc637db3edb9bcfb1db288f928cfc8a19f26d968"
     },
     "world": {
-      "count": 2143,
-      "head_frame": "5773f31d16c40b47718091c9e3a42d8f3528a65a393f15a09eb725b6e874cf42"
+      "count": 2144,
+      "head_frame": "9fd017f36c9d65f15b5bd6aacab9d71aa328ac99521191e503dd1df33869fdb3"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "5773f31d16c40b47718091c9e3a42d8f3528a65a393f15a09eb725b6e874cf42",
-    "seq": 2142,
-    "utc": "2026-10-03T10:11:58.961Z",
-    "tick": 2238,
-    "tick_frame": "75f1ee0192171b4964a24bcc1821a05e761d7ebc55fde087c25ca24b084bddbf",
+    "frame_hash": "9fd017f36c9d65f15b5bd6aacab9d71aa328ac99521191e503dd1df33869fdb3",
+    "seq": 2143,
+    "utc": "2026-10-03T10:22:09.075Z",
+    "tick": 2239,
+    "tick_frame": "4d458a8df61b29bbfc4234c9cc637db3edb9bcfb1db288f928cfc8a19f26d968",
     "data": {
       "btc_block_height": {
         "height": 969715
       },
       "btc_usd": {
-        "spot": "84573.655"
+        "spot": "84552.005"
       },
       "fx_usd": {
         "EUR": "0.8888",
@@ -58,30 +58,30 @@
         "CNY": "6.7144"
       },
       "crypto_market": {
-        "total_mcap_usd": "2867820889830",
+        "total_mcap_usd": "2867794908551",
         "btc_dominance_pct": "59.2"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 76721
+        "tx_count": 79940
       },
       "earthquakes_past_hour": {
-        "count": 5,
-        "max_mag": "3.2"
+        "count": 8,
+        "max_mag": "4.2"
       },
       "iss": {
-        "lat": "-35.137",
-        "lon": "-74.337"
+        "lat": "-6.024",
+        "lon": "-48.040"
       },
       "space_weather": {
         "kp": "2.67",
         "at": "2026-10-03T06:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 101,
+        "gco2_kwh": 96,
         "index": "moderate"
       },
       "hn_top": {
@@ -96,7 +96,7 @@
           },
           {
             "question": "Counter-Strike: Legacy vs PARIVISION (BO3) - ESL Pro League Group Stage",
-            "yes_price": "0.635"
+            "yes_price": "0.505"
           },
           {
             "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "524bbc6062ce4f0959366c62c24c737159920dfaebe1b783351baf74020cb556"
+  "input_fingerprint": "fb4d6064164b3c8ddcb76a1dd71f2b2f74ad1aacf4e130d3948d16091ea22e69"
 }
