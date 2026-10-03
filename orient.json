@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-03T17:21:12.842Z",
+  "generated_utc": "2026-10-03T17:31:31.207Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2280,
-    "frame_hash": "90afc27873792b567525dc82be9e8410eda3b9379d1b5541e8073915fae82bdb",
-    "utc": "2026-10-03T17:21:06.211Z"
+    "seq": 2281,
+    "frame_hash": "ad9a5f6e8ef8d80abf126cb0cfa9eff36234cd58a756e2564797a7c46b2c09cc",
+    "utc": "2026-10-03T17:31:24.554Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2281,
-      "head_frame": "90afc27873792b567525dc82be9e8410eda3b9379d1b5541e8073915fae82bdb"
+      "count": 2282,
+      "head_frame": "ad9a5f6e8ef8d80abf126cb0cfa9eff36234cd58a756e2564797a7c46b2c09cc"
     },
     "world": {
-      "count": 2185,
-      "head_frame": "9867a5e9c03e1d94520822c412d85d527cd63d5e85b7a24696c503a0ae2f342c"
+      "count": 2186,
+      "head_frame": "52bd1b5929e1dc67d544ca85dcc9a0044d5acad72ddc213c94d295b083ef032a"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "9867a5e9c03e1d94520822c412d85d527cd63d5e85b7a24696c503a0ae2f342c",
-    "seq": 2184,
-    "utc": "2026-10-03T17:21:08.819Z",
-    "tick": 2280,
-    "tick_frame": "90afc27873792b567525dc82be9e8410eda3b9379d1b5541e8073915fae82bdb",
+    "frame_hash": "52bd1b5929e1dc67d544ca85dcc9a0044d5acad72ddc213c94d295b083ef032a",
+    "seq": 2185,
+    "utc": "2026-10-03T17:31:27.078Z",
+    "tick": 2281,
+    "tick_frame": "ad9a5f6e8ef8d80abf126cb0cfa9eff36234cd58a756e2564797a7c46b2c09cc",
     "data": {
       "btc_block_height": {
         "height": 969748
       },
       "btc_usd": {
-        "spot": "84909.995"
+        "spot": "84840.645"
       },
       "fx_usd": {
         "EUR": "0.8888",
@@ -58,23 +58,23 @@
         "CNY": "6.7144"
       },
       "crypto_market": {
-        "total_mcap_usd": "2902979665656",
+        "total_mcap_usd": "2902817521121",
         "btc_dominance_pct": "58.7"
       },
       "btc_fees": {
-        "fastest_sat_vb": 5,
-        "hour_sat_vb": 3
+        "fastest_sat_vb": 6,
+        "hour_sat_vb": 4
       },
       "btc_mempool": {
-        "tx_count": 80305
+        "tx_count": 82251
       },
       "earthquakes_past_hour": {
         "count": 3,
-        "max_mag": "1.7"
+        "max_mag": "2.8"
       },
       "iss": {
-        "lat": "3.289",
-        "lon": "27.659"
+        "lat": "-27.417",
+        "lon": "51.738"
       },
       "space_weather": {
         "kp": "1.67",
@@ -85,8 +85,8 @@
         "index": "high"
       },
       "hn_top": {
-        "id": 49945323,
-        "title": "City building games have a Soul Problem pt.2"
+        "id": 49943034,
+        "title": "Kolibri is an open-weight LLM from Aleph Alpha for German and English"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -100,7 +100,7 @@
           },
           {
             "question": "Alabama vs. Mississippi State",
-            "yes_price": "0.845"
+            "yes_price": "0.815"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "e434b38106a0a86d3c25743f06305322308c00acddfcc818f2e49cdb2f66df08"
+  "input_fingerprint": "c0da28affcc0cc994570d4a55b38ba976be3545c5d0ad5665dc5d79f8980e335"
 }
