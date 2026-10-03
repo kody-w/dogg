@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-03T17:00:37.035Z",
+  "generated_utc": "2026-10-03T17:10:55.478Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2278,
-    "frame_hash": "0192cfa734215ee20693344becba823217078d9025f92bf52f960d1b8acf4ea7",
-    "utc": "2026-10-03T17:00:30.905Z"
+    "seq": 2279,
+    "frame_hash": "c647f045e0b9e6098d5e85f919a3dd49c119f4590ebbe38816a6fc826d61c71f",
+    "utc": "2026-10-03T17:10:47.668Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2279,
-      "head_frame": "0192cfa734215ee20693344becba823217078d9025f92bf52f960d1b8acf4ea7"
+      "count": 2280,
+      "head_frame": "c647f045e0b9e6098d5e85f919a3dd49c119f4590ebbe38816a6fc826d61c71f"
     },
     "world": {
-      "count": 2183,
-      "head_frame": "1b0bff67195be2d7877ab2c86564f1b4763e0bcbe4426498a1d81d0a4e798770"
+      "count": 2184,
+      "head_frame": "1ddd02e6980a9c3121ee52206550a3c4e0c36bcc7c371c81982531c610c7f593"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "1b0bff67195be2d7877ab2c86564f1b4763e0bcbe4426498a1d81d0a4e798770",
-    "seq": 2182,
-    "utc": "2026-10-03T17:00:33.755Z",
-    "tick": 2278,
-    "tick_frame": "0192cfa734215ee20693344becba823217078d9025f92bf52f960d1b8acf4ea7",
+    "frame_hash": "1ddd02e6980a9c3121ee52206550a3c4e0c36bcc7c371c81982531c610c7f593",
+    "seq": 2183,
+    "utc": "2026-10-03T17:10:52.310Z",
+    "tick": 2279,
+    "tick_frame": "c647f045e0b9e6098d5e85f919a3dd49c119f4590ebbe38816a6fc826d61c71f",
     "data": {
       "btc_block_height": {
         "height": 969747
       },
       "btc_usd": {
-        "spot": "84860.59"
+        "spot": "84870.175"
       },
       "fx_usd": {
         "EUR": "0.8888",
@@ -58,23 +58,23 @@
         "CNY": "6.7144"
       },
       "crypto_market": {
-        "total_mcap_usd": "2898723441584",
+        "total_mcap_usd": "2899928839783",
         "btc_dominance_pct": "58.7"
       },
       "btc_fees": {
-        "fastest_sat_vb": 6,
+        "fastest_sat_vb": 7,
         "hour_sat_vb": 4
       },
       "btc_mempool": {
-        "tx_count": 80226
+        "tx_count": 82060
       },
       "earthquakes_past_hour": {
-        "count": 6,
-        "max_mag": "3.3"
+        "count": 4,
+        "max_mag": "1.8"
       },
       "iss": {
-        "lat": "51.395",
-        "lon": "-44.941"
+        "lat": "33.157",
+        "lon": "1.907"
       },
       "space_weather": {
         "kp": "1.67",
@@ -85,14 +85,14 @@
         "index": "high"
       },
       "hn_top": {
-        "id": 49943034,
-        "title": "Kolibri is an open-weight LLM from Aleph Alpha for German and English"
+        "id": 49945323,
+        "title": "City building games have a Soul Problem pt.2"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Will Indiana enact a data center moratorium by December 31, 2027?",
-            "yes_price": "0.105"
+            "yes_price": "0.095"
           },
           {
             "question": "Dota 2: LGD Gaming vs GamerLegion (BO3) - BLAST Slam Last Chance Qualifier",
@@ -100,7 +100,7 @@
           },
           {
             "question": "Alabama vs. Mississippi State",
-            "yes_price": "0.915"
+            "yes_price": "0.875"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "2944bac5c8fec545e0aec0ec0fe1c8f840656a1533a04cc8f09666d7943ca192"
+  "input_fingerprint": "7817cd3a1320bed70e65ae8413bbf30452db19a14e36a325dfecf7ee58d7496e"
 }
