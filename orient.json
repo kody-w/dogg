@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-04T06:33:26.218Z",
+  "generated_utc": "2026-10-04T06:43:45.759Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2357,
-    "frame_hash": "6c11a0c4e7e8c256f6cf6377d0b3ba14b348518f99e43d439f3de91a10922192",
-    "utc": "2026-10-04T06:33:19.111Z"
+    "seq": 2358,
+    "frame_hash": "7b8bc048d67deb0e0b183316aea9634d1d72d5f53d80526da794629cfcd4bc38",
+    "utc": "2026-10-04T06:43:39.707Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2358,
-      "head_frame": "6c11a0c4e7e8c256f6cf6377d0b3ba14b348518f99e43d439f3de91a10922192"
+      "count": 2359,
+      "head_frame": "7b8bc048d67deb0e0b183316aea9634d1d72d5f53d80526da794629cfcd4bc38"
     },
     "world": {
-      "count": 2262,
-      "head_frame": "92c08dbe335670b81c6d318b84f637b819f7803ed8749face6904fb7cb7fd59e"
+      "count": 2263,
+      "head_frame": "c50cb471dab7c230eda70ef591260ea311eb9bd6e695aa4b151d6d00d5d6b3d0"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "92c08dbe335670b81c6d318b84f637b819f7803ed8749face6904fb7cb7fd59e",
-    "seq": 2261,
-    "utc": "2026-10-04T06:33:21.955Z",
-    "tick": 2357,
-    "tick_frame": "6c11a0c4e7e8c256f6cf6377d0b3ba14b348518f99e43d439f3de91a10922192",
+    "frame_hash": "c50cb471dab7c230eda70ef591260ea311eb9bd6e695aa4b151d6d00d5d6b3d0",
+    "seq": 2262,
+    "utc": "2026-10-04T06:43:42.413Z",
+    "tick": 2358,
+    "tick_frame": "7b8bc048d67deb0e0b183316aea9634d1d72d5f53d80526da794629cfcd4bc38",
     "data": {
       "btc_block_height": {
-        "height": 969806
+        "height": 969807
       },
       "btc_usd": {
-        "spot": "84997.535"
+        "spot": "84950.155"
       },
       "fx_usd": {
         "EUR": "0.8888",
@@ -58,49 +58,49 @@
         "CNY": "6.7201"
       },
       "crypto_market": {
-        "total_mcap_usd": "2903713255489",
+        "total_mcap_usd": "2909450749439",
         "btc_dominance_pct": "58.6"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 78950
+        "tx_count": 77271
       },
       "earthquakes_past_hour": {
-        "count": 7,
+        "count": 8,
         "max_mag": "4.6"
       },
       "iss": {
-        "lat": "4.017",
-        "lon": "12.103"
+        "lat": "33.942",
+        "lon": "38.301"
       },
       "space_weather": {
         "kp": "3.33",
         "at": "2026-10-04T03:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 110,
+        "gco2_kwh": 114,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 49949438,
-        "title": "Tell HN: Bob Cringely has died"
+        "id": 49950554,
+        "title": "Why don't more developers \"use the platform\"?"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Will Renan Santos win the 2026 Brazilian presidential election?",
-            "yes_price": "0.0025"
+            "yes_price": "0.0015"
           },
           {
             "question": "San Jose State vs. Hawai'i",
             "yes_price": "0.555"
           },
           {
-            "question": "Texas State vs. San Diego State",
-            "yes_price": "0.0005"
+            "question": "Colts vs. Commanders",
+            "yes_price": "0.655"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "f0184b4105fe27526365cfa85be90a695d6f4247941164ba22761e464a325079"
+  "input_fingerprint": "4dd7437f9df211187ef5ba59630fbbe3e5016b92f82ced0710173a340f6e7b88"
 }
