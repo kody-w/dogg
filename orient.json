@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-04T09:18:02.854Z",
+  "generated_utc": "2026-10-04T09:28:17.953Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2373,
-    "frame_hash": "c6076d8bfed37e98235d9b014de06d1f5c6301647eacc09c392bdfc2e9ebf5b8",
-    "utc": "2026-10-04T09:17:55.844Z"
+    "seq": 2374,
+    "frame_hash": "bce2a281d1d4e040708572df47f72d2c3cf756a1387705991c11b520e24d9ebf",
+    "utc": "2026-10-04T09:28:12.082Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2374,
-      "head_frame": "c6076d8bfed37e98235d9b014de06d1f5c6301647eacc09c392bdfc2e9ebf5b8"
+      "count": 2375,
+      "head_frame": "bce2a281d1d4e040708572df47f72d2c3cf756a1387705991c11b520e24d9ebf"
     },
     "world": {
-      "count": 2278,
-      "head_frame": "fc0ba122a7cd5b7851610d5518289c64dbc3d84dd2cfb9530946cda79106108b"
+      "count": 2279,
+      "head_frame": "1de796ae9e2c20046379779d2b95a1a7ed4b6a9ee029325ba34e658796f65a29"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "fc0ba122a7cd5b7851610d5518289c64dbc3d84dd2cfb9530946cda79106108b",
-    "seq": 2277,
-    "utc": "2026-10-04T09:17:58.285Z",
-    "tick": 2373,
-    "tick_frame": "c6076d8bfed37e98235d9b014de06d1f5c6301647eacc09c392bdfc2e9ebf5b8",
+    "frame_hash": "1de796ae9e2c20046379779d2b95a1a7ed4b6a9ee029325ba34e658796f65a29",
+    "seq": 2278,
+    "utc": "2026-10-04T09:28:14.453Z",
+    "tick": 2374,
+    "tick_frame": "bce2a281d1d4e040708572df47f72d2c3cf756a1387705991c11b520e24d9ebf",
     "data": {
       "btc_block_height": {
-        "height": 969819
+        "height": 969822
       },
       "btc_usd": {
-        "spot": "85143.665"
+        "spot": "85236.235"
       },
       "fx_usd": {
         "EUR": "0.8888",
@@ -58,23 +58,23 @@
         "CNY": "6.7201"
       },
       "crypto_market": {
-        "total_mcap_usd": "2885594546494",
+        "total_mcap_usd": "2888560887401",
         "btc_dominance_pct": "59.1"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 78603
+        "tx_count": 75315
       },
       "earthquakes_past_hour": {
-        "count": 12,
+        "count": 10,
         "max_mag": "4.3"
       },
       "iss": {
-        "lat": "-49.984",
-        "lon": "-102.573"
+        "lat": "-28.524",
+        "lon": "-60.840"
       },
       "space_weather": {
         "kp": "4.33",
@@ -85,22 +85,22 @@
         "index": "low"
       },
       "hn_top": {
-        "id": 49950554,
-        "title": "Why don't more developers “use the platform”?"
+        "id": 49949438,
+        "title": "Tell HN: Bob Cringely has died"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "LoL: LGD Gaming vs BNK FEARX (BO3) - Demacia Cup Global Invitational Group Stage",
-            "yes_price": "0.06"
+            "yes_price": "0.0005"
           },
           {
             "question": "LoL: LGD Gaming vs BNK FEARX - Game 2 Winner",
             "yes_price": "0.9995"
           },
           {
-            "question": "Will Renan Santos win the 2026 Brazilian presidential election?",
-            "yes_price": "0.0015"
+            "question": "China Open: Alex de Minaur vs Andrey Rublev",
+            "yes_price": "0.9995"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "1a7ac169dfdd718730c571d37862ee3c6a263257736e1228b1738cb224580d6f"
+  "input_fingerprint": "660b414531abb447b9ee5f0f46994615117eb6da018fb209bdff9ee3496b0814"
 }
