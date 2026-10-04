@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-04T07:35:13.697Z",
+  "generated_utc": "2026-10-04T07:45:32.373Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2363,
-    "frame_hash": "4aa16a218c8e844260b85b460907cf5ce952419ee6719c2928aa7eac94ad45e3",
-    "utc": "2026-10-04T07:35:07.602Z"
+    "seq": 2364,
+    "frame_hash": "ab30a1df01ae1e519f74a363d07b227a83424b01f63b0e0505b6e9bcf36b504b",
+    "utc": "2026-10-04T07:45:25.837Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2364,
-      "head_frame": "4aa16a218c8e844260b85b460907cf5ce952419ee6719c2928aa7eac94ad45e3"
+      "count": 2365,
+      "head_frame": "ab30a1df01ae1e519f74a363d07b227a83424b01f63b0e0505b6e9bcf36b504b"
     },
     "world": {
-      "count": 2268,
-      "head_frame": "3e9b98eb467b3ecb47740d2bd94e4eed5552fe8c0e0af2bb2d273495c8bf414d"
+      "count": 2269,
+      "head_frame": "d2e55c0107a2649e8e4df8561645ad52e5c0db4a4b8eff69b8262db7394a2df8"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "3e9b98eb467b3ecb47740d2bd94e4eed5552fe8c0e0af2bb2d273495c8bf414d",
-    "seq": 2267,
-    "utc": "2026-10-04T07:35:10.580Z",
-    "tick": 2363,
-    "tick_frame": "4aa16a218c8e844260b85b460907cf5ce952419ee6719c2928aa7eac94ad45e3",
+    "frame_hash": "d2e55c0107a2649e8e4df8561645ad52e5c0db4a4b8eff69b8262db7394a2df8",
+    "seq": 2268,
+    "utc": "2026-10-04T07:45:28.729Z",
+    "tick": 2364,
+    "tick_frame": "ab30a1df01ae1e519f74a363d07b227a83424b01f63b0e0505b6e9bcf36b504b",
     "data": {
       "btc_block_height": {
         "height": 969809
       },
       "btc_usd": {
-        "spot": "84916.555"
+        "spot": "84974.445"
       },
       "fx_usd": {
         "EUR": "0.8888",
@@ -58,42 +58,38 @@
         "CNY": "6.7201"
       },
       "crypto_market": {
-        "total_mcap_usd": "2884507170615",
+        "total_mcap_usd": "2883615769558",
         "btc_dominance_pct": "59.1"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 78077
+        "tx_count": 79299
       },
       "earthquakes_past_hour": {
-        "count": 11,
+        "count": 10,
         "max_mag": "2.3"
       },
       "iss": {
-        "lat": "-45.304",
-        "lon": "-134.055"
+        "lat": "-49.520",
+        "lon": "-76.678"
       },
       "space_weather": {
         "kp": "3.33",
         "at": "2026-10-04T03:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 107,
+        "gco2_kwh": 102,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 49950554,
-        "title": "Why don't more developers \"use the platform\"?"
+        "id": 49949438,
+        "title": "Tell HN: Bob Cringely has died"
       },
       "prediction_markets": {
         "top_by_volume": [
-          {
-            "question": "San Jose State vs. Hawai'i",
-            "yes_price": "0.9995"
-          },
           {
             "question": "Will Renan Santos win the 2026 Brazilian presidential election?",
             "yes_price": "0.0015"
@@ -101,6 +97,10 @@
           {
             "question": "Colts vs. Commanders",
             "yes_price": "0.655"
+          },
+          {
+            "question": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
+            "yes_price": "0.6395"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "c3e2f6090d9482e00c92ea817178be830fc8d500be8ffa594f41ec89d3d13d52"
+  "input_fingerprint": "5b677575f02ed044df9e832c3deb0984ff7f1ff71b88d7270cc165e877f691ad"
 }
