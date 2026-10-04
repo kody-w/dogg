@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-04T04:40:10.368Z",
+  "generated_utc": "2026-10-04T04:50:28.157Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2346,
-    "frame_hash": "9d0758553b60ade6d034da9491da99a911219813cf45ade6fe1ed90dcdd52476",
-    "utc": "2026-10-04T04:40:03.229Z"
+    "seq": 2347,
+    "frame_hash": "0c3a6a4758abffe2f6cbbdd01838eeb5b301f965f6c5964c7f868966b28096cc",
+    "utc": "2026-10-04T04:50:22.209Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2347,
-      "head_frame": "9d0758553b60ade6d034da9491da99a911219813cf45ade6fe1ed90dcdd52476"
+      "count": 2348,
+      "head_frame": "0c3a6a4758abffe2f6cbbdd01838eeb5b301f965f6c5964c7f868966b28096cc"
     },
     "world": {
-      "count": 2251,
-      "head_frame": "a35fd4e3e4a6ceb831d07cc12979f1c65a1a5c588deae38d4bbe50609963005d"
+      "count": 2252,
+      "head_frame": "40405b38f671a4c6a5715c3469c4f6633dcdc4e5b42fe033b1a8fb5ae5daaa1f"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "a35fd4e3e4a6ceb831d07cc12979f1c65a1a5c588deae38d4bbe50609963005d",
-    "seq": 2250,
-    "utc": "2026-10-04T04:40:06.261Z",
-    "tick": 2346,
-    "tick_frame": "9d0758553b60ade6d034da9491da99a911219813cf45ade6fe1ed90dcdd52476",
+    "frame_hash": "40405b38f671a4c6a5715c3469c4f6633dcdc4e5b42fe033b1a8fb5ae5daaa1f",
+    "seq": 2251,
+    "utc": "2026-10-04T04:50:24.794Z",
+    "tick": 2347,
+    "tick_frame": "0c3a6a4758abffe2f6cbbdd01838eeb5b301f965f6c5964c7f868966b28096cc",
     "data": {
       "btc_block_height": {
-        "height": 969796
+        "height": 969798
       },
       "btc_usd": {
-        "spot": "84803.935"
+        "spot": "84807.055"
       },
       "fx_usd": {
         "EUR": "0.8888",
@@ -58,35 +58,35 @@
         "CNY": "6.7201"
       },
       "crypto_market": {
-        "total_mcap_usd": "2902286852012",
+        "total_mcap_usd": "2902405832746",
         "btc_dominance_pct": "58.6"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 77276
+        "tx_count": 72312
       },
       "earthquakes_past_hour": {
-        "count": 6,
+        "count": 7,
         "max_mag": "2.6"
       },
       "iss": {
-        "lat": "-48.932",
-        "lon": "-26.912"
+        "lat": "-25.944",
+        "lon": "12.573"
       },
       "space_weather": {
         "kp": "3.0",
         "at": "2026-10-04T00:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 108,
+        "gco2_kwh": 104,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 49950554,
-        "title": "Why don't more developers \"use the platform\"?"
+        "id": 49949438,
+        "title": "Tell HN: Bob Cringely has died"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -99,8 +99,8 @@
             "yes_price": "0.605"
           },
           {
-            "question": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
-            "yes_price": "0.6395"
+            "question": "San Jose State vs. Hawai'i",
+            "yes_price": "0.405"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "943da057f6183a0141b81022ae8d10d0d604cb84e9722b9cfb01219c147b418b"
+  "input_fingerprint": "f41f97b1eaaba06b5718871b6d6eb52bc823f1756fb063365a03c62ba5040cfd"
 }
