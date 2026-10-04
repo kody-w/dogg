@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-04T00:02:23.721Z",
+  "generated_utc": "2026-10-04T00:12:43.225Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2319,
-    "frame_hash": "0f907d22b06c08e167e1371adb4df4a6dba64bd3cce6bb5960304ef1cd5a5d59",
-    "utc": "2026-10-04T00:02:15.901Z"
+    "seq": 2320,
+    "frame_hash": "89bf799099d373fa89d49b9236a43ac6c5eaf6d2916b9fc7ca10b3407d35b89c",
+    "utc": "2026-10-04T00:12:36.269Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2320,
-      "head_frame": "0f907d22b06c08e167e1371adb4df4a6dba64bd3cce6bb5960304ef1cd5a5d59"
+      "count": 2321,
+      "head_frame": "89bf799099d373fa89d49b9236a43ac6c5eaf6d2916b9fc7ca10b3407d35b89c"
     },
     "world": {
-      "count": 2224,
-      "head_frame": "9622f3f7af2de310c28390a7297e4ee950e3df9a8b440ba78187f14b3c69c380"
+      "count": 2225,
+      "head_frame": "fe7e1602d422a61ae7fa8baa80b44631f9df06ebeb8334979ed9791bab3cf4fd"
     },
     "registry": {
       "count": 25,
@@ -39,26 +39,26 @@
     }
   },
   "world": {
-    "frame_hash": "9622f3f7af2de310c28390a7297e4ee950e3df9a8b440ba78187f14b3c69c380",
-    "seq": 2223,
-    "utc": "2026-10-04T00:02:20.467Z",
-    "tick": 2319,
-    "tick_frame": "0f907d22b06c08e167e1371adb4df4a6dba64bd3cce6bb5960304ef1cd5a5d59",
+    "frame_hash": "fe7e1602d422a61ae7fa8baa80b44631f9df06ebeb8334979ed9791bab3cf4fd",
+    "seq": 2224,
+    "utc": "2026-10-04T00:12:39.975Z",
+    "tick": 2320,
+    "tick_frame": "89bf799099d373fa89d49b9236a43ac6c5eaf6d2916b9fc7ca10b3407d35b89c",
     "data": {
       "btc_block_height": {
-        "height": 969780
+        "height": 969781
       },
       "btc_usd": {
-        "spot": "84772.985"
+        "spot": "84803.695"
       },
       "fx_usd": {
         "EUR": "0.8888",
-        "GBP": "0.7563",
-        "JPY": "157.8151",
-        "CNY": "6.7144"
+        "GBP": "0.7564",
+        "JPY": "157.8204",
+        "CNY": "6.7201"
       },
       "crypto_market": {
-        "total_mcap_usd": "2898387756514",
+        "total_mcap_usd": "2901461242665",
         "btc_dominance_pct": "58.6"
       },
       "btc_fees": {
@@ -66,23 +66,23 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 73512
+        "tx_count": 72812
       },
       "earthquakes_past_hour": {
-        "count": 5,
+        "count": 6,
         "max_mag": "5.6"
       },
       "iss": {
-        "lat": "-47.552",
-        "lon": "48.901"
+        "lat": "-23.142",
+        "lon": "86.018"
       },
       "space_weather": {
-        "kp": "0.33",
-        "at": "2026-10-03T18:00:00"
+        "kp": "1.0",
+        "at": "2026-10-03T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 183,
-        "index": "high"
+        "gco2_kwh": 147,
+        "index": "moderate"
       },
       "hn_top": {
         "id": 49948254,
@@ -95,12 +95,12 @@
             "yes_price": "0.095"
           },
           {
-            "question": "Will Anthropic announce bankruptcy by December 31, 2027?",
-            "yes_price": "0.095"
+            "question": "Kentucky vs. South Carolina",
+            "yes_price": "0.9995"
           },
           {
-            "question": "Kentucky vs. South Carolina",
-            "yes_price": "0.285"
+            "question": "Will Anthropic announce bankruptcy by December 31, 2027?",
+            "yes_price": "0.095"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "46862a5ede9136a494e72f909b5416ec673effe568fc64fa3aef0405efaa1006"
+  "input_fingerprint": "89cc01a65086e234d101bbfb55328311662db5cbf9638f829dde6b31481a26aa"
 }
