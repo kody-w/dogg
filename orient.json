@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-04T14:57:18.109Z",
+  "generated_utc": "2026-10-04T15:07:35.060Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2406,
-    "frame_hash": "c9b5d4bfee5a150dfa9c1a6d33ea16eaad11d6fa0a0e8ac14a359da63d4fdaf7",
-    "utc": "2026-10-04T14:57:11.648Z"
+    "seq": 2407,
+    "frame_hash": "40f14faf8b5a14701f4affb715b04878da7df6625ac11a74025cb386625286db",
+    "utc": "2026-10-04T15:07:29.030Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2407,
-      "head_frame": "c9b5d4bfee5a150dfa9c1a6d33ea16eaad11d6fa0a0e8ac14a359da63d4fdaf7"
+      "count": 2408,
+      "head_frame": "40f14faf8b5a14701f4affb715b04878da7df6625ac11a74025cb386625286db"
     },
     "world": {
-      "count": 2311,
-      "head_frame": "e9b2aed032ce1120795e5b6377c7d0fd81fd758e1a0611bbd04b4ad2fcc51609"
+      "count": 2312,
+      "head_frame": "345ef01c24c554524771c21f489344feebcad7c07c848cc86ac0f34d5214dbc0"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "e9b2aed032ce1120795e5b6377c7d0fd81fd758e1a0611bbd04b4ad2fcc51609",
-    "seq": 2310,
-    "utc": "2026-10-04T14:57:14.701Z",
-    "tick": 2406,
-    "tick_frame": "c9b5d4bfee5a150dfa9c1a6d33ea16eaad11d6fa0a0e8ac14a359da63d4fdaf7",
+    "frame_hash": "345ef01c24c554524771c21f489344feebcad7c07c848cc86ac0f34d5214dbc0",
+    "seq": 2311,
+    "utc": "2026-10-04T15:07:31.729Z",
+    "tick": 2407,
+    "tick_frame": "40f14faf8b5a14701f4affb715b04878da7df6625ac11a74025cb386625286db",
     "data": {
       "btc_block_height": {
-        "height": 969861
+        "height": 969863
       },
       "btc_usd": {
-        "spot": "85232.455"
+        "spot": "85283.805"
       },
       "fx_usd": {
         "EUR": "0.8888",
@@ -58,27 +58,27 @@
         "CNY": "6.7201"
       },
       "crypto_market": {
-        "total_mcap_usd": "2886617969193",
+        "total_mcap_usd": "2892318597867",
         "btc_dominance_pct": "59.1"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 75983
+        "tx_count": 75231
       },
       "earthquakes_past_hour": {
-        "count": 5,
-        "max_mag": "5.0"
+        "count": 6,
+        "max_mag": "2.5"
       },
       "iss": {
-        "lat": "17.653",
-        "lon": "46.378"
+        "lat": "-13.533",
+        "lon": "69.198"
       },
       "space_weather": {
-        "kp": "5.0",
-        "at": "2026-10-04T09:00:00"
+        "kp": "4.67",
+        "at": "2026-10-04T12:00:00"
       },
       "grid_carbon_gb": {
         "gco2_kwh": 67,
@@ -92,7 +92,7 @@
         "top_by_volume": [
           {
             "question": "Colts vs. Commanders",
-            "yes_price": "0.76"
+            "yes_price": "0.835"
           },
           {
             "question": "LoL: Team WE vs HANJIN BRION (BO3) - Demacia Cup Global Invitational Group Stage",
@@ -100,7 +100,7 @@
           },
           {
             "question": "Colts vs. Commanders: O/U 46.5",
-            "yes_price": "0.11"
+            "yes_price": "0.105"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "ebd32c550845e3c4920843dfa643ba4999a8838abc556f9aa841e33744e07f4f"
+  "input_fingerprint": "b8a1bba42dd69b860657a402e4176ff9348863d45ec6f45bb3f9e233fa1452a3"
 }
