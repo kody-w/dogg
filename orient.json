@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-05T13:37:51.915Z",
+  "generated_utc": "2026-10-05T13:48:07.794Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2538,
-    "frame_hash": "cf190e95f1a9531b5119c7e2bbe1955cbc616e4e19c51fd60a32e438437ea3e1",
-    "utc": "2026-10-05T13:37:46.169Z"
+    "seq": 2539,
+    "frame_hash": "f3c9c31a2c916e20cbe486ae59530c2dd864128ac8a801108a9f929030b742a0",
+    "utc": "2026-10-05T13:48:01.385Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2539,
-      "head_frame": "cf190e95f1a9531b5119c7e2bbe1955cbc616e4e19c51fd60a32e438437ea3e1"
+      "count": 2540,
+      "head_frame": "f3c9c31a2c916e20cbe486ae59530c2dd864128ac8a801108a9f929030b742a0"
     },
     "world": {
-      "count": 2443,
-      "head_frame": "ee5934f54697283f308cc2ce88cb25600441f5019cf314825135a9941dcbf3d4"
+      "count": 2444,
+      "head_frame": "1eadbb8908f8bd6bb1b3aab9adcbac07b10dc47832bf83fc24975a4f1473d271"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "ee5934f54697283f308cc2ce88cb25600441f5019cf314825135a9941dcbf3d4",
-    "seq": 2442,
-    "utc": "2026-10-05T13:37:48.597Z",
-    "tick": 2538,
-    "tick_frame": "cf190e95f1a9531b5119c7e2bbe1955cbc616e4e19c51fd60a32e438437ea3e1",
+    "frame_hash": "1eadbb8908f8bd6bb1b3aab9adcbac07b10dc47832bf83fc24975a4f1473d271",
+    "seq": 2443,
+    "utc": "2026-10-05T13:48:04.125Z",
+    "tick": 2539,
+    "tick_frame": "f3c9c31a2c916e20cbe486ae59530c2dd864128ac8a801108a9f929030b742a0",
     "data": {
       "btc_block_height": {
-        "height": 970026
+        "height": 970029
       },
       "btc_usd": {
-        "spot": "85927.605"
+        "spot": "85978.345"
       },
       "fx_usd": {
         "EUR": "0.8889",
@@ -58,38 +58,42 @@
         "CNY": "6.7104"
       },
       "crypto_market": {
-        "total_mcap_usd": "2915533779953",
-        "btc_dominance_pct": "59.2"
+        "total_mcap_usd": "2938522232008",
+        "btc_dominance_pct": "58.7"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 81678
+        "tx_count": 71351
       },
       "earthquakes_past_hour": {
-        "count": 5,
+        "count": 4,
         "max_mag": "2.1"
       },
       "iss": {
-        "lat": "22.221",
-        "lon": "-86.097"
+        "lat": "46.958",
+        "lon": "-50.001"
       },
       "space_weather": {
         "kp": "3.33",
         "at": "2026-10-05T09:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 59,
+        "gco2_kwh": 57,
         "index": "low"
       },
       "hn_top": {
-        "id": 49963366,
-        "title": "Europe's new robotics unicorn: Germany's RobCo hits $1B valuation"
+        "id": 49964303,
+        "title": "Pixel 11 doesn't yet meet the GrapheneOS security standards and may be skipped"
       },
       "prediction_markets": {
         "top_by_volume": [
+          {
+            "question": "China Open: Novak Djokovic vs Daniil Medvedev",
+            "yes_price": "0.665"
+          },
           {
             "question": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
             "yes_price": "0.155"
@@ -97,10 +101,6 @@
           {
             "question": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
             "yes_price": "0.8455"
-          },
-          {
-            "question": "China Open: Novak Djokovic vs Daniil Medvedev",
-            "yes_price": "0.895"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "5864a54e413424d738513fcd2cd73d8d4e23e525387328582c272edc17b7b23e"
+  "input_fingerprint": "1b8875e8d6a0bb109a5abc80d84c6c29576154667c834917d69c6158d4003926"
 }
