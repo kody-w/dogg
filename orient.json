@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-05T00:02:33.256Z",
+  "generated_utc": "2026-10-05T00:12:52.437Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2459,
-    "frame_hash": "1dd15674806ea69a4157dce7b883436cda2889b7e8e2ba4e4f1778abe2876649",
-    "utc": "2026-10-05T00:02:26.295Z"
+    "seq": 2460,
+    "frame_hash": "52b0b6169f5a3d187ff875fda6e5186aebf75cf06e8677320a416a1f02f2ac7a",
+    "utc": "2026-10-05T00:12:44.607Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2460,
-      "head_frame": "1dd15674806ea69a4157dce7b883436cda2889b7e8e2ba4e4f1778abe2876649"
+      "count": 2461,
+      "head_frame": "52b0b6169f5a3d187ff875fda6e5186aebf75cf06e8677320a416a1f02f2ac7a"
     },
     "world": {
-      "count": 2364,
-      "head_frame": "f48b1b89e3456b153860156aea22cb2a13e95d03fa35073a5b78a2d8272e71d2"
+      "count": 2365,
+      "head_frame": "51146cc1ca3bc400cfb3feee5d4a99139a38c83c8c5051f8819d83de48f6a135"
     },
     "registry": {
       "count": 25,
@@ -39,26 +39,26 @@
     }
   },
   "world": {
-    "frame_hash": "f48b1b89e3456b153860156aea22cb2a13e95d03fa35073a5b78a2d8272e71d2",
-    "seq": 2363,
-    "utc": "2026-10-05T00:02:28.882Z",
-    "tick": 2459,
-    "tick_frame": "1dd15674806ea69a4157dce7b883436cda2889b7e8e2ba4e4f1778abe2876649",
+    "frame_hash": "51146cc1ca3bc400cfb3feee5d4a99139a38c83c8c5051f8819d83de48f6a135",
+    "seq": 2364,
+    "utc": "2026-10-05T00:12:48.167Z",
+    "tick": 2460,
+    "tick_frame": "52b0b6169f5a3d187ff875fda6e5186aebf75cf06e8677320a416a1f02f2ac7a",
     "data": {
       "btc_block_height": {
         "height": 969923
       },
       "btc_usd": {
-        "spot": "86375.26"
+        "spot": "86366.935"
       },
       "fx_usd": {
-        "EUR": "0.8888",
-        "GBP": "0.7564",
-        "JPY": "157.8204",
-        "CNY": "6.7201"
+        "EUR": "0.8889",
+        "GBP": "0.7557",
+        "JPY": "157.7303",
+        "CNY": "6.7104"
       },
       "crypto_market": {
-        "total_mcap_usd": "2922282592702",
+        "total_mcap_usd": "2922901757633",
         "btc_dominance_pct": "59.3"
       },
       "btc_fees": {
@@ -66,22 +66,22 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 75700
+        "tx_count": 77286
       },
       "earthquakes_past_hour": {
-        "count": 6,
-        "max_mag": "2.3"
+        "count": 2,
+        "max_mag": "2.1"
       },
       "iss": {
-        "lat": "47.709",
-        "lon": "-137.608"
+        "lat": "23.362",
+        "lon": "-100.170"
       },
       "space_weather": {
-        "kp": "5.67",
-        "at": "2026-10-04T18:00:00"
+        "kp": "4.67",
+        "at": "2026-10-04T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 105,
+        "gco2_kwh": 100,
         "index": "moderate"
       },
       "hn_top": {
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Chiefs vs. Raiders",
-            "yes_price": "0.9995"
-          },
-          {
             "question": "Will Lula win the most votes in the first round of the 2026 Brazil presidential election?",
-            "yes_price": "0.0015"
+            "yes_price": "0.0005"
           },
           {
             "question": "Atlanta Braves vs. Los Angeles Dodgers",
-            "yes_price": "0.315"
+            "yes_price": "0.355"
+          },
+          {
+            "question": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
+            "yes_price": "0.145"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "7a57e4ae9363de6cff7bcf10bd3016a5ef46c23bd7b8a9bb49e0ec21fd05e466"
+  "input_fingerprint": "8390099d46a3f3eb7e4e2aafd5554b50757c6932efa32895f2409f105dbd9026"
 }
