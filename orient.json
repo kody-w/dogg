@@ -1,20 +1,22 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-05T21:21:01.769Z",
+  "generated_utc": "2026-10-05T21:31:26.326Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2583,
-    "frame_hash": "eeb595c090e04f2336417934e409dfa892986ffb7121e0d09557d8224ff176ea",
-    "utc": "2026-10-05T21:20:55.545Z"
+    "seq": 2584,
+    "frame_hash": "2a814ec56e4a7176ad08894b5d8513592f148212a2cde06b6d6fdd12c79ca313",
+    "utc": "2026-10-05T21:31:13.403Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
     "world": {
-      "state": "current",
+      "state": "partial",
       "ticks_behind": 0,
-      "sources_failed": [],
+      "sources_failed": [
+        "btc_fees"
+      ],
       "last_refresh": "ok",
       "retained_last_good": false
     },
@@ -26,12 +28,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2584,
-      "head_frame": "eeb595c090e04f2336417934e409dfa892986ffb7121e0d09557d8224ff176ea"
+      "count": 2585,
+      "head_frame": "2a814ec56e4a7176ad08894b5d8513592f148212a2cde06b6d6fdd12c79ca313"
     },
     "world": {
-      "count": 2488,
-      "head_frame": "5e02772ea9285a8e2c4cbedaaf35ffdf3c99f2a7256a35085ea86c3841517da0"
+      "count": 2489,
+      "head_frame": "5fce5cd9d69b554a6267716fc0c3321d0b88cdbe79173e0d99768a490fa889fe"
     },
     "registry": {
       "count": 25,
@@ -39,17 +41,17 @@
     }
   },
   "world": {
-    "frame_hash": "5e02772ea9285a8e2c4cbedaaf35ffdf3c99f2a7256a35085ea86c3841517da0",
-    "seq": 2487,
-    "utc": "2026-10-05T21:20:57.984Z",
-    "tick": 2583,
-    "tick_frame": "eeb595c090e04f2336417934e409dfa892986ffb7121e0d09557d8224ff176ea",
+    "frame_hash": "5fce5cd9d69b554a6267716fc0c3321d0b88cdbe79173e0d99768a490fa889fe",
+    "seq": 2488,
+    "utc": "2026-10-05T21:31:22.146Z",
+    "tick": 2584,
+    "tick_frame": "2a814ec56e4a7176ad08894b5d8513592f148212a2cde06b6d6fdd12c79ca313",
     "data": {
       "btc_block_height": {
-        "height": 970082
+        "height": 970084
       },
       "btc_usd": {
-        "spot": "85815.075"
+        "spot": "85800.265"
       },
       "fx_usd": {
         "EUR": "0.8889",
@@ -58,23 +60,19 @@
         "CNY": "6.7104"
       },
       "crypto_market": {
-        "total_mcap_usd": "2931982706939",
+        "total_mcap_usd": "2934191831925",
         "btc_dominance_pct": "58.7"
       },
-      "btc_fees": {
-        "fastest_sat_vb": 1,
-        "hour_sat_vb": 1
-      },
       "btc_mempool": {
-        "tx_count": 73591
+        "tx_count": 75198
       },
       "earthquakes_past_hour": {
-        "count": 4,
-        "max_mag": "5.0"
+        "count": 2,
+        "max_mag": "1.9"
       },
       "iss": {
-        "lat": "18.031",
-        "lon": "152.295"
+        "lat": "44.711",
+        "lon": "-173.996"
       },
       "space_weather": {
         "kp": "3.67",
@@ -85,8 +83,8 @@
         "index": "high"
       },
       "hn_top": {
-        "id": 49969183,
-        "title": "Beam: Reflection's 501B open-weight model"
+        "id": 49970667,
+        "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -100,7 +98,7 @@
           },
           {
             "question": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
-            "yes_price": "0.8295"
+            "yes_price": "0.828"
           }
         ]
       }
@@ -264,5 +262,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "9617a3b164a56a23c6464a9f1fa82bfdb80025cad9fbf164f5b97f1c3ad179fd"
+  "input_fingerprint": "6a112968cf23aeb90a8e8768a33413ad62f8c8e83abf472ab15ea4b58766b9f6"
 }
