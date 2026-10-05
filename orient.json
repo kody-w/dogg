@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-05T08:06:22.812Z",
+  "generated_utc": "2026-10-05T08:16:39.681Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2506,
-    "frame_hash": "555f4a5f52488f06f6538ee252ef26f93c468f543b8ad13f5a8d11ef6271d60e",
-    "utc": "2026-10-05T08:06:14.743Z"
+    "seq": 2507,
+    "frame_hash": "4501fe30e0baac75b9475aa68266bb8aeb26870daaeded7bb2fdf1b62623002a",
+    "utc": "2026-10-05T08:16:33.588Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2507,
-      "head_frame": "555f4a5f52488f06f6538ee252ef26f93c468f543b8ad13f5a8d11ef6271d60e"
+      "count": 2508,
+      "head_frame": "4501fe30e0baac75b9475aa68266bb8aeb26870daaeded7bb2fdf1b62623002a"
     },
     "world": {
-      "count": 2411,
-      "head_frame": "3700d3d2a40cb98a8ec571977a264ecea6ffea72ee539baaf60377cfaf174e5a"
+      "count": 2412,
+      "head_frame": "bb1bcf0cd63b82e56c596efda4b7971ecc3f38b91ec2462bf6b96a20759659ea"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "3700d3d2a40cb98a8ec571977a264ecea6ffea72ee539baaf60377cfaf174e5a",
-    "seq": 2410,
-    "utc": "2026-10-05T08:06:17.405Z",
-    "tick": 2506,
-    "tick_frame": "555f4a5f52488f06f6538ee252ef26f93c468f543b8ad13f5a8d11ef6271d60e",
+    "frame_hash": "bb1bcf0cd63b82e56c596efda4b7971ecc3f38b91ec2462bf6b96a20759659ea",
+    "seq": 2411,
+    "utc": "2026-10-05T08:16:36.014Z",
+    "tick": 2507,
+    "tick_frame": "4501fe30e0baac75b9475aa68266bb8aeb26870daaeded7bb2fdf1b62623002a",
     "data": {
       "btc_block_height": {
-        "height": 969981
+        "height": 969982
       },
       "btc_usd": {
-        "spot": "86350.265"
+        "spot": "86391.255"
       },
       "fx_usd": {
         "EUR": "0.8889",
@@ -58,35 +58,35 @@
         "CNY": "6.7104"
       },
       "crypto_market": {
-        "total_mcap_usd": "2916698635787",
+        "total_mcap_usd": "2929456329900",
         "btc_dominance_pct": "59.2"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 76646
+        "tx_count": 77242
       },
       "earthquakes_past_hour": {
-        "count": 8,
-        "max_mag": "4.9"
+        "count": 5,
+        "max_mag": "2.2"
       },
       "iss": {
-        "lat": "-3.432",
-        "lon": "162.094"
+        "lat": "-33.346",
+        "lon": "-172.027"
       },
       "space_weather": {
         "kp": "5.33",
         "at": "2026-10-05T03:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 101,
+        "gco2_kwh": 92,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 49953495,
-        "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s"
+        "id": 49961861,
+        "title": "Huawei and Qualcomm Announce Broad Patent License Agreement"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "1a2fb6957aa0b88b738c725a4976c57282b31f5bf88341daa8602b56602dcc40"
+  "input_fingerprint": "6559c3fe507117e1cacee7e9af7ee6be2897d30fe19ad77cf1af8e2f06cf8ce4"
 }
