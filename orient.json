@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-06T04:34:25.526Z",
+  "generated_utc": "2026-10-06T04:44:40.955Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2625,
-    "frame_hash": "103f17e0070540498ed18cfbde94d914fcfdd9a61588233b8f66727d08817635",
-    "utc": "2026-10-06T04:34:19.210Z"
+    "seq": 2626,
+    "frame_hash": "57f77d0df1d6980905910006e79554a086b8f10825d27f5c35774146daf99b53",
+    "utc": "2026-10-06T04:44:34.652Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2626,
-      "head_frame": "103f17e0070540498ed18cfbde94d914fcfdd9a61588233b8f66727d08817635"
+      "count": 2627,
+      "head_frame": "57f77d0df1d6980905910006e79554a086b8f10825d27f5c35774146daf99b53"
     },
     "world": {
-      "count": 2530,
-      "head_frame": "08de7e2618b2184e9498a0324dab68814db4a605c5ff5b937b176cbafa513dcc"
+      "count": 2531,
+      "head_frame": "14271a3396a0661629ce6440f1aa0bfd3fe9ce702ddd1a6cf3bd2d69aeaf9fb3"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "08de7e2618b2184e9498a0324dab68814db4a605c5ff5b937b176cbafa513dcc",
-    "seq": 2529,
-    "utc": "2026-10-06T04:34:21.806Z",
-    "tick": 2625,
-    "tick_frame": "103f17e0070540498ed18cfbde94d914fcfdd9a61588233b8f66727d08817635",
+    "frame_hash": "14271a3396a0661629ce6440f1aa0bfd3fe9ce702ddd1a6cf3bd2d69aeaf9fb3",
+    "seq": 2530,
+    "utc": "2026-10-06T04:44:37.478Z",
+    "tick": 2626,
+    "tick_frame": "57f77d0df1d6980905910006e79554a086b8f10825d27f5c35774146daf99b53",
     "data": {
       "btc_block_height": {
         "height": 970132
       },
       "btc_usd": {
-        "spot": "85552.365"
+        "spot": "85573.795"
       },
       "fx_usd": {
         "EUR": "0.8921",
@@ -58,35 +58,35 @@
         "CNY": "6.7145"
       },
       "crypto_market": {
-        "total_mcap_usd": "2922028638223",
+        "total_mcap_usd": "2925478741850",
         "btc_dominance_pct": "58.7"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 73504
+        "tx_count": 75555
       },
       "earthquakes_past_hour": {
         "count": 7,
-        "max_mag": "4.8"
+        "max_mag": "3.4"
       },
       "iss": {
-        "lat": "-51.159",
-        "lon": "-74.798"
+        "lat": "-41.757",
+        "lon": "-19.954"
       },
       "space_weather": {
         "kp": "3.0",
         "at": "2026-10-06T00:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 213,
+        "gco2_kwh": 218,
         "index": "high"
       },
       "hn_top": {
-        "id": 49973839,
-        "title": "Open Source as We Know It Is Dead"
+        "id": 49973598,
+        "title": "Why Common Lisp is now the best programming language"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "628606a178fb91ade600ba86e3807d09978403247781ade563891116853e5a51"
+  "input_fingerprint": "8e818ca481487fab336f5e89f00c21a02f4940c13a69ba9bc520d053f623bac0"
 }
