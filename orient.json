@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-06T03:22:25.392Z",
+  "generated_utc": "2026-10-06T03:32:42.117Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2618,
-    "frame_hash": "264a40d59fa62b6ec78a3cc71bc21ad8a047833f1f72851fd33c0a30fee78bc9",
-    "utc": "2026-10-06T03:22:19.296Z"
+    "seq": 2619,
+    "frame_hash": "7f47b4fdc3bc27f4f7f59d68bfb7f3b0652eb22b4a91aad12d5085c447271465",
+    "utc": "2026-10-06T03:32:35.790Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2619,
-      "head_frame": "264a40d59fa62b6ec78a3cc71bc21ad8a047833f1f72851fd33c0a30fee78bc9"
+      "count": 2620,
+      "head_frame": "7f47b4fdc3bc27f4f7f59d68bfb7f3b0652eb22b4a91aad12d5085c447271465"
     },
     "world": {
-      "count": 2523,
-      "head_frame": "90358ffd521239cfd82b032dee44c248736507264cb1b46c828fb74493733441"
+      "count": 2524,
+      "head_frame": "9dd8b49a8369a98f88338beedd6a0520b6cff51db489e2274d7fd8c98eed90e3"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "90358ffd521239cfd82b032dee44c248736507264cb1b46c828fb74493733441",
-    "seq": 2522,
-    "utc": "2026-10-06T03:22:21.757Z",
-    "tick": 2618,
-    "tick_frame": "264a40d59fa62b6ec78a3cc71bc21ad8a047833f1f72851fd33c0a30fee78bc9",
+    "frame_hash": "9dd8b49a8369a98f88338beedd6a0520b6cff51db489e2274d7fd8c98eed90e3",
+    "seq": 2523,
+    "utc": "2026-10-06T03:32:38.392Z",
+    "tick": 2619,
+    "tick_frame": "7f47b4fdc3bc27f4f7f59d68bfb7f3b0652eb22b4a91aad12d5085c447271465",
     "data": {
       "btc_block_height": {
         "height": 970123
       },
       "btc_usd": {
-        "spot": "85553.545"
+        "spot": "85376.705"
       },
       "fx_usd": {
         "EUR": "0.8921",
@@ -58,23 +58,23 @@
         "CNY": "6.7145"
       },
       "crypto_market": {
-        "total_mcap_usd": "2922040413942",
+        "total_mcap_usd": "2922112183990",
         "btc_dominance_pct": "58.7"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 72906
+        "tx_count": 74765
       },
       "earthquakes_past_hour": {
-        "count": 9,
-        "max_mag": "2.2"
+        "count": 12,
+        "max_mag": "2.4"
       },
       "iss": {
-        "lat": "-13.044",
-        "lon": "35.098"
+        "lat": "18.077",
+        "lon": "57.885"
       },
       "space_weather": {
         "kp": "3.0",
@@ -85,8 +85,8 @@
         "index": "high"
       },
       "hn_top": {
-        "id": 49969183,
-        "title": "Beam: Reflection's 501B open-weight model"
+        "id": 49971921,
+        "title": "Example.com just launched the biggest redesign in decades"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "346a0e5db80934c2b10e496f9ed5a0892b47cdf07213e745d8c8e6667f5affe6"
+  "input_fingerprint": "e47bf1f2d7b0cbac663e25e5dff029e9f9ddb721ec7744d36401875d42673ae2"
 }
