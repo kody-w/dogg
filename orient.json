@@ -1,20 +1,22 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-06T18:49:51.185Z",
+  "generated_utc": "2026-10-06T19:00:17.022Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2708,
-    "frame_hash": "c3c182f782aa99e91cd0253a938567d89e6061d275d911ddef099fe13ce3f6bf",
-    "utc": "2026-10-06T18:49:44.175Z"
+    "seq": 2709,
+    "frame_hash": "bc82968ddc34e5f6534609d237c1d6c10d9d5af3b38ede6f3e1d7b041fc51800",
+    "utc": "2026-10-06T19:00:04.192Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
     "world": {
-      "state": "current",
+      "state": "partial",
       "ticks_behind": 0,
-      "sources_failed": [],
+      "sources_failed": [
+        "crypto_market"
+      ],
       "last_refresh": "ok",
       "retained_last_good": false
     },
@@ -26,12 +28,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2709,
-      "head_frame": "c3c182f782aa99e91cd0253a938567d89e6061d275d911ddef099fe13ce3f6bf"
+      "count": 2710,
+      "head_frame": "bc82968ddc34e5f6534609d237c1d6c10d9d5af3b38ede6f3e1d7b041fc51800"
     },
     "world": {
-      "count": 2613,
-      "head_frame": "03b3ebf63941bc9d8e7161044751fed41e92a6f15dd8eaac3e84cf9f40330967"
+      "count": 2614,
+      "head_frame": "f3d7e8467ccf6c0e8bdead637cd58168026a3d6b471fc044daaadf77a4306eb0"
     },
     "registry": {
       "count": 25,
@@ -39,17 +41,17 @@
     }
   },
   "world": {
-    "frame_hash": "03b3ebf63941bc9d8e7161044751fed41e92a6f15dd8eaac3e84cf9f40330967",
-    "seq": 2612,
-    "utc": "2026-10-06T18:49:46.762Z",
-    "tick": 2708,
-    "tick_frame": "c3c182f782aa99e91cd0253a938567d89e6061d275d911ddef099fe13ce3f6bf",
+    "frame_hash": "f3d7e8467ccf6c0e8bdead637cd58168026a3d6b471fc044daaadf77a4306eb0",
+    "seq": 2613,
+    "utc": "2026-10-06T19:00:12.731Z",
+    "tick": 2709,
+    "tick_frame": "bc82968ddc34e5f6534609d237c1d6c10d9d5af3b38ede6f3e1d7b041fc51800",
     "data": {
       "btc_block_height": {
-        "height": 970214
+        "height": 970216
       },
       "btc_usd": {
-        "spot": "85515.105"
+        "spot": "85494.645"
       },
       "fx_usd": {
         "EUR": "0.8921",
@@ -57,24 +59,20 @@
         "JPY": "157.9821",
         "CNY": "6.7145"
       },
-      "crypto_market": {
-        "total_mcap_usd": "2925813725987",
-        "btc_dominance_pct": "58.7"
-      },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 78841
+        "tx_count": 74510
       },
       "earthquakes_past_hour": {
         "count": 6,
         "max_mag": "5.5"
       },
       "iss": {
-        "lat": "-18.253",
-        "lon": "154.885"
+        "lat": "13.315",
+        "lon": "178.021"
       },
       "space_weather": {
         "kp": "1.67",
@@ -92,15 +90,15 @@
         "top_by_volume": [
           {
             "question": "Will Spain win on 2026-10-06?",
-            "yes_price": "0.775"
-          },
-          {
-            "question": "Counter-Strike: FURIA vs Aurora Gaming (BO3) - ESL Pro League Group Stage",
-            "yes_price": "0.005"
+            "yes_price": "0.755"
           },
           {
             "question": "Counter-Strike: Team Falcons vs Natus Vincere (BO3) - ESL Pro League Group Stage",
             "yes_price": "0.575"
+          },
+          {
+            "question": "Counter-Strike: FURIA vs Aurora Gaming (BO3) - ESL Pro League Group Stage",
+            "yes_price": "0.0005"
           }
         ]
       }
@@ -264,5 +262,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "3080aded05df4e8fbd70cdc4b45b30a0dd86ba75dd9ace33e7e5a1009cf30594"
+  "input_fingerprint": "ce7356631e0d0d6896adf9d91a5309b258a7d9a4ee2b15c8bbfa1184a1f99827"
 }
