@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-06T23:59:51.377Z",
+  "generated_utc": "2026-10-07T00:10:09.014Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2738,
-    "frame_hash": "fe06253299ca77abe9525a31005d62696014bcb275cc025b871839a45023d95a",
-    "utc": "2026-10-06T23:59:43.933Z"
+    "seq": 2739,
+    "frame_hash": "7c2af0ebc3b9b72c45f40cd5d7e94868316dbb3d696bc002f96c0dfdf224ebdf",
+    "utc": "2026-10-07T00:10:02.434Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2739,
-      "head_frame": "fe06253299ca77abe9525a31005d62696014bcb275cc025b871839a45023d95a"
+      "count": 2740,
+      "head_frame": "7c2af0ebc3b9b72c45f40cd5d7e94868316dbb3d696bc002f96c0dfdf224ebdf"
     },
     "world": {
-      "count": 2643,
-      "head_frame": "3eaf4ff2184d0431007c9cba0968551a6c8154d7d7c0e9c3eda76fd9ff16b007"
+      "count": 2644,
+      "head_frame": "af55908659718ed4034dd7c6cd33494a5888e6f82fc5011c4bc36e9e750d18f9"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "3eaf4ff2184d0431007c9cba0968551a6c8154d7d7c0e9c3eda76fd9ff16b007",
-    "seq": 2642,
-    "utc": "2026-10-06T23:59:46.509Z",
-    "tick": 2738,
-    "tick_frame": "fe06253299ca77abe9525a31005d62696014bcb275cc025b871839a45023d95a",
+    "frame_hash": "af55908659718ed4034dd7c6cd33494a5888e6f82fc5011c4bc36e9e750d18f9",
+    "seq": 2643,
+    "utc": "2026-10-07T00:10:04.830Z",
+    "tick": 2739,
+    "tick_frame": "7c2af0ebc3b9b72c45f40cd5d7e94868316dbb3d696bc002f96c0dfdf224ebdf",
     "data": {
       "btc_block_height": {
-        "height": 970255
+        "height": 970256
       },
       "btc_usd": {
-        "spot": "85546.015"
+        "spot": "85509.03"
       },
       "fx_usd": {
         "EUR": "0.8921",
@@ -58,7 +58,7 @@
         "CNY": "6.7145"
       },
       "crypto_market": {
-        "total_mcap_usd": "2923527799813",
+        "total_mcap_usd": "2919393824097",
         "btc_dominance_pct": "58.7"
       },
       "btc_fees": {
@@ -66,33 +66,33 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 70264
+        "tx_count": 73561
       },
       "earthquakes_past_hour": {
-        "count": 6,
-        "max_mag": "2.0"
+        "count": 4,
+        "max_mag": "2.2"
       },
       "iss": {
-        "lat": "51.150",
-        "lon": "-166.651"
+        "lat": "32.079",
+        "lon": "-121.030"
       },
       "space_weather": {
-        "kp": "2.0",
-        "at": "2026-10-06T18:00:00"
+        "kp": "2.33",
+        "at": "2026-10-06T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 222,
+        "gco2_kwh": 216,
         "index": "high"
       },
       "hn_top": {
         "id": 49984923,
-        "title": "Sharing AI Progress in Mathematics"
+        "title": "Sharing AI progress in mathematics"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Los Angeles Dodgers vs. Atlanta Braves",
-            "yes_price": "0.855"
+            "yes_price": "0.875"
           },
           {
             "question": "LoL: GAM Esports vs Shopify Rebellion (BO3) - Demacia Cup Global Invitational Group Stage",
@@ -100,7 +100,7 @@
           },
           {
             "question": "Will Argentina win on 2026-10-06?",
-            "yes_price": "0.9545"
+            "yes_price": "0.915"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "c9a0fb8d7993c6d649aa088167784d8f22690f48a0699df99ddf9aa64bd64a3a"
+  "input_fingerprint": "57454bc4e1cce18ddd7cd9322f3ee630a5f25998b73a3a5cbbed10779bf5186c"
 }
