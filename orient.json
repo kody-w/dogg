@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-07T01:22:10.592Z",
+  "generated_utc": "2026-10-07T01:32:32.887Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2746,
-    "frame_hash": "87fd7fc91f0b5524c842fcf4d8a10b9e543a655d6ede86021522096433ea2a49",
-    "utc": "2026-10-07T01:22:03.855Z"
+    "seq": 2747,
+    "frame_hash": "cffdd2a1cf53063fc3eb78defb082a66ce56cbfedc717708950be20e389b8207",
+    "utc": "2026-10-07T01:32:25.589Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2747,
-      "head_frame": "87fd7fc91f0b5524c842fcf4d8a10b9e543a655d6ede86021522096433ea2a49"
+      "count": 2748,
+      "head_frame": "cffdd2a1cf53063fc3eb78defb082a66ce56cbfedc717708950be20e389b8207"
     },
     "world": {
-      "count": 2651,
-      "head_frame": "73ed0b1f38d867afc5b96d12a0f41f55e34f7f1be85683e1370b1652e4c6cc7a"
+      "count": 2652,
+      "head_frame": "6094c3bedca5c1fd532eaae934cb021a9d8d98371c19f79cad8519ab2e04a44c"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "73ed0b1f38d867afc5b96d12a0f41f55e34f7f1be85683e1370b1652e4c6cc7a",
-    "seq": 2650,
-    "utc": "2026-10-07T01:22:06.649Z",
-    "tick": 2746,
-    "tick_frame": "87fd7fc91f0b5524c842fcf4d8a10b9e543a655d6ede86021522096433ea2a49",
+    "frame_hash": "6094c3bedca5c1fd532eaae934cb021a9d8d98371c19f79cad8519ab2e04a44c",
+    "seq": 2651,
+    "utc": "2026-10-07T01:32:28.046Z",
+    "tick": 2747,
+    "tick_frame": "cffdd2a1cf53063fc3eb78defb082a66ce56cbfedc717708950be20e389b8207",
     "data": {
       "btc_block_height": {
         "height": 970267
       },
       "btc_usd": {
-        "spot": "85361.055"
+        "spot": "85323.785"
       },
       "fx_usd": {
         "EUR": "0.8887",
@@ -58,30 +58,30 @@
         "CNY": "6.7119"
       },
       "crypto_market": {
-        "total_mcap_usd": "2918370154040",
+        "total_mcap_usd": "2912528138051",
         "btc_dominance_pct": "58.7"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 70158
+        "tx_count": 73121
       },
       "earthquakes_past_hour": {
-        "count": 11,
-        "max_mag": "2.7"
+        "count": 8,
+        "max_mag": "2.2"
       },
       "iss": {
-        "lat": "41.065",
-        "lon": "113.545"
+        "lat": "51.291",
+        "lon": "168.378"
       },
       "space_weather": {
         "kp": "2.33",
         "at": "2026-10-06T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 203,
+        "gco2_kwh": 196,
         "index": "high"
       },
       "hn_top": {
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Los Angeles Dodgers vs. Atlanta Braves",
-            "yes_price": "0.9995"
-          },
-          {
             "question": "Will Argentina win on 2026-10-06?",
             "yes_price": "0.9995"
           },
           {
             "question": "LoL: GAM Esports vs Shopify Rebellion (BO3) - Demacia Cup Global Invitational Group Stage",
             "yes_price": "0.435"
+          },
+          {
+            "question": "US announces end of Iranian blockade by October 15, 2026?",
+            "yes_price": "0.135"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "56ee2805862d32f727af89c13e31e452a00093ec0154bcaedebaca277f5d5030"
+  "input_fingerprint": "edc6360e1bb4689749abc4618b695b472ec8520d7cbad59ce7858e3e236ab302"
 }
