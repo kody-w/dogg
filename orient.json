@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-07T19:31:59.784Z",
+  "generated_utc": "2026-10-07T23:49:29.683Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2754,
-    "frame_hash": "3ad5cd8b57896c14785fac9dc253fedaea55cea434654c9bbaa8f5f154d1e06d",
-    "utc": "2026-10-07T19:31:54.323Z"
+    "seq": 2755,
+    "frame_hash": "26d4552228b957cdc1fed6e91275e8035c9bf9b3300ddb66c98cfc938e680b2e",
+    "utc": "2026-10-07T23:49:25.643Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2755,
-      "head_frame": "3ad5cd8b57896c14785fac9dc253fedaea55cea434654c9bbaa8f5f154d1e06d"
+      "count": 2756,
+      "head_frame": "26d4552228b957cdc1fed6e91275e8035c9bf9b3300ddb66c98cfc938e680b2e"
     },
     "world": {
-      "count": 2659,
-      "head_frame": "fe533d04e172e4a184a3c4ece83ba5f77609845dba2bf31f7f73dd0f07bb6cf8"
+      "count": 2660,
+      "head_frame": "6680393def87f49aab137718e25290d6db169e844e40da8d067e23092b325d37"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "fe533d04e172e4a184a3c4ece83ba5f77609845dba2bf31f7f73dd0f07bb6cf8",
-    "seq": 2658,
-    "utc": "2026-10-07T19:31:58.487Z",
-    "tick": 2754,
-    "tick_frame": "3ad5cd8b57896c14785fac9dc253fedaea55cea434654c9bbaa8f5f154d1e06d",
+    "frame_hash": "6680393def87f49aab137718e25290d6db169e844e40da8d067e23092b325d37",
+    "seq": 2659,
+    "utc": "2026-10-07T23:49:28.970Z",
+    "tick": 2755,
+    "tick_frame": "26d4552228b957cdc1fed6e91275e8035c9bf9b3300ddb66c98cfc938e680b2e",
     "data": {
       "btc_block_height": {
-        "height": 970380
+        "height": 970408
       },
       "btc_usd": {
-        "spot": "83435.805"
+        "spot": "83295.205"
       },
       "fx_usd": {
         "EUR": "0.8887",
@@ -58,31 +58,31 @@
         "CNY": "6.7119"
       },
       "crypto_market": {
-        "total_mcap_usd": "2845965653569",
-        "btc_dominance_pct": "58.8"
+        "total_mcap_usd": "2843917508680",
+        "btc_dominance_pct": "58.7"
       },
       "btc_fees": {
-        "fastest_sat_vb": 4,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 81855
+        "tx_count": 68661
       },
       "earthquakes_past_hour": {
-        "count": 9,
-        "max_mag": "2.8"
+        "count": 7,
+        "max_mag": "2.6"
       },
       "iss": {
-        "lat": "-30.877",
-        "lon": "125.195"
+        "lat": "-41.316",
+        "lon": "-48.365"
       },
       "space_weather": {
-        "kp": "2.67",
-        "at": "2026-10-07T15:00:00"
+        "kp": "2.33",
+        "at": "2026-10-07T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 113,
-        "index": "moderate"
+        "gco2_kwh": 47,
+        "index": "low"
       },
       "hn_top": {
         "id": 49996437,
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
+            "question": "Will Chris Van Hollen win the 2028 Democratic presidential nomination?",
+            "yes_price": "0.0015"
+          },
+          {
+            "question": "Putin out as President of Russia by December 31, 2026?",
+            "yes_price": "0.033"
+          },
+          {
             "question": "Will Raphael Warnock win the 2028 Democratic presidential nomination?",
             "yes_price": "0.0075"
-          },
-          {
-            "question": "Will Chris Van Hollen win the 2028 Democratic presidential nomination?",
-            "yes_price": "0.002"
-          },
-          {
-            "question": "Counter-Strike: Spirit vs M80 - Map 2 Winner",
-            "yes_price": "0.535"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "678e8ee2c190cca422d17aa1ecd9263b17e319aeabf4d84fe147fe301fb1c245"
+  "input_fingerprint": "3e5de077bed980bbc8c35b7dfe904ccd18ad8f34745c2d13c14914c6d21cd3f4"
 }
