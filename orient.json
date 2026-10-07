@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-07T02:13:47.386Z",
+  "generated_utc": "2026-10-07T06:15:44.306Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2751,
-    "frame_hash": "ba2aaa3fc0f49ae0c3eabc16e5d0536780365436a30cc6f6059976deb7f91b58",
-    "utc": "2026-10-07T02:13:40.847Z"
+    "seq": 2752,
+    "frame_hash": "30f7a57b15611a9d28da922349666b5671cfd6c09fe3e95f6fa65496fd26ad0b",
+    "utc": "2026-10-07T06:15:40.553Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2752,
-      "head_frame": "ba2aaa3fc0f49ae0c3eabc16e5d0536780365436a30cc6f6059976deb7f91b58"
+      "count": 2753,
+      "head_frame": "30f7a57b15611a9d28da922349666b5671cfd6c09fe3e95f6fa65496fd26ad0b"
     },
     "world": {
-      "count": 2656,
-      "head_frame": "242f9bbd524750de0b1a29e1d73c46a8a3f6b3c379ede6eac45ea709bac943a5"
+      "count": 2657,
+      "head_frame": "78d5d14d06f2ed7636d7beb3db7e1ccef364c4704801dea8636ec1fa28eb75dd"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "242f9bbd524750de0b1a29e1d73c46a8a3f6b3c379ede6eac45ea709bac943a5",
-    "seq": 2655,
-    "utc": "2026-10-07T02:13:43.478Z",
-    "tick": 2751,
-    "tick_frame": "ba2aaa3fc0f49ae0c3eabc16e5d0536780365436a30cc6f6059976deb7f91b58",
+    "frame_hash": "78d5d14d06f2ed7636d7beb3db7e1ccef364c4704801dea8636ec1fa28eb75dd",
+    "seq": 2656,
+    "utc": "2026-10-07T06:15:43.606Z",
+    "tick": 2752,
+    "tick_frame": "30f7a57b15611a9d28da922349666b5671cfd6c09fe3e95f6fa65496fd26ad0b",
     "data": {
       "btc_block_height": {
-        "height": 970271
+        "height": 970301
       },
       "btc_usd": {
-        "spot": "83919.765"
+        "spot": "84275.005"
       },
       "fx_usd": {
         "EUR": "0.8887",
@@ -58,30 +58,30 @@
         "CNY": "6.7119"
       },
       "crypto_market": {
-        "total_mcap_usd": "2833186127571",
-        "btc_dominance_pct": "58.7"
+        "total_mcap_usd": "2879489557925",
+        "btc_dominance_pct": "58.8"
       },
       "btc_fees": {
         "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 71077
+        "tx_count": 74405
       },
       "earthquakes_past_hour": {
-        "count": 7,
-        "max_mag": "2.2"
+        "count": 6,
+        "max_mag": "3.1"
       },
       "iss": {
-        "lat": "-49.897",
-        "lon": "-53.682"
+        "lat": "45.792",
+        "lon": "121.586"
       },
       "space_weather": {
-        "kp": "2.33",
-        "at": "2026-10-06T21:00:00"
+        "kp": "1.33",
+        "at": "2026-10-07T03:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 192,
+        "gco2_kwh": 218,
         "index": "high"
       },
       "hn_top": {
@@ -91,8 +91,8 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will Argentina win on 2026-10-06?",
-            "yes_price": "0.9995"
+            "question": "Will Raphael Warnock win the 2028 Democratic presidential nomination?",
+            "yes_price": "0.007"
           },
           {
             "question": "LoL: GAM Esports vs Shopify Rebellion (BO3) - Demacia Cup Global Invitational Group Stage",
@@ -100,7 +100,7 @@
           },
           {
             "question": "US announces end of Iranian blockade by October 15, 2026?",
-            "yes_price": "0.135"
+            "yes_price": "0.095"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "7de398c2c812eb8280383ba6ba70027823e1ad05f559ce995623d41fed6d1fb5"
+  "input_fingerprint": "a7788539d444325735f000d5a8cfb98e5e5aa5c190049cc30ca95d4818c5a5c0"
 }
