@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-07T13:41:12.546Z",
+  "generated_utc": "2026-10-07T19:31:59.784Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2753,
-    "frame_hash": "1f989e3462bfccd227f055dfbe5ca7e5fc7663ab164214f00ad5515e117bd974",
-    "utc": "2026-10-07T13:41:05.642Z"
+    "seq": 2754,
+    "frame_hash": "3ad5cd8b57896c14785fac9dc253fedaea55cea434654c9bbaa8f5f154d1e06d",
+    "utc": "2026-10-07T19:31:54.323Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2754,
-      "head_frame": "1f989e3462bfccd227f055dfbe5ca7e5fc7663ab164214f00ad5515e117bd974"
+      "count": 2755,
+      "head_frame": "3ad5cd8b57896c14785fac9dc253fedaea55cea434654c9bbaa8f5f154d1e06d"
     },
     "world": {
-      "count": 2658,
-      "head_frame": "edc45ec2f93da0a0130ef859b0d438e8d54f2478e792636eeaf4502d52710417"
+      "count": 2659,
+      "head_frame": "fe533d04e172e4a184a3c4ece83ba5f77609845dba2bf31f7f73dd0f07bb6cf8"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "edc45ec2f93da0a0130ef859b0d438e8d54f2478e792636eeaf4502d52710417",
-    "seq": 2657,
-    "utc": "2026-10-07T13:41:11.607Z",
-    "tick": 2753,
-    "tick_frame": "1f989e3462bfccd227f055dfbe5ca7e5fc7663ab164214f00ad5515e117bd974",
+    "frame_hash": "fe533d04e172e4a184a3c4ece83ba5f77609845dba2bf31f7f73dd0f07bb6cf8",
+    "seq": 2658,
+    "utc": "2026-10-07T19:31:58.487Z",
+    "tick": 2754,
+    "tick_frame": "3ad5cd8b57896c14785fac9dc253fedaea55cea434654c9bbaa8f5f154d1e06d",
     "data": {
       "btc_block_height": {
-        "height": 970347
+        "height": 970380
       },
       "btc_usd": {
-        "spot": "83117.575"
+        "spot": "83435.805"
       },
       "fx_usd": {
         "EUR": "0.8887",
@@ -58,49 +58,49 @@
         "CNY": "6.7119"
       },
       "crypto_market": {
-        "total_mcap_usd": "2839644037946",
+        "total_mcap_usd": "2845965653569",
         "btc_dominance_pct": "58.8"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 4,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 74614
+        "tx_count": 81855
       },
       "earthquakes_past_hour": {
-        "count": 2,
-        "max_mag": "2.0"
+        "count": 9,
+        "max_mag": "2.8"
       },
       "iss": {
-        "lat": "30.536",
-        "lon": "-89.908"
+        "lat": "-30.877",
+        "lon": "125.195"
       },
       "space_weather": {
-        "kp": "0.67",
-        "at": "2026-10-07T09:00:00"
+        "kp": "2.67",
+        "at": "2026-10-07T15:00:00"
       },
       "grid_carbon_gb": {
         "gco2_kwh": 113,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 49991227,
-        "title": "Shipping JPEG XL in Chrome"
+        "id": 49996437,
+        "title": "Claude Haiku 5.5"
       },
       "prediction_markets": {
         "top_by_volume": [
-          {
-            "question": "China Open: Alina Charaeva vs Qinwen Zheng",
-            "yes_price": "0.0005"
-          },
           {
             "question": "Will Raphael Warnock win the 2028 Democratic presidential nomination?",
             "yes_price": "0.0075"
           },
           {
-            "question": "Counter-Strike: FURIA vs 9z (BO3) - ESL Pro League Group Stage",
-            "yes_price": "0.9905"
+            "question": "Will Chris Van Hollen win the 2028 Democratic presidential nomination?",
+            "yes_price": "0.002"
+          },
+          {
+            "question": "Counter-Strike: Spirit vs M80 - Map 2 Winner",
+            "yes_price": "0.535"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "82bf024ad0954ec98f3b9ffb568699666a15d379ba5d6a502cb3f4691cae0530"
+  "input_fingerprint": "678e8ee2c190cca422d17aa1ecd9263b17e319aeabf4d84fe147fe301fb1c245"
 }
