@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-07T23:49:29.683Z",
+  "generated_utc": "2026-10-08T04:00:43.505Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2755,
-    "frame_hash": "26d4552228b957cdc1fed6e91275e8035c9bf9b3300ddb66c98cfc938e680b2e",
-    "utc": "2026-10-07T23:49:25.643Z"
+    "seq": 2756,
+    "frame_hash": "c0e76487db13447f07bf486f036ac3a91c5c3efda19a8ee73f0583799457a1fe",
+    "utc": "2026-10-08T04:00:39.084Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2756,
-      "head_frame": "26d4552228b957cdc1fed6e91275e8035c9bf9b3300ddb66c98cfc938e680b2e"
+      "count": 2757,
+      "head_frame": "c0e76487db13447f07bf486f036ac3a91c5c3efda19a8ee73f0583799457a1fe"
     },
     "world": {
-      "count": 2660,
-      "head_frame": "6680393def87f49aab137718e25290d6db169e844e40da8d067e23092b325d37"
+      "count": 2661,
+      "head_frame": "5f78392124dc06532d7f3e8717290f782295ca6b31656b37d6aac6a67ba76cf3"
     },
     "registry": {
       "count": 25,
@@ -39,26 +39,26 @@
     }
   },
   "world": {
-    "frame_hash": "6680393def87f49aab137718e25290d6db169e844e40da8d067e23092b325d37",
-    "seq": 2659,
-    "utc": "2026-10-07T23:49:28.970Z",
-    "tick": 2755,
-    "tick_frame": "26d4552228b957cdc1fed6e91275e8035c9bf9b3300ddb66c98cfc938e680b2e",
+    "frame_hash": "5f78392124dc06532d7f3e8717290f782295ca6b31656b37d6aac6a67ba76cf3",
+    "seq": 2660,
+    "utc": "2026-10-08T04:00:42.555Z",
+    "tick": 2756,
+    "tick_frame": "c0e76487db13447f07bf486f036ac3a91c5c3efda19a8ee73f0583799457a1fe",
     "data": {
       "btc_block_height": {
-        "height": 970408
+        "height": 970434
       },
       "btc_usd": {
-        "spot": "83295.205"
+        "spot": "82634.755"
       },
       "fx_usd": {
-        "EUR": "0.8887",
-        "GBP": "0.7540",
-        "JPY": "158.1454",
-        "CNY": "6.7119"
+        "EUR": "0.8929",
+        "GBP": "0.7565",
+        "JPY": "158.1005",
+        "CNY": "6.7125"
       },
       "crypto_market": {
-        "total_mcap_usd": "2843917508680",
+        "total_mcap_usd": "2833231745135",
         "btc_dominance_pct": "58.7"
       },
       "btc_fees": {
@@ -66,22 +66,22 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 68661
+        "tx_count": 74441
       },
       "earthquakes_past_hour": {
-        "count": 7,
-        "max_mag": "2.6"
+        "count": 4,
+        "max_mag": "4.9"
       },
       "iss": {
-        "lat": "-41.316",
-        "lon": "-48.365"
+        "lat": "36.827",
+        "lon": "167.873"
       },
       "space_weather": {
-        "kp": "2.33",
-        "at": "2026-10-07T18:00:00"
+        "kp": "1.0",
+        "at": "2026-10-08T00:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 47,
+        "gco2_kwh": 50,
         "index": "low"
       },
       "hn_top": {
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
+            "question": "Tampa Bay Rays vs. New York Yankees",
+            "yes_price": "0.9995"
+          },
+          {
+            "question": "Las Vegas Aces vs. Golden State Valkyries",
+            "yes_price": "0.005"
+          },
+          {
             "question": "Will Chris Van Hollen win the 2028 Democratic presidential nomination?",
             "yes_price": "0.0015"
-          },
-          {
-            "question": "Putin out as President of Russia by December 31, 2026?",
-            "yes_price": "0.033"
-          },
-          {
-            "question": "Will Raphael Warnock win the 2028 Democratic presidential nomination?",
-            "yes_price": "0.0075"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "3e5de077bed980bbc8c35b7dfe904ccd18ad8f34745c2d13c14914c6d21cd3f4"
+  "input_fingerprint": "f26ebed7adf3e3da339d5e497d50283ea2be8a3246e227699f6087fdc8c4f249"
 }
