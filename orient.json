@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-08T11:20:11.138Z",
+  "generated_utc": "2026-10-08T17:55:54.497Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2757,
-    "frame_hash": "b931671e7b34fb3d0c57bc2bce2912a78fa602b3f204a3a4bd8a7c4f40d94007",
-    "utc": "2026-10-08T11:20:07.291Z"
+    "seq": 2758,
+    "frame_hash": "df57d13178def1a62678f64bcaeaec2ee1a74872521f47cd667fc0c666748fce",
+    "utc": "2026-10-08T17:55:50.514Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2758,
-      "head_frame": "b931671e7b34fb3d0c57bc2bce2912a78fa602b3f204a3a4bd8a7c4f40d94007"
+      "count": 2759,
+      "head_frame": "df57d13178def1a62678f64bcaeaec2ee1a74872521f47cd667fc0c666748fce"
     },
     "world": {
-      "count": 2662,
-      "head_frame": "a5dd91669fc62d5d97cd4e573a11accce8bb55f2077adea148ce6dfc07da7cf0"
+      "count": 2663,
+      "head_frame": "29f14a047a0788930a98c3dad3f4d70327b3056fc6c7a9a79779bbefa5cfd6ee"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "a5dd91669fc62d5d97cd4e573a11accce8bb55f2077adea148ce6dfc07da7cf0",
-    "seq": 2661,
-    "utc": "2026-10-08T11:20:10.417Z",
-    "tick": 2757,
-    "tick_frame": "b931671e7b34fb3d0c57bc2bce2912a78fa602b3f204a3a4bd8a7c4f40d94007",
+    "frame_hash": "29f14a047a0788930a98c3dad3f4d70327b3056fc6c7a9a79779bbefa5cfd6ee",
+    "seq": 2662,
+    "utc": "2026-10-08T17:55:53.732Z",
+    "tick": 2758,
+    "tick_frame": "df57d13178def1a62678f64bcaeaec2ee1a74872521f47cd667fc0c666748fce",
     "data": {
       "btc_block_height": {
-        "height": 970483
+        "height": 970516
       },
       "btc_usd": {
-        "spot": "82338.025"
+        "spot": "80656.165"
       },
       "fx_usd": {
         "EUR": "0.8929",
@@ -58,49 +58,49 @@
         "CNY": "6.7125"
       },
       "crypto_market": {
-        "total_mcap_usd": "2782974244690",
-        "btc_dominance_pct": "59.3"
+        "total_mcap_usd": "2728802329090",
+        "btc_dominance_pct": "59.2"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
-        "hour_sat_vb": 1
+        "fastest_sat_vb": 3,
+        "hour_sat_vb": 3
       },
       "btc_mempool": {
-        "tx_count": 77827
+        "tx_count": 85976
       },
       "earthquakes_past_hour": {
-        "count": 9,
-        "max_mag": "2.3"
+        "count": 2,
+        "max_mag": "1.9"
       },
       "iss": {
-        "lat": "25.459",
-        "lon": "-65.665"
+        "lat": "39.344",
+        "lon": "-48.432"
       },
       "space_weather": {
-        "kp": "1.0",
-        "at": "2026-10-08T06:00:00"
+        "kp": "2.0",
+        "at": "2026-10-08T12:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 51,
-        "index": "low"
+        "gco2_kwh": 116,
+        "index": "moderate"
       },
       "hn_top": {
-        "id": 50002008,
-        "title": "“Math 2.0” will need to value mathematical progress more holistically"
+        "id": 50008427,
+        "title": "Whistle: Speech to Text in 16.9 MB"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Dota 2: Team Yandex vs LGD Gaming - Game 2 Winner",
-            "yes_price": "0.22"
+            "question": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
+            "yes_price": "0.135"
           },
           {
-            "question": "Will Chris Van Hollen win the 2028 Democratic presidential nomination?",
-            "yes_price": "0.0015"
+            "question": "Dota 2: PARIVISION vs Team Yandex - Game 1 Winner",
+            "yes_price": "0.855"
           },
           {
-            "question": "LoL: Natus Vincere vs JD Gaming (BO3) - Demacia Cup Global Invitational Group Stage",
-            "yes_price": "0.375"
+            "question": "Will Donald Trump win the Nobel Peace Prize in 2026?",
+            "yes_price": "0.0035"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "4956fc66b02abb68880058e7097e2b3c28d5ec394c0465db497a1a55671021b7"
+  "input_fingerprint": "a66e33606df4edf1c7f4a7e2d1fb9d7052e1d66e701c85aaa2134ee4b435b19e"
 }
