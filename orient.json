@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-09T21:16:54.581Z",
+  "generated_utc": "2026-10-10T01:04:13.418Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2763,
-    "frame_hash": "a8816d223ee53a4ad0b7148f77dec717360d0bc0cb2a7281b55651d199f7611c",
-    "utc": "2026-10-09T21:16:50.089Z"
+    "seq": 2764,
+    "frame_hash": "f923c2bffe98d6f87ad11005854f8378d6bf5af47fd34ff09b74db67e6c69777",
+    "utc": "2026-10-10T01:04:09.728Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2764,
-      "head_frame": "a8816d223ee53a4ad0b7148f77dec717360d0bc0cb2a7281b55651d199f7611c"
+      "count": 2765,
+      "head_frame": "f923c2bffe98d6f87ad11005854f8378d6bf5af47fd34ff09b74db67e6c69777"
     },
     "world": {
-      "count": 2668,
-      "head_frame": "5e5a9ae4194729c3644794bec16aab72a73c33734c095d88b6abf64d775b811b"
+      "count": 2669,
+      "head_frame": "ca3baf850b216d25cb579e8a3dbf635d509cb07067412104628e751dce0c51e3"
     },
     "registry": {
       "count": 25,
@@ -39,68 +39,68 @@
     }
   },
   "world": {
-    "frame_hash": "5e5a9ae4194729c3644794bec16aab72a73c33734c095d88b6abf64d775b811b",
-    "seq": 2667,
-    "utc": "2026-10-09T21:16:53.311Z",
-    "tick": 2763,
-    "tick_frame": "a8816d223ee53a4ad0b7148f77dec717360d0bc0cb2a7281b55651d199f7611c",
+    "frame_hash": "ca3baf850b216d25cb579e8a3dbf635d509cb07067412104628e751dce0c51e3",
+    "seq": 2668,
+    "utc": "2026-10-10T01:04:12.464Z",
+    "tick": 2764,
+    "tick_frame": "f923c2bffe98d6f87ad11005854f8378d6bf5af47fd34ff09b74db67e6c69777",
     "data": {
       "btc_block_height": {
-        "height": 970676
+        "height": 970702
       },
       "btc_usd": {
-        "spot": "82496.32"
+        "spot": "82517.395"
       },
       "fx_usd": {
-        "EUR": "0.8923",
-        "GBP": "0.7565",
-        "JPY": "158.0335",
-        "CNY": "6.7153"
+        "EUR": "0.8924",
+        "GBP": "0.7558",
+        "JPY": "158.2858",
+        "CNY": "6.7065"
       },
       "crypto_market": {
-        "total_mcap_usd": "2794627098685",
-        "btc_dominance_pct": "59.2"
+        "total_mcap_usd": "2799801028890",
+        "btc_dominance_pct": "59.1"
       },
       "btc_fees": {
-        "fastest_sat_vb": 7,
-        "hour_sat_vb": 4
+        "fastest_sat_vb": 1,
+        "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 89010
+        "tx_count": 73414
       },
       "earthquakes_past_hour": {
         "count": 6,
-        "max_mag": "6.6"
+        "max_mag": "2.5"
       },
       "iss": {
-        "lat": "3.472",
-        "lon": "117.491"
+        "lat": "11.619",
+        "lon": "-132.329"
       },
       "space_weather": {
-        "kp": "1.33",
-        "at": "2026-10-09T18:00:00"
+        "kp": "2.33",
+        "at": "2026-10-09T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 45,
+        "gco2_kwh": 61,
         "index": "low"
       },
       "hn_top": {
-        "id": 50025935,
-        "title": "No Man Is an Island"
+        "id": 50028275,
+        "title": "REA Reverse – Engineer Anything"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Dota 2: LGD Gaming vs Aurora - Game 2 Winner",
-            "yes_price": "0.0005"
-          },
-          {
             "question": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
-            "yes_price": "0.105"
+            "yes_price": "0.115"
           },
           {
             "question": "US x Iran ceasefire continues through October 12?",
-            "yes_price": "0.9325"
+            "yes_price": "0.942"
+          },
+          {
+            "question": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
+            "yes_price": "0.8895"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "087e698718cf28a3ec9eafb6005f17970f2b6a67e2877e65c5fa5de535390179"
+  "input_fingerprint": "41d9b7a829a8c6b21b6ab3975109120b70b1360b8cd248e8ec57e8f95fd4bbbd"
 }
