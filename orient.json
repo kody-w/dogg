@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-10T18:00:45.153Z",
+  "generated_utc": "2026-10-10T21:40:41.638Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2767,
-    "frame_hash": "9e88a5f4cd0aaea8c34c3a5eaaf4be25bed978a670e1791f235878e233da7d4e",
-    "utc": "2026-10-10T18:00:40.974Z"
+    "seq": 2768,
+    "frame_hash": "8c3c4dbe5e49dcb13a465e5c09659556a15266cee684c0fa0aa94b4edb0493dc",
+    "utc": "2026-10-10T21:40:36.959Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2768,
-      "head_frame": "9e88a5f4cd0aaea8c34c3a5eaaf4be25bed978a670e1791f235878e233da7d4e"
+      "count": 2769,
+      "head_frame": "8c3c4dbe5e49dcb13a465e5c09659556a15266cee684c0fa0aa94b4edb0493dc"
     },
     "world": {
-      "count": 2672,
-      "head_frame": "5d8aeba5003423fe6088f731f114e9e69af91a82661548e28fc52602c3b558ce"
+      "count": 2673,
+      "head_frame": "796d800921d0a032fb38722440fb01b9344dd2173ab88ae6957b67ab09ed7ab4"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "5d8aeba5003423fe6088f731f114e9e69af91a82661548e28fc52602c3b558ce",
-    "seq": 2671,
-    "utc": "2026-10-10T18:00:43.865Z",
-    "tick": 2767,
-    "tick_frame": "9e88a5f4cd0aaea8c34c3a5eaaf4be25bed978a670e1791f235878e233da7d4e",
+    "frame_hash": "796d800921d0a032fb38722440fb01b9344dd2173ab88ae6957b67ab09ed7ab4",
+    "seq": 2672,
+    "utc": "2026-10-10T21:40:40.348Z",
+    "tick": 2768,
+    "tick_frame": "8c3c4dbe5e49dcb13a465e5c09659556a15266cee684c0fa0aa94b4edb0493dc",
     "data": {
       "btc_block_height": {
-        "height": 970801
+        "height": 970832
       },
       "btc_usd": {
-        "spot": "83025.02"
+        "spot": "83000.005"
       },
       "fx_usd": {
         "EUR": "0.8924",
@@ -58,49 +58,49 @@
         "CNY": "6.7065"
       },
       "crypto_market": {
-        "total_mcap_usd": "2816893305571",
-        "btc_dominance_pct": "59.2"
+        "total_mcap_usd": "2816694798944",
+        "btc_dominance_pct": "59.1"
       },
       "btc_fees": {
         "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 76792
+        "tx_count": 78590
       },
       "earthquakes_past_hour": {
-        "count": 9,
-        "max_mag": "2.4"
+        "count": 7,
+        "max_mag": "2.2"
       },
       "iss": {
-        "lat": "27.777",
-        "lon": "-45.828"
+        "lat": "-51.397",
+        "lon": "22.331"
       },
       "space_weather": {
-        "kp": "3.33",
-        "at": "2026-10-10T12:00:00"
+        "kp": "6.67",
+        "at": "2026-10-10T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 86,
+        "gco2_kwh": 51,
         "index": "low"
       },
       "hn_top": {
-        "id": 50034081,
-        "title": "Knuth Reward Check"
+        "id": 49991852,
+        "title": "2D Vehicles"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Counter-Strike: MOUZ vs Spirit (BO3) - ESL Pro League Playoffs",
-            "yes_price": "0.505"
+            "yes_price": "0.9995"
           },
           {
-            "question": "Will FC Barcelona win on 2026-10-10?",
-            "yes_price": "0.992"
+            "question": "Will Real Madrid CF win on 2026-10-10?",
+            "yes_price": "0.9995"
           },
           {
-            "question": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
-            "yes_price": "0.115"
+            "question": "Texas vs. Oklahoma",
+            "yes_price": "0.915"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "1e8a76487174a8e864e8da8587af790259d952a8c50526c652bae864d111984b"
+  "input_fingerprint": "0b4ead9f415ad813a1c882f0f03cbf0685c5048063614810d0639b6172925cd9"
 }
