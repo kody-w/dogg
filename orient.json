@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-11T00:29:19.434Z",
+  "generated_utc": "2026-10-11T06:15:54.035Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2769,
-    "frame_hash": "a0ad2ddbb77fec4555e91ea307bfed15714a2da3e34ba9d875eea363820481db",
-    "utc": "2026-10-11T00:29:15.210Z"
+    "seq": 2770,
+    "frame_hash": "b804ba3f4ab740f267d6bd830eb0e470dbe85d3c9127d870a3bc02264daea977",
+    "utc": "2026-10-11T06:15:49.972Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2770,
-      "head_frame": "a0ad2ddbb77fec4555e91ea307bfed15714a2da3e34ba9d875eea363820481db"
+      "count": 2771,
+      "head_frame": "b804ba3f4ab740f267d6bd830eb0e470dbe85d3c9127d870a3bc02264daea977"
     },
     "world": {
-      "count": 2674,
-      "head_frame": "26b0a3ae482329c678a5a90afa9429220365fba5900a54f99304702f52cd5488"
+      "count": 2675,
+      "head_frame": "aebbb0d2048ae22992d21e7ae6bbe48747f477e6ce8d716d230b4eaf4ffd22d4"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "26b0a3ae482329c678a5a90afa9429220365fba5900a54f99304702f52cd5488",
-    "seq": 2673,
-    "utc": "2026-10-11T00:29:18.148Z",
-    "tick": 2769,
-    "tick_frame": "a0ad2ddbb77fec4555e91ea307bfed15714a2da3e34ba9d875eea363820481db",
+    "frame_hash": "aebbb0d2048ae22992d21e7ae6bbe48747f477e6ce8d716d230b4eaf4ffd22d4",
+    "seq": 2674,
+    "utc": "2026-10-11T06:15:53.262Z",
+    "tick": 2770,
+    "tick_frame": "b804ba3f4ab740f267d6bd830eb0e470dbe85d3c9127d870a3bc02264daea977",
     "data": {
       "btc_block_height": {
-        "height": 970851
+        "height": 970880
       },
       "btc_usd": {
-        "spot": "82888.695"
+        "spot": "82957.855"
       },
       "fx_usd": {
         "EUR": "0.8924",
@@ -58,49 +58,49 @@
         "CNY": "6.7069"
       },
       "crypto_market": {
-        "total_mcap_usd": "2812905748079",
-        "btc_dominance_pct": "59.1"
+        "total_mcap_usd": "2811558385029",
+        "btc_dominance_pct": "59.2"
       },
       "btc_fees": {
         "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 76161
+        "tx_count": 72993
       },
       "earthquakes_past_hour": {
-        "count": 4,
-        "max_mag": "3.1"
+        "count": 7,
+        "max_mag": "2.2"
       },
       "iss": {
-        "lat": "-22.685",
-        "lon": "-100.858"
+        "lat": "46.749",
+        "lon": "95.042"
       },
       "space_weather": {
-        "kp": "5.33",
-        "at": "2026-10-10T21:00:00"
+        "kp": "3.67",
+        "at": "2026-10-11T03:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 66,
+        "gco2_kwh": 78,
         "index": "low"
       },
       "hn_top": {
-        "id": 50037949,
-        "title": "Build your own decision model"
+        "id": 50038634,
+        "title": "WallHop – 12ft.io is gone, so I built a replacement"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Georgia vs. Alabama",
-            "yes_price": "0.495"
+            "question": "Boise State vs. Fresno State",
+            "yes_price": "0.9965"
           },
           {
             "question": "Will Athletic Club win on 2026-10-10?",
             "yes_price": "0.385"
           },
           {
-            "question": "Chicago White Sox vs. Cleveland Guardians",
-            "yes_price": "0.415"
+            "question": "Shanghai Rolex Masters: Ben Shelton vs Arthur Gea",
+            "yes_price": "0.325"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "0eb8dad792d7584229387df46ee4fa480ab5f76d8515c737cae40720643a5e17"
+  "input_fingerprint": "c7d3c047e18a1a1264db9615001866377912d131660bae54cf0e7d42c043f960"
 }
