@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-10T21:40:41.638Z",
+  "generated_utc": "2026-10-11T00:29:19.434Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2768,
-    "frame_hash": "8c3c4dbe5e49dcb13a465e5c09659556a15266cee684c0fa0aa94b4edb0493dc",
-    "utc": "2026-10-10T21:40:36.959Z"
+    "seq": 2769,
+    "frame_hash": "a0ad2ddbb77fec4555e91ea307bfed15714a2da3e34ba9d875eea363820481db",
+    "utc": "2026-10-11T00:29:15.210Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2769,
-      "head_frame": "8c3c4dbe5e49dcb13a465e5c09659556a15266cee684c0fa0aa94b4edb0493dc"
+      "count": 2770,
+      "head_frame": "a0ad2ddbb77fec4555e91ea307bfed15714a2da3e34ba9d875eea363820481db"
     },
     "world": {
-      "count": 2673,
-      "head_frame": "796d800921d0a032fb38722440fb01b9344dd2173ab88ae6957b67ab09ed7ab4"
+      "count": 2674,
+      "head_frame": "26b0a3ae482329c678a5a90afa9429220365fba5900a54f99304702f52cd5488"
     },
     "registry": {
       "count": 25,
@@ -39,26 +39,26 @@
     }
   },
   "world": {
-    "frame_hash": "796d800921d0a032fb38722440fb01b9344dd2173ab88ae6957b67ab09ed7ab4",
-    "seq": 2672,
-    "utc": "2026-10-10T21:40:40.348Z",
-    "tick": 2768,
-    "tick_frame": "8c3c4dbe5e49dcb13a465e5c09659556a15266cee684c0fa0aa94b4edb0493dc",
+    "frame_hash": "26b0a3ae482329c678a5a90afa9429220365fba5900a54f99304702f52cd5488",
+    "seq": 2673,
+    "utc": "2026-10-11T00:29:18.148Z",
+    "tick": 2769,
+    "tick_frame": "a0ad2ddbb77fec4555e91ea307bfed15714a2da3e34ba9d875eea363820481db",
     "data": {
       "btc_block_height": {
-        "height": 970832
+        "height": 970851
       },
       "btc_usd": {
-        "spot": "83000.005"
+        "spot": "82888.695"
       },
       "fx_usd": {
         "EUR": "0.8924",
-        "GBP": "0.7558",
-        "JPY": "158.2858",
-        "CNY": "6.7065"
+        "GBP": "0.7559",
+        "JPY": "158.2873",
+        "CNY": "6.7069"
       },
       "crypto_market": {
-        "total_mcap_usd": "2816694798944",
+        "total_mcap_usd": "2812905748079",
         "btc_dominance_pct": "59.1"
       },
       "btc_fees": {
@@ -66,41 +66,41 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 78590
+        "tx_count": 76161
       },
       "earthquakes_past_hour": {
-        "count": 7,
-        "max_mag": "2.2"
+        "count": 4,
+        "max_mag": "3.1"
       },
       "iss": {
-        "lat": "-51.397",
-        "lon": "22.331"
+        "lat": "-22.685",
+        "lon": "-100.858"
       },
       "space_weather": {
-        "kp": "6.67",
-        "at": "2026-10-10T18:00:00"
+        "kp": "5.33",
+        "at": "2026-10-10T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 51,
+        "gco2_kwh": 66,
         "index": "low"
       },
       "hn_top": {
-        "id": 49991852,
-        "title": "2D Vehicles"
+        "id": 50037949,
+        "title": "Build your own decision model"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Counter-Strike: MOUZ vs Spirit (BO3) - ESL Pro League Playoffs",
-            "yes_price": "0.9995"
+            "question": "Georgia vs. Alabama",
+            "yes_price": "0.495"
           },
           {
-            "question": "Will Real Madrid CF win on 2026-10-10?",
-            "yes_price": "0.9995"
+            "question": "Will Athletic Club win on 2026-10-10?",
+            "yes_price": "0.385"
           },
           {
-            "question": "Texas vs. Oklahoma",
-            "yes_price": "0.915"
+            "question": "Chicago White Sox vs. Cleveland Guardians",
+            "yes_price": "0.415"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "0b4ead9f415ad813a1c882f0f03cbf0685c5048063614810d0639b6172925cd9"
+  "input_fingerprint": "0eb8dad792d7584229387df46ee4fa480ab5f76d8515c737cae40720643a5e17"
 }
