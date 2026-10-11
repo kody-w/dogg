@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-11T13:13:03.672Z",
+  "generated_utc": "2026-10-11T18:05:19.315Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2771,
-    "frame_hash": "da8037560468281554e85ab2a15f3ba8c554123b74ed27790ec757b045617f77",
-    "utc": "2026-10-11T13:12:59.360Z"
+    "seq": 2772,
+    "frame_hash": "ddc9aa87806689d860901479fdc52028204848249baea147840805c76c5f7006",
+    "utc": "2026-10-11T18:05:14.631Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2772,
-      "head_frame": "da8037560468281554e85ab2a15f3ba8c554123b74ed27790ec757b045617f77"
+      "count": 2773,
+      "head_frame": "ddc9aa87806689d860901479fdc52028204848249baea147840805c76c5f7006"
     },
     "world": {
-      "count": 2676,
-      "head_frame": "6615631db990c109504efa670bdc1e12b101175b7e5dc3da0aa1594c76fe1961"
+      "count": 2677,
+      "head_frame": "ad116ba3a6bf446df66c9ed7783b2c25e1e0db3317b5c4e518500a54355b414a"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "6615631db990c109504efa670bdc1e12b101175b7e5dc3da0aa1594c76fe1961",
-    "seq": 2675,
-    "utc": "2026-10-11T13:13:02.600Z",
-    "tick": 2771,
-    "tick_frame": "da8037560468281554e85ab2a15f3ba8c554123b74ed27790ec757b045617f77",
+    "frame_hash": "ad116ba3a6bf446df66c9ed7783b2c25e1e0db3317b5c4e518500a54355b414a",
+    "seq": 2676,
+    "utc": "2026-10-11T18:05:18.049Z",
+    "tick": 2772,
+    "tick_frame": "ddc9aa87806689d860901479fdc52028204848249baea147840805c76c5f7006",
     "data": {
       "btc_block_height": {
-        "height": 970937
+        "height": 970968
       },
       "btc_usd": {
-        "spot": "82994.625"
+        "spot": "83720.005"
       },
       "fx_usd": {
         "EUR": "0.8924",
@@ -58,31 +58,31 @@
         "CNY": "6.7069"
       },
       "crypto_market": {
-        "total_mcap_usd": "2814265253465",
-        "btc_dominance_pct": "59.1"
+        "total_mcap_usd": "2821069612874",
+        "btc_dominance_pct": "59.6"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 75701
+        "tx_count": 79068
       },
       "earthquakes_past_hour": {
-        "count": 11,
-        "max_mag": "4.8"
+        "count": 4,
+        "max_mag": "3.0"
       },
       "iss": {
-        "lat": "-48.175",
-        "lon": "164.228"
+        "lat": "-14.965",
+        "lon": "139.430"
       },
       "space_weather": {
-        "kp": "3.0",
-        "at": "2026-10-11T09:00:00"
+        "kp": "2.33",
+        "at": "2026-10-11T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 121,
-        "index": "moderate"
+        "gco2_kwh": 209,
+        "index": "high"
       },
       "hn_top": {
         "id": 50042219,
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Dota 2: Team Spirit vs PARIVISION (BO3) - BLAST Slam Playoffs",
-            "yes_price": "0.9995"
+            "question": "Counter-Strike: Vitality vs MOUZ (BO5) - ESL Pro League Playoffs",
+            "yes_price": "0.91"
           },
           {
-            "question": "Will Everton FC win on 2026-10-11?",
-            "yes_price": "0.505"
+            "question": "Dota 2: Team Yandex vs Team Spirit (BO5) - BLAST Slam Playoffs",
+            "yes_price": "0.835"
           },
           {
-            "question": "Shanghai Rolex Masters: Alexander Bublik vs Brandon Nakashima",
-            "yes_price": "0.9995"
+            "question": "Dota 2: Team Yandex vs Team Spirit - Game 3 Winner",
+            "yes_price": "0.955"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "374bf916560b16e3ee8dba4ed60f6c34440e751497243cc5448b86e166810fe0"
+  "input_fingerprint": "5294bc19e6a5d6a36e221c819ea7ac44b90d843e50ca14a32a6446bcffe91a79"
 }
