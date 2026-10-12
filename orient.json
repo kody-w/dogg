@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-12T00:54:13.984Z",
+  "generated_utc": "2026-10-12T06:51:19.082Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2774,
-    "frame_hash": "e4c299d7c1f01af0624429ad2e0c3ce898b97b725bb8c80b3da26d3b9d7187c6",
-    "utc": "2026-10-12T00:54:09.969Z"
+    "seq": 2775,
+    "frame_hash": "41c30b489823f91df9bc14ccc9ade0be821208607c2deb5581bf86a456487db1",
+    "utc": "2026-10-12T06:51:14.936Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2775,
-      "head_frame": "e4c299d7c1f01af0624429ad2e0c3ce898b97b725bb8c80b3da26d3b9d7187c6"
+      "count": 2776,
+      "head_frame": "41c30b489823f91df9bc14ccc9ade0be821208607c2deb5581bf86a456487db1"
     },
     "world": {
-      "count": 2679,
-      "head_frame": "cbdc68bc709ecc7b50da7954e5f53f34da36ab90c6ebabc43b8d75cd3c239643"
+      "count": 2680,
+      "head_frame": "03aeb0dbb89223470a6de6af2247a1119bfce935c1409f2814b7a156d1ddced4"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "cbdc68bc709ecc7b50da7954e5f53f34da36ab90c6ebabc43b8d75cd3c239643",
-    "seq": 2678,
-    "utc": "2026-10-12T00:54:13.231Z",
-    "tick": 2774,
-    "tick_frame": "e4c299d7c1f01af0624429ad2e0c3ce898b97b725bb8c80b3da26d3b9d7187c6",
+    "frame_hash": "03aeb0dbb89223470a6de6af2247a1119bfce935c1409f2814b7a156d1ddced4",
+    "seq": 2679,
+    "utc": "2026-10-12T06:51:17.768Z",
+    "tick": 2775,
+    "tick_frame": "41c30b489823f91df9bc14ccc9ade0be821208607c2deb5581bf86a456487db1",
     "data": {
       "btc_block_height": {
-        "height": 971014
+        "height": 971055
       },
       "btc_usd": {
-        "spot": "83797.755"
+        "spot": "83923.625"
       },
       "fx_usd": {
         "EUR": "0.8926",
@@ -58,49 +58,49 @@
         "CNY": "6.7003"
       },
       "crypto_market": {
-        "total_mcap_usd": "2820540542535",
-        "btc_dominance_pct": "59.6"
+        "total_mcap_usd": "2826848340542",
+        "btc_dominance_pct": "59.5"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 74698
+        "tx_count": 81489
       },
       "earthquakes_past_hour": {
-        "count": 10,
-        "max_mag": "1.9"
+        "count": 4,
+        "max_mag": "1.2"
       },
       "iss": {
-        "lat": "39.943",
-        "lon": "-173.583"
+        "lat": "47.160",
+        "lon": "15.027"
       },
       "space_weather": {
-        "kp": "1.67",
-        "at": "2026-10-11T21:00:00"
+        "kp": "2.33",
+        "at": "2026-10-12T03:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 131,
+        "gco2_kwh": 154,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 50049411,
-        "title": "Whatever became of holography? (2011)"
+        "id": 50051573,
+        "title": "Type-safe HTML templating in Zig"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Ravens vs. Falcons",
-            "yes_price": "0.355"
-          },
-          {
-            "question": "Los Angeles Dodgers vs. Milwaukee Brewers",
-            "yes_price": "0.72"
+            "question": "LoL: KT Rolster vs Team Vitality - Game 1 Winner",
+            "yes_price": "0.015"
           },
           {
             "question": "Will Chris Van Hollen win the 2028 Democratic presidential nomination?",
             "yes_price": "0.0025"
+          },
+          {
+            "question": "2026 Balance of Power: D Senate, R House",
+            "yes_price": "0.0085"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "35ff78845c84074373bff1b3d56ad9f594e4059a3fad5a24ccd1e9044958c7db"
+  "input_fingerprint": "263551a5ea5fb93c7bae162781d2455de1ee4f670bf71ea712b0480f437acfad"
 }
