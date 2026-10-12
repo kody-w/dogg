@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-11T21:55:16.633Z",
+  "generated_utc": "2026-10-12T00:54:13.984Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2773,
-    "frame_hash": "45c924becad980c3bc4bf90a1492301f9a38b04d8f7daff9f8ffe879fab715a5",
-    "utc": "2026-10-11T21:55:12.117Z"
+    "seq": 2774,
+    "frame_hash": "e4c299d7c1f01af0624429ad2e0c3ce898b97b725bb8c80b3da26d3b9d7187c6",
+    "utc": "2026-10-12T00:54:09.969Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2774,
-      "head_frame": "45c924becad980c3bc4bf90a1492301f9a38b04d8f7daff9f8ffe879fab715a5"
+      "count": 2775,
+      "head_frame": "e4c299d7c1f01af0624429ad2e0c3ce898b97b725bb8c80b3da26d3b9d7187c6"
     },
     "world": {
-      "count": 2678,
-      "head_frame": "64a98306110057668ce25363bf9825c24f9f8e5568adc6f47c1d30fe8951cfbc"
+      "count": 2679,
+      "head_frame": "cbdc68bc709ecc7b50da7954e5f53f34da36ab90c6ebabc43b8d75cd3c239643"
     },
     "registry": {
       "count": 25,
@@ -39,68 +39,68 @@
     }
   },
   "world": {
-    "frame_hash": "64a98306110057668ce25363bf9825c24f9f8e5568adc6f47c1d30fe8951cfbc",
-    "seq": 2677,
-    "utc": "2026-10-11T21:55:15.312Z",
-    "tick": 2773,
-    "tick_frame": "45c924becad980c3bc4bf90a1492301f9a38b04d8f7daff9f8ffe879fab715a5",
+    "frame_hash": "cbdc68bc709ecc7b50da7954e5f53f34da36ab90c6ebabc43b8d75cd3c239643",
+    "seq": 2678,
+    "utc": "2026-10-12T00:54:13.231Z",
+    "tick": 2774,
+    "tick_frame": "e4c299d7c1f01af0624429ad2e0c3ce898b97b725bb8c80b3da26d3b9d7187c6",
     "data": {
       "btc_block_height": {
-        "height": 970985
+        "height": 971014
       },
       "btc_usd": {
-        "spot": "83455.66"
+        "spot": "83797.755"
       },
       "fx_usd": {
-        "EUR": "0.8924",
-        "GBP": "0.7559",
-        "JPY": "158.2873",
-        "CNY": "6.7069"
+        "EUR": "0.8926",
+        "GBP": "0.7556",
+        "JPY": "158.2301",
+        "CNY": "6.7003"
       },
       "crypto_market": {
-        "total_mcap_usd": "2803354349522",
+        "total_mcap_usd": "2820540542535",
         "btc_dominance_pct": "59.6"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 83878
+        "tx_count": 74698
       },
       "earthquakes_past_hour": {
-        "count": 8,
-        "max_mag": "5.3"
+        "count": 10,
+        "max_mag": "1.9"
       },
       "iss": {
-        "lat": "21.751",
-        "lon": "-105.169"
+        "lat": "39.943",
+        "lon": "-173.583"
       },
       "space_weather": {
         "kp": "1.67",
-        "at": "2026-10-11T18:00:00"
+        "at": "2026-10-11T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 159,
+        "gco2_kwh": 131,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 50045984,
-        "title": "Total Annihilation, rebuilt for modern computers"
+        "id": 50049411,
+        "title": "Whatever became of holography? (2011)"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "49ers vs. Seahawks",
-            "yes_price": "0.475"
+            "question": "Ravens vs. Falcons",
+            "yes_price": "0.355"
           },
           {
-            "question": "Lions vs. Cardinals",
-            "yes_price": "0.935"
+            "question": "Los Angeles Dodgers vs. Milwaukee Brewers",
+            "yes_price": "0.72"
           },
           {
-            "question": "Broncos vs. Chargers",
-            "yes_price": "0.735"
+            "question": "Will Chris Van Hollen win the 2028 Democratic presidential nomination?",
+            "yes_price": "0.0025"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "e99bb9e4dd1c3de875aa919f62f31f43e4cdef8ddc8c08195224962f568f7252"
+  "input_fingerprint": "35ff78845c84074373bff1b3d56ad9f594e4059a3fad5a24ccd1e9044958c7db"
 }
