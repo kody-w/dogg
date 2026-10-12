@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-12T06:51:19.082Z",
+  "generated_utc": "2026-10-12T16:23:37.947Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2775,
-    "frame_hash": "41c30b489823f91df9bc14ccc9ade0be821208607c2deb5581bf86a456487db1",
-    "utc": "2026-10-12T06:51:14.936Z"
+    "seq": 2776,
+    "frame_hash": "a157acfa6527b336db1e2f81067843d079f60488c3a0f262cc42023eac4fa63b",
+    "utc": "2026-10-12T16:23:33.605Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2776,
-      "head_frame": "41c30b489823f91df9bc14ccc9ade0be821208607c2deb5581bf86a456487db1"
+      "count": 2777,
+      "head_frame": "a157acfa6527b336db1e2f81067843d079f60488c3a0f262cc42023eac4fa63b"
     },
     "world": {
-      "count": 2680,
-      "head_frame": "03aeb0dbb89223470a6de6af2247a1119bfce935c1409f2814b7a156d1ddced4"
+      "count": 2681,
+      "head_frame": "a5bb299ee8c5ab4f8daf43c5f64eb345efe0de46483099033533d848687b8fe3"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "03aeb0dbb89223470a6de6af2247a1119bfce935c1409f2814b7a156d1ddced4",
-    "seq": 2679,
-    "utc": "2026-10-12T06:51:17.768Z",
-    "tick": 2775,
-    "tick_frame": "41c30b489823f91df9bc14ccc9ade0be821208607c2deb5581bf86a456487db1",
+    "frame_hash": "a5bb299ee8c5ab4f8daf43c5f64eb345efe0de46483099033533d848687b8fe3",
+    "seq": 2680,
+    "utc": "2026-10-12T16:23:36.639Z",
+    "tick": 2776,
+    "tick_frame": "a157acfa6527b336db1e2f81067843d079f60488c3a0f262cc42023eac4fa63b",
     "data": {
       "btc_block_height": {
-        "height": 971055
+        "height": 971115
       },
       "btc_usd": {
-        "spot": "83923.625"
+        "spot": "82834.695"
       },
       "fx_usd": {
         "EUR": "0.8926",
@@ -58,49 +58,49 @@
         "CNY": "6.7003"
       },
       "crypto_market": {
-        "total_mcap_usd": "2826848340542",
-        "btc_dominance_pct": "59.5"
+        "total_mcap_usd": "2815777555916",
+        "btc_dominance_pct": "59.0"
       },
       "btc_fees": {
         "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 81489
+        "tx_count": 84332
       },
       "earthquakes_past_hour": {
-        "count": 4,
-        "max_mag": "1.2"
+        "count": 9,
+        "max_mag": "4.9"
       },
       "iss": {
-        "lat": "47.160",
-        "lon": "15.027"
+        "lat": "39.300",
+        "lon": "-48.635"
       },
       "space_weather": {
-        "kp": "2.33",
-        "at": "2026-10-12T03:00:00"
+        "kp": "0.67",
+        "at": "2026-10-12T12:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 154,
+        "gco2_kwh": 123,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 50051573,
-        "title": "Type-safe HTML templating in Zig"
+        "id": 50058507,
+        "title": "GLM-Legal: Advancing Agentic Legal Intelligence"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "LoL: KT Rolster vs Team Vitality - Game 1 Winner",
-            "yes_price": "0.015"
+            "question": "LoL: BNK FEARX vs JD Gaming (BO5) - Demacia Cup Global Invitational Playoffs",
+            "yes_price": "0.9995"
           },
           {
-            "question": "Will Chris Van Hollen win the 2028 Democratic presidential nomination?",
-            "yes_price": "0.0025"
+            "question": "Spread: Rams (-3.5)",
+            "yes_price": "0.475"
           },
           {
-            "question": "2026 Balance of Power: D Senate, R House",
-            "yes_price": "0.0085"
+            "question": "LoL: BNK FEARX vs JD Gaming - Game 4 Winner",
+            "yes_price": "0.0005"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "263551a5ea5fb93c7bae162781d2455de1ee4f670bf71ea712b0480f437acfad"
+  "input_fingerprint": "1d2e729813c9a3901f47907d3d90c305ac5b923b2f2782c1d14686db2d153251"
 }
