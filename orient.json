@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-12T16:23:37.947Z",
+  "generated_utc": "2026-10-12T23:06:53.290Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2776,
-    "frame_hash": "a157acfa6527b336db1e2f81067843d079f60488c3a0f262cc42023eac4fa63b",
-    "utc": "2026-10-12T16:23:33.605Z"
+    "seq": 2777,
+    "frame_hash": "78a5e6eeb9e79407f0504d3b40f19aac46b601d62527354f567a9f61e68d9dd7",
+    "utc": "2026-10-12T23:06:48.463Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2777,
-      "head_frame": "a157acfa6527b336db1e2f81067843d079f60488c3a0f262cc42023eac4fa63b"
+      "count": 2778,
+      "head_frame": "78a5e6eeb9e79407f0504d3b40f19aac46b601d62527354f567a9f61e68d9dd7"
     },
     "world": {
-      "count": 2681,
-      "head_frame": "a5bb299ee8c5ab4f8daf43c5f64eb345efe0de46483099033533d848687b8fe3"
+      "count": 2682,
+      "head_frame": "39964c87d8bc100a1101359b1d66b67036957feb42e15b4dd06a9239853ee339"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "a5bb299ee8c5ab4f8daf43c5f64eb345efe0de46483099033533d848687b8fe3",
-    "seq": 2680,
-    "utc": "2026-10-12T16:23:36.639Z",
-    "tick": 2776,
-    "tick_frame": "a157acfa6527b336db1e2f81067843d079f60488c3a0f262cc42023eac4fa63b",
+    "frame_hash": "39964c87d8bc100a1101359b1d66b67036957feb42e15b4dd06a9239853ee339",
+    "seq": 2681,
+    "utc": "2026-10-12T23:06:51.982Z",
+    "tick": 2777,
+    "tick_frame": "78a5e6eeb9e79407f0504d3b40f19aac46b601d62527354f567a9f61e68d9dd7",
     "data": {
       "btc_block_height": {
-        "height": 971115
+        "height": 971151
       },
       "btc_usd": {
-        "spot": "82834.695"
+        "spot": "81733.63"
       },
       "fx_usd": {
         "EUR": "0.8926",
@@ -58,49 +58,49 @@
         "CNY": "6.7003"
       },
       "crypto_market": {
-        "total_mcap_usd": "2815777555916",
-        "btc_dominance_pct": "59.0"
+        "total_mcap_usd": "2778205951953",
+        "btc_dominance_pct": "59.2"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 84332
+        "tx_count": 83246
       },
       "earthquakes_past_hour": {
-        "count": 9,
-        "max_mag": "4.9"
+        "count": 5,
+        "max_mag": "2.1"
       },
       "iss": {
-        "lat": "39.300",
-        "lon": "-48.635"
+        "lat": "-47.167",
+        "lon": "-52.861"
       },
       "space_weather": {
-        "kp": "0.67",
-        "at": "2026-10-12T12:00:00"
+        "kp": "2.0",
+        "at": "2026-10-12T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 123,
+        "gco2_kwh": 104,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 50058507,
-        "title": "GLM-Legal: Advancing Agentic Legal Intelligence"
+        "id": 50063427,
+        "title": "AI Is a Tool. Using It Well Takes Skill."
       },
       "prediction_markets": {
         "top_by_volume": [
-          {
-            "question": "LoL: BNK FEARX vs JD Gaming (BO5) - Demacia Cup Global Invitational Playoffs",
-            "yes_price": "0.9995"
-          },
           {
             "question": "Spread: Rams (-3.5)",
             "yes_price": "0.475"
           },
           {
-            "question": "LoL: BNK FEARX vs JD Gaming - Game 4 Winner",
-            "yes_price": "0.0005"
+            "question": "Los Angeles Dodgers vs. Milwaukee Brewers",
+            "yes_price": "0.505"
+          },
+          {
+            "question": "2026 Balance of Power: D Senate, R House",
+            "yes_price": "0.0095"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "1d2e729813c9a3901f47907d3d90c305ac5b923b2f2782c1d14686db2d153251"
+  "input_fingerprint": "e89fe1b383bbfc6c18770a3e4619989d66a639d4dd373700914fcf3ca1071235"
 }
