@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-13T11:06:07.704Z",
+  "generated_utc": "2026-10-13T18:16:26.320Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2779,
-    "frame_hash": "5f0eea47efbe79a0bdbfac318987a9137551a4e32959751bff7993df2d130e4a",
-    "utc": "2026-10-13T11:06:03.135Z"
+    "seq": 2780,
+    "frame_hash": "88213e46faa19b9c04382d78f6e006932eef5a26e513ed13ccca44deb2a26784",
+    "utc": "2026-10-13T18:16:18.978Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2780,
-      "head_frame": "5f0eea47efbe79a0bdbfac318987a9137551a4e32959751bff7993df2d130e4a"
+      "count": 2781,
+      "head_frame": "88213e46faa19b9c04382d78f6e006932eef5a26e513ed13ccca44deb2a26784"
     },
     "world": {
-      "count": 2684,
-      "head_frame": "6faf0da70294d0b717e2c92cd96a9002308e8dd3b612019f04134051b91498ae"
+      "count": 2685,
+      "head_frame": "1f11a18793456fcb843eaf55b19ee42cde874d809eb1781a7419f8134e2e8c78"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "6faf0da70294d0b717e2c92cd96a9002308e8dd3b612019f04134051b91498ae",
-    "seq": 2683,
-    "utc": "2026-10-13T11:06:06.399Z",
-    "tick": 2779,
-    "tick_frame": "5f0eea47efbe79a0bdbfac318987a9137551a4e32959751bff7993df2d130e4a",
+    "frame_hash": "1f11a18793456fcb843eaf55b19ee42cde874d809eb1781a7419f8134e2e8c78",
+    "seq": 2684,
+    "utc": "2026-10-13T18:16:25.091Z",
+    "tick": 2780,
+    "tick_frame": "88213e46faa19b9c04382d78f6e006932eef5a26e513ed13ccca44deb2a26784",
     "data": {
       "btc_block_height": {
-        "height": 971231
+        "height": 971279
       },
       "btc_usd": {
-        "spot": "83101.83"
+        "spot": "83045.545"
       },
       "fx_usd": {
         "EUR": "0.8952",
@@ -58,49 +58,49 @@
         "CNY": "6.7058"
       },
       "crypto_market": {
-        "total_mcap_usd": "2812917525164",
-        "btc_dominance_pct": "59.3"
+        "total_mcap_usd": "2815392105999",
+        "btc_dominance_pct": "59.2"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
-        "hour_sat_vb": 1
+        "fastest_sat_vb": 5,
+        "hour_sat_vb": 3
       },
       "btc_mempool": {
-        "tx_count": 86353
+        "tx_count": 92151
       },
       "earthquakes_past_hour": {
-        "count": 2,
-        "max_mag": "2.7"
+        "count": 5,
+        "max_mag": "2.4"
       },
       "iss": {
-        "lat": "18.913",
-        "lon": "50.588"
+        "lat": "17.912",
+        "lon": "151.631"
       },
       "space_weather": {
-        "kp": "2.0",
-        "at": "2026-10-13T06:00:00"
+        "kp": "2.33",
+        "at": "2026-10-13T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 57,
-        "index": "low"
+        "gco2_kwh": 123,
+        "index": "moderate"
       },
       "hn_top": {
-        "id": 50069499,
-        "title": "11 year old unsoundness bugs found in Rust borrow checker"
+        "id": 50073879,
+        "title": "Gemini 4 Argon"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "LoL: Team WE vs FlyQuest (BO5) - Demacia Cup Global Invitational Playoffs",
-            "yes_price": "0.9995"
+            "question": "Will Club Atlético de Madrid win on 2026-10-13?",
+            "yes_price": "0.535"
           },
           {
-            "question": "LoL: Team WE vs FlyQuest - Game 4 Winner",
-            "yes_price": "0.0005"
+            "question": "US x Yemen ceasefire continues through October 15?",
+            "yes_price": "0.991"
           },
           {
-            "question": "LoL: HANJIN BRION vs LGD Gaming (BO5) - Demacia Cup Global Invitational Playoffs",
-            "yes_price": "0.505"
+            "question": "Spread: FC Barcelona (-1.5)",
+            "yes_price": "0.555"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "13fac27e6d6415898898bdcc8b128cf442122a9c4d6d8dd0b82f8cb3582d7675"
+  "input_fingerprint": "121d3b446fc124cc418787bdf5304881d6ba409509c346a3b7c59a79ed2a41df"
 }
