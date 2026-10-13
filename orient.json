@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-12T23:06:53.290Z",
+  "generated_utc": "2026-10-13T03:31:31.319Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2777,
-    "frame_hash": "78a5e6eeb9e79407f0504d3b40f19aac46b601d62527354f567a9f61e68d9dd7",
-    "utc": "2026-10-12T23:06:48.463Z"
+    "seq": 2778,
+    "frame_hash": "1f3a671dd006a2ca74cab6b1df5fd5a513118a9af9fe0b976a0b0e590487df72",
+    "utc": "2026-10-13T03:31:27.041Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2778,
-      "head_frame": "78a5e6eeb9e79407f0504d3b40f19aac46b601d62527354f567a9f61e68d9dd7"
+      "count": 2779,
+      "head_frame": "1f3a671dd006a2ca74cab6b1df5fd5a513118a9af9fe0b976a0b0e590487df72"
     },
     "world": {
-      "count": 2682,
-      "head_frame": "39964c87d8bc100a1101359b1d66b67036957feb42e15b4dd06a9239853ee339"
+      "count": 2683,
+      "head_frame": "3d78417d1807240607b1c415e75ee79f77caa05d209f69aabc31ff6c37995673"
     },
     "registry": {
       "count": 25,
@@ -39,68 +39,68 @@
     }
   },
   "world": {
-    "frame_hash": "39964c87d8bc100a1101359b1d66b67036957feb42e15b4dd06a9239853ee339",
-    "seq": 2681,
-    "utc": "2026-10-12T23:06:51.982Z",
-    "tick": 2777,
-    "tick_frame": "78a5e6eeb9e79407f0504d3b40f19aac46b601d62527354f567a9f61e68d9dd7",
+    "frame_hash": "3d78417d1807240607b1c415e75ee79f77caa05d209f69aabc31ff6c37995673",
+    "seq": 2682,
+    "utc": "2026-10-13T03:31:30.558Z",
+    "tick": 2778,
+    "tick_frame": "1f3a671dd006a2ca74cab6b1df5fd5a513118a9af9fe0b976a0b0e590487df72",
     "data": {
       "btc_block_height": {
-        "height": 971151
+        "height": 971183
       },
       "btc_usd": {
-        "spot": "81733.63"
+        "spot": "82934.365"
       },
       "fx_usd": {
-        "EUR": "0.8926",
-        "GBP": "0.7556",
-        "JPY": "158.2301",
-        "CNY": "6.7003"
+        "EUR": "0.8952",
+        "GBP": "0.7566",
+        "JPY": "158.5441",
+        "CNY": "6.7058"
       },
       "crypto_market": {
-        "total_mcap_usd": "2778205951953",
-        "btc_dominance_pct": "59.2"
+        "total_mcap_usd": "2795819048377",
+        "btc_dominance_pct": "59.3"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 83246
+        "tx_count": 78027
       },
       "earthquakes_past_hour": {
-        "count": 5,
-        "max_mag": "2.1"
+        "count": 6,
+        "max_mag": "4.7"
       },
       "iss": {
-        "lat": "-47.167",
-        "lon": "-52.861"
+        "lat": "-11.251",
+        "lon": "-169.232"
       },
       "space_weather": {
-        "kp": "2.0",
-        "at": "2026-10-12T18:00:00"
+        "kp": "3.33",
+        "at": "2026-10-13T00:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 104,
-        "index": "moderate"
+        "gco2_kwh": 79,
+        "index": "low"
       },
       "hn_top": {
-        "id": 50063427,
-        "title": "AI Is a Tool. Using It Well Takes Skill."
+        "id": 50041866,
+        "title": "The baffling intelligence of a single cell (2024)"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
+            "question": "Bills vs. Rams",
+            "yes_price": "0.465"
+          },
+          {
             "question": "Spread: Rams (-3.5)",
-            "yes_price": "0.475"
+            "yes_price": "0.205"
           },
           {
-            "question": "Los Angeles Dodgers vs. Milwaukee Brewers",
-            "yes_price": "0.505"
-          },
-          {
-            "question": "2026 Balance of Power: D Senate, R House",
-            "yes_price": "0.0095"
+            "question": "Will the Fed decrease interest rates by 25 bps after the October 2026 meeting?",
+            "yes_price": "0.0055"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "e89fe1b383bbfc6c18770a3e4619989d66a639d4dd373700914fcf3ca1071235"
+  "input_fingerprint": "6394aab55dc00cb7b67ca198a95186abb23c03595b1923aa32d229e00ebf9257"
 }
