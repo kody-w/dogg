@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-13T18:16:26.320Z",
+  "generated_utc": "2026-10-13T22:59:09.678Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2780,
-    "frame_hash": "88213e46faa19b9c04382d78f6e006932eef5a26e513ed13ccca44deb2a26784",
-    "utc": "2026-10-13T18:16:18.978Z"
+    "seq": 2781,
+    "frame_hash": "752c19a078fc877daacb72c4650fab334ed24fe0150400b5fe87438974cd8f5e",
+    "utc": "2026-10-13T22:59:03.904Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2781,
-      "head_frame": "88213e46faa19b9c04382d78f6e006932eef5a26e513ed13ccca44deb2a26784"
+      "count": 2782,
+      "head_frame": "752c19a078fc877daacb72c4650fab334ed24fe0150400b5fe87438974cd8f5e"
     },
     "world": {
-      "count": 2685,
-      "head_frame": "1f11a18793456fcb843eaf55b19ee42cde874d809eb1781a7419f8134e2e8c78"
+      "count": 2686,
+      "head_frame": "2ca20c4fd178518fc897763b83ca5a127286fe6ae7fce21e4279866f01c6dc9d"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "1f11a18793456fcb843eaf55b19ee42cde874d809eb1781a7419f8134e2e8c78",
-    "seq": 2684,
-    "utc": "2026-10-13T18:16:25.091Z",
-    "tick": 2780,
-    "tick_frame": "88213e46faa19b9c04382d78f6e006932eef5a26e513ed13ccca44deb2a26784",
+    "frame_hash": "2ca20c4fd178518fc897763b83ca5a127286fe6ae7fce21e4279866f01c6dc9d",
+    "seq": 2685,
+    "utc": "2026-10-13T22:59:08.368Z",
+    "tick": 2781,
+    "tick_frame": "752c19a078fc877daacb72c4650fab334ed24fe0150400b5fe87438974cd8f5e",
     "data": {
       "btc_block_height": {
-        "height": 971279
+        "height": 971315
       },
       "btc_usd": {
-        "spot": "83045.545"
+        "spot": "83467.305"
       },
       "fx_usd": {
         "EUR": "0.8952",
@@ -58,49 +58,49 @@
         "CNY": "6.7058"
       },
       "crypto_market": {
-        "total_mcap_usd": "2815392105999",
-        "btc_dominance_pct": "59.2"
+        "total_mcap_usd": "2824928858632",
+        "btc_dominance_pct": "59.3"
       },
       "btc_fees": {
-        "fastest_sat_vb": 5,
-        "hour_sat_vb": 3
+        "fastest_sat_vb": 2,
+        "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 92151
+        "tx_count": 82725
       },
       "earthquakes_past_hour": {
         "count": 5,
-        "max_mag": "2.4"
+        "max_mag": "3.7"
       },
       "iss": {
-        "lat": "17.912",
-        "lon": "151.631"
+        "lat": "29.249",
+        "lon": "91.209"
       },
       "space_weather": {
-        "kp": "2.33",
-        "at": "2026-10-13T15:00:00"
+        "kp": "3.0",
+        "at": "2026-10-13T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 123,
+        "gco2_kwh": 93,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 50073879,
-        "title": "Gemini 4 Argon"
+        "id": 50078141,
+        "title": "OpenAI engineer arrested in bugging of executive conference room"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will Club Atlético de Madrid win on 2026-10-13?",
-            "yes_price": "0.535"
-          },
-          {
             "question": "US x Yemen ceasefire continues through October 15?",
-            "yes_price": "0.991"
+            "yes_price": "0.9925"
           },
           {
-            "question": "Spread: FC Barcelona (-1.5)",
-            "yes_price": "0.555"
+            "question": "Seahawks vs. Broncos",
+            "yes_price": "0.575"
+          },
+          {
+            "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+            "yes_price": "0.805"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "121d3b446fc124cc418787bdf5304881d6ba409509c346a3b7c59a79ed2a41df"
+  "input_fingerprint": "0729fe11b93a28a24cd72e30b33f784a59de8ad3147c74aa571ae00a7a209759"
 }
