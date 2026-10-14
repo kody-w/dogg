@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-14T17:25:36.353Z",
+  "generated_utc": "2026-10-14T20:51:24.416Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2785,
-    "frame_hash": "5464e109906da5ae343822b88370571365c7feaed7a131dd8d258e8a89501122",
-    "utc": "2026-10-14T17:25:31.766Z"
+    "seq": 2786,
+    "frame_hash": "f84e5a51b5ce0ab5383982744489d4696f947480e708495d9cbf9774aaf45b81",
+    "utc": "2026-10-14T20:51:19.808Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2786,
-      "head_frame": "5464e109906da5ae343822b88370571365c7feaed7a131dd8d258e8a89501122"
+      "count": 2787,
+      "head_frame": "f84e5a51b5ce0ab5383982744489d4696f947480e708495d9cbf9774aaf45b81"
     },
     "world": {
-      "count": 2690,
-      "head_frame": "0ee1b04132610a3cefc1dd6bf25af1a894ce55561bb6caf3d84f226cc63b0748"
+      "count": 2691,
+      "head_frame": "d698cd08e05bfc15a6308dff072ed7e6157d5f7ae9748f47397e1d844451c9eb"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "0ee1b04132610a3cefc1dd6bf25af1a894ce55561bb6caf3d84f226cc63b0748",
-    "seq": 2689,
-    "utc": "2026-10-14T17:25:35.042Z",
-    "tick": 2785,
-    "tick_frame": "5464e109906da5ae343822b88370571365c7feaed7a131dd8d258e8a89501122",
+    "frame_hash": "d698cd08e05bfc15a6308dff072ed7e6157d5f7ae9748f47397e1d844451c9eb",
+    "seq": 2690,
+    "utc": "2026-10-14T20:51:23.122Z",
+    "tick": 2786,
+    "tick_frame": "f84e5a51b5ce0ab5383982744489d4696f947480e708495d9cbf9774aaf45b81",
     "data": {
       "btc_block_height": {
-        "height": 971438
+        "height": 971463
       },
       "btc_usd": {
-        "spot": "81793.865"
+        "spot": "81573.095"
       },
       "fx_usd": {
         "EUR": "0.8934",
@@ -58,49 +58,49 @@
         "CNY": "6.7050"
       },
       "crypto_market": {
-        "total_mcap_usd": "2771571061614",
+        "total_mcap_usd": "2760409405294",
         "btc_dominance_pct": "59.3"
       },
       "btc_fees": {
-        "fastest_sat_vb": 4,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 86387
+        "tx_count": 82139
       },
       "earthquakes_past_hour": {
-        "count": 4,
-        "max_mag": "1.9"
+        "count": 8,
+        "max_mag": "3.1"
       },
       "iss": {
-        "lat": "4.451",
-        "lon": "147.384"
+        "lat": "51.255",
+        "lon": "170.413"
       },
       "space_weather": {
         "kp": "2.0",
-        "at": "2026-10-14T12:00:00"
+        "at": "2026-10-14T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 126,
+        "gco2_kwh": 90,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 50090443,
-        "title": "The Emperor Pelican Has No Clothes"
+        "id": 50093568,
+        "title": "Things to know if you get cancer in 2026"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will Liverpool FC win on 2026-10-14?",
-            "yes_price": "0.9755"
+            "question": "Will Real Madrid CF win on 2026-10-14?",
+            "yes_price": "0.8855"
+          },
+          {
+            "question": "Will Manchester City FC win on 2026-10-14?",
+            "yes_price": "0.0005"
           },
           {
             "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-            "yes_price": "0.655"
-          },
-          {
-            "question": "Spread: Liverpool FC (-1.5)",
-            "yes_price": "0.875"
+            "yes_price": "0.685"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "8191ce614317f02544c2ed9938797b6403a99e76c0af32694fbe5922b330c21d"
+  "input_fingerprint": "da773d26557769785b44c49562ae133025a0d3f5070f444bac5d3a669d01678f"
 }
