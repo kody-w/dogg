@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-14T01:42:30.309Z",
+  "generated_utc": "2026-10-14T06:42:34.613Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2782,
-    "frame_hash": "f639397e87c4c3bdb18380cf693211c67c543d28f8ce7746dc7f2ad09f08f929",
-    "utc": "2026-10-14T01:42:23.822Z"
+    "seq": 2783,
+    "frame_hash": "40233035651f536a000565c489cbce3289423ee06bab2c9b25cb47b50784a120",
+    "utc": "2026-10-14T06:42:29.033Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2783,
-      "head_frame": "f639397e87c4c3bdb18380cf693211c67c543d28f8ce7746dc7f2ad09f08f929"
+      "count": 2784,
+      "head_frame": "40233035651f536a000565c489cbce3289423ee06bab2c9b25cb47b50784a120"
     },
     "world": {
-      "count": 2687,
-      "head_frame": "eb12618602798e3205e0158c09ac28bf0c32d3da61ce161711c076305cc73e02"
+      "count": 2688,
+      "head_frame": "5caa288b9a0d75f24ebdfb3996d7a375289921e5283fb0a1f7673ca182d70ea0"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "eb12618602798e3205e0158c09ac28bf0c32d3da61ce161711c076305cc73e02",
-    "seq": 2686,
-    "utc": "2026-10-14T01:42:29.258Z",
-    "tick": 2782,
-    "tick_frame": "f639397e87c4c3bdb18380cf693211c67c543d28f8ce7746dc7f2ad09f08f929",
+    "frame_hash": "5caa288b9a0d75f24ebdfb3996d7a375289921e5283fb0a1f7673ca182d70ea0",
+    "seq": 2687,
+    "utc": "2026-10-14T06:42:33.450Z",
+    "tick": 2783,
+    "tick_frame": "40233035651f536a000565c489cbce3289423ee06bab2c9b25cb47b50784a120",
     "data": {
       "btc_block_height": {
-        "height": 971333
+        "height": 971365
       },
       "btc_usd": {
-        "spot": "83220.22"
+        "spot": "83348.565"
       },
       "fx_usd": {
         "EUR": "0.8934",
@@ -58,49 +58,49 @@
         "CNY": "6.7050"
       },
       "crypto_market": {
-        "total_mcap_usd": "2817360451952",
+        "total_mcap_usd": "2821758385620",
         "btc_dominance_pct": "59.2"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 77091
+        "tx_count": 82368
       },
       "earthquakes_past_hour": {
         "count": 6,
-        "max_mag": "2.4"
+        "max_mag": "2.0"
       },
       "iss": {
-        "lat": "-36.170",
-        "lon": "-11.611"
+        "lat": "26.148",
+        "lon": "-29.982"
       },
       "space_weather": {
-        "kp": "1.33",
-        "at": "2026-10-13T21:00:00"
+        "kp": "3.33",
+        "at": "2026-10-14T03:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 95,
+        "gco2_kwh": 157,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 50073879,
-        "title": "Gemini 4 Argon"
+        "id": 50082470,
+        "title": "Felix Rieseberg Homepage"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Blues vs. Senators",
-            "yes_price": "0.94"
+            "question": "Shanghai Rolex Masters: Botic van de Zandschulp vs Rafael Jodar",
+            "yes_price": "0.085"
           },
           {
-            "question": "Delaware vs. Middle Tennessee",
-            "yes_price": "0.395"
+            "question": "Will Manchester City FC win on 2026-10-14?",
+            "yes_price": "0.465"
           },
           {
-            "question": "US x Yemen ceasefire continues through October 15?",
-            "yes_price": "0.992"
+            "question": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
+            "yes_price": "0.145"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "3a79707a859ed6cd51ee469696bed2e97b396f6150a55b60451f868683da93b3"
+  "input_fingerprint": "9ec858dbd44ea1784385920e17364fbb4b4447bec48b898c229fcaefc488a0e6"
 }
