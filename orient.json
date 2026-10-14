@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-14T12:24:31.225Z",
+  "generated_utc": "2026-10-14T17:25:36.353Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2784,
-    "frame_hash": "a6131d157fb95363403a0749e7be118ef06db590dd6b307bacec424adbe38f89",
-    "utc": "2026-10-14T12:24:26.139Z"
+    "seq": 2785,
+    "frame_hash": "5464e109906da5ae343822b88370571365c7feaed7a131dd8d258e8a89501122",
+    "utc": "2026-10-14T17:25:31.766Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2785,
-      "head_frame": "a6131d157fb95363403a0749e7be118ef06db590dd6b307bacec424adbe38f89"
+      "count": 2786,
+      "head_frame": "5464e109906da5ae343822b88370571365c7feaed7a131dd8d258e8a89501122"
     },
     "world": {
-      "count": 2689,
-      "head_frame": "62be5c1a3c379b8508efa306c212464e0af02cda3393a5fb9489714f808b29af"
+      "count": 2690,
+      "head_frame": "0ee1b04132610a3cefc1dd6bf25af1a894ce55561bb6caf3d84f226cc63b0748"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "62be5c1a3c379b8508efa306c212464e0af02cda3393a5fb9489714f808b29af",
-    "seq": 2688,
-    "utc": "2026-10-14T12:24:29.921Z",
-    "tick": 2784,
-    "tick_frame": "a6131d157fb95363403a0749e7be118ef06db590dd6b307bacec424adbe38f89",
+    "frame_hash": "0ee1b04132610a3cefc1dd6bf25af1a894ce55561bb6caf3d84f226cc63b0748",
+    "seq": 2689,
+    "utc": "2026-10-14T17:25:35.042Z",
+    "tick": 2785,
+    "tick_frame": "5464e109906da5ae343822b88370571365c7feaed7a131dd8d258e8a89501122",
     "data": {
       "btc_block_height": {
-        "height": 971402
+        "height": 971438
       },
       "btc_usd": {
-        "spot": "83615.345"
+        "spot": "81793.865"
       },
       "fx_usd": {
         "EUR": "0.8934",
@@ -58,49 +58,49 @@
         "CNY": "6.7050"
       },
       "crypto_market": {
-        "total_mcap_usd": "2807279863937",
-        "btc_dominance_pct": "59.8"
+        "total_mcap_usd": "2771571061614",
+        "btc_dominance_pct": "59.3"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 4,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 77483
+        "tx_count": 86387
       },
       "earthquakes_past_hour": {
-        "count": 5,
-        "max_mag": "2.9"
+        "count": 4,
+        "max_mag": "1.9"
       },
       "iss": {
-        "lat": "-50.896",
-        "lon": "144.782"
+        "lat": "4.451",
+        "lon": "147.384"
       },
       "space_weather": {
-        "kp": "2.33",
-        "at": "2026-10-14T09:00:00"
+        "kp": "2.0",
+        "at": "2026-10-14T12:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 58,
-        "index": "low"
+        "gco2_kwh": 126,
+        "index": "moderate"
       },
       "hn_top": {
-        "id": 50084240,
-        "title": "Iosevka is an open-source, sans-serif and slab-serif, monospace font"
+        "id": 50090443,
+        "title": "The Emperor Pelican Has No Clothes"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "LoL: BNK FEARX vs KT Rolster - Game 3 Winner",
-            "yes_price": "0.9995"
-          },
-          {
-            "question": "LoL: BNK FEARX vs KT Rolster (BO5) - Demacia Cup Global Invitational Playoffs",
-            "yes_price": "0.9995"
+            "question": "Will Liverpool FC win on 2026-10-14?",
+            "yes_price": "0.9755"
           },
           {
             "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-            "yes_price": "0.815"
+            "yes_price": "0.655"
+          },
+          {
+            "question": "Spread: Liverpool FC (-1.5)",
+            "yes_price": "0.875"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "362e805da347039672b377743733be6e9361ece23b6ee1cc803978af026d3278"
+  "input_fingerprint": "8191ce614317f02544c2ed9938797b6403a99e76c0af32694fbe5922b330c21d"
 }
