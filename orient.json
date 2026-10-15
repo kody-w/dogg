@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-15T06:50:44.840Z",
+  "generated_utc": "2026-10-15T12:23:03.378Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2789,
-    "frame_hash": "c354de3ee42f4eaa2bd9dba618962aeb3383c78abf00147a3e7b089115bc9835",
-    "utc": "2026-10-15T06:50:40.583Z"
+    "seq": 2790,
+    "frame_hash": "0bf2f8841b0dbde39186a84479830fb43e7d723d81cb2e432bcbdd5828922167",
+    "utc": "2026-10-15T12:22:59.364Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2790,
-      "head_frame": "c354de3ee42f4eaa2bd9dba618962aeb3383c78abf00147a3e7b089115bc9835"
+      "count": 2791,
+      "head_frame": "0bf2f8841b0dbde39186a84479830fb43e7d723d81cb2e432bcbdd5828922167"
     },
     "world": {
-      "count": 2694,
-      "head_frame": "824ebd7b846a3577e8f2b2ae81475b02167592004b22d37301e632d08932a6d2"
+      "count": 2695,
+      "head_frame": "b8e23ff266f87f9a0578f9dcd356e7db86e368052e10d4af7eab038d049e7ee9"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "824ebd7b846a3577e8f2b2ae81475b02167592004b22d37301e632d08932a6d2",
-    "seq": 2693,
-    "utc": "2026-10-15T06:50:43.553Z",
-    "tick": 2789,
-    "tick_frame": "c354de3ee42f4eaa2bd9dba618962aeb3383c78abf00147a3e7b089115bc9835",
+    "frame_hash": "b8e23ff266f87f9a0578f9dcd356e7db86e368052e10d4af7eab038d049e7ee9",
+    "seq": 2694,
+    "utc": "2026-10-15T12:23:02.218Z",
+    "tick": 2790,
+    "tick_frame": "0bf2f8841b0dbde39186a84479830fb43e7d723d81cb2e432bcbdd5828922167",
     "data": {
       "btc_block_height": {
-        "height": 971525
+        "height": 971572
       },
       "btc_usd": {
-        "spot": "80655.99"
+        "spot": "80936.475"
       },
       "fx_usd": {
         "EUR": "0.8944",
@@ -58,7 +58,7 @@
         "CNY": "6.7065"
       },
       "crypto_market": {
-        "total_mcap_usd": "2719739555424",
+        "total_mcap_usd": "2732554181557",
         "btc_dominance_pct": "59.5"
       },
       "btc_fees": {
@@ -66,23 +66,23 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 81125
+        "tx_count": 75065
       },
       "earthquakes_past_hour": {
-        "count": 15,
-        "max_mag": "3.0"
+        "count": 4,
+        "max_mag": "2.7"
       },
       "iss": {
-        "lat": "-45.620",
-        "lon": "172.830"
+        "lat": "51.694",
+        "lon": "-50.484"
       },
       "space_weather": {
-        "kp": "0.67",
-        "at": "2026-10-15T03:00:00"
+        "kp": "3.0",
+        "at": "2026-10-15T09:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 96,
-        "index": "moderate"
+        "gco2_kwh": 76,
+        "index": "low"
       },
       "hn_top": {
         "id": 50093568,
@@ -92,7 +92,7 @@
         "top_by_volume": [
           {
             "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-            "yes_price": "0.715"
+            "yes_price": "0.725"
           },
           {
             "question": "Will Indiana enact a data center moratorium by December 31, 2027?",
@@ -100,7 +100,7 @@
           },
           {
             "question": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-            "yes_price": "0.285"
+            "yes_price": "0.275"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "c9f2761487f11b628a8b06954112faea0d79368a02306abd690eb94fec952774"
+  "input_fingerprint": "b91e74b8e07702124587a0c295a9798d5ebee1a4ba499b5b4b2f436dda318d4a"
 }
