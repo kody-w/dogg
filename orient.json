@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-15T12:23:03.378Z",
+  "generated_utc": "2026-10-15T17:13:52.230Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2790,
-    "frame_hash": "0bf2f8841b0dbde39186a84479830fb43e7d723d81cb2e432bcbdd5828922167",
-    "utc": "2026-10-15T12:22:59.364Z"
+    "seq": 2791,
+    "frame_hash": "b7c1d9591003f31f47bff0c2a7bc7aab470504f364ab54f334252e414a0ffba2",
+    "utc": "2026-10-15T17:13:48.482Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2791,
-      "head_frame": "0bf2f8841b0dbde39186a84479830fb43e7d723d81cb2e432bcbdd5828922167"
+      "count": 2792,
+      "head_frame": "b7c1d9591003f31f47bff0c2a7bc7aab470504f364ab54f334252e414a0ffba2"
     },
     "world": {
-      "count": 2695,
-      "head_frame": "b8e23ff266f87f9a0578f9dcd356e7db86e368052e10d4af7eab038d049e7ee9"
+      "count": 2696,
+      "head_frame": "7f202d7b3eb5a8ea67c2635ac40fe2399c5ee00b8f474ef05c7cf94d0d746f76"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "b8e23ff266f87f9a0578f9dcd356e7db86e368052e10d4af7eab038d049e7ee9",
-    "seq": 2694,
-    "utc": "2026-10-15T12:23:02.218Z",
-    "tick": 2790,
-    "tick_frame": "0bf2f8841b0dbde39186a84479830fb43e7d723d81cb2e432bcbdd5828922167",
+    "frame_hash": "7f202d7b3eb5a8ea67c2635ac40fe2399c5ee00b8f474ef05c7cf94d0d746f76",
+    "seq": 2695,
+    "utc": "2026-10-15T17:13:51.520Z",
+    "tick": 2791,
+    "tick_frame": "b7c1d9591003f31f47bff0c2a7bc7aab470504f364ab54f334252e414a0ffba2",
     "data": {
       "btc_block_height": {
-        "height": 971572
+        "height": 971599
       },
       "btc_usd": {
-        "spot": "80936.475"
+        "spot": "82154.005"
       },
       "fx_usd": {
         "EUR": "0.8944",
@@ -58,49 +58,49 @@
         "CNY": "6.7065"
       },
       "crypto_market": {
-        "total_mcap_usd": "2732554181557",
-        "btc_dominance_pct": "59.5"
+        "total_mcap_usd": "2777599807486",
+        "btc_dominance_pct": "59.4"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
-        "hour_sat_vb": 1
+        "fastest_sat_vb": 4,
+        "hour_sat_vb": 3
       },
       "btc_mempool": {
-        "tx_count": 75065
+        "tx_count": 87363
       },
       "earthquakes_past_hour": {
         "count": 4,
-        "max_mag": "2.7"
+        "max_mag": "1.5"
       },
       "iss": {
-        "lat": "51.694",
-        "lon": "-50.484"
+        "lat": "30.523",
+        "lon": "-66.737"
       },
       "space_weather": {
-        "kp": "3.0",
-        "at": "2026-10-15T09:00:00"
+        "kp": "2.67",
+        "at": "2026-10-15T12:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 76,
-        "index": "low"
+        "gco2_kwh": 169,
+        "index": "moderate"
       },
       "hn_top": {
-        "id": 50093568,
-        "title": "Things to know when you get cancer"
+        "id": 50104654,
+        "title": "Simons Foundation launches $15M effort to help mathematicians navigate AI era"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-            "yes_price": "0.725"
+            "question": "Will Bayer 04 Leverkusen win on 2026-10-15?",
+            "yes_price": "0.655"
           },
           {
             "question": "Will Indiana enact a data center moratorium by December 31, 2027?",
             "yes_price": "0.125"
           },
           {
-            "question": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-            "yes_price": "0.275"
+            "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+            "yes_price": "0.725"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "b91e74b8e07702124587a0c295a9798d5ebee1a4ba499b5b4b2f436dda318d4a"
+  "input_fingerprint": "6d5b8ab1f04fc6900faed9f1d99f45aff80322c32b290a9aeff9dcca43e7e67a"
 }
