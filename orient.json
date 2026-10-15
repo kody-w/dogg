@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-14T23:35:39.526Z",
+  "generated_utc": "2026-10-15T01:50:23.853Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2787,
-    "frame_hash": "4ee0865250c19f87f53454be727eaf4d98c8a3b05f407fa1bf20a8b43298ee13",
-    "utc": "2026-10-14T23:35:34.981Z"
+    "seq": 2788,
+    "frame_hash": "4a8bc1c225dd593113b285e5d08cb02abc4b1345dfaaf30cbf270c94aca30597",
+    "utc": "2026-10-15T01:50:19.148Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2788,
-      "head_frame": "4ee0865250c19f87f53454be727eaf4d98c8a3b05f407fa1bf20a8b43298ee13"
+      "count": 2789,
+      "head_frame": "4a8bc1c225dd593113b285e5d08cb02abc4b1345dfaaf30cbf270c94aca30597"
     },
     "world": {
-      "count": 2692,
-      "head_frame": "fa9446b826fc8748a173404565e524bc6aa23addc9dfb27baaec47935ae62a0d"
+      "count": 2693,
+      "head_frame": "ce44f2cb5542a802d40b714e809d027b3c4639e09ecec4b05974e5f636c50faa"
     },
     "registry": {
       "count": 25,
@@ -39,49 +39,49 @@
     }
   },
   "world": {
-    "frame_hash": "fa9446b826fc8748a173404565e524bc6aa23addc9dfb27baaec47935ae62a0d",
-    "seq": 2691,
-    "utc": "2026-10-14T23:35:38.221Z",
-    "tick": 2787,
-    "tick_frame": "4ee0865250c19f87f53454be727eaf4d98c8a3b05f407fa1bf20a8b43298ee13",
+    "frame_hash": "ce44f2cb5542a802d40b714e809d027b3c4639e09ecec4b05974e5f636c50faa",
+    "seq": 2692,
+    "utc": "2026-10-15T01:50:22.755Z",
+    "tick": 2788,
+    "tick_frame": "4a8bc1c225dd593113b285e5d08cb02abc4b1345dfaaf30cbf270c94aca30597",
     "data": {
       "btc_block_height": {
-        "height": 971481
+        "height": 971490
       },
       "btc_usd": {
-        "spot": "81447.315"
+        "spot": "81611.42"
       },
       "fx_usd": {
-        "EUR": "0.8934",
-        "GBP": "0.7547",
-        "JPY": "158.3076",
-        "CNY": "6.7050"
+        "EUR": "0.8944",
+        "GBP": "0.7562",
+        "JPY": "158.3055",
+        "CNY": "6.7065"
       },
       "crypto_market": {
-        "total_mcap_usd": "2758297166315",
-        "btc_dominance_pct": "59.2"
+        "total_mcap_usd": "2762864125587",
+        "btc_dominance_pct": "59.3"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 80270
+        "tx_count": 81911
       },
       "earthquakes_past_hour": {
-        "count": 4,
-        "max_mag": "1.8"
+        "count": 5,
+        "max_mag": "2.7"
       },
       "iss": {
-        "lat": "-0.401",
-        "lon": "49.517"
+        "lat": "14.421",
+        "lon": "-176.086"
       },
       "space_weather": {
         "kp": "2.67",
-        "at": "2026-10-14T18:00:00"
+        "at": "2026-10-14T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 67,
+        "gco2_kwh": 63,
         "index": "low"
       },
       "hn_top": {
@@ -92,15 +92,15 @@
         "top_by_volume": [
           {
             "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-            "yes_price": "0.705"
-          },
-          {
-            "question": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-            "yes_price": "0.285"
+            "yes_price": "0.765"
           },
           {
             "question": "Milwaukee Brewers vs. Los Angeles Dodgers",
-            "yes_price": "0.385"
+            "yes_price": "0.415"
+          },
+          {
+            "question": "Will Indiana enact a data center moratorium by December 31, 2027?",
+            "yes_price": "0.125"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "ce710e5177e5ffb0fc162e83ec48ce425698cab0886fbc9c4a83f8e80284f53f"
+  "input_fingerprint": "d3156b5f888e9826c7c591b0394f313aba50507c401cea3eac07e722cbd28bf0"
 }
