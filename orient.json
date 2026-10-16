@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-16T18:53:24.183Z",
+  "generated_utc": "2026-10-16T21:52:18.883Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2798,
-    "frame_hash": "e9da210fc737eae848a976cb7f1fbe3b7c497ff5d7c0cd9a1a6848bd52cbba44",
-    "utc": "2026-10-16T18:53:19.036Z"
+    "seq": 2799,
+    "frame_hash": "016cbb3f733469ef8525e960f4af82385a8234caf81618567fba5b5bb0080893",
+    "utc": "2026-10-16T21:52:14.423Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2799,
-      "head_frame": "e9da210fc737eae848a976cb7f1fbe3b7c497ff5d7c0cd9a1a6848bd52cbba44"
+      "count": 2800,
+      "head_frame": "016cbb3f733469ef8525e960f4af82385a8234caf81618567fba5b5bb0080893"
     },
     "world": {
-      "count": 2703,
-      "head_frame": "abeb1f5df721c2a148983154a218e178dea2c7ec69b028f2ed965fd7d4af2fba"
+      "count": 2704,
+      "head_frame": "029e9e692831707f902c5b8c9c71c4a7b2927c0f56fcdbc0702c30097c254a51"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "abeb1f5df721c2a148983154a218e178dea2c7ec69b028f2ed965fd7d4af2fba",
-    "seq": 2702,
-    "utc": "2026-10-16T18:53:22.896Z",
-    "tick": 2798,
-    "tick_frame": "e9da210fc737eae848a976cb7f1fbe3b7c497ff5d7c0cd9a1a6848bd52cbba44",
+    "frame_hash": "029e9e692831707f902c5b8c9c71c4a7b2927c0f56fcdbc0702c30097c254a51",
+    "seq": 2703,
+    "utc": "2026-10-16T21:52:17.518Z",
+    "tick": 2799,
+    "tick_frame": "016cbb3f733469ef8525e960f4af82385a8234caf81618567fba5b5bb0080893",
     "data": {
       "btc_block_height": {
-        "height": 971754
+        "height": 971767
       },
       "btc_usd": {
-        "spot": "80916.685"
+        "spot": "81592.225"
       },
       "fx_usd": {
         "EUR": "0.8917",
@@ -58,7 +58,7 @@
         "CNY": "6.7030"
       },
       "crypto_market": {
-        "total_mcap_usd": "2742586351781",
+        "total_mcap_usd": "2757679666594",
         "btc_dominance_pct": "59.4"
       },
       "btc_fees": {
@@ -66,27 +66,27 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 79599
+        "tx_count": 81450
       },
       "earthquakes_past_hour": {
-        "count": 4,
-        "max_mag": "2.4"
+        "count": 5,
+        "max_mag": "2.9"
       },
       "iss": {
-        "lat": "-11.713",
-        "lon": "100.303"
+        "lat": "-31.554",
+        "lon": "35.317"
       },
       "space_weather": {
-        "kp": "3.33",
-        "at": "2026-10-16T15:00:00"
+        "kp": "3.67",
+        "at": "2026-10-16T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 149,
+        "gco2_kwh": 91,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 50121179,
-        "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks"
+        "id": 50112657,
+        "title": "Tesla Roadster"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -95,8 +95,8 @@
             "yes_price": "0.9995"
           },
           {
-            "question": "Counter-Strike: Legacy vs BetBoom Team (BO3) - Thunderpick World Championship Group B",
-            "yes_price": "0.385"
+            "question": "LoL: FURIA Esports vs Cloud9 (BO5) - Worlds Play-In",
+            "yes_price": "0.085"
           },
           {
             "question": "Will the Fed decrease interest rates by 50+ bps after the October 2026 meeting?",
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "43769bb0e57085e171ff25ac91849fb4f896648c8587cb7dc86ee6cc3ef4f1d7"
+  "input_fingerprint": "c1027352fd0edc3be504b0cdd2877782cf2dcf27468e1c09444adb8850dedd51"
 }
