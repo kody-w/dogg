@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-16T01:18:52.549Z",
+  "generated_utc": "2026-10-16T06:03:42.998Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2794,
-    "frame_hash": "baaec7a28c9a22d4a9f86594cabea5c1bd639e80e5553ef2d5e607edd89d97a6",
-    "utc": "2026-10-16T01:18:48.505Z"
+    "seq": 2795,
+    "frame_hash": "05ea8b2ef8b67fd90286af3eca7f117a05249694460ab14c8535c45d9c6d92fa",
+    "utc": "2026-10-16T06:03:38.616Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2795,
-      "head_frame": "baaec7a28c9a22d4a9f86594cabea5c1bd639e80e5553ef2d5e607edd89d97a6"
+      "count": 2796,
+      "head_frame": "05ea8b2ef8b67fd90286af3eca7f117a05249694460ab14c8535c45d9c6d92fa"
     },
     "world": {
-      "count": 2699,
-      "head_frame": "07313b2dadb9d9aadfcb2b7828921674805ee7df6458eaed92777ee40c9a06d1"
+      "count": 2700,
+      "head_frame": "3839f3e3358e6619e738db6cf91e095d04a40544c542ad51299ff16a37f402cd"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "07313b2dadb9d9aadfcb2b7828921674805ee7df6458eaed92777ee40c9a06d1",
-    "seq": 2698,
-    "utc": "2026-10-16T01:18:51.833Z",
-    "tick": 2794,
-    "tick_frame": "baaec7a28c9a22d4a9f86594cabea5c1bd639e80e5553ef2d5e607edd89d97a6",
+    "frame_hash": "3839f3e3358e6619e738db6cf91e095d04a40544c542ad51299ff16a37f402cd",
+    "seq": 2699,
+    "utc": "2026-10-16T06:03:41.690Z",
+    "tick": 2795,
+    "tick_frame": "05ea8b2ef8b67fd90286af3eca7f117a05249694460ab14c8535c45d9c6d92fa",
     "data": {
       "btc_block_height": {
-        "height": 971642
+        "height": 971675
       },
       "btc_usd": {
-        "spot": "82342.485"
+        "spot": "82016.525"
       },
       "fx_usd": {
         "EUR": "0.8917",
@@ -58,7 +58,7 @@
         "CNY": "6.7030"
       },
       "crypto_market": {
-        "total_mcap_usd": "2777576719807",
+        "total_mcap_usd": "2777643358516",
         "btc_dominance_pct": "59.3"
       },
       "btc_fees": {
@@ -66,22 +66,22 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 78168
+        "tx_count": 79186
       },
       "earthquakes_past_hour": {
         "count": 5,
-        "max_mag": "2.6"
+        "max_mag": "4.4"
       },
       "iss": {
-        "lat": "-29.791",
-        "lon": "-135.541"
+        "lat": "-44.364",
+        "lon": "175.639"
       },
       "space_weather": {
-        "kp": "2.33",
-        "at": "2026-10-15T21:00:00"
+        "kp": "2.0",
+        "at": "2026-10-16T03:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 137,
+        "gco2_kwh": 150,
         "index": "moderate"
       },
       "hn_top": {
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Seahawks vs. Broncos",
-            "yes_price": "0.255"
-          },
-          {
             "question": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
             "yes_price": "0.205"
           },
           {
-            "question": "LoL: FURIA Esports vs MVK Esports - Game 2 Winner",
-            "yes_price": "0.0005"
+            "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+            "yes_price": "0.845"
+          },
+          {
+            "question": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
+            "yes_price": "0.7925"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "6c2b5e00e4e27d3e0719b5cbe257268d68c7bf5b08c2994d8e526a44f7bf2009"
+  "input_fingerprint": "97d7d02d3218166978f954395cae328d3375b03ad0c50c8c525ccbf9f6815cb1"
 }
