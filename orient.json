@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-16T15:25:46.323Z",
+  "generated_utc": "2026-10-16T18:53:24.183Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2797,
-    "frame_hash": "84ebc56c0fa59aa6d31d9e75a62d73323b8d814c0272c04b85272ed303857cf5",
-    "utc": "2026-10-16T15:25:41.208Z"
+    "seq": 2798,
+    "frame_hash": "e9da210fc737eae848a976cb7f1fbe3b7c497ff5d7c0cd9a1a6848bd52cbba44",
+    "utc": "2026-10-16T18:53:19.036Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2798,
-      "head_frame": "84ebc56c0fa59aa6d31d9e75a62d73323b8d814c0272c04b85272ed303857cf5"
+      "count": 2799,
+      "head_frame": "e9da210fc737eae848a976cb7f1fbe3b7c497ff5d7c0cd9a1a6848bd52cbba44"
     },
     "world": {
-      "count": 2702,
-      "head_frame": "3e755d0d6e567cef330e8d1f278326bf6f189099700b5b3b6ed68e4193feba9b"
+      "count": 2703,
+      "head_frame": "abeb1f5df721c2a148983154a218e178dea2c7ec69b028f2ed965fd7d4af2fba"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "3e755d0d6e567cef330e8d1f278326bf6f189099700b5b3b6ed68e4193feba9b",
-    "seq": 2701,
-    "utc": "2026-10-16T15:25:45.586Z",
-    "tick": 2797,
-    "tick_frame": "84ebc56c0fa59aa6d31d9e75a62d73323b8d814c0272c04b85272ed303857cf5",
+    "frame_hash": "abeb1f5df721c2a148983154a218e178dea2c7ec69b028f2ed965fd7d4af2fba",
+    "seq": 2702,
+    "utc": "2026-10-16T18:53:22.896Z",
+    "tick": 2798,
+    "tick_frame": "e9da210fc737eae848a976cb7f1fbe3b7c497ff5d7c0cd9a1a6848bd52cbba44",
     "data": {
       "btc_block_height": {
-        "height": 971729
+        "height": 971754
       },
       "btc_usd": {
-        "spot": "81477.7"
+        "spot": "80916.685"
       },
       "fx_usd": {
         "EUR": "0.8917",
@@ -58,49 +58,49 @@
         "CNY": "6.7030"
       },
       "crypto_market": {
-        "total_mcap_usd": "2758615736903",
-        "btc_dominance_pct": "59.3"
+        "total_mcap_usd": "2742586351781",
+        "btc_dominance_pct": "59.4"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 79657
+        "tx_count": 79599
       },
       "earthquakes_past_hour": {
-        "count": 2,
-        "max_mag": "3.6"
+        "count": 4,
+        "max_mag": "2.4"
       },
       "iss": {
-        "lat": "-50.836",
-        "lon": "57.593"
+        "lat": "-11.713",
+        "lon": "100.303"
       },
       "space_weather": {
-        "kp": "1.67",
-        "at": "2026-10-16T12:00:00"
+        "kp": "3.33",
+        "at": "2026-10-16T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 93,
+        "gco2_kwh": 149,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 50117746,
-        "title": "I Love Software Rendering"
+        "id": 50121179,
+        "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
-            "yes_price": "0.235"
+            "question": "Will the Tesla Roadster's 0-60 time be less than 1 second?",
+            "yes_price": "0.9995"
+          },
+          {
+            "question": "Counter-Strike: Legacy vs BetBoom Team (BO3) - Thunderpick World Championship Group B",
+            "yes_price": "0.385"
           },
           {
             "question": "Will the Fed decrease interest rates by 50+ bps after the October 2026 meeting?",
             "yes_price": "0.0015"
-          },
-          {
-            "question": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
-            "yes_price": "0.764"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "1a8930e0fe091b7020fc4d097aaeb41647ff2e3af5a552d5794501535da569ad"
+  "input_fingerprint": "43769bb0e57085e171ff25ac91849fb4f896648c8587cb7dc86ee6cc3ef4f1d7"
 }
