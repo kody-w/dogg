@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-15T23:09:20.390Z",
+  "generated_utc": "2026-10-16T01:18:52.549Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2793,
-    "frame_hash": "120a9f331b77d4a08f928811c85989b33002389bcaf019fe4c9a5483c41b472a",
-    "utc": "2026-10-15T23:09:16.382Z"
+    "seq": 2794,
+    "frame_hash": "baaec7a28c9a22d4a9f86594cabea5c1bd639e80e5553ef2d5e607edd89d97a6",
+    "utc": "2026-10-16T01:18:48.505Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2794,
-      "head_frame": "120a9f331b77d4a08f928811c85989b33002389bcaf019fe4c9a5483c41b472a"
+      "count": 2795,
+      "head_frame": "baaec7a28c9a22d4a9f86594cabea5c1bd639e80e5553ef2d5e607edd89d97a6"
     },
     "world": {
-      "count": 2698,
-      "head_frame": "132287f58a8a737d384af20c0a4cbb4863bf85896f3faa4400c188fd10ab0bc5"
+      "count": 2699,
+      "head_frame": "07313b2dadb9d9aadfcb2b7828921674805ee7df6458eaed92777ee40c9a06d1"
     },
     "registry": {
       "count": 25,
@@ -39,49 +39,49 @@
     }
   },
   "world": {
-    "frame_hash": "132287f58a8a737d384af20c0a4cbb4863bf85896f3faa4400c188fd10ab0bc5",
-    "seq": 2697,
-    "utc": "2026-10-15T23:09:19.638Z",
-    "tick": 2793,
-    "tick_frame": "120a9f331b77d4a08f928811c85989b33002389bcaf019fe4c9a5483c41b472a",
+    "frame_hash": "07313b2dadb9d9aadfcb2b7828921674805ee7df6458eaed92777ee40c9a06d1",
+    "seq": 2698,
+    "utc": "2026-10-16T01:18:51.833Z",
+    "tick": 2794,
+    "tick_frame": "baaec7a28c9a22d4a9f86594cabea5c1bd639e80e5553ef2d5e607edd89d97a6",
     "data": {
       "btc_block_height": {
-        "height": 971630
+        "height": 971642
       },
       "btc_usd": {
-        "spot": "82204.125"
+        "spot": "82342.485"
       },
       "fx_usd": {
-        "EUR": "0.8944",
-        "GBP": "0.7562",
-        "JPY": "158.3055",
-        "CNY": "6.7065"
+        "EUR": "0.8917",
+        "GBP": "0.7541",
+        "JPY": "158.0870",
+        "CNY": "6.7030"
       },
       "crypto_market": {
-        "total_mcap_usd": "2786041142821",
+        "total_mcap_usd": "2777576719807",
         "btc_dominance_pct": "59.3"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 82865
+        "tx_count": 78168
       },
       "earthquakes_past_hour": {
-        "count": 3,
-        "max_mag": "3.5"
+        "count": 5,
+        "max_mag": "2.6"
       },
       "iss": {
-        "lat": "50.019",
-        "lon": "120.450"
+        "lat": "-29.791",
+        "lon": "-135.541"
       },
       "space_weather": {
         "kp": "2.33",
-        "at": "2026-10-15T18:00:00"
+        "at": "2026-10-15T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 151,
+        "gco2_kwh": 137,
         "index": "moderate"
       },
       "hn_top": {
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "LoL: Cloud9 vs Karmine Corp (BO5) - Worlds Play-In",
-            "yes_price": "0.0005"
-          },
-          {
-            "question": "Will Indiana enact a data center moratorium by December 31, 2027?",
-            "yes_price": "0.125"
+            "question": "Seahawks vs. Broncos",
+            "yes_price": "0.255"
           },
           {
             "question": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
             "yes_price": "0.205"
+          },
+          {
+            "question": "LoL: FURIA Esports vs MVK Esports - Game 2 Winner",
+            "yes_price": "0.0005"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "d3b4317a141557048d358a406308a109938eb55b3adc48f206c1079ca8d198d5"
+  "input_fingerprint": "6c2b5e00e4e27d3e0719b5cbe257268d68c7bf5b08c2994d8e526a44f7bf2009"
 }
