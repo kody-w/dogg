@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-16T11:18:41.337Z",
+  "generated_utc": "2026-10-16T15:25:46.323Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2796,
-    "frame_hash": "27f8bc7693afa3d2698da71bc79ea1fe189184e70318d805a13b9a76516bc8a3",
-    "utc": "2026-10-16T11:18:37.307Z"
+    "seq": 2797,
+    "frame_hash": "84ebc56c0fa59aa6d31d9e75a62d73323b8d814c0272c04b85272ed303857cf5",
+    "utc": "2026-10-16T15:25:41.208Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2797,
-      "head_frame": "27f8bc7693afa3d2698da71bc79ea1fe189184e70318d805a13b9a76516bc8a3"
+      "count": 2798,
+      "head_frame": "84ebc56c0fa59aa6d31d9e75a62d73323b8d814c0272c04b85272ed303857cf5"
     },
     "world": {
-      "count": 2701,
-      "head_frame": "4ea891c92d4400b504003bb51ebc20e8ef45f37ef0473afbdd7af736f32013fc"
+      "count": 2702,
+      "head_frame": "3e755d0d6e567cef330e8d1f278326bf6f189099700b5b3b6ed68e4193feba9b"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "4ea891c92d4400b504003bb51ebc20e8ef45f37ef0473afbdd7af736f32013fc",
-    "seq": 2700,
-    "utc": "2026-10-16T11:18:40.369Z",
-    "tick": 2796,
-    "tick_frame": "27f8bc7693afa3d2698da71bc79ea1fe189184e70318d805a13b9a76516bc8a3",
+    "frame_hash": "3e755d0d6e567cef330e8d1f278326bf6f189099700b5b3b6ed68e4193feba9b",
+    "seq": 2701,
+    "utc": "2026-10-16T15:25:45.586Z",
+    "tick": 2797,
+    "tick_frame": "84ebc56c0fa59aa6d31d9e75a62d73323b8d814c0272c04b85272ed303857cf5",
     "data": {
       "btc_block_height": {
-        "height": 971701
+        "height": 971729
       },
       "btc_usd": {
-        "spot": "82491.655"
+        "spot": "81477.7"
       },
       "fx_usd": {
         "EUR": "0.8917",
@@ -58,49 +58,49 @@
         "CNY": "6.7030"
       },
       "crypto_market": {
-        "total_mcap_usd": "2786703270576",
-        "btc_dominance_pct": "59.2"
+        "total_mcap_usd": "2758615736903",
+        "btc_dominance_pct": "59.3"
       },
       "btc_fees": {
         "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 81462
+        "tx_count": 79657
       },
       "earthquakes_past_hour": {
-        "count": 9,
-        "max_mag": "4.0"
+        "count": 2,
+        "max_mag": "3.6"
       },
       "iss": {
-        "lat": "18.110",
-        "lon": "-119.834"
+        "lat": "-50.836",
+        "lon": "57.593"
       },
       "space_weather": {
         "kp": "1.67",
-        "at": "2026-10-16T06:00:00"
+        "at": "2026-10-16T12:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 79,
-        "index": "low"
+        "gco2_kwh": 93,
+        "index": "moderate"
       },
       "hn_top": {
-        "id": 50077225,
-        "title": "Yet another way to invoke functions without parentheses"
+        "id": 50117746,
+        "title": "I Love Software Rendering"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
-            "yes_price": "0.215"
+            "yes_price": "0.235"
           },
           {
             "question": "Will the Fed decrease interest rates by 50+ bps after the October 2026 meeting?",
             "yes_price": "0.0015"
           },
           {
-            "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-            "yes_price": "0.865"
+            "question": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
+            "yes_price": "0.764"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "0f784e6fa74abe2e07ca9ddea0b56f9a37bd2507177d0eb1b5a184dcb855feb5"
+  "input_fingerprint": "1a8930e0fe091b7020fc4d097aaeb41647ff2e3af5a552d5794501535da569ad"
 }
