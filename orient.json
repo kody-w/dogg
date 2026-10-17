@@ -1,22 +1,20 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-17T15:47:45.250Z",
+  "generated_utc": "2026-10-17T18:05:32.778Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2804,
-    "frame_hash": "b1afe674fdb8b006e93db57f4f92d824cea2dd7737a8cf2c53b137ec49ac4858",
-    "utc": "2026-10-17T15:47:35.125Z"
+    "seq": 2805,
+    "frame_hash": "bb6ee7251a926d1bcee02d4d372c5e7088ce6cde946408fc04a76e678adf43e9",
+    "utc": "2026-10-17T18:05:28.406Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
     "world": {
-      "state": "partial",
+      "state": "current",
       "ticks_behind": 0,
-      "sources_failed": [
-        "iss"
-      ],
+      "sources_failed": [],
       "last_refresh": "ok",
       "retained_last_good": false
     },
@@ -28,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2805,
-      "head_frame": "b1afe674fdb8b006e93db57f4f92d824cea2dd7737a8cf2c53b137ec49ac4858"
+      "count": 2806,
+      "head_frame": "bb6ee7251a926d1bcee02d4d372c5e7088ce6cde946408fc04a76e678adf43e9"
     },
     "world": {
-      "count": 2709,
-      "head_frame": "1e86269f6af70af615aed9fd711e9d1448ff40c7e7cff4dc4545b7bce590adba"
+      "count": 2710,
+      "head_frame": "ffab631e612e4282dbd2500cd97b15860955b0507fe835d9885db44f3770b2c7"
     },
     "registry": {
       "count": 25,
@@ -41,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "1e86269f6af70af615aed9fd711e9d1448ff40c7e7cff4dc4545b7bce590adba",
-    "seq": 2708,
-    "utc": "2026-10-17T15:47:43.929Z",
-    "tick": 2804,
-    "tick_frame": "b1afe674fdb8b006e93db57f4f92d824cea2dd7737a8cf2c53b137ec49ac4858",
+    "frame_hash": "ffab631e612e4282dbd2500cd97b15860955b0507fe835d9885db44f3770b2c7",
+    "seq": 2709,
+    "utc": "2026-10-17T18:05:31.829Z",
+    "tick": 2805,
+    "tick_frame": "bb6ee7251a926d1bcee02d4d372c5e7088ce6cde946408fc04a76e678adf43e9",
     "data": {
       "btc_block_height": {
-        "height": 971880
+        "height": 971896
       },
       "btc_usd": {
-        "spot": "81330.805"
+        "spot": "81383.515"
       },
       "fx_usd": {
         "EUR": "0.8895",
@@ -60,45 +58,49 @@
         "CNY": "6.6985"
       },
       "crypto_market": {
-        "total_mcap_usd": "2747653368458",
+        "total_mcap_usd": "2744874059989",
         "btc_dominance_pct": "59.4"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 83913
+        "tx_count": 75695
       },
       "earthquakes_past_hour": {
-        "count": 6,
-        "max_mag": "2.2"
+        "count": 5,
+        "max_mag": "1.9"
+      },
+      "iss": {
+        "lat": "-16.078",
+        "lon": "102.811"
       },
       "space_weather": {
-        "kp": "0.67",
-        "at": "2026-10-17T12:00:00"
+        "kp": "2.67",
+        "at": "2026-10-17T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 69,
-        "index": "low"
+        "gco2_kwh": 119,
+        "index": "moderate"
       },
       "hn_top": {
-        "id": 50129121,
-        "title": "DeepSeek: DeepSeek v4.1 Flash 1017"
+        "id": 50132950,
+        "title": "Linux bugs fixed per release over time: >2× rise since 2026-04"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will the Tesla Roadster's 0-60 time be less than 1 second?",
-            "yes_price": "0.9995"
+            "question": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
+            "yes_price": "0.915"
           },
           {
-            "question": "Will Manchester City FC win on 2026-10-17?",
-            "yes_price": "0.9955"
+            "question": "Will FC Barcelona win on 2026-10-17?",
+            "yes_price": "0.986"
           },
           {
-            "question": "Manchester City FC vs. Ipswich Town FC: O/U 3.5",
-            "yes_price": "0.9995"
+            "question": "Will Newcastle United FC win on 2026-10-17?",
+            "yes_price": "0.065"
           }
         ]
       }
@@ -262,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "6a24a17303735d2024763dd6362b51d6d153b309d1d0fc59c4d844a1e74c4400"
+  "input_fingerprint": "d35a917075b2d60854eebf0a216065b677a05542b34a8ced4df0b274aa52627f"
 }
