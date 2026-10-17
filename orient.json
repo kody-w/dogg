@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-17T00:06:03.605Z",
+  "generated_utc": "2026-10-17T04:21:29.953Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2800,
-    "frame_hash": "f6c1e520ab7c28697e0a8e15eddc45fb81bf32b412d3c174b432d457a646e916",
-    "utc": "2026-10-17T00:05:59.407Z"
+    "seq": 2801,
+    "frame_hash": "3deeb0381f45184e110581459538911d4b4ff644e6d8d62a2b51b83bef32bfd0",
+    "utc": "2026-10-17T04:21:25.752Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2801,
-      "head_frame": "f6c1e520ab7c28697e0a8e15eddc45fb81bf32b412d3c174b432d457a646e916"
+      "count": 2802,
+      "head_frame": "3deeb0381f45184e110581459538911d4b4ff644e6d8d62a2b51b83bef32bfd0"
     },
     "world": {
-      "count": 2705,
-      "head_frame": "b0caeffa9455292540a804cf423324a11cf0db3c766fde6e4c8e57a564ae1cc9"
+      "count": 2706,
+      "head_frame": "554dacd86277f033226a3531060c4fcdd23b0f8a5d0a9d701dec2a7c16f0637e"
     },
     "registry": {
       "count": 25,
@@ -39,54 +39,54 @@
     }
   },
   "world": {
-    "frame_hash": "b0caeffa9455292540a804cf423324a11cf0db3c766fde6e4c8e57a564ae1cc9",
-    "seq": 2704,
-    "utc": "2026-10-17T00:06:02.641Z",
-    "tick": 2800,
-    "tick_frame": "f6c1e520ab7c28697e0a8e15eddc45fb81bf32b412d3c174b432d457a646e916",
+    "frame_hash": "554dacd86277f033226a3531060c4fcdd23b0f8a5d0a9d701dec2a7c16f0637e",
+    "seq": 2705,
+    "utc": "2026-10-17T04:21:28.976Z",
+    "tick": 2801,
+    "tick_frame": "3deeb0381f45184e110581459538911d4b4ff644e6d8d62a2b51b83bef32bfd0",
     "data": {
       "btc_block_height": {
-        "height": 971782
+        "height": 971806
       },
       "btc_usd": {
-        "spot": "81487.435"
+        "spot": "81410.125"
       },
       "fx_usd": {
-        "EUR": "0.8917",
-        "GBP": "0.7541",
-        "JPY": "158.0870",
-        "CNY": "6.7030"
+        "EUR": "0.8895",
+        "GBP": "0.7508",
+        "JPY": "157.9943",
+        "CNY": "6.6985"
       },
       "crypto_market": {
-        "total_mcap_usd": "2756623849162",
+        "total_mcap_usd": "2758504657739",
         "btc_dominance_pct": "59.3"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 83021
+        "tx_count": 77307
       },
       "earthquakes_past_hour": {
-        "count": 5,
-        "max_mag": "1.7"
+        "count": 6,
+        "max_mag": "3.9"
       },
       "iss": {
-        "lat": "44.662",
-        "lon": "159.160"
+        "lat": "20.485",
+        "lon": "-17.565"
       },
       "space_weather": {
-        "kp": "2.33",
-        "at": "2026-10-16T21:00:00"
+        "kp": "2.0",
+        "at": "2026-10-17T00:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 60,
+        "gco2_kwh": 47,
         "index": "low"
       },
       "hn_top": {
-        "id": 50112657,
-        "title": "Tesla Roadster"
+        "id": 50106747,
+        "title": "Ultramarine 1 Flash"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -95,12 +95,12 @@
             "yes_price": "0.9995"
           },
           {
-            "question": "LoL: FURIA Esports vs Cloud9 (BO5) - Worlds Play-In",
-            "yes_price": "0.655"
+            "question": "Will the Fed decrease interest rates by 50+ bps after the October 2026 meeting?",
+            "yes_price": "0.0015"
           },
           {
-            "question": "LoL: FURIA Esports vs Cloud9 - Game 2 Winner",
-            "yes_price": "0.9995"
+            "question": "Valorant: Team Vitality vs 100 Thieves (BO5) - VCT Champions Playoffs",
+            "yes_price": "0.325"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "be391dac9d8e92b789edbf1e093ee9e01f78b39229b6a68cf5093a200a890764"
+  "input_fingerprint": "e9d5508c3e0831c1765acf8dd7f4d7052a0e8d06b03f921cc1aa9e59095722b4"
 }
