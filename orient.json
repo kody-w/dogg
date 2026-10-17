@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-17T18:05:32.778Z",
+  "generated_utc": "2026-10-17T20:33:49.619Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2805,
-    "frame_hash": "bb6ee7251a926d1bcee02d4d372c5e7088ce6cde946408fc04a76e678adf43e9",
-    "utc": "2026-10-17T18:05:28.406Z"
+    "seq": 2806,
+    "frame_hash": "e16fc2e4c5db2a7e0b1c0e95bee1a8c0ca21ffcb42b908477fe0bcadbf77c4c4",
+    "utc": "2026-10-17T20:33:45.479Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2806,
-      "head_frame": "bb6ee7251a926d1bcee02d4d372c5e7088ce6cde946408fc04a76e678adf43e9"
+      "count": 2807,
+      "head_frame": "e16fc2e4c5db2a7e0b1c0e95bee1a8c0ca21ffcb42b908477fe0bcadbf77c4c4"
     },
     "world": {
-      "count": 2710,
-      "head_frame": "ffab631e612e4282dbd2500cd97b15860955b0507fe835d9885db44f3770b2c7"
+      "count": 2711,
+      "head_frame": "ab959220e518aa80cecc3bb3db65baf8941e4adc15272b72720f14d8dc4ec087"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "ffab631e612e4282dbd2500cd97b15860955b0507fe835d9885db44f3770b2c7",
-    "seq": 2709,
-    "utc": "2026-10-17T18:05:31.829Z",
-    "tick": 2805,
-    "tick_frame": "bb6ee7251a926d1bcee02d4d372c5e7088ce6cde946408fc04a76e678adf43e9",
+    "frame_hash": "ab959220e518aa80cecc3bb3db65baf8941e4adc15272b72720f14d8dc4ec087",
+    "seq": 2710,
+    "utc": "2026-10-17T20:33:48.305Z",
+    "tick": 2806,
+    "tick_frame": "e16fc2e4c5db2a7e0b1c0e95bee1a8c0ca21ffcb42b908477fe0bcadbf77c4c4",
     "data": {
       "btc_block_height": {
-        "height": 971896
+        "height": 971903
       },
       "btc_usd": {
-        "spot": "81383.515"
+        "spot": "81524.995"
       },
       "fx_usd": {
         "EUR": "0.8895",
@@ -58,49 +58,49 @@
         "CNY": "6.6985"
       },
       "crypto_market": {
-        "total_mcap_usd": "2744874059989",
+        "total_mcap_usd": "2752299546306",
         "btc_dominance_pct": "59.4"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 75695
+        "tx_count": 82921
       },
       "earthquakes_past_hour": {
-        "count": 5,
-        "max_mag": "1.9"
+        "count": 6,
+        "max_mag": "2.8"
       },
       "iss": {
-        "lat": "-16.078",
-        "lon": "102.811"
+        "lat": "-11.043",
+        "lon": "-92.919"
       },
       "space_weather": {
         "kp": "2.67",
         "at": "2026-10-17T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 119,
+        "gco2_kwh": 96,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 50132950,
-        "title": "Linux bugs fixed per release over time: >2× rise since 2026-04"
+        "id": 50126253,
+        "title": "Bleached corals thrive within days when touching healthy neighbour"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
-            "yes_price": "0.915"
+            "yes_price": "0.0005"
           },
           {
-            "question": "Will FC Barcelona win on 2026-10-17?",
-            "yes_price": "0.986"
+            "question": "Will AS Roma win on 2026-10-17?",
+            "yes_price": "0.995"
           },
           {
-            "question": "Will Newcastle United FC win on 2026-10-17?",
-            "yes_price": "0.065"
+            "question": "Ohio State vs. Indiana",
+            "yes_price": "0.9995"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "d35a917075b2d60854eebf0a216065b677a05542b34a8ced4df0b274aa52627f"
+  "input_fingerprint": "ed18842d8abc6cebc628159073550e6e356bb906a3773e692d7362b4f47d20ba"
 }
