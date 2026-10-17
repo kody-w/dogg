@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-17T08:42:32.497Z",
+  "generated_utc": "2026-10-17T12:25:32.566Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2802,
-    "frame_hash": "9a1b2783d3d24c7c6562cabcbf66e95c929f60d16ec84285e1f8c20a3e22244e",
-    "utc": "2026-10-17T08:42:27.711Z"
+    "seq": 2803,
+    "frame_hash": "8b4c5796f4ed5d699fceb48b0d7074855a4eb34cd452972cf30b71d336c00ddd",
+    "utc": "2026-10-17T12:25:27.783Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2803,
-      "head_frame": "9a1b2783d3d24c7c6562cabcbf66e95c929f60d16ec84285e1f8c20a3e22244e"
+      "count": 2804,
+      "head_frame": "8b4c5796f4ed5d699fceb48b0d7074855a4eb34cd452972cf30b71d336c00ddd"
     },
     "world": {
-      "count": 2707,
-      "head_frame": "7f861ed95cdd6668d5f9d188b860b4548b466541a362bbebae26eb2c26d3ad49"
+      "count": 2708,
+      "head_frame": "04d3ada7e2be214c982a8ee394353886db1f773622db54a62f7eaaf5ed38362a"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "7f861ed95cdd6668d5f9d188b860b4548b466541a362bbebae26eb2c26d3ad49",
-    "seq": 2706,
-    "utc": "2026-10-17T08:42:31.197Z",
-    "tick": 2802,
-    "tick_frame": "9a1b2783d3d24c7c6562cabcbf66e95c929f60d16ec84285e1f8c20a3e22244e",
+    "frame_hash": "04d3ada7e2be214c982a8ee394353886db1f773622db54a62f7eaaf5ed38362a",
+    "seq": 2707,
+    "utc": "2026-10-17T12:25:31.728Z",
+    "tick": 2803,
+    "tick_frame": "8b4c5796f4ed5d699fceb48b0d7074855a4eb34cd452972cf30b71d336c00ddd",
     "data": {
       "btc_block_height": {
-        "height": 971833
+        "height": 971858
       },
       "btc_usd": {
-        "spot": "81581.205"
+        "spot": "81422.465"
       },
       "fx_usd": {
         "EUR": "0.8895",
@@ -58,7 +58,7 @@
         "CNY": "6.6985"
       },
       "crypto_market": {
-        "total_mcap_usd": "2758151974935",
+        "total_mcap_usd": "2752463142829",
         "btc_dominance_pct": "59.3"
       },
       "btc_fees": {
@@ -66,27 +66,27 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 77225
+        "tx_count": 75561
       },
       "earthquakes_past_hour": {
-        "count": 7,
-        "max_mag": "3.8"
+        "count": 5,
+        "max_mag": "4.3"
       },
       "iss": {
-        "lat": "-31.927",
-        "lon": "-130.381"
+        "lat": "50.230",
+        "lon": "-48.742"
       },
       "space_weather": {
-        "kp": "1.0",
-        "at": "2026-10-17T03:00:00"
+        "kp": "0.67",
+        "at": "2026-10-17T09:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 59,
+        "gco2_kwh": 44,
         "index": "low"
       },
       "hn_top": {
-        "id": 50106747,
-        "title": "Ultramarine 1 Flash"
+        "id": 50129121,
+        "title": "DeepSeek: DeepSeek v4.1 Flash 1017"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -95,12 +95,12 @@
             "yes_price": "0.9995"
           },
           {
-            "question": "Valorant: Team Vitality vs 100 Thieves (BO5) - VCT Champions Playoffs",
-            "yes_price": "0.245"
+            "question": "LoL: BNK FEARX vs Team WE (BO5) - Demacia Cup Global Invitational Playoffs",
+            "yes_price": "0.9995"
           },
           {
-            "question": "Will the Fed decrease interest rates by 50+ bps after the October 2026 meeting?",
-            "yes_price": "0.0015"
+            "question": "LoL: BNK FEARX vs Team WE - Game 3 Winner",
+            "yes_price": "0.0005"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "528abb2a23dd6676e169668082245c45942a7b75d5732a0f5887086a9031b82a"
+  "input_fingerprint": "ae81609b66866c45d903165e54cac4ec01d0320439ae3634e115d0b87d7be0f2"
 }
