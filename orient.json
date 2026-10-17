@@ -1,20 +1,22 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-17T12:25:32.566Z",
+  "generated_utc": "2026-10-17T15:47:45.250Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2803,
-    "frame_hash": "8b4c5796f4ed5d699fceb48b0d7074855a4eb34cd452972cf30b71d336c00ddd",
-    "utc": "2026-10-17T12:25:27.783Z"
+    "seq": 2804,
+    "frame_hash": "b1afe674fdb8b006e93db57f4f92d824cea2dd7737a8cf2c53b137ec49ac4858",
+    "utc": "2026-10-17T15:47:35.125Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
     "world": {
-      "state": "current",
+      "state": "partial",
       "ticks_behind": 0,
-      "sources_failed": [],
+      "sources_failed": [
+        "iss"
+      ],
       "last_refresh": "ok",
       "retained_last_good": false
     },
@@ -26,12 +28,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2804,
-      "head_frame": "8b4c5796f4ed5d699fceb48b0d7074855a4eb34cd452972cf30b71d336c00ddd"
+      "count": 2805,
+      "head_frame": "b1afe674fdb8b006e93db57f4f92d824cea2dd7737a8cf2c53b137ec49ac4858"
     },
     "world": {
-      "count": 2708,
-      "head_frame": "04d3ada7e2be214c982a8ee394353886db1f773622db54a62f7eaaf5ed38362a"
+      "count": 2709,
+      "head_frame": "1e86269f6af70af615aed9fd711e9d1448ff40c7e7cff4dc4545b7bce590adba"
     },
     "registry": {
       "count": 25,
@@ -39,17 +41,17 @@
     }
   },
   "world": {
-    "frame_hash": "04d3ada7e2be214c982a8ee394353886db1f773622db54a62f7eaaf5ed38362a",
-    "seq": 2707,
-    "utc": "2026-10-17T12:25:31.728Z",
-    "tick": 2803,
-    "tick_frame": "8b4c5796f4ed5d699fceb48b0d7074855a4eb34cd452972cf30b71d336c00ddd",
+    "frame_hash": "1e86269f6af70af615aed9fd711e9d1448ff40c7e7cff4dc4545b7bce590adba",
+    "seq": 2708,
+    "utc": "2026-10-17T15:47:43.929Z",
+    "tick": 2804,
+    "tick_frame": "b1afe674fdb8b006e93db57f4f92d824cea2dd7737a8cf2c53b137ec49ac4858",
     "data": {
       "btc_block_height": {
-        "height": 971858
+        "height": 971880
       },
       "btc_usd": {
-        "spot": "81422.465"
+        "spot": "81330.805"
       },
       "fx_usd": {
         "EUR": "0.8895",
@@ -58,30 +60,26 @@
         "CNY": "6.6985"
       },
       "crypto_market": {
-        "total_mcap_usd": "2752463142829",
-        "btc_dominance_pct": "59.3"
+        "total_mcap_usd": "2747653368458",
+        "btc_dominance_pct": "59.4"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 75561
+        "tx_count": 83913
       },
       "earthquakes_past_hour": {
-        "count": 5,
-        "max_mag": "4.3"
-      },
-      "iss": {
-        "lat": "50.230",
-        "lon": "-48.742"
+        "count": 6,
+        "max_mag": "2.2"
       },
       "space_weather": {
         "kp": "0.67",
-        "at": "2026-10-17T09:00:00"
+        "at": "2026-10-17T12:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 44,
+        "gco2_kwh": 69,
         "index": "low"
       },
       "hn_top": {
@@ -95,12 +93,12 @@
             "yes_price": "0.9995"
           },
           {
-            "question": "LoL: BNK FEARX vs Team WE (BO5) - Demacia Cup Global Invitational Playoffs",
-            "yes_price": "0.9995"
+            "question": "Will Manchester City FC win on 2026-10-17?",
+            "yes_price": "0.9955"
           },
           {
-            "question": "LoL: BNK FEARX vs Team WE - Game 3 Winner",
-            "yes_price": "0.0005"
+            "question": "Manchester City FC vs. Ipswich Town FC: O/U 3.5",
+            "yes_price": "0.9995"
           }
         ]
       }
@@ -264,5 +262,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "ae81609b66866c45d903165e54cac4ec01d0320439ae3634e115d0b87d7be0f2"
+  "input_fingerprint": "6a24a17303735d2024763dd6362b51d6d153b309d1d0fc59c4d844a1e74c4400"
 }
