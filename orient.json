@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-17T04:21:29.953Z",
+  "generated_utc": "2026-10-17T08:42:32.497Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2801,
-    "frame_hash": "3deeb0381f45184e110581459538911d4b4ff644e6d8d62a2b51b83bef32bfd0",
-    "utc": "2026-10-17T04:21:25.752Z"
+    "seq": 2802,
+    "frame_hash": "9a1b2783d3d24c7c6562cabcbf66e95c929f60d16ec84285e1f8c20a3e22244e",
+    "utc": "2026-10-17T08:42:27.711Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2802,
-      "head_frame": "3deeb0381f45184e110581459538911d4b4ff644e6d8d62a2b51b83bef32bfd0"
+      "count": 2803,
+      "head_frame": "9a1b2783d3d24c7c6562cabcbf66e95c929f60d16ec84285e1f8c20a3e22244e"
     },
     "world": {
-      "count": 2706,
-      "head_frame": "554dacd86277f033226a3531060c4fcdd23b0f8a5d0a9d701dec2a7c16f0637e"
+      "count": 2707,
+      "head_frame": "7f861ed95cdd6668d5f9d188b860b4548b466541a362bbebae26eb2c26d3ad49"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "554dacd86277f033226a3531060c4fcdd23b0f8a5d0a9d701dec2a7c16f0637e",
-    "seq": 2705,
-    "utc": "2026-10-17T04:21:28.976Z",
-    "tick": 2801,
-    "tick_frame": "3deeb0381f45184e110581459538911d4b4ff644e6d8d62a2b51b83bef32bfd0",
+    "frame_hash": "7f861ed95cdd6668d5f9d188b860b4548b466541a362bbebae26eb2c26d3ad49",
+    "seq": 2706,
+    "utc": "2026-10-17T08:42:31.197Z",
+    "tick": 2802,
+    "tick_frame": "9a1b2783d3d24c7c6562cabcbf66e95c929f60d16ec84285e1f8c20a3e22244e",
     "data": {
       "btc_block_height": {
-        "height": 971806
+        "height": 971833
       },
       "btc_usd": {
-        "spot": "81410.125"
+        "spot": "81581.205"
       },
       "fx_usd": {
         "EUR": "0.8895",
@@ -58,7 +58,7 @@
         "CNY": "6.6985"
       },
       "crypto_market": {
-        "total_mcap_usd": "2758504657739",
+        "total_mcap_usd": "2758151974935",
         "btc_dominance_pct": "59.3"
       },
       "btc_fees": {
@@ -66,22 +66,22 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 77307
+        "tx_count": 77225
       },
       "earthquakes_past_hour": {
-        "count": 6,
-        "max_mag": "3.9"
+        "count": 7,
+        "max_mag": "3.8"
       },
       "iss": {
-        "lat": "20.485",
-        "lon": "-17.565"
+        "lat": "-31.927",
+        "lon": "-130.381"
       },
       "space_weather": {
-        "kp": "2.0",
-        "at": "2026-10-17T00:00:00"
+        "kp": "1.0",
+        "at": "2026-10-17T03:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 47,
+        "gco2_kwh": 59,
         "index": "low"
       },
       "hn_top": {
@@ -95,12 +95,12 @@
             "yes_price": "0.9995"
           },
           {
-            "question": "Will the Fed decrease interest rates by 50+ bps after the October 2026 meeting?",
-            "yes_price": "0.0015"
+            "question": "Valorant: Team Vitality vs 100 Thieves (BO5) - VCT Champions Playoffs",
+            "yes_price": "0.245"
           },
           {
-            "question": "Valorant: Team Vitality vs 100 Thieves (BO5) - VCT Champions Playoffs",
-            "yes_price": "0.325"
+            "question": "Will the Fed decrease interest rates by 50+ bps after the October 2026 meeting?",
+            "yes_price": "0.0015"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "e9d5508c3e0831c1765acf8dd7f4d7052a0e8d06b03f921cc1aa9e59095722b4"
+  "input_fingerprint": "528abb2a23dd6676e169668082245c45942a7b75d5732a0f5887086a9031b82a"
 }
