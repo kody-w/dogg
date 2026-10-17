@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-17T20:33:49.619Z",
+  "generated_utc": "2026-10-17T22:39:44.827Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2806,
-    "frame_hash": "e16fc2e4c5db2a7e0b1c0e95bee1a8c0ca21ffcb42b908477fe0bcadbf77c4c4",
-    "utc": "2026-10-17T20:33:45.479Z"
+    "seq": 2807,
+    "frame_hash": "7e3def8ee2dbb6930916b84b96df4bd8acd81ff55b248de87d3e7fbfffc8d053",
+    "utc": "2026-10-17T22:39:40.802Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2807,
-      "head_frame": "e16fc2e4c5db2a7e0b1c0e95bee1a8c0ca21ffcb42b908477fe0bcadbf77c4c4"
+      "count": 2808,
+      "head_frame": "7e3def8ee2dbb6930916b84b96df4bd8acd81ff55b248de87d3e7fbfffc8d053"
     },
     "world": {
-      "count": 2711,
-      "head_frame": "ab959220e518aa80cecc3bb3db65baf8941e4adc15272b72720f14d8dc4ec087"
+      "count": 2712,
+      "head_frame": "b7ec70ef735f481fc6fa5680feb0692bb5b35d1c36aea602e9e59b93f22f8cae"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "ab959220e518aa80cecc3bb3db65baf8941e4adc15272b72720f14d8dc4ec087",
-    "seq": 2710,
-    "utc": "2026-10-17T20:33:48.305Z",
-    "tick": 2806,
-    "tick_frame": "e16fc2e4c5db2a7e0b1c0e95bee1a8c0ca21ffcb42b908477fe0bcadbf77c4c4",
+    "frame_hash": "b7ec70ef735f481fc6fa5680feb0692bb5b35d1c36aea602e9e59b93f22f8cae",
+    "seq": 2711,
+    "utc": "2026-10-17T22:39:43.828Z",
+    "tick": 2807,
+    "tick_frame": "7e3def8ee2dbb6930916b84b96df4bd8acd81ff55b248de87d3e7fbfffc8d053",
     "data": {
       "btc_block_height": {
-        "height": 971903
+        "height": 971911
       },
       "btc_usd": {
-        "spot": "81524.995"
+        "spot": "81198.575"
       },
       "fx_usd": {
         "EUR": "0.8895",
@@ -58,31 +58,31 @@
         "CNY": "6.6985"
       },
       "crypto_market": {
-        "total_mcap_usd": "2752299546306",
-        "btc_dominance_pct": "59.4"
+        "total_mcap_usd": "2738997952599",
+        "btc_dominance_pct": "59.5"
       },
       "btc_fees": {
         "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 82921
+        "tx_count": 80742
       },
       "earthquakes_past_hour": {
-        "count": 6,
-        "max_mag": "2.8"
+        "count": 4,
+        "max_mag": "3.1"
       },
       "iss": {
-        "lat": "-11.043",
-        "lon": "-92.919"
+        "lat": "-29.064",
+        "lon": "20.298"
       },
       "space_weather": {
-        "kp": "2.67",
-        "at": "2026-10-17T15:00:00"
+        "kp": "3.0",
+        "at": "2026-10-17T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 96,
-        "index": "moderate"
+        "gco2_kwh": 57,
+        "index": "low"
       },
       "hn_top": {
         "id": 50126253,
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World Championship Playoffs",
+            "question": "UNLV vs. Air Force",
+            "yes_price": "0.005"
+          },
+          {
+            "question": "UFC Fight Night: Chad Anheliger vs. Steven Koslow (Bantamweight, Prelims)",
             "yes_price": "0.0005"
           },
           {
-            "question": "Will AS Roma win on 2026-10-17?",
-            "yes_price": "0.995"
-          },
-          {
-            "question": "Ohio State vs. Indiana",
-            "yes_price": "0.9995"
+            "question": "Alabama vs. Tennessee",
+            "yes_price": "0.165"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "ed18842d8abc6cebc628159073550e6e356bb906a3773e692d7362b4f47d20ba"
+  "input_fingerprint": "1e369b30d76851935dc8c96a2159c376cdfd630f3f68e4f2cc5fef309cdc8752"
 }
