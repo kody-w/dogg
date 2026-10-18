@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-18T13:24:34.918Z",
+  "generated_utc": "2026-10-18T16:40:09.681Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2811,
-    "frame_hash": "7f73751354f84464a5e76a8255dd5e2cbacfbe2f255c4e3dba143b624410c4ee",
-    "utc": "2026-10-18T13:24:29.269Z"
+    "seq": 2812,
+    "frame_hash": "efa43e318932da564993bc422a3e7c6d98b89df83c2e965234f5b89e6ac6403b",
+    "utc": "2026-10-18T16:39:58.955Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2812,
-      "head_frame": "7f73751354f84464a5e76a8255dd5e2cbacfbe2f255c4e3dba143b624410c4ee"
+      "count": 2813,
+      "head_frame": "efa43e318932da564993bc422a3e7c6d98b89df83c2e965234f5b89e6ac6403b"
     },
     "world": {
-      "count": 2716,
-      "head_frame": "599953a6df22f3e4087d6384d3d229eb4a573524606c3edc597050715535d4ee"
+      "count": 2717,
+      "head_frame": "81ae5400d7f9c774a068190526cf81f6533d0a63eddefad91c9fee6f2987f9fb"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "599953a6df22f3e4087d6384d3d229eb4a573524606c3edc597050715535d4ee",
-    "seq": 2715,
-    "utc": "2026-10-18T13:24:33.620Z",
-    "tick": 2811,
-    "tick_frame": "7f73751354f84464a5e76a8255dd5e2cbacfbe2f255c4e3dba143b624410c4ee",
+    "frame_hash": "81ae5400d7f9c774a068190526cf81f6533d0a63eddefad91c9fee6f2987f9fb",
+    "seq": 2716,
+    "utc": "2026-10-18T16:40:08.366Z",
+    "tick": 2812,
+    "tick_frame": "efa43e318932da564993bc422a3e7c6d98b89df83c2e965234f5b89e6ac6403b",
     "data": {
       "btc_block_height": {
-        "height": 971999
+        "height": 972024
       },
       "btc_usd": {
-        "spot": "81664.42"
+        "spot": "81014.305"
       },
       "fx_usd": {
         "EUR": "0.8896",
@@ -58,49 +58,49 @@
         "CNY": "6.7029"
       },
       "crypto_market": {
-        "total_mcap_usd": "2756152772711",
-        "btc_dominance_pct": "59.5"
+        "total_mcap_usd": "2704772745867",
+        "btc_dominance_pct": "60.2"
       },
       "btc_fees": {
         "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 41402
+        "tx_count": 41419
       },
       "earthquakes_past_hour": {
-        "count": 8,
-        "max_mag": "4.5"
+        "count": 11,
+        "max_mag": "2.2"
       },
       "iss": {
-        "lat": "22.793",
-        "lon": "-17.925"
+        "lat": "-6.475",
+        "lon": "-43.170"
       },
       "space_weather": {
-        "kp": "1.67",
-        "at": "2026-10-18T09:00:00"
+        "kp": "0.33",
+        "at": "2026-10-18T12:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 59,
-        "index": "low"
+        "gco2_kwh": 130,
+        "index": "moderate"
       },
       "hn_top": {
-        "id": 50138531,
-        "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests"
+        "id": 50141076,
+        "title": "RepRapMicron"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will Brighton & Hove Albion FC win on 2026-10-18?",
-            "yes_price": "0.9845"
+            "question": "Will Arsenal FC win on 2026-10-18?",
+            "yes_price": "0.515"
           },
           {
-            "question": "Will Como 1907 win on 2026-10-18?",
-            "yes_price": "0.405"
+            "question": "Texans vs. Jaguars",
+            "yes_price": "0.595"
           },
           {
-            "question": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
-            "yes_price": "0.8075"
+            "question": "Will Real Madrid CF vs. Sevilla FC end in a draw?",
+            "yes_price": "0.135"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "97394ef9c836c9d7a2fa2b45480da8652745c73bb0b69fcaed6b3875a7529080"
+  "input_fingerprint": "dc08b692092b77a859af3d498ce546bf6a73c2e5089a771ee037feb6208e80d5"
 }
