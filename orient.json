@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-18T16:40:09.681Z",
+  "generated_utc": "2026-10-18T18:56:20.348Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2812,
-    "frame_hash": "efa43e318932da564993bc422a3e7c6d98b89df83c2e965234f5b89e6ac6403b",
-    "utc": "2026-10-18T16:39:58.955Z"
+    "seq": 2813,
+    "frame_hash": "9bbcb2484e4d49ab4d7222bb930ca92d85d8b0a3073958c1b10971e58b925b04",
+    "utc": "2026-10-18T18:56:15.279Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2813,
-      "head_frame": "efa43e318932da564993bc422a3e7c6d98b89df83c2e965234f5b89e6ac6403b"
+      "count": 2814,
+      "head_frame": "9bbcb2484e4d49ab4d7222bb930ca92d85d8b0a3073958c1b10971e58b925b04"
     },
     "world": {
-      "count": 2717,
-      "head_frame": "81ae5400d7f9c774a068190526cf81f6533d0a63eddefad91c9fee6f2987f9fb"
+      "count": 2718,
+      "head_frame": "63fc357fbba9336791abd025f1e45b0951aa774d5bf498489cbc51dfbed26477"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "81ae5400d7f9c774a068190526cf81f6533d0a63eddefad91c9fee6f2987f9fb",
-    "seq": 2716,
-    "utc": "2026-10-18T16:40:08.366Z",
-    "tick": 2812,
-    "tick_frame": "efa43e318932da564993bc422a3e7c6d98b89df83c2e965234f5b89e6ac6403b",
+    "frame_hash": "63fc357fbba9336791abd025f1e45b0951aa774d5bf498489cbc51dfbed26477",
+    "seq": 2717,
+    "utc": "2026-10-18T18:56:19.368Z",
+    "tick": 2813,
+    "tick_frame": "9bbcb2484e4d49ab4d7222bb930ca92d85d8b0a3073958c1b10971e58b925b04",
     "data": {
       "btc_block_height": {
-        "height": 972024
+        "height": 972038
       },
       "btc_usd": {
-        "spot": "81014.305"
+        "spot": "81094.225"
       },
       "fx_usd": {
         "EUR": "0.8896",
@@ -58,30 +58,30 @@
         "CNY": "6.7029"
       },
       "crypto_market": {
-        "total_mcap_usd": "2704772745867",
+        "total_mcap_usd": "2707241100378",
         "btc_dominance_pct": "60.2"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 41419
+        "tx_count": 37170
       },
       "earthquakes_past_hour": {
-        "count": 11,
-        "max_mag": "2.2"
+        "count": 7,
+        "max_mag": "2.7"
       },
       "iss": {
-        "lat": "-6.475",
-        "lon": "-43.170"
+        "lat": "-3.105",
+        "lon": "94.636"
       },
       "space_weather": {
-        "kp": "0.33",
-        "at": "2026-10-18T12:00:00"
+        "kp": "1.67",
+        "at": "2026-10-18T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 130,
+        "gco2_kwh": 154,
         "index": "moderate"
       },
       "hn_top": {
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will Arsenal FC win on 2026-10-18?",
-            "yes_price": "0.515"
+            "question": "Panthers vs. Eagles",
+            "yes_price": "0.685"
           },
           {
-            "question": "Texans vs. Jaguars",
-            "yes_price": "0.595"
+            "question": "Will Olympique Lyonnais win on 2026-10-18?",
+            "yes_price": "0.475"
           },
           {
-            "question": "Will Real Madrid CF vs. Sevilla FC end in a draw?",
-            "yes_price": "0.135"
+            "question": "Saints vs. Giants",
+            "yes_price": "0.705"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "dc08b692092b77a859af3d498ce546bf6a73c2e5089a771ee037feb6208e80d5"
+  "input_fingerprint": "4aa06044d1db53100310985bb1aee0bb7e48bf541257dffa1050ce151491fd4a"
 }
