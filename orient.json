@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-18T18:56:20.348Z",
+  "generated_utc": "2026-10-18T21:14:15.176Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2813,
-    "frame_hash": "9bbcb2484e4d49ab4d7222bb930ca92d85d8b0a3073958c1b10971e58b925b04",
-    "utc": "2026-10-18T18:56:15.279Z"
+    "seq": 2814,
+    "frame_hash": "7e21d3a2fe020c509679bfdf79e6d6315600df7f8f32b0cfaff167db64f67e01",
+    "utc": "2026-10-18T21:14:10.622Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2814,
-      "head_frame": "9bbcb2484e4d49ab4d7222bb930ca92d85d8b0a3073958c1b10971e58b925b04"
+      "count": 2815,
+      "head_frame": "7e21d3a2fe020c509679bfdf79e6d6315600df7f8f32b0cfaff167db64f67e01"
     },
     "world": {
-      "count": 2718,
-      "head_frame": "63fc357fbba9336791abd025f1e45b0951aa774d5bf498489cbc51dfbed26477"
+      "count": 2719,
+      "head_frame": "cb8c4c4d605617b2532db9bbd8f667031c5a159cfcdce976e723d4f665c81650"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "63fc357fbba9336791abd025f1e45b0951aa774d5bf498489cbc51dfbed26477",
-    "seq": 2717,
-    "utc": "2026-10-18T18:56:19.368Z",
-    "tick": 2813,
-    "tick_frame": "9bbcb2484e4d49ab4d7222bb930ca92d85d8b0a3073958c1b10971e58b925b04",
+    "frame_hash": "cb8c4c4d605617b2532db9bbd8f667031c5a159cfcdce976e723d4f665c81650",
+    "seq": 2718,
+    "utc": "2026-10-18T21:14:13.842Z",
+    "tick": 2814,
+    "tick_frame": "7e21d3a2fe020c509679bfdf79e6d6315600df7f8f32b0cfaff167db64f67e01",
     "data": {
       "btc_block_height": {
-        "height": 972038
+        "height": 972055
       },
       "btc_usd": {
-        "spot": "81094.225"
+        "spot": "80927.865"
       },
       "fx_usd": {
         "EUR": "0.8896",
@@ -58,7 +58,7 @@
         "CNY": "6.7029"
       },
       "crypto_market": {
-        "total_mcap_usd": "2707241100378",
+        "total_mcap_usd": "2693030592189",
         "btc_dominance_pct": "60.2"
       },
       "btc_fees": {
@@ -66,41 +66,41 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 37170
+        "tx_count": 35936
       },
       "earthquakes_past_hour": {
-        "count": 7,
-        "max_mag": "2.7"
+        "count": 11,
+        "max_mag": "4.4"
       },
       "iss": {
-        "lat": "-3.105",
-        "lon": "94.636"
+        "lat": "7.514",
+        "lon": "-123.920"
       },
       "space_weather": {
         "kp": "1.67",
-        "at": "2026-10-18T15:00:00"
+        "at": "2026-10-18T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 154,
+        "gco2_kwh": 135,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 50141076,
-        "title": "RepRapMicron"
+        "id": 50142573,
+        "title": "Someone behind the software"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Panthers vs. Eagles",
-            "yes_price": "0.685"
+            "question": "Counter-Strike: FURIA vs BetBoom Team (BO5) - Thunderpick World Championship Playoffs",
+            "yes_price": "0.745"
           },
           {
-            "question": "Will Olympique Lyonnais win on 2026-10-18?",
-            "yes_price": "0.475"
+            "question": "Cardinals vs. Rams",
+            "yes_price": "0.215"
           },
           {
-            "question": "Saints vs. Giants",
-            "yes_price": "0.705"
+            "question": "Will Sevilla FC win on 2026-10-18?",
+            "yes_price": "0.0005"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "4aa06044d1db53100310985bb1aee0bb7e48bf541257dffa1050ce151491fd4a"
+  "input_fingerprint": "775061d42ceb13d66baa1050739f6084bb3bad0c2ed07ec13564bfe65bf5ecf0"
 }
