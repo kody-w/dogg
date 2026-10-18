@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-18T21:14:15.176Z",
+  "generated_utc": "2026-10-18T23:15:39.240Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2814,
-    "frame_hash": "7e21d3a2fe020c509679bfdf79e6d6315600df7f8f32b0cfaff167db64f67e01",
-    "utc": "2026-10-18T21:14:10.622Z"
+    "seq": 2815,
+    "frame_hash": "4aeec44a328c158ae91074af02061dce695fd6f60188a5eecca20a1c1f935181",
+    "utc": "2026-10-18T23:15:35.180Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2815,
-      "head_frame": "7e21d3a2fe020c509679bfdf79e6d6315600df7f8f32b0cfaff167db64f67e01"
+      "count": 2816,
+      "head_frame": "4aeec44a328c158ae91074af02061dce695fd6f60188a5eecca20a1c1f935181"
     },
     "world": {
-      "count": 2719,
-      "head_frame": "cb8c4c4d605617b2532db9bbd8f667031c5a159cfcdce976e723d4f665c81650"
+      "count": 2720,
+      "head_frame": "591a201a4cbed3aec2a39c9d81890ad6bdbf41d46ab1fe8f7ac06178404c0e04"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "cb8c4c4d605617b2532db9bbd8f667031c5a159cfcdce976e723d4f665c81650",
-    "seq": 2718,
-    "utc": "2026-10-18T21:14:13.842Z",
-    "tick": 2814,
-    "tick_frame": "7e21d3a2fe020c509679bfdf79e6d6315600df7f8f32b0cfaff167db64f67e01",
+    "frame_hash": "591a201a4cbed3aec2a39c9d81890ad6bdbf41d46ab1fe8f7ac06178404c0e04",
+    "seq": 2719,
+    "utc": "2026-10-18T23:15:38.460Z",
+    "tick": 2815,
+    "tick_frame": "4aeec44a328c158ae91074af02061dce695fd6f60188a5eecca20a1c1f935181",
     "data": {
       "btc_block_height": {
-        "height": 972055
+        "height": 972071
       },
       "btc_usd": {
-        "spot": "80927.865"
+        "spot": "81689.995"
       },
       "fx_usd": {
         "EUR": "0.8896",
@@ -58,49 +58,49 @@
         "CNY": "6.7029"
       },
       "crypto_market": {
-        "total_mcap_usd": "2693030592189",
-        "btc_dominance_pct": "60.2"
+        "total_mcap_usd": "2726158450529",
+        "btc_dominance_pct": "60.1"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 35936
+        "tx_count": 33970
       },
       "earthquakes_past_hour": {
-        "count": 11,
-        "max_mag": "4.4"
+        "count": 6,
+        "max_mag": "5.1"
       },
       "iss": {
-        "lat": "7.514",
-        "lon": "-123.920"
+        "lat": "-50.506",
+        "lon": "-41.605"
       },
       "space_weather": {
         "kp": "1.67",
         "at": "2026-10-18T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 135,
+        "gco2_kwh": 105,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 50142573,
-        "title": "Someone behind the software"
+        "id": 50145337,
+        "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Counter-Strike: FURIA vs BetBoom Team (BO5) - Thunderpick World Championship Playoffs",
-            "yes_price": "0.745"
-          },
-          {
             "question": "Cardinals vs. Rams",
-            "yes_price": "0.215"
+            "yes_price": "0.9995"
           },
           {
-            "question": "Will Sevilla FC win on 2026-10-18?",
-            "yes_price": "0.0005"
+            "question": "Bills vs. Raiders",
+            "yes_price": "0.855"
+          },
+          {
+            "question": "Chargers vs. Chiefs",
+            "yes_price": "0.006"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "775061d42ceb13d66baa1050739f6084bb3bad0c2ed07ec13564bfe65bf5ecf0"
+  "input_fingerprint": "88b844765e8607cb0af72d8a1e98f7c23a407933689c1550b8e70d08436766dd"
 }
