@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-18T00:19:37.789Z",
+  "generated_utc": "2026-10-18T04:52:44.517Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2808,
-    "frame_hash": "85a6d6cacda3984f97c9a50671abc97624d019b3bcae50f3a7d5873a8f029632",
-    "utc": "2026-10-18T00:19:33.750Z"
+    "seq": 2809,
+    "frame_hash": "e792e917526ae3b6970adb41ed8959ea7b8613a0dac660af50a2e859dbe357bd",
+    "utc": "2026-10-18T04:52:39.604Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2809,
-      "head_frame": "85a6d6cacda3984f97c9a50671abc97624d019b3bcae50f3a7d5873a8f029632"
+      "count": 2810,
+      "head_frame": "e792e917526ae3b6970adb41ed8959ea7b8613a0dac660af50a2e859dbe357bd"
     },
     "world": {
-      "count": 2713,
-      "head_frame": "c74b2c7dd9227fbc8c9895bf345aa708f48cc57621e4862b7e1f5ede632427b6"
+      "count": 2714,
+      "head_frame": "06a88529dfda1f54165bd4caa88324095b1d2ab00f7c76cb0159c68d735d5419"
     },
     "registry": {
       "count": 25,
@@ -39,68 +39,68 @@
     }
   },
   "world": {
-    "frame_hash": "c74b2c7dd9227fbc8c9895bf345aa708f48cc57621e4862b7e1f5ede632427b6",
-    "seq": 2712,
-    "utc": "2026-10-18T00:19:37.017Z",
-    "tick": 2808,
-    "tick_frame": "85a6d6cacda3984f97c9a50671abc97624d019b3bcae50f3a7d5873a8f029632",
+    "frame_hash": "06a88529dfda1f54165bd4caa88324095b1d2ab00f7c76cb0159c68d735d5419",
+    "seq": 2713,
+    "utc": "2026-10-18T04:52:43.501Z",
+    "tick": 2809,
+    "tick_frame": "e792e917526ae3b6970adb41ed8959ea7b8613a0dac660af50a2e859dbe357bd",
     "data": {
       "btc_block_height": {
-        "height": 971920
+        "height": 971948
       },
       "btc_usd": {
-        "spot": "81372.355"
+        "spot": "81680.375"
       },
       "fx_usd": {
-        "EUR": "0.8895",
+        "EUR": "0.8896",
         "GBP": "0.7508",
-        "JPY": "157.9943",
-        "CNY": "6.6985"
+        "JPY": "158.0012",
+        "CNY": "6.7029"
       },
       "crypto_market": {
-        "total_mcap_usd": "2746986904042",
+        "total_mcap_usd": "2756892628429",
         "btc_dominance_pct": "59.5"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 78613
+        "tx_count": 71402
       },
       "earthquakes_past_hour": {
-        "count": 4,
-        "max_mag": "1.5"
+        "count": 10,
+        "max_mag": "2.8"
       },
       "iss": {
-        "lat": "-8.692",
-        "lon": "13.951"
+        "lat": "-25.236",
+        "lon": "-70.323"
       },
       "space_weather": {
-        "kp": "1.0",
-        "at": "2026-10-17T21:00:00"
+        "kp": "2.0",
+        "at": "2026-10-18T00:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 62,
+        "gco2_kwh": 76,
         "index": "low"
       },
       "hn_top": {
-        "id": 50126253,
-        "title": "Bleached corals thrive within days when touching healthy neighbour"
+        "id": 50137620,
+        "title": "How the Elizabeth Holmes Doc 'You Can See Everything' Is Deceiving You"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Santa Cruz 2: Francisco Comesana vs Thiago Seyboth Wild",
-            "yes_price": "0.0005"
-          },
-          {
             "question": "Tampa Bay Rays vs. Cleveland Guardians",
-            "yes_price": "0.485"
+            "yes_price": "0.9995"
           },
           {
-            "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
-            "yes_price": "0.0015"
+            "question": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
+            "yes_price": "0.801"
+          },
+          {
+            "question": "Nebraska vs. Oregon",
+            "yes_price": "0.645"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "c9ad62ca91ff8a84af39fd535367504caa5faa13121101a4f5941c7e1bfd3eca"
+  "input_fingerprint": "b6d0016f675c229a7e9cee9d051d5500e6ea7d79c092484b08ad206ceeb5e799"
 }
