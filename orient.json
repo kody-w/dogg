@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-18T23:15:39.240Z",
+  "generated_utc": "2026-10-19T01:28:20.923Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2815,
-    "frame_hash": "4aeec44a328c158ae91074af02061dce695fd6f60188a5eecca20a1c1f935181",
-    "utc": "2026-10-18T23:15:35.180Z"
+    "seq": 2816,
+    "frame_hash": "6baa46a27dbf6c1e466a49d0cfc4e35628916f6d3853bef68bd990abc0dd4c89",
+    "utc": "2026-10-19T01:28:16.947Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2816,
-      "head_frame": "4aeec44a328c158ae91074af02061dce695fd6f60188a5eecca20a1c1f935181"
+      "count": 2817,
+      "head_frame": "6baa46a27dbf6c1e466a49d0cfc4e35628916f6d3853bef68bd990abc0dd4c89"
     },
     "world": {
-      "count": 2720,
-      "head_frame": "591a201a4cbed3aec2a39c9d81890ad6bdbf41d46ab1fe8f7ac06178404c0e04"
+      "count": 2721,
+      "head_frame": "e251bb5056bd14e2bc580ebf9f2fa39602f9d51b178353ad286ef170e88962c8"
     },
     "registry": {
       "count": 25,
@@ -39,26 +39,26 @@
     }
   },
   "world": {
-    "frame_hash": "591a201a4cbed3aec2a39c9d81890ad6bdbf41d46ab1fe8f7ac06178404c0e04",
-    "seq": 2719,
-    "utc": "2026-10-18T23:15:38.460Z",
-    "tick": 2815,
-    "tick_frame": "4aeec44a328c158ae91074af02061dce695fd6f60188a5eecca20a1c1f935181",
+    "frame_hash": "e251bb5056bd14e2bc580ebf9f2fa39602f9d51b178353ad286ef170e88962c8",
+    "seq": 2720,
+    "utc": "2026-10-19T01:28:19.823Z",
+    "tick": 2816,
+    "tick_frame": "6baa46a27dbf6c1e466a49d0cfc4e35628916f6d3853bef68bd990abc0dd4c89",
     "data": {
       "btc_block_height": {
-        "height": 972071
+        "height": 972089
       },
       "btc_usd": {
-        "spot": "81689.995"
+        "spot": "82388.785"
       },
       "fx_usd": {
-        "EUR": "0.8896",
-        "GBP": "0.7508",
-        "JPY": "158.0012",
-        "CNY": "6.7029"
+        "EUR": "0.8909",
+        "GBP": "0.7503",
+        "JPY": "157.9114",
+        "CNY": "6.6927"
       },
       "crypto_market": {
-        "total_mcap_usd": "2726158450529",
+        "total_mcap_usd": "2751699848324",
         "btc_dominance_pct": "60.1"
       },
       "btc_fees": {
@@ -66,22 +66,22 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 33970
+        "tx_count": 42634
       },
       "earthquakes_past_hour": {
-        "count": 6,
-        "max_mag": "5.1"
+        "count": 8,
+        "max_mag": "2.7"
       },
       "iss": {
-        "lat": "-50.506",
-        "lon": "-41.605"
+        "lat": "49.406",
+        "lon": "64.206"
       },
       "space_weather": {
-        "kp": "1.67",
-        "at": "2026-10-18T18:00:00"
+        "kp": "0.33",
+        "at": "2026-10-18T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 105,
+        "gco2_kwh": 104,
         "index": "moderate"
       },
       "hn_top": {
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Cardinals vs. Rams",
-            "yes_price": "0.9995"
+            "question": "Cowboys vs. Packers",
+            "yes_price": "0.255"
           },
           {
-            "question": "Bills vs. Raiders",
-            "yes_price": "0.855"
+            "question": "Cowboys vs. Packers: O/U 53.5",
+            "yes_price": "0.235"
           },
           {
-            "question": "Chargers vs. Chiefs",
-            "yes_price": "0.006"
+            "question": "Will the Fed decrease interest rates by 50+ bps after the October 2026 meeting?",
+            "yes_price": "0.0005"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "88b844765e8607cb0af72d8a1e98f7c23a407933689c1550b8e70d08436766dd"
+  "input_fingerprint": "4cc58362789edabee320a61023b778cfd096fbe3ae04cf2d3a14006ceb6e11b7"
 }
