@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-20T17:31:29.370Z",
+  "generated_utc": "2026-10-20T20:52:49.816Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2824,
-    "frame_hash": "1293db3e0231b2d6d240b7b63c23b5a608f61f4fae10c4e35632ab64916c77a9",
-    "utc": "2026-10-20T17:31:20.733Z"
+    "seq": 2825,
+    "frame_hash": "31a4cb5c3fe2c2b5bfe31a9211a6757b7484702f78cde3bcf99edb51be7b55ed",
+    "utc": "2026-10-20T20:52:44.875Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2825,
-      "head_frame": "1293db3e0231b2d6d240b7b63c23b5a608f61f4fae10c4e35632ab64916c77a9"
+      "count": 2826,
+      "head_frame": "31a4cb5c3fe2c2b5bfe31a9211a6757b7484702f78cde3bcf99edb51be7b55ed"
     },
     "world": {
-      "count": 2729,
-      "head_frame": "9a7fefa5c6c105e8e5be20e8eb8591349a60e1ba74aa7e7c4c5818738574248d"
+      "count": 2730,
+      "head_frame": "c5f3bfbbc585543df8b4eefaff453a571ebce19abb2832227ef021d1c16d18bc"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "9a7fefa5c6c105e8e5be20e8eb8591349a60e1ba74aa7e7c4c5818738574248d",
-    "seq": 2728,
-    "utc": "2026-10-20T17:31:28.106Z",
-    "tick": 2824,
-    "tick_frame": "1293db3e0231b2d6d240b7b63c23b5a608f61f4fae10c4e35632ab64916c77a9",
+    "frame_hash": "c5f3bfbbc585543df8b4eefaff453a571ebce19abb2832227ef021d1c16d18bc",
+    "seq": 2729,
+    "utc": "2026-10-20T20:52:49.080Z",
+    "tick": 2825,
+    "tick_frame": "31a4cb5c3fe2c2b5bfe31a9211a6757b7484702f78cde3bcf99edb51be7b55ed",
     "data": {
       "btc_block_height": {
-        "height": 972361
+        "height": 972377
       },
       "btc_usd": {
-        "spot": "82650.545"
+        "spot": "82690.505"
       },
       "fx_usd": {
         "EUR": "0.8915",
@@ -58,49 +58,49 @@
         "CNY": "6.6937"
       },
       "crypto_market": {
-        "total_mcap_usd": "2785297682773",
+        "total_mcap_usd": "2788654689555",
         "btc_dominance_pct": "59.5"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 49702
+        "tx_count": 52391
       },
       "earthquakes_past_hour": {
-        "count": 8,
-        "max_mag": "5.4"
+        "count": 4,
+        "max_mag": "4.9"
       },
       "iss": {
-        "lat": "20.968",
-        "lon": "124.344"
+        "lat": "51.705",
+        "lon": "141.207"
       },
       "space_weather": {
-        "kp": "2.0",
-        "at": "2026-10-20T12:00:00"
+        "kp": "2.67",
+        "at": "2026-10-20T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 161,
+        "gco2_kwh": 142,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 50163277,
-        "title": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models"
+        "id": 50170593,
+        "title": "SimCity, but with Permits"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Will FC Barcelona win on 2026-10-20?",
-            "yes_price": "0.405"
+            "yes_price": "0.003"
           },
           {
-            "question": "US x Iran ceasefire continues through October 22?",
-            "yes_price": "0.951"
+            "question": "Will Paris Saint-Germain FC win on 2026-10-20?",
+            "yes_price": "0.975"
           },
           {
-            "question": "2026 Balance of Power: R Senate, D House",
-            "yes_price": "0.275"
+            "question": "Will SSC Napoli win on 2026-10-20?",
+            "yes_price": "0.994"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "b70004dd4ae1bb463c31a50ac2923047541a9d0ed3382aa263dbd6e87c0fc33c"
+  "input_fingerprint": "5828896e94106392a1b075ec909b3365f8d86887dcf5b4e4f678b83c25fbec57"
 }
