@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-22T04:49:59.661Z",
+  "generated_utc": "2026-10-22T09:47:04.528Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2833,
-    "frame_hash": "dd8272250b6b5d22d82053d1a39a8a81d25abe426eb8cbfe998c584c8f51069a",
-    "utc": "2026-10-22T04:49:54.981Z"
+    "seq": 2834,
+    "frame_hash": "22807130efb4bf74b474368a5685b0afebe707d2836836de71c610f87ee0c0fb",
+    "utc": "2026-10-22T09:46:59.596Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2834,
-      "head_frame": "dd8272250b6b5d22d82053d1a39a8a81d25abe426eb8cbfe998c584c8f51069a"
+      "count": 2835,
+      "head_frame": "22807130efb4bf74b474368a5685b0afebe707d2836836de71c610f87ee0c0fb"
     },
     "world": {
-      "count": 2738,
-      "head_frame": "5a6d760a319baf0a3647e33c4d6406a8ea5f65a77d23bf3413fcf6d21557ab1f"
+      "count": 2739,
+      "head_frame": "ce54f9317ac698a196c1dec20150934bfbdc88dac3d0bae1c26195b6e6128932"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "5a6d760a319baf0a3647e33c4d6406a8ea5f65a77d23bf3413fcf6d21557ab1f",
-    "seq": 2737,
-    "utc": "2026-10-22T04:49:58.594Z",
-    "tick": 2833,
-    "tick_frame": "dd8272250b6b5d22d82053d1a39a8a81d25abe426eb8cbfe998c584c8f51069a",
+    "frame_hash": "ce54f9317ac698a196c1dec20150934bfbdc88dac3d0bae1c26195b6e6128932",
+    "seq": 2738,
+    "utc": "2026-10-22T09:47:03.341Z",
+    "tick": 2834,
+    "tick_frame": "22807130efb4bf74b474368a5685b0afebe707d2836836de71c610f87ee0c0fb",
     "data": {
       "btc_block_height": {
-        "height": 972567
+        "height": 972600
       },
       "btc_usd": {
-        "spot": "82768.475"
+        "spot": "81717.185"
       },
       "fx_usd": {
         "EUR": "0.8903",
@@ -58,49 +58,49 @@
         "CNY": "6.6893"
       },
       "crypto_market": {
-        "total_mcap_usd": "2789487072035",
-        "btc_dominance_pct": "59.5"
+        "total_mcap_usd": "2729557629471",
+        "btc_dominance_pct": "60.0"
       },
       "btc_fees": {
         "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 56832
+        "tx_count": 55870
       },
       "earthquakes_past_hour": {
-        "count": 11,
-        "max_mag": "4.2"
+        "count": 4,
+        "max_mag": "2.0"
       },
       "iss": {
-        "lat": "-33.019",
-        "lon": "-102.347"
+        "lat": "21.254",
+        "lon": "-129.235"
       },
       "space_weather": {
-        "kp": "2.33",
-        "at": "2026-10-22T00:00:00"
+        "kp": "3.0",
+        "at": "2026-10-22T06:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 68,
+        "gco2_kwh": 88,
         "index": "low"
       },
       "hn_top": {
-        "id": 50190455,
-        "title": "The recently proposed o(n log n) integer multiplication algorithm [pdf]"
+        "id": 50192900,
+        "title": "CVE-2026-111943: Compromised Intermediate Certificate Authority"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Warriors vs. Lakers",
-            "yes_price": "0.0005"
-          },
-          {
             "question": "2026 Balance of Power: R Senate, R House",
-            "yes_price": "0.085"
+            "yes_price": "0.075"
           },
           {
-            "question": "Kings vs. Clippers",
-            "yes_price": "0.0005"
+            "question": "US x Iran ceasefire continues through October 22?",
+            "yes_price": "0.953"
+          },
+          {
+            "question": "Will the Fed increase interest rates by 50+ bps after the October 2026 meeting?",
+            "yes_price": "0.0035"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "a8b3d8a251c5d75e98413588782fabedeaf61ec0ac0d16726105bc1f4bbc2e95"
+  "input_fingerprint": "51a5fefcd71261d56215a347431c7127c769eca5d29e74f55f93032850ae0c0a"
 }
