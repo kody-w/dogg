@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-22T09:47:04.528Z",
+  "generated_utc": "2026-10-22T14:48:55.462Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2834,
-    "frame_hash": "22807130efb4bf74b474368a5685b0afebe707d2836836de71c610f87ee0c0fb",
-    "utc": "2026-10-22T09:46:59.596Z"
+    "seq": 2835,
+    "frame_hash": "4b3c6bfc9470499390139e06c1c680a37b1f4bbb0e9ccb4025afba79dd5bbd49",
+    "utc": "2026-10-22T14:48:46.644Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2835,
-      "head_frame": "22807130efb4bf74b474368a5685b0afebe707d2836836de71c610f87ee0c0fb"
+      "count": 2836,
+      "head_frame": "4b3c6bfc9470499390139e06c1c680a37b1f4bbb0e9ccb4025afba79dd5bbd49"
     },
     "world": {
-      "count": 2739,
-      "head_frame": "ce54f9317ac698a196c1dec20150934bfbdc88dac3d0bae1c26195b6e6128932"
+      "count": 2740,
+      "head_frame": "8295e65af6d8218af810c6b5782266d79669948dee5103bc8692d4a3ae920ede"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "ce54f9317ac698a196c1dec20150934bfbdc88dac3d0bae1c26195b6e6128932",
-    "seq": 2738,
-    "utc": "2026-10-22T09:47:03.341Z",
-    "tick": 2834,
-    "tick_frame": "22807130efb4bf74b474368a5685b0afebe707d2836836de71c610f87ee0c0fb",
+    "frame_hash": "8295e65af6d8218af810c6b5782266d79669948dee5103bc8692d4a3ae920ede",
+    "seq": 2739,
+    "utc": "2026-10-22T14:48:54.488Z",
+    "tick": 2835,
+    "tick_frame": "4b3c6bfc9470499390139e06c1c680a37b1f4bbb0e9ccb4025afba79dd5bbd49",
     "data": {
       "btc_block_height": {
-        "height": 972600
+        "height": 972623
       },
       "btc_usd": {
-        "spot": "81717.185"
+        "spot": "81669.505"
       },
       "fx_usd": {
         "EUR": "0.8903",
@@ -58,35 +58,35 @@
         "CNY": "6.6893"
       },
       "crypto_market": {
-        "total_mcap_usd": "2729557629471",
-        "btc_dominance_pct": "60.0"
+        "total_mcap_usd": "2756265577467",
+        "btc_dominance_pct": "59.5"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 4,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 55870
+        "tx_count": 62991
       },
       "earthquakes_past_hour": {
-        "count": 4,
-        "max_mag": "2.0"
+        "count": 15,
+        "max_mag": "3.0"
       },
       "iss": {
-        "lat": "21.254",
-        "lon": "-129.235"
+        "lat": "44.386",
+        "lon": "-94.181"
       },
       "space_weather": {
-        "kp": "3.0",
-        "at": "2026-10-22T06:00:00"
+        "kp": "4.33",
+        "at": "2026-10-22T09:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 88,
-        "index": "low"
+        "gco2_kwh": 116,
+        "index": "moderate"
       },
       "hn_top": {
-        "id": 50192900,
-        "title": "CVE-2026-111943: Compromised Intermediate Certificate Authority"
+        "id": 50195110,
+        "title": "eMudhra to Exit Global SSL/TLS Certificate Business"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -96,7 +96,7 @@
           },
           {
             "question": "US x Iran ceasefire continues through October 22?",
-            "yes_price": "0.953"
+            "yes_price": "0.9475"
           },
           {
             "question": "Will the Fed increase interest rates by 50+ bps after the October 2026 meeting?",
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "51a5fefcd71261d56215a347431c7127c769eca5d29e74f55f93032850ae0c0a"
+  "input_fingerprint": "115a05e90b5d965cf6610dba72c3072d21651c744333c671e398c02e3136ac82"
 }
