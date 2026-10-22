@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-22T00:13:38.166Z",
+  "generated_utc": "2026-10-22T04:49:59.661Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2832,
-    "frame_hash": "41ba500392a1d7da725378727b8843835f5391534c505a5a5bfc2eb2749bc68e",
-    "utc": "2026-10-22T00:13:33.001Z"
+    "seq": 2833,
+    "frame_hash": "dd8272250b6b5d22d82053d1a39a8a81d25abe426eb8cbfe998c584c8f51069a",
+    "utc": "2026-10-22T04:49:54.981Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2833,
-      "head_frame": "41ba500392a1d7da725378727b8843835f5391534c505a5a5bfc2eb2749bc68e"
+      "count": 2834,
+      "head_frame": "dd8272250b6b5d22d82053d1a39a8a81d25abe426eb8cbfe998c584c8f51069a"
     },
     "world": {
-      "count": 2737,
-      "head_frame": "655ff0d70bf2398fdeb3cef75646146b8c7bfd2a444172fa6ec1492d2a55375c"
+      "count": 2738,
+      "head_frame": "5a6d760a319baf0a3647e33c4d6406a8ea5f65a77d23bf3413fcf6d21557ab1f"
     },
     "registry": {
       "count": 25,
@@ -39,68 +39,68 @@
     }
   },
   "world": {
-    "frame_hash": "655ff0d70bf2398fdeb3cef75646146b8c7bfd2a444172fa6ec1492d2a55375c",
-    "seq": 2736,
-    "utc": "2026-10-22T00:13:37.190Z",
-    "tick": 2832,
-    "tick_frame": "41ba500392a1d7da725378727b8843835f5391534c505a5a5bfc2eb2749bc68e",
+    "frame_hash": "5a6d760a319baf0a3647e33c4d6406a8ea5f65a77d23bf3413fcf6d21557ab1f",
+    "seq": 2737,
+    "utc": "2026-10-22T04:49:58.594Z",
+    "tick": 2833,
+    "tick_frame": "dd8272250b6b5d22d82053d1a39a8a81d25abe426eb8cbfe998c584c8f51069a",
     "data": {
       "btc_block_height": {
-        "height": 972547
+        "height": 972567
       },
       "btc_usd": {
-        "spot": "84208.285"
+        "spot": "82768.475"
       },
       "fx_usd": {
-        "EUR": "0.8908",
-        "GBP": "0.7483",
-        "JPY": "158.2241",
-        "CNY": "6.6913"
+        "EUR": "0.8903",
+        "GBP": "0.7467",
+        "JPY": "158.1000",
+        "CNY": "6.6893"
       },
       "crypto_market": {
-        "total_mcap_usd": "2834628499700",
-        "btc_dominance_pct": "59.7"
+        "total_mcap_usd": "2789487072035",
+        "btc_dominance_pct": "59.5"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 60351
+        "tx_count": 56832
       },
       "earthquakes_past_hour": {
-        "count": 4,
-        "max_mag": "2.2"
+        "count": 11,
+        "max_mag": "4.2"
       },
       "iss": {
-        "lat": "-26.663",
-        "lon": "-24.629"
+        "lat": "-33.019",
+        "lon": "-102.347"
       },
       "space_weather": {
-        "kp": "4.67",
-        "at": "2026-10-21T21:00:00"
+        "kp": "2.33",
+        "at": "2026-10-22T00:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 51,
+        "gco2_kwh": 68,
         "index": "low"
       },
       "hn_top": {
-        "id": 50188228,
-        "title": "Railway Security Disclosure"
+        "id": 50190455,
+        "title": "The recently proposed o(n log n) integer multiplication algorithm [pdf]"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Hornets vs. Nets",
-            "yes_price": "0.645"
+            "question": "Warriors vs. Lakers",
+            "yes_price": "0.0005"
           },
           {
-            "question": "Timberwolves vs. Heat",
-            "yes_price": "0.515"
+            "question": "2026 Balance of Power: R Senate, R House",
+            "yes_price": "0.085"
           },
           {
-            "question": "Jazz vs. Grizzlies",
-            "yes_price": "0.445"
+            "question": "Kings vs. Clippers",
+            "yes_price": "0.0005"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "8ab37bf24597a5b19fd4b3f38d6dc667341a212ed38fa0eb02576e722f81f1f3"
+  "input_fingerprint": "a8b3d8a251c5d75e98413588782fabedeaf61ec0ac0d16726105bc1f4bbc2e95"
 }
