@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-22T14:48:55.462Z",
+  "generated_utc": "2026-10-22T19:00:25.388Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2835,
-    "frame_hash": "4b3c6bfc9470499390139e06c1c680a37b1f4bbb0e9ccb4025afba79dd5bbd49",
-    "utc": "2026-10-22T14:48:46.644Z"
+    "seq": 2836,
+    "frame_hash": "3c31d1efa40f853071607fe7d89c3886089cd41459616c877b847f92e233acac",
+    "utc": "2026-10-22T19:00:20.022Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2836,
-      "head_frame": "4b3c6bfc9470499390139e06c1c680a37b1f4bbb0e9ccb4025afba79dd5bbd49"
+      "count": 2837,
+      "head_frame": "3c31d1efa40f853071607fe7d89c3886089cd41459616c877b847f92e233acac"
     },
     "world": {
-      "count": 2740,
-      "head_frame": "8295e65af6d8218af810c6b5782266d79669948dee5103bc8692d4a3ae920ede"
+      "count": 2741,
+      "head_frame": "903113e2628f0ba86dd21926ec2b89e951577f49556b30d2dd3245a848988618"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "8295e65af6d8218af810c6b5782266d79669948dee5103bc8692d4a3ae920ede",
-    "seq": 2739,
-    "utc": "2026-10-22T14:48:54.488Z",
-    "tick": 2835,
-    "tick_frame": "4b3c6bfc9470499390139e06c1c680a37b1f4bbb0e9ccb4025afba79dd5bbd49",
+    "frame_hash": "903113e2628f0ba86dd21926ec2b89e951577f49556b30d2dd3245a848988618",
+    "seq": 2740,
+    "utc": "2026-10-22T19:00:24.428Z",
+    "tick": 2836,
+    "tick_frame": "3c31d1efa40f853071607fe7d89c3886089cd41459616c877b847f92e233acac",
     "data": {
       "btc_block_height": {
-        "height": 972623
+        "height": 972645
       },
       "btc_usd": {
-        "spot": "81669.505"
+        "spot": "81264.005"
       },
       "fx_usd": {
         "EUR": "0.8903",
@@ -58,35 +58,35 @@
         "CNY": "6.6893"
       },
       "crypto_market": {
-        "total_mcap_usd": "2756265577467",
+        "total_mcap_usd": "2741718300136",
         "btc_dominance_pct": "59.5"
       },
       "btc_fees": {
-        "fastest_sat_vb": 4,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 62991
+        "tx_count": 56910
       },
       "earthquakes_past_hour": {
-        "count": 15,
-        "max_mag": "3.0"
+        "count": 7,
+        "max_mag": "5.0"
       },
       "iss": {
-        "lat": "44.386",
-        "lon": "-94.181"
+        "lat": "9.206",
+        "lon": "79.643"
       },
       "space_weather": {
-        "kp": "4.33",
-        "at": "2026-10-22T09:00:00"
+        "kp": "3.67",
+        "at": "2026-10-22T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 116,
-        "index": "moderate"
+        "gco2_kwh": 189,
+        "index": "high"
       },
       "hn_top": {
-        "id": 50195110,
-        "title": "eMudhra to Exit Global SSL/TLS Certificate Business"
+        "id": 50195959,
+        "title": "Quad9 (DNS Resolver) to Exit France"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -96,7 +96,7 @@
           },
           {
             "question": "US x Iran ceasefire continues through October 22?",
-            "yes_price": "0.9475"
+            "yes_price": "0.9775"
           },
           {
             "question": "Will the Fed increase interest rates by 50+ bps after the October 2026 meeting?",
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "115a05e90b5d965cf6610dba72c3072d21651c744333c671e398c02e3136ac82"
+  "input_fingerprint": "01bf8f2dceb18c2f7e5ecd80f84e87a2791602f8a572dbe13a94561d13ddf240"
 }
