@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-23T00:46:40.172Z",
+  "generated_utc": "2026-10-23T05:39:29.033Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2838,
-    "frame_hash": "c37a667725c0e617c2b4fa5924a2afde54e04daeff72b4373db3faa6ec727bd0",
-    "utc": "2026-10-23T00:46:35.917Z"
+    "seq": 2839,
+    "frame_hash": "603aa8261b710f216925f9ded5be5def7ba8d9e16a0e8ddfecb742d788e7e5be",
+    "utc": "2026-10-23T05:39:24.430Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2839,
-      "head_frame": "c37a667725c0e617c2b4fa5924a2afde54e04daeff72b4373db3faa6ec727bd0"
+      "count": 2840,
+      "head_frame": "603aa8261b710f216925f9ded5be5def7ba8d9e16a0e8ddfecb742d788e7e5be"
     },
     "world": {
-      "count": 2743,
-      "head_frame": "f6284ae8e5b9347342fd87c68f5fd891cc020987446ff6c2b213b5439ea307d7"
+      "count": 2744,
+      "head_frame": "e83004d916432854e61e4fecff4abad35f5673c11d860951f3f8d7cd5138eb7d"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "f6284ae8e5b9347342fd87c68f5fd891cc020987446ff6c2b213b5439ea307d7",
-    "seq": 2742,
-    "utc": "2026-10-23T00:46:38.853Z",
-    "tick": 2838,
-    "tick_frame": "c37a667725c0e617c2b4fa5924a2afde54e04daeff72b4373db3faa6ec727bd0",
+    "frame_hash": "e83004d916432854e61e4fecff4abad35f5673c11d860951f3f8d7cd5138eb7d",
+    "seq": 2743,
+    "utc": "2026-10-23T05:39:27.714Z",
+    "tick": 2839,
+    "tick_frame": "603aa8261b710f216925f9ded5be5def7ba8d9e16a0e8ddfecb742d788e7e5be",
     "data": {
       "btc_block_height": {
-        "height": 972675
+        "height": 972719
       },
       "btc_usd": {
-        "spot": "81380.465"
+        "spot": "81663.525"
       },
       "fx_usd": {
         "EUR": "0.8915",
@@ -58,49 +58,49 @@
         "CNY": "6.6882"
       },
       "crypto_market": {
-        "total_mcap_usd": "2740018342498",
-        "btc_dominance_pct": "59.5"
+        "total_mcap_usd": "2757617861205",
+        "btc_dominance_pct": "59.4"
       },
       "btc_fees": {
-        "fastest_sat_vb": 4,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 52797
+        "tx_count": 46277
       },
       "earthquakes_past_hour": {
-        "count": 6,
-        "max_mag": "2.2"
+        "count": 9,
+        "max_mag": "2.1"
       },
       "iss": {
-        "lat": "-51.664",
-        "lon": "-100.262"
+        "lat": "-24.647",
+        "lon": "-111.259"
       },
       "space_weather": {
-        "kp": "3.33",
-        "at": "2026-10-22T21:00:00"
+        "kp": "1.67",
+        "at": "2026-10-23T00:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 68,
+        "gco2_kwh": 56,
         "index": "low"
       },
       "hn_top": {
-        "id": 50195959,
-        "title": "Quad9 (DNS Resolver) to Exit France"
+        "id": 50204754,
+        "title": "Move Slow and Fix Things"
       },
       "prediction_markets": {
         "top_by_volume": [
-          {
-            "question": "Cavaliers vs. 76ers",
-            "yes_price": "0.825"
-          },
           {
             "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
             "yes_price": "0.935"
           },
           {
-            "question": "Patriots vs. Bears",
-            "yes_price": "0.305"
+            "question": "US x Iran ceasefire continues through October 22?",
+            "yes_price": "0.9795"
+          },
+          {
+            "question": "Will the price of Ethereum be above $2,400 on October 22?",
+            "yes_price": "0.0005"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "6366e8acc04cc506eb16701319364e35c4b100d4562f797d1cc80161fde9774f"
+  "input_fingerprint": "0e2832cdb87c1e2ef97d85602deb27de4224f2505648b95e620863efa683c50d"
 }
