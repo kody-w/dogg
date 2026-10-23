@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-23T05:39:29.033Z",
+  "generated_utc": "2026-10-23T10:30:33.101Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2839,
-    "frame_hash": "603aa8261b710f216925f9ded5be5def7ba8d9e16a0e8ddfecb742d788e7e5be",
-    "utc": "2026-10-23T05:39:24.430Z"
+    "seq": 2840,
+    "frame_hash": "5701d18e1925dee9b052d5b084c1cabfbe23f98383ff8b977d1da6980f3eb0f1",
+    "utc": "2026-10-23T10:30:28.046Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2840,
-      "head_frame": "603aa8261b710f216925f9ded5be5def7ba8d9e16a0e8ddfecb742d788e7e5be"
+      "count": 2841,
+      "head_frame": "5701d18e1925dee9b052d5b084c1cabfbe23f98383ff8b977d1da6980f3eb0f1"
     },
     "world": {
-      "count": 2744,
-      "head_frame": "e83004d916432854e61e4fecff4abad35f5673c11d860951f3f8d7cd5138eb7d"
+      "count": 2745,
+      "head_frame": "f3d5640117a974f84c3f3adf47c0c3b6eb8efe3aadc81749c2a100df9b50c4d9"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "e83004d916432854e61e4fecff4abad35f5673c11d860951f3f8d7cd5138eb7d",
-    "seq": 2743,
-    "utc": "2026-10-23T05:39:27.714Z",
-    "tick": 2839,
-    "tick_frame": "603aa8261b710f216925f9ded5be5def7ba8d9e16a0e8ddfecb742d788e7e5be",
+    "frame_hash": "f3d5640117a974f84c3f3adf47c0c3b6eb8efe3aadc81749c2a100df9b50c4d9",
+    "seq": 2744,
+    "utc": "2026-10-23T10:30:31.710Z",
+    "tick": 2840,
+    "tick_frame": "5701d18e1925dee9b052d5b084c1cabfbe23f98383ff8b977d1da6980f3eb0f1",
     "data": {
       "btc_block_height": {
-        "height": 972719
+        "height": 972755
       },
       "btc_usd": {
-        "spot": "81663.525"
+        "spot": "81595.955"
       },
       "fx_usd": {
         "EUR": "0.8915",
@@ -58,35 +58,35 @@
         "CNY": "6.6882"
       },
       "crypto_market": {
-        "total_mcap_usd": "2757617861205",
-        "btc_dominance_pct": "59.4"
+        "total_mcap_usd": "2732143975134",
+        "btc_dominance_pct": "60.0"
       },
       "btc_fees": {
         "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 46277
+        "tx_count": 48092
       },
       "earthquakes_past_hour": {
-        "count": 9,
-        "max_mag": "2.1"
+        "count": 7,
+        "max_mag": "4.9"
       },
       "iss": {
-        "lat": "-24.647",
-        "lon": "-111.259"
+        "lat": "12.542",
+        "lon": "-153.964"
       },
       "space_weather": {
         "kp": "1.67",
-        "at": "2026-10-23T00:00:00"
+        "at": "2026-10-23T06:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 56,
+        "gco2_kwh": 85,
         "index": "low"
       },
       "hn_top": {
-        "id": 50204754,
-        "title": "Move Slow and Fix Things"
+        "id": 50202285,
+        "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -95,12 +95,12 @@
             "yes_price": "0.935"
           },
           {
-            "question": "US x Iran ceasefire continues through October 22?",
-            "yes_price": "0.9795"
+            "question": "2026 Balance of Power: R Senate, R House",
+            "yes_price": "0.075"
           },
           {
-            "question": "Will the price of Ethereum be above $2,400 on October 22?",
-            "yes_price": "0.0005"
+            "question": "2026 Balance of Power: D Senate, D House",
+            "yes_price": "0.665"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "0e2832cdb87c1e2ef97d85602deb27de4224f2505648b95e620863efa683c50d"
+  "input_fingerprint": "ddbe7d1e523234c8529ed365a4e6d57bf6e2dd593ba7847a43847daca3fd1ed1"
 }
