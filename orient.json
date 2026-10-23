@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-22T22:17:29.426Z",
+  "generated_utc": "2026-10-23T00:46:40.172Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2837,
-    "frame_hash": "37a5be9a8fa9bd2209f32657571381f6c926feff7f28f2fa80f7a8e35d54054d",
-    "utc": "2026-10-22T22:17:25.069Z"
+    "seq": 2838,
+    "frame_hash": "c37a667725c0e617c2b4fa5924a2afde54e04daeff72b4373db3faa6ec727bd0",
+    "utc": "2026-10-23T00:46:35.917Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2838,
-      "head_frame": "37a5be9a8fa9bd2209f32657571381f6c926feff7f28f2fa80f7a8e35d54054d"
+      "count": 2839,
+      "head_frame": "c37a667725c0e617c2b4fa5924a2afde54e04daeff72b4373db3faa6ec727bd0"
     },
     "world": {
-      "count": 2742,
-      "head_frame": "b916225441c178bbe8b9ef14629fff4ace2d02e30e59e9787f3326fdcb9811cf"
+      "count": 2743,
+      "head_frame": "f6284ae8e5b9347342fd87c68f5fd891cc020987446ff6c2b213b5439ea307d7"
     },
     "registry": {
       "count": 25,
@@ -39,49 +39,49 @@
     }
   },
   "world": {
-    "frame_hash": "b916225441c178bbe8b9ef14629fff4ace2d02e30e59e9787f3326fdcb9811cf",
-    "seq": 2741,
-    "utc": "2026-10-22T22:17:28.117Z",
-    "tick": 2837,
-    "tick_frame": "37a5be9a8fa9bd2209f32657571381f6c926feff7f28f2fa80f7a8e35d54054d",
+    "frame_hash": "f6284ae8e5b9347342fd87c68f5fd891cc020987446ff6c2b213b5439ea307d7",
+    "seq": 2742,
+    "utc": "2026-10-23T00:46:38.853Z",
+    "tick": 2838,
+    "tick_frame": "c37a667725c0e617c2b4fa5924a2afde54e04daeff72b4373db3faa6ec727bd0",
     "data": {
       "btc_block_height": {
-        "height": 972664
+        "height": 972675
       },
       "btc_usd": {
-        "spot": "81341.735"
+        "spot": "81380.465"
       },
       "fx_usd": {
-        "EUR": "0.8903",
+        "EUR": "0.8915",
         "GBP": "0.7467",
-        "JPY": "158.1000",
-        "CNY": "6.6893"
+        "JPY": "156.9206",
+        "CNY": "6.6882"
       },
       "crypto_market": {
-        "total_mcap_usd": "2743552271740",
+        "total_mcap_usd": "2740018342498",
         "btc_dominance_pct": "59.5"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 4,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 45469
+        "tx_count": 52797
       },
       "earthquakes_past_hour": {
-        "count": 11,
-        "max_mag": "3.0"
+        "count": 6,
+        "max_mag": "2.2"
       },
       "iss": {
-        "lat": "40.351",
-        "lon": "64.212"
+        "lat": "-51.664",
+        "lon": "-100.262"
       },
       "space_weather": {
-        "kp": "3.67",
-        "at": "2026-10-22T18:00:00"
+        "kp": "3.33",
+        "at": "2026-10-22T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 86,
+        "gco2_kwh": 68,
         "index": "low"
       },
       "hn_top": {
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will AFC Bournemouth win on 2026-10-22?",
-            "yes_price": "0.9995"
+            "question": "Cavaliers vs. 76ers",
+            "yes_price": "0.825"
           },
           {
             "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
             "yes_price": "0.935"
           },
           {
-            "question": "Will the Fed increase interest rates by 50+ bps after the October 2026 meeting?",
-            "yes_price": "0.0035"
+            "question": "Patriots vs. Bears",
+            "yes_price": "0.305"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "190836aef7084dd83bdcd92399d542e4cc37d35e29aa27e09cf71878db35a97c"
+  "input_fingerprint": "6366e8acc04cc506eb16701319364e35c4b100d4562f797d1cc80161fde9774f"
 }
