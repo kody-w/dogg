@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-24T19:37:32.244Z",
+  "generated_utc": "2026-10-24T21:52:28.289Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2849,
-    "frame_hash": "97f0b6710dfe11b48d4c0eb005a6f1deabce8b01251a24af3b3ef35e8e4114f9",
-    "utc": "2026-10-24T19:37:28.161Z"
+    "seq": 2850,
+    "frame_hash": "68aa386fae26f2e5b188ed3c95a55d445b7087e8d9f34f5ab3903d70b499af6f",
+    "utc": "2026-10-24T21:52:23.912Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2850,
-      "head_frame": "97f0b6710dfe11b48d4c0eb005a6f1deabce8b01251a24af3b3ef35e8e4114f9"
+      "count": 2851,
+      "head_frame": "68aa386fae26f2e5b188ed3c95a55d445b7087e8d9f34f5ab3903d70b499af6f"
     },
     "world": {
-      "count": 2754,
-      "head_frame": "156e52b04e3b889f14ca3f59dc3525393c2c9e0b571cc2e871b666aaa797655c"
+      "count": 2755,
+      "head_frame": "fb0fd9c968633b2a32015e04ff4b2954302fa2b6e196e38a1823f2767d6bfb65"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "156e52b04e3b889f14ca3f59dc3525393c2c9e0b571cc2e871b666aaa797655c",
-    "seq": 2753,
-    "utc": "2026-10-24T19:37:31.267Z",
-    "tick": 2849,
-    "tick_frame": "97f0b6710dfe11b48d4c0eb005a6f1deabce8b01251a24af3b3ef35e8e4114f9",
+    "frame_hash": "fb0fd9c968633b2a32015e04ff4b2954302fa2b6e196e38a1823f2767d6bfb65",
+    "seq": 2754,
+    "utc": "2026-10-24T21:52:27.114Z",
+    "tick": 2850,
+    "tick_frame": "68aa386fae26f2e5b188ed3c95a55d445b7087e8d9f34f5ab3903d70b499af6f",
     "data": {
       "btc_block_height": {
-        "height": 972965
+        "height": 972980
       },
       "btc_usd": {
-        "spot": "80436.265"
+        "spot": "80293.885"
       },
       "fx_usd": {
         "EUR": "0.8928",
@@ -58,49 +58,49 @@
         "CNY": "6.6849"
       },
       "crypto_market": {
-        "total_mcap_usd": "2709937059922",
-        "btc_dominance_pct": "59.6"
+        "total_mcap_usd": "2706416887902",
+        "btc_dominance_pct": "59.5"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 52472
+        "tx_count": 47630
       },
       "earthquakes_past_hour": {
         "count": 7,
-        "max_mag": "5.0"
+        "max_mag": "4.1"
       },
       "iss": {
-        "lat": "18.804",
-        "lon": "-144.528"
+        "lat": "-31.351",
+        "lon": "-11.929"
       },
       "space_weather": {
         "kp": "1.67",
-        "at": "2026-10-24T15:00:00"
+        "at": "2026-10-24T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 81,
+        "gco2_kwh": 86,
         "index": "low"
       },
       "hn_top": {
-        "id": 50222622,
-        "title": "Roku developer repositories moved from GitHub to GitLab"
+        "id": 50224916,
+        "title": "Steal My Bitcoin"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "LoL: G2 Esports vs LOS (BO1) - Worlds Group Stage",
-            "yes_price": "0.795"
+            "question": "LoL: LYON vs Karmine Corp (BO1) - Worlds Group Stage",
+            "yes_price": "0.9995"
           },
           {
-            "question": "LoL: CTBC Flying Oyster vs Movistar KOI (BO1) - Worlds Group Stage",
-            "yes_price": "0.0005"
+            "question": "LoL: Invictus Gaming vs Team Secret Whales (BO1) - Worlds Group Stage",
+            "yes_price": "0.9995"
           },
           {
             "question": "2026 Balance of Power: D Senate, R House",
-            "yes_price": "0.0075"
+            "yes_price": "0.0085"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "ad78296df1ec3e3417a1610d81885f1065a8e8e39f9dfe2d54f8802b00006d41"
+  "input_fingerprint": "efc5208ca18481f92918341f5adae1876828b60642eb79013ba06ff2f517c8fb"
 }
