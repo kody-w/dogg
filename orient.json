@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-24T05:48:58.600Z",
+  "generated_utc": "2026-10-24T10:06:14.511Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2845,
-    "frame_hash": "3b96ce2bacbff5b05f2e19be2735f677d5006be561e14769b397055349c845b1",
-    "utc": "2026-10-24T05:48:48.331Z"
+    "seq": 2846,
+    "frame_hash": "c7401284219decee6f5b71859436b910e83ec5d13daad53631997dbb9a2c2f4b",
+    "utc": "2026-10-24T10:06:09.959Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2846,
-      "head_frame": "3b96ce2bacbff5b05f2e19be2735f677d5006be561e14769b397055349c845b1"
+      "count": 2847,
+      "head_frame": "c7401284219decee6f5b71859436b910e83ec5d13daad53631997dbb9a2c2f4b"
     },
     "world": {
-      "count": 2750,
-      "head_frame": "1c97dac6ac93798e3ae470150bdb35bb9abe78a2e108ee09a5ff0ed1813ac5d4"
+      "count": 2751,
+      "head_frame": "fa1b3841b5ca5164ece04c47c20a03b21982c3a2d2743778de20c959a04e3eac"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "1c97dac6ac93798e3ae470150bdb35bb9abe78a2e108ee09a5ff0ed1813ac5d4",
-    "seq": 2749,
-    "utc": "2026-10-24T05:48:57.893Z",
-    "tick": 2845,
-    "tick_frame": "3b96ce2bacbff5b05f2e19be2735f677d5006be561e14769b397055349c845b1",
+    "frame_hash": "fa1b3841b5ca5164ece04c47c20a03b21982c3a2d2743778de20c959a04e3eac",
+    "seq": 2750,
+    "utc": "2026-10-24T10:06:13.170Z",
+    "tick": 2846,
+    "tick_frame": "c7401284219decee6f5b71859436b910e83ec5d13daad53631997dbb9a2c2f4b",
     "data": {
       "btc_block_height": {
-        "height": 972886
+        "height": 972909
       },
       "btc_usd": {
-        "spot": "80644.285"
+        "spot": "80502.28"
       },
       "fx_usd": {
         "EUR": "0.8928",
@@ -58,49 +58,49 @@
         "CNY": "6.6849"
       },
       "crypto_market": {
-        "total_mcap_usd": "2723582573962",
-        "btc_dominance_pct": "59.5"
+        "total_mcap_usd": "2688070563284",
+        "btc_dominance_pct": "60.1"
       },
       "btc_fees": {
         "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 47825
+        "tx_count": 50695
       },
       "earthquakes_past_hour": {
-        "count": 10,
-        "max_mag": "5.8"
+        "count": 5,
+        "max_mag": "5.0"
       },
       "iss": {
-        "lat": "-4.019",
-        "lon": "84.737"
+        "lat": "50.221",
+        "lon": "-54.827"
       },
       "space_weather": {
-        "kp": "2.0",
-        "at": "2026-10-24T00:00:00"
+        "kp": "0.67",
+        "at": "2026-10-24T06:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 63,
+        "gco2_kwh": 72,
         "index": "low"
       },
       "hn_top": {
-        "id": 50212065,
-        "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed"
+        "id": 50219666,
+        "title": "I Don't Understand Quantum Physics"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "2026 Balance of Power: D Senate, R House",
-            "yes_price": "0.007"
-          },
-          {
-            "question": "Will Russia and Ukraine hold any diplomatic meeting by October 31, 2026?",
-            "yes_price": "0.9995"
+            "yes_price": "0.0075"
           },
           {
             "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
             "yes_price": "0.935"
+          },
+          {
+            "question": "NATO x Russia military clash by October 31, 2026?",
+            "yes_price": "0.023"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "346f5583df904c837467d24b7257f53b7499a5b4a969a6d959ad3f50462378ed"
+  "input_fingerprint": "949cf72c91d7bcf64040fd6a46d0f00f545a1ac153430c195d2730674b15dc64"
 }
