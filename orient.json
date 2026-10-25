@@ -1,22 +1,20 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-25T17:02:36.802Z",
+  "generated_utc": "2026-10-25T19:34:59.478Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2855,
-    "frame_hash": "2457090c8efc82325dcaede7288f36fc81df3d41327a73cdc554b3532d1a8db7",
-    "utc": "2026-10-25T17:02:31.572Z"
+    "seq": 2856,
+    "frame_hash": "449440127609bf6a8797c06002054782c2c484b4fae589339aadca76bf51a95d",
+    "utc": "2026-10-25T19:34:54.556Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
     "world": {
-      "state": "partial",
+      "state": "current",
       "ticks_behind": 0,
-      "sources_failed": [
-        "crypto_market"
-      ],
+      "sources_failed": [],
       "last_refresh": "ok",
       "retained_last_good": false
     },
@@ -28,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2856,
-      "head_frame": "2457090c8efc82325dcaede7288f36fc81df3d41327a73cdc554b3532d1a8db7"
+      "count": 2857,
+      "head_frame": "449440127609bf6a8797c06002054782c2c484b4fae589339aadca76bf51a95d"
     },
     "world": {
-      "count": 2760,
-      "head_frame": "ec0b3456171ddd79816a2309f4fcaf9b562b624d4bea807f2881c6e83b002895"
+      "count": 2761,
+      "head_frame": "6e313a06d339687ddc7a88ff22d02dc71b3ac49ccb8608bf0a4582a12a77c7eb"
     },
     "registry": {
       "count": 25,
@@ -41,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "ec0b3456171ddd79816a2309f4fcaf9b562b624d4bea807f2881c6e83b002895",
-    "seq": 2759,
-    "utc": "2026-10-25T17:02:35.207Z",
-    "tick": 2855,
-    "tick_frame": "2457090c8efc82325dcaede7288f36fc81df3d41327a73cdc554b3532d1a8db7",
+    "frame_hash": "6e313a06d339687ddc7a88ff22d02dc71b3ac49ccb8608bf0a4582a12a77c7eb",
+    "seq": 2760,
+    "utc": "2026-10-25T19:34:58.152Z",
+    "tick": 2856,
+    "tick_frame": "449440127609bf6a8797c06002054782c2c484b4fae589339aadca76bf51a95d",
     "data": {
       "btc_block_height": {
-        "height": 973099
+        "height": 973116
       },
       "btc_usd": {
-        "spot": "80679.485"
+        "spot": "80470.625"
       },
       "fx_usd": {
         "EUR": "0.8926",
@@ -59,46 +57,50 @@
         "JPY": "156.8426",
         "CNY": "6.6892"
       },
+      "crypto_market": {
+        "total_mcap_usd": "2690842929300",
+        "btc_dominance_pct": "60.0"
+      },
       "btc_fees": {
         "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 50591
+        "tx_count": 50689
       },
       "earthquakes_past_hour": {
-        "count": 11,
-        "max_mag": "3.1"
+        "count": 3,
+        "max_mag": "1.9"
       },
       "iss": {
-        "lat": "51.422",
-        "lon": "-176.268"
+        "lat": "-25.998",
+        "lon": "23.153"
       },
       "space_weather": {
-        "kp": "0.67",
-        "at": "2026-10-25T12:00:00"
+        "kp": "0.33",
+        "at": "2026-10-25T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 82,
-        "index": "low"
+        "gco2_kwh": 96,
+        "index": "moderate"
       },
       "hn_top": {
-        "id": 50232312,
-        "title": "Show HN: I put employees inside S&P 500 market-cap bubbles"
+        "id": 50234474,
+        "title": "Dolly Parton's Imagination Library"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Browns vs. Titans",
-            "yes_price": "0.545"
+            "yes_price": "0.495"
           },
           {
-            "question": "Will Leeds United FC win on 2026-10-25?",
-            "yes_price": "0.295"
+            "question": "LoL: Top Esports vs G2 Esports (BO1) - Worlds Group Stage",
+            "yes_price": "0.9995"
           },
           {
             "question": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
-            "yes_price": "0.8095"
+            "yes_price": "0.776"
           }
         ]
       }
@@ -262,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "06202963e6413063d3d454e226258a50069ae9fee9870308b6819a409e1f2b9f"
+  "input_fingerprint": "50a26ed3e32bff88bbcb5746570f45dcace45ae607f069af7dc5c613da1b978f"
 }
