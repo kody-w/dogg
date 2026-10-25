@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-25T02:55:49.483Z",
+  "generated_utc": "2026-10-25T08:03:48.780Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2852,
-    "frame_hash": "354597968e10177da614aabe00e3dbbf8ff3f1942fbe6e96728b70e9cc86c0a9",
-    "utc": "2026-10-25T02:55:45.185Z"
+    "seq": 2853,
+    "frame_hash": "b0c4b5a867d961018e219b6f5ae396a0ba6a29705d4a7abd5ab02704f05c80ec",
+    "utc": "2026-10-25T08:03:43.534Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2853,
-      "head_frame": "354597968e10177da614aabe00e3dbbf8ff3f1942fbe6e96728b70e9cc86c0a9"
+      "count": 2854,
+      "head_frame": "b0c4b5a867d961018e219b6f5ae396a0ba6a29705d4a7abd5ab02704f05c80ec"
     },
     "world": {
-      "count": 2757,
-      "head_frame": "ae584f6d6a8e4455546e57ca6dc4dc72f52b10c2b705f360e0d4f95933f21ba3"
+      "count": 2758,
+      "head_frame": "ac7e0b66ad9265e38be90441b7035dac8950a5979364e8352646d0393b88c7dd"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "ae584f6d6a8e4455546e57ca6dc4dc72f52b10c2b705f360e0d4f95933f21ba3",
-    "seq": 2756,
-    "utc": "2026-10-25T02:55:48.659Z",
-    "tick": 2852,
-    "tick_frame": "354597968e10177da614aabe00e3dbbf8ff3f1942fbe6e96728b70e9cc86c0a9",
+    "frame_hash": "ac7e0b66ad9265e38be90441b7035dac8950a5979364e8352646d0393b88c7dd",
+    "seq": 2757,
+    "utc": "2026-10-25T08:03:47.434Z",
+    "tick": 2853,
+    "tick_frame": "b0c4b5a867d961018e219b6f5ae396a0ba6a29705d4a7abd5ab02704f05c80ec",
     "data": {
       "btc_block_height": {
-        "height": 973007
+        "height": 973040
       },
       "btc_usd": {
-        "spot": "80825.96"
+        "spot": "80568.325"
       },
       "fx_usd": {
         "EUR": "0.8926",
@@ -58,31 +58,31 @@
         "CNY": "6.6892"
       },
       "crypto_market": {
-        "total_mcap_usd": "2727426105307",
-        "btc_dominance_pct": "59.5"
+        "total_mcap_usd": "2688718534551",
+        "btc_dominance_pct": "60.1"
       },
       "btc_fees": {
         "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 41130
+        "tx_count": 35982
       },
       "earthquakes_past_hour": {
-        "count": 14,
-        "max_mag": "6.5"
+        "count": 13,
+        "max_mag": "4.6"
       },
       "iss": {
-        "lat": "39.727",
-        "lon": "-19.503"
+        "lat": "9.619",
+        "lon": "33.712"
       },
       "space_weather": {
         "kp": "0.67",
-        "at": "2026-10-24T21:00:00"
+        "at": "2026-10-25T03:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 62,
-        "index": "low"
+        "gco2_kwh": 101,
+        "index": "moderate"
       },
       "hn_top": {
         "id": 50225695,
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Wizards vs. Bulls",
-            "yes_price": "0.9995"
-          },
-          {
-            "question": "Ole Miss vs. Texas",
-            "yes_price": "0.455"
-          },
-          {
             "question": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
-            "yes_price": "0.7815"
+            "yes_price": "0.8005"
+          },
+          {
+            "question": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
+            "yes_price": "0.195"
+          },
+          {
+            "question": "Will Kylian Mbappé win the 2026 Ballon d'Or?",
+            "yes_price": "0.1785"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "af1a4388c50c03bf3ae1b1d674b8b4d0a2b5978dd151c28d3992cde29536008a"
+  "input_fingerprint": "a2edc7f39fcbde79627ab13dd1bfa477c305c0aff1cefec8206c56fd6096cd63"
 }
