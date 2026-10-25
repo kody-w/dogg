@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-25T08:03:48.780Z",
+  "generated_utc": "2026-10-25T13:10:18.100Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2853,
-    "frame_hash": "b0c4b5a867d961018e219b6f5ae396a0ba6a29705d4a7abd5ab02704f05c80ec",
-    "utc": "2026-10-25T08:03:43.534Z"
+    "seq": 2854,
+    "frame_hash": "af2f1a7e1a62ab4e835969691e94e2a9b4b0de43bc9d613b77625217ee76f8d3",
+    "utc": "2026-10-25T13:10:13.388Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2854,
-      "head_frame": "b0c4b5a867d961018e219b6f5ae396a0ba6a29705d4a7abd5ab02704f05c80ec"
+      "count": 2855,
+      "head_frame": "af2f1a7e1a62ab4e835969691e94e2a9b4b0de43bc9d613b77625217ee76f8d3"
     },
     "world": {
-      "count": 2758,
-      "head_frame": "ac7e0b66ad9265e38be90441b7035dac8950a5979364e8352646d0393b88c7dd"
+      "count": 2759,
+      "head_frame": "a2f2664de64863617d2901dd4b94d7c5f2a60f82421a410ed84d68af3eb5d862"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "ac7e0b66ad9265e38be90441b7035dac8950a5979364e8352646d0393b88c7dd",
-    "seq": 2757,
-    "utc": "2026-10-25T08:03:47.434Z",
-    "tick": 2853,
-    "tick_frame": "b0c4b5a867d961018e219b6f5ae396a0ba6a29705d4a7abd5ab02704f05c80ec",
+    "frame_hash": "a2f2664de64863617d2901dd4b94d7c5f2a60f82421a410ed84d68af3eb5d862",
+    "seq": 2758,
+    "utc": "2026-10-25T13:10:16.964Z",
+    "tick": 2854,
+    "tick_frame": "af2f1a7e1a62ab4e835969691e94e2a9b4b0de43bc9d613b77625217ee76f8d3",
     "data": {
       "btc_block_height": {
-        "height": 973040
+        "height": 973074
       },
       "btc_usd": {
-        "spot": "80568.325"
+        "spot": "80333.925"
       },
       "fx_usd": {
         "EUR": "0.8926",
@@ -58,49 +58,49 @@
         "CNY": "6.6892"
       },
       "crypto_market": {
-        "total_mcap_usd": "2688718534551",
-        "btc_dominance_pct": "60.1"
+        "total_mcap_usd": "2708992641847",
+        "btc_dominance_pct": "59.5"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 35982
+        "tx_count": 52769
       },
       "earthquakes_past_hour": {
-        "count": 13,
-        "max_mag": "4.6"
+        "count": 1,
+        "max_mag": "0.6"
       },
       "iss": {
-        "lat": "9.619",
-        "lon": "33.712"
+        "lat": "-51.467",
+        "lon": "62.173"
       },
       "space_weather": {
-        "kp": "0.67",
-        "at": "2026-10-25T03:00:00"
+        "kp": "1.0",
+        "at": "2026-10-25T09:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 101,
-        "index": "moderate"
+        "gco2_kwh": 54,
+        "index": "low"
       },
       "hn_top": {
-        "id": 50225695,
-        "title": "We should be more ambitious with the software we build"
+        "id": 50229587,
+        "title": "Meta Ignores Brazilian Court Order to End Bolsonaro Favoritism"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
+            "question": "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Group A",
+            "yes_price": "0.0005"
+          },
+          {
             "question": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
-            "yes_price": "0.8005"
+            "yes_price": "0.788"
           },
           {
             "question": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
-            "yes_price": "0.195"
-          },
-          {
-            "question": "Will Kylian Mbappé win the 2026 Ballon d'Or?",
-            "yes_price": "0.1785"
+            "yes_price": "0.205"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "a2edc7f39fcbde79627ab13dd1bfa477c305c0aff1cefec8206c56fd6096cd63"
+  "input_fingerprint": "86fc787c7e4de5da6ee13fa1012384b9e2cebfa072277a06958929f8391f79dd"
 }
