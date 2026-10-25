@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-24T23:55:43.559Z",
+  "generated_utc": "2026-10-25T02:55:49.483Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2851,
-    "frame_hash": "a900c6a2d6db9cde07c97f28039a173f4e19210b75e644aa6c4ec471d4a37b3c",
-    "utc": "2026-10-24T23:55:37.431Z"
+    "seq": 2852,
+    "frame_hash": "354597968e10177da614aabe00e3dbbf8ff3f1942fbe6e96728b70e9cc86c0a9",
+    "utc": "2026-10-25T02:55:45.185Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2852,
-      "head_frame": "a900c6a2d6db9cde07c97f28039a173f4e19210b75e644aa6c4ec471d4a37b3c"
+      "count": 2853,
+      "head_frame": "354597968e10177da614aabe00e3dbbf8ff3f1942fbe6e96728b70e9cc86c0a9"
     },
     "world": {
-      "count": 2756,
-      "head_frame": "eb24759be8aa26484b6eb044269bc4397dee6b1f24e14dcbe5ef4067b59ddec3"
+      "count": 2757,
+      "head_frame": "ae584f6d6a8e4455546e57ca6dc4dc72f52b10c2b705f360e0d4f95933f21ba3"
     },
     "registry": {
       "count": 25,
@@ -39,26 +39,26 @@
     }
   },
   "world": {
-    "frame_hash": "eb24759be8aa26484b6eb044269bc4397dee6b1f24e14dcbe5ef4067b59ddec3",
-    "seq": 2755,
-    "utc": "2026-10-24T23:55:42.221Z",
-    "tick": 2851,
-    "tick_frame": "a900c6a2d6db9cde07c97f28039a173f4e19210b75e644aa6c4ec471d4a37b3c",
+    "frame_hash": "ae584f6d6a8e4455546e57ca6dc4dc72f52b10c2b705f360e0d4f95933f21ba3",
+    "seq": 2756,
+    "utc": "2026-10-25T02:55:48.659Z",
+    "tick": 2852,
+    "tick_frame": "354597968e10177da614aabe00e3dbbf8ff3f1942fbe6e96728b70e9cc86c0a9",
     "data": {
       "btc_block_height": {
-        "height": 972992
+        "height": 973007
       },
       "btc_usd": {
-        "spot": "80812.465"
+        "spot": "80825.96"
       },
       "fx_usd": {
-        "EUR": "0.8928",
+        "EUR": "0.8926",
         "GBP": "0.7477",
-        "JPY": "156.8397",
-        "CNY": "6.6849"
+        "JPY": "156.8426",
+        "CNY": "6.6892"
       },
       "crypto_market": {
-        "total_mcap_usd": "2726640702994",
+        "total_mcap_usd": "2727426105307",
         "btc_dominance_pct": "59.5"
       },
       "btc_fees": {
@@ -66,22 +66,22 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 44070
+        "tx_count": 41130
       },
       "earthquakes_past_hour": {
-        "count": 6,
-        "max_mag": "2.3"
+        "count": 14,
+        "max_mag": "6.5"
       },
       "iss": {
-        "lat": "49.795",
-        "lon": "54.063"
+        "lat": "39.727",
+        "lon": "-19.503"
       },
       "space_weather": {
-        "kp": "1.67",
-        "at": "2026-10-24T18:00:00"
+        "kp": "0.67",
+        "at": "2026-10-24T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 73,
+        "gco2_kwh": 62,
         "index": "low"
       },
       "hn_top": {
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "LoL: Dplus KIA vs T1 (BO1) - Worlds Group Stage",
-            "yes_price": "0.205"
+            "question": "Wizards vs. Bulls",
+            "yes_price": "0.9995"
           },
           {
-            "question": "LoL: Hanwha Life Esports vs Gen.G (BO1) - Worlds Group Stage",
-            "yes_price": "0.0005"
+            "question": "Ole Miss vs. Texas",
+            "yes_price": "0.455"
           },
           {
-            "question": "Heat vs. Hornets",
-            "yes_price": "0.035"
+            "question": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
+            "yes_price": "0.7815"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "1cd35065d595389135693fd039eafa1be67d24d4f1be9f14b20f343e2a67da80"
+  "input_fingerprint": "af1a4388c50c03bf3ae1b1d674b8b4d0a2b5978dd151c28d3992cde29536008a"
 }
