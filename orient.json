@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-25T22:02:28.385Z",
+  "generated_utc": "2026-10-26T00:19:41.592Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2857,
-    "frame_hash": "8260c3cdf4f7c78820a9f44269ab28899344a1dca435bb4fe254598d78954d66",
-    "utc": "2026-10-25T22:02:24.109Z"
+    "seq": 2858,
+    "frame_hash": "a08d5aea542e3bbd32b703d9105ad6c5c911354fa45032ef0980bd6c2983484d",
+    "utc": "2026-10-26T00:19:37.995Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2858,
-      "head_frame": "8260c3cdf4f7c78820a9f44269ab28899344a1dca435bb4fe254598d78954d66"
+      "count": 2859,
+      "head_frame": "a08d5aea542e3bbd32b703d9105ad6c5c911354fa45032ef0980bd6c2983484d"
     },
     "world": {
-      "count": 2762,
-      "head_frame": "7028918d1ee8f15cd39c431679949aad922d87dd2b1be105a1f3fc303ff4bb96"
+      "count": 2763,
+      "head_frame": "4a23df0e787c2221474a37807255f3bb7d2c5f74d1750dc4bb7eabfea76c4857"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "7028918d1ee8f15cd39c431679949aad922d87dd2b1be105a1f3fc303ff4bb96",
-    "seq": 2761,
-    "utc": "2026-10-25T22:02:27.403Z",
-    "tick": 2857,
-    "tick_frame": "8260c3cdf4f7c78820a9f44269ab28899344a1dca435bb4fe254598d78954d66",
+    "frame_hash": "4a23df0e787c2221474a37807255f3bb7d2c5f74d1750dc4bb7eabfea76c4857",
+    "seq": 2762,
+    "utc": "2026-10-26T00:19:40.797Z",
+    "tick": 2858,
+    "tick_frame": "a08d5aea542e3bbd32b703d9105ad6c5c911354fa45032ef0980bd6c2983484d",
     "data": {
       "btc_block_height": {
-        "height": 973132
+        "height": 973152
       },
       "btc_usd": {
-        "spot": "80351.855"
+        "spot": "80032.63"
       },
       "fx_usd": {
         "EUR": "0.8926",
@@ -58,30 +58,30 @@
         "CNY": "6.6892"
       },
       "crypto_market": {
-        "total_mcap_usd": "2681689375723",
-        "btc_dominance_pct": "60.1"
+        "total_mcap_usd": "2682018044590",
+        "btc_dominance_pct": "60.0"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 50687
+        "tx_count": 42824
       },
       "earthquakes_past_hour": {
-        "count": 10,
-        "max_mag": "3.2"
+        "count": 5,
+        "max_mag": "4.3"
       },
       "iss": {
-        "lat": "1.716",
-        "lon": "-173.101"
+        "lat": "-8.280",
+        "lon": "-33.197"
       },
       "space_weather": {
         "kp": "1.0",
-        "at": "2026-10-25T18:00:00"
+        "at": "2026-10-25T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 77,
+        "gco2_kwh": 80,
         "index": "low"
       },
       "hn_top": {
@@ -92,15 +92,15 @@
         "top_by_volume": [
           {
             "question": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
-            "yes_price": "0.595"
+            "yes_price": "0.0015"
           },
           {
-            "question": "Will Real Madrid CF win on 2026-10-25?",
-            "yes_price": "0.995"
+            "question": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
+            "yes_price": "0.9985"
           },
           {
-            "question": "Will FC Barcelona win on 2026-10-25?",
-            "yes_price": "0.0005"
+            "question": "Raptors vs. Timberwolves",
+            "yes_price": "0.235"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "5f0cb4774742ff923c1424f5db16c9a4371bcfb3c952e7c1085bacb3aadf5c7d"
+  "input_fingerprint": "5613b17235ae7d99b82fa70cab85fb308dbf98de56a41014bb3b40e99e17e110"
 }
