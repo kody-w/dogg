@@ -1,22 +1,20 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-26T17:20:40.863Z",
+  "generated_utc": "2026-10-26T21:44:04.307Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2861,
-    "frame_hash": "1643724f052b3e3e6dcf173603a6e11af8c72e55155375877abc36bb2a0aaf30",
-    "utc": "2026-10-26T17:20:36.521Z"
+    "seq": 2862,
+    "frame_hash": "906d1132a771a6a1d9d8d19a5ef82f173dd817fc210372deac39fb986badab05",
+    "utc": "2026-10-26T21:43:59.463Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
     "world": {
-      "state": "partial",
+      "state": "current",
       "ticks_behind": 0,
-      "sources_failed": [
-        "crypto_market"
-      ],
+      "sources_failed": [],
       "last_refresh": "ok",
       "retained_last_good": false
     },
@@ -28,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2862,
-      "head_frame": "1643724f052b3e3e6dcf173603a6e11af8c72e55155375877abc36bb2a0aaf30"
+      "count": 2863,
+      "head_frame": "906d1132a771a6a1d9d8d19a5ef82f173dd817fc210372deac39fb986badab05"
     },
     "world": {
-      "count": 2766,
-      "head_frame": "2ef7fec7575688e2166dd92b802a5d93c54674dc9af7ba7012586a94ed76d3d3"
+      "count": 2767,
+      "head_frame": "f1506853e8eaabedf9e2e78db371cd8615f18a81f7890afd04f52f9f3da7c03e"
     },
     "registry": {
       "count": 25,
@@ -41,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "2ef7fec7575688e2166dd92b802a5d93c54674dc9af7ba7012586a94ed76d3d3",
-    "seq": 2765,
-    "utc": "2026-10-26T17:20:39.524Z",
-    "tick": 2861,
-    "tick_frame": "1643724f052b3e3e6dcf173603a6e11af8c72e55155375877abc36bb2a0aaf30",
+    "frame_hash": "f1506853e8eaabedf9e2e78db371cd8615f18a81f7890afd04f52f9f3da7c03e",
+    "seq": 2766,
+    "utc": "2026-10-26T21:44:02.939Z",
+    "tick": 2862,
+    "tick_frame": "906d1132a771a6a1d9d8d19a5ef82f173dd817fc210372deac39fb986badab05",
     "data": {
       "btc_block_height": {
-        "height": 973262
+        "height": 973296
       },
       "btc_usd": {
-        "spot": "80397.435"
+        "spot": "79993.57"
       },
       "fx_usd": {
         "EUR": "0.8921",
@@ -59,46 +57,50 @@
         "JPY": "156.8720",
         "CNY": "6.6774"
       },
+      "crypto_market": {
+        "total_mcap_usd": "2699464547065",
+        "btc_dominance_pct": "59.5"
+      },
       "btc_fees": {
         "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 50488
+        "tx_count": 48807
       },
       "earthquakes_past_hour": {
-        "count": 8,
-        "max_mag": "2.4"
+        "count": 9,
+        "max_mag": "3.0"
       },
       "iss": {
-        "lat": "-10.998",
-        "lon": "65.130"
+        "lat": "-48.850",
+        "lon": "-57.269"
       },
       "space_weather": {
-        "kp": "2.0",
-        "at": "2026-10-26T12:00:00"
+        "kp": "0.67",
+        "at": "2026-10-26T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 99,
-        "index": "moderate"
+        "gco2_kwh": 79,
+        "index": "low"
       },
       "hn_top": {
-        "id": 50245138,
-        "title": "Sebastian Raschka's from-scratch video course on building reasoning models"
+        "id": 50248371,
+        "title": "Type Server Protocol"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-            "yes_price": "0.9155"
-          },
-          {
             "question": "Will Kylian Mbappé win the 2026 Ballon d'Or?",
-            "yes_price": "0.2455"
+            "yes_price": "0.1655"
           },
           {
             "question": "Will Harry Kane win the 2026 Ballon d'Or?",
-            "yes_price": "0.6805"
+            "yes_price": "0.764"
+          },
+          {
+            "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+            "yes_price": "0.9305"
           }
         ]
       }
@@ -262,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "863ab441d9c57bcec66358461e062fd93468c391fb9c5675f203b002261111d4"
+  "input_fingerprint": "83b86c43f2aca6ae91241fdce343e800ef2ad66a5304c948c8f40c660459cce2"
 }
