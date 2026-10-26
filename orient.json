@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-26T05:05:38.151Z",
+  "generated_utc": "2026-10-26T11:03:32.435Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2859,
-    "frame_hash": "594c465551cdc3aec08012240d971484aca37510ceffdb8e8c68113099ebc8ac",
-    "utc": "2026-10-26T05:05:34.294Z"
+    "seq": 2860,
+    "frame_hash": "9de8b9c467dd8a4967303f4312d178cfb5dc2d44d79c1f1240515aa76e61f894",
+    "utc": "2026-10-26T11:03:28.114Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2860,
-      "head_frame": "594c465551cdc3aec08012240d971484aca37510ceffdb8e8c68113099ebc8ac"
+      "count": 2861,
+      "head_frame": "9de8b9c467dd8a4967303f4312d178cfb5dc2d44d79c1f1240515aa76e61f894"
     },
     "world": {
-      "count": 2764,
-      "head_frame": "55e0fb3b9e94af6cadeaf1a9d1e5305ad4f7c3e80aace30751448cc676a9a70e"
+      "count": 2765,
+      "head_frame": "409d00487484b410b80a4939ae13b6d2b0fd3697d50460362c452b91ef191a9c"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "55e0fb3b9e94af6cadeaf1a9d1e5305ad4f7c3e80aace30751448cc676a9a70e",
-    "seq": 2763,
-    "utc": "2026-10-26T05:05:37.440Z",
-    "tick": 2859,
-    "tick_frame": "594c465551cdc3aec08012240d971484aca37510ceffdb8e8c68113099ebc8ac",
+    "frame_hash": "409d00487484b410b80a4939ae13b6d2b0fd3697d50460362c452b91ef191a9c",
+    "seq": 2764,
+    "utc": "2026-10-26T11:03:31.103Z",
+    "tick": 2860,
+    "tick_frame": "9de8b9c467dd8a4967303f4312d178cfb5dc2d44d79c1f1240515aa76e61f894",
     "data": {
       "btc_block_height": {
-        "height": 973189
+        "height": 973227
       },
       "btc_usd": {
-        "spot": "79989.215"
+        "spot": "80269.745"
       },
       "fx_usd": {
         "EUR": "0.8921",
@@ -58,49 +58,49 @@
         "CNY": "6.6774"
       },
       "crypto_market": {
-        "total_mcap_usd": "2675455856408",
-        "btc_dominance_pct": "60.0"
+        "total_mcap_usd": "2684290816374",
+        "btc_dominance_pct": "60.1"
       },
       "btc_fees": {
         "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 49836
+        "tx_count": 48142
       },
       "earthquakes_past_hour": {
-        "count": 14,
-        "max_mag": "4.3"
+        "count": 8,
+        "max_mag": "5.5"
       },
       "iss": {
-        "lat": "13.813",
-        "lon": "-88.125"
+        "lat": "-27.215",
+        "lon": "145.887"
       },
       "space_weather": {
-        "kp": "0.33",
-        "at": "2026-10-26T00:00:00"
+        "kp": "1.0",
+        "at": "2026-10-26T06:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 75,
+        "gco2_kwh": 78,
         "index": "low"
       },
       "hn_top": {
-        "id": 50238884,
-        "title": "US Wages Share of GDI at 75 Year Low"
+        "id": 50240922,
+        "title": "Switzerland. Block by block. At 1:1 scale"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will Aleksandar Vučić – United Serbia win the most seats in the 2026 Serbian parliamentary election?",
-            "yes_price": "0.0005"
-          },
-          {
             "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-            "yes_price": "0.945"
+            "yes_price": "0.9505"
           },
           {
-            "question": "Will Student List – Students Win win the most seats in the 2026 Serbian parliamentary election?",
-            "yes_price": "0.9995"
+            "question": "Will the Republican Party control the House after the 2026 Midterm elections?",
+            "yes_price": "0.085"
+          },
+          {
+            "question": "Will Kylian Mbappé win the 2026 Ballon d'Or?",
+            "yes_price": "0.2165"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "ffb62fc6aca9de0d09071a8d0ff168198b9e9b8d9bb5d7996485e7a4489a3bd0"
+  "input_fingerprint": "797b366387630572557fd4ac8ddd86266d8036c7a990e45c3229f31d57ba7cb2"
 }
