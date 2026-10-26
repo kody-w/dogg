@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-26T00:19:41.592Z",
+  "generated_utc": "2026-10-26T05:05:38.151Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2858,
-    "frame_hash": "a08d5aea542e3bbd32b703d9105ad6c5c911354fa45032ef0980bd6c2983484d",
-    "utc": "2026-10-26T00:19:37.995Z"
+    "seq": 2859,
+    "frame_hash": "594c465551cdc3aec08012240d971484aca37510ceffdb8e8c68113099ebc8ac",
+    "utc": "2026-10-26T05:05:34.294Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2859,
-      "head_frame": "a08d5aea542e3bbd32b703d9105ad6c5c911354fa45032ef0980bd6c2983484d"
+      "count": 2860,
+      "head_frame": "594c465551cdc3aec08012240d971484aca37510ceffdb8e8c68113099ebc8ac"
     },
     "world": {
-      "count": 2763,
-      "head_frame": "4a23df0e787c2221474a37807255f3bb7d2c5f74d1750dc4bb7eabfea76c4857"
+      "count": 2764,
+      "head_frame": "55e0fb3b9e94af6cadeaf1a9d1e5305ad4f7c3e80aace30751448cc676a9a70e"
     },
     "registry": {
       "count": 25,
@@ -39,26 +39,26 @@
     }
   },
   "world": {
-    "frame_hash": "4a23df0e787c2221474a37807255f3bb7d2c5f74d1750dc4bb7eabfea76c4857",
-    "seq": 2762,
-    "utc": "2026-10-26T00:19:40.797Z",
-    "tick": 2858,
-    "tick_frame": "a08d5aea542e3bbd32b703d9105ad6c5c911354fa45032ef0980bd6c2983484d",
+    "frame_hash": "55e0fb3b9e94af6cadeaf1a9d1e5305ad4f7c3e80aace30751448cc676a9a70e",
+    "seq": 2763,
+    "utc": "2026-10-26T05:05:37.440Z",
+    "tick": 2859,
+    "tick_frame": "594c465551cdc3aec08012240d971484aca37510ceffdb8e8c68113099ebc8ac",
     "data": {
       "btc_block_height": {
-        "height": 973152
+        "height": 973189
       },
       "btc_usd": {
-        "spot": "80032.63"
+        "spot": "79989.215"
       },
       "fx_usd": {
-        "EUR": "0.8926",
-        "GBP": "0.7477",
-        "JPY": "156.8426",
-        "CNY": "6.6892"
+        "EUR": "0.8921",
+        "GBP": "0.7478",
+        "JPY": "156.8720",
+        "CNY": "6.6774"
       },
       "crypto_market": {
-        "total_mcap_usd": "2682018044590",
+        "total_mcap_usd": "2675455856408",
         "btc_dominance_pct": "60.0"
       },
       "btc_fees": {
@@ -66,41 +66,41 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 42824
+        "tx_count": 49836
       },
       "earthquakes_past_hour": {
-        "count": 5,
+        "count": 14,
         "max_mag": "4.3"
       },
       "iss": {
-        "lat": "-8.280",
-        "lon": "-33.197"
+        "lat": "13.813",
+        "lon": "-88.125"
       },
       "space_weather": {
-        "kp": "1.0",
-        "at": "2026-10-25T21:00:00"
+        "kp": "0.33",
+        "at": "2026-10-26T00:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 80,
+        "gco2_kwh": 75,
         "index": "low"
       },
       "hn_top": {
-        "id": 50234474,
-        "title": "Dolly Parton's Imagination Library"
+        "id": 50238884,
+        "title": "US Wages Share of GDI at 75 Year Low"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
-            "yes_price": "0.0015"
+            "question": "Will Aleksandar Vučić – United Serbia win the most seats in the 2026 Serbian parliamentary election?",
+            "yes_price": "0.0005"
           },
           {
-            "question": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
-            "yes_price": "0.9985"
+            "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+            "yes_price": "0.945"
           },
           {
-            "question": "Raptors vs. Timberwolves",
-            "yes_price": "0.235"
+            "question": "Will Student List – Students Win win the most seats in the 2026 Serbian parliamentary election?",
+            "yes_price": "0.9995"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "5613b17235ae7d99b82fa70cab85fb308dbf98de56a41014bb3b40e99e17e110"
+  "input_fingerprint": "ffb62fc6aca9de0d09071a8d0ff168198b9e9b8d9bb5d7996485e7a4489a3bd0"
 }
