@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-27T16:46:09.839Z",
+  "generated_utc": "2026-10-27T21:04:41.596Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2866,
-    "frame_hash": "5c135eb55e5e7093cdfd89829106519630734601ae356e7ece0b4148515758c4",
-    "utc": "2026-10-27T16:46:05.441Z"
+    "seq": 2867,
+    "frame_hash": "61de5ec670867f3046833588f6cc1f4733af4856b8406a06b57043bdd54a929e",
+    "utc": "2026-10-27T21:04:37.070Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2867,
-      "head_frame": "5c135eb55e5e7093cdfd89829106519630734601ae356e7ece0b4148515758c4"
+      "count": 2868,
+      "head_frame": "61de5ec670867f3046833588f6cc1f4733af4856b8406a06b57043bdd54a929e"
     },
     "world": {
-      "count": 2771,
-      "head_frame": "41b2e3765f5d654d2fa3ecb18533529137deb9d95af111a6794d1cdde87821cf"
+      "count": 2772,
+      "head_frame": "bc8f880736402f99ee31908d061eb2f716dd85ceee136e7eb66c42548db07f60"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "41b2e3765f5d654d2fa3ecb18533529137deb9d95af111a6794d1cdde87821cf",
-    "seq": 2770,
-    "utc": "2026-10-27T16:46:08.483Z",
-    "tick": 2866,
-    "tick_frame": "5c135eb55e5e7093cdfd89829106519630734601ae356e7ece0b4148515758c4",
+    "frame_hash": "bc8f880736402f99ee31908d061eb2f716dd85ceee136e7eb66c42548db07f60",
+    "seq": 2771,
+    "utc": "2026-10-27T21:04:40.244Z",
+    "tick": 2867,
+    "tick_frame": "61de5ec670867f3046833588f6cc1f4733af4856b8406a06b57043bdd54a929e",
     "data": {
       "btc_block_height": {
-        "height": 973428
+        "height": 973455
       },
       "btc_usd": {
-        "spot": "80448.815"
+        "spot": "80666.765"
       },
       "fx_usd": {
         "EUR": "0.8939",
@@ -58,30 +58,30 @@
         "CNY": "6.6838"
       },
       "crypto_market": {
-        "total_mcap_usd": "2716635359454",
-        "btc_dominance_pct": "59.4"
+        "total_mcap_usd": "2720206028015",
+        "btc_dominance_pct": "59.5"
       },
       "btc_fees": {
         "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 41128
+        "tx_count": 44126
       },
       "earthquakes_past_hour": {
-        "count": 9,
-        "max_mag": "2.8"
+        "count": 2,
+        "max_mag": "1.2"
       },
       "iss": {
-        "lat": "25.149",
-        "lon": "98.458"
+        "lat": "-34.192",
+        "lon": "-21.264"
       },
       "space_weather": {
         "kp": "2.0",
-        "at": "2026-10-27T12:00:00"
+        "at": "2026-10-27T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 103,
+        "gco2_kwh": 108,
         "index": "moderate"
       },
       "hn_top": {
@@ -92,15 +92,15 @@
         "top_by_volume": [
           {
             "question": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-            "yes_price": "0.235"
+            "yes_price": "0.315"
+          },
+          {
+            "question": "Will Likud win the most seats in the 2026 Israeli legislative election?",
+            "yes_price": "0.835"
           },
           {
             "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-            "yes_price": "0.929"
-          },
-          {
-            "question": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-            "yes_price": "0.065"
+            "yes_price": "0.9515"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "72eabff33729e2e724e79c50b12db0602af611b517c98333554f9627166b1315"
+  "input_fingerprint": "6735cdb6c6b84c2f421419770d22f6061e94ebc4c1e79c8f1d6394066b7f6cd4"
 }
