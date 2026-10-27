@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-26T21:44:04.307Z",
+  "generated_utc": "2026-10-27T00:51:49.150Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2862,
-    "frame_hash": "906d1132a771a6a1d9d8d19a5ef82f173dd817fc210372deac39fb986badab05",
-    "utc": "2026-10-26T21:43:59.463Z"
+    "seq": 2863,
+    "frame_hash": "7f62db3c8c42f0b3d5638d64c3b0d824a924d6e7346c82084b3d684e22cf5da6",
+    "utc": "2026-10-27T00:51:45.251Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2863,
-      "head_frame": "906d1132a771a6a1d9d8d19a5ef82f173dd817fc210372deac39fb986badab05"
+      "count": 2864,
+      "head_frame": "7f62db3c8c42f0b3d5638d64c3b0d824a924d6e7346c82084b3d684e22cf5da6"
     },
     "world": {
-      "count": 2767,
-      "head_frame": "f1506853e8eaabedf9e2e78db371cd8615f18a81f7890afd04f52f9f3da7c03e"
+      "count": 2768,
+      "head_frame": "0939f3b2e4963fc274c5e216babf2cb168f93579cbcde844b01c909e40da0ca7"
     },
     "registry": {
       "count": 25,
@@ -39,68 +39,68 @@
     }
   },
   "world": {
-    "frame_hash": "f1506853e8eaabedf9e2e78db371cd8615f18a81f7890afd04f52f9f3da7c03e",
-    "seq": 2766,
-    "utc": "2026-10-26T21:44:02.939Z",
-    "tick": 2862,
-    "tick_frame": "906d1132a771a6a1d9d8d19a5ef82f173dd817fc210372deac39fb986badab05",
+    "frame_hash": "0939f3b2e4963fc274c5e216babf2cb168f93579cbcde844b01c909e40da0ca7",
+    "seq": 2767,
+    "utc": "2026-10-27T00:51:48.168Z",
+    "tick": 2863,
+    "tick_frame": "7f62db3c8c42f0b3d5638d64c3b0d824a924d6e7346c82084b3d684e22cf5da6",
     "data": {
       "btc_block_height": {
-        "height": 973296
+        "height": 973318
       },
       "btc_usd": {
-        "spot": "79993.57"
+        "spot": "80100.375"
       },
       "fx_usd": {
-        "EUR": "0.8921",
-        "GBP": "0.7478",
-        "JPY": "156.8720",
-        "CNY": "6.6774"
+        "EUR": "0.8939",
+        "GBP": "0.7492",
+        "JPY": "157.4374",
+        "CNY": "6.6838"
       },
       "crypto_market": {
-        "total_mcap_usd": "2699464547065",
-        "btc_dominance_pct": "59.5"
+        "total_mcap_usd": "2706933540283",
+        "btc_dominance_pct": "59.4"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 48807
+        "tx_count": 41825
       },
       "earthquakes_past_hour": {
-        "count": 9,
-        "max_mag": "3.0"
+        "count": 7,
+        "max_mag": "1.9"
       },
       "iss": {
-        "lat": "-48.850",
-        "lon": "-57.269"
+        "lat": "-45.775",
+        "lon": "-94.697"
       },
       "space_weather": {
         "kp": "0.67",
-        "at": "2026-10-26T18:00:00"
+        "at": "2026-10-26T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 79,
+        "gco2_kwh": 74,
         "index": "low"
       },
       "hn_top": {
-        "id": 50248371,
-        "title": "Type Server Protocol"
+        "id": 50251344,
+        "title": "Announcing three new discoveries in mathematics, computer science, and physics"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will Kylian Mbappé win the 2026 Ballon d'Or?",
-            "yes_price": "0.1655"
-          },
-          {
             "question": "Will Harry Kane win the 2026 Ballon d'Or?",
-            "yes_price": "0.764"
+            "yes_price": "0.9995"
           },
           {
-            "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-            "yes_price": "0.9305"
+            "question": "Will Kylian Mbappé win the 2026 Ballon d'Or?",
+            "yes_price": "0.0005"
+          },
+          {
+            "question": "Will Lamine Yamal win the 2026 Ballon d'Or?",
+            "yes_price": "0.0005"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "83b86c43f2aca6ae91241fdce343e800ef2ad66a5304c948c8f40c660459cce2"
+  "input_fingerprint": "d78e5a6d2382d02a5ca0292869bf73a37f5a297a9c97f682fdeaed7e50647165"
 }
