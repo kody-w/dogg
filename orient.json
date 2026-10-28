@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-28T06:08:24.882Z",
+  "generated_utc": "2026-10-28T12:48:26.769Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2869,
-    "frame_hash": "94ba772514f19e44219a4833a8a31d26c899943352807dcc7502eefb2b8b57be",
-    "utc": "2026-10-28T06:08:20.897Z"
+    "seq": 2870,
+    "frame_hash": "7a86df7d47fdd304c593ac79d897484e45c7e5f44ba2829a035364501ba7e38c",
+    "utc": "2026-10-28T12:48:22.495Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2870,
-      "head_frame": "94ba772514f19e44219a4833a8a31d26c899943352807dcc7502eefb2b8b57be"
+      "count": 2871,
+      "head_frame": "7a86df7d47fdd304c593ac79d897484e45c7e5f44ba2829a035364501ba7e38c"
     },
     "world": {
-      "count": 2774,
-      "head_frame": "561df35ecbf798b13ae7e12564efbdecc39f5b9545463050290e98b584e26e8b"
+      "count": 2775,
+      "head_frame": "179402a97edb429a15e266514f7402c0bf9a459f77908455cd282f9b380db896"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "561df35ecbf798b13ae7e12564efbdecc39f5b9545463050290e98b584e26e8b",
-    "seq": 2773,
-    "utc": "2026-10-28T06:08:23.917Z",
-    "tick": 2869,
-    "tick_frame": "94ba772514f19e44219a4833a8a31d26c899943352807dcc7502eefb2b8b57be",
+    "frame_hash": "179402a97edb429a15e266514f7402c0bf9a459f77908455cd282f9b380db896",
+    "seq": 2774,
+    "utc": "2026-10-28T12:48:25.730Z",
+    "tick": 2870,
+    "tick_frame": "7a86df7d47fdd304c593ac79d897484e45c7e5f44ba2829a035364501ba7e38c",
     "data": {
       "btc_block_height": {
-        "height": 973509
+        "height": 973554
       },
       "btc_usd": {
-        "spot": "80801.875"
+        "spot": "80612.855"
       },
       "fx_usd": {
         "EUR": "0.8975",
@@ -58,49 +58,49 @@
         "CNY": "6.6810"
       },
       "crypto_market": {
-        "total_mcap_usd": "2727637330991",
-        "btc_dominance_pct": "59.4"
+        "total_mcap_usd": "2722429305307",
+        "btc_dominance_pct": "59.5"
       },
       "btc_fees": {
         "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 49140
+        "tx_count": 45396
       },
       "earthquakes_past_hour": {
-        "count": 4,
-        "max_mag": "1.8"
+        "count": 10,
+        "max_mag": "5.0"
       },
       "iss": {
-        "lat": "-51.007",
-        "lon": "129.407"
+        "lat": "9.267",
+        "lon": "138.624"
       },
       "space_weather": {
         "kp": "1.67",
-        "at": "2026-10-28T03:00:00"
+        "at": "2026-10-28T09:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 100,
-        "index": "moderate"
+        "gco2_kwh": 75,
+        "index": "low"
       },
       "hn_top": {
-        "id": 50268380,
-        "title": "Git for the US Code"
+        "id": 50271640,
+        "title": "Ten days later, Git on macOS still trusts the compromised eMudhra certificates"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-            "yes_price": "0.475"
-          },
-          {
-            "question": "Trail Blazers vs. Lakers",
-            "yes_price": "0.9995"
+            "yes_price": "0.495"
           },
           {
             "question": "Will Likud win the most seats in the 2026 Israeli legislative election?",
-            "yes_price": "0.987"
+            "yes_price": "0.985"
+          },
+          {
+            "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+            "yes_price": "0.9455"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "0a040c0087d22c72023ba542c106486ff0df3a6467f0472dbab890700476ac4b"
+  "input_fingerprint": "982647de5c5a1d79d09328f6bc7fa636594c2cd422953f4016ee3620853ec4bf"
 }
