@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-27T21:04:41.596Z",
+  "generated_utc": "2026-10-28T00:29:26.355Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2867,
-    "frame_hash": "61de5ec670867f3046833588f6cc1f4733af4856b8406a06b57043bdd54a929e",
-    "utc": "2026-10-27T21:04:37.070Z"
+    "seq": 2868,
+    "frame_hash": "1fd7648b5f0d38584877cfdf6d8b734c68914129d9c78bbd827ce7b9b1242a51",
+    "utc": "2026-10-28T00:29:22.471Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2868,
-      "head_frame": "61de5ec670867f3046833588f6cc1f4733af4856b8406a06b57043bdd54a929e"
+      "count": 2869,
+      "head_frame": "1fd7648b5f0d38584877cfdf6d8b734c68914129d9c78bbd827ce7b9b1242a51"
     },
     "world": {
-      "count": 2772,
-      "head_frame": "bc8f880736402f99ee31908d061eb2f716dd85ceee136e7eb66c42548db07f60"
+      "count": 2773,
+      "head_frame": "86d4480f65e5e158b8605ea9a12933fa3f180f1b6d096c67656d720e6da52ef9"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "bc8f880736402f99ee31908d061eb2f716dd85ceee136e7eb66c42548db07f60",
-    "seq": 2771,
-    "utc": "2026-10-27T21:04:40.244Z",
-    "tick": 2867,
-    "tick_frame": "61de5ec670867f3046833588f6cc1f4733af4856b8406a06b57043bdd54a929e",
+    "frame_hash": "86d4480f65e5e158b8605ea9a12933fa3f180f1b6d096c67656d720e6da52ef9",
+    "seq": 2772,
+    "utc": "2026-10-28T00:29:25.374Z",
+    "tick": 2868,
+    "tick_frame": "1fd7648b5f0d38584877cfdf6d8b734c68914129d9c78bbd827ce7b9b1242a51",
     "data": {
       "btc_block_height": {
-        "height": 973455
+        "height": 973474
       },
       "btc_usd": {
-        "spot": "80666.765"
+        "spot": "80651.535"
       },
       "fx_usd": {
         "EUR": "0.8939",
@@ -58,30 +58,30 @@
         "CNY": "6.6838"
       },
       "crypto_market": {
-        "total_mcap_usd": "2720206028015",
-        "btc_dominance_pct": "59.5"
+        "total_mcap_usd": "2720962186331",
+        "btc_dominance_pct": "59.4"
       },
       "btc_fees": {
         "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 44126
+        "tx_count": 46717
       },
       "earthquakes_past_hour": {
-        "count": 2,
-        "max_mag": "1.2"
+        "count": 6,
+        "max_mag": "5.1"
       },
       "iss": {
-        "lat": "-34.192",
-        "lon": "-21.264"
+        "lat": "21.700",
+        "lon": "-22.705"
       },
       "space_weather": {
-        "kp": "2.0",
-        "at": "2026-10-27T18:00:00"
+        "kp": "1.0",
+        "at": "2026-10-27T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 108,
+        "gco2_kwh": 106,
         "index": "moderate"
       },
       "hn_top": {
@@ -92,15 +92,15 @@
         "top_by_volume": [
           {
             "question": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-            "yes_price": "0.315"
+            "yes_price": "0.435"
           },
           {
             "question": "Will Likud win the most seats in the 2026 Israeli legislative election?",
-            "yes_price": "0.835"
+            "yes_price": "0.989"
           },
           {
-            "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-            "yes_price": "0.9515"
+            "question": "Will Yashar win the most seats in the 2026 Israeli legislative election?",
+            "yes_price": "0.0115"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "6735cdb6c6b84c2f421419770d22f6061e94ebc4c1e79c8f1d6394066b7f6cd4"
+  "input_fingerprint": "9062a9cad756f5d2c7ae6a6b0530ca466e2e7ea7852def62ae4b49e628f8e967"
 }
