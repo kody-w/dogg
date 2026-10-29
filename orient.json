@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-28T22:51:23.811Z",
+  "generated_utc": "2026-10-29T02:02:08.278Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2872,
-    "frame_hash": "6b99ce53b3cd04611d1887633c12fa0242dc03133f7d92c4db21cfd7e57fcfda",
-    "utc": "2026-10-28T22:51:20.079Z"
+    "seq": 2873,
+    "frame_hash": "e800938ed9216bb1824d62a1c07e974b0074d6105235914cf8876ec7f09b7fca",
+    "utc": "2026-10-29T02:02:03.661Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2873,
-      "head_frame": "6b99ce53b3cd04611d1887633c12fa0242dc03133f7d92c4db21cfd7e57fcfda"
+      "count": 2874,
+      "head_frame": "e800938ed9216bb1824d62a1c07e974b0074d6105235914cf8876ec7f09b7fca"
     },
     "world": {
-      "count": 2777,
-      "head_frame": "588cbe89332e8942e30dc8ac7baebb5ceb0e6500b67387db1bf514c25923361d"
+      "count": 2778,
+      "head_frame": "ba11e43f7fc2975b2dc6e2da0c007dac628bf6e85a8e047f8171760e14670125"
     },
     "registry": {
       "count": 25,
@@ -39,68 +39,68 @@
     }
   },
   "world": {
-    "frame_hash": "588cbe89332e8942e30dc8ac7baebb5ceb0e6500b67387db1bf514c25923361d",
-    "seq": 2776,
-    "utc": "2026-10-28T22:51:23.102Z",
-    "tick": 2872,
-    "tick_frame": "6b99ce53b3cd04611d1887633c12fa0242dc03133f7d92c4db21cfd7e57fcfda",
+    "frame_hash": "ba11e43f7fc2975b2dc6e2da0c007dac628bf6e85a8e047f8171760e14670125",
+    "seq": 2777,
+    "utc": "2026-10-29T02:02:06.931Z",
+    "tick": 2873,
+    "tick_frame": "e800938ed9216bb1824d62a1c07e974b0074d6105235914cf8876ec7f09b7fca",
     "data": {
       "btc_block_height": {
-        "height": 973605
+        "height": 973625
       },
       "btc_usd": {
-        "spot": "81191.575"
+        "spot": "79952.215"
       },
       "fx_usd": {
-        "EUR": "0.8975",
-        "GBP": "0.7511",
-        "JPY": "157.8927",
-        "CNY": "6.6810"
+        "EUR": "0.8972",
+        "GBP": "0.7515",
+        "JPY": "157.9054",
+        "CNY": "6.6805"
       },
       "crypto_market": {
-        "total_mcap_usd": "2741668117936",
+        "total_mcap_usd": "2696094576685",
         "btc_dominance_pct": "59.5"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 55690
+        "tx_count": 50570
       },
       "earthquakes_past_hour": {
-        "count": 6,
-        "max_mag": "5.7"
+        "count": 5,
+        "max_mag": "4.8"
       },
       "iss": {
-        "lat": "-6.663",
-        "lon": "163.298"
+        "lat": "-21.405",
+        "lon": "127.526"
       },
       "space_weather": {
         "kp": "2.33",
-        "at": "2026-10-28T18:00:00"
+        "at": "2026-10-28T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 194,
+        "gco2_kwh": 210,
         "index": "high"
       },
       "hn_top": {
-        "id": 50276998,
-        "title": "Why is this fingerprinting script creating bioweapons?"
+        "id": 50282838,
+        "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-            "yes_price": "0.505"
+            "yes_price": "0.455"
           },
           {
-            "question": "Will Likud win 30-34 seats in the 2026 Israeli legislative election?",
-            "yes_price": "0.011"
+            "question": "LoL: Invictus Gaming vs LYON (BO3) - Worlds Group Stage",
+            "yes_price": "0.9995"
           },
           {
-            "question": "Will Likud win the most seats in the 2026 Israeli legislative election?",
-            "yes_price": "0.995"
+            "question": "LoL: Invictus Gaming vs LYON - Game 2 Winner",
+            "yes_price": "0.0005"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "7da1575da77daa9c6f386053eab0cc533d77a9d2325973a6d2cad1d8251ba4e1"
+  "input_fingerprint": "a577b5d4c041878f4f06cac5c80a26fc155a36574beb2b313558d66ed1c031ba"
 }
