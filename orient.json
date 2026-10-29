@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-29T15:22:30.908Z",
+  "generated_utc": "2026-10-29T20:24:17.802Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2875,
-    "frame_hash": "d3373d5a164d183956f3f5fb51fac049f9b6ca8204ba156fc01e2789f6eef422",
-    "utc": "2026-10-29T15:22:24.752Z"
+    "seq": 2876,
+    "frame_hash": "ed8141565c1ea1b7cc4129e4be1e8fde85308b990c5450d898ef8557c365c57e",
+    "utc": "2026-10-29T20:24:12.701Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2876,
-      "head_frame": "d3373d5a164d183956f3f5fb51fac049f9b6ca8204ba156fc01e2789f6eef422"
+      "count": 2877,
+      "head_frame": "ed8141565c1ea1b7cc4129e4be1e8fde85308b990c5450d898ef8557c365c57e"
     },
     "world": {
-      "count": 2780,
-      "head_frame": "7af55127d07d6b6846662845afe932e128595c52ff7eff3ae8a7145109cdbfc6"
+      "count": 2781,
+      "head_frame": "7b2fff02f68a535616645db0c268c7440ed478f06602b3b672f643bf2372fc41"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "7af55127d07d6b6846662845afe932e128595c52ff7eff3ae8a7145109cdbfc6",
-    "seq": 2779,
-    "utc": "2026-10-29T15:22:29.806Z",
-    "tick": 2875,
-    "tick_frame": "d3373d5a164d183956f3f5fb51fac049f9b6ca8204ba156fc01e2789f6eef422",
+    "frame_hash": "7b2fff02f68a535616645db0c268c7440ed478f06602b3b672f643bf2372fc41",
+    "seq": 2780,
+    "utc": "2026-10-29T20:24:16.598Z",
+    "tick": 2876,
+    "tick_frame": "ed8141565c1ea1b7cc4129e4be1e8fde85308b990c5450d898ef8557c365c57e",
     "data": {
       "btc_block_height": {
-        "height": 973703
+        "height": 973733
       },
       "btc_usd": {
-        "spot": "81429.975"
+        "spot": "80258.585"
       },
       "fx_usd": {
         "EUR": "0.8972",
@@ -58,7 +58,7 @@
         "CNY": "6.6805"
       },
       "crypto_market": {
-        "total_mcap_usd": "2748871755399",
+        "total_mcap_usd": "2706081329053",
         "btc_dominance_pct": "59.5"
       },
       "btc_fees": {
@@ -66,27 +66,27 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 58553
+        "tx_count": 58469
       },
       "earthquakes_past_hour": {
-        "count": 7,
-        "max_mag": "2.5"
+        "count": 8,
+        "max_mag": "2.6"
       },
       "iss": {
-        "lat": "47.356",
-        "lon": "144.893"
+        "lat": "16.509",
+        "lon": "175.975"
       },
       "space_weather": {
         "kp": "0.33",
-        "at": "2026-10-29T12:00:00"
+        "at": "2026-10-29T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 198,
+        "gco2_kwh": 220,
         "index": "high"
       },
       "hn_top": {
-        "id": 50289418,
-        "title": "Mistral Large 4 (Le Chonk) is now Open Weight"
+        "id": 50294702,
+        "title": "Patrick Stewart has died"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -96,11 +96,11 @@
           },
           {
             "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
-            "yes_price": "0.93"
+            "yes_price": "0.925"
           },
           {
-            "question": "Erste Bank Open: Cameron Norrie vs Daniil Medvedev",
-            "yes_price": "0.0005"
+            "question": "Will Likud win the most seats in the 2026 Israeli legislative election?",
+            "yes_price": "0.988"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "4ddbff8dfcd36d794b9d6ad7867d7f1902379ba4de05d6de4092ab40f967418a"
+  "input_fingerprint": "3ca0fe5d2a01708844f0679f1d825f80fd7205a17d02b5705acab118325a7c15"
 }
