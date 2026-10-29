@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-29T02:02:08.278Z",
+  "generated_utc": "2026-10-29T08:25:41.828Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2873,
-    "frame_hash": "e800938ed9216bb1824d62a1c07e974b0074d6105235914cf8876ec7f09b7fca",
-    "utc": "2026-10-29T02:02:03.661Z"
+    "seq": 2874,
+    "frame_hash": "60a52b4ca0f788b2ab8baad36bc0e02d9a039a5d65633b53a6bfa0125d0d2bfa",
+    "utc": "2026-10-29T08:25:37.612Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2874,
-      "head_frame": "e800938ed9216bb1824d62a1c07e974b0074d6105235914cf8876ec7f09b7fca"
+      "count": 2875,
+      "head_frame": "60a52b4ca0f788b2ab8baad36bc0e02d9a039a5d65633b53a6bfa0125d0d2bfa"
     },
     "world": {
-      "count": 2778,
-      "head_frame": "ba11e43f7fc2975b2dc6e2da0c007dac628bf6e85a8e047f8171760e14670125"
+      "count": 2779,
+      "head_frame": "d5297a856ab0551696007cf48f9d493c6210ede8300f23bd44d90f8e4f8ae6fe"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "ba11e43f7fc2975b2dc6e2da0c007dac628bf6e85a8e047f8171760e14670125",
-    "seq": 2777,
-    "utc": "2026-10-29T02:02:06.931Z",
-    "tick": 2873,
-    "tick_frame": "e800938ed9216bb1824d62a1c07e974b0074d6105235914cf8876ec7f09b7fca",
+    "frame_hash": "d5297a856ab0551696007cf48f9d493c6210ede8300f23bd44d90f8e4f8ae6fe",
+    "seq": 2778,
+    "utc": "2026-10-29T08:25:40.472Z",
+    "tick": 2874,
+    "tick_frame": "60a52b4ca0f788b2ab8baad36bc0e02d9a039a5d65633b53a6bfa0125d0d2bfa",
     "data": {
       "btc_block_height": {
-        "height": 973625
+        "height": 973663
       },
       "btc_usd": {
-        "spot": "79952.215"
+        "spot": "79996.365"
       },
       "fx_usd": {
         "EUR": "0.8972",
@@ -58,7 +58,7 @@
         "CNY": "6.6805"
       },
       "crypto_market": {
-        "total_mcap_usd": "2696094576685",
+        "total_mcap_usd": "2697002956120",
         "btc_dominance_pct": "59.5"
       },
       "btc_fees": {
@@ -66,23 +66,23 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 50570
+        "tx_count": 53939
       },
       "earthquakes_past_hour": {
-        "count": 5,
-        "max_mag": "4.8"
+        "count": 7,
+        "max_mag": "6.4"
       },
       "iss": {
-        "lat": "-21.405",
-        "lon": "127.526"
+        "lat": "-49.057",
+        "lon": "77.233"
       },
       "space_weather": {
         "kp": "2.33",
-        "at": "2026-10-28T21:00:00"
+        "at": "2026-10-29T03:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 210,
-        "index": "high"
+        "gco2_kwh": 231,
+        "index": "very high"
       },
       "hn_top": {
         "id": 50282838,
@@ -95,12 +95,12 @@
             "yes_price": "0.455"
           },
           {
-            "question": "LoL: Invictus Gaming vs LYON (BO3) - Worlds Group Stage",
-            "yes_price": "0.9995"
+            "question": "Will Likud win the most seats in the 2026 Israeli legislative election?",
+            "yes_price": "0.994"
           },
           {
-            "question": "LoL: Invictus Gaming vs LYON - Game 2 Winner",
-            "yes_price": "0.0005"
+            "question": "Counter-Strike: FUT Esports vs Nemiga (BO3) - PGL Masters Bucharest Playoffs",
+            "yes_price": "0.825"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "a577b5d4c041878f4f06cac5c80a26fc155a36574beb2b313558d66ed1c031ba"
+  "input_fingerprint": "77c078d2cb7dd0a957b4cb0e9fee0e6224e9a7c1d3e1a35408367cdc7c20fee0"
 }
