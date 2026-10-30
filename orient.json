@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-30T11:38:59.090Z",
+  "generated_utc": "2026-10-30T17:11:20.607Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2879,
-    "frame_hash": "810fb6340b1946f80e776d11853c4e1dc89e645b516299fd0ae3cda47f7094fe",
-    "utc": "2026-10-30T11:38:54.330Z"
+    "seq": 2880,
+    "frame_hash": "0f819db56adfcf112c00e69415167a621072450c70b28839c3fe98eb241b93e8",
+    "utc": "2026-10-30T17:11:15.925Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2880,
-      "head_frame": "810fb6340b1946f80e776d11853c4e1dc89e645b516299fd0ae3cda47f7094fe"
+      "count": 2881,
+      "head_frame": "0f819db56adfcf112c00e69415167a621072450c70b28839c3fe98eb241b93e8"
     },
     "world": {
-      "count": 2784,
-      "head_frame": "45cd6fe2d49b7eba043ffda4db7920afc6ac90ab82fbe9d7f6aa931a586669bb"
+      "count": 2785,
+      "head_frame": "14e278091788e386d7b359563907d85f11101820b03f8e5f66abb24542b5fa43"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "45cd6fe2d49b7eba043ffda4db7920afc6ac90ab82fbe9d7f6aa931a586669bb",
-    "seq": 2783,
-    "utc": "2026-10-30T11:38:57.740Z",
-    "tick": 2879,
-    "tick_frame": "810fb6340b1946f80e776d11853c4e1dc89e645b516299fd0ae3cda47f7094fe",
+    "frame_hash": "14e278091788e386d7b359563907d85f11101820b03f8e5f66abb24542b5fa43",
+    "seq": 2784,
+    "utc": "2026-10-30T17:11:19.282Z",
+    "tick": 2880,
+    "tick_frame": "0f819db56adfcf112c00e69415167a621072450c70b28839c3fe98eb241b93e8",
     "data": {
       "btc_block_height": {
-        "height": 973817
+        "height": 973849
       },
       "btc_usd": {
-        "spot": "77436.065"
+        "spot": "77055.125"
       },
       "fx_usd": {
         "EUR": "0.8959",
@@ -58,35 +58,35 @@
         "CNY": "6.6769"
       },
       "crypto_market": {
-        "total_mcap_usd": "2606335688018",
-        "btc_dominance_pct": "59.8"
+        "total_mcap_usd": "2621127476287",
+        "btc_dominance_pct": "59.2"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
-        "hour_sat_vb": 1
+        "fastest_sat_vb": 7,
+        "hour_sat_vb": 5
       },
       "btc_mempool": {
-        "tx_count": 56575
+        "tx_count": 64351
       },
       "earthquakes_past_hour": {
-        "count": 6,
-        "max_mag": "4.7"
+        "count": 3,
+        "max_mag": "2.3"
       },
       "iss": {
-        "lat": "49.813",
-        "lon": "-111.719"
+        "lat": "-36.158",
+        "lon": "17.447"
       },
       "space_weather": {
         "kp": "2.33",
-        "at": "2026-10-30T06:00:00"
+        "at": "2026-10-30T12:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 138,
-        "index": "moderate"
+        "gco2_kwh": 203,
+        "index": "high"
       },
       "hn_top": {
-        "id": 50301462,
-        "title": "elect.horse"
+        "id": 50305693,
+        "title": "AI Isn't Replacing SREs. It's Deskilling Them"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -95,12 +95,12 @@
             "yes_price": "0.065"
           },
           {
-            "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
-            "yes_price": "0.935"
+            "question": "Counter-Strike: MOUZ vs FURIA (BO3) - PGL Masters Bucharest Playoffs",
+            "yes_price": "0.605"
           },
           {
-            "question": "2026 Balance of Power: R Senate, R House",
-            "yes_price": "0.065"
+            "question": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+            "yes_price": "0.275"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "777a36e150fbb8729e4aefa7c3e98fa7fd7c11e2e2e67609fc1d76e5ef3c908e"
+  "input_fingerprint": "481b036842314fedbb52b3c9659cd285a053a272ffa33a565b085f8c86c54f3f"
 }
