@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-29T20:24:17.802Z",
+  "generated_utc": "2026-10-30T00:01:56.364Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2876,
-    "frame_hash": "ed8141565c1ea1b7cc4129e4be1e8fde85308b990c5450d898ef8557c365c57e",
-    "utc": "2026-10-29T20:24:12.701Z"
+    "seq": 2877,
+    "frame_hash": "8b51d5806b5a07c6ba4d315656464e2bf444ef3568e977352841cb048cd643c9",
+    "utc": "2026-10-30T00:01:51.820Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2877,
-      "head_frame": "ed8141565c1ea1b7cc4129e4be1e8fde85308b990c5450d898ef8557c365c57e"
+      "count": 2878,
+      "head_frame": "8b51d5806b5a07c6ba4d315656464e2bf444ef3568e977352841cb048cd643c9"
     },
     "world": {
-      "count": 2781,
-      "head_frame": "7b2fff02f68a535616645db0c268c7440ed478f06602b3b672f643bf2372fc41"
+      "count": 2782,
+      "head_frame": "0504813ca0b6c1289586b63c8340ad0c7eced6bce04fae6cd7c38c904697f4f8"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "7b2fff02f68a535616645db0c268c7440ed478f06602b3b672f643bf2372fc41",
-    "seq": 2780,
-    "utc": "2026-10-29T20:24:16.598Z",
-    "tick": 2876,
-    "tick_frame": "ed8141565c1ea1b7cc4129e4be1e8fde85308b990c5450d898ef8557c365c57e",
+    "frame_hash": "0504813ca0b6c1289586b63c8340ad0c7eced6bce04fae6cd7c38c904697f4f8",
+    "seq": 2781,
+    "utc": "2026-10-30T00:01:55.114Z",
+    "tick": 2877,
+    "tick_frame": "8b51d5806b5a07c6ba4d315656464e2bf444ef3568e977352841cb048cd643c9",
     "data": {
       "btc_block_height": {
-        "height": 973733
+        "height": 973751
       },
       "btc_usd": {
-        "spot": "80258.585"
+        "spot": "77723.115"
       },
       "fx_usd": {
         "EUR": "0.8972",
@@ -58,49 +58,49 @@
         "CNY": "6.6805"
       },
       "crypto_market": {
-        "total_mcap_usd": "2706081329053",
-        "btc_dominance_pct": "59.5"
+        "total_mcap_usd": "2631040154038",
+        "btc_dominance_pct": "59.4"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
-        "hour_sat_vb": 1
+        "fastest_sat_vb": 4,
+        "hour_sat_vb": 3
       },
       "btc_mempool": {
-        "tx_count": 58469
+        "tx_count": 64453
       },
       "earthquakes_past_hour": {
-        "count": 8,
-        "max_mag": "2.6"
+        "count": 2,
+        "max_mag": "4.6"
       },
       "iss": {
-        "lat": "16.509",
-        "lon": "175.975"
+        "lat": "-50.205",
+        "lon": "-116.755"
       },
       "space_weather": {
-        "kp": "0.33",
-        "at": "2026-10-29T15:00:00"
+        "kp": "0.67",
+        "at": "2026-10-29T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 220,
+        "gco2_kwh": 193,
         "index": "high"
       },
       "hn_top": {
-        "id": 50294702,
-        "title": "Patrick Stewart has died"
+        "id": 50296470,
+        "title": "Binance-hacker-1029 – $5.6B stolen from Binance"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-            "yes_price": "0.455"
+            "question": "Will the Republican Party control the House after the 2026 Midterm elections?",
+            "yes_price": "0.075"
           },
           {
             "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
             "yes_price": "0.925"
           },
           {
-            "question": "Will Likud win the most seats in the 2026 Israeli legislative election?",
-            "yes_price": "0.988"
+            "question": "LoL: Top Esports vs Bilibili Gaming - Game 2 Winner",
+            "yes_price": "0.595"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "3ca0fe5d2a01708844f0679f1d825f80fd7205a17d02b5705acab118325a7c15"
+  "input_fingerprint": "ef29ab1502a4b4c521724128e826908a0eb2185300c25d2c911c7a9a048c9c73"
 }
