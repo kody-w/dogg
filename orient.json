@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-30T17:11:20.607Z",
+  "generated_utc": "2026-10-30T21:29:25.857Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2880,
-    "frame_hash": "0f819db56adfcf112c00e69415167a621072450c70b28839c3fe98eb241b93e8",
-    "utc": "2026-10-30T17:11:15.925Z"
+    "seq": 2881,
+    "frame_hash": "336f4d2a668884466ce3b3ea9a568e9edf3d5811dff0337d7eb7666bc3439b5f",
+    "utc": "2026-10-30T21:29:21.427Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2881,
-      "head_frame": "0f819db56adfcf112c00e69415167a621072450c70b28839c3fe98eb241b93e8"
+      "count": 2882,
+      "head_frame": "336f4d2a668884466ce3b3ea9a568e9edf3d5811dff0337d7eb7666bc3439b5f"
     },
     "world": {
-      "count": 2785,
-      "head_frame": "14e278091788e386d7b359563907d85f11101820b03f8e5f66abb24542b5fa43"
+      "count": 2786,
+      "head_frame": "4f982b93ed5d1dad3c230785c1a8b9cbc16ab3d6d0e4ac16aaf1591ca568cc97"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "14e278091788e386d7b359563907d85f11101820b03f8e5f66abb24542b5fa43",
-    "seq": 2784,
-    "utc": "2026-10-30T17:11:19.282Z",
-    "tick": 2880,
-    "tick_frame": "0f819db56adfcf112c00e69415167a621072450c70b28839c3fe98eb241b93e8",
+    "frame_hash": "4f982b93ed5d1dad3c230785c1a8b9cbc16ab3d6d0e4ac16aaf1591ca568cc97",
+    "seq": 2785,
+    "utc": "2026-10-30T21:29:24.517Z",
+    "tick": 2881,
+    "tick_frame": "336f4d2a668884466ce3b3ea9a568e9edf3d5811dff0337d7eb7666bc3439b5f",
     "data": {
       "btc_block_height": {
-        "height": 973849
+        "height": 973880
       },
       "btc_usd": {
-        "spot": "77055.125"
+        "spot": "76690.505"
       },
       "fx_usd": {
         "EUR": "0.8959",
@@ -58,49 +58,49 @@
         "CNY": "6.6769"
       },
       "crypto_market": {
-        "total_mcap_usd": "2621127476287",
-        "btc_dominance_pct": "59.2"
+        "total_mcap_usd": "2609197666837",
+        "btc_dominance_pct": "59.0"
       },
       "btc_fees": {
-        "fastest_sat_vb": 7,
-        "hour_sat_vb": 5
+        "fastest_sat_vb": 1,
+        "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 64351
+        "tx_count": 56425
       },
       "earthquakes_past_hour": {
-        "count": 3,
-        "max_mag": "2.3"
+        "count": 7,
+        "max_mag": "1.6"
       },
       "iss": {
-        "lat": "-36.158",
-        "lon": "17.447"
+        "lat": "-38.126",
+        "lon": "-154.858"
       },
       "space_weather": {
-        "kp": "2.33",
-        "at": "2026-10-30T12:00:00"
+        "kp": "1.33",
+        "at": "2026-10-30T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 203,
+        "gco2_kwh": 205,
         "index": "high"
       },
       "hn_top": {
-        "id": 50305693,
-        "title": "AI Isn't Replacing SREs. It's Deskilling Them"
+        "id": 50307190,
+        "title": "My favourite PowerMac is a Nintendo Wii"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will the Republican Party control the House after the 2026 Midterm elections?",
-            "yes_price": "0.065"
-          },
-          {
-            "question": "Counter-Strike: MOUZ vs FURIA (BO3) - PGL Masters Bucharest Playoffs",
-            "yes_price": "0.605"
+            "question": "LoL: Team Liquid vs LOS - Game 1 Winner",
+            "yes_price": "0.0005"
           },
           {
             "question": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
-            "yes_price": "0.275"
+            "yes_price": "0.295"
+          },
+          {
+            "question": "Will the Republican Party control the House after the 2026 Midterm elections?",
+            "yes_price": "0.065"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "481b036842314fedbb52b3c9659cd285a053a272ffa33a565b085f8c86c54f3f"
+  "input_fingerprint": "bc9bc61d7bc0571aaf58b7c08998d45369a4c9cd3dc32191c77921b6d7345467"
 }
