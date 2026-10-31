@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-31T17:41:53.770Z",
+  "generated_utc": "2026-10-31T20:40:33.930Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2885,
-    "frame_hash": "1b5397efd86d188a3c86ac019cb20168101c508f15e563ea4ad1e233f7330f80",
-    "utc": "2026-10-31T17:41:50.013Z"
+    "seq": 2886,
+    "frame_hash": "df2b51c340228760413cae236687ed8b390f3cf3df54e9c8c1c0223328a6912a",
+    "utc": "2026-10-31T20:40:28.201Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2886,
-      "head_frame": "1b5397efd86d188a3c86ac019cb20168101c508f15e563ea4ad1e233f7330f80"
+      "count": 2887,
+      "head_frame": "df2b51c340228760413cae236687ed8b390f3cf3df54e9c8c1c0223328a6912a"
     },
     "world": {
-      "count": 2790,
-      "head_frame": "ddeee155e671eaae655d2099b8b0ebca492e7d6868c9f71314cfc85c07d8e622"
+      "count": 2791,
+      "head_frame": "167e53d300003311c6ff010653818f3db29b425e282b104a8fcc337339be7c06"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "ddeee155e671eaae655d2099b8b0ebca492e7d6868c9f71314cfc85c07d8e622",
-    "seq": 2789,
-    "utc": "2026-10-31T17:41:53.003Z",
-    "tick": 2885,
-    "tick_frame": "1b5397efd86d188a3c86ac019cb20168101c508f15e563ea4ad1e233f7330f80",
+    "frame_hash": "167e53d300003311c6ff010653818f3db29b425e282b104a8fcc337339be7c06",
+    "seq": 2790,
+    "utc": "2026-10-31T20:40:32.582Z",
+    "tick": 2886,
+    "tick_frame": "df2b51c340228760413cae236687ed8b390f3cf3df54e9c8c1c0223328a6912a",
     "data": {
       "btc_block_height": {
-        "height": 974003
+        "height": 974023
       },
       "btc_usd": {
-        "spot": "77471.125"
+        "spot": "77441.205"
       },
       "fx_usd": {
         "EUR": "0.8956",
@@ -58,49 +58,49 @@
         "CNY": "6.6696"
       },
       "crypto_market": {
-        "total_mcap_usd": "2627695529036",
-        "btc_dominance_pct": "59.2"
+        "total_mcap_usd": "2626548906033",
+        "btc_dominance_pct": "59.3"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 54076
+        "tx_count": 51062
       },
       "earthquakes_past_hour": {
-        "count": 7,
-        "max_mag": "2.9"
+        "count": 6,
+        "max_mag": "3.1"
       },
       "iss": {
-        "lat": "-47.792",
-        "lon": "-80.906"
+        "lat": "-32.360",
+        "lon": "-156.606"
       },
       "space_weather": {
-        "kp": "2.67",
-        "at": "2026-10-31T12:00:00"
+        "kp": "3.33",
+        "at": "2026-10-31T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 226,
+        "gco2_kwh": 220,
         "index": "high"
       },
       "hn_top": {
-        "id": 50316531,
-        "title": "Malware uses LLMs to rank victims by how much they're worth"
+        "id": 50319510,
+        "title": "HackerTube: YouTube built from videos recommended by HN"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
+            "question": "LoL: LOS vs LYON - Game 2 Winner",
+            "yes_price": "0.175"
+          },
+          {
+            "question": "LoL: LOS vs LYON - Game 1 Winner",
+            "yes_price": "0.9995"
+          },
+          {
             "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
             "yes_price": "0.945"
-          },
-          {
-            "question": "LoL: Karmine Corp vs Movistar KOI - Game 1 Winner",
-            "yes_price": "0.225"
-          },
-          {
-            "question": "Will the Republican Party control the House after the 2026 Midterm elections?",
-            "yes_price": "0.055"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "1ce14a7d736a3b08621158c624a11f44351d3b3072d7e4ef08558ee420da673f"
+  "input_fingerprint": "a5df134ed8c1c2669e24ce8938039785f0f00e0f40c98f413c23b4d3c2f47d27"
 }
