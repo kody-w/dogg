@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-31T20:40:33.930Z",
+  "generated_utc": "2026-10-31T23:44:51.988Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2886,
-    "frame_hash": "df2b51c340228760413cae236687ed8b390f3cf3df54e9c8c1c0223328a6912a",
-    "utc": "2026-10-31T20:40:28.201Z"
+    "seq": 2887,
+    "frame_hash": "62b82612692afe10aced6ce1a296f0797a53cf08d85d712e8adc5c50ffac30f1",
+    "utc": "2026-10-31T23:44:47.735Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2887,
-      "head_frame": "df2b51c340228760413cae236687ed8b390f3cf3df54e9c8c1c0223328a6912a"
+      "count": 2888,
+      "head_frame": "62b82612692afe10aced6ce1a296f0797a53cf08d85d712e8adc5c50ffac30f1"
     },
     "world": {
-      "count": 2791,
-      "head_frame": "167e53d300003311c6ff010653818f3db29b425e282b104a8fcc337339be7c06"
+      "count": 2792,
+      "head_frame": "2ab51039310f1f06e93e4d3eb562fdd3dff85200e9ec5a3a1c9f0de7e2e06df1"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "167e53d300003311c6ff010653818f3db29b425e282b104a8fcc337339be7c06",
-    "seq": 2790,
-    "utc": "2026-10-31T20:40:32.582Z",
-    "tick": 2886,
-    "tick_frame": "df2b51c340228760413cae236687ed8b390f3cf3df54e9c8c1c0223328a6912a",
+    "frame_hash": "2ab51039310f1f06e93e4d3eb562fdd3dff85200e9ec5a3a1c9f0de7e2e06df1",
+    "seq": 2791,
+    "utc": "2026-10-31T23:44:50.636Z",
+    "tick": 2887,
+    "tick_frame": "62b82612692afe10aced6ce1a296f0797a53cf08d85d712e8adc5c50ffac30f1",
     "data": {
       "btc_block_height": {
-        "height": 974023
+        "height": 974041
       },
       "btc_usd": {
-        "spot": "77441.205"
+        "spot": "77373.695"
       },
       "fx_usd": {
         "EUR": "0.8956",
@@ -58,30 +58,30 @@
         "CNY": "6.6696"
       },
       "crypto_market": {
-        "total_mcap_usd": "2626548906033",
-        "btc_dominance_pct": "59.3"
+        "total_mcap_usd": "2625613389488",
+        "btc_dominance_pct": "59.2"
       },
       "btc_fees": {
         "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 51062
+        "tx_count": 50286
       },
       "earthquakes_past_hour": {
-        "count": 6,
+        "count": 11,
         "max_mag": "3.1"
       },
       "iss": {
-        "lat": "-32.360",
-        "lon": "-156.606"
+        "lat": "-28.395",
+        "lon": "151.819"
       },
       "space_weather": {
-        "kp": "3.33",
-        "at": "2026-10-31T15:00:00"
+        "kp": "6.0",
+        "at": "2026-10-31T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 220,
+        "gco2_kwh": 191,
         "index": "high"
       },
       "hn_top": {
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "LoL: LOS vs LYON - Game 2 Winner",
-            "yes_price": "0.175"
+            "question": "76ers vs. Hornets",
+            "yes_price": "0.38"
           },
           {
-            "question": "LoL: LOS vs LYON - Game 1 Winner",
-            "yes_price": "0.9995"
+            "question": "LoL: Hanwha Life Esports vs Bilibili Gaming - Game 1 Winner",
+            "yes_price": "0.0005"
           },
           {
-            "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
-            "yes_price": "0.945"
+            "question": "LoL: Hanwha Life Esports vs Bilibili Gaming (BO3) - Worlds Group Stage",
+            "yes_price": "0.0005"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "a5df134ed8c1c2669e24ce8938039785f0f00e0f40c98f413c23b4d3c2f47d27"
+  "input_fingerprint": "6abb96bfd5e7e12a0be8b287298a56c6e6266ef65f9212c3d0cbd91b3a3e3846"
 }
