@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-31T00:58:14.992Z",
+  "generated_utc": "2026-10-31T06:44:42.888Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2882,
-    "frame_hash": "e04625a3b1d047c0606d10341411923841f8fa37cf4e45ee4615efcc48a79631",
-    "utc": "2026-10-31T00:58:10.717Z"
+    "seq": 2883,
+    "frame_hash": "e68d2e3f65a9c19dc7437682bf9bdf33da617153ee4be621db51c9e89b3dc99d",
+    "utc": "2026-10-31T06:44:38.525Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2883,
-      "head_frame": "e04625a3b1d047c0606d10341411923841f8fa37cf4e45ee4615efcc48a79631"
+      "count": 2884,
+      "head_frame": "e68d2e3f65a9c19dc7437682bf9bdf33da617153ee4be621db51c9e89b3dc99d"
     },
     "world": {
-      "count": 2787,
-      "head_frame": "caf5dcd2a8f43397659dc26b453a442d8595d51639cfc55bff9c77df6434c817"
+      "count": 2788,
+      "head_frame": "603c0b3efc6f688bec06ff90f34fc062bb5e08dfcebbaba83a3019dfc791275d"
     },
     "registry": {
       "count": 25,
@@ -39,68 +39,68 @@
     }
   },
   "world": {
-    "frame_hash": "caf5dcd2a8f43397659dc26b453a442d8595d51639cfc55bff9c77df6434c817",
-    "seq": 2786,
-    "utc": "2026-10-31T00:58:13.658Z",
-    "tick": 2882,
-    "tick_frame": "e04625a3b1d047c0606d10341411923841f8fa37cf4e45ee4615efcc48a79631",
+    "frame_hash": "603c0b3efc6f688bec06ff90f34fc062bb5e08dfcebbaba83a3019dfc791275d",
+    "seq": 2787,
+    "utc": "2026-10-31T06:44:41.571Z",
+    "tick": 2883,
+    "tick_frame": "e68d2e3f65a9c19dc7437682bf9bdf33da617153ee4be621db51c9e89b3dc99d",
     "data": {
       "btc_block_height": {
-        "height": 973899
+        "height": 973941
       },
       "btc_usd": {
-        "spot": "77379.175"
+        "spot": "77189.995"
       },
       "fx_usd": {
-        "EUR": "0.8959",
-        "GBP": "0.7492",
-        "JPY": "157.8816",
-        "CNY": "6.6769"
+        "EUR": "0.8956",
+        "GBP": "0.7471",
+        "JPY": "157.4944",
+        "CNY": "6.6696"
       },
       "crypto_market": {
-        "total_mcap_usd": "2627744178345",
-        "btc_dominance_pct": "59.1"
+        "total_mcap_usd": "2619369704188",
+        "btc_dominance_pct": "59.2"
       },
       "btc_fees": {
-        "fastest_sat_vb": 4,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 57039
+        "tx_count": 54214
       },
       "earthquakes_past_hour": {
-        "count": 6,
-        "max_mag": "2.3"
+        "count": 4,
+        "max_mag": "4.4"
       },
       "iss": {
-        "lat": "-29.822",
-        "lon": "-92.907"
+        "lat": "-32.897",
+        "lon": "56.485"
       },
       "space_weather": {
-        "kp": "4.33",
-        "at": "2026-10-30T21:00:00"
+        "kp": "3.0",
+        "at": "2026-10-31T03:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 175,
+        "gco2_kwh": 200,
         "index": "high"
       },
       "hn_top": {
-        "id": 50311686,
-        "title": "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game"
+        "id": 50313508,
+        "title": "Tools Hacker News keeps asking for"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "LoL: Hanwha Life Esports vs G2 Esports - Game 2 Winner",
-            "yes_price": "0.9995"
+            "question": "Will the Republican Party control the House after the 2026 Midterm elections?",
+            "yes_price": "0.055"
           },
           {
-            "question": "Knicks vs. 76ers",
-            "yes_price": "0.335"
+            "question": "2026 Balance of Power: D Senate, D House",
+            "yes_price": "0.705"
           },
           {
-            "question": "LoL: Hanwha Life Esports vs G2 Esports - Game 1 Winner",
-            "yes_price": "0.9995"
+            "question": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+            "yes_price": "0.295"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "bbda791320e26ce79eef15bbba1dfca90d4d9db3501e3d6ae081791b7ed1cefd"
+  "input_fingerprint": "26abe5081bfb4ee913a5c881e44688384d4e9b7eadaddb7f37b41b75643ceb5e"
 }
