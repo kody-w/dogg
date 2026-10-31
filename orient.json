@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-31T06:44:42.888Z",
+  "generated_utc": "2026-10-31T13:07:01.829Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2883,
-    "frame_hash": "e68d2e3f65a9c19dc7437682bf9bdf33da617153ee4be621db51c9e89b3dc99d",
-    "utc": "2026-10-31T06:44:38.525Z"
+    "seq": 2884,
+    "frame_hash": "380327eb0b2d12bc2b5940d3d0234d244045fc3dc8c57f853cc376cf75f8af94",
+    "utc": "2026-10-31T13:06:57.307Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2884,
-      "head_frame": "e68d2e3f65a9c19dc7437682bf9bdf33da617153ee4be621db51c9e89b3dc99d"
+      "count": 2885,
+      "head_frame": "380327eb0b2d12bc2b5940d3d0234d244045fc3dc8c57f853cc376cf75f8af94"
     },
     "world": {
-      "count": 2788,
-      "head_frame": "603c0b3efc6f688bec06ff90f34fc062bb5e08dfcebbaba83a3019dfc791275d"
+      "count": 2789,
+      "head_frame": "11e3b185cec98c37a6b18c395db4c854385328f29d5bb7364cb8caf8fe618e36"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "603c0b3efc6f688bec06ff90f34fc062bb5e08dfcebbaba83a3019dfc791275d",
-    "seq": 2787,
-    "utc": "2026-10-31T06:44:41.571Z",
-    "tick": 2883,
-    "tick_frame": "e68d2e3f65a9c19dc7437682bf9bdf33da617153ee4be621db51c9e89b3dc99d",
+    "frame_hash": "11e3b185cec98c37a6b18c395db4c854385328f29d5bb7364cb8caf8fe618e36",
+    "seq": 2788,
+    "utc": "2026-10-31T13:07:00.509Z",
+    "tick": 2884,
+    "tick_frame": "380327eb0b2d12bc2b5940d3d0234d244045fc3dc8c57f853cc376cf75f8af94",
     "data": {
       "btc_block_height": {
-        "height": 973941
+        "height": 973977
       },
       "btc_usd": {
-        "spot": "77189.995"
+        "spot": "77377.025"
       },
       "fx_usd": {
         "EUR": "0.8956",
@@ -58,38 +58,42 @@
         "CNY": "6.6696"
       },
       "crypto_market": {
-        "total_mcap_usd": "2619369704188",
+        "total_mcap_usd": "2626476118444",
         "btc_dominance_pct": "59.2"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 54214
+        "tx_count": 58204
       },
       "earthquakes_past_hour": {
-        "count": 4,
-        "max_mag": "4.4"
+        "count": 6,
+        "max_mag": "1.5"
       },
       "iss": {
-        "lat": "-32.897",
-        "lon": "56.485"
+        "lat": "-51.536",
+        "lon": "11.023"
       },
       "space_weather": {
         "kp": "3.0",
-        "at": "2026-10-31T03:00:00"
+        "at": "2026-10-31T09:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 200,
-        "index": "high"
+        "gco2_kwh": 152,
+        "index": "moderate"
       },
       "hn_top": {
-        "id": 50313508,
-        "title": "Tools Hacker News keeps asking for"
+        "id": 50314654,
+        "title": "Serbia just elected the world's brainiest parliament"
       },
       "prediction_markets": {
         "top_by_volume": [
+          {
+            "question": "Counter-Strike: Nemiga vs FURIA (BO5) - PGL Masters Bucharest Playoffs",
+            "yes_price": "0.175"
+          },
           {
             "question": "Will the Republican Party control the House after the 2026 Midterm elections?",
             "yes_price": "0.055"
@@ -97,10 +101,6 @@
           {
             "question": "2026 Balance of Power: D Senate, D House",
             "yes_price": "0.705"
-          },
-          {
-            "question": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
-            "yes_price": "0.295"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "26abe5081bfb4ee913a5c881e44688384d4e9b7eadaddb7f37b41b75643ceb5e"
+  "input_fingerprint": "25f3a7c86041b938ff253db524b93061e40a98fd7807784c291b81a3a343fff4"
 }
