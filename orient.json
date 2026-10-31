@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-30T21:29:25.857Z",
+  "generated_utc": "2026-10-31T00:58:14.992Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2881,
-    "frame_hash": "336f4d2a668884466ce3b3ea9a568e9edf3d5811dff0337d7eb7666bc3439b5f",
-    "utc": "2026-10-30T21:29:21.427Z"
+    "seq": 2882,
+    "frame_hash": "e04625a3b1d047c0606d10341411923841f8fa37cf4e45ee4615efcc48a79631",
+    "utc": "2026-10-31T00:58:10.717Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2882,
-      "head_frame": "336f4d2a668884466ce3b3ea9a568e9edf3d5811dff0337d7eb7666bc3439b5f"
+      "count": 2883,
+      "head_frame": "e04625a3b1d047c0606d10341411923841f8fa37cf4e45ee4615efcc48a79631"
     },
     "world": {
-      "count": 2786,
-      "head_frame": "4f982b93ed5d1dad3c230785c1a8b9cbc16ab3d6d0e4ac16aaf1591ca568cc97"
+      "count": 2787,
+      "head_frame": "caf5dcd2a8f43397659dc26b453a442d8595d51639cfc55bff9c77df6434c817"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "4f982b93ed5d1dad3c230785c1a8b9cbc16ab3d6d0e4ac16aaf1591ca568cc97",
-    "seq": 2785,
-    "utc": "2026-10-30T21:29:24.517Z",
-    "tick": 2881,
-    "tick_frame": "336f4d2a668884466ce3b3ea9a568e9edf3d5811dff0337d7eb7666bc3439b5f",
+    "frame_hash": "caf5dcd2a8f43397659dc26b453a442d8595d51639cfc55bff9c77df6434c817",
+    "seq": 2786,
+    "utc": "2026-10-31T00:58:13.658Z",
+    "tick": 2882,
+    "tick_frame": "e04625a3b1d047c0606d10341411923841f8fa37cf4e45ee4615efcc48a79631",
     "data": {
       "btc_block_height": {
-        "height": 973880
+        "height": 973899
       },
       "btc_usd": {
-        "spot": "76690.505"
+        "spot": "77379.175"
       },
       "fx_usd": {
         "EUR": "0.8959",
@@ -58,49 +58,49 @@
         "CNY": "6.6769"
       },
       "crypto_market": {
-        "total_mcap_usd": "2609197666837",
-        "btc_dominance_pct": "59.0"
+        "total_mcap_usd": "2627744178345",
+        "btc_dominance_pct": "59.1"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 4,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 56425
+        "tx_count": 57039
       },
       "earthquakes_past_hour": {
-        "count": 7,
-        "max_mag": "1.6"
+        "count": 6,
+        "max_mag": "2.3"
       },
       "iss": {
-        "lat": "-38.126",
-        "lon": "-154.858"
+        "lat": "-29.822",
+        "lon": "-92.907"
       },
       "space_weather": {
-        "kp": "1.33",
-        "at": "2026-10-30T18:00:00"
+        "kp": "4.33",
+        "at": "2026-10-30T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 205,
+        "gco2_kwh": 175,
         "index": "high"
       },
       "hn_top": {
-        "id": 50307190,
-        "title": "My favourite PowerMac is a Nintendo Wii"
+        "id": 50311686,
+        "title": "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "LoL: Team Liquid vs LOS - Game 1 Winner",
-            "yes_price": "0.0005"
+            "question": "LoL: Hanwha Life Esports vs G2 Esports - Game 2 Winner",
+            "yes_price": "0.9995"
           },
           {
-            "question": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
-            "yes_price": "0.295"
+            "question": "Knicks vs. 76ers",
+            "yes_price": "0.335"
           },
           {
-            "question": "Will the Republican Party control the House after the 2026 Midterm elections?",
-            "yes_price": "0.065"
+            "question": "LoL: Hanwha Life Esports vs G2 Esports - Game 1 Winner",
+            "yes_price": "0.9995"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "bc9bc61d7bc0571aaf58b7c08998d45369a4c9cd3dc32191c77921b6d7345467"
+  "input_fingerprint": "bbda791320e26ce79eef15bbba1dfca90d4d9db3501e3d6ae081791b7ed1cefd"
 }
