@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-01T09:43:10.909Z",
+  "generated_utc": "2026-11-01T16:24:57.572Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2889,
-    "frame_hash": "e5b8770889058c42337bed7988163bd9b032b5175e2583974b35dce30d2a6891",
-    "utc": "2026-11-01T09:43:06.192Z"
+    "seq": 2890,
+    "frame_hash": "ebe1e5aa3901abfe5c4b08c4afecd3f5bdb2f171ea6b994ad36e31049882b43f",
+    "utc": "2026-11-01T16:24:50.054Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2890,
-      "head_frame": "e5b8770889058c42337bed7988163bd9b032b5175e2583974b35dce30d2a6891"
+      "count": 2891,
+      "head_frame": "ebe1e5aa3901abfe5c4b08c4afecd3f5bdb2f171ea6b994ad36e31049882b43f"
     },
     "world": {
-      "count": 2794,
-      "head_frame": "18afd6cb82b71de4eead6ba07d4aefb1eddcd6221e72f027ba5d96abf8d3eb49"
+      "count": 2795,
+      "head_frame": "a0820feab576448165abb82f0c6b435be3eefa083c86693d502233c818b6a21d"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "18afd6cb82b71de4eead6ba07d4aefb1eddcd6221e72f027ba5d96abf8d3eb49",
-    "seq": 2793,
-    "utc": "2026-11-01T09:43:09.613Z",
-    "tick": 2889,
-    "tick_frame": "e5b8770889058c42337bed7988163bd9b032b5175e2583974b35dce30d2a6891",
+    "frame_hash": "a0820feab576448165abb82f0c6b435be3eefa083c86693d502233c818b6a21d",
+    "seq": 2794,
+    "utc": "2026-11-01T16:24:56.224Z",
+    "tick": 2890,
+    "tick_frame": "ebe1e5aa3901abfe5c4b08c4afecd3f5bdb2f171ea6b994ad36e31049882b43f",
     "data": {
       "btc_block_height": {
-        "height": 974111
+        "height": 974148
       },
       "btc_usd": {
-        "spot": "77942.645"
+        "spot": "77967.085"
       },
       "fx_usd": {
         "EUR": "0.8956",
@@ -58,45 +58,45 @@
         "CNY": "6.6710"
       },
       "crypto_market": {
-        "total_mcap_usd": "2610969574339",
-        "btc_dominance_pct": "59.9"
+        "total_mcap_usd": "2610231574616",
+        "btc_dominance_pct": "60.0"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 52018
+        "tx_count": 47341
       },
       "earthquakes_past_hour": {
-        "count": 6,
-        "max_mag": "2.5"
+        "count": 7,
+        "max_mag": "2.7"
       },
       "iss": {
-        "lat": "12.410",
-        "lon": "164.562"
+        "lat": "35.190",
+        "lon": "-161.230"
       },
       "space_weather": {
-        "kp": "3.33",
-        "at": "2026-11-01T06:00:00"
+        "kp": "3.0",
+        "at": "2026-11-01T12:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 172,
+        "gco2_kwh": 194,
         "index": "high"
       },
       "hn_top": {
-        "id": 50319510,
-        "title": "HackerTube: YouTube built from videos recommended by HN"
+        "id": 50326821,
+        "title": "Show HN: HackerBooks – HackerTube, but for books recommended on HN"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
-            "yes_price": "0.245"
-          },
-          {
             "question": "Will 1win launch a token by October 31, 2026?",
             "yes_price": "0.9995"
+          },
+          {
+            "question": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
+            "yes_price": "0.255"
           },
           {
             "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "cfe50a838fcbe87e53bdb96a628124699dea0a26af0ac826592df7e380bd9a1e"
+  "input_fingerprint": "bfcd1c3a097f73e4f5877fd61b3f90cae1a983852c82d4b38cd8295c382c39a6"
 }
