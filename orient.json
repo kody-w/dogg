@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-01T02:38:48.441Z",
+  "generated_utc": "2026-11-01T09:43:10.909Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2888,
-    "frame_hash": "b15902b077966b842bff61298e9233aea26943cdf2797351c6c93a5cb14447da",
-    "utc": "2026-11-01T02:38:44.151Z"
+    "seq": 2889,
+    "frame_hash": "e5b8770889058c42337bed7988163bd9b032b5175e2583974b35dce30d2a6891",
+    "utc": "2026-11-01T09:43:06.192Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2889,
-      "head_frame": "b15902b077966b842bff61298e9233aea26943cdf2797351c6c93a5cb14447da"
+      "count": 2890,
+      "head_frame": "e5b8770889058c42337bed7988163bd9b032b5175e2583974b35dce30d2a6891"
     },
     "world": {
-      "count": 2793,
-      "head_frame": "8e58b5641e8231ef216d6dbaac84bb367e22103b358a001a60d90e854aab03dc"
+      "count": 2794,
+      "head_frame": "18afd6cb82b71de4eead6ba07d4aefb1eddcd6221e72f027ba5d96abf8d3eb49"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "8e58b5641e8231ef216d6dbaac84bb367e22103b358a001a60d90e854aab03dc",
-    "seq": 2792,
-    "utc": "2026-11-01T02:38:47.120Z",
-    "tick": 2888,
-    "tick_frame": "b15902b077966b842bff61298e9233aea26943cdf2797351c6c93a5cb14447da",
+    "frame_hash": "18afd6cb82b71de4eead6ba07d4aefb1eddcd6221e72f027ba5d96abf8d3eb49",
+    "seq": 2793,
+    "utc": "2026-11-01T09:43:09.613Z",
+    "tick": 2889,
+    "tick_frame": "e5b8770889058c42337bed7988163bd9b032b5175e2583974b35dce30d2a6891",
     "data": {
       "btc_block_height": {
-        "height": 974065
+        "height": 974111
       },
       "btc_usd": {
-        "spot": "77530.105"
+        "spot": "77942.645"
       },
       "fx_usd": {
         "EUR": "0.8956",
@@ -58,30 +58,30 @@
         "CNY": "6.6710"
       },
       "crypto_market": {
-        "total_mcap_usd": "2628904776844",
-        "btc_dominance_pct": "59.3"
+        "total_mcap_usd": "2610969574339",
+        "btc_dominance_pct": "59.9"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 51721
+        "tx_count": 52018
       },
       "earthquakes_past_hour": {
-        "count": 10,
+        "count": 6,
         "max_mag": "2.5"
       },
       "iss": {
-        "lat": "6.881",
-        "lon": "76.980"
+        "lat": "12.410",
+        "lon": "164.562"
       },
       "space_weather": {
-        "kp": "3.67",
-        "at": "2026-10-31T21:00:00"
+        "kp": "3.33",
+        "at": "2026-11-01T06:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 180,
+        "gco2_kwh": 172,
         "index": "high"
       },
       "hn_top": {
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Thunder vs. Rockets",
-            "yes_price": "0.0005"
-          },
-          {
-            "question": "Atlanta Dream vs. Golden State Valkyries",
-            "yes_price": "0.0005"
-          },
-          {
             "question": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
-            "yes_price": "0.255"
+            "yes_price": "0.245"
+          },
+          {
+            "question": "Will 1win launch a token by October 31, 2026?",
+            "yes_price": "0.9995"
+          },
+          {
+            "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+            "yes_price": "0.945"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "e1d6ff476e4d560bb508516cb0e21cacc71178ef8dae3c127fe8365920330cc9"
+  "input_fingerprint": "cfe50a838fcbe87e53bdb96a628124699dea0a26af0ac826592df7e380bd9a1e"
 }
