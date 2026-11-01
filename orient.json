@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-10-31T23:44:51.988Z",
+  "generated_utc": "2026-11-01T02:38:48.441Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2887,
-    "frame_hash": "62b82612692afe10aced6ce1a296f0797a53cf08d85d712e8adc5c50ffac30f1",
-    "utc": "2026-10-31T23:44:47.735Z"
+    "seq": 2888,
+    "frame_hash": "b15902b077966b842bff61298e9233aea26943cdf2797351c6c93a5cb14447da",
+    "utc": "2026-11-01T02:38:44.151Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2888,
-      "head_frame": "62b82612692afe10aced6ce1a296f0797a53cf08d85d712e8adc5c50ffac30f1"
+      "count": 2889,
+      "head_frame": "b15902b077966b842bff61298e9233aea26943cdf2797351c6c93a5cb14447da"
     },
     "world": {
-      "count": 2792,
-      "head_frame": "2ab51039310f1f06e93e4d3eb562fdd3dff85200e9ec5a3a1c9f0de7e2e06df1"
+      "count": 2793,
+      "head_frame": "8e58b5641e8231ef216d6dbaac84bb367e22103b358a001a60d90e854aab03dc"
     },
     "registry": {
       "count": 25,
@@ -39,49 +39,49 @@
     }
   },
   "world": {
-    "frame_hash": "2ab51039310f1f06e93e4d3eb562fdd3dff85200e9ec5a3a1c9f0de7e2e06df1",
-    "seq": 2791,
-    "utc": "2026-10-31T23:44:50.636Z",
-    "tick": 2887,
-    "tick_frame": "62b82612692afe10aced6ce1a296f0797a53cf08d85d712e8adc5c50ffac30f1",
+    "frame_hash": "8e58b5641e8231ef216d6dbaac84bb367e22103b358a001a60d90e854aab03dc",
+    "seq": 2792,
+    "utc": "2026-11-01T02:38:47.120Z",
+    "tick": 2888,
+    "tick_frame": "b15902b077966b842bff61298e9233aea26943cdf2797351c6c93a5cb14447da",
     "data": {
       "btc_block_height": {
-        "height": 974041
+        "height": 974065
       },
       "btc_usd": {
-        "spot": "77373.695"
+        "spot": "77530.105"
       },
       "fx_usd": {
         "EUR": "0.8956",
-        "GBP": "0.7471",
-        "JPY": "157.4944",
-        "CNY": "6.6696"
+        "GBP": "0.7469",
+        "JPY": "157.4953",
+        "CNY": "6.6710"
       },
       "crypto_market": {
-        "total_mcap_usd": "2625613389488",
-        "btc_dominance_pct": "59.2"
+        "total_mcap_usd": "2628904776844",
+        "btc_dominance_pct": "59.3"
       },
       "btc_fees": {
         "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 50286
+        "tx_count": 51721
       },
       "earthquakes_past_hour": {
-        "count": 11,
-        "max_mag": "3.1"
+        "count": 10,
+        "max_mag": "2.5"
       },
       "iss": {
-        "lat": "-28.395",
-        "lon": "151.819"
+        "lat": "6.881",
+        "lon": "76.980"
       },
       "space_weather": {
-        "kp": "6.0",
-        "at": "2026-10-31T18:00:00"
+        "kp": "3.67",
+        "at": "2026-10-31T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 191,
+        "gco2_kwh": 180,
         "index": "high"
       },
       "hn_top": {
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "76ers vs. Hornets",
-            "yes_price": "0.38"
-          },
-          {
-            "question": "LoL: Hanwha Life Esports vs Bilibili Gaming - Game 1 Winner",
+            "question": "Thunder vs. Rockets",
             "yes_price": "0.0005"
           },
           {
-            "question": "LoL: Hanwha Life Esports vs Bilibili Gaming (BO3) - Worlds Group Stage",
+            "question": "Atlanta Dream vs. Golden State Valkyries",
             "yes_price": "0.0005"
+          },
+          {
+            "question": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
+            "yes_price": "0.255"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "6abb96bfd5e7e12a0be8b287298a56c6e6266ef65f9212c3d0cbd91b3a3e3846"
+  "input_fingerprint": "e1d6ff476e4d560bb508516cb0e21cacc71178ef8dae3c127fe8365920330cc9"
 }
