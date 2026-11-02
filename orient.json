@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-02T11:56:02.325Z",
+  "generated_utc": "2026-11-02T21:20:19.849Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2894,
-    "frame_hash": "e0b50da3f7bbe4bb494e6ff1741a9fca2433c47bde08789ab0d3466df3acb07b",
-    "utc": "2026-11-02T11:55:57.710Z"
+    "seq": 2895,
+    "frame_hash": "371cd84e44bf8b882a9d5cf6860927facb3452a6f89e8fc49dfc1076faccb4cd",
+    "utc": "2026-11-02T21:20:14.442Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2895,
-      "head_frame": "e0b50da3f7bbe4bb494e6ff1741a9fca2433c47bde08789ab0d3466df3acb07b"
+      "count": 2896,
+      "head_frame": "371cd84e44bf8b882a9d5cf6860927facb3452a6f89e8fc49dfc1076faccb4cd"
     },
     "world": {
-      "count": 2799,
-      "head_frame": "e28200a03ea04723788e8807a9b735372c3ea0fb75ae42617ddd4c376daf1a1f"
+      "count": 2800,
+      "head_frame": "13480dcb059c56b447ebccf8753742b234c93b6667da8f6fd10864bd5dccf4bb"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "e28200a03ea04723788e8807a9b735372c3ea0fb75ae42617ddd4c376daf1a1f",
-    "seq": 2798,
-    "utc": "2026-11-02T11:56:01.196Z",
-    "tick": 2894,
-    "tick_frame": "e0b50da3f7bbe4bb494e6ff1741a9fca2433c47bde08789ab0d3466df3acb07b",
+    "frame_hash": "13480dcb059c56b447ebccf8753742b234c93b6667da8f6fd10864bd5dccf4bb",
+    "seq": 2799,
+    "utc": "2026-11-02T21:20:18.482Z",
+    "tick": 2895,
+    "tick_frame": "371cd84e44bf8b882a9d5cf6860927facb3452a6f89e8fc49dfc1076faccb4cd",
     "data": {
       "btc_block_height": {
-        "height": 974252
+        "height": 974302
       },
       "btc_usd": {
-        "spot": "77751.665"
+        "spot": "76762.245"
       },
       "fx_usd": {
         "EUR": "0.8961",
@@ -58,49 +58,49 @@
         "CNY": "6.6609"
       },
       "crypto_market": {
-        "total_mcap_usd": "2601512276401",
-        "btc_dominance_pct": "59.9"
+        "total_mcap_usd": "2597448539748",
+        "btc_dominance_pct": "59.3"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 47232
+        "tx_count": 48352
       },
       "earthquakes_past_hour": {
-        "count": 9,
-        "max_mag": "2.5"
+        "count": 11,
+        "max_mag": "4.6"
       },
       "iss": {
-        "lat": "-6.918",
-        "lon": "109.410"
+        "lat": "14.220",
+        "lon": "-17.001"
       },
       "space_weather": {
-        "kp": "3.0",
-        "at": "2026-11-02T06:00:00"
+        "kp": "1.0",
+        "at": "2026-11-02T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 135,
+        "gco2_kwh": 169,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 50326821,
-        "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN"
+        "id": 50341174,
+        "title": "Astra can read and write weights to improve Qwen"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will 1win launch a token by October 31, 2026?",
-            "yes_price": "0.9995"
+            "question": "2026 Balance of Power: R Senate, R House",
+            "yes_price": "0.045"
           },
           {
             "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
-            "yes_price": "0.945"
+            "yes_price": "0.955"
           },
           {
-            "question": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
-            "yes_price": "0.275"
+            "question": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
+            "yes_price": "0.335"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "aa6bb1a60d76e5b3414b21eb20ae46f3aee10e9c052434abaadf9ae2fa91e048"
+  "input_fingerprint": "3f8444a7aea0532b17b4c05474b47355aa39015c0d391a143d19d282d4cc52a3"
 }
