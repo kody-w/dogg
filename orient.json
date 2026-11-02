@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-02T03:53:21.585Z",
+  "generated_utc": "2026-11-02T11:56:02.325Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2893,
-    "frame_hash": "5281c3bb7bcfef06ba97dda8949cd1028b4de0bf19a4ca4d19f376c8ff979f74",
-    "utc": "2026-11-02T03:53:17.527Z"
+    "seq": 2894,
+    "frame_hash": "e0b50da3f7bbe4bb494e6ff1741a9fca2433c47bde08789ab0d3466df3acb07b",
+    "utc": "2026-11-02T11:55:57.710Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2894,
-      "head_frame": "5281c3bb7bcfef06ba97dda8949cd1028b4de0bf19a4ca4d19f376c8ff979f74"
+      "count": 2895,
+      "head_frame": "e0b50da3f7bbe4bb494e6ff1741a9fca2433c47bde08789ab0d3466df3acb07b"
     },
     "world": {
-      "count": 2798,
-      "head_frame": "c718d79f85153f1128ca85c3d4bb64c61f9b36003eb67dd4654d4617d8e3700d"
+      "count": 2799,
+      "head_frame": "e28200a03ea04723788e8807a9b735372c3ea0fb75ae42617ddd4c376daf1a1f"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "c718d79f85153f1128ca85c3d4bb64c61f9b36003eb67dd4654d4617d8e3700d",
-    "seq": 2797,
-    "utc": "2026-11-02T03:53:20.784Z",
-    "tick": 2893,
-    "tick_frame": "5281c3bb7bcfef06ba97dda8949cd1028b4de0bf19a4ca4d19f376c8ff979f74",
+    "frame_hash": "e28200a03ea04723788e8807a9b735372c3ea0fb75ae42617ddd4c376daf1a1f",
+    "seq": 2798,
+    "utc": "2026-11-02T11:56:01.196Z",
+    "tick": 2894,
+    "tick_frame": "e0b50da3f7bbe4bb494e6ff1741a9fca2433c47bde08789ab0d3466df3acb07b",
     "data": {
       "btc_block_height": {
-        "height": 974209
+        "height": 974252
       },
       "btc_usd": {
-        "spot": "78510.785"
+        "spot": "77751.665"
       },
       "fx_usd": {
         "EUR": "0.8961",
@@ -58,30 +58,30 @@
         "CNY": "6.6609"
       },
       "crypto_market": {
-        "total_mcap_usd": "2629125028108",
-        "btc_dominance_pct": "60.1"
+        "total_mcap_usd": "2601512276401",
+        "btc_dominance_pct": "59.9"
       },
       "btc_fees": {
         "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 46168
+        "tx_count": 47232
       },
       "earthquakes_past_hour": {
-        "count": 6,
+        "count": 9,
         "max_mag": "2.5"
       },
       "iss": {
-        "lat": "-50.558",
-        "lon": "164.415"
+        "lat": "-6.918",
+        "lon": "109.410"
       },
       "space_weather": {
-        "kp": "1.0",
-        "at": "2026-11-02T00:00:00"
+        "kp": "3.0",
+        "at": "2026-11-02T06:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 98,
+        "gco2_kwh": 135,
         "index": "moderate"
       },
       "hn_top": {
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Eagles vs. Commanders",
-            "yes_price": "0.315"
-          },
-          {
             "question": "Will 1win launch a token by October 31, 2026?",
             "yes_price": "0.9995"
           },
           {
             "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
             "yes_price": "0.945"
+          },
+          {
+            "question": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+            "yes_price": "0.275"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "19e0c0ae30e2cb0a69ca53367ed5d400eaeb4a97fdd0672a0dfdeb9f728a3c1d"
+  "input_fingerprint": "aa6bb1a60d76e5b3414b21eb20ae46f3aee10e9c052434abaadf9ae2fa91e048"
 }
