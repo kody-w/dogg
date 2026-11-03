@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-03T02:59:01.626Z",
+  "generated_utc": "2026-11-03T10:37:24.040Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2896,
-    "frame_hash": "b61db90e6eaf299f376f29e6e0dc6f3e286f59d78fac6777b07850ec0a640feb",
-    "utc": "2026-11-03T02:58:57.791Z"
+    "seq": 2897,
+    "frame_hash": "b00ded3310bc785930e4656637ea0c074537fe5e43af7121e046bcdf8afbba1c",
+    "utc": "2026-11-03T10:37:20.030Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2897,
-      "head_frame": "b61db90e6eaf299f376f29e6e0dc6f3e286f59d78fac6777b07850ec0a640feb"
+      "count": 2898,
+      "head_frame": "b00ded3310bc785930e4656637ea0c074537fe5e43af7121e046bcdf8afbba1c"
     },
     "world": {
-      "count": 2801,
-      "head_frame": "f10eb201527d7e74bc879602e464ce1c9ca4bb5d851c5d0e79540b6007003a94"
+      "count": 2802,
+      "head_frame": "01d3427e9c101b7e735ebceccde3a27ab7182b1aeab9b3cc0c9ca69bf32cb4b4"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "f10eb201527d7e74bc879602e464ce1c9ca4bb5d851c5d0e79540b6007003a94",
-    "seq": 2800,
-    "utc": "2026-11-03T02:59:00.877Z",
-    "tick": 2896,
-    "tick_frame": "b61db90e6eaf299f376f29e6e0dc6f3e286f59d78fac6777b07850ec0a640feb",
+    "frame_hash": "01d3427e9c101b7e735ebceccde3a27ab7182b1aeab9b3cc0c9ca69bf32cb4b4",
+    "seq": 2801,
+    "utc": "2026-11-03T10:37:23.251Z",
+    "tick": 2897,
+    "tick_frame": "b00ded3310bc785930e4656637ea0c074537fe5e43af7121e046bcdf8afbba1c",
     "data": {
       "btc_block_height": {
-        "height": 974335
+        "height": 974381
       },
       "btc_usd": {
-        "spot": "76630.085"
+        "spot": "76881.335"
       },
       "fx_usd": {
         "EUR": "0.8933",
@@ -58,30 +58,30 @@
         "CNY": "6.6654"
       },
       "crypto_market": {
-        "total_mcap_usd": "2594856834029",
-        "btc_dominance_pct": "59.3"
+        "total_mcap_usd": "2576067831082",
+        "btc_dominance_pct": "59.9"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 46130
+        "tx_count": 43818
       },
       "earthquakes_past_hour": {
-        "count": 5,
-        "max_mag": "2.8"
+        "count": 6,
+        "max_mag": "2.4"
       },
       "iss": {
-        "lat": "-47.917",
-        "lon": "126.088"
+        "lat": "-35.273",
+        "lon": "-17.222"
       },
       "space_weather": {
-        "kp": "0.33",
-        "at": "2026-11-02T21:00:00"
+        "kp": "2.0",
+        "at": "2026-11-03T06:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 126,
+        "gco2_kwh": 162,
         "index": "moderate"
       },
       "hn_top": {
@@ -99,8 +99,8 @@
             "yes_price": "0.945"
           },
           {
-            "question": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
-            "yes_price": "0.365"
+            "question": "2026 Balance of Power: D Senate, D House",
+            "yes_price": "0.755"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "5d7c34fd0b85c6e90e375cd048106119257ed3251d17c8b167d78a1285c287ed"
+  "input_fingerprint": "243764b9a998c8566742e335fae9b122057952fed92f90cccde534c0a707ba3b"
 }
