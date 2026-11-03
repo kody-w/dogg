@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-03T10:37:24.040Z",
+  "generated_utc": "2026-11-03T18:02:55.702Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2897,
-    "frame_hash": "b00ded3310bc785930e4656637ea0c074537fe5e43af7121e046bcdf8afbba1c",
-    "utc": "2026-11-03T10:37:20.030Z"
+    "seq": 2898,
+    "frame_hash": "c56287c423e888b171592b0e5bc25ebf0b95dceda97d2492fe25975b266fa2ae",
+    "utc": "2026-11-03T18:02:49.727Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2898,
-      "head_frame": "b00ded3310bc785930e4656637ea0c074537fe5e43af7121e046bcdf8afbba1c"
+      "count": 2899,
+      "head_frame": "c56287c423e888b171592b0e5bc25ebf0b95dceda97d2492fe25975b266fa2ae"
     },
     "world": {
-      "count": 2802,
-      "head_frame": "01d3427e9c101b7e735ebceccde3a27ab7182b1aeab9b3cc0c9ca69bf32cb4b4"
+      "count": 2803,
+      "head_frame": "367de5315fdf754878eb35ae8b7e00091076f77c65a15089ca5706c21ddf0b80"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "01d3427e9c101b7e735ebceccde3a27ab7182b1aeab9b3cc0c9ca69bf32cb4b4",
-    "seq": 2801,
-    "utc": "2026-11-03T10:37:23.251Z",
-    "tick": 2897,
-    "tick_frame": "b00ded3310bc785930e4656637ea0c074537fe5e43af7121e046bcdf8afbba1c",
+    "frame_hash": "367de5315fdf754878eb35ae8b7e00091076f77c65a15089ca5706c21ddf0b80",
+    "seq": 2802,
+    "utc": "2026-11-03T18:02:54.356Z",
+    "tick": 2898,
+    "tick_frame": "c56287c423e888b171592b0e5bc25ebf0b95dceda97d2492fe25975b266fa2ae",
     "data": {
       "btc_block_height": {
-        "height": 974381
+        "height": 974420
       },
       "btc_usd": {
-        "spot": "76881.335"
+        "spot": "77605.84"
       },
       "fx_usd": {
         "EUR": "0.8933",
@@ -58,35 +58,35 @@
         "CNY": "6.6654"
       },
       "crypto_market": {
-        "total_mcap_usd": "2576067831082",
-        "btc_dominance_pct": "59.9"
+        "total_mcap_usd": "2626350570344",
+        "btc_dominance_pct": "59.3"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 43818
+        "tx_count": 39602
       },
       "earthquakes_past_hour": {
-        "count": 6,
-        "max_mag": "2.4"
+        "count": 9,
+        "max_mag": "4.1"
       },
       "iss": {
-        "lat": "-35.273",
-        "lon": "-17.222"
+        "lat": "20.308",
+        "lon": "178.788"
       },
       "space_weather": {
-        "kp": "2.0",
-        "at": "2026-11-03T06:00:00"
+        "kp": "1.33",
+        "at": "2026-11-03T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 162,
-        "index": "moderate"
+        "gco2_kwh": 202,
+        "index": "high"
       },
       "hn_top": {
-        "id": 50341174,
-        "title": "Astra can read and write weights to improve Qwen"
+        "id": 50354960,
+        "title": "Postman silently auto-installs AI plugins and attempts to share all API data"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -100,7 +100,7 @@
           },
           {
             "question": "2026 Balance of Power: D Senate, D House",
-            "yes_price": "0.755"
+            "yes_price": "0.735"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "243764b9a998c8566742e335fae9b122057952fed92f90cccde534c0a707ba3b"
+  "input_fingerprint": "42fd38199b6e98788dcd7d70fc10ad302061d5e18c445b320c421ca7ba73afc4"
 }
