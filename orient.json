@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-03T18:02:55.702Z",
+  "generated_utc": "2026-11-03T23:18:47.409Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2898,
-    "frame_hash": "c56287c423e888b171592b0e5bc25ebf0b95dceda97d2492fe25975b266fa2ae",
-    "utc": "2026-11-03T18:02:49.727Z"
+    "seq": 2899,
+    "frame_hash": "5362c0c3147571ae14736512044d23c0d76d0189ce5f8f10174e56f71091e4d1",
+    "utc": "2026-11-03T23:18:42.290Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2899,
-      "head_frame": "c56287c423e888b171592b0e5bc25ebf0b95dceda97d2492fe25975b266fa2ae"
+      "count": 2900,
+      "head_frame": "5362c0c3147571ae14736512044d23c0d76d0189ce5f8f10174e56f71091e4d1"
     },
     "world": {
-      "count": 2803,
-      "head_frame": "367de5315fdf754878eb35ae8b7e00091076f77c65a15089ca5706c21ddf0b80"
+      "count": 2804,
+      "head_frame": "735e89a015b12e2f7ba65dea426b3d977569b6ce8272b6a289e2783ee71ca5d9"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "367de5315fdf754878eb35ae8b7e00091076f77c65a15089ca5706c21ddf0b80",
-    "seq": 2802,
-    "utc": "2026-11-03T18:02:54.356Z",
-    "tick": 2898,
-    "tick_frame": "c56287c423e888b171592b0e5bc25ebf0b95dceda97d2492fe25975b266fa2ae",
+    "frame_hash": "735e89a015b12e2f7ba65dea426b3d977569b6ce8272b6a289e2783ee71ca5d9",
+    "seq": 2803,
+    "utc": "2026-11-03T23:18:46.529Z",
+    "tick": 2899,
+    "tick_frame": "5362c0c3147571ae14736512044d23c0d76d0189ce5f8f10174e56f71091e4d1",
     "data": {
       "btc_block_height": {
-        "height": 974420
+        "height": 974453
       },
       "btc_usd": {
-        "spot": "77605.84"
+        "spot": "77769.645"
       },
       "fx_usd": {
         "EUR": "0.8933",
@@ -58,49 +58,49 @@
         "CNY": "6.6654"
       },
       "crypto_market": {
-        "total_mcap_usd": "2626350570344",
+        "total_mcap_usd": "2631252396727",
         "btc_dominance_pct": "59.3"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 39602
+        "tx_count": 38208
       },
       "earthquakes_past_hour": {
-        "count": 9,
-        "max_mag": "4.1"
+        "count": 4,
+        "max_mag": "4.4"
       },
       "iss": {
-        "lat": "20.308",
-        "lon": "178.788"
+        "lat": "-44.045",
+        "lon": "-114.138"
       },
       "space_weather": {
-        "kp": "1.33",
-        "at": "2026-11-03T15:00:00"
+        "kp": "1.67",
+        "at": "2026-11-03T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 202,
-        "index": "high"
+        "gco2_kwh": 161,
+        "index": "moderate"
       },
       "hn_top": {
-        "id": 50354960,
-        "title": "Postman silently auto-installs AI plugins and attempts to share all API data"
+        "id": 50358582,
+        "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer"
       },
       "prediction_markets": {
         "top_by_volume": [
-          {
-            "question": "2026 Balance of Power: R Senate, R House",
-            "yes_price": "0.055"
-          },
           {
             "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
             "yes_price": "0.945"
           },
           {
-            "question": "2026 Balance of Power: D Senate, D House",
-            "yes_price": "0.735"
+            "question": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+            "yes_price": "0.785"
+          },
+          {
+            "question": "Will the Republican Party control the House after the 2026 Midterm elections?",
+            "yes_price": "0.055"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "42fd38199b6e98788dcd7d70fc10ad302061d5e18c445b320c421ca7ba73afc4"
+  "input_fingerprint": "350e54ff86e7e9820652b7ba082fec553557dbae219b8ccaad782994544686e5"
 }
