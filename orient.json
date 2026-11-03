@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-02T21:20:19.849Z",
+  "generated_utc": "2026-11-03T02:59:01.626Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2895,
-    "frame_hash": "371cd84e44bf8b882a9d5cf6860927facb3452a6f89e8fc49dfc1076faccb4cd",
-    "utc": "2026-11-02T21:20:14.442Z"
+    "seq": 2896,
+    "frame_hash": "b61db90e6eaf299f376f29e6e0dc6f3e286f59d78fac6777b07850ec0a640feb",
+    "utc": "2026-11-03T02:58:57.791Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2896,
-      "head_frame": "371cd84e44bf8b882a9d5cf6860927facb3452a6f89e8fc49dfc1076faccb4cd"
+      "count": 2897,
+      "head_frame": "b61db90e6eaf299f376f29e6e0dc6f3e286f59d78fac6777b07850ec0a640feb"
     },
     "world": {
-      "count": 2800,
-      "head_frame": "13480dcb059c56b447ebccf8753742b234c93b6667da8f6fd10864bd5dccf4bb"
+      "count": 2801,
+      "head_frame": "f10eb201527d7e74bc879602e464ce1c9ca4bb5d851c5d0e79540b6007003a94"
     },
     "registry": {
       "count": 25,
@@ -39,26 +39,26 @@
     }
   },
   "world": {
-    "frame_hash": "13480dcb059c56b447ebccf8753742b234c93b6667da8f6fd10864bd5dccf4bb",
-    "seq": 2799,
-    "utc": "2026-11-02T21:20:18.482Z",
-    "tick": 2895,
-    "tick_frame": "371cd84e44bf8b882a9d5cf6860927facb3452a6f89e8fc49dfc1076faccb4cd",
+    "frame_hash": "f10eb201527d7e74bc879602e464ce1c9ca4bb5d851c5d0e79540b6007003a94",
+    "seq": 2800,
+    "utc": "2026-11-03T02:59:00.877Z",
+    "tick": 2896,
+    "tick_frame": "b61db90e6eaf299f376f29e6e0dc6f3e286f59d78fac6777b07850ec0a640feb",
     "data": {
       "btc_block_height": {
-        "height": 974302
+        "height": 974335
       },
       "btc_usd": {
-        "spot": "76762.245"
+        "spot": "76630.085"
       },
       "fx_usd": {
-        "EUR": "0.8961",
-        "GBP": "0.7469",
-        "JPY": "157.5321",
-        "CNY": "6.6609"
+        "EUR": "0.8933",
+        "GBP": "0.7457",
+        "JPY": "157.8961",
+        "CNY": "6.6654"
       },
       "crypto_market": {
-        "total_mcap_usd": "2597448539748",
+        "total_mcap_usd": "2594856834029",
         "btc_dominance_pct": "59.3"
       },
       "btc_fees": {
@@ -66,22 +66,22 @@
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 48352
+        "tx_count": 46130
       },
       "earthquakes_past_hour": {
-        "count": 11,
-        "max_mag": "4.6"
+        "count": 5,
+        "max_mag": "2.8"
       },
       "iss": {
-        "lat": "14.220",
-        "lon": "-17.001"
+        "lat": "-47.917",
+        "lon": "126.088"
       },
       "space_weather": {
-        "kp": "1.0",
-        "at": "2026-11-02T18:00:00"
+        "kp": "0.33",
+        "at": "2026-11-02T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 169,
+        "gco2_kwh": 126,
         "index": "moderate"
       },
       "hn_top": {
@@ -92,15 +92,15 @@
         "top_by_volume": [
           {
             "question": "2026 Balance of Power: R Senate, R House",
-            "yes_price": "0.045"
+            "yes_price": "0.055"
           },
           {
             "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
-            "yes_price": "0.955"
+            "yes_price": "0.945"
           },
           {
             "question": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
-            "yes_price": "0.335"
+            "yes_price": "0.365"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "3f8444a7aea0532b17b4c05474b47355aa39015c0d391a143d19d282d4cc52a3"
+  "input_fingerprint": "5d7c34fd0b85c6e90e375cd048106119257ed3251d17c8b167d78a1285c287ed"
 }
