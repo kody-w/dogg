@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-03T23:18:47.409Z",
+  "generated_utc": "2026-11-04T03:05:39.077Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2899,
-    "frame_hash": "5362c0c3147571ae14736512044d23c0d76d0189ce5f8f10174e56f71091e4d1",
-    "utc": "2026-11-03T23:18:42.290Z"
+    "seq": 2900,
+    "frame_hash": "058c700b1fce8f22cb91c60a72618ffc52612f29d1dd410d17fd515dddbfb731",
+    "utc": "2026-11-04T03:05:34.493Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2900,
-      "head_frame": "5362c0c3147571ae14736512044d23c0d76d0189ce5f8f10174e56f71091e4d1"
+      "count": 2901,
+      "head_frame": "058c700b1fce8f22cb91c60a72618ffc52612f29d1dd410d17fd515dddbfb731"
     },
     "world": {
-      "count": 2804,
-      "head_frame": "735e89a015b12e2f7ba65dea426b3d977569b6ce8272b6a289e2783ee71ca5d9"
+      "count": 2805,
+      "head_frame": "dcec8f6ba943f1fc9c8337b5c71809be110b8d41dba1dafb82a577e417c72f9b"
     },
     "registry": {
       "count": 25,
@@ -39,68 +39,68 @@
     }
   },
   "world": {
-    "frame_hash": "735e89a015b12e2f7ba65dea426b3d977569b6ce8272b6a289e2783ee71ca5d9",
-    "seq": 2803,
-    "utc": "2026-11-03T23:18:46.529Z",
-    "tick": 2899,
-    "tick_frame": "5362c0c3147571ae14736512044d23c0d76d0189ce5f8f10174e56f71091e4d1",
+    "frame_hash": "dcec8f6ba943f1fc9c8337b5c71809be110b8d41dba1dafb82a577e417c72f9b",
+    "seq": 2804,
+    "utc": "2026-11-04T03:05:37.721Z",
+    "tick": 2900,
+    "tick_frame": "058c700b1fce8f22cb91c60a72618ffc52612f29d1dd410d17fd515dddbfb731",
     "data": {
       "btc_block_height": {
-        "height": 974453
+        "height": 974469
       },
       "btc_usd": {
-        "spot": "77769.645"
+        "spot": "75915.315"
       },
       "fx_usd": {
-        "EUR": "0.8933",
-        "GBP": "0.7457",
-        "JPY": "157.8961",
-        "CNY": "6.6654"
+        "EUR": "0.8934",
+        "GBP": "0.7454",
+        "JPY": "158.3992",
+        "CNY": "6.6840"
       },
       "crypto_market": {
-        "total_mcap_usd": "2631252396727",
-        "btc_dominance_pct": "59.3"
+        "total_mcap_usd": "2570092062035",
+        "btc_dominance_pct": "59.2"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 38208
+        "tx_count": 41026
       },
       "earthquakes_past_hour": {
-        "count": 4,
-        "max_mag": "4.4"
+        "count": 7,
+        "max_mag": "2.8"
       },
       "iss": {
-        "lat": "-44.045",
-        "lon": "-114.138"
+        "lat": "51.220",
+        "lon": "-20.674"
       },
       "space_weather": {
-        "kp": "1.67",
-        "at": "2026-11-03T18:00:00"
+        "kp": "1.33",
+        "at": "2026-11-03T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 161,
+        "gco2_kwh": 143,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 50358582,
-        "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer"
+        "id": 50358702,
+        "title": "The Internals of PostgreSQL"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
-            "yes_price": "0.945"
-          },
-          {
-            "question": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
-            "yes_price": "0.785"
+            "yes_price": "0.9975"
           },
           {
             "question": "Will the Republican Party control the House after the 2026 Midterm elections?",
-            "yes_price": "0.055"
+            "yes_price": "0.0015"
+          },
+          {
+            "question": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+            "yes_price": "0.9925"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "350e54ff86e7e9820652b7ba082fec553557dbae219b8ccaad782994544686e5"
+  "input_fingerprint": "f5a58672487a89e447b31b300e2916800427bfd2b0404f90458502cfa877a691"
 }
