@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-04T03:05:39.077Z",
+  "generated_utc": "2026-11-04T18:22:19.341Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2900,
-    "frame_hash": "058c700b1fce8f22cb91c60a72618ffc52612f29d1dd410d17fd515dddbfb731",
-    "utc": "2026-11-04T03:05:34.493Z"
+    "seq": 2901,
+    "frame_hash": "8099582d12bb7d3ced00d9768249a20d2daefaf5f043564efc932dad502d41a3",
+    "utc": "2026-11-04T18:22:13.312Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2901,
-      "head_frame": "058c700b1fce8f22cb91c60a72618ffc52612f29d1dd410d17fd515dddbfb731"
+      "count": 2902,
+      "head_frame": "8099582d12bb7d3ced00d9768249a20d2daefaf5f043564efc932dad502d41a3"
     },
     "world": {
-      "count": 2805,
-      "head_frame": "dcec8f6ba943f1fc9c8337b5c71809be110b8d41dba1dafb82a577e417c72f9b"
+      "count": 2806,
+      "head_frame": "a5518db2b25c11f08cb638028a28a713855d62e37ce8760090f7ef4a5322fb33"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "dcec8f6ba943f1fc9c8337b5c71809be110b8d41dba1dafb82a577e417c72f9b",
-    "seq": 2804,
-    "utc": "2026-11-04T03:05:37.721Z",
-    "tick": 2900,
-    "tick_frame": "058c700b1fce8f22cb91c60a72618ffc52612f29d1dd410d17fd515dddbfb731",
+    "frame_hash": "a5518db2b25c11f08cb638028a28a713855d62e37ce8760090f7ef4a5322fb33",
+    "seq": 2805,
+    "utc": "2026-11-04T18:22:17.975Z",
+    "tick": 2901,
+    "tick_frame": "8099582d12bb7d3ced00d9768249a20d2daefaf5f043564efc932dad502d41a3",
     "data": {
       "btc_block_height": {
-        "height": 974469
+        "height": 974562
       },
       "btc_usd": {
-        "spot": "75915.315"
+        "spot": "80535.62"
       },
       "fx_usd": {
         "EUR": "0.8934",
@@ -58,49 +58,49 @@
         "CNY": "6.6840"
       },
       "crypto_market": {
-        "total_mcap_usd": "2570092062035",
-        "btc_dominance_pct": "59.2"
+        "total_mcap_usd": "2717286069219",
+        "btc_dominance_pct": "59.5"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 41026
+        "tx_count": 44265
       },
       "earthquakes_past_hour": {
-        "count": 7,
-        "max_mag": "2.8"
+        "count": 10,
+        "max_mag": "2.5"
       },
       "iss": {
-        "lat": "51.220",
-        "lon": "-20.674"
+        "lat": "36.877",
+        "lon": "41.060"
       },
       "space_weather": {
-        "kp": "1.33",
-        "at": "2026-11-03T21:00:00"
+        "kp": "1.0",
+        "at": "2026-11-04T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 143,
-        "index": "moderate"
+        "gco2_kwh": 193,
+        "index": "high"
       },
       "hn_top": {
-        "id": 50358702,
-        "title": "The Internals of PostgreSQL"
+        "id": 50364336,
+        "title": "AI is forcing us to pay off 40 years of technical debt"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
-            "yes_price": "0.9975"
+            "question": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
+            "yes_price": "0.9305"
           },
           {
-            "question": "Will the Republican Party control the House after the 2026 Midterm elections?",
-            "yes_price": "0.0015"
+            "question": "Will AEK win on 2026-11-04?",
+            "yes_price": "0.065"
           },
           {
-            "question": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
-            "yes_price": "0.9925"
+            "question": "Will Real Madrid CF win on 2026-11-04?",
+            "yes_price": "0.795"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "f5a58672487a89e447b31b300e2916800427bfd2b0404f90458502cfa877a691"
+  "input_fingerprint": "730e7bdb3feb51b0e2798198da70bb7a31e494b942e2257e3bd6cd3159c57d70"
 }
