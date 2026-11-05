@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-05T12:45:42.862Z",
+  "generated_utc": "2026-11-05T20:26:18.143Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2904,
-    "frame_hash": "ff3943c833bfcbf8caa8aa03a6a647a383a969ec0610aa90cee7ee5a908b2041",
-    "utc": "2026-11-05T12:45:37.806Z"
+    "seq": 2905,
+    "frame_hash": "caf144ee8062d8c492b50642ba5d9f0c106035294bd543d42fcee1bbbcefdbec",
+    "utc": "2026-11-05T20:26:12.204Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2905,
-      "head_frame": "ff3943c833bfcbf8caa8aa03a6a647a383a969ec0610aa90cee7ee5a908b2041"
+      "count": 2906,
+      "head_frame": "caf144ee8062d8c492b50642ba5d9f0c106035294bd543d42fcee1bbbcefdbec"
     },
     "world": {
-      "count": 2809,
-      "head_frame": "ea7c65102fb9938cf18b01e0d2cb2a49e7557d41764b915cd06cbe0379f69ba4"
+      "count": 2810,
+      "head_frame": "a23461644ac908789519ad516ccb250b2ac267abbf38964f4e11dfd413963f45"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "ea7c65102fb9938cf18b01e0d2cb2a49e7557d41764b915cd06cbe0379f69ba4",
-    "seq": 2808,
-    "utc": "2026-11-05T12:45:41.495Z",
-    "tick": 2904,
-    "tick_frame": "ff3943c833bfcbf8caa8aa03a6a647a383a969ec0610aa90cee7ee5a908b2041",
+    "frame_hash": "a23461644ac908789519ad516ccb250b2ac267abbf38964f4e11dfd413963f45",
+    "seq": 2809,
+    "utc": "2026-11-05T20:26:16.866Z",
+    "tick": 2905,
+    "tick_frame": "caf144ee8062d8c492b50642ba5d9f0c106035294bd543d42fcee1bbbcefdbec",
     "data": {
       "btc_block_height": {
-        "height": 974668
+        "height": 974702
       },
       "btc_usd": {
-        "spot": "79635.065"
+        "spot": "75926.33"
       },
       "fx_usd": {
         "EUR": "0.8899",
@@ -58,49 +58,49 @@
         "CNY": "6.6854"
       },
       "crypto_market": {
-        "total_mcap_usd": "2665752908514",
-        "btc_dominance_pct": "60.1"
+        "total_mcap_usd": "2573723024867",
+        "btc_dominance_pct": "59.2"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
-        "hour_sat_vb": 1
+        "fastest_sat_vb": 7,
+        "hour_sat_vb": 5
       },
       "btc_mempool": {
-        "tx_count": 55960
+        "tx_count": 63830
       },
       "earthquakes_past_hour": {
-        "count": 8,
-        "max_mag": "2.3"
+        "count": 11,
+        "max_mag": "2.4"
       },
       "iss": {
-        "lat": "4.605",
-        "lon": "88.100"
+        "lat": "-7.276",
+        "lon": "-38.345"
       },
       "space_weather": {
-        "kp": "1.33",
-        "at": "2026-11-05T09:00:00"
+        "kp": "0.67",
+        "at": "2026-11-05T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 173,
+        "gco2_kwh": 206,
         "index": "high"
       },
       "hn_top": {
         "id": 50378228,
-        "title": "Sshole"
+        "title": "sshole"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will Mary Peltola win the Alaska Senate race in 2026?",
-            "yes_price": "0.954"
+            "question": "LoL: Dplus KIA vs Bilibili Gaming (BO5) - Worlds Playoffs",
+            "yes_price": "0.415"
           },
           {
-            "question": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
-            "yes_price": "0.9485"
-          },
-          {
-            "question": "US x Iran ceasefire continues through November 2?",
+            "question": "Will AFC Bournemouth win on 2026-11-05?",
             "yes_price": "0.9995"
+          },
+          {
+            "question": "Will Mary Peltola win the Alaska Senate race in 2026?",
+            "yes_price": "0.963"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "3f729ff59f2f8ba2b388ef46d3ad8fd2c53103e17ddb49e1f3bd187b790b1c76"
+  "input_fingerprint": "c0f4dd20de415b820d9bdb02783c4136fa04976bc8b8eae25844094ee477955c"
 }
