@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-06T15:33:23.450Z",
+  "generated_utc": "2026-11-06T21:03:40.713Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2908,
-    "frame_hash": "e51670b4eefd055d986e80ca722c91582bfce10d684b28bd2b0927ab8aab28dd",
-    "utc": "2026-11-06T15:33:19.270Z"
+    "seq": 2909,
+    "frame_hash": "ccce6f1bc93bea00cdc0b4bc58af82b250f3d83c0e123382a999ac64293d6e75",
+    "utc": "2026-11-06T21:03:36.895Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2909,
-      "head_frame": "e51670b4eefd055d986e80ca722c91582bfce10d684b28bd2b0927ab8aab28dd"
+      "count": 2910,
+      "head_frame": "ccce6f1bc93bea00cdc0b4bc58af82b250f3d83c0e123382a999ac64293d6e75"
     },
     "world": {
-      "count": 2813,
-      "head_frame": "93d013599b6854d88a7841911907f2dc8c12e0d2423a5bf97179e6735aebf84e"
+      "count": 2814,
+      "head_frame": "48d71f19d776bef093c44234f2832c55f111d12b03a21386acf51927e1a9b5b0"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "93d013599b6854d88a7841911907f2dc8c12e0d2423a5bf97179e6735aebf84e",
-    "seq": 2812,
-    "utc": "2026-11-06T15:33:22.092Z",
-    "tick": 2908,
-    "tick_frame": "e51670b4eefd055d986e80ca722c91582bfce10d684b28bd2b0927ab8aab28dd",
+    "frame_hash": "48d71f19d776bef093c44234f2832c55f111d12b03a21386acf51927e1a9b5b0",
+    "seq": 2813,
+    "utc": "2026-11-06T21:03:39.913Z",
+    "tick": 2909,
+    "tick_frame": "ccce6f1bc93bea00cdc0b4bc58af82b250f3d83c0e123382a999ac64293d6e75",
     "data": {
       "btc_block_height": {
-        "height": 974823
+        "height": 974857
       },
       "btc_usd": {
-        "spot": "75393.575"
+        "spot": "75792.65"
       },
       "fx_usd": {
         "EUR": "0.8905",
@@ -58,49 +58,49 @@
         "CNY": "6.6825"
       },
       "crypto_market": {
-        "total_mcap_usd": "2553599165008",
-        "btc_dominance_pct": "59.1"
+        "total_mcap_usd": "2566811813090",
+        "btc_dominance_pct": "59.2"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 58072
+        "tx_count": 57343
       },
       "earthquakes_past_hour": {
-        "count": 8,
-        "max_mag": "2.8"
+        "count": 9,
+        "max_mag": "3.0"
       },
       "iss": {
-        "lat": "44.662",
-        "lon": "164.842"
+        "lat": "-32.822",
+        "lon": "-78.530"
       },
       "space_weather": {
-        "kp": "2.0",
-        "at": "2026-11-06T12:00:00"
+        "kp": "2.33",
+        "at": "2026-11-06T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 238,
+        "gco2_kwh": 249,
         "index": "very high"
       },
       "hn_top": {
-        "id": 50392118,
-        "title": "Gemini Omni 1.2 Flash"
+        "id": 50397429,
+        "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
-            "yes_price": "0.775"
-          },
-          {
-            "question": "Will Donald Trump publicly insult Ken Paxton by October 31, 2026?",
-            "yes_price": "0.9995"
+            "question": "Rolex Paris Masters: Taylor Fritz vs Carlos Alcaraz",
+            "yes_price": "0.525"
           },
           {
             "question": "Will Abdul El-Sayed win the 2028 Democratic presidential nomination?",
-            "yes_price": "0.0115"
+            "yes_price": "0.012"
+          },
+          {
+            "question": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
+            "yes_price": "0.775"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "cfbdd42ae8d7bf6fcfd7e8f0a583f11cdad7bd9d2cf974b083c8f69bd51aee58"
+  "input_fingerprint": "96c8979544e973fbe99380583bbaa0bae5b76fb1d77164d799ef9eb7c67dcf21"
 }
