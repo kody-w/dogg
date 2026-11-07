@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-07T06:46:13.694Z",
+  "generated_utc": "2026-11-07T13:41:44.890Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2911,
-    "frame_hash": "9d05622be1c2c78467c229fd1de64182135779b9babc80da4a1e950d89187e27",
-    "utc": "2026-11-07T06:46:09.495Z"
+    "seq": 2912,
+    "frame_hash": "e6c75e28c183dc92b79a9066e9eaefcdc283ac20ea98bfa252c69898322d9af5",
+    "utc": "2026-11-07T13:41:40.290Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2912,
-      "head_frame": "9d05622be1c2c78467c229fd1de64182135779b9babc80da4a1e950d89187e27"
+      "count": 2913,
+      "head_frame": "e6c75e28c183dc92b79a9066e9eaefcdc283ac20ea98bfa252c69898322d9af5"
     },
     "world": {
-      "count": 2816,
-      "head_frame": "d2510d85bb60b078cf080ca79b2a9c2b39e35c4b91aeeb02958bb29f5b6b3587"
+      "count": 2817,
+      "head_frame": "6a9375c8681566f4fc49140f3cb0ed81e2870fc7e1c76b943f8558528bfc3ab9"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "d2510d85bb60b078cf080ca79b2a9c2b39e35c4b91aeeb02958bb29f5b6b3587",
-    "seq": 2815,
-    "utc": "2026-11-07T06:46:12.905Z",
-    "tick": 2911,
-    "tick_frame": "9d05622be1c2c78467c229fd1de64182135779b9babc80da4a1e950d89187e27",
+    "frame_hash": "6a9375c8681566f4fc49140f3cb0ed81e2870fc7e1c76b943f8558528bfc3ab9",
+    "seq": 2816,
+    "utc": "2026-11-07T13:41:43.841Z",
+    "tick": 2912,
+    "tick_frame": "e6c75e28c183dc92b79a9066e9eaefcdc283ac20ea98bfa252c69898322d9af5",
     "data": {
       "btc_block_height": {
-        "height": 974903
+        "height": 974936
       },
       "btc_usd": {
-        "spot": "75940.005"
+        "spot": "75827.175"
       },
       "fx_usd": {
         "EUR": "0.8961",
@@ -58,49 +58,49 @@
         "CNY": "6.6861"
       },
       "crypto_market": {
-        "total_mcap_usd": "2572052260319",
+        "total_mcap_usd": "2567825857235",
         "btc_dominance_pct": "59.3"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 5,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 53509
+        "tx_count": 59375
       },
       "earthquakes_past_hour": {
-        "count": 6,
-        "max_mag": "2.0"
+        "count": 9,
+        "max_mag": "2.3"
       },
       "iss": {
-        "lat": "39.749",
-        "lon": "-155.156"
+        "lat": "-33.705",
+        "lon": "-89.966"
       },
       "space_weather": {
-        "kp": "2.33",
-        "at": "2026-11-07T03:00:00"
+        "kp": "3.33",
+        "at": "2026-11-07T09:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 266,
+        "gco2_kwh": 234,
         "index": "very high"
       },
       "hn_top": {
-        "id": 50401867,
-        "title": "Asahi Linux Progress Linux 7.3"
+        "id": 50403052,
+        "title": "Need for Speed Underground 2 online in the browser"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Will Abdul El-Sayed win the 2028 Democratic presidential nomination?",
-            "yes_price": "0.0125"
-          },
-          {
-            "question": "TCU vs. Arizona",
-            "yes_price": "0.755"
+            "yes_price": "0.0115"
           },
           {
             "question": "Will Rick Scott win the 2028 Republican presidential nomination?",
             "yes_price": "0.0015"
+          },
+          {
+            "question": "LoL: Invictus Gaming vs Gen.G (BO5) - Worlds Playoffs",
+            "yes_price": "0.195"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "8283f71d19399eb8c68c9a9785ebb126115a9ded83422682e2932c0832306eb0"
+  "input_fingerprint": "ffe7cf03640ee48c8166d78ffe1503cbd3c3bb86c45901692982d17d7da1bf68"
 }
