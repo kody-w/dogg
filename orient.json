@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-07T00:54:05.625Z",
+  "generated_utc": "2026-11-07T06:46:13.694Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2910,
-    "frame_hash": "27838df0f82e288d3eae6fbe58ff47b226f9c6db2e25ba202c0069123a22d0a7",
-    "utc": "2026-11-07T00:54:01.414Z"
+    "seq": 2911,
+    "frame_hash": "9d05622be1c2c78467c229fd1de64182135779b9babc80da4a1e950d89187e27",
+    "utc": "2026-11-07T06:46:09.495Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2911,
-      "head_frame": "27838df0f82e288d3eae6fbe58ff47b226f9c6db2e25ba202c0069123a22d0a7"
+      "count": 2912,
+      "head_frame": "9d05622be1c2c78467c229fd1de64182135779b9babc80da4a1e950d89187e27"
     },
     "world": {
-      "count": 2815,
-      "head_frame": "01763743ae2ca5de89438f93933c98a87360e5e5b1363a9c5da411ccb60cadf4"
+      "count": 2816,
+      "head_frame": "d2510d85bb60b078cf080ca79b2a9c2b39e35c4b91aeeb02958bb29f5b6b3587"
     },
     "registry": {
       "count": 25,
@@ -39,68 +39,68 @@
     }
   },
   "world": {
-    "frame_hash": "01763743ae2ca5de89438f93933c98a87360e5e5b1363a9c5da411ccb60cadf4",
-    "seq": 2814,
-    "utc": "2026-11-07T00:54:04.290Z",
-    "tick": 2910,
-    "tick_frame": "27838df0f82e288d3eae6fbe58ff47b226f9c6db2e25ba202c0069123a22d0a7",
+    "frame_hash": "d2510d85bb60b078cf080ca79b2a9c2b39e35c4b91aeeb02958bb29f5b6b3587",
+    "seq": 2815,
+    "utc": "2026-11-07T06:46:12.905Z",
+    "tick": 2911,
+    "tick_frame": "9d05622be1c2c78467c229fd1de64182135779b9babc80da4a1e950d89187e27",
     "data": {
       "btc_block_height": {
-        "height": 974871
+        "height": 974903
       },
       "btc_usd": {
-        "spot": "75780.175"
+        "spot": "75940.005"
       },
       "fx_usd": {
-        "EUR": "0.8905",
-        "GBP": "0.7429",
-        "JPY": "157.8355",
-        "CNY": "6.6825"
+        "EUR": "0.8961",
+        "GBP": "0.7477",
+        "JPY": "158.3690",
+        "CNY": "6.6861"
       },
       "crypto_market": {
-        "total_mcap_usd": "2568449933648",
-        "btc_dominance_pct": "59.2"
+        "total_mcap_usd": "2572052260319",
+        "btc_dominance_pct": "59.3"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
-        "hour_sat_vb": 3
+        "fastest_sat_vb": 2,
+        "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 59976
+        "tx_count": 53509
       },
       "earthquakes_past_hour": {
-        "count": 3,
-        "max_mag": "3.1"
+        "count": 6,
+        "max_mag": "2.0"
       },
       "iss": {
-        "lat": "37.238",
-        "lon": "36.676"
+        "lat": "39.749",
+        "lon": "-155.156"
       },
       "space_weather": {
-        "kp": "3.33",
-        "at": "2026-11-06T21:00:00"
+        "kp": "2.33",
+        "at": "2026-11-07T03:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 255,
+        "gco2_kwh": 266,
         "index": "very high"
       },
       "hn_top": {
-        "id": 50399657,
-        "title": "CATL Sodium Battery Hits LFP Cost Parity in 2026: 15,000 Cycles, 30-Year Life"
+        "id": 50401867,
+        "title": "Asahi Linux Progress Linux 7.3"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "LoL: Karmine Corp vs T1 - Game 1 Winner",
-            "yes_price": "0.0005"
+            "question": "Will Abdul El-Sayed win the 2028 Democratic presidential nomination?",
+            "yes_price": "0.0125"
           },
           {
-            "question": "LoL: Karmine Corp vs T1 - Game 3 Winner",
-            "yes_price": "0.9995"
+            "question": "TCU vs. Arizona",
+            "yes_price": "0.755"
           },
           {
-            "question": "LoL: Karmine Corp vs T1 (BO5) - Worlds Playoffs",
-            "yes_price": "0.0925"
+            "question": "Will Rick Scott win the 2028 Republican presidential nomination?",
+            "yes_price": "0.0015"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "2036117d1bb064097379c1179e655ebd7b252a48b43c687cd114f1f493c904c7"
+  "input_fingerprint": "8283f71d19399eb8c68c9a9785ebb126115a9ded83422682e2932c0832306eb0"
 }
