@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-07T22:09:31.622Z",
+  "generated_utc": "2026-11-08T01:25:21.402Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2914,
-    "frame_hash": "fc791234a3c96fceb9b603c8d7fda26070ba26c43ed433e2fef9aad1bd48b918",
-    "utc": "2026-11-07T22:09:27.226Z"
+    "seq": 2915,
+    "frame_hash": "c1dce8bb74aaac05eef47e520fd5badc2289f5da278d172f4872e7457ec58fbb",
+    "utc": "2026-11-08T01:25:17.349Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2915,
-      "head_frame": "fc791234a3c96fceb9b603c8d7fda26070ba26c43ed433e2fef9aad1bd48b918"
+      "count": 2916,
+      "head_frame": "c1dce8bb74aaac05eef47e520fd5badc2289f5da278d172f4872e7457ec58fbb"
     },
     "world": {
-      "count": 2819,
-      "head_frame": "3f8ab6dd6ffd56b9f8851bf7c419d1ce6acd2ba688c1d51ac6e2730c363236a8"
+      "count": 2820,
+      "head_frame": "f5fdb67c0de77ccfe885b3a1eb55febf31b6fd185e8f172d6206859f540ead6a"
     },
     "registry": {
       "count": 25,
@@ -39,49 +39,49 @@
     }
   },
   "world": {
-    "frame_hash": "3f8ab6dd6ffd56b9f8851bf7c419d1ce6acd2ba688c1d51ac6e2730c363236a8",
-    "seq": 2818,
-    "utc": "2026-11-07T22:09:30.272Z",
-    "tick": 2914,
-    "tick_frame": "fc791234a3c96fceb9b603c8d7fda26070ba26c43ed433e2fef9aad1bd48b918",
+    "frame_hash": "f5fdb67c0de77ccfe885b3a1eb55febf31b6fd185e8f172d6206859f540ead6a",
+    "seq": 2819,
+    "utc": "2026-11-08T01:25:20.347Z",
+    "tick": 2915,
+    "tick_frame": "c1dce8bb74aaac05eef47e520fd5badc2289f5da278d172f4872e7457ec58fbb",
     "data": {
       "btc_block_height": {
-        "height": 974991
+        "height": 975011
       },
       "btc_usd": {
-        "spot": "75628.765"
+        "spot": "75672.265"
       },
       "fx_usd": {
-        "EUR": "0.8961",
-        "GBP": "0.7477",
-        "JPY": "158.3690",
-        "CNY": "6.6861"
+        "EUR": "0.8958",
+        "GBP": "0.7475",
+        "JPY": "158.3184",
+        "CNY": "6.6908"
       },
       "crypto_market": {
-        "total_mcap_usd": "2559533772679",
+        "total_mcap_usd": "2561876504994",
         "btc_dominance_pct": "59.3"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
+        "fastest_sat_vb": 4,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 51854
+        "tx_count": 59696
       },
       "earthquakes_past_hour": {
-        "count": 5,
-        "max_mag": "1.8"
+        "count": 7,
+        "max_mag": "2.1"
       },
       "iss": {
-        "lat": "25.198",
-        "lon": "-48.938"
+        "lat": "48.299",
+        "lon": "-58.369"
       },
       "space_weather": {
-        "kp": "5.33",
-        "at": "2026-11-07T18:00:00"
+        "kp": "4.0",
+        "at": "2026-11-07T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 272,
+        "gco2_kwh": 266,
         "index": "very high"
       },
       "hn_top": {
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
+            "question": "LoL: Invictus Gaming vs Gen.G - Game 3 Winner",
+            "yes_price": "0.0005"
+          },
+          {
+            "question": "LoL: Invictus Gaming vs Gen.G - Game 2 Winner",
+            "yes_price": "0.0005"
+          },
+          {
             "question": "LoL: Invictus Gaming vs Gen.G (BO5) - Worlds Playoffs",
-            "yes_price": "0.195"
-          },
-          {
-            "question": "Will Real Madrid CF win on 2026-11-07?",
-            "yes_price": "0.9995"
-          },
-          {
-            "question": "Will Paris Saint-Germain FC win on 2026-11-07?",
-            "yes_price": "0.9995"
+            "yes_price": "0.0005"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "0dbed99f601134825027750e0bf4e580f0be35fecc3a81cafa6423674b3b1588"
+  "input_fingerprint": "e5b34e502a21b6ef5e74e9557615ea7695100ecfb13c82052c0b1bf588a63317"
 }
