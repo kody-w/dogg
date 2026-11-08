@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-08T14:32:06.680Z",
+  "generated_utc": "2026-11-08T19:09:06.791Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2917,
-    "frame_hash": "2e00c3f95271ab95727b6127b79b63216c22a322dab4deeabc8d85355d8fa821",
-    "utc": "2026-11-08T14:32:01.530Z"
+    "seq": 2918,
+    "frame_hash": "200f871063e32b73bbdbc08b94f3dac324ea846c3f9da5a4db690eae2be6af1f",
+    "utc": "2026-11-08T19:09:01.883Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2918,
-      "head_frame": "2e00c3f95271ab95727b6127b79b63216c22a322dab4deeabc8d85355d8fa821"
+      "count": 2919,
+      "head_frame": "200f871063e32b73bbdbc08b94f3dac324ea846c3f9da5a4db690eae2be6af1f"
     },
     "world": {
-      "count": 2822,
-      "head_frame": "5bb6a69a859f3c82e9a05ff2a3f89c5937a9fc82557fbb6816ed1c0883245cfb"
+      "count": 2823,
+      "head_frame": "b18bcd5f0b4aff78d4c9fbf5fe05b7fc4c87067738d86d56e9e169eb98d246cb"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "5bb6a69a859f3c82e9a05ff2a3f89c5937a9fc82557fbb6816ed1c0883245cfb",
-    "seq": 2821,
-    "utc": "2026-11-08T14:32:05.339Z",
-    "tick": 2917,
-    "tick_frame": "2e00c3f95271ab95727b6127b79b63216c22a322dab4deeabc8d85355d8fa821",
+    "frame_hash": "b18bcd5f0b4aff78d4c9fbf5fe05b7fc4c87067738d86d56e9e169eb98d246cb",
+    "seq": 2822,
+    "utc": "2026-11-08T19:09:05.467Z",
+    "tick": 2918,
+    "tick_frame": "200f871063e32b73bbdbc08b94f3dac324ea846c3f9da5a4db690eae2be6af1f",
     "data": {
       "btc_block_height": {
-        "height": 975071
+        "height": 975088
       },
       "btc_usd": {
-        "spot": "75893.855"
+        "spot": "75767.39"
       },
       "fx_usd": {
         "EUR": "0.8958",
@@ -58,49 +58,49 @@
         "CNY": "6.6908"
       },
       "crypto_market": {
-        "total_mcap_usd": "2555446178484",
-        "btc_dominance_pct": "59.4"
+        "total_mcap_usd": "2529027222532",
+        "btc_dominance_pct": "60.0"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
+        "fastest_sat_vb": 4,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 62296
+        "tx_count": 70632
       },
       "earthquakes_past_hour": {
-        "count": 4,
-        "max_mag": "3.5"
+        "count": 7,
+        "max_mag": "2.0"
       },
       "iss": {
-        "lat": "-43.468",
-        "lon": "-92.112"
+        "lat": "-39.899",
+        "lon": "-169.606"
       },
       "space_weather": {
         "kp": "3.33",
-        "at": "2026-11-08T09:00:00"
+        "at": "2026-11-08T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 245,
+        "gco2_kwh": 265,
         "index": "very high"
       },
       "hn_top": {
-        "id": 50412318,
-        "title": "Person of Interest"
+        "id": 50415628,
+        "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will Chelsea FC win on 2026-11-08?",
-            "yes_price": "0.415"
+            "question": "Giants vs. Eagles",
+            "yes_price": "0.475"
           },
           {
-            "question": "Will Brighton & Hove Albion FC win on 2026-11-08?",
-            "yes_price": "0.895"
+            "question": "LoL: Bilibili Gaming vs T1 (BO5) - Worlds Playoffs",
+            "yes_price": "0.565"
           },
           {
-            "question": "Will Liverpool FC win on 2026-11-08?",
-            "yes_price": "0.595"
+            "question": "Jets vs. Chiefs",
+            "yes_price": "0.145"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "fc27dd0ba05c1e04820b96f016af2adaa2df0a27b357b292fbee5fcc7065b016"
+  "input_fingerprint": "f15f64017aec006949f63ca07f6ee3b22a9a41241e73ca86f2f358e86e894d1d"
 }
