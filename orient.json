@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-08T19:09:06.791Z",
+  "generated_utc": "2026-11-08T22:51:53.537Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2918,
-    "frame_hash": "200f871063e32b73bbdbc08b94f3dac324ea846c3f9da5a4db690eae2be6af1f",
-    "utc": "2026-11-08T19:09:01.883Z"
+    "seq": 2919,
+    "frame_hash": "b945bcd517a30e0c1dee0596fff7358838872ab9b2af105c458d2d3ae8363f1e",
+    "utc": "2026-11-08T22:51:49.651Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2919,
-      "head_frame": "200f871063e32b73bbdbc08b94f3dac324ea846c3f9da5a4db690eae2be6af1f"
+      "count": 2920,
+      "head_frame": "b945bcd517a30e0c1dee0596fff7358838872ab9b2af105c458d2d3ae8363f1e"
     },
     "world": {
-      "count": 2823,
-      "head_frame": "b18bcd5f0b4aff78d4c9fbf5fe05b7fc4c87067738d86d56e9e169eb98d246cb"
+      "count": 2824,
+      "head_frame": "8eb0896f6f509a74acacf54252195ee4c5b947ccdb2e613298a27725e9ceb2a6"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "b18bcd5f0b4aff78d4c9fbf5fe05b7fc4c87067738d86d56e9e169eb98d246cb",
-    "seq": 2822,
-    "utc": "2026-11-08T19:09:05.467Z",
-    "tick": 2918,
-    "tick_frame": "200f871063e32b73bbdbc08b94f3dac324ea846c3f9da5a4db690eae2be6af1f",
+    "frame_hash": "8eb0896f6f509a74acacf54252195ee4c5b947ccdb2e613298a27725e9ceb2a6",
+    "seq": 2823,
+    "utc": "2026-11-08T22:51:52.807Z",
+    "tick": 2919,
+    "tick_frame": "b945bcd517a30e0c1dee0596fff7358838872ab9b2af105c458d2d3ae8363f1e",
     "data": {
       "btc_block_height": {
-        "height": 975088
+        "height": 975105
       },
       "btc_usd": {
-        "spot": "75767.39"
+        "spot": "74211.71"
       },
       "fx_usd": {
         "EUR": "0.8958",
@@ -58,49 +58,49 @@
         "CNY": "6.6908"
       },
       "crypto_market": {
-        "total_mcap_usd": "2529027222532",
-        "btc_dominance_pct": "60.0"
+        "total_mcap_usd": "2475915772141",
+        "btc_dominance_pct": "60.1"
       },
       "btc_fees": {
         "fastest_sat_vb": 4,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 70632
+        "tx_count": 74381
       },
       "earthquakes_past_hour": {
         "count": 7,
-        "max_mag": "2.0"
+        "max_mag": "2.3"
       },
       "iss": {
-        "lat": "-39.899",
-        "lon": "-169.606"
+        "lat": "14.108",
+        "lon": "-75.975"
       },
       "space_weather": {
-        "kp": "3.33",
-        "at": "2026-11-08T15:00:00"
+        "kp": "4.0",
+        "at": "2026-11-08T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 265,
+        "gco2_kwh": 277,
         "index": "very high"
       },
       "hn_top": {
-        "id": 50415628,
-        "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders"
+        "id": 50416053,
+        "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Giants vs. Eagles",
-            "yes_price": "0.475"
+            "question": "LoL: Bilibili Gaming vs T1 - Game 1 Winner",
+            "yes_price": "0.9995"
           },
           {
             "question": "LoL: Bilibili Gaming vs T1 (BO5) - Worlds Playoffs",
-            "yes_price": "0.565"
+            "yes_price": "0.725"
           },
           {
-            "question": "Jets vs. Chiefs",
-            "yes_price": "0.145"
+            "question": "Texans vs. Chargers",
+            "yes_price": "0.935"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "f15f64017aec006949f63ca07f6ee3b22a9a41241e73ca86f2f358e86e894d1d"
+  "input_fingerprint": "5ed08e1059ff22d052d2d55af2e19180d2da6a8c8d22cefb22c5847741b1304a"
 }
