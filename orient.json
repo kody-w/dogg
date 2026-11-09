@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-08T22:51:53.537Z",
+  "generated_utc": "2026-11-09T02:17:55.637Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2919,
-    "frame_hash": "b945bcd517a30e0c1dee0596fff7358838872ab9b2af105c458d2d3ae8363f1e",
-    "utc": "2026-11-08T22:51:49.651Z"
+    "seq": 2920,
+    "frame_hash": "6d91de106ca3514cd6aec424604ecaf43db4bedeba3dfe849020c35796d5fa04",
+    "utc": "2026-11-09T02:17:51.190Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2920,
-      "head_frame": "b945bcd517a30e0c1dee0596fff7358838872ab9b2af105c458d2d3ae8363f1e"
+      "count": 2921,
+      "head_frame": "6d91de106ca3514cd6aec424604ecaf43db4bedeba3dfe849020c35796d5fa04"
     },
     "world": {
-      "count": 2824,
-      "head_frame": "8eb0896f6f509a74acacf54252195ee4c5b947ccdb2e613298a27725e9ceb2a6"
+      "count": 2825,
+      "head_frame": "7c2cc9582498f13881cf2e88cd5853972d81ef08733487356810d2d026b0a933"
     },
     "registry": {
       "count": 25,
@@ -39,68 +39,68 @@
     }
   },
   "world": {
-    "frame_hash": "8eb0896f6f509a74acacf54252195ee4c5b947ccdb2e613298a27725e9ceb2a6",
-    "seq": 2823,
-    "utc": "2026-11-08T22:51:52.807Z",
-    "tick": 2919,
-    "tick_frame": "b945bcd517a30e0c1dee0596fff7358838872ab9b2af105c458d2d3ae8363f1e",
+    "frame_hash": "7c2cc9582498f13881cf2e88cd5853972d81ef08733487356810d2d026b0a933",
+    "seq": 2824,
+    "utc": "2026-11-09T02:17:54.621Z",
+    "tick": 2920,
+    "tick_frame": "6d91de106ca3514cd6aec424604ecaf43db4bedeba3dfe849020c35796d5fa04",
     "data": {
       "btc_block_height": {
-        "height": 975105
+        "height": 975118
       },
       "btc_usd": {
-        "spot": "74211.71"
+        "spot": "75258.535"
       },
       "fx_usd": {
-        "EUR": "0.8958",
-        "GBP": "0.7475",
-        "JPY": "158.3184",
-        "CNY": "6.6908"
+        "EUR": "0.8969",
+        "GBP": "0.7484",
+        "JPY": "158.3262",
+        "CNY": "6.6798"
       },
       "crypto_market": {
-        "total_mcap_usd": "2475915772141",
-        "btc_dominance_pct": "60.1"
+        "total_mcap_usd": "2503339336793",
+        "btc_dominance_pct": "60.2"
       },
       "btc_fees": {
-        "fastest_sat_vb": 4,
+        "fastest_sat_vb": 5,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 74381
+        "tx_count": 75606
       },
       "earthquakes_past_hour": {
-        "count": 7,
-        "max_mag": "2.3"
+        "count": 4,
+        "max_mag": "1.4"
       },
       "iss": {
-        "lat": "14.108",
-        "lon": "-75.975"
+        "lat": "51.296",
+        "lon": "-39.015"
       },
       "space_weather": {
-        "kp": "4.0",
-        "at": "2026-11-08T18:00:00"
+        "kp": "2.67",
+        "at": "2026-11-08T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 277,
+        "gco2_kwh": 275,
         "index": "very high"
       },
       "hn_top": {
-        "id": 50416053,
-        "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming"
+        "id": 50418176,
+        "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "LoL: Bilibili Gaming vs T1 - Game 1 Winner",
-            "yes_price": "0.9995"
+            "question": "Pelicans vs. Clippers",
+            "yes_price": "0.535"
           },
           {
-            "question": "LoL: Bilibili Gaming vs T1 (BO5) - Worlds Playoffs",
-            "yes_price": "0.725"
+            "question": "Spread: Bears (-6.5)",
+            "yes_price": "0.81"
           },
           {
-            "question": "Texans vs. Chargers",
-            "yes_price": "0.935"
+            "question": "Jazz vs. Timberwolves",
+            "yes_price": "0.015"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "5ed08e1059ff22d052d2d55af2e19180d2da6a8c8d22cefb22c5847741b1304a"
+  "input_fingerprint": "b64fd650171631c3681196d80c07e48bc212fa19e32eff4c45169b24ffbac8d2"
 }
