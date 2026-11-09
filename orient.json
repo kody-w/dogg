@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-09T10:00:30.839Z",
+  "generated_utc": "2026-11-09T20:41:50.096Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2921,
-    "frame_hash": "fd394d1f1cff1d581a342648eac99e39d614368216b48430d8a508138f09e964",
-    "utc": "2026-11-09T10:00:26.751Z"
+    "seq": 2922,
+    "frame_hash": "9e12f1b681c4611dde80c4666a0911e2f4224876de34dee1f7448f2d140350ca",
+    "utc": "2026-11-09T20:41:45.101Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2922,
-      "head_frame": "fd394d1f1cff1d581a342648eac99e39d614368216b48430d8a508138f09e964"
+      "count": 2923,
+      "head_frame": "9e12f1b681c4611dde80c4666a0911e2f4224876de34dee1f7448f2d140350ca"
     },
     "world": {
-      "count": 2826,
-      "head_frame": "3e770a8f84e87eb95e8d6003caf6a6ecb878992628794e928746264fcf5c9be0"
+      "count": 2827,
+      "head_frame": "eb53973b12b1f87e82a3298a0db563f3888ce64facd03d330a45f4e274a13b27"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "3e770a8f84e87eb95e8d6003caf6a6ecb878992628794e928746264fcf5c9be0",
-    "seq": 2825,
-    "utc": "2026-11-09T10:00:30.098Z",
-    "tick": 2921,
-    "tick_frame": "fd394d1f1cff1d581a342648eac99e39d614368216b48430d8a508138f09e964",
+    "frame_hash": "eb53973b12b1f87e82a3298a0db563f3888ce64facd03d330a45f4e274a13b27",
+    "seq": 2826,
+    "utc": "2026-11-09T20:41:48.752Z",
+    "tick": 2922,
+    "tick_frame": "9e12f1b681c4611dde80c4666a0911e2f4224876de34dee1f7448f2d140350ca",
     "data": {
       "btc_block_height": {
-        "height": 975158
+        "height": 975216
       },
       "btc_usd": {
-        "spot": "74192.185"
+        "spot": "74686.865"
       },
       "fx_usd": {
         "EUR": "0.8969",
@@ -58,49 +58,49 @@
         "CNY": "6.6798"
       },
       "crypto_market": {
-        "total_mcap_usd": "2470261841677",
-        "btc_dominance_pct": "60.2"
+        "total_mcap_usd": "2510480743650",
+        "btc_dominance_pct": "59.6"
       },
       "btc_fees": {
         "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 66363
+        "tx_count": 71149
       },
       "earthquakes_past_hour": {
-        "count": 1,
-        "max_mag": "2.0"
+        "count": 4,
+        "max_mag": "3.3"
       },
       "iss": {
-        "lat": "51.785",
-        "lon": "-168.052"
+        "lat": "40.166",
+        "lon": "-18.626"
       },
       "space_weather": {
         "kp": "2.67",
-        "at": "2026-11-09T06:00:00"
+        "at": "2026-11-09T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 250,
+        "gco2_kwh": 265,
         "index": "very high"
       },
       "hn_top": {
-        "id": 50422168,
-        "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation"
+        "id": 50427362,
+        "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Will the U.S. invade Iran before 2027?",
-            "yes_price": "0.115"
+            "yes_price": "0.085"
           },
           {
-            "question": "Will Bilibili Gaming win Worlds 2026?",
-            "yes_price": "0.3755"
+            "question": "US announces end of Iranian blockade by November 15, 2026?",
+            "yes_price": "0.0805"
           },
           {
-            "question": "Will the US confirm that aliens exist before 2027?",
-            "yes_price": "0.0155"
+            "question": "US announces end of Iranian blockade by November 30, 2026?",
+            "yes_price": "0.245"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "7c4dce0232793d5466e2f48af0f27e62816051276881a32934b39cf803ea1362"
+  "input_fingerprint": "feb5af9cace65655e6cf00a4bc2c131a2f7981e04af677a922121c47a013b2a4"
 }
