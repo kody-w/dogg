@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-11T10:52:02.765Z",
+  "generated_utc": "2026-11-11T18:16:44.645Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2928,
-    "frame_hash": "6979dc1d2297840984663662b84a8fd41682583af96d8e88fdd48bd45e143c0c",
-    "utc": "2026-11-11T10:51:57.268Z"
+    "seq": 2929,
+    "frame_hash": "477298bc7b483af76deda0b488bda0434532bd2f60be51813dc892135878a56a",
+    "utc": "2026-11-11T18:16:37.466Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2929,
-      "head_frame": "6979dc1d2297840984663662b84a8fd41682583af96d8e88fdd48bd45e143c0c"
+      "count": 2930,
+      "head_frame": "477298bc7b483af76deda0b488bda0434532bd2f60be51813dc892135878a56a"
     },
     "world": {
-      "count": 2833,
-      "head_frame": "2b6d33b5218618c5b940550400afa28f118f00c8bf2e2597b148d56b05785632"
+      "count": 2834,
+      "head_frame": "1e4e541f7ad47a6bafa2f16d73b3c2dfaf89812337199b68b79c50754a875180"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "2b6d33b5218618c5b940550400afa28f118f00c8bf2e2597b148d56b05785632",
-    "seq": 2832,
-    "utc": "2026-11-11T10:52:01.757Z",
-    "tick": 2928,
-    "tick_frame": "6979dc1d2297840984663662b84a8fd41682583af96d8e88fdd48bd45e143c0c",
+    "frame_hash": "1e4e541f7ad47a6bafa2f16d73b3c2dfaf89812337199b68b79c50754a875180",
+    "seq": 2833,
+    "utc": "2026-11-11T18:16:43.288Z",
+    "tick": 2929,
+    "tick_frame": "477298bc7b483af76deda0b488bda0434532bd2f60be51813dc892135878a56a",
     "data": {
       "btc_block_height": {
-        "height": 975425
+        "height": 975462
       },
       "btc_usd": {
-        "spot": "73875.615"
+        "spot": "74397.835"
       },
       "fx_usd": {
         "EUR": "0.8939",
@@ -58,49 +58,49 @@
         "CNY": "6.6878"
       },
       "crypto_market": {
-        "total_mcap_usd": "2459146144988",
-        "btc_dominance_pct": "60.5"
+        "total_mcap_usd": "2499038913953",
+        "btc_dominance_pct": "59.8"
       },
       "btc_fees": {
-        "fastest_sat_vb": 4,
+        "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 71772
+        "tx_count": 70666
       },
       "earthquakes_past_hour": {
-        "count": 8,
-        "max_mag": "2.8"
+        "count": 6,
+        "max_mag": "5.1"
       },
       "iss": {
-        "lat": "-47.084",
-        "lon": "19.881"
+        "lat": "-26.879",
+        "lon": "168.252"
       },
       "space_weather": {
-        "kp": "1.67",
-        "at": "2026-11-11T06:00:00"
+        "kp": "1.33",
+        "at": "2026-11-11T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 223,
+        "gco2_kwh": 221,
         "index": "high"
       },
       "hn_top": {
-        "id": 50449748,
-        "title": "Protecting SSH Keys with macOS Secure Enclave"
+        "id": 50455394,
+        "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will there be no change in Fed interest rates after the December 2026 meeting?",
-            "yes_price": "0.0395"
-          },
-          {
             "question": "Will the Fed increase interest rates by 50+ bps after the December 2026 meeting?",
-            "yes_price": "0.106"
+            "yes_price": "0.1075"
           },
           {
-            "question": "Counter-Strike: MOUZ vs G2 (BO3) - BLAST Rivals Group B",
-            "yes_price": "0.795"
+            "question": "UFC 334: Josh Hokit vs. Ciryl Gane (Heavyweight, Main Card)",
+            "yes_price": "0.365"
+          },
+          {
+            "question": "LoL: Ground Zero Gaming vs Frank Esports (BO5) - LCP Promotion Playoffs",
+            "yes_price": "0.9995"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "79c5fda20324b7958e47be63c7b031faf0328779cb120502a5b5000de1900418"
+  "input_fingerprint": "a921a5dc8b799b805e2b0a0f0d387ca7061b2aacfe56595f532d28d70598b623"
 }
