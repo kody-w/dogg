@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-12T00:54:21.925Z",
+  "generated_utc": "2026-11-12T07:54:31.659Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2930,
-    "frame_hash": "1a7c92eff75ec72a12ac6c4ad8ad1a53308371e49c4a6965f96c8295501910ac",
-    "utc": "2026-11-12T00:54:15.462Z"
+    "seq": 2931,
+    "frame_hash": "d4e58db188960f47e035ce486bf349b812f2212084012233f7e6e8324bca8688",
+    "utc": "2026-11-12T07:54:25.596Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2931,
-      "head_frame": "1a7c92eff75ec72a12ac6c4ad8ad1a53308371e49c4a6965f96c8295501910ac"
+      "count": 2932,
+      "head_frame": "d4e58db188960f47e035ce486bf349b812f2212084012233f7e6e8324bca8688"
     },
     "world": {
-      "count": 2835,
-      "head_frame": "4f87b70f29007ba2328bfdd50dfe3fce8b8f68670e5c655106504d87cc4103ba"
+      "count": 2836,
+      "head_frame": "15338dc9539ba8ac7f6c449c2b894a36cd0f579f81f2b9a0083827348e0322cd"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "4f87b70f29007ba2328bfdd50dfe3fce8b8f68670e5c655106504d87cc4103ba",
-    "seq": 2834,
-    "utc": "2026-11-12T00:54:20.838Z",
-    "tick": 2930,
-    "tick_frame": "1a7c92eff75ec72a12ac6c4ad8ad1a53308371e49c4a6965f96c8295501910ac",
+    "frame_hash": "15338dc9539ba8ac7f6c449c2b894a36cd0f579f81f2b9a0083827348e0322cd",
+    "seq": 2835,
+    "utc": "2026-11-12T07:54:30.608Z",
+    "tick": 2931,
+    "tick_frame": "d4e58db188960f47e035ce486bf349b812f2212084012233f7e6e8324bca8688",
     "data": {
       "btc_block_height": {
-        "height": 975499
+        "height": 975530
       },
       "btc_usd": {
-        "spot": "74011.555"
+        "spot": "73536.775"
       },
       "fx_usd": {
         "EUR": "0.8999",
@@ -58,49 +58,49 @@
         "CNY": "6.6858"
       },
       "crypto_market": {
-        "total_mcap_usd": "2480607862308",
+        "total_mcap_usd": "2461705744370",
         "btc_dominance_pct": "59.9"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 64285
+        "tx_count": 68809
       },
       "earthquakes_past_hour": {
-        "count": 7,
-        "max_mag": "4.4"
+        "count": 10,
+        "max_mag": "1.6"
       },
       "iss": {
-        "lat": "-33.157",
-        "lon": "-167.266"
+        "lat": "27.001",
+        "lon": "-86.738"
       },
       "space_weather": {
-        "kp": "1.33",
-        "at": "2026-11-11T21:00:00"
+        "kp": "1.67",
+        "at": "2026-11-12T03:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 136,
+        "gco2_kwh": 148,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 50456631,
-        "title": "AWS emulator"
+        "id": 50463899,
+        "title": "Humble Bundle just killed most of their security through vibecoding"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Jensen Huang announced resignation or removal by December 31, 2026?",
-            "yes_price": "0.88"
+            "yes_price": "0.805"
           },
           {
-            "question": "Celtics vs. Raptors",
-            "yes_price": "0.355"
+            "question": "Jensen Huang announced resignation or removal by November 12, 2026?",
+            "yes_price": "0.595"
           },
           {
-            "question": "Cavaliers vs. Knicks",
-            "yes_price": "0.395"
+            "question": "Jensen Huang announced resignation or removal by November 13, 2026?",
+            "yes_price": "0.655"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "0df58cd12f2d63bad90cf590ab4905b96ee6afb928770116c27b788a74749cf8"
+  "input_fingerprint": "6c8a84fd239c03e52876bd6ead1382581d5c8be65d69ed9bd2ef90ba97c3fe41"
 }
