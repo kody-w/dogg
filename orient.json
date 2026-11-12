@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-12T07:54:31.659Z",
+  "generated_utc": "2026-11-12T16:29:40.474Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2931,
-    "frame_hash": "d4e58db188960f47e035ce486bf349b812f2212084012233f7e6e8324bca8688",
-    "utc": "2026-11-12T07:54:25.596Z"
+    "seq": 2932,
+    "frame_hash": "2fb70c914a2e2495ec8cac4cf5fba84cf1121a23dcaab4e8325c4ebd17c64283",
+    "utc": "2026-11-12T16:29:33.037Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2932,
-      "head_frame": "d4e58db188960f47e035ce486bf349b812f2212084012233f7e6e8324bca8688"
+      "count": 2933,
+      "head_frame": "2fb70c914a2e2495ec8cac4cf5fba84cf1121a23dcaab4e8325c4ebd17c64283"
     },
     "world": {
-      "count": 2836,
-      "head_frame": "15338dc9539ba8ac7f6c449c2b894a36cd0f579f81f2b9a0083827348e0322cd"
+      "count": 2837,
+      "head_frame": "baf2355e7d56d15a3889503639eb68822b644469adc04550cf850bcdda6dd3d2"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "15338dc9539ba8ac7f6c449c2b894a36cd0f579f81f2b9a0083827348e0322cd",
-    "seq": 2835,
-    "utc": "2026-11-12T07:54:30.608Z",
-    "tick": 2931,
-    "tick_frame": "d4e58db188960f47e035ce486bf349b812f2212084012233f7e6e8324bca8688",
+    "frame_hash": "baf2355e7d56d15a3889503639eb68822b644469adc04550cf850bcdda6dd3d2",
+    "seq": 2836,
+    "utc": "2026-11-12T16:29:39.456Z",
+    "tick": 2932,
+    "tick_frame": "2fb70c914a2e2495ec8cac4cf5fba84cf1121a23dcaab4e8325c4ebd17c64283",
     "data": {
       "btc_block_height": {
-        "height": 975530
+        "height": 975572
       },
       "btc_usd": {
-        "spot": "73536.775"
+        "spot": "71863.735"
       },
       "fx_usd": {
         "EUR": "0.8999",
@@ -58,49 +58,49 @@
         "CNY": "6.6858"
       },
       "crypto_market": {
-        "total_mcap_usd": "2461705744370",
-        "btc_dominance_pct": "59.9"
+        "total_mcap_usd": "2416685847048",
+        "btc_dominance_pct": "59.6"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 4,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 68809
+        "tx_count": 76368
       },
       "earthquakes_past_hour": {
-        "count": 10,
-        "max_mag": "1.6"
+        "count": 9,
+        "max_mag": "3.2"
       },
       "iss": {
-        "lat": "27.001",
-        "lon": "-86.738"
+        "lat": "-14.741",
+        "lon": "-25.953"
       },
       "space_weather": {
-        "kp": "1.67",
-        "at": "2026-11-12T03:00:00"
+        "kp": "0.67",
+        "at": "2026-11-12T12:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 148,
+        "gco2_kwh": 130,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 50463899,
-        "title": "Humble Bundle just killed most of their security through vibecoding"
+        "id": 50467087,
+        "title": "NVIDIA Announces CEO Transition"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Jensen Huang announced resignation or removal by December 31, 2026?",
-            "yes_price": "0.805"
+            "question": "UFC 334: Josh Hokit vs. Ciryl Gane (Heavyweight, Main Card)",
+            "yes_price": "0.365"
           },
           {
-            "question": "Jensen Huang announced resignation or removal by November 12, 2026?",
-            "yes_price": "0.595"
+            "question": "BNP Paribas Nordic Open: Thiago Agustin Tirante vs Alexander Shevchenko",
+            "yes_price": "0.455"
           },
           {
-            "question": "Jensen Huang announced resignation or removal by November 13, 2026?",
-            "yes_price": "0.655"
+            "question": "Dota 2: Rottweilas Latam vs Mena Warriors - Game 2 Winner",
+            "yes_price": "0.2305"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "6c8a84fd239c03e52876bd6ead1382581d5c8be65d69ed9bd2ef90ba97c3fe41"
+  "input_fingerprint": "96bc7687f3395764ce7bdde2a9c2b18a6d54fc553384ba727991520806396892"
 }
