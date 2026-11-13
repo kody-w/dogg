@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-13T02:44:39.374Z",
+  "generated_utc": "2026-11-13T10:02:01.319Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2934,
-    "frame_hash": "12bd9593b1f8a80c4e03e6bebca68b4d74c0987d63e0a25296c82b4a1d0a3e5d",
-    "utc": "2026-11-13T02:44:34.599Z"
+    "seq": 2935,
+    "frame_hash": "d853372611b6e0daa49c418b66007bdfb825b757935a83bfbc422faeda218b99",
+    "utc": "2026-11-13T10:01:56.290Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2935,
-      "head_frame": "12bd9593b1f8a80c4e03e6bebca68b4d74c0987d63e0a25296c82b4a1d0a3e5d"
+      "count": 2936,
+      "head_frame": "d853372611b6e0daa49c418b66007bdfb825b757935a83bfbc422faeda218b99"
     },
     "world": {
-      "count": 2839,
-      "head_frame": "ede962cb316ce746fe279b8c5def41606f1fe08d116c29312d91dc27212713ab"
+      "count": 2840,
+      "head_frame": "d49c62dc1967845e3a917c707f47299d5f829f371d609ddcc7b222fb5f5d36e8"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "ede962cb316ce746fe279b8c5def41606f1fe08d116c29312d91dc27212713ab",
-    "seq": 2838,
-    "utc": "2026-11-13T02:44:38.511Z",
-    "tick": 2934,
-    "tick_frame": "12bd9593b1f8a80c4e03e6bebca68b4d74c0987d63e0a25296c82b4a1d0a3e5d",
+    "frame_hash": "d49c62dc1967845e3a917c707f47299d5f829f371d609ddcc7b222fb5f5d36e8",
+    "seq": 2839,
+    "utc": "2026-11-13T10:01:59.926Z",
+    "tick": 2935,
+    "tick_frame": "d853372611b6e0daa49c418b66007bdfb825b757935a83bfbc422faeda218b99",
     "data": {
       "btc_block_height": {
-        "height": 975623
+        "height": 975660
       },
       "btc_usd": {
-        "spot": "70152.055"
+        "spot": "69122.575"
       },
       "fx_usd": {
         "EUR": "0.9035",
@@ -58,31 +58,31 @@
         "CNY": "6.6851"
       },
       "crypto_market": {
-        "total_mcap_usd": "2382542998516",
-        "btc_dominance_pct": "59.2"
+        "total_mcap_usd": "2321636261753",
+        "btc_dominance_pct": "59.7"
       },
       "btc_fees": {
         "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 60529
+        "tx_count": 57049
       },
       "earthquakes_past_hour": {
-        "count": 4,
-        "max_mag": "2.4"
+        "count": 6,
+        "max_mag": "3.3"
       },
       "iss": {
-        "lat": "-19.477",
-        "lon": "25.887"
+        "lat": "50.652",
+        "lon": "-175.207"
       },
       "space_weather": {
-        "kp": "1.67",
-        "at": "2026-11-12T21:00:00"
+        "kp": "1.33",
+        "at": "2026-11-13T06:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 87,
-        "index": "low"
+        "gco2_kwh": 141,
+        "index": "moderate"
       },
       "hn_top": {
         "id": 50467087,
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Commanders vs. Giants",
-            "yes_price": "0.595"
+            "question": "Counter-Strike: Vitality vs MOUZ (BO3) - BLAST Rivals Playoffs",
+            "yes_price": "0.1405"
           },
           {
-            "question": "Will Jesus Christ return before 2027?",
-            "yes_price": "0.0135"
+            "question": "Louisiana-Lafayette Ragin' Cajuns vs. UNCW Seahawks",
+            "yes_price": "0.485"
           },
           {
-            "question": "UFC 334: Josh Hokit vs. Ciryl Gane (Heavyweight, Main Card)",
-            "yes_price": "0.345"
+            "question": "Will the Fed decrease interest rates by 25 bps after the December 2026 meeting?",
+            "yes_price": "0.007"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "531921c49029b6c460ae740d154e6520f03a6169ed4551fef252fe8ffc1b3b7d"
+  "input_fingerprint": "6baf31a4ea844923621033f860b0abb588385e4e78c45a9cce71290159d2c18b"
 }
