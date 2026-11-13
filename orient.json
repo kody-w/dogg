@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-13T10:02:01.319Z",
+  "generated_utc": "2026-11-13T17:42:34.656Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2935,
-    "frame_hash": "d853372611b6e0daa49c418b66007bdfb825b757935a83bfbc422faeda218b99",
-    "utc": "2026-11-13T10:01:56.290Z"
+    "seq": 2936,
+    "frame_hash": "ef8631c0310c3495f1bfdd499337eff4176edc83abe7a138a63e78230b2c6035",
+    "utc": "2026-11-13T17:42:27.877Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2936,
-      "head_frame": "d853372611b6e0daa49c418b66007bdfb825b757935a83bfbc422faeda218b99"
+      "count": 2937,
+      "head_frame": "ef8631c0310c3495f1bfdd499337eff4176edc83abe7a138a63e78230b2c6035"
     },
     "world": {
-      "count": 2840,
-      "head_frame": "d49c62dc1967845e3a917c707f47299d5f829f371d609ddcc7b222fb5f5d36e8"
+      "count": 2841,
+      "head_frame": "c7bb50576fae276b862a9297cc744ab8c7f6fb1628c885aa73c95a4201ce9654"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "d49c62dc1967845e3a917c707f47299d5f829f371d609ddcc7b222fb5f5d36e8",
-    "seq": 2839,
-    "utc": "2026-11-13T10:01:59.926Z",
-    "tick": 2935,
-    "tick_frame": "d853372611b6e0daa49c418b66007bdfb825b757935a83bfbc422faeda218b99",
+    "frame_hash": "c7bb50576fae276b862a9297cc744ab8c7f6fb1628c885aa73c95a4201ce9654",
+    "seq": 2840,
+    "utc": "2026-11-13T17:42:33.926Z",
+    "tick": 2936,
+    "tick_frame": "ef8631c0310c3495f1bfdd499337eff4176edc83abe7a138a63e78230b2c6035",
     "data": {
       "btc_block_height": {
-        "height": 975660
+        "height": 975697
       },
       "btc_usd": {
-        "spot": "69122.575"
+        "spot": "68970.385"
       },
       "fx_usd": {
         "EUR": "0.9035",
@@ -58,49 +58,49 @@
         "CNY": "6.6851"
       },
       "crypto_market": {
-        "total_mcap_usd": "2321636261753",
-        "btc_dominance_pct": "59.7"
+        "total_mcap_usd": "2344563416189",
+        "btc_dominance_pct": "59.0"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
-        "hour_sat_vb": 1
+        "fastest_sat_vb": 5,
+        "hour_sat_vb": 4
       },
       "btc_mempool": {
-        "tx_count": 57049
+        "tx_count": 74220
       },
       "earthquakes_past_hour": {
-        "count": 6,
-        "max_mag": "3.3"
+        "count": 7,
+        "max_mag": "5.8"
       },
       "iss": {
-        "lat": "50.652",
-        "lon": "-175.207"
+        "lat": "51.543",
+        "lon": "43.960"
       },
       "space_weather": {
-        "kp": "1.33",
-        "at": "2026-11-13T06:00:00"
+        "kp": "0.67",
+        "at": "2026-11-13T12:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 141,
-        "index": "moderate"
+        "gco2_kwh": 196,
+        "index": "high"
       },
       "hn_top": {
-        "id": 50467087,
-        "title": "Jensen Huang resigns"
+        "id": 50474959,
+        "title": "Reverse engineering my Coway air purifier to ditch the cloud"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Counter-Strike: Vitality vs MOUZ (BO3) - BLAST Rivals Playoffs",
-            "yes_price": "0.1405"
-          },
-          {
             "question": "Louisiana-Lafayette Ragin' Cajuns vs. UNCW Seahawks",
-            "yes_price": "0.485"
+            "yes_price": "0.495"
           },
           {
             "question": "Will the Fed decrease interest rates by 25 bps after the December 2026 meeting?",
-            "yes_price": "0.007"
+            "yes_price": "0.0035"
+          },
+          {
+            "question": "Will Jesus Christ return before 2027?",
+            "yes_price": "0.019"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "6baf31a4ea844923621033f860b0abb588385e4e78c45a9cce71290159d2c18b"
+  "input_fingerprint": "cb291be15eb084bd96a765f7c0ddca8d40050d5aa204e6dcdae74f46e62bf266"
 }
