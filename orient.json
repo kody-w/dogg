@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-12T22:24:41.411Z",
+  "generated_utc": "2026-11-13T02:44:39.374Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2933,
-    "frame_hash": "5834dc9a86398166d5d7c88f86aeb6f7e69cb67772d1a7b756ef954fe4af15aa",
-    "utc": "2026-11-12T22:24:35.984Z"
+    "seq": 2934,
+    "frame_hash": "12bd9593b1f8a80c4e03e6bebca68b4d74c0987d63e0a25296c82b4a1d0a3e5d",
+    "utc": "2026-11-13T02:44:34.599Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2934,
-      "head_frame": "5834dc9a86398166d5d7c88f86aeb6f7e69cb67772d1a7b756ef954fe4af15aa"
+      "count": 2935,
+      "head_frame": "12bd9593b1f8a80c4e03e6bebca68b4d74c0987d63e0a25296c82b4a1d0a3e5d"
     },
     "world": {
-      "count": 2838,
-      "head_frame": "49228dbcea87f89f37a3933d9973a0403b8411d2e8915a5e20b29f520a1f2d5e"
+      "count": 2839,
+      "head_frame": "ede962cb316ce746fe279b8c5def41606f1fe08d116c29312d91dc27212713ab"
     },
     "registry": {
       "count": 25,
@@ -39,50 +39,50 @@
     }
   },
   "world": {
-    "frame_hash": "49228dbcea87f89f37a3933d9973a0403b8411d2e8915a5e20b29f520a1f2d5e",
-    "seq": 2837,
-    "utc": "2026-11-12T22:24:40.367Z",
-    "tick": 2933,
-    "tick_frame": "5834dc9a86398166d5d7c88f86aeb6f7e69cb67772d1a7b756ef954fe4af15aa",
+    "frame_hash": "ede962cb316ce746fe279b8c5def41606f1fe08d116c29312d91dc27212713ab",
+    "seq": 2838,
+    "utc": "2026-11-13T02:44:38.511Z",
+    "tick": 2934,
+    "tick_frame": "12bd9593b1f8a80c4e03e6bebca68b4d74c0987d63e0a25296c82b4a1d0a3e5d",
     "data": {
       "btc_block_height": {
-        "height": 975606
+        "height": 975623
       },
       "btc_usd": {
-        "spot": "71371.605"
+        "spot": "70152.055"
       },
       "fx_usd": {
-        "EUR": "0.8999",
-        "GBP": "0.7524",
-        "JPY": "159.5138",
-        "CNY": "6.6858"
+        "EUR": "0.9035",
+        "GBP": "0.7551",
+        "JPY": "159.7954",
+        "CNY": "6.6851"
       },
       "crypto_market": {
-        "total_mcap_usd": "2408051815029",
-        "btc_dominance_pct": "59.4"
+        "total_mcap_usd": "2382542998516",
+        "btc_dominance_pct": "59.2"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 46184
+        "tx_count": 60529
       },
       "earthquakes_past_hour": {
-        "count": 7,
-        "max_mag": "5.8"
+        "count": 4,
+        "max_mag": "2.4"
       },
       "iss": {
-        "lat": "-51.216",
-        "lon": "177.338"
+        "lat": "-19.477",
+        "lon": "25.887"
       },
       "space_weather": {
-        "kp": "1.33",
-        "at": "2026-11-12T18:00:00"
+        "kp": "1.67",
+        "at": "2026-11-12T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 110,
-        "index": "moderate"
+        "gco2_kwh": 87,
+        "index": "low"
       },
       "hn_top": {
         "id": 50467087,
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
+            "question": "Commanders vs. Giants",
+            "yes_price": "0.595"
+          },
+          {
             "question": "Will Jesus Christ return before 2027?",
             "yes_price": "0.0135"
           },
           {
-            "question": "BNP Paribas Nordic Open: Lorenzo Musetti vs Ugo Humbert",
-            "yes_price": "0.9995"
-          },
-          {
-            "question": "Commanders vs. Giants",
-            "yes_price": "0.465"
+            "question": "UFC 334: Josh Hokit vs. Ciryl Gane (Heavyweight, Main Card)",
+            "yes_price": "0.345"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "9e3668ff5d91bd7e53c02b5b6ac25256d13244469862573c8aef9b83a8f90d77"
+  "input_fingerprint": "531921c49029b6c460ae740d154e6520f03a6169ed4551fef252fe8ffc1b3b7d"
 }
