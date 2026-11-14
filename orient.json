@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-14T16:07:35.656Z",
+  "generated_utc": "2026-11-14T20:41:49.374Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2940,
-    "frame_hash": "24f88b2702481941f588420a1868c2ecd317615e7ade04a8ecb56eee95465f4a",
-    "utc": "2026-11-14T16:07:30.239Z"
+    "seq": 2941,
+    "frame_hash": "f7db4696f0c44b0877c651f27089a71b9657648b518fd499bb1ae4e942733d00",
+    "utc": "2026-11-14T20:41:44.700Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2941,
-      "head_frame": "24f88b2702481941f588420a1868c2ecd317615e7ade04a8ecb56eee95465f4a"
+      "count": 2942,
+      "head_frame": "f7db4696f0c44b0877c651f27089a71b9657648b518fd499bb1ae4e942733d00"
     },
     "world": {
-      "count": 2845,
-      "head_frame": "ff6b4a168fc5e70fcfb124c1f05d00bcc63fe5b498e6f09ada64ea31e33e882b"
+      "count": 2846,
+      "head_frame": "f51cfbe10241438bed6e381a9c032e8cb263d3870081cb73b03ab17d264d66a9"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "ff6b4a168fc5e70fcfb124c1f05d00bcc63fe5b498e6f09ada64ea31e33e882b",
-    "seq": 2844,
-    "utc": "2026-11-14T16:07:34.324Z",
-    "tick": 2940,
-    "tick_frame": "24f88b2702481941f588420a1868c2ecd317615e7ade04a8ecb56eee95465f4a",
+    "frame_hash": "f51cfbe10241438bed6e381a9c032e8cb263d3870081cb73b03ab17d264d66a9",
+    "seq": 2845,
+    "utc": "2026-11-14T20:41:48.343Z",
+    "tick": 2941,
+    "tick_frame": "f7db4696f0c44b0877c651f27089a71b9657648b518fd499bb1ae4e942733d00",
     "data": {
       "btc_block_height": {
-        "height": 975815
+        "height": 975841
       },
       "btc_usd": {
-        "spot": "65381.875"
+        "spot": "65430.385"
       },
       "fx_usd": {
         "EUR": "0.9060",
@@ -58,49 +58,49 @@
         "CNY": "6.6849"
       },
       "crypto_market": {
-        "total_mcap_usd": "2244366031848",
-        "btc_dominance_pct": "58.7"
+        "total_mcap_usd": "2220728515182",
+        "btc_dominance_pct": "59.0"
       },
       "btc_fees": {
         "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 62912
+        "tx_count": 61954
       },
       "earthquakes_past_hour": {
-        "count": 10,
-        "max_mag": "3.2"
+        "count": 9,
+        "max_mag": "2.9"
       },
       "iss": {
-        "lat": "-50.323",
-        "lon": "-128.620"
+        "lat": "-43.662",
+        "lon": "138.759"
       },
       "space_weather": {
-        "kp": "1.67",
-        "at": "2026-11-14T12:00:00"
+        "kp": "1.0",
+        "at": "2026-11-14T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 126,
+        "gco2_kwh": 112,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 50496976,
-        "title": "KDE: The Documentary on Free Software [video]"
+        "id": 50499017,
+        "title": "Lovable apps expose passport details and more than 200K private messages"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs",
-            "yes_price": "0.385"
+            "yes_price": "0.225"
           },
           {
-            "question": "Will Jesus Christ return before 2027?",
-            "yes_price": "0.0115"
+            "question": "LoL: Bilibili Gaming vs Gen.G - Game 1 Winner",
+            "yes_price": "0.005"
           },
           {
-            "question": "Dota 2: DO KONCA vs Yellow Submarine (BO3) - 1win Essence Group A",
-            "yes_price": "0.9995"
+            "question": "Northwestern vs. Ohio State",
+            "yes_price": "0.0005"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "ca8e34f3a38f00ede41944f5e80319cdf45085663dc11eaea08c93d6c3b3b8c9"
+  "input_fingerprint": "4026e8849353c7241422a1c1970f5b0ec6079fcce57bf7ac786d50c64f9d21a2"
 }
