@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-13T22:53:40.795Z",
+  "generated_utc": "2026-11-14T02:51:21.498Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2937,
-    "frame_hash": "5062c37167b08573dc695255bf6b1fc1fbec3d5ae2a919722ced657b9938f57b",
-    "utc": "2026-11-13T22:53:35.306Z"
+    "seq": 2938,
+    "frame_hash": "3ea120494ff6ce917ebe6a298e79a012d5bf844840ee3648cc648781f649742d",
+    "utc": "2026-11-14T02:51:16.443Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2938,
-      "head_frame": "5062c37167b08573dc695255bf6b1fc1fbec3d5ae2a919722ced657b9938f57b"
+      "count": 2939,
+      "head_frame": "3ea120494ff6ce917ebe6a298e79a012d5bf844840ee3648cc648781f649742d"
     },
     "world": {
-      "count": 2842,
-      "head_frame": "4959b14c83f6252e5d85c5c8d40d423b49a3b6c08f3033770182b9152b5bb763"
+      "count": 2843,
+      "head_frame": "3c16be531b76e75c8068d72a661d475ec38238fb801261138b29390632125ef8"
     },
     "registry": {
       "count": 25,
@@ -39,57 +39,61 @@
     }
   },
   "world": {
-    "frame_hash": "4959b14c83f6252e5d85c5c8d40d423b49a3b6c08f3033770182b9152b5bb763",
-    "seq": 2841,
-    "utc": "2026-11-13T22:53:39.792Z",
-    "tick": 2937,
-    "tick_frame": "5062c37167b08573dc695255bf6b1fc1fbec3d5ae2a919722ced657b9938f57b",
+    "frame_hash": "3c16be531b76e75c8068d72a661d475ec38238fb801261138b29390632125ef8",
+    "seq": 2842,
+    "utc": "2026-11-14T02:51:20.449Z",
+    "tick": 2938,
+    "tick_frame": "3ea120494ff6ce917ebe6a298e79a012d5bf844840ee3648cc648781f649742d",
     "data": {
       "btc_block_height": {
-        "height": 975721
+        "height": 975736
       },
       "btc_usd": {
-        "spot": "68363.435"
+        "spot": "67667.685"
       },
       "fx_usd": {
-        "EUR": "0.9035",
-        "GBP": "0.7551",
-        "JPY": "159.7954",
-        "CNY": "6.6851"
+        "EUR": "0.9060",
+        "GBP": "0.7564",
+        "JPY": "159.7995",
+        "CNY": "6.6849"
       },
       "crypto_market": {
-        "total_mcap_usd": "2325100384341",
-        "btc_dominance_pct": "59.0"
+        "total_mcap_usd": "2301791438240",
+        "btc_dominance_pct": "58.8"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 67738
+        "tx_count": 61425
       },
       "earthquakes_past_hour": {
-        "count": 3,
-        "max_mag": "4.9"
+        "count": 7,
+        "max_mag": "4.5"
       },
       "iss": {
-        "lat": "-24.012",
-        "lon": "83.013"
+        "lat": "38.475",
+        "lon": "-139.188"
       },
       "space_weather": {
         "kp": "0.67",
-        "at": "2026-11-13T18:00:00"
+        "at": "2026-11-13T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 176,
-        "index": "high"
+        "gco2_kwh": 130,
+        "index": "moderate"
       },
       "hn_top": {
-        "id": 50489641,
-        "title": "FAA Issues National Ground Stop"
+        "id": 50492601,
+        "title": "FAA lifted National Ground Stop at 0119Z"
       },
       "prediction_markets": {
         "top_by_volume": [
+          {
+            "question": "Knicks vs. Pacers",
+            "yes_price": "0.0005"
+          },
           {
             "question": "Louisiana-Lafayette Ragin' Cajuns vs. UNCW Seahawks",
             "yes_price": "0.495"
@@ -97,10 +101,6 @@
           {
             "question": "Will the Fed decrease interest rates by 25 bps after the December 2026 meeting?",
             "yes_price": "0.0045"
-          },
-          {
-            "question": "Will the Fed increase interest rates by 50+ bps after the December 2026 meeting?",
-            "yes_price": "0.0695"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "5cbc8f8bc4ed5bc1c28632756d904c402bb4b0716414da1f50c682e2a7fae870"
+  "input_fingerprint": "b422921e3a7966895f937cbcf4c11f20e8b6aaf2dfb9045fb187a877518b5861"
 }
