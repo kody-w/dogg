@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-14T02:51:21.498Z",
+  "generated_utc": "2026-11-14T09:43:37.373Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2938,
-    "frame_hash": "3ea120494ff6ce917ebe6a298e79a012d5bf844840ee3648cc648781f649742d",
-    "utc": "2026-11-14T02:51:16.443Z"
+    "seq": 2939,
+    "frame_hash": "ecd941711e012eccc2b39e4ae1d60bab88e642e7f800ec2c388e9d7768dc5bd4",
+    "utc": "2026-11-14T09:43:32.964Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2939,
-      "head_frame": "3ea120494ff6ce917ebe6a298e79a012d5bf844840ee3648cc648781f649742d"
+      "count": 2940,
+      "head_frame": "ecd941711e012eccc2b39e4ae1d60bab88e642e7f800ec2c388e9d7768dc5bd4"
     },
     "world": {
-      "count": 2843,
-      "head_frame": "3c16be531b76e75c8068d72a661d475ec38238fb801261138b29390632125ef8"
+      "count": 2844,
+      "head_frame": "43a83a41bef3f8bbd19af4352c4a23f293484013f487e397caba6ec4aaba8e4a"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "3c16be531b76e75c8068d72a661d475ec38238fb801261138b29390632125ef8",
-    "seq": 2842,
-    "utc": "2026-11-14T02:51:20.449Z",
-    "tick": 2938,
-    "tick_frame": "3ea120494ff6ce917ebe6a298e79a012d5bf844840ee3648cc648781f649742d",
+    "frame_hash": "43a83a41bef3f8bbd19af4352c4a23f293484013f487e397caba6ec4aaba8e4a",
+    "seq": 2843,
+    "utc": "2026-11-14T09:43:36.293Z",
+    "tick": 2939,
+    "tick_frame": "ecd941711e012eccc2b39e4ae1d60bab88e642e7f800ec2c388e9d7768dc5bd4",
     "data": {
       "btc_block_height": {
-        "height": 975736
+        "height": 975779
       },
       "btc_usd": {
-        "spot": "67667.685"
+        "spot": "67144.07"
       },
       "fx_usd": {
         "EUR": "0.9060",
@@ -58,7 +58,7 @@
         "CNY": "6.6849"
       },
       "crypto_market": {
-        "total_mcap_usd": "2301791438240",
+        "total_mcap_usd": "2296773538115",
         "btc_dominance_pct": "58.8"
       },
       "btc_fees": {
@@ -70,37 +70,37 @@
       },
       "earthquakes_past_hour": {
         "count": 7,
-        "max_mag": "4.5"
+        "max_mag": "5.5"
       },
       "iss": {
-        "lat": "38.475",
-        "lon": "-139.188"
+        "lat": "-23.411",
+        "lon": "-82.756"
       },
       "space_weather": {
-        "kp": "0.67",
-        "at": "2026-11-13T21:00:00"
+        "kp": "1.0",
+        "at": "2026-11-14T06:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 130,
+        "gco2_kwh": 109,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 50492601,
-        "title": "FAA lifted National Ground Stop at 0119Z"
+        "id": 50440709,
+        "title": "Why get an expensive Pi when I have an old phone?"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Knicks vs. Pacers",
-            "yes_price": "0.0005"
+            "question": "Counter-Strike: Spirit vs MOUZ (BO3) - BLAST Rivals Playoffs",
+            "yes_price": "0.525"
           },
           {
-            "question": "Louisiana-Lafayette Ragin' Cajuns vs. UNCW Seahawks",
-            "yes_price": "0.495"
+            "question": "Will the Fed increase interest rates by 50+ bps after the December 2026 meeting?",
+            "yes_price": "0.0845"
           },
           {
-            "question": "Will the Fed decrease interest rates by 25 bps after the December 2026 meeting?",
-            "yes_price": "0.0045"
+            "question": "Will Jesus Christ return before 2027?",
+            "yes_price": "0.0125"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "b422921e3a7966895f937cbcf4c11f20e8b6aaf2dfb9045fb187a877518b5861"
+  "input_fingerprint": "319f7888468923221455c1cc03bd154bc95293cc46628dd9378d1617a39d2bcb"
 }
