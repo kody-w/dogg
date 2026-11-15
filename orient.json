@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-14T20:41:49.374Z",
+  "generated_utc": "2026-11-15T00:18:54.302Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2941,
-    "frame_hash": "f7db4696f0c44b0877c651f27089a71b9657648b518fd499bb1ae4e942733d00",
-    "utc": "2026-11-14T20:41:44.700Z"
+    "seq": 2942,
+    "frame_hash": "4b1d94ed4bf7e6f02420da9e08301db92ed30b6c35ff3d50b0f1f0b88907916b",
+    "utc": "2026-11-15T00:18:49.830Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2942,
-      "head_frame": "f7db4696f0c44b0877c651f27089a71b9657648b518fd499bb1ae4e942733d00"
+      "count": 2943,
+      "head_frame": "4b1d94ed4bf7e6f02420da9e08301db92ed30b6c35ff3d50b0f1f0b88907916b"
     },
     "world": {
-      "count": 2846,
-      "head_frame": "f51cfbe10241438bed6e381a9c032e8cb263d3870081cb73b03ab17d264d66a9"
+      "count": 2847,
+      "head_frame": "3e71904a2ada630764229d743a00d62336d6d2ccde59a4ddd0903a10cc79bf60"
     },
     "registry": {
       "count": 25,
@@ -39,68 +39,68 @@
     }
   },
   "world": {
-    "frame_hash": "f51cfbe10241438bed6e381a9c032e8cb263d3870081cb73b03ab17d264d66a9",
-    "seq": 2845,
-    "utc": "2026-11-14T20:41:48.343Z",
-    "tick": 2941,
-    "tick_frame": "f7db4696f0c44b0877c651f27089a71b9657648b518fd499bb1ae4e942733d00",
+    "frame_hash": "3e71904a2ada630764229d743a00d62336d6d2ccde59a4ddd0903a10cc79bf60",
+    "seq": 2846,
+    "utc": "2026-11-15T00:18:53.298Z",
+    "tick": 2942,
+    "tick_frame": "4b1d94ed4bf7e6f02420da9e08301db92ed30b6c35ff3d50b0f1f0b88907916b",
     "data": {
       "btc_block_height": {
-        "height": 975841
+        "height": 975862
       },
       "btc_usd": {
-        "spot": "65430.385"
+        "spot": "64338.135"
       },
       "fx_usd": {
         "EUR": "0.9060",
         "GBP": "0.7564",
-        "JPY": "159.7995",
-        "CNY": "6.6849"
+        "JPY": "159.7790",
+        "CNY": "6.6897"
       },
       "crypto_market": {
-        "total_mcap_usd": "2220728515182",
-        "btc_dominance_pct": "59.0"
+        "total_mcap_usd": "2197356014421",
+        "btc_dominance_pct": "58.8"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 61954
+        "tx_count": 70478
       },
       "earthquakes_past_hour": {
-        "count": 9,
-        "max_mag": "2.9"
+        "count": 8,
+        "max_mag": "3.4"
       },
       "iss": {
-        "lat": "-43.662",
-        "lon": "138.759"
+        "lat": "2.057",
+        "lon": "-143.488"
       },
       "space_weather": {
-        "kp": "1.0",
-        "at": "2026-11-14T15:00:00"
+        "kp": "1.33",
+        "at": "2026-11-14T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 112,
-        "index": "moderate"
+        "gco2_kwh": 83,
+        "index": "low"
       },
       "hn_top": {
-        "id": 50499017,
-        "title": "Lovable apps expose passport details and more than 200K private messages"
+        "id": 50500963,
+        "title": "SpaceX catches the Starship to end Flight 15"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
+            "question": "LoL: Bilibili Gaming vs Gen.G - Game 2 Winner",
+            "yes_price": "0.9995"
+          },
+          {
             "question": "LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs",
-            "yes_price": "0.225"
+            "yes_price": "0.9995"
           },
           {
-            "question": "LoL: Bilibili Gaming vs Gen.G - Game 1 Winner",
-            "yes_price": "0.005"
-          },
-          {
-            "question": "Northwestern vs. Ohio State",
-            "yes_price": "0.0005"
+            "question": "LoL: Bilibili Gaming vs Gen.G - Game 4 Winner",
+            "yes_price": "0.9995"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "4026e8849353c7241422a1c1970f5b0ec6079fcce57bf7ac786d50c64f9d21a2"
+  "input_fingerprint": "b6e475659167cbf6d40d2302729315ec653f73297b88862a2f267d60a0b5687f"
 }
