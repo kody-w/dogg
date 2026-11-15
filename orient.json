@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-15T06:54:38.261Z",
+  "generated_utc": "2026-11-15T14:27:47.666Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2943,
-    "frame_hash": "253f68c00d4136cde0d2abb4fa2a19999486324fa6a8511ccdd0a6a08b698287",
-    "utc": "2026-11-15T06:54:33.946Z"
+    "seq": 2944,
+    "frame_hash": "046a271b5bbd43638f2fe9f274325e0a623f0b2be10169621c5c4ac648480b34",
+    "utc": "2026-11-15T14:27:40.025Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2944,
-      "head_frame": "253f68c00d4136cde0d2abb4fa2a19999486324fa6a8511ccdd0a6a08b698287"
+      "count": 2945,
+      "head_frame": "046a271b5bbd43638f2fe9f274325e0a623f0b2be10169621c5c4ac648480b34"
     },
     "world": {
-      "count": 2848,
-      "head_frame": "67bf06e422ea4f7bd8d19a4597f9024f395e594124074cb0c98f421f8b596bd7"
+      "count": 2849,
+      "head_frame": "e89a570a4dbc7d3bfe50a70731458171e981ddefeba7bc8845f154619e8ee009"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "67bf06e422ea4f7bd8d19a4597f9024f395e594124074cb0c98f421f8b596bd7",
-    "seq": 2847,
-    "utc": "2026-11-15T06:54:36.934Z",
-    "tick": 2943,
-    "tick_frame": "253f68c00d4136cde0d2abb4fa2a19999486324fa6a8511ccdd0a6a08b698287",
+    "frame_hash": "e89a570a4dbc7d3bfe50a70731458171e981ddefeba7bc8845f154619e8ee009",
+    "seq": 2848,
+    "utc": "2026-11-15T14:27:46.654Z",
+    "tick": 2944,
+    "tick_frame": "046a271b5bbd43638f2fe9f274325e0a623f0b2be10169621c5c4ac648480b34",
     "data": {
       "btc_block_height": {
-        "height": 975918
+        "height": 975970
       },
       "btc_usd": {
-        "spot": "64350.195"
+        "spot": "65137.965"
       },
       "fx_usd": {
         "EUR": "0.9060",
@@ -58,49 +58,49 @@
         "CNY": "6.6897"
       },
       "crypto_market": {
-        "total_mcap_usd": "2210773150542",
-        "btc_dominance_pct": "58.6"
+        "total_mcap_usd": "2231113358337",
+        "btc_dominance_pct": "58.7"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 73787
+        "tx_count": 83463
       },
       "earthquakes_past_hour": {
-        "count": 5,
-        "max_mag": "2.5"
+        "count": 8,
+        "max_mag": "5.5"
       },
       "iss": {
-        "lat": "51.298",
-        "lon": "-144.963"
+        "lat": "38.989",
+        "lon": "38.756"
       },
       "space_weather": {
-        "kp": "1.0",
-        "at": "2026-11-15T03:00:00"
+        "kp": "0.33",
+        "at": "2026-11-15T09:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 113,
+        "gco2_kwh": 166,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 50500963,
-        "title": "SpaceX catches the Starship to end Flight 15"
+        "id": 50506719,
+        "title": "The MacBook Pro's OLED PWM Problem: When a 'Better' Display Becomes Worse to Use"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Utah vs. Arizona",
-            "yes_price": "0.725"
+            "question": "Dota 2: PARIVISION vs GamerLegion (BO3) - 1win Essence Playoffs",
+            "yes_price": "0.9995"
           },
           {
-            "question": "Counter-Strike: Spirit vs FURIA (BO5) - BLAST Rivals Playoffs",
-            "yes_price": "0.595"
+            "question": "Patriots vs. Lions",
+            "yes_price": "0.415"
           },
           {
             "question": "Pepperdine Waves vs. Oregon Ducks",
-            "yes_price": "0.4075"
+            "yes_price": "0.4605"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "dc71dc26fdd79b2fabece39d24f0465e17dd635ba84da03311d6cb51d3d8d91c"
+  "input_fingerprint": "2ad06e5e2537e8326af18f8aeab489814ee21bb86208d8d44d6c6c64829f96bb"
 }
