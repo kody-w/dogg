@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-16T11:09:29.139Z",
+  "generated_utc": "2026-11-16T21:00:05.794Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2948,
-    "frame_hash": "aaed9e0a235a005b2e91064b4d131640751e65110f2a0d15259f14dc0fd307ea",
-    "utc": "2026-11-16T11:09:24.163Z"
+    "seq": 2949,
+    "frame_hash": "ebcb6ce17c3e1163ac5d264942e4813caaec550543a9a21e4120cca6c6f5d52d",
+    "utc": "2026-11-16T20:59:58.130Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2949,
-      "head_frame": "aaed9e0a235a005b2e91064b4d131640751e65110f2a0d15259f14dc0fd307ea"
+      "count": 2950,
+      "head_frame": "ebcb6ce17c3e1163ac5d264942e4813caaec550543a9a21e4120cca6c6f5d52d"
     },
     "world": {
-      "count": 2853,
-      "head_frame": "8a0e30181e5dc33026fc7a0f4246bf7085fb901bd79b2f87261a204b9743d510"
+      "count": 2854,
+      "head_frame": "3c1b86b0410ab0bbed17481b3ead9ad303c82e5c5cd335643918acb2ba14150a"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "8a0e30181e5dc33026fc7a0f4246bf7085fb901bd79b2f87261a204b9743d510",
-    "seq": 2852,
-    "utc": "2026-11-16T11:09:27.778Z",
-    "tick": 2948,
-    "tick_frame": "aaed9e0a235a005b2e91064b4d131640751e65110f2a0d15259f14dc0fd307ea",
+    "frame_hash": "3c1b86b0410ab0bbed17481b3ead9ad303c82e5c5cd335643918acb2ba14150a",
+    "seq": 2853,
+    "utc": "2026-11-16T21:00:04.441Z",
+    "tick": 2949,
+    "tick_frame": "ebcb6ce17c3e1163ac5d264942e4813caaec550543a9a21e4120cca6c6f5d52d",
     "data": {
       "btc_block_height": {
-        "height": 976110
+        "height": 976184
       },
       "btc_usd": {
-        "spot": "64593.645"
+        "spot": "65029.415"
       },
       "fx_usd": {
         "EUR": "0.9066",
@@ -58,35 +58,35 @@
         "CNY": "6.6784"
       },
       "crypto_market": {
-        "total_mcap_usd": "2186696184249",
-        "btc_dominance_pct": "59.3"
+        "total_mcap_usd": "2227677051915",
+        "btc_dominance_pct": "58.7"
       },
       "btc_fees": {
         "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 73269
+        "tx_count": 76304
       },
       "earthquakes_past_hour": {
-        "count": 5,
-        "max_mag": "2.6"
+        "count": 4,
+        "max_mag": "1.6"
       },
       "iss": {
-        "lat": "-4.816",
-        "lon": "-132.568"
+        "lat": "-33.797",
+        "lon": "-138.258"
       },
       "space_weather": {
-        "kp": "0.33",
-        "at": "2026-11-16T06:00:00"
+        "kp": "0.67",
+        "at": "2026-11-16T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 158,
-        "index": "moderate"
+        "gco2_kwh": 180,
+        "index": "high"
       },
       "hn_top": {
-        "id": 50514470,
-        "title": "How to make almost anything"
+        "id": 50521045,
+        "title": "Outages reported at Bank of America, Chase, U.S. Bank, Wells Fargo and Zelle"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -96,11 +96,11 @@
           },
           {
             "question": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
-            "yes_price": "0.1685"
+            "yes_price": "0.0905"
           },
           {
-            "question": "Will Jensen Huang rejoin NVIDIA by December 31, 2026?",
-            "yes_price": "0.1185"
+            "question": "Will Germany win on 2026-11-16?",
+            "yes_price": "0.725"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "11c4c6ef3b5d6d45edea0bf9656f4f325e1dbeece17e6f7f8e322e8676a5f1d9"
+  "input_fingerprint": "4b5544998ddef6c8636de2fb9dfebf7d9662f587f69120d28254b7133a89b228"
 }
