@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-16T03:09:05.665Z",
+  "generated_utc": "2026-11-16T11:09:29.139Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2947,
-    "frame_hash": "e67cf2c02e066dc61d12e42f4e5ad765acea102f9514462717be803f033fa9b3",
-    "utc": "2026-11-16T03:08:59.531Z"
+    "seq": 2948,
+    "frame_hash": "aaed9e0a235a005b2e91064b4d131640751e65110f2a0d15259f14dc0fd307ea",
+    "utc": "2026-11-16T11:09:24.163Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2948,
-      "head_frame": "e67cf2c02e066dc61d12e42f4e5ad765acea102f9514462717be803f033fa9b3"
+      "count": 2949,
+      "head_frame": "aaed9e0a235a005b2e91064b4d131640751e65110f2a0d15259f14dc0fd307ea"
     },
     "world": {
-      "count": 2852,
-      "head_frame": "f570f34294643459984ee8e5b147a3a92f74c43a1b838558c3489b539fd6297c"
+      "count": 2853,
+      "head_frame": "8a0e30181e5dc33026fc7a0f4246bf7085fb901bd79b2f87261a204b9743d510"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "f570f34294643459984ee8e5b147a3a92f74c43a1b838558c3489b539fd6297c",
-    "seq": 2851,
-    "utc": "2026-11-16T03:09:04.622Z",
-    "tick": 2947,
-    "tick_frame": "e67cf2c02e066dc61d12e42f4e5ad765acea102f9514462717be803f033fa9b3",
+    "frame_hash": "8a0e30181e5dc33026fc7a0f4246bf7085fb901bd79b2f87261a204b9743d510",
+    "seq": 2852,
+    "utc": "2026-11-16T11:09:27.778Z",
+    "tick": 2948,
+    "tick_frame": "aaed9e0a235a005b2e91064b4d131640751e65110f2a0d15259f14dc0fd307ea",
     "data": {
       "btc_block_height": {
-        "height": 976062
+        "height": 976110
       },
       "btc_usd": {
-        "spot": "65103.145"
+        "spot": "64593.645"
       },
       "fx_usd": {
         "EUR": "0.9066",
@@ -58,49 +58,49 @@
         "CNY": "6.6784"
       },
       "crypto_market": {
-        "total_mcap_usd": "2203726666691",
-        "btc_dominance_pct": "59.4"
+        "total_mcap_usd": "2186696184249",
+        "btc_dominance_pct": "59.3"
       },
       "btc_fees": {
         "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 72391
+        "tx_count": 73269
       },
       "earthquakes_past_hour": {
-        "count": 6,
-        "max_mag": "2.4"
+        "count": 5,
+        "max_mag": "2.6"
       },
       "iss": {
-        "lat": "40.650",
-        "lon": "-56.825"
+        "lat": "-4.816",
+        "lon": "-132.568"
       },
       "space_weather": {
         "kp": "0.33",
-        "at": "2026-11-16T00:00:00"
+        "at": "2026-11-16T06:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 60,
-        "index": "low"
+        "gco2_kwh": 158,
+        "index": "moderate"
       },
       "hn_top": {
-        "id": 50513215,
-        "title": "Qwen4-Max"
+        "id": 50514470,
+        "title": "How to make almost anything"
       },
       "prediction_markets": {
         "top_by_volume": [
-          {
-            "question": "Steelers vs. Bengals",
-            "yes_price": "0.029"
-          },
           {
             "question": "Will Kristi Noem win the 2028 Republican presidential nomination?",
             "yes_price": "0.0015"
           },
           {
-            "question": "Hawks vs. Bucks",
-            "yes_price": "0.895"
+            "question": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
+            "yes_price": "0.1685"
+          },
+          {
+            "question": "Will Jensen Huang rejoin NVIDIA by December 31, 2026?",
+            "yes_price": "0.1185"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "df3d5365aa37d2b80f5fe2da57ed84297dc0425c7adcaf45fc96b7dd185068e3"
+  "input_fingerprint": "11c4c6ef3b5d6d45edea0bf9656f4f325e1dbeece17e6f7f8e322e8676a5f1d9"
 }
