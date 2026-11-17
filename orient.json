@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-17T12:27:32.174Z",
+  "generated_utc": "2026-11-17T21:12:57.907Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2951,
-    "frame_hash": "1d2079664af226000e3e040ee9a3124fefbe28fa21808680afa2ce8d88601de4",
-    "utc": "2026-11-17T12:27:27.392Z"
+    "seq": 2952,
+    "frame_hash": "29762c642f79ffbcca476ae9255d6798b3d6e05224d8ef8314f73b34fcdbc012",
+    "utc": "2026-11-17T21:12:53.578Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2952,
-      "head_frame": "1d2079664af226000e3e040ee9a3124fefbe28fa21808680afa2ce8d88601de4"
+      "count": 2953,
+      "head_frame": "29762c642f79ffbcca476ae9255d6798b3d6e05224d8ef8314f73b34fcdbc012"
     },
     "world": {
-      "count": 2856,
-      "head_frame": "a84f0e02304dcc26138f1110e42452ead3eb357c5858c91e099942419bf877eb"
+      "count": 2857,
+      "head_frame": "06f244a9841b76750ecb548a7a8e325d676714170be1005daa61a8940f5a4e11"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "a84f0e02304dcc26138f1110e42452ead3eb357c5858c91e099942419bf877eb",
-    "seq": 2855,
-    "utc": "2026-11-17T12:27:31.400Z",
-    "tick": 2951,
-    "tick_frame": "1d2079664af226000e3e040ee9a3124fefbe28fa21808680afa2ce8d88601de4",
+    "frame_hash": "06f244a9841b76750ecb548a7a8e325d676714170be1005daa61a8940f5a4e11",
+    "seq": 2856,
+    "utc": "2026-11-17T21:12:57.078Z",
+    "tick": 2952,
+    "tick_frame": "29762c642f79ffbcca476ae9255d6798b3d6e05224d8ef8314f73b34fcdbc012",
     "data": {
       "btc_block_height": {
-        "height": 976273
+        "height": 976321
       },
       "btc_usd": {
-        "spot": "64909.905"
+        "spot": "64042.965"
       },
       "fx_usd": {
         "EUR": "0.9086",
@@ -58,49 +58,49 @@
         "CNY": "6.6793"
       },
       "crypto_market": {
-        "total_mcap_usd": "2200543186650",
-        "btc_dominance_pct": "59.2"
+        "total_mcap_usd": "2202093092890",
+        "btc_dominance_pct": "58.3"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
-        "hour_sat_vb": 1
+        "fastest_sat_vb": 3,
+        "hour_sat_vb": 3
       },
       "btc_mempool": {
-        "tx_count": 68659
+        "tx_count": 80442
       },
       "earthquakes_past_hour": {
-        "count": 7,
-        "max_mag": "2.6"
+        "count": 13,
+        "max_mag": "2.3"
       },
       "iss": {
-        "lat": "-37.057",
-        "lon": "-18.622"
+        "lat": "-5.452",
+        "lon": "68.642"
       },
       "space_weather": {
-        "kp": "1.0",
-        "at": "2026-11-17T09:00:00"
+        "kp": "2.0",
+        "at": "2026-11-17T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 109,
+        "gco2_kwh": 149,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 50522980,
-        "title": "Carnegie Mellon is putting computer science courses on YouTube for free"
+        "id": 50535230,
+        "title": "GPT‑6.2 Astra and Sol"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
-            "yes_price": "0.0875"
+            "question": "Will Jensen Huang rejoin NVIDIA by November 30, 2026?",
+            "yes_price": "0.0485"
           },
           {
-            "question": "Will Jensen Huang rejoin NVIDIA by November 30, 2026?",
-            "yes_price": "0.0375"
+            "question": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
+            "yes_price": "0.1455"
           },
           {
             "question": "Will Jensen Huang rejoin NVIDIA by December 31, 2026?",
-            "yes_price": "0.0825"
+            "yes_price": "0.1185"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "069cbbba42bc7dacdcdb5672030ab9d103ca9eedbbade1f3bae273bdf68c2c97"
+  "input_fingerprint": "67a54500881eb674e21d86bf6790472191bfaef85c141c94d744c300335cb7da"
 }
