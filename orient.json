@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-17T03:38:22.218Z",
+  "generated_utc": "2026-11-17T12:27:32.174Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2950,
-    "frame_hash": "56b195a617bbb98504c569434461b029762c5853422355c3f20445b966408aa0",
-    "utc": "2026-11-17T03:38:17.958Z"
+    "seq": 2951,
+    "frame_hash": "1d2079664af226000e3e040ee9a3124fefbe28fa21808680afa2ce8d88601de4",
+    "utc": "2026-11-17T12:27:27.392Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2951,
-      "head_frame": "56b195a617bbb98504c569434461b029762c5853422355c3f20445b966408aa0"
+      "count": 2952,
+      "head_frame": "1d2079664af226000e3e040ee9a3124fefbe28fa21808680afa2ce8d88601de4"
     },
     "world": {
-      "count": 2855,
-      "head_frame": "5b95f7ade4e4279fc66665cf9fc52fdecc502092bfe21546429dbe568bfdbe12"
+      "count": 2856,
+      "head_frame": "a84f0e02304dcc26138f1110e42452ead3eb357c5858c91e099942419bf877eb"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "5b95f7ade4e4279fc66665cf9fc52fdecc502092bfe21546429dbe568bfdbe12",
-    "seq": 2854,
-    "utc": "2026-11-17T03:38:21.201Z",
-    "tick": 2950,
-    "tick_frame": "56b195a617bbb98504c569434461b029762c5853422355c3f20445b966408aa0",
+    "frame_hash": "a84f0e02304dcc26138f1110e42452ead3eb357c5858c91e099942419bf877eb",
+    "seq": 2855,
+    "utc": "2026-11-17T12:27:31.400Z",
+    "tick": 2951,
+    "tick_frame": "1d2079664af226000e3e040ee9a3124fefbe28fa21808680afa2ce8d88601de4",
     "data": {
       "btc_block_height": {
-        "height": 976213
+        "height": 976273
       },
       "btc_usd": {
-        "spot": "65024.745"
+        "spot": "64909.905"
       },
       "fx_usd": {
         "EUR": "0.9086",
@@ -58,31 +58,31 @@
         "CNY": "6.6793"
       },
       "crypto_market": {
-        "total_mcap_usd": "2234224205405",
-        "btc_dominance_pct": "58.6"
+        "total_mcap_usd": "2200543186650",
+        "btc_dominance_pct": "59.2"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 78028
+        "tx_count": 68659
       },
       "earthquakes_past_hour": {
-        "count": 0,
-        "max_mag": null
+        "count": 7,
+        "max_mag": "2.6"
       },
       "iss": {
-        "lat": "42.416",
-        "lon": "-161.680"
+        "lat": "-37.057",
+        "lon": "-18.622"
       },
       "space_weather": {
-        "kp": "0.67",
-        "at": "2026-11-17T00:00:00"
+        "kp": "1.0",
+        "at": "2026-11-17T09:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 69,
-        "index": "low"
+        "gco2_kwh": 109,
+        "index": "moderate"
       },
       "hn_top": {
         "id": 50522980,
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Chargers vs. Ravens",
-            "yes_price": "0.825"
+            "question": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
+            "yes_price": "0.0875"
           },
           {
-            "question": "Warriors vs. Pelicans",
-            "yes_price": "0.0005"
+            "question": "Will Jensen Huang rejoin NVIDIA by November 30, 2026?",
+            "yes_price": "0.0375"
           },
           {
-            "question": "Trail Blazers vs. Timberwolves",
-            "yes_price": "0.0005"
+            "question": "Will Jensen Huang rejoin NVIDIA by December 31, 2026?",
+            "yes_price": "0.0825"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "7321ca43626aa1ad2f6a7c22b65ef7bc548143eaa9637724ed4d8e8cce29a723"
+  "input_fingerprint": "069cbbba42bc7dacdcdb5672030ab9d103ca9eedbbade1f3bae273bdf68c2c97"
 }
