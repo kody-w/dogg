@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-16T21:00:05.794Z",
+  "generated_utc": "2026-11-17T03:38:22.218Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2949,
-    "frame_hash": "ebcb6ce17c3e1163ac5d264942e4813caaec550543a9a21e4120cca6c6f5d52d",
-    "utc": "2026-11-16T20:59:58.130Z"
+    "seq": 2950,
+    "frame_hash": "56b195a617bbb98504c569434461b029762c5853422355c3f20445b966408aa0",
+    "utc": "2026-11-17T03:38:17.958Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2950,
-      "head_frame": "ebcb6ce17c3e1163ac5d264942e4813caaec550543a9a21e4120cca6c6f5d52d"
+      "count": 2951,
+      "head_frame": "56b195a617bbb98504c569434461b029762c5853422355c3f20445b966408aa0"
     },
     "world": {
-      "count": 2854,
-      "head_frame": "3c1b86b0410ab0bbed17481b3ead9ad303c82e5c5cd335643918acb2ba14150a"
+      "count": 2855,
+      "head_frame": "5b95f7ade4e4279fc66665cf9fc52fdecc502092bfe21546429dbe568bfdbe12"
     },
     "registry": {
       "count": 25,
@@ -39,68 +39,68 @@
     }
   },
   "world": {
-    "frame_hash": "3c1b86b0410ab0bbed17481b3ead9ad303c82e5c5cd335643918acb2ba14150a",
-    "seq": 2853,
-    "utc": "2026-11-16T21:00:04.441Z",
-    "tick": 2949,
-    "tick_frame": "ebcb6ce17c3e1163ac5d264942e4813caaec550543a9a21e4120cca6c6f5d52d",
+    "frame_hash": "5b95f7ade4e4279fc66665cf9fc52fdecc502092bfe21546429dbe568bfdbe12",
+    "seq": 2854,
+    "utc": "2026-11-17T03:38:21.201Z",
+    "tick": 2950,
+    "tick_frame": "56b195a617bbb98504c569434461b029762c5853422355c3f20445b966408aa0",
     "data": {
       "btc_block_height": {
-        "height": 976184
+        "height": 976213
       },
       "btc_usd": {
-        "spot": "65029.415"
+        "spot": "65024.745"
       },
       "fx_usd": {
-        "EUR": "0.9066",
-        "GBP": "0.7566",
-        "JPY": "159.7843",
-        "CNY": "6.6784"
+        "EUR": "0.9086",
+        "GBP": "0.7583",
+        "JPY": "159.5801",
+        "CNY": "6.6793"
       },
       "crypto_market": {
-        "total_mcap_usd": "2227677051915",
-        "btc_dominance_pct": "58.7"
+        "total_mcap_usd": "2234224205405",
+        "btc_dominance_pct": "58.6"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 76304
+        "tx_count": 78028
       },
       "earthquakes_past_hour": {
-        "count": 4,
-        "max_mag": "1.6"
+        "count": 0,
+        "max_mag": null
       },
       "iss": {
-        "lat": "-33.797",
-        "lon": "-138.258"
+        "lat": "42.416",
+        "lon": "-161.680"
       },
       "space_weather": {
         "kp": "0.67",
-        "at": "2026-11-16T15:00:00"
+        "at": "2026-11-17T00:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 180,
-        "index": "high"
+        "gco2_kwh": 69,
+        "index": "low"
       },
       "hn_top": {
-        "id": 50521045,
-        "title": "Outages reported at Bank of America, Chase, U.S. Bank, Wells Fargo and Zelle"
+        "id": 50522980,
+        "title": "Carnegie Mellon is putting computer science courses on YouTube for free"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will Kristi Noem win the 2028 Republican presidential nomination?",
-            "yes_price": "0.0015"
+            "question": "Chargers vs. Ravens",
+            "yes_price": "0.825"
           },
           {
-            "question": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
-            "yes_price": "0.0905"
+            "question": "Warriors vs. Pelicans",
+            "yes_price": "0.0005"
           },
           {
-            "question": "Will Germany win on 2026-11-16?",
-            "yes_price": "0.725"
+            "question": "Trail Blazers vs. Timberwolves",
+            "yes_price": "0.0005"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "4b5544998ddef6c8636de2fb9dfebf7d9662f587f69120d28254b7133a89b228"
+  "input_fingerprint": "7321ca43626aa1ad2f6a7c22b65ef7bc548143eaa9637724ed4d8e8cce29a723"
 }
