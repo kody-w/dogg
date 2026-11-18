@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-18T10:57:56.725Z",
+  "generated_utc": "2026-11-18T19:15:20.690Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2954,
-    "frame_hash": "113b3d2cd362127c3fd409b1aa551271c081b19a327542850d69a9fb43171ba2",
-    "utc": "2026-11-18T10:57:51.459Z"
+    "seq": 2955,
+    "frame_hash": "6be9fafbd0885e391eb71e765057933d821174eb76dd41bcdd69dd82e66daf88",
+    "utc": "2026-11-18T19:15:16.018Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2955,
-      "head_frame": "113b3d2cd362127c3fd409b1aa551271c081b19a327542850d69a9fb43171ba2"
+      "count": 2956,
+      "head_frame": "6be9fafbd0885e391eb71e765057933d821174eb76dd41bcdd69dd82e66daf88"
     },
     "world": {
-      "count": 2859,
-      "head_frame": "b3172d0406773b5157bdd285b90aa96755b236b0f704f914e3e613effc9fc9e6"
+      "count": 2860,
+      "head_frame": "a3b880c55794d8cc2530bfb2189ad59bc15685d7248eed70f6e9dcb781585580"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "b3172d0406773b5157bdd285b90aa96755b236b0f704f914e3e613effc9fc9e6",
-    "seq": 2858,
-    "utc": "2026-11-18T10:57:55.687Z",
-    "tick": 2954,
-    "tick_frame": "113b3d2cd362127c3fd409b1aa551271c081b19a327542850d69a9fb43171ba2",
+    "frame_hash": "a3b880c55794d8cc2530bfb2189ad59bc15685d7248eed70f6e9dcb781585580",
+    "seq": 2859,
+    "utc": "2026-11-18T19:15:19.874Z",
+    "tick": 2955,
+    "tick_frame": "6be9fafbd0885e391eb71e765057933d821174eb76dd41bcdd69dd82e66daf88",
     "data": {
       "btc_block_height": {
-        "height": 976418
+        "height": 976466
       },
       "btc_usd": {
-        "spot": "64287.395"
+        "spot": "62756.59"
       },
       "fx_usd": {
         "EUR": "0.9092",
@@ -58,49 +58,49 @@
         "CNY": "6.6799"
       },
       "crypto_market": {
-        "total_mcap_usd": "2183407184019",
-        "btc_dominance_pct": "59.1"
+        "total_mcap_usd": "2168023566694",
+        "btc_dominance_pct": "58.1"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
-        "hour_sat_vb": 1
+        "fastest_sat_vb": 5,
+        "hour_sat_vb": 3
       },
       "btc_mempool": {
-        "tx_count": 60728
+        "tx_count": 83122
       },
       "earthquakes_past_hour": {
-        "count": 4,
-        "max_mag": "2.3"
+        "count": 6,
+        "max_mag": "4.5"
       },
       "iss": {
-        "lat": "27.061",
-        "lon": "-169.028"
+        "lat": "-51.717",
+        "lon": "-177.655"
       },
       "space_weather": {
-        "kp": "2.33",
-        "at": "2026-11-18T06:00:00"
+        "kp": "2.67",
+        "at": "2026-11-18T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 170,
+        "gco2_kwh": 200,
         "index": "high"
       },
       "hn_top": {
-        "id": 50544261,
-        "title": "Codeberg.org Not Reachable"
+        "id": 50547374,
+        "title": "Unauthenticated remote code execution in Nginx (CVE-2026-123633/CVE-2026-123007)"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
+            "question": "Will the Fed decrease interest rates by 50+ bps after the December 2026 meeting?",
+            "yes_price": "0.0015"
+          },
+          {
+            "question": "Will there be no change in Fed interest rates after the December 2026 meeting?",
+            "yes_price": "0.022"
+          },
+          {
             "question": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
-            "yes_price": "0.117"
-          },
-          {
-            "question": "Will Jensen Huang rejoin NVIDIA by November 30, 2026?",
-            "yes_price": "0.025"
-          },
-          {
-            "question": "Will Jensen Huang rejoin NVIDIA by December 31, 2026?",
-            "yes_price": "0.0815"
+            "yes_price": "0.1195"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "006c641fdf8065de78f080ff2efa1616504e87961d87e60d9aee73c544aed619"
+  "input_fingerprint": "6e2c4d188f0dc93cde2cd4c055120c428f9e732d93bbece94413bad589151182"
 }
