@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-17T21:12:57.907Z",
+  "generated_utc": "2026-11-18T02:54:28.414Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2952,
-    "frame_hash": "29762c642f79ffbcca476ae9255d6798b3d6e05224d8ef8314f73b34fcdbc012",
-    "utc": "2026-11-17T21:12:53.578Z"
+    "seq": 2953,
+    "frame_hash": "4a900a9c18b4f881e50e808c4b17469e395d4a53e83dc84fba7367341a4a3e03",
+    "utc": "2026-11-18T02:54:23.824Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2953,
-      "head_frame": "29762c642f79ffbcca476ae9255d6798b3d6e05224d8ef8314f73b34fcdbc012"
+      "count": 2954,
+      "head_frame": "4a900a9c18b4f881e50e808c4b17469e395d4a53e83dc84fba7367341a4a3e03"
     },
     "world": {
-      "count": 2857,
-      "head_frame": "06f244a9841b76750ecb548a7a8e325d676714170be1005daa61a8940f5a4e11"
+      "count": 2858,
+      "head_frame": "b9ffc6862840a79ed1d6e03a14684cae4c1927a07475b6fddc34d8b6330e1de2"
     },
     "registry": {
       "count": 25,
@@ -39,68 +39,68 @@
     }
   },
   "world": {
-    "frame_hash": "06f244a9841b76750ecb548a7a8e325d676714170be1005daa61a8940f5a4e11",
-    "seq": 2856,
-    "utc": "2026-11-17T21:12:57.078Z",
-    "tick": 2952,
-    "tick_frame": "29762c642f79ffbcca476ae9255d6798b3d6e05224d8ef8314f73b34fcdbc012",
+    "frame_hash": "b9ffc6862840a79ed1d6e03a14684cae4c1927a07475b6fddc34d8b6330e1de2",
+    "seq": 2857,
+    "utc": "2026-11-18T02:54:27.049Z",
+    "tick": 2953,
+    "tick_frame": "4a900a9c18b4f881e50e808c4b17469e395d4a53e83dc84fba7367341a4a3e03",
     "data": {
       "btc_block_height": {
-        "height": 976321
+        "height": 976370
       },
       "btc_usd": {
-        "spot": "64042.965"
+        "spot": "64134.975"
       },
       "fx_usd": {
-        "EUR": "0.9086",
-        "GBP": "0.7583",
-        "JPY": "159.5801",
-        "CNY": "6.6793"
+        "EUR": "0.9092",
+        "GBP": "0.7576",
+        "JPY": "159.3931",
+        "CNY": "6.6799"
       },
       "crypto_market": {
-        "total_mcap_usd": "2202093092890",
-        "btc_dominance_pct": "58.3"
+        "total_mcap_usd": "2203345030010",
+        "btc_dominance_pct": "58.4"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
-        "hour_sat_vb": 3
+        "fastest_sat_vb": 1,
+        "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 80442
+        "tx_count": 63311
       },
       "earthquakes_past_hour": {
-        "count": 13,
-        "max_mag": "2.3"
+        "count": 7,
+        "max_mag": "5.8"
       },
       "iss": {
-        "lat": "-5.452",
-        "lon": "68.642"
+        "lat": "47.816",
+        "lon": "-142.141"
       },
       "space_weather": {
-        "kp": "2.0",
-        "at": "2026-11-17T18:00:00"
+        "kp": "3.0",
+        "at": "2026-11-17T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 149,
-        "index": "moderate"
+        "gco2_kwh": 84,
+        "index": "low"
       },
       "hn_top": {
-        "id": 50535230,
-        "title": "GPT‑6.2 Astra and Sol"
+        "id": 50538240,
+        "title": "Java4Shell: RCE in OpenJDK when processing Base64"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will Jensen Huang rejoin NVIDIA by November 30, 2026?",
-            "yes_price": "0.0485"
+            "question": "Knicks vs. Raptors",
+            "yes_price": "0.995"
           },
           {
             "question": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
-            "yes_price": "0.1455"
+            "yes_price": "0.116"
           },
           {
-            "question": "Will Jensen Huang rejoin NVIDIA by December 31, 2026?",
-            "yes_price": "0.1185"
+            "question": "Trail Blazers vs. Timberwolves",
+            "yes_price": "0.505"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "67a54500881eb674e21d86bf6790472191bfaef85c141c94d744c300335cb7da"
+  "input_fingerprint": "886b850bfa59a996709dce509c919c3ce2db60a3c600dccdea5d37af654fe52a"
 }
