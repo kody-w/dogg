@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-18T19:15:20.690Z",
+  "generated_utc": "2026-11-19T01:19:28.096Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2955,
-    "frame_hash": "6be9fafbd0885e391eb71e765057933d821174eb76dd41bcdd69dd82e66daf88",
-    "utc": "2026-11-18T19:15:16.018Z"
+    "seq": 2956,
+    "frame_hash": "4b54dc19a299d99c52682a7726771e64117138dff132d186e7e13e764ebded56",
+    "utc": "2026-11-19T01:19:24.254Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2956,
-      "head_frame": "6be9fafbd0885e391eb71e765057933d821174eb76dd41bcdd69dd82e66daf88"
+      "count": 2957,
+      "head_frame": "4b54dc19a299d99c52682a7726771e64117138dff132d186e7e13e764ebded56"
     },
     "world": {
-      "count": 2860,
-      "head_frame": "a3b880c55794d8cc2530bfb2189ad59bc15685d7248eed70f6e9dcb781585580"
+      "count": 2861,
+      "head_frame": "0ea8daf5e13c33e4035abb9251962b290ff01414b641724f93d7a0ceaebb2b6f"
     },
     "registry": {
       "count": 25,
@@ -39,68 +39,68 @@
     }
   },
   "world": {
-    "frame_hash": "a3b880c55794d8cc2530bfb2189ad59bc15685d7248eed70f6e9dcb781585580",
-    "seq": 2859,
-    "utc": "2026-11-18T19:15:19.874Z",
-    "tick": 2955,
-    "tick_frame": "6be9fafbd0885e391eb71e765057933d821174eb76dd41bcdd69dd82e66daf88",
+    "frame_hash": "0ea8daf5e13c33e4035abb9251962b290ff01414b641724f93d7a0ceaebb2b6f",
+    "seq": 2860,
+    "utc": "2026-11-19T01:19:27.315Z",
+    "tick": 2956,
+    "tick_frame": "4b54dc19a299d99c52682a7726771e64117138dff132d186e7e13e764ebded56",
     "data": {
       "btc_block_height": {
-        "height": 976466
+        "height": 976508
       },
       "btc_usd": {
-        "spot": "62756.59"
+        "spot": "62911.845"
       },
       "fx_usd": {
-        "EUR": "0.9092",
-        "GBP": "0.7576",
-        "JPY": "159.3931",
-        "CNY": "6.6799"
+        "EUR": "0.9113",
+        "GBP": "0.7600",
+        "JPY": "159.3608",
+        "CNY": "6.6808"
       },
       "crypto_market": {
-        "total_mcap_usd": "2168023566694",
+        "total_mcap_usd": "2179110100512",
         "btc_dominance_pct": "58.1"
       },
       "btc_fees": {
         "fastest_sat_vb": 5,
-        "hour_sat_vb": 3
+        "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 83122
+        "tx_count": 70927
       },
       "earthquakes_past_hour": {
         "count": 6,
-        "max_mag": "4.5"
+        "max_mag": "2.4"
       },
       "iss": {
-        "lat": "-51.717",
-        "lon": "-177.655"
+        "lat": "-45.004",
+        "lon": "47.694"
       },
       "space_weather": {
-        "kp": "2.67",
-        "at": "2026-11-18T15:00:00"
+        "kp": "1.33",
+        "at": "2026-11-18T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 200,
-        "index": "high"
+        "gco2_kwh": 167,
+        "index": "moderate"
       },
       "hn_top": {
-        "id": 50547374,
-        "title": "Unauthenticated remote code execution in Nginx (CVE-2026-123633/CVE-2026-123007)"
+        "id": 50552424,
+        "title": "Gemini 4 Neon"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
+            "question": "76ers vs. Magic",
+            "yes_price": "0.305"
+          },
+          {
+            "question": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+            "yes_price": "0.3795"
+          },
+          {
             "question": "Will the Fed decrease interest rates by 50+ bps after the December 2026 meeting?",
             "yes_price": "0.0015"
-          },
-          {
-            "question": "Will there be no change in Fed interest rates after the December 2026 meeting?",
-            "yes_price": "0.022"
-          },
-          {
-            "question": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
-            "yes_price": "0.1195"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "6e2c4d188f0dc93cde2cd4c055120c428f9e732d93bbece94413bad589151182"
+  "input_fingerprint": "74e19263a01ce0c0459660dc5fbee7f28d3efc9e9f2df6cf0211e5956128e484"
 }
