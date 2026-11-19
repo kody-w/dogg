@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-19T09:01:37.200Z",
+  "generated_utc": "2026-11-19T18:14:20.503Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2957,
-    "frame_hash": "361ac0629149bdc5d2f299d2355f39862857c2ae1610002c5feaef1b1bfc38fc",
-    "utc": "2026-11-19T09:01:32.598Z"
+    "seq": 2958,
+    "frame_hash": "88832668b462194cbe4547ae2cc1bd40d93eec7298e788e2629edf3014861918",
+    "utc": "2026-11-19T18:14:14.682Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2958,
-      "head_frame": "361ac0629149bdc5d2f299d2355f39862857c2ae1610002c5feaef1b1bfc38fc"
+      "count": 2959,
+      "head_frame": "88832668b462194cbe4547ae2cc1bd40d93eec7298e788e2629edf3014861918"
     },
     "world": {
-      "count": 2862,
-      "head_frame": "f31681fea18e9abe41ef51d0a90efbc42816ef1fbf2acc2ff001cb00bfe36f89"
+      "count": 2863,
+      "head_frame": "4b05da4b2087c4c23db071a6faffa54619262e8b7c51d310438d7d8165cb768b"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "f31681fea18e9abe41ef51d0a90efbc42816ef1fbf2acc2ff001cb00bfe36f89",
-    "seq": 2861,
-    "utc": "2026-11-19T09:01:36.419Z",
-    "tick": 2957,
-    "tick_frame": "361ac0629149bdc5d2f299d2355f39862857c2ae1610002c5feaef1b1bfc38fc",
+    "frame_hash": "4b05da4b2087c4c23db071a6faffa54619262e8b7c51d310438d7d8165cb768b",
+    "seq": 2862,
+    "utc": "2026-11-19T18:14:19.674Z",
+    "tick": 2958,
+    "tick_frame": "88832668b462194cbe4547ae2cc1bd40d93eec7298e788e2629edf3014861918",
     "data": {
       "btc_block_height": {
-        "height": 976560
+        "height": 976618
       },
       "btc_usd": {
-        "spot": "63660.06"
+        "spot": "62629.385"
       },
       "fx_usd": {
         "EUR": "0.9113",
@@ -58,49 +58,49 @@
         "CNY": "6.6808"
       },
       "crypto_market": {
-        "total_mcap_usd": "2194987734926",
+        "total_mcap_usd": "2169814908701",
         "btc_dominance_pct": "58.1"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
+        "fastest_sat_vb": 6,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 70125
+        "tx_count": 69857
       },
       "earthquakes_past_hour": {
-        "count": 7,
-        "max_mag": "2.3"
+        "count": 4,
+        "max_mag": "2.2"
       },
       "iss": {
-        "lat": "-40.382",
-        "lon": "-79.651"
+        "lat": "-29.048",
+        "lon": "123.780"
       },
       "space_weather": {
         "kp": "2.67",
-        "at": "2026-11-19T03:00:00"
+        "at": "2026-11-19T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 186,
+        "gco2_kwh": 196,
         "index": "high"
       },
       "hn_top": {
-        "id": 50552424,
-        "title": "Gemini 4 Neon"
+        "id": 50562754,
+        "title": "Anthropic hits $2T in Nasdaq debut"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-            "yes_price": "0.2485"
+            "yes_price": "0.4865"
           },
           {
-            "question": "Will the Fed decrease interest rates by 50+ bps after the December 2026 meeting?",
-            "yes_price": "0.0015"
+            "question": "Anthropic IPO closing market cap above $1.1T?",
+            "yes_price": "0.9715"
           },
           {
-            "question": "Will there be no change in Fed interest rates after the December 2026 meeting?",
-            "yes_price": "0.0225"
+            "question": "Will Anthropic's market cap be between $1.5T and $1.75T at market close on IPO day?",
+            "yes_price": "0.011"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "42763d389bdd793c6faf0e201f8c7b86f313c1f622ee940c1d864eafdb32b667"
+  "input_fingerprint": "9c9b7d4705547afdfaf85db3b246ce8b9f82de2f6f6bdc9cc602cf5bd6df466d"
 }
