@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-19T18:14:20.503Z",
+  "generated_utc": "2026-11-20T00:38:54.003Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2958,
-    "frame_hash": "88832668b462194cbe4547ae2cc1bd40d93eec7298e788e2629edf3014861918",
-    "utc": "2026-11-19T18:14:14.682Z"
+    "seq": 2959,
+    "frame_hash": "e5b9cf9e9c70c0e03123a406716aff43053c93416633ad01e128f20add5e89ae",
+    "utc": "2026-11-20T00:38:49.076Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2959,
-      "head_frame": "88832668b462194cbe4547ae2cc1bd40d93eec7298e788e2629edf3014861918"
+      "count": 2960,
+      "head_frame": "e5b9cf9e9c70c0e03123a406716aff43053c93416633ad01e128f20add5e89ae"
     },
     "world": {
-      "count": 2863,
-      "head_frame": "4b05da4b2087c4c23db071a6faffa54619262e8b7c51d310438d7d8165cb768b"
+      "count": 2864,
+      "head_frame": "c78995a38ae3e93a959c84c6e36a7b52695e7e36c482ecb72ce55432fe27a087"
     },
     "registry": {
       "count": 25,
@@ -39,68 +39,68 @@
     }
   },
   "world": {
-    "frame_hash": "4b05da4b2087c4c23db071a6faffa54619262e8b7c51d310438d7d8165cb768b",
-    "seq": 2862,
-    "utc": "2026-11-19T18:14:19.674Z",
-    "tick": 2958,
-    "tick_frame": "88832668b462194cbe4547ae2cc1bd40d93eec7298e788e2629edf3014861918",
+    "frame_hash": "c78995a38ae3e93a959c84c6e36a7b52695e7e36c482ecb72ce55432fe27a087",
+    "seq": 2863,
+    "utc": "2026-11-20T00:38:53.129Z",
+    "tick": 2959,
+    "tick_frame": "e5b9cf9e9c70c0e03123a406716aff43053c93416633ad01e128f20add5e89ae",
     "data": {
       "btc_block_height": {
-        "height": 976618
+        "height": 976660
       },
       "btc_usd": {
-        "spot": "62629.385"
+        "spot": "61952.665"
       },
       "fx_usd": {
-        "EUR": "0.9113",
-        "GBP": "0.7600",
-        "JPY": "159.3608",
-        "CNY": "6.6808"
+        "EUR": "0.9107",
+        "GBP": "0.7624",
+        "JPY": "159.7495",
+        "CNY": "6.6920"
       },
       "crypto_market": {
-        "total_mcap_usd": "2169814908701",
-        "btc_dominance_pct": "58.1"
+        "total_mcap_usd": "2150686604612",
+        "btc_dominance_pct": "58.0"
       },
       "btc_fees": {
-        "fastest_sat_vb": 6,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 69857
+        "tx_count": 60549
       },
       "earthquakes_past_hour": {
-        "count": 4,
-        "max_mag": "2.2"
+        "count": 14,
+        "max_mag": "2.4"
       },
       "iss": {
-        "lat": "-29.048",
-        "lon": "123.780"
+        "lat": "-51.764",
+        "lon": "87.788"
       },
       "space_weather": {
-        "kp": "2.67",
-        "at": "2026-11-19T15:00:00"
+        "kp": "1.33",
+        "at": "2026-11-19T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 196,
-        "index": "high"
+        "gco2_kwh": 166,
+        "index": "moderate"
       },
       "hn_top": {
         "id": 50562754,
-        "title": "Anthropic hits $2T in Nasdaq debut"
+        "title": "Anthropic’s Nasdaq debut"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-            "yes_price": "0.4865"
+            "question": "Spread: Grizzlies (-5.5)",
+            "yes_price": "0.505"
           },
           {
-            "question": "Anthropic IPO closing market cap above $1.1T?",
-            "yes_price": "0.9715"
+            "question": "Will there be no change in Fed interest rates after the December 2026 meeting?",
+            "yes_price": "0.0295"
           },
           {
-            "question": "Will Anthropic's market cap be between $1.5T and $1.75T at market close on IPO day?",
-            "yes_price": "0.011"
+            "question": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
+            "yes_price": "0.9995"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "9c9b7d4705547afdfaf85db3b246ce8b9f82de2f6f6bdc9cc602cf5bd6df466d"
+  "input_fingerprint": "109e130c651b123f05fae6d4d91514b3c60705d373691ae16bd5e3cbeaf2bf72"
 }
