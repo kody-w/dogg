@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-20T00:38:54.003Z",
+  "generated_utc": "2026-11-20T07:44:55.517Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2959,
-    "frame_hash": "e5b9cf9e9c70c0e03123a406716aff43053c93416633ad01e128f20add5e89ae",
-    "utc": "2026-11-20T00:38:49.076Z"
+    "seq": 2960,
+    "frame_hash": "fe16fb16920cbb2f702c049dc25502b5f38b391242f25693c6b2e9fa4bdb2d7d",
+    "utc": "2026-11-20T07:44:50.741Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2960,
-      "head_frame": "e5b9cf9e9c70c0e03123a406716aff43053c93416633ad01e128f20add5e89ae"
+      "count": 2961,
+      "head_frame": "fe16fb16920cbb2f702c049dc25502b5f38b391242f25693c6b2e9fa4bdb2d7d"
     },
     "world": {
-      "count": 2864,
-      "head_frame": "c78995a38ae3e93a959c84c6e36a7b52695e7e36c482ecb72ce55432fe27a087"
+      "count": 2865,
+      "head_frame": "48a934b8942ab3d5fbffe50634b7ae3dd47d70c795e95b47502f3f212cf6eb98"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "c78995a38ae3e93a959c84c6e36a7b52695e7e36c482ecb72ce55432fe27a087",
-    "seq": 2863,
-    "utc": "2026-11-20T00:38:53.129Z",
-    "tick": 2959,
-    "tick_frame": "e5b9cf9e9c70c0e03123a406716aff43053c93416633ad01e128f20add5e89ae",
+    "frame_hash": "48a934b8942ab3d5fbffe50634b7ae3dd47d70c795e95b47502f3f212cf6eb98",
+    "seq": 2864,
+    "utc": "2026-11-20T07:44:54.491Z",
+    "tick": 2960,
+    "tick_frame": "fe16fb16920cbb2f702c049dc25502b5f38b391242f25693c6b2e9fa4bdb2d7d",
     "data": {
       "btc_block_height": {
-        "height": 976660
+        "height": 976706
       },
       "btc_usd": {
-        "spot": "61952.665"
+        "spot": "61673.495"
       },
       "fx_usd": {
         "EUR": "0.9107",
@@ -58,49 +58,49 @@
         "CNY": "6.6920"
       },
       "crypto_market": {
-        "total_mcap_usd": "2150686604612",
-        "btc_dominance_pct": "58.0"
+        "total_mcap_usd": "2130470812300",
+        "btc_dominance_pct": "57.9"
       },
       "btc_fees": {
         "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 60549
+        "tx_count": 69205
       },
       "earthquakes_past_hour": {
-        "count": 14,
-        "max_mag": "2.4"
+        "count": 25,
+        "max_mag": "5.0"
       },
       "iss": {
-        "lat": "-51.764",
-        "lon": "87.788"
+        "lat": "42.837",
+        "lon": "-155.024"
       },
       "space_weather": {
-        "kp": "1.33",
-        "at": "2026-11-19T21:00:00"
+        "kp": "2.0",
+        "at": "2026-11-20T03:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 166,
-        "index": "moderate"
+        "gco2_kwh": 221,
+        "index": "high"
       },
       "hn_top": {
-        "id": 50562754,
-        "title": "Anthropic’s Nasdaq debut"
+        "id": 50569226,
+        "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Spread: Grizzlies (-5.5)",
-            "yes_price": "0.505"
-          },
-          {
             "question": "Will there be no change in Fed interest rates after the December 2026 meeting?",
-            "yes_price": "0.0295"
+            "yes_price": "0.0325"
           },
           {
-            "question": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
-            "yes_price": "0.9995"
+            "question": "Will the Fed decrease interest rates by 50+ bps after the December 2026 meeting?",
+            "yes_price": "0.0015"
+          },
+          {
+            "question": "Will the Fed decrease interest rates by 25 bps after the December 2026 meeting?",
+            "yes_price": "0.0025"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "109e130c651b123f05fae6d4d91514b3c60705d373691ae16bd5e3cbeaf2bf72"
+  "input_fingerprint": "0fd8a290ead2a8e322e6fee82e1d378a216dba68ebd040a14e64d2ba75229cfc"
 }

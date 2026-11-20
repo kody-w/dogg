@@ -1,0 +1,79 @@
+{
+  "spec": "rapp/1",
+  "kind": "world.snapshot",
+  "stream_id": "world:@kody-w/dogg",
+  "seq": 2864,
+  "utc": "2026-11-20T07:44:54.491Z",
+  "payload": {
+    "tick": 2960,
+    "tick_frame": "fe16fb16920cbb2f702c049dc25502b5f38b391242f25693c6b2e9fa4bdb2d7d",
+    "fetched_utc": "2026-11-20T07:44:54.491Z",
+    "world": {
+      "btc_block_height": {
+        "height": 976706
+      },
+      "btc_usd": {
+        "spot": "61673.495"
+      },
+      "fx_usd": {
+        "EUR": "0.9107",
+        "GBP": "0.7624",
+        "JPY": "159.7495",
+        "CNY": "6.6920"
+      },
+      "crypto_market": {
+        "total_mcap_usd": "2130470812300",
+        "btc_dominance_pct": "57.9"
+      },
+      "btc_fees": {
+        "fastest_sat_vb": 1,
+        "hour_sat_vb": 1
+      },
+      "btc_mempool": {
+        "tx_count": 69205
+      },
+      "earthquakes_past_hour": {
+        "count": 25,
+        "max_mag": "5.0"
+      },
+      "iss": {
+        "lat": "42.837",
+        "lon": "-155.024"
+      },
+      "space_weather": {
+        "kp": "2.0",
+        "at": "2026-11-20T03:00:00"
+      },
+      "grid_carbon_gb": {
+        "gco2_kwh": 221,
+        "index": "high"
+      },
+      "hn_top": {
+        "id": 50569226,
+        "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)"
+      },
+      "prediction_markets": {
+        "top_by_volume": [
+          {
+            "question": "Will there be no change in Fed interest rates after the December 2026 meeting?",
+            "yes_price": "0.0325"
+          },
+          {
+            "question": "Will the Fed decrease interest rates by 50+ bps after the December 2026 meeting?",
+            "yes_price": "0.0015"
+          },
+          {
+            "question": "Will the Fed decrease interest rates by 25 bps after the December 2026 meeting?",
+            "yes_price": "0.0025"
+          }
+        ]
+      }
+    },
+    "sources_failed": []
+  },
+  "payload_hash": "f512ece50405dad04a61f5426a68a38332c987c5c65a2136e54ba29d6a984436",
+  "prev": "056b2c02e9c45874f20912adcf5eef33465ff45e7658a8f924cab711813e2562",
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "48a934b8942ab3d5fbffe50634b7ae3dd47d70c795e95b47502f3f212cf6eb98"
+}
