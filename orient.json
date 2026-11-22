@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-22T18:55:38.461Z",
+  "generated_utc": "2026-11-22T23:57:44.616Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2969,
-    "frame_hash": "1b3a5be67b519a6b74f0e91180df3bd5fd5b7b17c45aee9dbc0e798568d85032",
-    "utc": "2026-11-22T18:55:33.020Z"
+    "seq": 2970,
+    "frame_hash": "d3fb1fe3a07559ff5b4eeac89a67fb030fb204a39f406ee53d8373231fae5717",
+    "utc": "2026-11-22T23:57:40.538Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2970,
-      "head_frame": "1b3a5be67b519a6b74f0e91180df3bd5fd5b7b17c45aee9dbc0e798568d85032"
+      "count": 2971,
+      "head_frame": "d3fb1fe3a07559ff5b4eeac89a67fb030fb204a39f406ee53d8373231fae5717"
     },
     "world": {
-      "count": 2874,
-      "head_frame": "1e12202989a1eed70ebbed1ba0f913a2505884e75e903f2b6196befb70b31faf"
+      "count": 2875,
+      "head_frame": "135105211e1d6350097dea558d7a1f5917158f0fcc9bd1142bf72784cbaf4a59"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "1e12202989a1eed70ebbed1ba0f913a2505884e75e903f2b6196befb70b31faf",
-    "seq": 2873,
-    "utc": "2026-11-22T18:55:37.448Z",
-    "tick": 2969,
-    "tick_frame": "1b3a5be67b519a6b74f0e91180df3bd5fd5b7b17c45aee9dbc0e798568d85032",
+    "frame_hash": "135105211e1d6350097dea558d7a1f5917158f0fcc9bd1142bf72784cbaf4a59",
+    "seq": 2874,
+    "utc": "2026-11-22T23:57:43.600Z",
+    "tick": 2970,
+    "tick_frame": "d3fb1fe3a07559ff5b4eeac89a67fb030fb204a39f406ee53d8373231fae5717",
     "data": {
       "btc_block_height": {
-        "height": 977088
+        "height": 977125
       },
       "btc_usd": {
-        "spot": "60686.835"
+        "spot": "61123.05"
       },
       "fx_usd": {
         "EUR": "0.9113",
@@ -58,48 +58,48 @@
         "CNY": "6.6933"
       },
       "crypto_market": {
-        "total_mcap_usd": "2072073751730",
-        "btc_dominance_pct": "58.7"
+        "total_mcap_usd": "2088141985351",
+        "btc_dominance_pct": "58.9"
       },
       "btc_fees": {
         "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 74454
+        "tx_count": 72562
       },
       "earthquakes_past_hour": {
-        "count": 10,
-        "max_mag": "4.6"
+        "count": 9,
+        "max_mag": "2.8"
       },
       "iss": {
-        "lat": "-18.825",
-        "lon": "85.112"
+        "lat": "-45.451",
+        "lon": "119.665"
       },
       "space_weather": {
-        "kp": "0.33",
-        "at": "2026-11-22T15:00:00"
+        "kp": "0.67",
+        "at": "2026-11-22T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 171,
-        "index": "high"
+        "gco2_kwh": 147,
+        "index": "moderate"
       },
       "hn_top": {
-        "id": 50601525,
-        "title": "Perplexity and Intelligence"
+        "id": 50605045,
+        "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "ATP World Tour Finals, Final Stage: Alexander Zverev vs Carlos Alcaraz",
-            "yes_price": "0.1885"
+            "question": "Jets vs. Chargers",
+            "yes_price": "0.9995"
           },
           {
-            "question": "Ravens vs. Panthers",
-            "yes_price": "0.605"
+            "question": "Raiders vs. Broncos",
+            "yes_price": "0.0515"
           },
           {
-            "question": "Steelers vs. Eagles",
+            "question": "Jaguars vs. Giants",
             "yes_price": "0.215"
           }
         ]
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "1190ae9087687085017bcbb92bbf6a7974809d139c4517316be07d313a2c760d"
+  "input_fingerprint": "daaf4d13908fff3796e17881ddf69fb6325d4c20d7e61ffa30921b6eed780b3b"
 }
