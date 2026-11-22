@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-22T11:51:15.618Z",
+  "generated_utc": "2026-11-22T18:55:38.461Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2968,
-    "frame_hash": "b64c6e132fe6bb7be1850238098215d0ad3068d1a1047af0c61e1f2e75d95e1b",
-    "utc": "2026-11-22T11:51:10.499Z"
+    "seq": 2969,
+    "frame_hash": "1b3a5be67b519a6b74f0e91180df3bd5fd5b7b17c45aee9dbc0e798568d85032",
+    "utc": "2026-11-22T18:55:33.020Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2969,
-      "head_frame": "b64c6e132fe6bb7be1850238098215d0ad3068d1a1047af0c61e1f2e75d95e1b"
+      "count": 2970,
+      "head_frame": "1b3a5be67b519a6b74f0e91180df3bd5fd5b7b17c45aee9dbc0e798568d85032"
     },
     "world": {
-      "count": 2873,
-      "head_frame": "6b25db4f36a7b2fc2794adcdda9f301af3dda21b8da9f4740816b36c4ef996d0"
+      "count": 2874,
+      "head_frame": "1e12202989a1eed70ebbed1ba0f913a2505884e75e903f2b6196befb70b31faf"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "6b25db4f36a7b2fc2794adcdda9f301af3dda21b8da9f4740816b36c4ef996d0",
-    "seq": 2872,
-    "utc": "2026-11-22T11:51:14.280Z",
-    "tick": 2968,
-    "tick_frame": "b64c6e132fe6bb7be1850238098215d0ad3068d1a1047af0c61e1f2e75d95e1b",
+    "frame_hash": "1e12202989a1eed70ebbed1ba0f913a2505884e75e903f2b6196befb70b31faf",
+    "seq": 2873,
+    "utc": "2026-11-22T18:55:37.448Z",
+    "tick": 2969,
+    "tick_frame": "1b3a5be67b519a6b74f0e91180df3bd5fd5b7b17c45aee9dbc0e798568d85032",
     "data": {
       "btc_block_height": {
-        "height": 977050
+        "height": 977088
       },
       "btc_usd": {
-        "spot": "60851.585"
+        "spot": "60686.835"
       },
       "fx_usd": {
         "EUR": "0.9113",
@@ -58,49 +58,49 @@
         "CNY": "6.6933"
       },
       "crypto_market": {
-        "total_mcap_usd": "2075723803877",
-        "btc_dominance_pct": "58.9"
+        "total_mcap_usd": "2072073751730",
+        "btc_dominance_pct": "58.7"
       },
       "btc_fees": {
         "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 64126
+        "tx_count": 74454
       },
       "earthquakes_past_hour": {
-        "count": 9,
-        "max_mag": "1.8"
+        "count": 10,
+        "max_mag": "4.6"
       },
       "iss": {
-        "lat": "-0.988",
-        "lon": "-3.390"
+        "lat": "-18.825",
+        "lon": "85.112"
       },
       "space_weather": {
-        "kp": "2.33",
-        "at": "2026-11-22T06:00:00"
+        "kp": "0.33",
+        "at": "2026-11-22T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 93,
-        "index": "moderate"
+        "gco2_kwh": 171,
+        "index": "high"
       },
       "hn_top": {
-        "id": 50596133,
-        "title": "Toyota, Nissan, and Honda to standardize parts to lower costs"
+        "id": 50601525,
+        "title": "Perplexity and Intelligence"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will FC Barcelona win on 2026-11-22?",
-            "yes_price": "0.835"
+            "question": "ATP World Tour Finals, Final Stage: Alexander Zverev vs Carlos Alcaraz",
+            "yes_price": "0.1885"
           },
           {
-            "question": "Israel x Iran ceasefire continues through November 22?",
-            "yes_price": "0.992"
+            "question": "Ravens vs. Panthers",
+            "yes_price": "0.605"
           },
           {
-            "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
-            "yes_price": "0.0015"
+            "question": "Steelers vs. Eagles",
+            "yes_price": "0.215"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "6f68f9326a1029d00dc6ac09d7004a6d281e470b4b0006954e05243e400b05d4"
+  "input_fingerprint": "1190ae9087687085017bcbb92bbf6a7974809d139c4517316be07d313a2c760d"
 }
