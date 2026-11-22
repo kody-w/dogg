@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-22T03:28:46.950Z",
+  "generated_utc": "2026-11-22T11:51:15.618Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2967,
-    "frame_hash": "db6b132a34b0f110248cbba8a8899f6f592b96d579de520c16cd8314c1f42419",
-    "utc": "2026-11-22T03:28:42.260Z"
+    "seq": 2968,
+    "frame_hash": "b64c6e132fe6bb7be1850238098215d0ad3068d1a1047af0c61e1f2e75d95e1b",
+    "utc": "2026-11-22T11:51:10.499Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2968,
-      "head_frame": "db6b132a34b0f110248cbba8a8899f6f592b96d579de520c16cd8314c1f42419"
+      "count": 2969,
+      "head_frame": "b64c6e132fe6bb7be1850238098215d0ad3068d1a1047af0c61e1f2e75d95e1b"
     },
     "world": {
-      "count": 2872,
-      "head_frame": "725452614e3043e61c12a36867d42d2b84f05d04bbc9b0daf8659c5631a85480"
+      "count": 2873,
+      "head_frame": "6b25db4f36a7b2fc2794adcdda9f301af3dda21b8da9f4740816b36c4ef996d0"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "725452614e3043e61c12a36867d42d2b84f05d04bbc9b0daf8659c5631a85480",
-    "seq": 2871,
-    "utc": "2026-11-22T03:28:45.915Z",
-    "tick": 2967,
-    "tick_frame": "db6b132a34b0f110248cbba8a8899f6f592b96d579de520c16cd8314c1f42419",
+    "frame_hash": "6b25db4f36a7b2fc2794adcdda9f301af3dda21b8da9f4740816b36c4ef996d0",
+    "seq": 2872,
+    "utc": "2026-11-22T11:51:14.280Z",
+    "tick": 2968,
+    "tick_frame": "b64c6e132fe6bb7be1850238098215d0ad3068d1a1047af0c61e1f2e75d95e1b",
     "data": {
       "btc_block_height": {
-        "height": 976984
+        "height": 977050
       },
       "btc_usd": {
-        "spot": "59267.945"
+        "spot": "60851.585"
       },
       "fx_usd": {
         "EUR": "0.9113",
@@ -58,49 +58,49 @@
         "CNY": "6.6933"
       },
       "crypto_market": {
-        "total_mcap_usd": "2065075330958",
-        "btc_dominance_pct": "57.8"
+        "total_mcap_usd": "2075723803877",
+        "btc_dominance_pct": "58.9"
       },
       "btc_fees": {
         "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 61131
+        "tx_count": 64126
       },
       "earthquakes_past_hour": {
-        "count": 6,
+        "count": 9,
         "max_mag": "1.8"
       },
       "iss": {
-        "lat": "-24.085",
-        "lon": "-34.314"
+        "lat": "-0.988",
+        "lon": "-3.390"
       },
       "space_weather": {
-        "kp": "0.67",
-        "at": "2026-11-22T00:00:00"
+        "kp": "2.33",
+        "at": "2026-11-22T06:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 83,
-        "index": "low"
+        "gco2_kwh": 93,
+        "index": "moderate"
       },
       "hn_top": {
-        "id": 50582069,
-        "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'"
+        "id": 50596133,
+        "title": "Toyota, Nissan, and Honda to standardize parts to lower costs"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Virginia Tech vs. Miami (FL)",
-            "yes_price": "0.0175"
+            "question": "Will FC Barcelona win on 2026-11-22?",
+            "yes_price": "0.835"
           },
           {
-            "question": "Pelicans vs. Spurs",
-            "yes_price": "0.0005"
+            "question": "Israel x Iran ceasefire continues through November 22?",
+            "yes_price": "0.992"
           },
           {
-            "question": "Grizzlies vs. Timberwolves",
-            "yes_price": "0.0005"
+            "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
+            "yes_price": "0.0015"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "99746427e96cd32eb5661ed383e8e81d73e997fa5ba0d8beebee5002f434c614"
+  "input_fingerprint": "6f68f9326a1029d00dc6ac09d7004a6d281e470b4b0006954e05243e400b05d4"
 }
