@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-21T23:35:02.298Z",
+  "generated_utc": "2026-11-22T03:28:46.950Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2966,
-    "frame_hash": "fedb31e0f84d29ef8cf1da9e187f2a5387ab9ceab9da212a6fad90dd20933768",
-    "utc": "2026-11-21T23:34:51.837Z"
+    "seq": 2967,
+    "frame_hash": "db6b132a34b0f110248cbba8a8899f6f592b96d579de520c16cd8314c1f42419",
+    "utc": "2026-11-22T03:28:42.260Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2967,
-      "head_frame": "fedb31e0f84d29ef8cf1da9e187f2a5387ab9ceab9da212a6fad90dd20933768"
+      "count": 2968,
+      "head_frame": "db6b132a34b0f110248cbba8a8899f6f592b96d579de520c16cd8314c1f42419"
     },
     "world": {
-      "count": 2871,
-      "head_frame": "08f7784e910cec41921343e118854d05eb02e94b86c6fb1544d3ed369f0626b7"
+      "count": 2872,
+      "head_frame": "725452614e3043e61c12a36867d42d2b84f05d04bbc9b0daf8659c5631a85480"
     },
     "registry": {
       "count": 25,
@@ -39,50 +39,50 @@
     }
   },
   "world": {
-    "frame_hash": "08f7784e910cec41921343e118854d05eb02e94b86c6fb1544d3ed369f0626b7",
-    "seq": 2870,
-    "utc": "2026-11-21T23:35:01.499Z",
-    "tick": 2966,
-    "tick_frame": "fedb31e0f84d29ef8cf1da9e187f2a5387ab9ceab9da212a6fad90dd20933768",
+    "frame_hash": "725452614e3043e61c12a36867d42d2b84f05d04bbc9b0daf8659c5631a85480",
+    "seq": 2871,
+    "utc": "2026-11-22T03:28:45.915Z",
+    "tick": 2967,
+    "tick_frame": "db6b132a34b0f110248cbba8a8899f6f592b96d579de520c16cd8314c1f42419",
     "data": {
       "btc_block_height": {
-        "height": 976964
+        "height": 976984
       },
       "btc_usd": {
-        "spot": "60139.575"
+        "spot": "59267.945"
       },
       "fx_usd": {
-        "EUR": "0.9107",
-        "GBP": "0.7624",
-        "JPY": "159.7495",
-        "CNY": "6.6920"
+        "EUR": "0.9113",
+        "GBP": "0.7636",
+        "JPY": "158.7475",
+        "CNY": "6.6933"
       },
       "crypto_market": {
-        "total_mcap_usd": "2085573125451",
-        "btc_dominance_pct": "57.9"
+        "total_mcap_usd": "2065075330958",
+        "btc_dominance_pct": "57.8"
       },
       "btc_fees": {
         "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 71807
+        "tx_count": 61131
       },
       "earthquakes_past_hour": {
-        "count": 9,
-        "max_mag": "1.9"
+        "count": 6,
+        "max_mag": "1.8"
       },
       "iss": {
-        "lat": "19.334",
-        "lon": "-159.483"
+        "lat": "-24.085",
+        "lon": "-34.314"
       },
       "space_weather": {
-        "kp": "1.33",
-        "at": "2026-11-21T18:00:00"
+        "kp": "0.67",
+        "at": "2026-11-22T00:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 115,
-        "index": "moderate"
+        "gco2_kwh": 83,
+        "index": "low"
       },
       "hn_top": {
         "id": 50582069,
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Dota 2: Team Spirit vs Xtreme Gaming (BO3) - BLAST Slam Group B",
+            "question": "Virginia Tech vs. Miami (FL)",
+            "yes_price": "0.0175"
+          },
+          {
+            "question": "Pelicans vs. Spurs",
             "yes_price": "0.0005"
           },
           {
-            "question": "LSU vs. Tennessee",
-            "yes_price": "0.515"
-          },
-          {
-            "question": "Trail Blazers vs. Knicks",
-            "yes_price": "0.505"
+            "question": "Grizzlies vs. Timberwolves",
+            "yes_price": "0.0005"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "743114aeb02a39130ea2d0282753cf83c597a22be07dc4b628671aad39baa1ed"
+  "input_fingerprint": "99746427e96cd32eb5661ed383e8e81d73e997fa5ba0d8beebee5002f434c614"
 }
