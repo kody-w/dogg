@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-22T23:57:44.616Z",
+  "generated_utc": "2026-11-23T06:10:37.411Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2970,
-    "frame_hash": "d3fb1fe3a07559ff5b4eeac89a67fb030fb204a39f406ee53d8373231fae5717",
-    "utc": "2026-11-22T23:57:40.538Z"
+    "seq": 2971,
+    "frame_hash": "0ecca74e6464635709bd5e3f33c0b51b5da0439b8aa9139ad09338e40693312f",
+    "utc": "2026-11-23T06:10:33.490Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2971,
-      "head_frame": "d3fb1fe3a07559ff5b4eeac89a67fb030fb204a39f406ee53d8373231fae5717"
+      "count": 2972,
+      "head_frame": "0ecca74e6464635709bd5e3f33c0b51b5da0439b8aa9139ad09338e40693312f"
     },
     "world": {
-      "count": 2875,
-      "head_frame": "135105211e1d6350097dea558d7a1f5917158f0fcc9bd1142bf72784cbaf4a59"
+      "count": 2876,
+      "head_frame": "4afe260c04190859acc3a41827381525e7d4ab2b630610c3d7a334ae34e4fd32"
     },
     "registry": {
       "count": 25,
@@ -39,68 +39,68 @@
     }
   },
   "world": {
-    "frame_hash": "135105211e1d6350097dea558d7a1f5917158f0fcc9bd1142bf72784cbaf4a59",
-    "seq": 2874,
-    "utc": "2026-11-22T23:57:43.600Z",
-    "tick": 2970,
-    "tick_frame": "d3fb1fe3a07559ff5b4eeac89a67fb030fb204a39f406ee53d8373231fae5717",
+    "frame_hash": "4afe260c04190859acc3a41827381525e7d4ab2b630610c3d7a334ae34e4fd32",
+    "seq": 2875,
+    "utc": "2026-11-23T06:10:36.388Z",
+    "tick": 2971,
+    "tick_frame": "0ecca74e6464635709bd5e3f33c0b51b5da0439b8aa9139ad09338e40693312f",
     "data": {
       "btc_block_height": {
-        "height": 977125
+        "height": 977155
       },
       "btc_usd": {
-        "spot": "61123.05"
+        "spot": "61671.825"
       },
       "fx_usd": {
-        "EUR": "0.9113",
+        "EUR": "0.9111",
         "GBP": "0.7636",
-        "JPY": "158.7475",
-        "CNY": "6.6933"
+        "JPY": "158.7014",
+        "CNY": "6.6813"
       },
       "crypto_market": {
-        "total_mcap_usd": "2088141985351",
+        "total_mcap_usd": "2098272343739",
         "btc_dominance_pct": "58.9"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 72562
+        "tx_count": 73669
       },
       "earthquakes_past_hour": {
-        "count": 9,
-        "max_mag": "2.8"
+        "count": 10,
+        "max_mag": "3.3"
       },
       "iss": {
-        "lat": "-45.451",
-        "lon": "119.665"
+        "lat": "-42.687",
+        "lon": "31.449"
       },
       "space_weather": {
-        "kp": "0.67",
-        "at": "2026-11-22T18:00:00"
+        "kp": "0.33",
+        "at": "2026-11-23T03:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 147,
-        "index": "moderate"
+        "gco2_kwh": 202,
+        "index": "high"
       },
       "hn_top": {
-        "id": 50605045,
-        "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript"
+        "id": 50606192,
+        "title": "Free alternative TV network built from the Internet Archive's forgotten videos"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Jets vs. Chargers",
-            "yes_price": "0.9995"
+            "question": "Israel x Iran ceasefire continues through November 22?",
+            "yes_price": "0.9975"
           },
           {
-            "question": "Raiders vs. Broncos",
-            "yes_price": "0.0515"
+            "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
+            "yes_price": "0.0015"
           },
           {
-            "question": "Jaguars vs. Giants",
-            "yes_price": "0.215"
+            "question": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
+            "yes_price": "0.171"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "daaf4d13908fff3796e17881ddf69fb6325d4c20d7e61ffa30921b6eed780b3b"
+  "input_fingerprint": "9f10949805c16573d02edbd203e03873d7da14ffbce9ecc7ac109add31872438"
 }
