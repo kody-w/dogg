@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-23T06:10:37.411Z",
+  "generated_utc": "2026-11-23T18:01:30.608Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2971,
-    "frame_hash": "0ecca74e6464635709bd5e3f33c0b51b5da0439b8aa9139ad09338e40693312f",
-    "utc": "2026-11-23T06:10:33.490Z"
+    "seq": 2972,
+    "frame_hash": "f1985b0d9356de0f815b91f1c0aadc0b0f27d321f6beff32348add76e7e2d2ec",
+    "utc": "2026-11-23T18:01:22.783Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2972,
-      "head_frame": "0ecca74e6464635709bd5e3f33c0b51b5da0439b8aa9139ad09338e40693312f"
+      "count": 2973,
+      "head_frame": "f1985b0d9356de0f815b91f1c0aadc0b0f27d321f6beff32348add76e7e2d2ec"
     },
     "world": {
-      "count": 2876,
-      "head_frame": "4afe260c04190859acc3a41827381525e7d4ab2b630610c3d7a334ae34e4fd32"
+      "count": 2877,
+      "head_frame": "dc4a778a0bc14b09b0a5721732c2eb88759b5dd56a5009fb681a3a9b6a308e51"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "4afe260c04190859acc3a41827381525e7d4ab2b630610c3d7a334ae34e4fd32",
-    "seq": 2875,
-    "utc": "2026-11-23T06:10:36.388Z",
-    "tick": 2971,
-    "tick_frame": "0ecca74e6464635709bd5e3f33c0b51b5da0439b8aa9139ad09338e40693312f",
+    "frame_hash": "dc4a778a0bc14b09b0a5721732c2eb88759b5dd56a5009fb681a3a9b6a308e51",
+    "seq": 2876,
+    "utc": "2026-11-23T18:01:29.653Z",
+    "tick": 2972,
+    "tick_frame": "f1985b0d9356de0f815b91f1c0aadc0b0f27d321f6beff32348add76e7e2d2ec",
     "data": {
       "btc_block_height": {
-        "height": 977155
+        "height": 977245
       },
       "btc_usd": {
-        "spot": "61671.825"
+        "spot": "61541.115"
       },
       "fx_usd": {
         "EUR": "0.9111",
@@ -58,49 +58,49 @@
         "CNY": "6.6813"
       },
       "crypto_market": {
-        "total_mcap_usd": "2098272343739",
-        "btc_dominance_pct": "58.9"
+        "total_mcap_usd": "2128696012284",
+        "btc_dominance_pct": "57.9"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 73669
+        "tx_count": 68614
       },
       "earthquakes_past_hour": {
-        "count": 10,
-        "max_mag": "3.3"
+        "count": 6,
+        "max_mag": "4.2"
       },
       "iss": {
-        "lat": "-42.687",
-        "lon": "31.449"
+        "lat": "2.901",
+        "lon": "75.085"
       },
       "space_weather": {
-        "kp": "0.33",
-        "at": "2026-11-23T03:00:00"
+        "kp": "0.67",
+        "at": "2026-11-23T12:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 202,
+        "gco2_kwh": 209,
         "index": "high"
       },
       "hn_top": {
-        "id": 50606192,
-        "title": "Free alternative TV network built from the Internet Archive's forgotten videos"
+        "id": 50611576,
+        "title": "Nvidia Reinstates Jensen Huang as CEO"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Israel x Iran ceasefire continues through November 22?",
-            "yes_price": "0.9975"
-          },
-          {
-            "question": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
-            "yes_price": "0.0015"
-          },
-          {
             "question": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
-            "yes_price": "0.171"
+            "yes_price": "0.9995"
+          },
+          {
+            "question": "Yokohama: Ryo Ono vs Lennon Roark Jones",
+            "yes_price": "0.475"
+          },
+          {
+            "question": "New NVIDIA CEO named by December 31, 2026?",
+            "yes_price": "0.9995"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "9f10949805c16573d02edbd203e03873d7da14ffbce9ecc7ac109add31872438"
+  "input_fingerprint": "801ad5fccdf4834f70572e05a9913c3eed7b3801accd23c3d86bd8188c77d648"
 }
