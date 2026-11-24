@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-24T14:33:58.117Z",
+  "generated_utc": "2026-11-24T23:37:56.482Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2974,
-    "frame_hash": "9f5dd36f353ab8106f8297ace92a31c199ee14f659ee01efd128c4817fcc4769",
-    "utc": "2026-11-24T14:33:49.185Z"
+    "seq": 2975,
+    "frame_hash": "19c8c10c3d69a8898724b11ddde4cf3abdd0f1ec7082f3262e5e74999b36dd74",
+    "utc": "2026-11-24T23:37:51.222Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2975,
-      "head_frame": "9f5dd36f353ab8106f8297ace92a31c199ee14f659ee01efd128c4817fcc4769"
+      "count": 2976,
+      "head_frame": "19c8c10c3d69a8898724b11ddde4cf3abdd0f1ec7082f3262e5e74999b36dd74"
     },
     "world": {
-      "count": 2879,
-      "head_frame": "b51b66656d154b5538838a0833708e309514a513a8c87a74b7f7be76f1c893b6"
+      "count": 2880,
+      "head_frame": "f8dc10004813a086203ae73c92885ac703d4bf9b3538fd4ece82f2b90fb54d7b"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "b51b66656d154b5538838a0833708e309514a513a8c87a74b7f7be76f1c893b6",
-    "seq": 2878,
-    "utc": "2026-11-24T14:33:57.238Z",
-    "tick": 2974,
-    "tick_frame": "9f5dd36f353ab8106f8297ace92a31c199ee14f659ee01efd128c4817fcc4769",
+    "frame_hash": "f8dc10004813a086203ae73c92885ac703d4bf9b3538fd4ece82f2b90fb54d7b",
+    "seq": 2879,
+    "utc": "2026-11-24T23:37:55.130Z",
+    "tick": 2975,
+    "tick_frame": "19c8c10c3d69a8898724b11ddde4cf3abdd0f1ec7082f3262e5e74999b36dd74",
     "data": {
       "btc_block_height": {
-        "height": 977379
+        "height": 977429
       },
       "btc_usd": {
-        "spot": "60134.505"
+        "spot": "59768.795"
       },
       "fx_usd": {
         "EUR": "0.9156",
@@ -58,49 +58,49 @@
         "CNY": "6.6793"
       },
       "crypto_market": {
-        "total_mcap_usd": "2089726677838",
-        "btc_dominance_pct": "57.9"
+        "total_mcap_usd": "2073652973887",
+        "btc_dominance_pct": "57.8"
       },
       "btc_fees": {
         "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 72535
+        "tx_count": 69874
       },
       "earthquakes_past_hour": {
         "count": 6,
-        "max_mag": "1.5"
+        "max_mag": "2.4"
       },
       "iss": {
-        "lat": "-51.623",
-        "lon": "-139.620"
+        "lat": "-32.243",
+        "lon": "15.709"
       },
       "space_weather": {
-        "kp": "1.0",
-        "at": "2026-11-24T09:00:00"
+        "kp": "1.33",
+        "at": "2026-11-24T18:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 152,
+        "gco2_kwh": 133,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 50627340,
-        "title": "LLM agents work for their parent companies, not for you"
+        "id": 50633922,
+        "title": "Ternary Bonsai 2.5 27B"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "New NVIDIA CEO named by December 31, 2026?",
-            "yes_price": "0.9995"
+            "yes_price": "0.9985"
           },
           {
             "question": "Yokohama: Ryo Ono vs Lennon Roark Jones",
             "yes_price": "0.475"
           },
           {
-            "question": "Will the Fed decrease interest rates by 25 bps after the December 2026 meeting?",
-            "yes_price": "0.0025"
+            "question": "Pistons vs. Magic",
+            "yes_price": "0.425"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "d995946e96f2d05542de3b08a79d6caabe234d501c35a574e0b0f9fc55468644"
+  "input_fingerprint": "95c3ba26c3821babf818ffa7dc9736825607746e1e3e23e0ae864c2810e141ac"
 }
