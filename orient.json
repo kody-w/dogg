@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-24T03:56:57.225Z",
+  "generated_utc": "2026-11-24T14:33:58.117Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2973,
-    "frame_hash": "b8c5df135ea79cd27244c5904c93c5ae2d43d3081466718edaab7c1d4055345c",
-    "utc": "2026-11-24T03:56:52.819Z"
+    "seq": 2974,
+    "frame_hash": "9f5dd36f353ab8106f8297ace92a31c199ee14f659ee01efd128c4817fcc4769",
+    "utc": "2026-11-24T14:33:49.185Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2974,
-      "head_frame": "b8c5df135ea79cd27244c5904c93c5ae2d43d3081466718edaab7c1d4055345c"
+      "count": 2975,
+      "head_frame": "9f5dd36f353ab8106f8297ace92a31c199ee14f659ee01efd128c4817fcc4769"
     },
     "world": {
-      "count": 2878,
-      "head_frame": "d033cc1c1149c2608926d611a83d23e74b305858c0ab21af97b26de95183004d"
+      "count": 2879,
+      "head_frame": "b51b66656d154b5538838a0833708e309514a513a8c87a74b7f7be76f1c893b6"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "d033cc1c1149c2608926d611a83d23e74b305858c0ab21af97b26de95183004d",
-    "seq": 2877,
-    "utc": "2026-11-24T03:56:56.031Z",
-    "tick": 2973,
-    "tick_frame": "b8c5df135ea79cd27244c5904c93c5ae2d43d3081466718edaab7c1d4055345c",
+    "frame_hash": "b51b66656d154b5538838a0833708e309514a513a8c87a74b7f7be76f1c893b6",
+    "seq": 2878,
+    "utc": "2026-11-24T14:33:57.238Z",
+    "tick": 2974,
+    "tick_frame": "9f5dd36f353ab8106f8297ace92a31c199ee14f659ee01efd128c4817fcc4769",
     "data": {
       "btc_block_height": {
-        "height": 977317
+        "height": 977379
       },
       "btc_usd": {
-        "spot": "60249.325"
+        "spot": "60134.505"
       },
       "fx_usd": {
         "EUR": "0.9156",
@@ -58,49 +58,49 @@
         "CNY": "6.6793"
       },
       "crypto_market": {
-        "total_mcap_usd": "2091920477178",
-        "btc_dominance_pct": "57.8"
+        "total_mcap_usd": "2089726677838",
+        "btc_dominance_pct": "57.9"
       },
       "btc_fees": {
         "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 66728
+        "tx_count": 72535
       },
       "earthquakes_past_hour": {
-        "count": 14,
-        "max_mag": "4.4"
+        "count": 6,
+        "max_mag": "1.5"
       },
       "iss": {
-        "lat": "-27.367",
-        "lon": "82.000"
+        "lat": "-51.623",
+        "lon": "-139.620"
       },
       "space_weather": {
         "kp": "1.0",
-        "at": "2026-11-24T00:00:00"
+        "at": "2026-11-24T09:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 144,
+        "gco2_kwh": 152,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 50611576,
-        "title": "Nvidia Reinstates Jensen Huang as CEO"
+        "id": 50627340,
+        "title": "LLM agents work for their parent companies, not for you"
       },
       "prediction_markets": {
         "top_by_volume": [
+          {
+            "question": "New NVIDIA CEO named by December 31, 2026?",
+            "yes_price": "0.9995"
+          },
           {
             "question": "Yokohama: Ryo Ono vs Lennon Roark Jones",
             "yes_price": "0.475"
           },
           {
-            "question": "Spread: Bengals (-6.5)",
-            "yes_price": "0.145"
-          },
-          {
-            "question": "Bengals vs. Commanders",
-            "yes_price": "0.585"
+            "question": "Will the Fed decrease interest rates by 25 bps after the December 2026 meeting?",
+            "yes_price": "0.0025"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "a979d2d13b28db61fb1614054029158d6f8e44503006e53f4d2855982ec904e7"
+  "input_fingerprint": "d995946e96f2d05542de3b08a79d6caabe234d501c35a574e0b0f9fc55468644"
 }
