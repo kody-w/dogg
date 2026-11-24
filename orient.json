@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-23T18:01:30.608Z",
+  "generated_utc": "2026-11-24T03:56:57.225Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2972,
-    "frame_hash": "f1985b0d9356de0f815b91f1c0aadc0b0f27d321f6beff32348add76e7e2d2ec",
-    "utc": "2026-11-23T18:01:22.783Z"
+    "seq": 2973,
+    "frame_hash": "b8c5df135ea79cd27244c5904c93c5ae2d43d3081466718edaab7c1d4055345c",
+    "utc": "2026-11-24T03:56:52.819Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2973,
-      "head_frame": "f1985b0d9356de0f815b91f1c0aadc0b0f27d321f6beff32348add76e7e2d2ec"
+      "count": 2974,
+      "head_frame": "b8c5df135ea79cd27244c5904c93c5ae2d43d3081466718edaab7c1d4055345c"
     },
     "world": {
-      "count": 2877,
-      "head_frame": "dc4a778a0bc14b09b0a5721732c2eb88759b5dd56a5009fb681a3a9b6a308e51"
+      "count": 2878,
+      "head_frame": "d033cc1c1149c2608926d611a83d23e74b305858c0ab21af97b26de95183004d"
     },
     "registry": {
       "count": 25,
@@ -39,50 +39,50 @@
     }
   },
   "world": {
-    "frame_hash": "dc4a778a0bc14b09b0a5721732c2eb88759b5dd56a5009fb681a3a9b6a308e51",
-    "seq": 2876,
-    "utc": "2026-11-23T18:01:29.653Z",
-    "tick": 2972,
-    "tick_frame": "f1985b0d9356de0f815b91f1c0aadc0b0f27d321f6beff32348add76e7e2d2ec",
+    "frame_hash": "d033cc1c1149c2608926d611a83d23e74b305858c0ab21af97b26de95183004d",
+    "seq": 2877,
+    "utc": "2026-11-24T03:56:56.031Z",
+    "tick": 2973,
+    "tick_frame": "b8c5df135ea79cd27244c5904c93c5ae2d43d3081466718edaab7c1d4055345c",
     "data": {
       "btc_block_height": {
-        "height": 977245
+        "height": 977317
       },
       "btc_usd": {
-        "spot": "61541.115"
+        "spot": "60249.325"
       },
       "fx_usd": {
-        "EUR": "0.9111",
-        "GBP": "0.7636",
-        "JPY": "158.7014",
-        "CNY": "6.6813"
+        "EUR": "0.9156",
+        "GBP": "0.7667",
+        "JPY": "159.0617",
+        "CNY": "6.6793"
       },
       "crypto_market": {
-        "total_mcap_usd": "2128696012284",
-        "btc_dominance_pct": "57.9"
+        "total_mcap_usd": "2091920477178",
+        "btc_dominance_pct": "57.8"
       },
       "btc_fees": {
-        "fastest_sat_vb": 3,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 68614
+        "tx_count": 66728
       },
       "earthquakes_past_hour": {
-        "count": 6,
-        "max_mag": "4.2"
+        "count": 14,
+        "max_mag": "4.4"
       },
       "iss": {
-        "lat": "2.901",
-        "lon": "75.085"
+        "lat": "-27.367",
+        "lon": "82.000"
       },
       "space_weather": {
-        "kp": "0.67",
-        "at": "2026-11-23T12:00:00"
+        "kp": "1.0",
+        "at": "2026-11-24T00:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 209,
-        "index": "high"
+        "gco2_kwh": 144,
+        "index": "moderate"
       },
       "hn_top": {
         "id": 50611576,
@@ -91,16 +91,16 @@
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
-            "yes_price": "0.9995"
-          },
-          {
             "question": "Yokohama: Ryo Ono vs Lennon Roark Jones",
             "yes_price": "0.475"
           },
           {
-            "question": "New NVIDIA CEO named by December 31, 2026?",
-            "yes_price": "0.9995"
+            "question": "Spread: Bengals (-6.5)",
+            "yes_price": "0.145"
+          },
+          {
+            "question": "Bengals vs. Commanders",
+            "yes_price": "0.585"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "801ad5fccdf4834f70572e05a9913c3eed7b3801accd23c3d86bd8188c77d648"
+  "input_fingerprint": "a979d2d13b28db61fb1614054029158d6f8e44503006e53f4d2855982ec904e7"
 }
