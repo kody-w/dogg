@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-24T23:37:56.482Z",
+  "generated_utc": "2026-11-25T05:40:38.310Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2975,
-    "frame_hash": "19c8c10c3d69a8898724b11ddde4cf3abdd0f1ec7082f3262e5e74999b36dd74",
-    "utc": "2026-11-24T23:37:51.222Z"
+    "seq": 2976,
+    "frame_hash": "ca316c1b836c6b180c4c214be97893c19a454b5ef1fa31b09119c3bf6746ec35",
+    "utc": "2026-11-25T05:40:33.791Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2976,
-      "head_frame": "19c8c10c3d69a8898724b11ddde4cf3abdd0f1ec7082f3262e5e74999b36dd74"
+      "count": 2977,
+      "head_frame": "ca316c1b836c6b180c4c214be97893c19a454b5ef1fa31b09119c3bf6746ec35"
     },
     "world": {
-      "count": 2880,
-      "head_frame": "f8dc10004813a086203ae73c92885ac703d4bf9b3538fd4ece82f2b90fb54d7b"
+      "count": 2881,
+      "head_frame": "3160831c9077a2791898326f387ddaaa0d17183fb2f48d3d527bc68ccdf59a86"
     },
     "registry": {
       "count": 25,
@@ -39,54 +39,54 @@
     }
   },
   "world": {
-    "frame_hash": "f8dc10004813a086203ae73c92885ac703d4bf9b3538fd4ece82f2b90fb54d7b",
-    "seq": 2879,
-    "utc": "2026-11-24T23:37:55.130Z",
-    "tick": 2975,
-    "tick_frame": "19c8c10c3d69a8898724b11ddde4cf3abdd0f1ec7082f3262e5e74999b36dd74",
+    "frame_hash": "3160831c9077a2791898326f387ddaaa0d17183fb2f48d3d527bc68ccdf59a86",
+    "seq": 2880,
+    "utc": "2026-11-25T05:40:36.953Z",
+    "tick": 2976,
+    "tick_frame": "ca316c1b836c6b180c4c214be97893c19a454b5ef1fa31b09119c3bf6746ec35",
     "data": {
       "btc_block_height": {
-        "height": 977429
+        "height": 977471
       },
       "btc_usd": {
-        "spot": "59768.795"
+        "spot": "58935.315"
       },
       "fx_usd": {
-        "EUR": "0.9156",
-        "GBP": "0.7667",
-        "JPY": "159.0617",
-        "CNY": "6.6793"
+        "EUR": "0.9124",
+        "GBP": "0.7633",
+        "JPY": "159.2388",
+        "CNY": "6.6782"
       },
       "crypto_market": {
-        "total_mcap_usd": "2073652973887",
-        "btc_dominance_pct": "57.8"
+        "total_mcap_usd": "2055476939619",
+        "btc_dominance_pct": "57.7"
       },
       "btc_fees": {
         "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 69874
+        "tx_count": 58449
       },
       "earthquakes_past_hour": {
-        "count": 6,
-        "max_mag": "2.4"
+        "count": 3,
+        "max_mag": "1.7"
       },
       "iss": {
-        "lat": "-32.243",
-        "lon": "15.709"
+        "lat": "-6.876",
+        "lon": "-100.789"
       },
       "space_weather": {
-        "kp": "1.33",
-        "at": "2026-11-24T18:00:00"
+        "kp": "3.0",
+        "at": "2026-11-25T00:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 133,
+        "gco2_kwh": 131,
         "index": "moderate"
       },
       "hn_top": {
-        "id": 50633922,
-        "title": "Ternary Bonsai 2.5 27B"
+        "id": 50637220,
+        "title": "Matrix Multiplication is Θ(n^2.25) [pdf]"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -99,8 +99,8 @@
             "yes_price": "0.475"
           },
           {
-            "question": "Pistons vs. Magic",
-            "yes_price": "0.425"
+            "question": "Mavericks vs. Nuggets",
+            "yes_price": "0.9995"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "95c3ba26c3821babf818ffa7dc9736825607746e1e3e23e0ae864c2810e141ac"
+  "input_fingerprint": "87f621c96bb9bb99cb4f135a4effe14c9e41fb6ef5b346c0162501d68447e332"
 }
