@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-25T16:04:48.712Z",
+  "generated_utc": "2026-11-26T00:18:21.585Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2977,
-    "frame_hash": "3b18b6bc657da87196d9092765e4091ea7994bd92a955b244134c22a349f6478",
-    "utc": "2026-11-25T16:04:40.605Z"
+    "seq": 2978,
+    "frame_hash": "fa3cb32628ead0601a72b3e03f2ea573ee502ee776226b8ab7c691ee116a7dc5",
+    "utc": "2026-11-26T00:18:16.991Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2978,
-      "head_frame": "3b18b6bc657da87196d9092765e4091ea7994bd92a955b244134c22a349f6478"
+      "count": 2979,
+      "head_frame": "fa3cb32628ead0601a72b3e03f2ea573ee502ee776226b8ab7c691ee116a7dc5"
     },
     "world": {
-      "count": 2882,
-      "head_frame": "5981dc70431e4306032ad4bf6ffd650ebb22e10bcc6f052007069464e8c2e032"
+      "count": 2883,
+      "head_frame": "7c7b81073de3bf0279e7e246281afc4c60db0b3407f169937526d13ae8c31969"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "5981dc70431e4306032ad4bf6ffd650ebb22e10bcc6f052007069464e8c2e032",
-    "seq": 2881,
-    "utc": "2026-11-25T16:04:47.375Z",
-    "tick": 2977,
-    "tick_frame": "3b18b6bc657da87196d9092765e4091ea7994bd92a955b244134c22a349f6478",
+    "frame_hash": "7c7b81073de3bf0279e7e246281afc4c60db0b3407f169937526d13ae8c31969",
+    "seq": 2882,
+    "utc": "2026-11-26T00:18:20.269Z",
+    "tick": 2978,
+    "tick_frame": "fa3cb32628ead0601a72b3e03f2ea573ee502ee776226b8ab7c691ee116a7dc5",
     "data": {
       "btc_block_height": {
-        "height": 977533
+        "height": 977598
       },
       "btc_usd": {
-        "spot": "58232.355"
+        "spot": "61155.555"
       },
       "fx_usd": {
         "EUR": "0.9124",
@@ -58,35 +58,35 @@
         "CNY": "6.6782"
       },
       "crypto_market": {
-        "total_mcap_usd": "2040984327132",
-        "btc_dominance_pct": "57.6"
+        "total_mcap_usd": "2125155872222",
+        "btc_dominance_pct": "58.0"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 73895
+        "tx_count": 68828
       },
       "earthquakes_past_hour": {
-        "count": 8,
-        "max_mag": "1.9"
+        "count": 7,
+        "max_mag": "2.7"
       },
       "iss": {
-        "lat": "51.748",
-        "lon": "2.111"
+        "lat": "-16.840",
+        "lon": "-16.488"
       },
       "space_weather": {
         "kp": "0.67",
-        "at": "2026-11-25T12:00:00"
+        "at": "2026-11-25T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 191,
-        "index": "high"
+        "gco2_kwh": 160,
+        "index": "moderate"
       },
       "hn_top": {
-        "id": 50643129,
-        "title": "A few questions for the guy who went snorkeling in a Home Depot retention pond"
+        "id": 50648823,
+        "title": "Jev is (probably) Qwen3.5-35B-A3B"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -99,8 +99,8 @@
             "yes_price": "0.475"
           },
           {
-            "question": "Will there be no change in Fed interest rates after the December 2026 meeting?",
-            "yes_price": "0.0525"
+            "question": "Heat vs. 76ers",
+            "yes_price": "0.0455"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "e771453d22af5a15ae1fb9f29cdd60874c7932a5238d91c62f202c934ca8d0c7"
+  "input_fingerprint": "d5b3528afa37e60e2438c84cdefadffe7340c62608975eff2d37574ee6f01e01"
 }
