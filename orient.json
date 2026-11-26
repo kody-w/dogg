@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-26T00:18:21.585Z",
+  "generated_utc": "2026-11-26T08:42:41.685Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2978,
-    "frame_hash": "fa3cb32628ead0601a72b3e03f2ea573ee502ee776226b8ab7c691ee116a7dc5",
-    "utc": "2026-11-26T00:18:16.991Z"
+    "seq": 2979,
+    "frame_hash": "ea6856b4ead21f9241c4a39648fa51016c6fb70586994d7d3b8277a28cced650",
+    "utc": "2026-11-26T08:42:35.119Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2979,
-      "head_frame": "fa3cb32628ead0601a72b3e03f2ea573ee502ee776226b8ab7c691ee116a7dc5"
+      "count": 2980,
+      "head_frame": "ea6856b4ead21f9241c4a39648fa51016c6fb70586994d7d3b8277a28cced650"
     },
     "world": {
-      "count": 2883,
-      "head_frame": "7c7b81073de3bf0279e7e246281afc4c60db0b3407f169937526d13ae8c31969"
+      "count": 2884,
+      "head_frame": "b80b36456d600f64fbf11d4c19a40fa965666acd8c4741a923de71b13044747e"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "7c7b81073de3bf0279e7e246281afc4c60db0b3407f169937526d13ae8c31969",
-    "seq": 2882,
-    "utc": "2026-11-26T00:18:20.269Z",
-    "tick": 2978,
-    "tick_frame": "fa3cb32628ead0601a72b3e03f2ea573ee502ee776226b8ab7c691ee116a7dc5",
+    "frame_hash": "b80b36456d600f64fbf11d4c19a40fa965666acd8c4741a923de71b13044747e",
+    "seq": 2883,
+    "utc": "2026-11-26T08:42:40.869Z",
+    "tick": 2979,
+    "tick_frame": "ea6856b4ead21f9241c4a39648fa51016c6fb70586994d7d3b8277a28cced650",
     "data": {
       "btc_block_height": {
-        "height": 977598
+        "height": 977653
       },
       "btc_usd": {
-        "spot": "61155.555"
+        "spot": "60624.325"
       },
       "fx_usd": {
         "EUR": "0.9124",
@@ -58,35 +58,35 @@
         "CNY": "6.6782"
       },
       "crypto_market": {
-        "total_mcap_usd": "2125155872222",
-        "btc_dominance_pct": "58.0"
+        "total_mcap_usd": "2104678080561",
+        "btc_dominance_pct": "57.9"
       },
       "btc_fees": {
         "fastest_sat_vb": 1,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 68828
+        "tx_count": 66920
       },
       "earthquakes_past_hour": {
-        "count": 7,
-        "max_mag": "2.7"
+        "count": 5,
+        "max_mag": "1.9"
       },
       "iss": {
-        "lat": "-16.840",
-        "lon": "-16.488"
+        "lat": "-2.874",
+        "lon": "19.295"
       },
       "space_weather": {
-        "kp": "0.67",
-        "at": "2026-11-25T21:00:00"
+        "kp": "2.0",
+        "at": "2026-11-26T03:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 160,
-        "index": "moderate"
+        "gco2_kwh": 206,
+        "index": "high"
       },
       "hn_top": {
-        "id": 50648823,
-        "title": "Jev is (probably) Qwen3.5-35B-A3B"
+        "id": 50646108,
+        "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening"
       },
       "prediction_markets": {
         "top_by_volume": [
@@ -99,8 +99,8 @@
             "yes_price": "0.475"
           },
           {
-            "question": "Heat vs. 76ers",
-            "yes_price": "0.0455"
+            "question": "Will there be no change in Fed interest rates after the December 2026 meeting?",
+            "yes_price": "0.037"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "d5b3528afa37e60e2438c84cdefadffe7340c62608975eff2d37574ee6f01e01"
+  "input_fingerprint": "04e726ae8593658a744cb856ae25a0b2711717f14a4809849bc1bed8714c5319"
 }
