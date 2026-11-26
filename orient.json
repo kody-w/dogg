@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-26T08:42:41.685Z",
+  "generated_utc": "2026-11-26T18:39:18.438Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2979,
-    "frame_hash": "ea6856b4ead21f9241c4a39648fa51016c6fb70586994d7d3b8277a28cced650",
-    "utc": "2026-11-26T08:42:35.119Z"
+    "seq": 2980,
+    "frame_hash": "3716fcff47f70063d1587446a4471ff8e71054b9b1804f83e395ca8fa6498194",
+    "utc": "2026-11-26T18:38:53.628Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2980,
-      "head_frame": "ea6856b4ead21f9241c4a39648fa51016c6fb70586994d7d3b8277a28cced650"
+      "count": 2981,
+      "head_frame": "3716fcff47f70063d1587446a4471ff8e71054b9b1804f83e395ca8fa6498194"
     },
     "world": {
-      "count": 2884,
-      "head_frame": "b80b36456d600f64fbf11d4c19a40fa965666acd8c4741a923de71b13044747e"
+      "count": 2885,
+      "head_frame": "0d4ff4144e551e68034853a877dc95f601f2841f6b02caa3bd36c3e85b7991ba"
     },
     "registry": {
       "count": 25,
@@ -39,68 +39,68 @@
     }
   },
   "world": {
-    "frame_hash": "b80b36456d600f64fbf11d4c19a40fa965666acd8c4741a923de71b13044747e",
-    "seq": 2883,
-    "utc": "2026-11-26T08:42:40.869Z",
-    "tick": 2979,
-    "tick_frame": "ea6856b4ead21f9241c4a39648fa51016c6fb70586994d7d3b8277a28cced650",
+    "frame_hash": "0d4ff4144e551e68034853a877dc95f601f2841f6b02caa3bd36c3e85b7991ba",
+    "seq": 2884,
+    "utc": "2026-11-26T18:39:17.590Z",
+    "tick": 2980,
+    "tick_frame": "3716fcff47f70063d1587446a4471ff8e71054b9b1804f83e395ca8fa6498194",
     "data": {
       "btc_block_height": {
-        "height": 977653
+        "height": 977699
       },
       "btc_usd": {
-        "spot": "60624.325"
+        "spot": "60529.315"
       },
       "fx_usd": {
-        "EUR": "0.9124",
-        "GBP": "0.7633",
-        "JPY": "159.2388",
-        "CNY": "6.6782"
+        "EUR": "0.9121",
+        "GBP": "0.7634",
+        "JPY": "159.1755",
+        "CNY": "6.6832"
       },
       "crypto_market": {
-        "total_mcap_usd": "2104678080561",
+        "total_mcap_usd": "2107500978463",
         "btc_dominance_pct": "57.9"
       },
       "btc_fees": {
-        "fastest_sat_vb": 1,
-        "hour_sat_vb": 1
+        "fastest_sat_vb": 7,
+        "hour_sat_vb": 5
       },
       "btc_mempool": {
-        "tx_count": 66920
+        "tx_count": 97157
       },
       "earthquakes_past_hour": {
-        "count": 5,
-        "max_mag": "1.9"
+        "count": 7,
+        "max_mag": "3.9"
       },
       "iss": {
-        "lat": "-2.874",
-        "lon": "19.295"
+        "lat": "23.563",
+        "lon": "29.864"
       },
       "space_weather": {
-        "kp": "2.0",
-        "at": "2026-11-26T03:00:00"
+        "kp": "1.0",
+        "at": "2026-11-26T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 206,
+        "gco2_kwh": 190,
         "index": "high"
       },
       "hn_top": {
-        "id": 50646108,
-        "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening"
+        "id": 50657307,
+        "title": "Tracking Diseases Cured by AI"
       },
       "prediction_markets": {
         "top_by_volume": [
-          {
-            "question": "New NVIDIA CEO named by December 31, 2026?",
-            "yes_price": "0.9995"
-          },
           {
             "question": "Yokohama: Ryo Ono vs Lennon Roark Jones",
             "yes_price": "0.475"
           },
           {
-            "question": "Will there be no change in Fed interest rates after the December 2026 meeting?",
-            "yes_price": "0.037"
+            "question": "Bears vs. Lions",
+            "yes_price": "0.355"
+          },
+          {
+            "question": "New NVIDIA CEO named by December 31, 2026?",
+            "yes_price": "0.9995"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "04e726ae8593658a744cb856ae25a0b2711717f14a4809849bc1bed8714c5319"
+  "input_fingerprint": "44061968841ef92df5e8f5a18d501df9a5a5627f5e28c2223cbf61c5247a3de1"
 }
