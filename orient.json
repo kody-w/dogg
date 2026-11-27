@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-27T01:55:55.846Z",
+  "generated_utc": "2026-11-27T10:28:27.700Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2981,
-    "frame_hash": "e925d27713d854873a10854023f687c821d59a4bda7b77c1301398a148929503",
-    "utc": "2026-11-27T01:55:50.708Z"
+    "seq": 2982,
+    "frame_hash": "ce2f035f39503a3fb4818b3c99fdd680f69dda64921ce368ea9673b3503c715d",
+    "utc": "2026-11-27T10:28:23.091Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2982,
-      "head_frame": "e925d27713d854873a10854023f687c821d59a4bda7b77c1301398a148929503"
+      "count": 2983,
+      "head_frame": "ce2f035f39503a3fb4818b3c99fdd680f69dda64921ce368ea9673b3503c715d"
     },
     "world": {
-      "count": 2886,
-      "head_frame": "09f14e883e253dc2087029435932cf812e17e68a5058d191930d5b74bbf72a4e"
+      "count": 2887,
+      "head_frame": "e93d2a5894b1efa8832f553f8b242bd1ef909e134e2a4eabfeff0101e8bb10fe"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "09f14e883e253dc2087029435932cf812e17e68a5058d191930d5b74bbf72a4e",
-    "seq": 2885,
-    "utc": "2026-11-27T01:55:54.506Z",
-    "tick": 2981,
-    "tick_frame": "e925d27713d854873a10854023f687c821d59a4bda7b77c1301398a148929503",
+    "frame_hash": "e93d2a5894b1efa8832f553f8b242bd1ef909e134e2a4eabfeff0101e8bb10fe",
+    "seq": 2886,
+    "utc": "2026-11-27T10:28:26.905Z",
+    "tick": 2982,
+    "tick_frame": "ce2f035f39503a3fb4818b3c99fdd680f69dda64921ce368ea9673b3503c715d",
     "data": {
       "btc_block_height": {
-        "height": 977740
+        "height": 977790
       },
       "btc_usd": {
-        "spot": "60552.015"
+        "spot": "61573.295"
       },
       "fx_usd": {
         "EUR": "0.9113",
@@ -58,49 +58,49 @@
         "CNY": "6.6750"
       },
       "crypto_market": {
-        "total_mcap_usd": "2101134702655",
-        "btc_dominance_pct": "57.9"
+        "total_mcap_usd": "2132234630439",
+        "btc_dominance_pct": "58.0"
       },
       "btc_fees": {
-        "fastest_sat_vb": 4,
+        "fastest_sat_vb": 2,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 64975
+        "tx_count": 74804
       },
       "earthquakes_past_hour": {
-        "count": 4,
-        "max_mag": "1.9"
+        "count": 7,
+        "max_mag": "2.3"
       },
       "iss": {
-        "lat": "31.663",
-        "lon": "148.037"
+        "lat": "-36.369",
+        "lon": "-155.823"
       },
       "space_weather": {
-        "kp": "2.33",
-        "at": "2026-11-26T21:00:00"
+        "kp": "0.33",
+        "at": "2026-11-27T06:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 150,
-        "index": "moderate"
+        "gco2_kwh": 181,
+        "index": "high"
       },
       "hn_top": {
-        "id": 50660180,
-        "title": "AI made self-hosting fun again"
+        "id": 50663595,
+        "title": "The group chat where your AI talks behind your back"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
             "question": "Will the price of Bitcoin be between $60,000 and $62,000 on November 27?",
-            "yes_price": "0.595"
+            "yes_price": "0.575"
           },
           {
-            "question": "Chiefs vs. Bills",
-            "yes_price": "0.345"
+            "question": "Counter-Strike: Imperial vs Wildcard (BO3) - PGL Major Singapore Stage 1",
+            "yes_price": "0.625"
           },
           {
-            "question": "Spread: Bills (-2.5)",
-            "yes_price": "0.605"
+            "question": "Will there be no change in Fed interest rates after the December 2026 meeting?",
+            "yes_price": "0.031"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "a0a7f6e1a24d457fbd5230087c062a898108dacf884ca744b326264f9367689a"
+  "input_fingerprint": "8e5e8dd942cd1607c1af6cbd9bb6ce0f2a5e84dd2b82e55e1c53bdcfd24fd934"
 }
