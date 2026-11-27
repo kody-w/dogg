@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-27T10:28:27.700Z",
+  "generated_utc": "2026-11-27T19:35:21.229Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2982,
-    "frame_hash": "ce2f035f39503a3fb4818b3c99fdd680f69dda64921ce368ea9673b3503c715d",
-    "utc": "2026-11-27T10:28:23.091Z"
+    "seq": 2983,
+    "frame_hash": "c4491835e6343b5866b4d87f80992822aa06fd5370c13ae5dd5bf6be02f50991",
+    "utc": "2026-11-27T19:35:16.002Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2983,
-      "head_frame": "ce2f035f39503a3fb4818b3c99fdd680f69dda64921ce368ea9673b3503c715d"
+      "count": 2984,
+      "head_frame": "c4491835e6343b5866b4d87f80992822aa06fd5370c13ae5dd5bf6be02f50991"
     },
     "world": {
-      "count": 2887,
-      "head_frame": "e93d2a5894b1efa8832f553f8b242bd1ef909e134e2a4eabfeff0101e8bb10fe"
+      "count": 2888,
+      "head_frame": "69c6ca00cebe9b3b3d671a57e98f043009fcf29ba6a49aa9197dd0be71112930"
     },
     "registry": {
       "count": 25,
@@ -39,17 +39,17 @@
     }
   },
   "world": {
-    "frame_hash": "e93d2a5894b1efa8832f553f8b242bd1ef909e134e2a4eabfeff0101e8bb10fe",
-    "seq": 2886,
-    "utc": "2026-11-27T10:28:26.905Z",
-    "tick": 2982,
-    "tick_frame": "ce2f035f39503a3fb4818b3c99fdd680f69dda64921ce368ea9673b3503c715d",
+    "frame_hash": "69c6ca00cebe9b3b3d671a57e98f043009fcf29ba6a49aa9197dd0be71112930",
+    "seq": 2887,
+    "utc": "2026-11-27T19:35:20.436Z",
+    "tick": 2983,
+    "tick_frame": "c4491835e6343b5866b4d87f80992822aa06fd5370c13ae5dd5bf6be02f50991",
     "data": {
       "btc_block_height": {
-        "height": 977790
+        "height": 977839
       },
       "btc_usd": {
-        "spot": "61573.295"
+        "spot": "59899.995"
       },
       "fx_usd": {
         "EUR": "0.9113",
@@ -58,49 +58,49 @@
         "CNY": "6.6750"
       },
       "crypto_market": {
-        "total_mcap_usd": "2132234630439",
-        "btc_dominance_pct": "58.0"
+        "total_mcap_usd": "2086158039981",
+        "btc_dominance_pct": "57.7"
       },
       "btc_fees": {
-        "fastest_sat_vb": 2,
+        "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 74804
+        "tx_count": 71729
       },
       "earthquakes_past_hour": {
-        "count": 7,
-        "max_mag": "2.3"
+        "count": 8,
+        "max_mag": "2.8"
       },
       "iss": {
-        "lat": "-36.369",
-        "lon": "-155.823"
+        "lat": "-7.265",
+        "lon": "35.523"
       },
       "space_weather": {
         "kp": "0.33",
-        "at": "2026-11-27T06:00:00"
+        "at": "2026-11-27T15:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 181,
+        "gco2_kwh": 195,
         "index": "high"
       },
       "hn_top": {
-        "id": 50663595,
-        "title": "The group chat where your AI talks behind your back"
+        "id": 50668145,
+        "title": "Credit card skimming scripts using WebRTC found on popular shopping sites"
       },
       "prediction_markets": {
         "top_by_volume": [
           {
-            "question": "Will the price of Bitcoin be between $60,000 and $62,000 on November 27?",
-            "yes_price": "0.575"
-          },
-          {
-            "question": "Counter-Strike: Imperial vs Wildcard (BO3) - PGL Major Singapore Stage 1",
-            "yes_price": "0.625"
+            "question": "Will the Fed decrease interest rates by 25 bps after the December 2026 meeting?",
+            "yes_price": "0.0025"
           },
           {
             "question": "Will there be no change in Fed interest rates after the December 2026 meeting?",
-            "yes_price": "0.031"
+            "yes_price": "0.0345"
+          },
+          {
+            "question": "Will Chiang Wan-an win the next Taipei Mayor election?",
+            "yes_price": "0.555"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "8e5e8dd942cd1607c1af6cbd9bb6ce0f2a5e84dd2b82e55e1c53bdcfd24fd934"
+  "input_fingerprint": "dc410de1dfbec43b793d2fd7d94345e250a8abbfd17f943cbd9f0a9eac89008a"
 }
