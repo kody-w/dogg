@@ -1,13 +1,13 @@
 {
   "schema": "dogg/0-orient",
-  "generated_utc": "2026-11-27T19:35:21.229Z",
+  "generated_utc": "2026-11-28T02:10:15.177Z",
   "projection_version": 1,
   "protocol": "https://github.com/kody-w/dogg/blob/main/PROTOCOL.md",
   "subscriptions_url": "https://kody-w.github.io/dogg/subscriptions.json",
   "tick": {
-    "seq": 2983,
-    "frame_hash": "c4491835e6343b5866b4d87f80992822aa06fd5370c13ae5dd5bf6be02f50991",
-    "utc": "2026-11-27T19:35:16.002Z"
+    "seq": 2984,
+    "frame_hash": "c9aab6fff11b20f689706cea36d0a3865402195e133d3b711bc3fdcfd379333e",
+    "utc": "2026-11-28T02:10:10.641Z"
   },
   "status": {
     "scope": "derived native data; bounded latest/predecessor integrity, not signatures or RAPP1 conformance",
@@ -26,12 +26,12 @@
   },
   "sources": {
     "ticks": {
-      "count": 2984,
-      "head_frame": "c4491835e6343b5866b4d87f80992822aa06fd5370c13ae5dd5bf6be02f50991"
+      "count": 2985,
+      "head_frame": "c9aab6fff11b20f689706cea36d0a3865402195e133d3b711bc3fdcfd379333e"
     },
     "world": {
-      "count": 2888,
-      "head_frame": "69c6ca00cebe9b3b3d671a57e98f043009fcf29ba6a49aa9197dd0be71112930"
+      "count": 2889,
+      "head_frame": "0b5436540f751fe606db000f9dcf618cccd76f6cda2c9a75d28cbfea12bc1e69"
     },
     "registry": {
       "count": 25,
@@ -39,68 +39,68 @@
     }
   },
   "world": {
-    "frame_hash": "69c6ca00cebe9b3b3d671a57e98f043009fcf29ba6a49aa9197dd0be71112930",
-    "seq": 2887,
-    "utc": "2026-11-27T19:35:20.436Z",
-    "tick": 2983,
-    "tick_frame": "c4491835e6343b5866b4d87f80992822aa06fd5370c13ae5dd5bf6be02f50991",
+    "frame_hash": "0b5436540f751fe606db000f9dcf618cccd76f6cda2c9a75d28cbfea12bc1e69",
+    "seq": 2888,
+    "utc": "2026-11-28T02:10:14.035Z",
+    "tick": 2984,
+    "tick_frame": "c9aab6fff11b20f689706cea36d0a3865402195e133d3b711bc3fdcfd379333e",
     "data": {
       "btc_block_height": {
-        "height": 977839
+        "height": 977881
       },
       "btc_usd": {
-        "spot": "59899.995"
+        "spot": "60125.615"
       },
       "fx_usd": {
-        "EUR": "0.9113",
+        "EUR": "0.9136",
         "GBP": "0.7630",
-        "JPY": "159.2772",
-        "CNY": "6.6750"
+        "JPY": "159.5215",
+        "CNY": "6.6709"
       },
       "crypto_market": {
-        "total_mcap_usd": "2086158039981",
-        "btc_dominance_pct": "57.7"
+        "total_mcap_usd": "2088594246469",
+        "btc_dominance_pct": "57.8"
       },
       "btc_fees": {
         "fastest_sat_vb": 3,
         "hour_sat_vb": 1
       },
       "btc_mempool": {
-        "tx_count": 71729
+        "tx_count": 66041
       },
       "earthquakes_past_hour": {
-        "count": 8,
-        "max_mag": "2.8"
+        "count": 12,
+        "max_mag": "5.1"
       },
       "iss": {
-        "lat": "-7.265",
-        "lon": "35.523"
+        "lat": "-50.737",
+        "lon": "35.015"
       },
       "space_weather": {
-        "kp": "0.33",
-        "at": "2026-11-27T15:00:00"
+        "kp": "2.33",
+        "at": "2026-11-27T21:00:00"
       },
       "grid_carbon_gb": {
-        "gco2_kwh": 195,
-        "index": "high"
+        "gco2_kwh": 117,
+        "index": "moderate"
       },
       "hn_top": {
-        "id": 50668145,
-        "title": "Credit card skimming scripts using WebRTC found on popular shopping sites"
+        "id": 50672565,
+        "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster"
       },
       "prediction_markets": {
         "top_by_volume": [
+          {
+            "question": "Heat vs. Knicks",
+            "yes_price": "0.635"
+          },
           {
             "question": "Will the Fed decrease interest rates by 25 bps after the December 2026 meeting?",
             "yes_price": "0.0025"
           },
           {
-            "question": "Will there be no change in Fed interest rates after the December 2026 meeting?",
-            "yes_price": "0.0345"
-          },
-          {
-            "question": "Will Chiang Wan-an win the next Taipei Mayor election?",
-            "yes_price": "0.555"
+            "question": "76ers vs. Pacers",
+            "yes_price": "0.945"
           }
         ]
       }
@@ -264,5 +264,5 @@
     "witness:@kody-w/dogg-battlestation": "RUSK BARB SCEPTER SERPENT VECTOR MUSK BIND",
     "world:@kody-w/dogg": "TAUNT ZOOM HUNTER JADE TORCH QUAKE FORGE"
   },
-  "input_fingerprint": "dc410de1dfbec43b793d2fd7d94345e250a8abbfd17f943cbd9f0a9eac89008a"
+  "input_fingerprint": "77331e8ab8ed02e88b165ab6bd4af9251e2a629e7037c4928ca961d8a18a49e5"
 }
